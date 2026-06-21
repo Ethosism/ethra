@@ -32,8 +32,8 @@ test("summarizes current progress against roadmap targets", () => {
   assert.equal(summary.current.actual_corpus_items, summary.current.corpus_items);
   assert.equal(summary.current.actual_compound_terms, summary.current.compound_terms);
   assert.equal(summary.current.actual_derivation_patterns, summary.current.derivation_patterns);
-  assert.ok(summary.current.actual_lexicon_entries >= 28057);
-  assert.ok(summary.current.actual_root_families >= 1400);
+  assert.ok(summary.current.actual_lexicon_entries >= 29057);
+  assert.ok(summary.current.actual_root_families >= 1450);
   assert.ok(summary.current.actual_corpus_items >= 2960);
   assert.ok(summary.current.actual_compound_terms >= 100);
   assert.equal(summary.current.actual_derivation_patterns, 20);
@@ -282,12 +282,12 @@ test("searches reviewed corpus by text and structured filters", () => {
 test("builds dictionary-grade lookup entries with corpus evidence", () => {
   const stats = dictionaryStats(5);
   assert.equal(stats.schema_version, "0.5.8");
-  assert.equal(stats.source_counts.lexicon, 28057);
+  assert.equal(stats.source_counts.lexicon, 29057);
   assert.equal(stats.source_counts.particle, 39);
   assert.equal(stats.source_counts.pronoun, 16);
   assert.equal(stats.source_counts.compound, 100);
-  assert.equal(stats.total_entries, 28212);
-  assert.equal(stats.root_families, 1400);
+  assert.equal(stats.total_entries, 29212);
+  assert.equal(stats.root_families, 1450);
   assert.ok(stats.corpus_attested_entries >= 1499);
   assert.ok(stats.top_corpus_entries.length <= 5);
 
@@ -311,8 +311,8 @@ test("builds dictionary-grade lookup entries with corpus evidence", () => {
 test("validates expanded root inventory", () => {
   const report = validateSpec();
   assert.equal(report.valid, true, JSON.stringify(report.errors, null, 2));
-  assert.equal(report.stats.roots, 1400);
-  assert.equal(report.stats.lexiconEntries, 28057);
+  assert.equal(report.stats.roots, 1450);
+  assert.equal(report.stats.lexiconEntries, 29057);
   assert.equal(report.stats.derivationPatterns, 20);
 });
 

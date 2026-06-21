@@ -315,6 +315,26 @@ test("looks up roots by aliases and derives words", () => {
   const umbrella = deriveWord("MBRL", "noun");
   assert.equal(umbrella.word, "meberel");
   assert.equal(umbrella.root.id, "MBRL");
+
+  const carpentry = deriveWord("CRPN", "noun");
+  assert.equal(carpentry.word, "cerepen");
+  assert.equal(carpentry.root.id, "CRPN");
+
+  const physician = deriveWord("PHYS", "noun");
+  assert.equal(physician.word, "peheyes");
+  assert.equal(physician.root.id, "PHYS");
+
+  const lawyer = deriveWord("LWRX", "noun");
+  assert.equal(lawyer.word, "lewerex");
+  assert.equal(lawyer.root.id, "LWRX");
+
+  const programmer = deriveWord("PRGR", "noun");
+  assert.equal(programmer.word, "pereger");
+  assert.equal(programmer.root.id, "PRGR");
+
+  const warden = deriveWord("WRDN", "noun");
+  assert.equal(warden.word, "wereden");
+  assert.equal(warden.root.id, "WRDN");
 });
 
 test("analyzes known words", () => {
