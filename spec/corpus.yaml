@@ -33201,3 +33201,1203 @@ items:
     literal: "Warning protects people."
     notes: "A1 public-warning sentence."
     terms: ["werenex", "xap", "lem"]
+  -
+    id: "daily-665"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The lemma protects the evidence."
+    ethra: "Lememex xap xeg."
+    literal: "Lemma protects evidence."
+    notes: "Daily grounding for supporting proof steps."
+    terms: ["lememex", "xap", "xeg"]
+  -
+    id: "daily-666"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The corollary carries evidence."
+    ethra: "Cereley taw xeg."
+    literal: "Corollary carries evidence."
+    notes: "Consequence language tied to visible support."
+    terms: ["cereley", "taw", "xeg"]
+  -
+    id: "daily-667"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The postulate carries reason."
+    ethra: "Pesetel taw raj."
+    literal: "Postulate carries reason."
+    notes: "Assumption stated as accountable reasoning."
+    terms: ["pesetel", "taw", "raj"]
+  -
+    id: "daily-668"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The conjecture carries uncertainty."
+    ethra: "Cenejeg taw xen."
+    literal: "Conjecture carries uncertainty."
+    notes: "Unproven claims keep their uncertainty visible."
+    terms: ["cenejeg", "taw", "xen"]
+  -
+    id: "daily-669"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The eigenvalue measures the model."
+    ethra: "Genevel mes med."
+    literal: "Eigenvalue measures model."
+    notes: "Linear algebra vocabulary in simple speech."
+    terms: ["genevel", "mes", "med"]
+  -
+    id: "daily-670"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The eigenvector guides the model."
+    ethra: "Genevek pat med."
+    literal: "Eigenvector guides model."
+    notes: "Invariant direction expressed as guidance."
+    terms: ["genevek", "pat", "med"]
+  -
+    id: "daily-671"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The Jacobian measures the model."
+    ethra: "Jeceben mes med."
+    literal: "Jacobian measures model."
+    notes: "Local-change term introduced with model language."
+    terms: ["jeceben", "mes", "med"]
+  -
+    id: "daily-672"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The Hessian measures the model."
+    ethra: "Hesesen mes med."
+    literal: "Hessian measures model."
+    notes: "Curvature term grounded in measured models."
+    terms: ["hesesen", "mes", "med"]
+  -
+    id: "daily-673"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The manifold carries the path."
+    ethra: "Menedel taw pat."
+    literal: "Manifold carries path."
+    notes: "Curved-space term made speakable outside formal proof."
+    terms: ["menedel", "taw", "pat"]
+  -
+    id: "daily-674"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The fractal remembers the pattern."
+    ethra: "Ferecet mar key."
+    literal: "Fractal remembers pattern."
+    notes: "Self-similarity expressed through memory."
+    terms: ["ferecet", "mar", "key"]
+  -
+    id: "daily-675"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The logarithm measures power."
+    ethra: "Legetem mes kev."
+    literal: "Logarithm measures power."
+    notes: "Scale compression phrased as measured power."
+    terms: ["legetem", "mes", "kev"]
+  -
+    id: "daily-676"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "Trigonometry measures the boundary."
+    ethra: "Teregem mes hal."
+    literal: "Trigonometry measures boundary."
+    notes: "Angle relation grounded through boundary speech."
+    terms: ["teregem", "mes", "hal"]
+  -
+    id: "daily-677"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The differential equation measures the model."
+    ethra: "Deferel mes med."
+    literal: "Differential-equation measures model."
+    notes: "Rate-law vocabulary in ordinary analytic form."
+    terms: ["deferel", "mes", "med"]
+  -
+    id: "daily-678"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The median names the boundary."
+    ethra: "Meneden nam hal."
+    literal: "Median names boundary."
+    notes: "Summary statistic framed as named limit."
+    terms: ["meneden", "nam", "hal"]
+  -
+    id: "daily-679"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The quartile names the boundary."
+    ethra: "Keretel nam hal."
+    literal: "Quartile names boundary."
+    notes: "Distribution-cut language for ordinary use."
+    terms: ["keretel", "nam", "hal"]
+  -
+    id: "daily-680"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The percentile names the boundary."
+    ethra: "Pecetel nam hal."
+    literal: "Percentile names boundary."
+    notes: "Rank standing presented as a named position."
+    terms: ["pecetel", "nam", "hal"]
+  -
+    id: "daily-681"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "Standard deviation measures the data."
+    ethra: "Setedev mes den."
+    literal: "Standard-deviation measures data."
+    notes: "Spread term grounded in data speech."
+    terms: ["setedev", "mes", "den"]
+  -
+    id: "daily-682"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The outlier reveals the data."
+    ethra: "Xeteler rah den."
+    literal: "Outlier reveals data."
+    notes: "Distant cases treated as disclosures, not nuisances."
+    terms: ["xeteler", "rah", "den"]
+  -
+    id: "daily-683"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The residual carries uncertainty."
+    ethra: "Resedel taw xen."
+    literal: "Residual carries uncertainty."
+    notes: "Model remainder keeps uncertainty visible."
+    terms: ["resedel", "taw", "xen"]
+  -
+    id: "daily-684"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "Regression guides the model."
+    ethra: "Regeres pat med."
+    literal: "Regression guides model."
+    notes: "Fitted relation represented as model guidance."
+    terms: ["regeres", "pat", "med"]
+  -
+    id: "daily-685"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "Likelihood measures the model."
+    ethra: "Lekeleh mes med."
+    literal: "Likelihood measures model."
+    notes: "Model fit grounded in measured evidence weight."
+    terms: ["lekeleh", "mes", "med"]
+  -
+    id: "daily-686"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The prior carries reason."
+    ethra: "Pereyer taw raj."
+    literal: "Prior carries reason."
+    notes: "Starting belief is made explicit."
+    terms: ["pereyer", "taw", "raj"]
+  -
+    id: "daily-687"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "The posterior repairs reason."
+    ethra: "Peseter tar raj."
+    literal: "Posterior repairs reason."
+    notes: "Evidence update framed as repair of judgment."
+    terms: ["peseter", "tar", "raj"]
+  -
+    id: "daily-688"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "common"
+    english: "Bayesian reasoning repairs uncertainty."
+    ethra: "Beyesen tar xen."
+    literal: "Bayesian-reasoning repairs uncertainty."
+    notes: "Probabilistic updating stated as disciplined repair."
+    terms: ["beyesen", "tar", "xen"]
+  -
+    id: "civic-499"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The confidence interval record protects reason."
+    ethra: "Canafad-ket xap raj."
+    literal: "Confidence-interval-record protects reason."
+    notes: "Public estimates require visible uncertainty bounds."
+    terms: ["canafad-ket", "xap", "raj"]
+  -
+    id: "civic-500"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The significance record protects evidence."
+    ethra: "Saganaf-ket xap xeg."
+    literal: "Significance-record protects evidence."
+    notes: "Statistical threshold language must remain auditable."
+    terms: ["saganaf-ket", "xap", "xeg"]
+  -
+    id: "civic-501"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The null hypothesis record names reason."
+    ethra: "Nalalah-ket nam raj."
+    literal: "Null-hypothesis-record names reason."
+    notes: "Baseline assumptions are declared before judgment."
+    terms: ["nalalah-ket", "nam", "raj"]
+  -
+    id: "civic-502"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The p-value record measures uncertainty."
+    ethra: "Pavalax-ket mes xen."
+    literal: "P-value-record measures uncertainty."
+    notes: "Test evidence framed by disclosed uncertainty."
+    terms: ["pavalax-ket", "mes", "xen"]
+  -
+    id: "civic-503"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The estimator record measures the data."
+    ethra: "Xasatam-ket mes den."
+    literal: "Estimator-record measures data."
+    notes: "Civic reports identify estimation method."
+    terms: ["xasatam-ket", "mes", "den"]
+  -
+    id: "civic-504"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The precision record measures the data."
+    ethra: "Paracan-ket mes den."
+    literal: "Precision-record measures data."
+    notes: "Measurement quality made part of public record."
+    terms: ["paracan-ket", "mes", "den"]
+  -
+    id: "civic-505"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The recall record reveals the data."
+    ethra: "Racalal-ket rah den."
+    literal: "Recall-record reveals data."
+    notes: "Omissions are treated as reviewable evidence."
+    terms: ["racalal-ket", "rah", "den"]
+  -
+    id: "civic-506"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The accuracy record protects evidence."
+    ethra: "Karacay-ket xap xeg."
+    literal: "Accuracy-record protects evidence."
+    notes: "Correctness metrics are linked to public trust."
+    terms: ["karacay-ket", "xap", "xeg"]
+  -
+    id: "civic-507"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The microscope record reveals the specimen."
+    ethra: "Maiacar-ket rah sepenem."
+    literal: "Microscope-record reveals specimen."
+    notes: "Instrument evidence is recorded through the sample seen."
+    terms: ["maiacar-ket", "rah", "sepenem"]
+  -
+    id: "civic-508"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The telescope record reveals data."
+    ethra: "Talasac-ket rah den."
+    literal: "Telescope-record reveals data."
+    notes: "Observation records preserve instrument accountability."
+    terms: ["talasac-ket", "rah", "den"]
+  -
+    id: "civic-509"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The spectrometer record reveals data."
+    ethra: "Sapacam-ket rah den."
+    literal: "Spectrometer-record reveals data."
+    notes: "Material signatures become public evidence through records."
+    terms: ["sapacam-ket", "rah", "den"]
+  -
+    id: "civic-510"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The centrifuge record measures the specimen."
+    ethra: "Canafag-ket mes sepenem."
+    literal: "Centrifuge-record measures specimen."
+    notes: "Processing steps are treated as part of evidence custody."
+    terms: ["canafag-ket", "mes", "sepenem"]
+  -
+    id: "civic-511"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The pipette record measures the reagent."
+    ethra: "Papatax-ket mes reaeget."
+    literal: "Pipette-record measures reagent."
+    notes: "Small transfers receive explicit record language."
+    terms: ["papatax-ket", "mes", "reaeget"]
+  -
+    id: "civic-512"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The beaker record carries the reagent."
+    ethra: "Bakarax-ket taw reaeget."
+    literal: "Beaker-record carries reagent."
+    notes: "Lab vessel records keep material handling visible."
+    terms: ["bakarax-ket", "taw", "reaeget"]
+  -
+    id: "civic-513"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The reagent record carries evidence."
+    ethra: "Raaagat-ket taw xeg."
+    literal: "Reagent-record carries evidence."
+    notes: "Reactive substances are tied to evidence trails."
+    terms: ["raaagat-ket", "taw", "xeg"]
+  -
+    id: "civic-514"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The specimen record carries evidence."
+    ethra: "Sapanam-ket taw xeg."
+    literal: "Specimen-record carries evidence."
+    notes: "Specimens are records of material witness."
+    terms: ["sapanam-ket", "taw", "xeg"]
+  -
+    id: "civic-515"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The assay record measures the specimen."
+    ethra: "Sasayax-ket mes sepenem."
+    literal: "Assay-record measures specimen."
+    notes: "Testing procedure is made legible for review."
+    terms: ["sasayax-ket", "mes", "sepenem"]
+  -
+    id: "civic-516"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The control group record protects evidence."
+    ethra: "Canatar-ket xap xeg."
+    literal: "Control-group-record protects evidence."
+    notes: "Comparison baselines are treated as evidence safeguards."
+    terms: ["canatar-ket", "xap", "xeg"]
+  -
+    id: "ritual-499"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let the cohort remember the person."
+    ethra: "Ha ha-kuhurut mar li."
+    literal: "Solemn cohort remembers person."
+    notes: "Study groups are ritually kept from flattening persons."
+    terms: ["ha-kuhurut", "mar", "li"]
+  -
+    id: "ritual-500"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let blinding protect evidence."
+    ethra: "Ha ha-bulunud xap xeg."
+    literal: "Solemn blinding protects evidence."
+    notes: "Chosen not-knowing serves fair judgment."
+    terms: ["ha-bulunud", "xap", "xeg"]
+  -
+    id: "ritual-501"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let peer review protect evidence."
+    ethra: "Ha ha-puwuruv xap xeg."
+    literal: "Solemn peer-review protects evidence."
+    notes: "Review by equals becomes a truth-serving practice."
+    terms: ["ha-puwuruv", "xap", "xeg"]
+  -
+    id: "ritual-502"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let falsification protect evidence."
+    ethra: "Ha ha-fulusuf xap xeg."
+    literal: "Solemn falsification protects evidence."
+    notes: "A claim must stand before possible defeat."
+    terms: ["ha-fulusuf", "xap", "xeg"]
+  -
+    id: "ritual-503"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let reproducibility remember evidence."
+    ethra: "Ha ha-rupurud mar xeg."
+    literal: "Solemn reproducibility remembers evidence."
+    notes: "Repeatable truth is treated as remembered witness."
+    terms: ["ha-rupurud", "mar", "xeg"]
+  -
+    id: "ritual-504"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let interpolation carry the boundary."
+    ethra: "Ha ha-nupulut taw hal."
+    literal: "Solemn interpolation carries boundary."
+    notes: "Within-bound estimates keep their limits visible."
+    terms: ["ha-nupulut", "taw", "hal"]
+  -
+    id: "ritual-505"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let extrapolation name uncertainty."
+    ethra: "Ha ha-xupulut nam xen."
+    literal: "Solemn extrapolation names uncertainty."
+    notes: "Projection beyond evidence must confess risk."
+    terms: ["ha-xupulut", "nam", "xen"]
+  -
+    id: "ritual-506"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let approximation name uncertainty."
+    ethra: "Ha ha-puruxum nam xen."
+    literal: "Solemn approximation names uncertainty."
+    notes: "Near-enough speech remains honest about error."
+    terms: ["ha-puruxum", "nam", "xen"]
+  -
+    id: "ritual-507"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let the lemma protect evidence."
+    ethra: "Ha ha-lumumux xap xeg."
+    literal: "Solemn lemma protects evidence."
+    notes: "Proof steps are given solemn responsibility."
+    terms: ["ha-lumumux", "xap", "xeg"]
+  -
+    id: "ritual-508"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let the conjecture carry uncertainty."
+    ethra: "Ha ha-cunujug taw xen."
+    literal: "Solemn conjecture carries uncertainty."
+    notes: "Open claims keep a humble register."
+    terms: ["ha-cunujug", "taw", "xen"]
+  -
+    id: "ritual-509"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let the confidence interval protect reason."
+    ethra: "Ha ha-cunufud xap raj."
+    literal: "Solemn confidence-interval protects reason."
+    notes: "Uncertainty bounds are treated as moral discipline."
+    terms: ["ha-cunufud", "xap", "raj"]
+  -
+    id: "ritual-510"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let the null hypothesis name reason."
+    ethra: "Ha ha-nululuh nam raj."
+    literal: "Solemn null-hypothesis names reason."
+    notes: "Baseline claims are made explicit before assertion."
+    terms: ["ha-nululuh", "nam", "raj"]
+  -
+    id: "ritual-511"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let the p-value measure uncertainty."
+    ethra: "Ha ha-puvulux mes xen."
+    literal: "Solemn p-value measures uncertainty."
+    notes: "Numerical evidence is not allowed to pretend certainty."
+    terms: ["ha-puvulux", "mes", "xen"]
+  -
+    id: "ritual-512"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let precision protect the data."
+    ethra: "Ha ha-purucun xap den."
+    literal: "Solemn precision protects data."
+    notes: "Careful measurement becomes a duty to data."
+    terms: ["ha-purucun", "xap", "den"]
+  -
+    id: "ritual-513"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let accuracy protect evidence."
+    ethra: "Ha ha-kurucuy xap xeg."
+    literal: "Solemn accuracy protects evidence."
+    notes: "Correctness is raised as truth-keeping."
+    terms: ["ha-kurucuy", "xap", "xeg"]
+  -
+    id: "ritual-514"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let the microscope reveal the specimen."
+    ethra: "Ha ha-muiucur rah sepenem."
+    literal: "Solemn microscope reveals specimen."
+    notes: "Instrumented sight receives solemn restraint."
+    terms: ["ha-muiucur", "rah", "sepenem"]
+  -
+    id: "ritual-515"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let the assay measure the specimen."
+    ethra: "Ha ha-susuyux mes sepenem."
+    literal: "Solemn assay measures specimen."
+    notes: "Testing matter is treated as careful witness."
+    terms: ["ha-susuyux", "mes", "sepenem"]
+  -
+    id: "ritual-516"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Let the control group protect evidence."
+    ethra: "Ha ha-cunutur xap xeg."
+    literal: "Solemn control-group protects evidence."
+    notes: "The comparison baseline is honored as a truth guard."
+    terms: ["ha-cunutur", "xap", "xeg"]
+  -
+    id: "tech-665"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The lemma record protects evidence."
+    ethra: "Lamamax-ket xap xeg."
+    literal: "Lemma-record protects evidence."
+    notes: "Formal proof dependency encoded as a record."
+    terms: ["lamamax-ket", "xap", "xeg"]
+  -
+    id: "tech-666"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The corollary record carries evidence."
+    ethra: "Caralay-ket taw xeg."
+    literal: "Corollary-record carries evidence."
+    notes: "Derived proof result attached to evidence."
+    terms: ["caralay-ket", "taw", "xeg"]
+  -
+    id: "tech-667"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The eigenvalue record measures the model."
+    ethra: "Ganaval-ket mes med."
+    literal: "Eigenvalue-record measures model."
+    notes: "Spectral model metadata sentence."
+    terms: ["ganaval-ket", "mes", "med"]
+  -
+    id: "tech-668"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The eigenvector record guides the model."
+    ethra: "Ganavak-ket pat med."
+    literal: "Eigenvector-record guides model."
+    notes: "Direction metadata used for model behavior."
+    terms: ["ganavak-ket", "pat", "med"]
+  -
+    id: "tech-669"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The Jacobian record measures the model."
+    ethra: "Jacaban-ket mes med."
+    literal: "Jacobian-record measures model."
+    notes: "Local transformation measure in technical register."
+    terms: ["jacaban-ket", "mes", "med"]
+  -
+    id: "tech-670"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The Hessian record measures the model."
+    ethra: "Hasasan-ket mes med."
+    literal: "Hessian-record measures model."
+    notes: "Curvature metadata sentence for optimization."
+    terms: ["hasasan-ket", "mes", "med"]
+  -
+    id: "tech-671"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The manifold record guides the model."
+    ethra: "Manadal-ket pat med."
+    literal: "Manifold-record guides model."
+    notes: "Geometry representation linked to model guidance."
+    terms: ["manadal-ket", "pat", "med"]
+  -
+    id: "tech-672"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The fractal record remembers the pattern."
+    ethra: "Faracat-ket mar key."
+    literal: "Fractal-record remembers pattern."
+    notes: "Self-similar structure retained as pattern metadata."
+    terms: ["faracat-ket", "mar", "key"]
+  -
+    id: "tech-673"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The logarithm tool measures data."
+    ethra: "Lagatam-tel mes den."
+    literal: "Logarithm-tool measures data."
+    notes: "Scale transform as technical instrument."
+    terms: ["lagatam-tel", "mes", "den"]
+  -
+    id: "tech-674"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The trigonometry tool measures the boundary."
+    ethra: "Taragam-tel mes hal."
+    literal: "Trigonometry-tool measures boundary."
+    notes: "Angle tool sentence for geometry engines."
+    terms: ["taragam-tel", "mes", "hal"]
+  -
+    id: "tech-675"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The differential equation record measures the model."
+    ethra: "Dafaral-ket mes med."
+    literal: "Differential-equation-record measures model."
+    notes: "Rate model record in technical register."
+    terms: ["dafaral-ket", "mes", "med"]
+  -
+    id: "tech-676"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The standard deviation record measures the data."
+    ethra: "Satadav-ket mes den."
+    literal: "Standard-deviation-record measures data."
+    notes: "Spread metric as auditable data record."
+    terms: ["satadav-ket", "mes", "den"]
+  -
+    id: "tech-677"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The outlier record reveals data."
+    ethra: "Xatalar-ket rah den."
+    literal: "Outlier-record reveals data."
+    notes: "Anomaly records disclose rather than hide edge cases."
+    terms: ["xatalar-ket", "rah", "den"]
+  -
+    id: "tech-678"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The residual record carries uncertainty."
+    ethra: "Rasadal-ket taw xen."
+    literal: "Residual-record carries uncertainty."
+    notes: "Model remainder tracked as uncertainty."
+    terms: ["rasadal-ket", "taw", "xen"]
+  -
+    id: "tech-679"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The regression record guides the model."
+    ethra: "Ragaras-ket pat med."
+    literal: "Regression-record guides model."
+    notes: "Fitted relation documented for model use."
+    terms: ["ragaras-ket", "pat", "med"]
+  -
+    id: "tech-680"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The likelihood record measures the model."
+    ethra: "Lakalah-ket mes med."
+    literal: "Likelihood-record measures model."
+    notes: "Evidence weight recorded for model comparison."
+    terms: ["lakalah-ket", "mes", "med"]
+  -
+    id: "tech-681"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The Bayesian record repairs uncertainty."
+    ethra: "Bayasan-ket tar xen."
+    literal: "Bayesian-record repairs uncertainty."
+    notes: "Probabilistic update record for decision systems."
+    terms: ["bayasan-ket", "tar", "xen"]
+  -
+    id: "tech-682"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The confidence interval record protects reason."
+    ethra: "Canafad-ket xap raj."
+    literal: "Confidence-interval-record protects reason."
+    notes: "Bounded estimate included in technical output."
+    terms: ["canafad-ket", "xap", "raj"]
+  -
+    id: "tech-683"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The significance record protects evidence."
+    ethra: "Saganaf-ket xap xeg."
+    literal: "Significance-record protects evidence."
+    notes: "Inference threshold as auditable metadata."
+    terms: ["saganaf-ket", "xap", "xeg"]
+  -
+    id: "tech-684"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The estimator record measures the data."
+    ethra: "Xasatam-ket mes den."
+    literal: "Estimator-record measures data."
+    notes: "Estimator method attached to dataset analysis."
+    terms: ["xasatam-ket", "mes", "den"]
+  -
+    id: "tech-685"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The precision record measures the data."
+    ethra: "Paracan-ket mes den."
+    literal: "Precision-record measures data."
+    notes: "Precision metric in technical evaluation."
+    terms: ["paracan-ket", "mes", "den"]
+  -
+    id: "tech-686"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The recall record reveals the data."
+    ethra: "Racalal-ket rah den."
+    literal: "Recall-record reveals data."
+    notes: "Retrieval metric makes missed cases visible."
+    terms: ["racalal-ket", "rah", "den"]
+  -
+    id: "tech-687"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The accuracy record protects evidence."
+    ethra: "Karacay-ket xap xeg."
+    literal: "Accuracy-record protects evidence."
+    notes: "Correctness metric tied to evidence quality."
+    terms: ["karacay-ket", "xap", "xeg"]
+  -
+    id: "tech-688"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The microscope record reveals the specimen."
+    ethra: "Maiacar-ket rah sepenem."
+    literal: "Microscope-record reveals specimen."
+    notes: "Technical instrument record for small-structure evidence."
+    terms: ["maiacar-ket", "rah", "sepenem"]
+  -
+    id: "poetic-665"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The lemma protects evidence."
+    ethra: "Lememex xap xeg."
+    literal: "Lemma protects evidence."
+    notes: "Poetic compression for a proof-supporting step."
+    terms: ["lememex", "xap", "xeg"]
+  -
+    id: "poetic-666"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The corollary carries evidence."
+    ethra: "Cereley taw xeg."
+    literal: "Corollary carries evidence."
+    notes: "Consequence given a compact line."
+    terms: ["cereley", "taw", "xeg"]
+  -
+    id: "poetic-667"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The postulate carries reason."
+    ethra: "Pesetel taw raj."
+    literal: "Postulate carries reason."
+    notes: "Starting ground stated with philosophical weight."
+    terms: ["pesetel", "taw", "raj"]
+  -
+    id: "poetic-668"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The conjecture carries uncertainty."
+    ethra: "Cenejeg taw xen."
+    literal: "Conjecture carries uncertainty."
+    notes: "Open proof framed as disciplined humility."
+    terms: ["cenejeg", "taw", "xen"]
+  -
+    id: "poetic-669"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The eigenvalue reveals the model."
+    ethra: "Genevel rah med."
+    literal: "Eigenvalue reveals model."
+    notes: "Characteristic measure as a revealing sign."
+    terms: ["genevel", "rah", "med"]
+  -
+    id: "poetic-670"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The eigenvector guides the model."
+    ethra: "Genevek pat med."
+    literal: "Eigenvector guides model."
+    notes: "Invariant direction made poetic."
+    terms: ["genevek", "pat", "med"]
+  -
+    id: "poetic-671"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The manifold carries the boundary."
+    ethra: "Menedel taw hal."
+    literal: "Manifold carries boundary."
+    notes: "Curved space held as a boundary-bearing image."
+    terms: ["menedel", "taw", "hal"]
+  -
+    id: "poetic-672"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The fractal remembers the pattern."
+    ethra: "Ferecet mar key."
+    literal: "Fractal remembers pattern."
+    notes: "Self-similar pattern phrased through memory."
+    terms: ["ferecet", "mar", "key"]
+  -
+    id: "poetic-673"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The logarithm measures power."
+    ethra: "Legetem mes kev."
+    literal: "Logarithm measures power."
+    notes: "Scale made into measured strength."
+    terms: ["legetem", "mes", "kev"]
+  -
+    id: "poetic-674"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Trigonometry measures the boundary."
+    ethra: "Teregem mes hal."
+    literal: "Trigonometry measures boundary."
+    notes: "Turning and limit compressed in one line."
+    terms: ["teregem", "mes", "hal"]
+  -
+    id: "poetic-675"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Standard deviation carries data."
+    ethra: "Setedev taw den."
+    literal: "Standard-deviation carries data."
+    notes: "Spread as the carried shape of many values."
+    terms: ["setedev", "taw", "den"]
+  -
+    id: "poetic-676"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The outlier reveals data."
+    ethra: "Xeteler rah den."
+    literal: "Outlier reveals data."
+    notes: "The far point speaks."
+    terms: ["xeteler", "rah", "den"]
+  -
+    id: "poetic-677"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The residual carries uncertainty."
+    ethra: "Resedel taw xen."
+    literal: "Residual carries uncertainty."
+    notes: "What remains after explanation is honored."
+    terms: ["resedel", "taw", "xen"]
+  -
+    id: "poetic-678"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Regression guides the model."
+    ethra: "Regeres pat med."
+    literal: "Regression guides model."
+    notes: "A fitted line treated as guidance."
+    terms: ["regeres", "pat", "med"]
+  -
+    id: "poetic-679"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Likelihood carries evidence."
+    ethra: "Lekeleh taw xeg."
+    literal: "Likelihood carries evidence."
+    notes: "Evidence weight in poetic register."
+    terms: ["lekeleh", "taw", "xeg"]
+  -
+    id: "poetic-680"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The prior carries uncertainty."
+    ethra: "Pereyer taw xen."
+    literal: "Prior carries uncertainty."
+    notes: "Starting belief named with humility."
+    terms: ["pereyer", "taw", "xen"]
+  -
+    id: "poetic-681"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The posterior repairs reason."
+    ethra: "Peseter tar raj."
+    literal: "Posterior repairs reason."
+    notes: "Evidence update as intellectual repair."
+    terms: ["peseter", "tar", "raj"]
+  -
+    id: "poetic-682"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Bayesian reasoning repairs uncertainty."
+    ethra: "Beyesen tar xen."
+    literal: "Bayesian-reasoning repairs uncertainty."
+    notes: "Uncertainty revised by evidence."
+    terms: ["beyesen", "tar", "xen"]
+  -
+    id: "poetic-683"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The confidence interval protects reason."
+    ethra: "Cenefed xap raj."
+    literal: "Confidence-interval protects reason."
+    notes: "Bounds are made part of truthful speech."
+    terms: ["cenefed", "xap", "raj"]
+  -
+    id: "poetic-684"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Significance protects evidence."
+    ethra: "Segenef xap xeg."
+    literal: "Significance protects evidence."
+    notes: "Thresholds serve evidence when used humbly."
+    terms: ["segenef", "xap", "xeg"]
+  -
+    id: "poetic-685"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The null hypothesis names reason."
+    ethra: "Neleleh nam raj."
+    literal: "Null-hypothesis names reason."
+    notes: "The first no gives the yes its discipline."
+    terms: ["neleleh", "nam", "raj"]
+  -
+    id: "poetic-686"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The p-value measures uncertainty."
+    ethra: "Pevelex mes xen."
+    literal: "P-value measures uncertainty."
+    notes: "A small number remains under humility."
+    terms: ["pevelex", "mes", "xen"]
+  -
+    id: "poetic-687"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Approximation carries uncertainty."
+    ethra: "Perexem taw xen."
+    literal: "Approximation carries uncertainty."
+    notes: "Near-enough values keep their error visible."
+    terms: ["perexem", "taw", "xen"]
+  -
+    id: "poetic-688"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Reproducibility protects evidence."
+    ethra: "Repered xap xeg."
+    literal: "Reproducibility protects evidence."
+    notes: "Truth willing to return in another hand."
+    terms: ["repered", "xap", "xeg"]
+  -
+    id: "learner-333"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "The lemma protects evidence."
+    ethra: "Lememex xap xeg."
+    literal: "Lemma protects evidence."
+    notes: "A1 proof-support sentence."
+    terms: ["lememex", "xap", "xeg"]
+  -
+    id: "learner-334"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "The conjecture carries uncertainty."
+    ethra: "Cenejeg taw xen."
+    literal: "Conjecture carries uncertainty."
+    notes: "A1 uncertainty sentence."
+    terms: ["cenejeg", "taw", "xen"]
+  -
+    id: "learner-335"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "The eigenvalue measures the model."
+    ethra: "Genevel mes med."
+    literal: "Eigenvalue measures model."
+    notes: "A1 model-measure sentence."
+    terms: ["genevel", "mes", "med"]
+  -
+    id: "learner-336"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Standard deviation measures the data."
+    ethra: "Setedev mes den."
+    literal: "Standard-deviation measures data."
+    notes: "A1 spread-measure sentence."
+    terms: ["setedev", "mes", "den"]
+  -
+    id: "learner-337"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "The outlier reveals the data."
+    ethra: "Xeteler rah den."
+    literal: "Outlier reveals data."
+    notes: "A1 anomaly sentence."
+    terms: ["xeteler", "rah", "den"]
+  -
+    id: "learner-338"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Regression guides the model."
+    ethra: "Regeres pat med."
+    literal: "Regression guides model."
+    notes: "A1 model-guidance sentence."
+    terms: ["regeres", "pat", "med"]
+  -
+    id: "learner-339"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "The confidence interval protects reason."
+    ethra: "Cenefed xap raj."
+    literal: "Confidence-interval protects reason."
+    notes: "A1 uncertainty-bound sentence."
+    terms: ["cenefed", "xap", "raj"]
+  -
+    id: "learner-340"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Significance protects evidence."
+    ethra: "Segenef xap xeg."
+    literal: "Significance protects evidence."
+    notes: "A1 evidence-threshold sentence."
+    terms: ["segenef", "xap", "xeg"]
+  -
+    id: "learner-341"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "The microscope reveals the specimen."
+    ethra: "Meiecer rah sepenem."
+    literal: "Microscope reveals specimen."
+    notes: "A1 lab-instrument sentence."
+    terms: ["meiecer", "rah", "sepenem"]
+  -
+    id: "learner-342"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "The assay measures the specimen."
+    ethra: "Seseyex mes sepenem."
+    literal: "Assay measures specimen."
+    notes: "A1 laboratory-test sentence."
+    terms: ["seseyex", "mes", "sepenem"]
+  -
+    id: "learner-343"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Reproducibility protects evidence."
+    ethra: "Repered xap xeg."
+    literal: "Reproducibility protects evidence."
+    notes: "A1 repeatability sentence."
+    terms: ["repered", "xap", "xeg"]
+  -
+    id: "learner-344"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Approximation names uncertainty."
+    ethra: "Perexem nam xen."
+    literal: "Approximation names uncertainty."
+    notes: "A1 approximation sentence."
+    terms: ["perexem", "nam", "xen"]
