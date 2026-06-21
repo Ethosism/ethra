@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 35,057 explicit lexicon entries, 35,212 dictionary entries, 1,750 root families, and 3,800 reviewed corpus items after the v0.8.5 nature/ecology corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 36,057 explicit lexicon entries, 36,212 dictionary entries, 1,800 root families, and 3,800 reviewed corpus items after the v0.8.6 formal science and emotional-precision root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
 ```text
-entries 35,057 / 25,000
-dictionary 35,212 entries with corpus evidence fields
-roots     1,750 / 2,500
+entries 36,057 / 25,000
+dictionary 36,212 entries with corpus evidence fields
+roots     1,800 / 2,500
 corpus    3,800 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
@@ -153,7 +153,9 @@ The v0.8.4 nature/ecology depth root batch adds 50 roots and 1,000 derived lexic
 
 The v0.8.5 nature/ecology corpus grounding batch adds 120 reviewed examples across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds canopy, understory, moss, lichen, fern, coral, mangroves, kelp, plankton, estuaries, deltas, lagoons, aquifers, groundwater, springs, waterfalls, tides, fog, dew, humidity, hail, sleet, erosion, sediment, soil textures, geologic hazards, landforms, food webs, and keystone species in ordinary, civic, solemn, technical, poetic, and learner use.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 750 more root families and 6,200 more reviewed corpus items still needed.
+The v0.8.6 formal science and emotional-precision root batch adds 50 roots and 1,000 derived lexicon entries. It strengthens mathematical structure with extrema, permutations, combinations, histograms, operators, sparsity, null spaces, rank, determinants, adjoints, covariance, monotonicity, projections, bijections, surjections, injections, homomorphisms, summation, lambda abstraction, induction, recursion, basis, and equivalence. It also deepens emotional precision with satisfaction, uplift, apathy, defensiveness, volatility, agitation, soothing, heaviness, humiliation, rumination, coping, resolve, consolation, endurance, vigilance, affective tone, mood swings, dissonance, withdrawal, freeze response, craving, flinch, pleasure, burnout, and overwhelm.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 700 more root families and 6,200 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
