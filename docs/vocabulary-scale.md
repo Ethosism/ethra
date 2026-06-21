@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 16,057 explicit lexicon entries and 700 reviewed corpus items after the v0.3.6 public-institution root expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 16,057 explicit lexicon entries and 800 reviewed corpus items after the v0.3.7 public-institution corpus grounding. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.5 public-culture target:
 
 ```text
 entries 16,057 / 10,000
 roots       800 / 1,000
-corpus      700 / 2,000 reviewed items
+corpus      800 / 2,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -52,7 +52,9 @@ The v0.3.5 corpus batch adds 100 reviewed examples grounding human-depth roots i
 
 The v0.3.6 public-institution root batch adds 100 roots for contracts, clauses, amendments, local offices, districts, registries, tribunals, labor, capital, loans, currency, supply, demand, networks, packets, firewalls, schemas, requests, tokens, syllabi, degrees, hospitals, parks, museums, carbon, oxygen, wind, novels, essays, images, music, viruses, nerves, and kidneys.
 
-The main remaining v0.5 gaps are root depth, now 800 / 1,000, and reviewed corpus depth, now 700 / 2,000.
+The v0.3.7 corpus batch adds 100 reviewed examples grounding public-institution roots in ordinary contracts, loans, parks, hospitals, registries, councils, networks, requests, firewalls, syllabi, archives, images, music, oxygen, and organ vocabulary.
+
+The main remaining v0.5 gaps are root depth, now 800 / 1,000, and reviewed corpus depth, now 800 / 2,000.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 

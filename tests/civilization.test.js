@@ -31,7 +31,7 @@ test("summarizes current progress against roadmap targets", () => {
   assert.equal(summary.current.actual_derivation_patterns, summary.current.derivation_patterns);
   assert.ok(summary.current.actual_lexicon_entries >= 16000);
   assert.ok(summary.current.actual_root_families >= 800);
-  assert.ok(summary.current.actual_corpus_items >= 700);
+  assert.ok(summary.current.actual_corpus_items >= 800);
   assert.ok(summary.current.actual_compound_terms >= 100);
   assert.equal(summary.current.actual_derivation_patterns, 20);
   assert.equal(summary.current.actual_canonical_examples, 20);
@@ -65,17 +65,17 @@ test("reports domain coverage gaps", () => {
 test("loads corpus and governance programs", () => {
   const corpus = corpusSummary();
   const governance = loadGovernance();
-  assert.equal(corpus.current_items, 700);
+  assert.equal(corpus.current_items, 800);
   assert.equal(corpus.remaining_items_v02, 0);
   assert.ok(corpus.tracks.some((track) => track.id === "technical-software"));
-  assert.ok(corpus.tracks.every((track) => track.current_items >= 116));
+  assert.ok(corpus.tracks.every((track) => track.current_items >= 133));
   assert.ok(governance.root_admission_rules.some((rule) => rule.includes("durable semantic field")));
   assert.ok(governance.review_checklist.some((item) => item.includes("root-depth")));
 });
 
 test("lists and validates reviewed corpus items", () => {
   const technicalItems = listCorpusItems("technical-software");
-  assert.equal(technicalItems.length, 116);
+  assert.equal(technicalItems.length, 133);
   assert.ok(technicalItems.some((item) => item.ethra === "Mef xap den."));
   assert.ok(technicalItems.some((item) => item.ethra === "Dab-ket e rih."));
   assert.ok(technicalItems.some((item) => item.ethra === "Hef wav xet."));
@@ -95,12 +95,17 @@ test("lists and validates reviewed corpus items", () => {
   assert.ok(technicalItems.some((item) => item.ethra === "Bejes xaj med."));
   assert.ok(technicalItems.some((item) => item.ethra === "Xepel vax rex."));
   assert.ok(technicalItems.some((item) => item.ethra === "Mebeg xaj feres."));
+  assert.ok(technicalItems.some((item) => item.ethra === "Newer pat meseg."));
+  assert.ok(technicalItems.some((item) => item.ethra === "Ferew xap newer."));
+  assert.ok(technicalItems.some((item) => item.ethra === "Seceh nam den."));
+  assert.ok(technicalItems.some((item) => item.ethra === "Rekes kaw perec."));
+  assert.ok(technicalItems.some((item) => item.ethra === "Jewet xap secek."));
 
   const report = validateCorpus();
   assert.equal(report.valid, true, JSON.stringify(report.errors, null, 2));
-  assert.equal(report.stats.items, 700);
+  assert.equal(report.stats.items, 800);
   assert.equal(report.stats.tracks, 6);
-  assert.ok(report.stats.uniqueTerms >= 650);
+  assert.ok(report.stats.uniqueTerms >= 717);
 });
 
 test("validates expanded root inventory", () => {
