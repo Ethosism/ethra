@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 22,057 explicit lexicon entries, 22,212 dictionary entries, 1,100 root families, and 2,240 reviewed corpus items after the v0.5.9 corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
+Ethra currently has 23,057 explicit lexicon entries, 23,212 dictionary entries, 1,150 root families, and 2,240 reviewed corpus items after the v0.6.0 root breadth batch. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
 
 Current progress toward the v1.0 stable-civil-language target:
 
 ```text
-entries 22,057 / 25,000
-dictionary 22,212 entries with corpus evidence fields
-roots     1,100 / 2,500
+entries 23,057 / 25,000
+dictionary 23,212 entries with corpus evidence fields
+roots     1,150 / 2,500
 corpus    2,240 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
@@ -101,7 +101,9 @@ The v0.5.8 root coverage batch adds 50 roots and 1,000 derived lexicon entries f
 
 The v0.5.9 corpus batch adds 120 reviewed examples using the v0.5.8 roots across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds dignity, refusal, neglect, adult and adolescent responsibility, sleep, diet, exercise, drugs, surgery, x-ray imaging, grief, worry, faith, software development kits, private tunnels, DNS, markup, style sheets, transport security, tokens, APIs, graphical interfaces, message brokers, container runtimes, cookies, webhooks, releases, memory modules, microservices, audio, video, debugging, review, cash, card credentials, charts, seminars, lectures, homework, quizzes, and genes in real use.
 
-The next numeric gaps are v1.0 gaps: 2,943 more explicit entries, 1,400 more root families, and 7,760 more reviewed corpus items.
+The v0.6.0 root breadth batch adds 50 roots and 1,000 derived lexicon entries for biology, ecology, everyday places, commerce, transport, and software/security. New fields include tissue, bacteria, metabolism, hormones, wetlands, restaurants, kitchens, bathrooms, islands, villages, insurance, investment, budgets, receipts, devices, browsers, passwords, logins, notifications, dashboards, terminals, juries, welfare, customer verification, docks, warehouses, chains, atoms, elements, cells, molecules, immunity, migration, reefs, wildlands, dividends, tariffs, property, invoices, bicycles, taxis, lodging, towels, washing, shops, certificates, sessions, tabs, threads, and locks.
+
+The next numeric gaps are v1.0 gaps: 1,943 more explicit entries, 1,350 more root families, and 7,760 more reviewed corpus items.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 

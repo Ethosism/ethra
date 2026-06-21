@@ -339,7 +339,7 @@ test("loads canonical example translations", () => {
 test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 22000);
+  assert.ok(entries.length >= 23000);
   assert.ok(entries.some((entry) => entry.word === "hener" && entry.meaning === "honor, public worth"));
   assert.ok(entries.some((entry) => entry.word === "cereg" && entry.meaning === "courage, brave duty"));
   assert.ok(entries.some((entry) => entry.word === "kenen" && entry.meaning === "canon, received standard"));
@@ -350,6 +350,11 @@ test("lexicon contains the expanded seed breadth", () => {
   assert.ok(entries.some((entry) => entry.word === "peyen" && entry.meaning === "programming interface"));
   assert.ok(entries.some((entry) => entry.word === "deyet" && entry.meaning === "diet, ordered nourishment"));
   assert.ok(entries.some((entry) => entry.word === "genen" && entry.meaning === "gene, inherited biological instruction"));
+  assert.ok(entries.some((entry) => entry.word === "tecew" && entry.meaning === "tissue, living body fabric"));
+  assert.ok(entries.some((entry) => entry.word === "bejet" && entry.meaning === "budget, named provision limits"));
+  assert.ok(entries.some((entry) => entry.word === "berew" && entry.meaning === "browser, web-reading instrument"));
+  assert.ok(entries.some((entry) => entry.word === "temem" && entry.meaning === "atom, smallest chemical unit"));
+  assert.ok(entries.some((entry) => entry.word === "ceyet" && entry.meaning === "cell, living unit"));
   for (const category of [
     "Pronouns",
     "Particles",

@@ -54,7 +54,7 @@ A large dictionary without corpus becomes ornamental. Corpus reveals whether a w
 
 The `corpus-next` command recommends the next reviewed batch toward the active roadmap milestone. It uses the active roadmap target, the track weights in `spec/corpus-plan.yaml`, current item IDs, and current domain counts to avoid overfilling easy tracks while science, AI, education, economics, conflict/security, and philosophy remain thin.
 
-For the current v0.5.9 state, the next 120-item batch points toward v1.0: 24 daily, 18 civic, 18 ritual, 24 technical, 24 poetic, and 12 learner items, starting at `daily-449`, `civic-337`, `ritual-337`, `tech-449`, `poetic-449`, and `learner-225`.
+For the current v0.6.0 state, the next 120-item batch points toward v1.0: 24 daily, 18 civic, 18 ritual, 24 technical, 24 poetic, and 12 learner items, starting at `daily-449`, `civic-337`, `ritual-337`, `tech-449`, `poetic-449`, and `learner-225`.
 
 ## CLI
 
