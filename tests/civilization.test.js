@@ -3,6 +3,7 @@ const assert = require("node:assert/strict");
 
 const {
   compoundSummary,
+  corpusExpansionPlan,
   corpusSummary,
   domainCoverageReport,
   listCompounds,
@@ -71,6 +72,26 @@ test("loads corpus and governance programs", () => {
   assert.ok(corpus.tracks.every((track) => track.current_items >= 170));
   assert.ok(governance.root_admission_rules.some((rule) => rule.includes("durable semantic field")));
   assert.ok(governance.review_checklist.some((item) => item.includes("root-depth")));
+});
+
+test("recommends the next governed corpus expansion batch", () => {
+  const plan = corpusExpansionPlan(120, 6);
+  assert.equal(plan.milestone.id, "v0.5");
+  assert.equal(plan.current_items, 1020);
+  assert.equal(plan.remaining_items_to_milestone, 980);
+  assert.equal(plan.recommended_batch_size, 120);
+
+  const recommendations = new Map(plan.track_recommendations.map((track) => [track.id, track]));
+  assert.equal(recommendations.get("daily-dialogues")?.recommended_items, 28);
+  assert.equal(recommendations.get("civic-law")?.recommended_items, 16);
+  assert.equal(recommendations.get("ritual-vow")?.recommended_items, 16);
+  assert.equal(recommendations.get("technical-software")?.recommended_items, 28);
+  assert.equal(recommendations.get("literary-poetic")?.recommended_items, 28);
+  assert.equal(recommendations.get("learner-graded")?.recommended_items, 4);
+  assert.equal(recommendations.get("daily-dialogues")?.next_item_ids[0], "daily-171");
+  assert.equal(recommendations.get("technical-software")?.next_item_ids.at(-1), "tech-198");
+  assert.equal(plan.domain_pressure[0].id, "science-math");
+  assert.ok(plan.domain_pressure.some((domain) => domain.id === "ai-cognition"));
 });
 
 test("lists and validates reviewed corpus items", () => {

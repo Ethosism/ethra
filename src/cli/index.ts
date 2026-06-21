@@ -7,6 +7,7 @@ import { createCompound } from "../generators/compound";
 import { deriveWord, generateRoot } from "../generators/derivation";
 import {
   corpusSummary,
+  corpusExpansionPlan,
   compoundSummary,
   domainCoverageReport,
   listCompounds,
@@ -24,7 +25,7 @@ const program = new Command();
 program
   .name("ethra")
   .description("Ethra language tools")
-  .version("0.3.11");
+  .version("0.3.12");
 
 program
   .command("generate-root")
@@ -168,6 +169,23 @@ program
   .description("Show corpus progress, tracks, and quality gates")
   .action(() => {
     console.log(JSON.stringify(corpusSummary(), null, 2));
+  });
+
+program
+  .command("corpus-next")
+  .description("Recommend the next reviewed corpus batch toward the active milestone")
+  .option("-s, --size <items>", "requested batch size", "120")
+  .option("-d, --domain-limit <domains>", "number of under-covered domains to show", "8")
+  .action((options) => {
+    const size = Number.parseInt(options.size, 10);
+    const domainLimit = Number.parseInt(options.domainLimit, 10);
+    if (!Number.isFinite(size) || size < 0) {
+      throw new Error("--size must be a non-negative integer");
+    }
+    if (!Number.isFinite(domainLimit) || domainLimit < 0) {
+      throw new Error("--domain-limit must be a non-negative integer");
+    }
+    console.log(JSON.stringify(corpusExpansionPlan(size, domainLimit), null, 2));
   });
 
 program

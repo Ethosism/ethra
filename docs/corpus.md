@@ -50,10 +50,17 @@ Each corpus item must:
 
 A large dictionary without corpus becomes ornamental. Corpus reveals whether a word is pronounceable, memorable, morally precise, and flexible enough for real speech.
 
+## Next Batch Planning
+
+The `corpus-next` command recommends the next reviewed batch toward the active roadmap milestone. It uses the v0.5 target, the track weights in `spec/corpus-plan.yaml`, current item IDs, and current domain counts to avoid overfilling easy tracks while science, AI, education, economics, conflict/security, and philosophy remain thin.
+
+For the current v0.3.12 state, a 120-item batch should add 28 daily, 16 civic, 16 ritual, 28 technical, 28 poetic, and 4 learner items.
+
 ## CLI
 
 ```bash
 npm run ethra -- corpus-plan
+npm run ethra -- corpus-next --size 120
 npm run ethra -- list-corpus --track daily-dialogues
 npm run ethra -- validate-corpus
 ```

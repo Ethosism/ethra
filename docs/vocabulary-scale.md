@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 20,057 explicit lexicon entries and 1,020 reviewed corpus items after the v0.3.11 balanced corpus expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 20,057 explicit lexicon entries and 1,020 reviewed corpus items after the v0.3.12 corpus-planning tooling batch. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.5 public-culture target:
 
@@ -61,6 +61,8 @@ The v0.3.9 civilizational-closure root batch adds 100 roots for being, becoming,
 The v0.3.10 corpus batch adds 100 reviewed examples grounding recent civic, ritual, software, AI, media, philosophy, nature, household, emotion, and learner roots. It balances all six corpus tracks at 150 items each.
 
 The v0.3.11 corpus batch adds 120 reviewed examples across all six tracks, bringing each track to 170 items. It strengthens ordinary household speech, civic/legal accountability, ritual/vow formulae, technical/software and AI usage, poetic science/nature imagery, and learner-grade sentences.
+
+The v0.3.12 tooling batch adds `corpus-next`, a governed next-batch planner that computes proportional track quotas, next corpus IDs, active milestone gaps, and under-covered domains. At the current v0.5 gap, a 120-item batch should prioritize daily, technical, and poetic tracks while adding smaller civic, ritual, and learner increments.
 
 The v0.5 entry and root targets are now met. The main remaining v0.5 gap is reviewed corpus depth, now 1,020 / 2,000.
 

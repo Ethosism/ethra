@@ -58,6 +58,40 @@ export interface DomainCoverage {
   moral_questions: string[];
 }
 
+export interface CorpusTrackExpansion {
+  id: string;
+  name: string;
+  current_items: number;
+  milestone_target_items: number;
+  gap_to_milestone: number;
+  recommended_items: number;
+  next_item_ids: string[];
+}
+
+export interface CorpusDomainPressure {
+  id: string;
+  name: string;
+  priority: string;
+  current_items: number;
+  target_entries_v10: number;
+  pressure_score: number;
+  required_fields: string[];
+  moral_questions: string[];
+}
+
+export interface CorpusExpansionPlan {
+  purpose: string;
+  principle: string;
+  milestone: Pick<RoadmapMilestone, "id" | "name" | "target_corpus_items">;
+  current_items: number;
+  remaining_items_to_milestone: number;
+  requested_batch_size: number;
+  recommended_batch_size: number;
+  track_recommendations: CorpusTrackExpansion[];
+  domain_pressure: CorpusDomainPressure[];
+  quality_gates: string[];
+}
+
 export function loadRoadmap(): RoadmapSpec {
   return readSpecYaml<RoadmapSpec>("roadmap.yaml");
 }
@@ -182,6 +216,150 @@ export function corpusSummary() {
       item_shape: track.item_shape
     })),
     domain_counts: Object.fromEntries([...countByDomain.entries()].sort((a, b) => a[0].localeCompare(b[0]))),
+    quality_gates: plan.quality_gates
+  };
+}
+
+function trackItemPrefix(trackId: string): string {
+  const prefixes: Record<string, string> = {
+    "daily-dialogues": "daily",
+    "civic-law": "civic",
+    "ritual-vow": "ritual",
+    "technical-software": "tech",
+    "literary-poetic": "poetic",
+    "learner-graded": "learner"
+  };
+  return prefixes[trackId] ?? trackId.replace(/[^a-z0-9]+/g, "-");
+}
+
+function largestTrackNumber(trackId: string, corpus: CorpusSpec): number {
+  const prefix = trackItemPrefix(trackId);
+  let max = 0;
+  for (const item of corpus.items) {
+    const match = item.id.match(new RegExp(`^${prefix}-(\\d+)$`));
+    if (match) {
+      max = Math.max(max, Number(match[1]));
+    }
+  }
+  return max;
+}
+
+function distributeBatch(gaps: Array<{ id: string; gap: number }>, batchSize: number): Map<string, number> {
+  const allocations = new Map<string, number>();
+  const positiveGaps = gaps.filter((item) => item.gap > 0);
+  const totalGap = positiveGaps.reduce((sum, item) => sum + item.gap, 0);
+  if (totalGap === 0 || batchSize <= 0) {
+    return allocations;
+  }
+
+  const base = positiveGaps.map((item) => {
+    const exact = (item.gap / totalGap) * batchSize;
+    const floored = Math.min(Math.floor(exact), item.gap);
+    allocations.set(item.id, floored);
+    return { ...item, exact, remainder: exact - floored };
+  });
+
+  let remaining = batchSize - [...allocations.values()].reduce((sum, value) => sum + value, 0);
+  const byRemainder = base.sort((a, b) => b.remainder - a.remainder || b.gap - a.gap || a.id.localeCompare(b.id));
+
+  while (remaining > 0) {
+    let changed = false;
+    for (const item of byRemainder) {
+      const current = allocations.get(item.id) ?? 0;
+      if (current >= item.gap) continue;
+      allocations.set(item.id, current + 1);
+      remaining -= 1;
+      changed = true;
+      if (remaining === 0) break;
+    }
+    if (!changed) break;
+  }
+
+  return allocations;
+}
+
+export function corpusExpansionPlan(batchSize = 120, domainLimit = 8): CorpusExpansionPlan {
+  const roadmap = roadmapSummary();
+  const plan = loadCorpusPlan();
+  const corpus = loadCorpus();
+  const domains = loadDomains().domains;
+  const requestedBatchSize = Number.isFinite(batchSize) && batchSize > 0 ? Math.floor(batchSize) : 0;
+  const requestedDomainLimit = Number.isFinite(domainLimit) && domainLimit > 0 ? Math.floor(domainLimit) : 0;
+  const currentItems = corpus.items.length;
+  const remainingItems = Math.max(roadmap.next_milestone.target_corpus_items - currentItems, 0);
+  const recommendedBatchSize = Math.min(requestedBatchSize, remainingItems);
+  const totalTrackTarget = plan.corpus_tracks.reduce((sum, track) => sum + track.target_items_v10, 0);
+  const countByTrack = new Map<string, number>();
+  const countByDomain = new Map<string, number>();
+
+  for (const item of corpus.items) {
+    countByTrack.set(item.track, (countByTrack.get(item.track) ?? 0) + 1);
+    for (const domain of item.domain_tags) {
+      countByDomain.set(domain, (countByDomain.get(domain) ?? 0) + 1);
+    }
+  }
+
+  const targetByTrack = plan.corpus_tracks.map((track) => ({
+    id: track.id,
+    target: Math.round((track.target_items_v10 / totalTrackTarget) * roadmap.next_milestone.target_corpus_items)
+  }));
+  const roundingDelta = roadmap.next_milestone.target_corpus_items - targetByTrack.reduce((sum, track) => sum + track.target, 0);
+  if (roundingDelta !== 0 && targetByTrack.length > 0) {
+    targetByTrack[0].target += roundingDelta;
+  }
+
+  const targetMap = new Map(targetByTrack.map((track) => [track.id, track.target]));
+  const gaps = plan.corpus_tracks.map((track) => ({
+    id: track.id,
+    gap: Math.max((targetMap.get(track.id) ?? 0) - (countByTrack.get(track.id) ?? 0), 0)
+  }));
+  const allocations = distributeBatch(gaps, recommendedBatchSize);
+
+  const domainPressure = domains
+    .map((domain) => {
+      const current = countByDomain.get(domain.id) ?? 0;
+      const score = current / Math.max(domain.target_entries_v10, 1);
+      return {
+        id: domain.id,
+        name: domain.name,
+        priority: domain.priority,
+        current_items: current,
+        target_entries_v10: domain.target_entries_v10,
+        pressure_score: Number(score.toFixed(4)),
+        required_fields: domain.required_fields,
+        moral_questions: domain.moral_questions
+      };
+    })
+    .sort((a, b) => a.pressure_score - b.pressure_score || a.current_items - b.current_items || a.id.localeCompare(b.id))
+    .slice(0, requestedDomainLimit);
+
+  return {
+    purpose: "Recommend the next reviewed corpus batch toward the active roadmap milestone.",
+    principle: plan.principle,
+    milestone: {
+      id: roadmap.next_milestone.id,
+      name: roadmap.next_milestone.name,
+      target_corpus_items: roadmap.next_milestone.target_corpus_items
+    },
+    current_items: currentItems,
+    remaining_items_to_milestone: remainingItems,
+    requested_batch_size: requestedBatchSize,
+    recommended_batch_size: recommendedBatchSize,
+    track_recommendations: plan.corpus_tracks.map((track) => {
+      const recommended = allocations.get(track.id) ?? 0;
+      const start = largestTrackNumber(track.id, corpus) + 1;
+      const prefix = trackItemPrefix(track.id);
+      return {
+        id: track.id,
+        name: track.name,
+        current_items: countByTrack.get(track.id) ?? 0,
+        milestone_target_items: targetMap.get(track.id) ?? 0,
+        gap_to_milestone: Math.max((targetMap.get(track.id) ?? 0) - (countByTrack.get(track.id) ?? 0), 0),
+        recommended_items: recommended,
+        next_item_ids: Array.from({ length: recommended }, (_, index) => `${prefix}-${start + index}`)
+      };
+    }),
+    domain_pressure: domainPressure,
     quality_gates: plan.quality_gates
   };
 }
