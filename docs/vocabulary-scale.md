@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 33,057 explicit lexicon entries, 33,212 dictionary entries, 1,650 root families, and 3,440 reviewed corpus items after the v0.8.0 AI/cognition root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 33,057 explicit lexicon entries, 33,212 dictionary entries, 1,650 root families, and 3,560 reviewed corpus items after the v0.8.1 AI/cognition corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
@@ -8,7 +8,7 @@ Current progress toward the v1.0 stable-civil-language target:
 entries 33,057 / 25,000
 dictionary 33,212 entries with corpus evidence fields
 roots     1,650 / 2,500
-corpus    3,440 / 10,000 reviewed items
+corpus    3,560 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -143,7 +143,9 @@ The v0.7.9 corpus grounding batch adds 120 reviewed examples using the v0.7.8 sc
 
 The v0.8.0 AI/cognition root batch adds 50 roots and 1,000 derived lexicon entries for model context, tool action, model internals, training methods, evaluation frames, oversight, and AI responsibility. New fields include tokenization, context windows, system prompts, jailbreaks, guardrails, oversight, human-in-the-loop review, agent delegation, autonomy, tool use, function calling, world models, latent spaces, activations, logits, softmax, attention heads, transformers, encoders, decoders, modalities, multimodal fusion, human feedback reinforcement, reward models, policy models, optimizers, distillation, quantization, synthetic data, data curation, annotation, labeling, pretraining, convergence, generation, completions, evaluation harnesses, risk registers, traceability, scratchpads, deliberation traces, interpretability, explainability, mechanistic interpretability, service graphs, control routing, grounding, red teaming, capability boundaries, and self-evaluation.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 850 more root families and 6,560 more reviewed corpus items still needed.
+The v0.8.1 corpus grounding batch adds 120 reviewed examples using the v0.8.0 AI/cognition roots across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds tokenization, context windows, system prompts, jailbreaks, guardrails, oversight, human-in-the-loop review, agent delegation, autonomy, tool use, function calling, world models, latent spaces, activations, logits, softmax, attention heads, transformers, encoders, decoders, multimodal fusion, reward models, optimizers, quantization, synthetic data, data curation, evaluation harnesses, traceability, grounding, red teaming, and self-evaluation in common, civic, solemn, technical, poetic, and learner use.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 850 more root families and 6,440 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 

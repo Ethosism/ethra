@@ -34401,3 +34401,1203 @@ items:
     literal: "Approximation names uncertainty."
     notes: "A1 approximation sentence."
     terms: ["perexem", "nam", "xen"]
+  -
+    id: "daily-689"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "plain"
+    english: "Tokenization protects speech."
+    ethra: "Tekenez xap nem."
+    literal: "Tokenization protects speech."
+    notes: "AI input segmentation stated as ordinary care for words."
+    terms: ["tekenez", "xap", "nem"]
+  -
+    id: "daily-690"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "history-memory"]
+    register: "plain"
+    english: "The context window carries memory."
+    ethra: "Cenetew taw mer."
+    literal: "Context-window carries memory."
+    notes: "Bounded model context explained through memory-bearing speech."
+    terms: ["cenetew", "taw", "mer"]
+  -
+    id: "daily-691"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "plain"
+    english: "The system prompt guides the model."
+    ethra: "Seyesep pat med."
+    literal: "System-prompt guides model."
+    notes: "Primary instruction described as path-setting."
+    terms: ["seyesep", "pat", "med"]
+  -
+    id: "daily-692"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "law-governance"]
+    register: "plain"
+    english: "The guardrail protects the people."
+    ethra: "Geredel xap lem."
+    literal: "Guardrail protects people."
+    notes: "Safety control framed as public protection."
+    terms: ["geredel", "xap", "lem"]
+  -
+    id: "daily-693"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "law-governance"]
+    register: "plain"
+    english: "Oversight protects duty."
+    ethra: "Oeverew xap dev."
+    literal: "Oversight protects duty."
+    notes: "Delegated power remains watched by obligation."
+    terms: ["oeverew", "xap", "dev"]
+  -
+    id: "daily-694"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "law-governance"]
+    register: "plain"
+    english: "Human-in-the-loop review carries judgment."
+    ethra: "Henelep taw jav."
+    literal: "Human-in-loop carries judgment."
+    notes: "Human review is made a retained moral act."
+    terms: ["henelep", "taw", "jav"]
+  -
+    id: "daily-695"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "plain"
+    english: "Agent delegation carries duty."
+    ethra: "Genedel taw dev."
+    literal: "Agent-delegation carries duty."
+    notes: "Delegating to an agent does not erase obligation."
+    terms: ["genedel", "taw", "dev"]
+  -
+    id: "daily-696"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "law-governance"]
+    register: "plain"
+    english: "Autonomy carries duty."
+    ethra: "Aetenem taw dev."
+    literal: "Autonomy carries duty."
+    notes: "Self-direction is paired with answerability."
+    terms: ["aetenem", "taw", "dev"]
+  -
+    id: "daily-697"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "plain"
+    english: "Tool use carries agency."
+    ethra: "Teleyes taw val."
+    literal: "Tool-use carries agency."
+    notes: "External tool action is still morally attributed."
+    terms: ["teleyes", "taw", "val"]
+  -
+    id: "daily-698"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "plain"
+    english: "Function calling names action."
+    ethra: "Fenekec nam val."
+    literal: "Function-calling names action."
+    notes: "Structured invocation gives action a visible name."
+    terms: ["fenekec", "nam", "val"]
+  -
+    id: "daily-699"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "philosophy-metaphysics"]
+    register: "plain"
+    english: "The world model guides the model."
+    ethra: "Wereled pat med."
+    literal: "World-model guides model."
+    notes: "Internal representation is treated as guidance, not reality itself."
+    terms: ["wereled", "pat", "med"]
+  -
+    id: "daily-700"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "philosophy-metaphysics"]
+    register: "plain"
+    english: "The latent space carries pattern."
+    ethra: "Letesep taw key."
+    literal: "Latent-space carries pattern."
+    notes: "Hidden relation fields are explained through carried structure."
+    terms: ["letesep", "taw", "key"]
+  -
+    id: "daily-701"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "plain"
+    english: "The activation reveals the model."
+    ethra: "Aeketev rah med."
+    literal: "Activation reveals model."
+    notes: "Internal signal tracing becomes visible recognition."
+    terms: ["aeketev", "rah", "med"]
+  -
+    id: "daily-702"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "science-math"]
+    register: "plain"
+    english: "The logit carries choice."
+    ethra: "Legejet taw vel."
+    literal: "Logit carries choice."
+    notes: "Pre-probability preference is connected to choice."
+    terms: ["legejet", "taw", "vel"]
+  -
+    id: "daily-703"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "science-math"]
+    register: "plain"
+    english: "Softmax measures choice."
+    ethra: "Sefemex mes vel."
+    literal: "Softmax measures choice."
+    notes: "Normalization is made intelligible as measured selection."
+    terms: ["sefemex", "mes", "vel"]
+  -
+    id: "daily-704"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "philosophy-metaphysics"]
+    register: "plain"
+    english: "The attention head guides reason."
+    ethra: "Hedeten pat raj."
+    literal: "Attention-head guides reason."
+    notes: "A model focus channel is expressed through guided thought."
+    terms: ["hedeten", "pat", "raj"]
+  -
+    id: "daily-705"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "plain"
+    english: "The transformer carries attention."
+    ethra: "Terefem taw san."
+    literal: "Transformer carries attention."
+    notes: "The architecture is introduced through Ethra's attention root."
+    terms: ["terefem", "taw", "san"]
+  -
+    id: "daily-706"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "plain"
+    english: "The encoder builds data."
+    ethra: "Nekeder ban den."
+    literal: "Encoder builds data."
+    notes: "Input representation is treated as structured making."
+    terms: ["nekeder", "ban", "den"]
+  -
+    id: "daily-707"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "plain"
+    english: "The decoder names output."
+    ethra: "Dekeder nam gonorot."
+    literal: "Decoder names generated-output."
+    notes: "Output production is tied to naming."
+    terms: ["dekeder", "nam", "gonorot"]
+  -
+    id: "daily-708"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "media-communication"]
+    register: "plain"
+    english: "Multimodal fusion carries evidence."
+    ethra: "Medefes taw xeg."
+    literal: "Multimodal-fusion carries evidence."
+    notes: "Joined channels are judged by their evidence-bearing role."
+    terms: ["medefes", "taw", "xeg"]
+  -
+    id: "daily-709"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "law-governance"]
+    register: "plain"
+    english: "The reward model judges output."
+    ethra: "Rewedem jav gonorot."
+    literal: "Reward-model judges generated-output."
+    notes: "Preference scoring is stated as judgment."
+    terms: ["rewedem", "jav", "gonorot"]
+  -
+    id: "daily-710"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "plain"
+    english: "The optimizer repairs the model."
+    ethra: "Oepetem tar med."
+    literal: "Optimizer repairs model."
+    notes: "Training adjustment is expressed as corrective repair."
+    terms: ["oepetem", "tar", "med"]
+  -
+    id: "daily-711"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "science-math"]
+    register: "plain"
+    english: "Grounding protects visible truth."
+    ethra: "Gerened xap rih."
+    literal: "Grounding protects visible-truth."
+    notes: "Evidence linkage is given Ethra's truth-facing moral weight."
+    terms: ["gerened", "xap", "rih"]
+  -
+    id: "daily-712"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Self-evaluation protects reason."
+    ethra: "Selefev xap raj."
+    literal: "Self-evaluation protects reason."
+    notes: "Internal checking is useful only when it serves accountable thought."
+    terms: ["selefev", "xap", "raj"]
+  -
+    id: "civic-517"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition", "media-communication"]
+    register: "civic"
+    english: "The tokenization record protects public notice."
+    ethra: "Takanaz-ket xap sag."
+    literal: "Tokenization-record protects signal."
+    notes: "Public AI notices require auditable segmentation."
+    terms: ["takanaz-ket", "xap", "sag"]
+  -
+    id: "civic-518"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition", "history-memory"]
+    register: "civic"
+    english: "The context-window policy names the memory limit."
+    ethra: "Canataw-da nam mer."
+    literal: "Context-window-policy names memory."
+    notes: "Civic deployment must state model memory limits."
+    terms: ["canataw-da", "nam", "mer"]
+  -
+    id: "civic-519"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition", "technology-software"]
+    register: "civic"
+    english: "The system prompt record binds the model."
+    ethra: "Sayasap-ket dav med."
+    literal: "System-prompt-record binds model."
+    notes: "Governing instructions become inspectable obligations."
+    terms: ["sayasap-ket", "dav", "med"]
+  -
+    id: "civic-520"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition", "conflict-security"]
+    register: "civic"
+    english: "The jailbreak report reveals breakage."
+    ethra: "Jalabak-ket rah mik."
+    literal: "Jailbreak-report reveals brokenness."
+    notes: "Misuse cases must become public evidence of failure."
+    terms: ["jalabak-ket", "rah", "mik"]
+  -
+    id: "civic-521"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition"]
+    register: "civic"
+    english: "The guardrail policy protects public duty."
+    ethra: "Garadal-da xap dev."
+    literal: "Guardrail-policy protects duty."
+    notes: "AI safety policy is framed as civic obligation."
+    terms: ["garadal-da", "xap", "dev"]
+  -
+    id: "civic-522"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition"]
+    register: "civic"
+    english: "The oversight record judges delegated action."
+    ethra: "Oavaraw-ket jav gonodol."
+    literal: "Oversight-record judges delegated-task."
+    notes: "Supervision must inspect actual delegated work."
+    terms: ["oavaraw-ket", "jav", "gonodol"]
+  -
+    id: "civic-523"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition"]
+    register: "civic"
+    english: "The human-in-loop policy protects judgment."
+    ethra: "Hanalap-da xap jav."
+    literal: "Human-in-loop-policy protects judgment."
+    notes: "Human review is specified as a protection for judgment."
+    terms: ["hanalap-da", "xap", "jav"]
+  -
+    id: "civic-524"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition", "technology-software"]
+    register: "civic"
+    english: "The agent delegation record names duty."
+    ethra: "Ganadal-ket nam dev."
+    literal: "Agent-delegation-record names duty."
+    notes: "Delegation chains must identify the duty holder."
+    terms: ["ganadal-ket", "nam", "dev"]
+  -
+    id: "civic-525"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The autonomy authorization binds power."
+    ethra: "Aatanam-da dav kev."
+    literal: "Autonomy-authorization binds power."
+    notes: "Autonomous capability receives a civic boundary."
+    terms: ["aatanam-da", "dav", "kev"]
+  -
+    id: "civic-526"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition", "technology-software"]
+    register: "civic"
+    english: "The tool-use log reveals action."
+    ethra: "Talayas-ket rah val."
+    literal: "Tool-use-log reveals action."
+    notes: "External tool calls must be visible as actions."
+    terms: ["talayas-ket", "rah", "val"]
+  -
+    id: "civic-527"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition", "technology-software"]
+    register: "civic"
+    english: "The function-call record names the action."
+    ethra: "Fanakac-ket nam val."
+    literal: "Function-call-record names action."
+    notes: "Structured invocations are made inspectable in public records."
+    terms: ["fanakac-ket", "nam", "val"]
+  -
+    id: "civic-528"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition"]
+    register: "civic"
+    english: "The reward-model record judges choice."
+    ethra: "Rawadam-ket jav vel."
+    literal: "Reward-model-record judges choice."
+    notes: "Preference models require public evaluation of what they reward."
+    terms: ["rawadam-ket", "jav", "vel"]
+  -
+    id: "civic-529"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition"]
+    register: "civic"
+    english: "The policy-model record guides action."
+    ethra: "Palacay-ket pat val."
+    literal: "Policy-model-record guides action."
+    notes: "Policy outputs are treated as action-guiding public rules."
+    terms: ["palacay-ket", "pat", "val"]
+  -
+    id: "civic-530"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition", "education-training"]
+    register: "civic"
+    english: "The synthetic-data record names evidence."
+    ethra: "Sanatad-ket nam xeg."
+    literal: "Synthetic-data-record names evidence."
+    notes: "Artificial examples must disclose their evidential status."
+    terms: ["sanatad-ket", "nam", "xeg"]
+  -
+    id: "civic-531"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition", "science-math"]
+    register: "civic"
+    english: "The data-curation record protects evidence."
+    ethra: "Caradan-ket xap xeg."
+    literal: "Data-curation-record protects evidence."
+    notes: "Dataset selection is made a stewardship responsibility."
+    terms: ["caradan-ket", "xap", "xeg"]
+  -
+    id: "civic-532"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition", "conflict-security"]
+    register: "civic"
+    english: "The risk register binds duty."
+    ethra: "Rasakar-ket dav dev."
+    literal: "Risk-register binds duty."
+    notes: "Named risk assigns an accountable owner."
+    terms: ["rasakar-ket", "dav", "dev"]
+  -
+    id: "civic-533"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition", "science-math"]
+    register: "civic"
+    english: "The traceability record protects duty."
+    ethra: "Taracax-ket xap dev."
+    literal: "Traceability-record protects duty."
+    notes: "Audit trails protect accountability after decisions."
+    terms: ["taracax-ket", "xap", "dev"]
+  -
+    id: "civic-534"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition"]
+    register: "civic"
+    english: "The capability-boundary record names power."
+    ethra: "Capabat-ket nam kev."
+    literal: "Capability-boundary-record names power."
+    notes: "Deployment limits name what power may do."
+    terms: ["capabat-ket", "nam", "kev"]
+  -
+    id: "ritual-517"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "media-communication"]
+    register: "ritual"
+    english: "May tokenization protect speech."
+    ethra: "Ha ha-tukunuz xap nem."
+    literal: "Solemn tokenization protects speech."
+    notes: "Ritual register treats segmented speech as a trust."
+    terms: ["ha-tukunuz", "xap", "nem"]
+  -
+    id: "ritual-518"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "history-memory"]
+    register: "ritual"
+    english: "May the context window carry memory."
+    ethra: "Ha ha-cunutuw taw mer."
+    literal: "Solemn context-window carries memory."
+    notes: "Bounded memory is placed under solemn attention."
+    terms: ["ha-cunutuw", "taw", "mer"]
+  -
+    id: "ritual-519"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "technology-software"]
+    register: "ritual"
+    english: "May the system prompt guide the model."
+    ethra: "Ha ha-suyusup pat med."
+    literal: "Solemn system-prompt guides model."
+    notes: "Governing instructions are spoken as serious bindings."
+    terms: ["ha-suyusup", "pat", "med"]
+  -
+    id: "ritual-520"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "law-governance"]
+    register: "ritual"
+    english: "May the guardrail protect the people."
+    ethra: "Ha ha-gurudul xap lem."
+    literal: "Solemn guardrail protects people."
+    notes: "AI safety is phrased as protection of the civic body."
+    terms: ["ha-gurudul", "xap", "lem"]
+  -
+    id: "ritual-521"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "law-governance"]
+    register: "ritual"
+    english: "May human-in-the-loop review carry judgment."
+    ethra: "Ha ha-hunulup taw jav."
+    literal: "Solemn human-in-loop carries judgment."
+    notes: "Human judgment is ritually retained inside automation."
+    terms: ["ha-hunulup", "taw", "jav"]
+  -
+    id: "ritual-522"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "technology-software"]
+    register: "ritual"
+    english: "May agent delegation carry duty."
+    ethra: "Ha ha-gunudul taw dev."
+    literal: "Solemn agent-delegation carries duty."
+    notes: "Delegation is placed under vow-like accountability."
+    terms: ["ha-gunudul", "taw", "dev"]
+  -
+    id: "ritual-523"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "law-governance"]
+    register: "ritual"
+    english: "May autonomy carry duty."
+    ethra: "Ha ha-autunum taw dev."
+    literal: "Solemn autonomy carries duty."
+    notes: "Autonomous action is blessed only with obligation attached."
+    terms: ["ha-autunum", "taw", "dev"]
+  -
+    id: "ritual-524"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "technology-software"]
+    register: "ritual"
+    english: "May tool use carry agency."
+    ethra: "Ha ha-tuluyus taw val."
+    literal: "Solemn tool-use carries agency."
+    notes: "Instrumental action remains morally owned."
+    terms: ["ha-tuluyus", "taw", "val"]
+  -
+    id: "ritual-525"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "May the world model guide reason."
+    ethra: "Ha ha-wurulud pat raj."
+    literal: "Solemn world-model guides reason."
+    notes: "Internal worlds are solemnly subordinated to reason."
+    terms: ["ha-wurulud", "pat", "raj"]
+  -
+    id: "ritual-526"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "May latent space carry pattern."
+    ethra: "Ha ha-lutusup taw key."
+    literal: "Solemn latent-space carries pattern."
+    notes: "Hidden relations are named without pretending they are transparent."
+    terms: ["ha-lutusup", "taw", "key"]
+  -
+    id: "ritual-527"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "May the transformer carry attention."
+    ethra: "Ha ha-turufum taw san."
+    literal: "Solemn transformer carries attention."
+    notes: "Attention architecture enters solemn technical speech."
+    terms: ["ha-turufum", "taw", "san"]
+  -
+    id: "ritual-528"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "technology-software"]
+    register: "ritual"
+    english: "May human feedback repair the model."
+    ethra: "Ha ha-ruluhuf tar med."
+    literal: "Solemn human-feedback repairs model."
+    notes: "Training correction is framed as repair under judgment."
+    terms: ["ha-ruluhuf", "tar", "med"]
+  -
+    id: "ritual-529"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "law-governance"]
+    register: "ritual"
+    english: "May the reward model judge choice."
+    ethra: "Ha ha-ruwudum jav vel."
+    literal: "Solemn reward-model judges choice."
+    notes: "The learned judge is itself placed under solemn scrutiny."
+    terms: ["ha-ruwudum", "jav", "vel"]
+  -
+    id: "ritual-530"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "law-governance"]
+    register: "ritual"
+    english: "May the policy model guide action."
+    ethra: "Ha ha-pulucuy pat val."
+    literal: "Solemn policy-model guides action."
+    notes: "Action policy receives a ritual demand for right direction."
+    terms: ["ha-pulucuy", "pat", "val"]
+  -
+    id: "ritual-531"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "education-training"]
+    register: "ritual"
+    english: "May synthetic data protect evidence."
+    ethra: "Ha ha-sunutud xap xeg."
+    literal: "Solemn synthetic-data protects evidence."
+    notes: "Generated examples are solemnly warned not to counterfeit witness."
+    terms: ["ha-sunutud", "xap", "xeg"]
+  -
+    id: "ritual-532"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "science-math"]
+    register: "ritual"
+    english: "May data curation protect evidence."
+    ethra: "Ha ha-curudun xap xeg."
+    literal: "Solemn data-curation protects evidence."
+    notes: "Selection of examples is placed under care for truth."
+    terms: ["ha-curudun", "xap", "xeg"]
+  -
+    id: "ritual-533"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "science-math"]
+    register: "ritual"
+    english: "May grounding protect visible truth."
+    ethra: "Ha ha-gurunud xap rih."
+    literal: "Solemn grounding protects visible-truth."
+    notes: "Evidence linkage is raised into ritual truth-speech."
+    terms: ["ha-gurunud", "xap", "rih"]
+  -
+    id: "ritual-534"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "conflict-security"]
+    register: "ritual"
+    english: "May red teaming reveal breakage."
+    ethra: "Ha ha-rudutum rah mak."
+    literal: "Solemn red-teaming reveals breakage."
+    notes: "Adversarial testing is honored as a pre-harm discipline."
+    terms: ["ha-rudutum", "rah", "mak"]
+  -
+    id: "tech-689"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The tokenization tool builds the token sequence."
+    ethra: "Takanaz-tel ban tokonoz."
+    literal: "Tokenization-tool builds token-sequence."
+    notes: "Technical sentence for preprocessing pipelines."
+    terms: ["takanaz-tel", "ban", "tokonoz"]
+  -
+    id: "tech-690"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "history-memory"]
+    register: "technical"
+    english: "The context-window record carries memory."
+    ethra: "Canataw-ket taw mer."
+    literal: "Context-window-record carries memory."
+    notes: "Active context span stored as model-memory metadata."
+    terms: ["canataw-ket", "taw", "mer"]
+  -
+    id: "tech-691"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The system prompt record guides the model."
+    ethra: "Sayasap-ket pat med."
+    literal: "System-prompt-record guides model."
+    notes: "Model instruction provenance in technical register."
+    terms: ["sayasap-ket", "pat", "med"]
+  -
+    id: "tech-692"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "conflict-security"]
+    register: "technical"
+    english: "The jailbreak record reveals breakage."
+    ethra: "Jalabak-ket rah mik."
+    literal: "Jailbreak-record reveals breakage."
+    notes: "Safety bypass captured as a failure case."
+    terms: ["jalabak-ket", "rah", "mik"]
+  -
+    id: "tech-693"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "law-governance"]
+    register: "technical"
+    english: "The guardrail tool protects generated output."
+    ethra: "Garadal-tel xap gonorot."
+    literal: "Guardrail-tool protects generated-output."
+    notes: "Runtime safety control for model output."
+    terms: ["garadal-tel", "xap", "gonorot"]
+  -
+    id: "tech-694"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "law-governance"]
+    register: "technical"
+    english: "The oversight record judges the model."
+    ethra: "Oavaraw-ket jav med."
+    literal: "Oversight-record judges model."
+    notes: "Inspection artifact for delegated AI systems."
+    terms: ["oavaraw-ket", "jav", "med"]
+  -
+    id: "tech-695"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "law-governance"]
+    register: "technical"
+    english: "The human-in-loop record protects judgment."
+    ethra: "Hanalap-ket xap jav."
+    literal: "Human-in-loop-record protects judgment."
+    notes: "Review checkpoint preserved in system logs."
+    terms: ["hanalap-ket", "xap", "jav"]
+  -
+    id: "tech-696"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The agent-delegation record carries the agent task."
+    ethra: "Ganadal-ket taw gonodol."
+    literal: "Agent-delegation-record carries delegated-task."
+    notes: "Delegated task metadata for agent systems."
+    terms: ["ganadal-ket", "taw", "gonodol"]
+  -
+    id: "tech-697"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The tool-use log reveals action."
+    ethra: "Talayas-ket rah val."
+    literal: "Tool-use-log reveals action."
+    notes: "External service call logged as inspectable action."
+    terms: ["talayas-ket", "rah", "val"]
+  -
+    id: "tech-698"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The function-call record names the invocation."
+    ethra: "Fanakac-ket nam fonokoc."
+    literal: "Function-call-record names invocation."
+    notes: "Structured function call arguments captured in logs."
+    terms: ["fanakac-ket", "nam", "fonokoc"]
+  -
+    id: "tech-699"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The world-model record guides simulation."
+    ethra: "Waralad-ket pat sam."
+    literal: "World-model-record guides simulation."
+    notes: "Internal state assumptions documented for simulation."
+    terms: ["waralad-ket", "pat", "sam"]
+  -
+    id: "tech-700"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The latent-space record carries pattern."
+    ethra: "Latasap-ket taw key."
+    literal: "Latent-space-record carries pattern."
+    notes: "Representation-space artifact tied to pattern analysis."
+    terms: ["latasap-ket", "taw", "key"]
+  -
+    id: "tech-701"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The activation trace reveals the model."
+    ethra: "Aakatav-ket rah med."
+    literal: "Activation-record reveals model."
+    notes: "Activation capture used for model inspection."
+    terms: ["aakatav-ket", "rah", "med"]
+  -
+    id: "tech-702"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "science-math"]
+    register: "technical"
+    english: "The logit record measures choice."
+    ethra: "Lagajat-ket mes vel."
+    literal: "Logit-record measures choice."
+    notes: "Raw score diagnostics before probability normalization."
+    terms: ["lagajat-ket", "mes", "vel"]
+  -
+    id: "tech-703"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "science-math"]
+    register: "technical"
+    english: "The softmax record measures uncertainty."
+    ethra: "Safamax-ket mes xen."
+    literal: "Softmax-record measures uncertainty."
+    notes: "Output distribution metadata for uncertainty analysis."
+    terms: ["safamax-ket", "mes", "xen"]
+  -
+    id: "tech-704"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The attention-head record guides reason."
+    ethra: "Hadatan-ket pat raj."
+    literal: "Attention-head-record guides reason."
+    notes: "Attention-channel record for interpretability work."
+    terms: ["hadatan-ket", "pat", "raj"]
+  -
+    id: "tech-705"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The transformer record carries attention."
+    ethra: "Tarafam-ket taw san."
+    literal: "Transformer-record carries attention."
+    notes: "Architecture record grounded in attention behavior."
+    terms: ["tarafam-ket", "taw", "san"]
+  -
+    id: "tech-706"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The encoder record builds data."
+    ethra: "Nakadar-ket ban den."
+    literal: "Encoder-record builds data."
+    notes: "Input representation stage documented in pipeline terms."
+    terms: ["nakadar-ket", "ban", "den"]
+  -
+    id: "tech-707"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The decoder record names generated output."
+    ethra: "Dakadar-ket nam gonorot."
+    literal: "Decoder-record names generated-output."
+    notes: "Output production stage documented as generated speech."
+    terms: ["dakadar-ket", "nam", "gonorot"]
+  -
+    id: "tech-708"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "media-communication"]
+    register: "technical"
+    english: "The multimodal-fusion record carries data."
+    ethra: "Madafas-ket taw den."
+    literal: "Multimodal-fusion-record carries data."
+    notes: "Cross-channel input integration captured for auditing."
+    terms: ["madafas-ket", "taw", "den"]
+  -
+    id: "tech-709"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "education-training"]
+    register: "technical"
+    english: "The human-feedback record repairs the model."
+    ethra: "Ralahaf-ket tar med."
+    literal: "Human-feedback-record repairs model."
+    notes: "Preference-tuning record as correction artifact."
+    terms: ["ralahaf-ket", "tar", "med"]
+  -
+    id: "tech-710"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The quantization record measures power."
+    ethra: "Kanataz-ket mes kev."
+    literal: "Quantization-record measures power."
+    notes: "Compression tradeoff captured as capability and cost."
+    terms: ["kanataz-ket", "mes", "kev"]
+  -
+    id: "tech-711"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "science-math"]
+    register: "technical"
+    english: "The evaluation-harness record judges the model."
+    ethra: "Eavahar-ket jav med."
+    literal: "Evaluation-harness-record judges model."
+    notes: "Repeatable test suite treated as technical judgment."
+    terms: ["eavahar-ket", "jav", "med"]
+  -
+    id: "tech-712"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "science-math"]
+    register: "technical"
+    english: "The grounding record protects evidence."
+    ethra: "Garanad-ket xap xeg."
+    literal: "Grounding-record protects evidence."
+    notes: "Evidence linkage included as output metadata."
+    terms: ["garanad-ket", "xap", "xeg"]
+  -
+    id: "poetic-689"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "media-communication"]
+    register: "poetic"
+    english: "Tokenization remembers the word."
+    ethra: "Tekenez mar nem."
+    literal: "Tokenization remembers speech."
+    notes: "Segmentation becomes a poetic act of preserving speech."
+    terms: ["tekenez", "mar", "nem"]
+  -
+    id: "poetic-690"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "history-memory"]
+    register: "poetic"
+    english: "The context window carries memory."
+    ethra: "Cenetew taw mer."
+    literal: "Context-window carries memory."
+    notes: "A model's bounded span is made into an image of held memory."
+    terms: ["cenetew", "taw", "mer"]
+  -
+    id: "poetic-691"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "media-communication"]
+    register: "poetic"
+    english: "The system prompt binds speech."
+    ethra: "Seyesep dav nem."
+    literal: "System-prompt binds speech."
+    notes: "The hidden first instruction becomes binding speech."
+    terms: ["seyesep", "dav", "nem"]
+  -
+    id: "poetic-692"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "conflict-security"]
+    register: "poetic"
+    english: "A jailbreak breaks duty."
+    ethra: "Jelebek mak dev."
+    literal: "Jailbreak breaks duty."
+    notes: "Misuse is compressed into a moral rupture."
+    terms: ["jelebek", "mak", "dev"]
+  -
+    id: "poetic-693"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "law-governance"]
+    register: "poetic"
+    english: "The guardrail protects the people."
+    ethra: "Geredel xap lem."
+    literal: "Guardrail protects people."
+    notes: "A technical safety boundary becomes a civic image."
+    terms: ["geredel", "xap", "lem"]
+  -
+    id: "poetic-694"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "law-governance"]
+    register: "poetic"
+    english: "Oversight sees power."
+    ethra: "Oeverew rah kev."
+    literal: "Oversight sees power."
+    notes: "The act of watching power is made poetic and stern."
+    terms: ["oeverew", "rah", "kev"]
+  -
+    id: "poetic-695"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "law-governance"]
+    register: "poetic"
+    english: "Human-in-the-loop review carries judgment."
+    ethra: "Henelep taw jav."
+    literal: "Human-in-loop carries judgment."
+    notes: "Human presence is the carried weight of judgment."
+    terms: ["henelep", "taw", "jav"]
+  -
+    id: "poetic-696"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "technology-software"]
+    register: "poetic"
+    english: "Agent delegation carries duty."
+    ethra: "Genedel taw dev."
+    literal: "Agent-delegation carries duty."
+    notes: "A delegated machine task still bears obligation."
+    terms: ["genedel", "taw", "dev"]
+  -
+    id: "poetic-697"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "law-governance"]
+    register: "poetic"
+    english: "Autonomy carries duty."
+    ethra: "Aetenem taw dev."
+    literal: "Autonomy carries duty."
+    notes: "Freedom and duty are held in one line."
+    terms: ["aetenem", "taw", "dev"]
+  -
+    id: "poetic-698"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "technology-software"]
+    register: "poetic"
+    english: "Tool use carries agency."
+    ethra: "Teleyes taw val."
+    literal: "Tool-use carries agency."
+    notes: "The instrument does not erase the actor."
+    terms: ["teleyes", "taw", "val"]
+  -
+    id: "poetic-699"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "technology-software"]
+    register: "poetic"
+    english: "Function calling names action."
+    ethra: "Fenekec nam val."
+    literal: "Function-calling names action."
+    notes: "The call is made visible before it moves."
+    terms: ["fenekec", "nam", "val"]
+  -
+    id: "poetic-700"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The world model reveals the model."
+    ethra: "Wereled rah med."
+    literal: "World-model reveals model."
+    notes: "The inner world is made answerable by showing what it shapes."
+    terms: ["wereled", "rah", "med"]
+  -
+    id: "poetic-701"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The latent space carries pattern."
+    ethra: "Letesep taw key."
+    literal: "Latent-space carries pattern."
+    notes: "Hidden nearness carries form beneath speech."
+    terms: ["letesep", "taw", "key"]
+  -
+    id: "poetic-702"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "technology-software"]
+    register: "poetic"
+    english: "The activation reveals the model."
+    ethra: "Aeketev rah med."
+    literal: "Activation reveals model."
+    notes: "Internal signal becomes a small light of explanation."
+    terms: ["aeketev", "rah", "med"]
+  -
+    id: "poetic-703"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "science-math"]
+    register: "poetic"
+    english: "The logit carries choice."
+    ethra: "Legejet taw vel."
+    literal: "Logit carries choice."
+    notes: "Choice is shown before probability cleans its face."
+    terms: ["legejet", "taw", "vel"]
+  -
+    id: "poetic-704"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "science-math"]
+    register: "poetic"
+    english: "Softmax guides choice."
+    ethra: "Sefemex pat vel."
+    literal: "Softmax guides choice."
+    notes: "Many scores are made into a path of selection."
+    terms: ["sefemex", "pat", "vel"]
+  -
+    id: "poetic-705"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The transformer carries speech."
+    ethra: "Terefem taw nem."
+    literal: "Transformer carries speech."
+    notes: "The architecture becomes a carrier of words."
+    terms: ["terefem", "taw", "nem"]
+  -
+    id: "poetic-706"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "history-memory"]
+    register: "poetic"
+    english: "The encoder carries memory."
+    ethra: "Nekeder taw mer."
+    literal: "Encoder carries memory."
+    notes: "Encoding is imagined as folding speech into memory."
+    terms: ["nekeder", "taw", "mer"]
+  -
+    id: "poetic-707"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "media-communication"]
+    register: "poetic"
+    english: "The decoder names speech."
+    ethra: "Dekeder nam nem."
+    literal: "Decoder names speech."
+    notes: "The inner form returns as spoken output."
+    terms: ["dekeder", "nam", "nem"]
+  -
+    id: "poetic-708"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "law-governance"]
+    register: "poetic"
+    english: "The reward model judges speech."
+    ethra: "Rewedem jav nem."
+    literal: "Reward-model judges speech."
+    notes: "A learned preference judge is made visible as judgment over words."
+    terms: ["rewedem", "jav", "nem"]
+  -
+    id: "poetic-709"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "education-training"]
+    register: "poetic"
+    english: "Synthetic data carries evidence."
+    ethra: "Seneted taw xeg."
+    literal: "Synthetic-data carries evidence."
+    notes: "Artificial examples are given a careful, limited evidential role."
+    terms: ["seneted", "taw", "xeg"]
+  -
+    id: "poetic-710"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "science-math"]
+    register: "poetic"
+    english: "Traceability remembers power."
+    ethra: "Terecex mar kev."
+    literal: "Traceability remembers power."
+    notes: "The path of power is kept in memory for judgment."
+    terms: ["terecex", "mar", "kev"]
+  -
+    id: "poetic-711"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "science-math"]
+    register: "poetic"
+    english: "Grounding protects speech."
+    ethra: "Gerened xap nem."
+    literal: "Grounding protects speech."
+    notes: "Words stay honest when tied to evidence."
+    terms: ["gerened", "xap", "nem"]
+  -
+    id: "poetic-712"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "conflict-security"]
+    register: "poetic"
+    english: "Red teaming reveals breakage."
+    ethra: "Redetem rah mak."
+    literal: "Red-teaming reveals breakage."
+    notes: "Adversarial testing becomes a poetic discipline of finding fracture."
+    terms: ["redetem", "rah", "mak"]
+  -
+    id: "learner-345"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "learner-a1"
+    english: "The system prompt guides the model."
+    ethra: "Seyesep pat med."
+    literal: "System-prompt guides model."
+    notes: "A1 AI instruction sentence."
+    terms: ["seyesep", "pat", "med"]
+  -
+    id: "learner-346"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ai-cognition", "law-governance"]
+    register: "learner-a1"
+    english: "The guardrail protects people."
+    ethra: "Geredel xap lem."
+    literal: "Guardrail protects people."
+    notes: "A1 safety sentence."
+    terms: ["geredel", "xap", "lem"]
+  -
+    id: "learner-347"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ai-cognition", "history-memory"]
+    register: "learner-a1"
+    english: "The context window carries memory."
+    ethra: "Cenetew taw mer."
+    literal: "Context-window carries memory."
+    notes: "A1 model-memory sentence."
+    terms: ["cenetew", "taw", "mer"]
+  -
+    id: "learner-348"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "learner-a1"
+    english: "Tool use reveals action."
+    ethra: "Teleyes rah val."
+    literal: "Tool-use reveals action."
+    notes: "A1 tool-action sentence."
+    terms: ["teleyes", "rah", "val"]
+  -
+    id: "learner-349"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "learner-a1"
+    english: "Function calling names action."
+    ethra: "Fenekec nam val."
+    literal: "Function-calling names action."
+    notes: "A1 function-call sentence."
+    terms: ["fenekec", "nam", "val"]
+  -
+    id: "learner-350"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ai-cognition", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "The transformer carries attention."
+    ethra: "Terefem taw san."
+    literal: "Transformer carries attention."
+    notes: "A1 architecture sentence."
+    terms: ["terefem", "taw", "san"]
+  -
+    id: "learner-351"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "learner-a1"
+    english: "The encoder builds data."
+    ethra: "Nekeder ban den."
+    literal: "Encoder builds data."
+    notes: "A1 representation sentence."
+    terms: ["nekeder", "ban", "den"]
+  -
+    id: "learner-352"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ai-cognition", "technology-software"]
+    register: "learner-a1"
+    english: "The decoder names output."
+    ethra: "Dekeder nam gonorot."
+    literal: "Decoder names generated-output."
+    notes: "A1 output sentence."
+    terms: ["dekeder", "nam", "gonorot"]
+  -
+    id: "learner-353"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ai-cognition", "law-governance"]
+    register: "learner-a1"
+    english: "The reward model judges output."
+    ethra: "Rewedem jav gonorot."
+    literal: "Reward-model judges generated-output."
+    notes: "A1 preference-judgment sentence."
+    terms: ["rewedem", "jav", "gonorot"]
+  -
+    id: "learner-354"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ai-cognition", "science-math"]
+    register: "learner-a1"
+    english: "Grounding protects evidence."
+    ethra: "Gerened xap xeg."
+    literal: "Grounding protects evidence."
+    notes: "A1 evidence-grounding sentence."
+    terms: ["gerened", "xap", "xeg"]
+  -
+    id: "learner-355"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ai-cognition", "conflict-security"]
+    register: "learner-a1"
+    english: "Red teaming reveals breakage."
+    ethra: "Redetem rah mak."
+    literal: "Red-teaming reveals breakage."
+    notes: "A1 adversarial-test sentence."
+    terms: ["redetem", "rah", "mak"]
+  -
+    id: "learner-356"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ai-cognition", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "Self-evaluation protects reason."
+    ethra: "Selefev xap raj."
+    literal: "Self-evaluation protects reason."
+    notes: "A1 internal-check sentence."
+    terms: ["selefev", "xap", "raj"]
