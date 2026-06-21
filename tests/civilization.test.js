@@ -32,8 +32,8 @@ test("summarizes current progress against roadmap targets", () => {
   assert.equal(summary.current.actual_corpus_items, summary.current.corpus_items);
   assert.equal(summary.current.actual_compound_terms, summary.current.compound_terms);
   assert.equal(summary.current.actual_derivation_patterns, summary.current.derivation_patterns);
-  assert.ok(summary.current.actual_lexicon_entries >= 44057);
-  assert.ok(summary.current.actual_root_families >= 2200);
+  assert.ok(summary.current.actual_lexicon_entries >= 45057);
+  assert.ok(summary.current.actual_root_families >= 2250);
   assert.ok(summary.current.actual_corpus_items >= 4880);
   assert.ok(summary.current.actual_compound_terms >= 100);
   assert.equal(summary.current.actual_derivation_patterns, 20);
@@ -496,12 +496,12 @@ test("searches reviewed corpus by text and structured filters", () => {
 test("builds dictionary-grade lookup entries with corpus evidence", () => {
   const stats = dictionaryStats(5);
   assert.equal(stats.schema_version, "0.5.8");
-  assert.equal(stats.source_counts.lexicon, 44057);
+  assert.equal(stats.source_counts.lexicon, 45057);
   assert.equal(stats.source_counts.particle, 39);
   assert.equal(stats.source_counts.pronoun, 16);
   assert.equal(stats.source_counts.compound, 100);
-  assert.equal(stats.total_entries, 44212);
-  assert.equal(stats.root_families, 2200);
+  assert.equal(stats.total_entries, 45212);
+  assert.equal(stats.root_families, 2250);
   assert.ok(stats.domain_counts["ai-cognition"] >= 11764);
   assert.ok(stats.domain_counts["art-beauty"] >= 6685);
   assert.ok(stats.domain_counts["science-math"] >= 12750);
@@ -715,13 +715,43 @@ test("builds dictionary-grade lookup entries with corpus evidence", () => {
 
   const fiduciaryDuty = lookupDictionary({ query: "fiduciary duty", limit: 20 });
   assert.ok(fiduciaryDuty.matches.some((match) => match.entry.root === "FDCY"));
+
+  const qualia = lookupDictionary({ query: "qualia", limit: 20 });
+  assert.ok(qualia.matches.some((match) => match.entry.root === "KLYX"));
+
+  const intentionality = lookupDictionary({ query: "intentionality", limit: 20 });
+  assert.ok(intentionality.matches.some((match) => match.entry.root === "NTNL"));
+
+  const objectiveFunction = lookupDictionary({ query: "objective function", limit: 20 });
+  assert.ok(objectiveFunction.matches.some((match) => match.entry.root === "BJCF"));
+
+  const biomarker = lookupDictionary({ query: "biomarker", limit: 20 });
+  assert.ok(biomarker.matches.some((match) => match.entry.root === "BMRK"));
+
+  const microbiome = lookupDictionary({ query: "microbiome", limit: 20 });
+  assert.ok(microbiome.matches.some((match) => match.entry.root === "MCRB"));
+
+  const modelCard = lookupDictionary({ query: "model card", limit: 20 });
+  assert.ok(modelCard.matches.some((match) => match.entry.root === "MDCD"));
+
+  const safetyCase = lookupDictionary({ query: "safety case", limit: 20 });
+  assert.ok(safetyCase.matches.some((match) => match.entry.root === "SFTC"));
+
+  const arbitration = lookupDictionary({ query: "arbitration", limit: 20 });
+  assert.ok(arbitration.matches.some((match) => match.entry.root === "YRBT"));
+
+  const habeasCorpus = lookupDictionary({ query: "habeas corpus", limit: 20 });
+  assert.ok(habeasCorpus.matches.some((match) => match.entry.root === "HBSC"));
+
+  const warCrime = lookupDictionary({ query: "war crime", limit: 20 });
+  assert.ok(warCrime.matches.some((match) => match.entry.root === "WCRM"));
 });
 
 test("validates expanded root inventory", () => {
   const report = validateSpec();
   assert.equal(report.valid, true, JSON.stringify(report.errors, null, 2));
-  assert.equal(report.stats.roots, 2200);
-  assert.equal(report.stats.lexiconEntries, 44057);
+  assert.equal(report.stats.roots, 2250);
+  assert.equal(report.stats.lexiconEntries, 45057);
   assert.equal(report.stats.derivationPatterns, 20);
 });
 

@@ -550,6 +550,16 @@ test("lexicon contains the expanded seed breadth", () => {
   assert.ok(entries.some((entry) => entry.word === "menepey" && entry.meaning === "monetary policy, money-supply stewardship"));
   assert.ok(entries.some((entry) => entry.word === "peteres" && entry.meaning === "public trust, entrusted common good"));
   assert.ok(entries.some((entry) => entry.word === "fedecey" && entry.meaning === "fiduciary duty, entrusted loyalty"));
+  assert.ok(entries.some((entry) => entry.word === "keleyex" && entry.meaning === "qualia, felt character"));
+  assert.ok(entries.some((entry) => entry.word === "netenel" && entry.meaning === "intentionality, directed aboutness"));
+  assert.ok(entries.some((entry) => entry.word === "bejecef" && entry.meaning === "objective function, optimization target"));
+  assert.ok(entries.some((entry) => entry.word === "bemerek" && entry.meaning === "biomarker, measurable bodily sign"));
+  assert.ok(entries.some((entry) => entry.word === "mecereb" && entry.meaning === "microbiome, microbial community"));
+  assert.ok(entries.some((entry) => entry.word === "medeced" && entry.meaning === "model card, model accountability record"));
+  assert.ok(entries.some((entry) => entry.word === "sefetec" && entry.meaning === "safety case, structured safety argument"));
+  assert.ok(entries.some((entry) => entry.word === "yerebet" && entry.meaning === "arbitration, binding outside-court judgment"));
+  assert.ok(entries.some((entry) => entry.word === "hebesec" && entry.meaning === "habeas corpus, custody answer"));
+  assert.ok(entries.some((entry) => entry.word === "wecerem" && entry.meaning === "war crime, unlawful conflict violation"));
   for (const category of [
     "Pronouns",
     "Particles",
