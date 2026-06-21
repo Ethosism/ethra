@@ -1,12 +1,12 @@
 # Vocabulary Scale
 
-Ethra currently has 18,057 explicit lexicon entries and 800 reviewed corpus items after the v0.3.8 infrastructure-scale root expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 20,057 explicit lexicon entries and 800 reviewed corpus items after the v0.3.9 v0.5 root target closure. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.5 public-culture target:
 
 ```text
-entries 18,057 / 10,000
-roots       900 / 1,000
+entries 20,057 / 10,000
+roots     1,000 / 1,000
 corpus      800 / 2,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
@@ -56,7 +56,9 @@ The v0.3.7 corpus batch adds 100 reviewed examples grounding public-institution 
 
 The v0.3.8 infrastructure-scale root batch adds 100 roots for appellate review, litigation, complaints, fraud, bribery, negligence, torts, plaintiffs, defendants, mortgages, bonds, ledgers, funds, corporations, nonprofits, retail and wholesale exchange, cloud deployment, configuration, build artifacts, rendering, logs, traces, feature flags, plugins, packages, dependencies, validation, testing, vectors, scalars, tensors, graphs, limits, proofs, algebra, geometry, clinics, nursing, respiration, cancer, skeletons, fractures, rehabilitation, grids, sewers, dams, railways, reservoirs, pipelines, transit, waste, recycling, pollution, mining, painting, drawing, sculpture, typography, fonts, editing, publication, cameras, galleries, critique, and motivation.
 
-The main remaining v0.5 gaps are root depth, now 900 / 1,000, and reviewed corpus depth, now 800 / 2,000.
+The v0.3.9 civilizational-closure root batch adds 100 roots for being, becoming, meaning, value, ethics, paradox, contradiction, analogy, distinction, reference, dictionaries, lexicons, idioms, proverbs, syntax, semantics, paragraphs, copying, bibliographies, libraries, news, journals, magazines, blogs, conversation, deliberation, parties, lobbying, cabinets, ministries, bureaucracy, refugees, visas, passports, majorities, minorities, police, language models, neural networks, training, crawlers, moderation, reinforcement, retrieval, parameters, embeddings, classification, loaders, controllers, accelerators, gateways, connectors, lenses, biochemistry, enzymes, proteins, fungi, glaciers, spheres, radiation, gravity, electricity, plasma, sky, empathy, humor, irony, despair, curiosity, kindness, generosity, frustration, tone, numbness, mirrors, clocks, glass, plastic, fabric, paper, keyboards, desks, chairs, shelves, boxes, wires, hymns, psalms, temples, pilgrimage, candles, religion, symbols, mystery, incense, veneration, tables, calendars, wheels, and batteries.
+
+The v0.5 entry and root targets are now met. The main remaining v0.5 gap is reviewed corpus depth, now 800 / 2,000.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 

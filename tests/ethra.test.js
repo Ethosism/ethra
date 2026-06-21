@@ -172,6 +172,42 @@ test("looks up roots by aliases and derives words", () => {
   const motivation = deriveWord("MTV", "noun");
   assert.equal(motivation.word, "metev");
   assert.equal(motivation.root.id, "MTV");
+
+  const being = deriveWord("YNT", "noun");
+  assert.equal(being.word, "yenet");
+  assert.equal(being.root.id, "YNT");
+
+  const meaning = deriveWord("MYS", "noun");
+  assert.equal(meaning.word, "meyes");
+  assert.equal(meaning.root.id, "MYS");
+
+  const ethics = deriveWord("THK", "noun");
+  assert.equal(ethics.word, "tehek");
+  assert.equal(ethics.root.id, "THK");
+
+  const conversation = deriveWord("CNV", "noun");
+  assert.equal(conversation.word, "cenev");
+  assert.equal(conversation.root.id, "CNV");
+
+  const languageModel = deriveWord("LLM", "noun");
+  assert.equal(languageModel.word, "lelem");
+  assert.equal(languageModel.root.id, "LLM");
+
+  const embedding = deriveWord("MBD", "noun");
+  assert.equal(embedding.word, "mebed");
+  assert.equal(embedding.root.id, "MBD");
+
+  const religion = deriveWord("RLG", "noun");
+  assert.equal(religion.word, "releg");
+  assert.equal(religion.root.id, "RLG");
+
+  const calendar = deriveWord("KLD", "noun");
+  assert.equal(calendar.word, "keled");
+  assert.equal(calendar.root.id, "KLD");
+
+  const battery = deriveWord("BTY", "noun");
+  assert.equal(battery.word, "betey");
+  assert.equal(battery.root.id, "BTY");
 });
 
 test("analyzes known words", () => {
@@ -200,7 +236,7 @@ test("loads canonical example translations", () => {
 test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 18000);
+  assert.ok(entries.length >= 20000);
   for (const category of [
     "Pronouns",
     "Particles",
