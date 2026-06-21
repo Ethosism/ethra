@@ -1,4 +1,4 @@
-version: "0.9.3-corpus"
+version: "0.9.5-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -42801,3 +42801,1203 @@ items:
     literal: "Co-parenting protects child."
     notes: "A1 shared-care sentence."
     terms: ["ceperen", "xap", "tu"]
+  -
+    id: "daily-857"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "The refrigerator protects provision."
+    ethra: "Feredeg xap par."
+    literal: "Refrigerator protects provision."
+    notes: "Cold storage is ordinary household stewardship."
+    terms: ["feredeg", "xap", "par"]
+  -
+    id: "daily-858"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The toilet protects care."
+    ethra: "Teletex xap hal."
+    literal: "Toilet protects care."
+    notes: "Sanitation is named without shame because bodily dignity needs words."
+    terms: ["teletex", "xap", "hal"]
+  -
+    id: "daily-859"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "plain"
+    english: "The sofa carries rest."
+    ethra: "Seoefex taw cap."
+    literal: "Sofa carries rest."
+    notes: "Shared rest becomes part of household order."
+    terms: ["seoefex", "taw", "cap"]
+  -
+    id: "daily-860"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "history-memory"]
+    register: "plain"
+    english: "The drawer protects the record."
+    ethra: "Derewer xap kot."
+    literal: "Drawer protects record."
+    notes: "Small storage is ordinary memory discipline."
+    terms: ["derewer", "xap", "kot"]
+  -
+    id: "daily-861"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "The oven builds provision."
+    ethra: "Oevenex ban par."
+    literal: "Oven builds provision."
+    notes: "Cooking heat is framed as household provision."
+    terms: ["oevenex", "ban", "par"]
+  -
+    id: "daily-862"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "plain"
+    english: "The microwave carries provision."
+    ethra: "Mecewev taw par."
+    literal: "Microwave carries provision."
+    notes: "Fast warming is admitted as service, not as a substitute for care."
+    terms: ["mecewev", "taw", "par"]
+  -
+    id: "daily-863"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "plain"
+    english: "The dishwasher repairs the household."
+    ethra: "Desehew tar hon."
+    literal: "Dishwasher repairs household."
+    notes: "Delegated washing still serves household order."
+    terms: ["desehew", "tar", "hon"]
+  -
+    id: "daily-864"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "plain"
+    english: "The appliance builds the household."
+    ethra: "Aepelec ban hon."
+    literal: "Appliance builds household."
+    notes: "Domestic machines are judged by service to the home."
+    terms: ["aepelec", "ban", "hon"]
+  -
+    id: "daily-865"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "family-kinship"]
+    register: "plain"
+    english: "The heater protects the child."
+    ethra: "Heterex xap tu."
+    literal: "Heater protects child."
+    notes: "Warmth is treated as care for the vulnerable."
+    terms: ["heterex", "xap", "tu"]
+  -
+    id: "daily-866"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "Cooling protects care."
+    ethra: "Kelerex xap hal."
+    literal: "Cooling system protects care."
+    notes: "Heat relief is ordinary mercy inside the house."
+    terms: ["kelerex", "xap", "hal"]
+  -
+    id: "daily-867"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The fan guides air."
+    ethra: "Feaenex pat wah."
+    literal: "Fan guides air."
+    notes: "Small tools can make comfort visible."
+    terms: ["feaenex", "pat", "wah"]
+  -
+    id: "daily-868"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The washing machine repairs clothing."
+    ethra: "Wesehem tar car."
+    literal: "Washing machine repairs clothing."
+    notes: "Laundry is framed as restored readiness."
+    terms: ["wesehem", "tar", "car"]
+  -
+    id: "daily-869"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The dryer builds clothing readiness."
+    ethra: "Dereyer ban car."
+    literal: "Dryer builds clothing."
+    notes: "Drying returns fabric to daily use."
+    terms: ["dereyer", "ban", "car"]
+  -
+    id: "daily-870"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The vacuum repairs the household."
+    ethra: "Vecemex tar hon."
+    literal: "Vacuum repairs household."
+    notes: "Hidden dust becomes removable when named."
+    terms: ["vecemex", "tar", "hon"]
+  -
+    id: "daily-871"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "The broom repairs the path."
+    ethra: "Beremex tar pat."
+    literal: "Broom repairs path."
+    notes: "Sweeping restores a walkable way."
+    terms: ["beremex", "tar", "pat"]
+  -
+    id: "daily-872"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance", "economics-provision"]
+    register: "plain"
+    english: "Rent binds the household."
+    ethra: "Renetex dav hon."
+    literal: "Rent binds household."
+    notes: "Use without ownership still carries declared duty."
+    terms: ["renetex", "dav", "hon"]
+  -
+    id: "daily-873"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Tenancy protects the household."
+    ethra: "Tenenex xap hon."
+    literal: "Tenancy protects household."
+    notes: "A dwelling agreement is a sheltering civic relation."
+    terms: ["tenenex", "xap", "hon"]
+  -
+    id: "daily-874"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "The outage reveals duty."
+    ethra: "Oeueteg rah dev."
+    literal: "Outage reveals duty."
+    notes: "Failed service shows what hidden systems were carrying."
+    terms: ["oeueteg", "rah", "dev"]
+  -
+    id: "daily-875"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "The resume names work."
+    ethra: "Resemex nam wak."
+    literal: "Resume names work."
+    notes: "A compressed work history asks to be judged truthfully."
+    terms: ["resemex", "nam", "wak"]
+  -
+    id: "daily-876"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Promotion binds duty."
+    ethra: "Peremex dav dev."
+    literal: "Promotion binds duty."
+    notes: "Raised status must increase responsibility."
+    terms: ["peremex", "dav", "dev"]
+  -
+    id: "daily-877"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "law-governance"]
+    register: "plain"
+    english: "The layoff names care."
+    ethra: "Leyefex nam hal."
+    literal: "Layoff names care."
+    notes: "Job loss without fault still demands provision-facing speech."
+    terms: ["leyefex", "nam", "hal"]
+  -
+    id: "daily-878"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Unemployment names duty."
+    ethra: "Nemepey nam dev."
+    literal: "Unemployment names duty."
+    notes: "Unused labor capacity is not erased by lack of role."
+    terms: ["nemepey", "nam", "dev"]
+  -
+    id: "daily-879"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "Traffic guides the people."
+    ethra: "Terefec pat lem."
+    literal: "Traffic guides people."
+    notes: "Shared movement must be ordered before it harms."
+    terms: ["terefec", "pat", "lem"]
+  -
+    id: "daily-880"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "The lobby reveals the people."
+    ethra: "Lebebey rah lem."
+    literal: "Lobby reveals people."
+    notes: "Public waiting rooms make institutions meet faces."
+    terms: ["lebebey", "rah", "lem"]
+  -
+    id: "civic-643"
+    track: "civic-law"
+    domain_tags: ["law-governance", "daily-life"]
+    register: "civic"
+    english: "The eviction filing protects duty."
+    ethra: "Eavacax-da xap dev."
+    literal: "Eviction-record protects duty."
+    notes: "Housing removal must remain inspectable and answerable."
+    terms: ["eavacax-da", "xap", "dev"]
+  -
+    id: "civic-644"
+    track: "civic-law"
+    domain_tags: ["law-governance", "daily-life"]
+    register: "civic"
+    english: "The utility record binds duty."
+    ethra: "Uatalax-da dav dev."
+    literal: "Utility-record binds duty."
+    notes: "Essential services are treated as public obligations."
+    terms: ["uatalax-da", "dav", "dev"]
+  -
+    id: "civic-645"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The rent ledger records duty."
+    ethra: "Ranatax-da kat dev."
+    literal: "Rent-record records duty."
+    notes: "Payment records clarify use, standing, and obligation."
+    terms: ["ranatax-da", "kat", "dev"]
+  -
+    id: "civic-646"
+    track: "civic-law"
+    domain_tags: ["law-governance", "daily-life"]
+    register: "civic"
+    english: "The tenant record protects rights."
+    ethra: "Tananax-da xap ret."
+    literal: "Tenant-record protects right."
+    notes: "Occupancy standing needs public evidence."
+    terms: ["tananax-da", "xap", "ret"]
+  -
+    id: "civic-647"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The labor-union charter names duty."
+    ethra: "Labaran-da nam dev."
+    literal: "Labor-union-record names duty."
+    notes: "Collective voice is admitted with answerability."
+    terms: ["labaran-da", "nam", "dev"]
+  -
+    id: "civic-648"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "The strike notice reveals duty."
+    ethra: "Satarak-da rah dev."
+    literal: "Strike-record reveals duty."
+    notes: "Work stoppage must make the disputed obligation visible."
+    terms: ["satarak-da", "rah", "dev"]
+  -
+    id: "civic-649"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "The referendum result names the people."
+    ethra: "Rafarad-da nam lem."
+    literal: "Referendum-record names people."
+    notes: "Direct votes make public answer visible."
+    terms: ["rafarad-da", "nam", "lem"]
+  -
+    id: "civic-650"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "The ombuds report protects seeing."
+    ethra: "Oamabad-da xap rah."
+    literal: "Ombuds-record protects seeing."
+    notes: "Institutions need an internal ear for small claims."
+    terms: ["oamabad-da", "xap", "rah"]
+  -
+    id: "civic-651"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "The copyright registration protects naming."
+    ethra: "Capayar-da xap nam."
+    literal: "Copyright-record protects naming."
+    notes: "Authorship rights keep the maker beside the work."
+    terms: ["capayar-da", "xap", "nam"]
+  -
+    id: "civic-652"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The trademark record protects provision."
+    ethra: "Taradam-da xap par."
+    literal: "Trademark-record protects provision."
+    notes: "Source marks are public trust inside exchange."
+    terms: ["taradam-da", "xap", "par"]
+  -
+    id: "civic-653"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The customs declaration reveals provision."
+    ethra: "Casatax-da rah par."
+    literal: "Customs-record reveals provision."
+    notes: "Goods crossing borders must confess what they carry."
+    terms: ["casatax-da", "rah", "par"]
+  -
+    id: "civic-654"
+    track: "civic-law"
+    domain_tags: ["law-governance", "history-memory"]
+    register: "civic"
+    english: "The immigration file guides the people."
+    ethra: "Iamagar-da pat lem."
+    literal: "Immigration-record guides people."
+    notes: "Entry into a polity is handled as public belonging under memory."
+    terms: ["iamagar-da", "pat", "lem"]
+  -
+    id: "civic-655"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic"
+    english: "The district map binds office."
+    ethra: "Daiasat-da dav xaf."
+    literal: "District-record binds office."
+    notes: "Place is divided so responsibility can find an address."
+    terms: ["daiasat-da", "dav", "xaf"]
+  -
+    id: "civic-656"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic"
+    english: "The elevator inspection protects rights."
+    ethra: "Ealavat-da xap ret."
+    literal: "Elevator-record protects right."
+    notes: "Vertical access is part of public standing."
+    terms: ["ealavat-da", "xap", "ret"]
+  -
+    id: "civic-657"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic"
+    english: "The stair standard protects the path."
+    ethra: "Sataras-da xap pat."
+    literal: "Stair-record protects path."
+    notes: "Egress must be legible before danger arrives."
+    terms: ["sataras-da", "xap", "pat"]
+  -
+    id: "civic-658"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic"
+    english: "The terminal schedule guides the people."
+    ethra: "Tamanal-da pat lem."
+    literal: "Terminal-record guides people."
+    notes: "Departures and arrivals need accountable thresholds."
+    terms: ["tamanal-da", "pat", "lem"]
+  -
+    id: "civic-659"
+    track: "civic-law"
+    domain_tags: ["law-governance", "history-memory"]
+    register: "civic"
+    english: "The cemetery registry remembers the people."
+    ethra: "Camatay-da mar lem."
+    literal: "Cemetery-record remembers people."
+    notes: "Burial grounds are civic memory, not only private grief."
+    terms: ["camatay-da", "mar", "lem"]
+  -
+    id: "civic-660"
+    track: "civic-law"
+    domain_tags: ["law-governance", "history-memory"]
+    register: "civic"
+    english: "The artifact catalog protects memory."
+    ethra: "Aarataf-da xap mer."
+    literal: "Artifact-record protects memory."
+    notes: "Made evidence needs provenance to keep speaking truthfully."
+    terms: ["aarataf-da", "xap", "mer"]
+  -
+    id: "ritual-643"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "The funeral rite carries memory."
+    ethra: "Ha-funurul taw mer."
+    literal: "Ritual-funeral carries memory."
+    notes: "Mourning gives grief a form that can stand."
+    terms: ["ha-funurul", "taw", "mer"]
+  -
+    id: "ritual-644"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship", "history-memory"]
+    register: "ritual"
+    english: "Genealogy remembers identity."
+    ethra: "Ha-gunuluj mar yes."
+    literal: "Ritual-genealogy remembers identity."
+    notes: "Named descent enters solemn continuity."
+    terms: ["ha-gunuluj", "mar", "yes"]
+  -
+    id: "ritual-645"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "The chronicle records memory."
+    ethra: "Ha-cuhurun kat mer."
+    literal: "Ritual-chronicle records memory."
+    notes: "Events are ordered so time can answer."
+    terms: ["ha-cuhurun", "kat", "mer"]
+  -
+    id: "ritual-646"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory", "media-communication"]
+    register: "ritual"
+    english: "Oral history carries the word."
+    ethra: "Ha-supulum taw nem."
+    literal: "Ritual-oral-history carries word."
+    notes: "Spoken testimony keeps memory embodied."
+    terms: ["ha-supulum", "taw", "nem"]
+  -
+    id: "ritual-647"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "The ruin reveals what was broken."
+    ethra: "Ha-ruwunux rah mik."
+    literal: "Ritual-ruin reveals brokenness."
+    notes: "A remnant teaches because loss remains visible."
+    terms: ["ha-ruwunux", "rah", "mik"]
+  -
+    id: "ritual-648"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "The artifact reveals memory."
+    ethra: "Ha-aurutuf rah mer."
+    literal: "Ritual-artifact reveals memory."
+    notes: "A made thing can testify after the maker is gone."
+    terms: ["ha-aurutuf", "rah", "mer"]
+  -
+    id: "ritual-649"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "The cemetery remembers the people."
+    ethra: "Ha-cumutuy mar lem."
+    literal: "Ritual-cemetery remembers people."
+    notes: "Land is taught to carry names."
+    terms: ["ha-cumutuy", "mar", "lem"]
+  -
+    id: "ritual-650"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "daily-life"]
+    register: "ritual"
+    english: "Cold keeping protects provision."
+    ethra: "Ha-furudug xap par."
+    literal: "Ritual-refrigerator protects provision."
+    notes: "Solemn speech can bless ordinary preservation."
+    terms: ["ha-furudug", "xap", "par"]
+  -
+    id: "ritual-651"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "Sanitation protects care."
+    ethra: "Ha-tulutux xap hal."
+    literal: "Ritual-toilet protects care."
+    notes: "Dignity includes the hidden needs of the body."
+    terms: ["ha-tulutux", "xap", "hal"]
+  -
+    id: "ritual-652"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship"]
+    register: "ritual"
+    english: "Warmth protects the child."
+    ethra: "Ha-huturux xap tu."
+    literal: "Ritual-heater protects child."
+    notes: "Household warmth becomes a vow toward vulnerability."
+    terms: ["ha-huturux", "xap", "tu"]
+  -
+    id: "ritual-653"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "Cooling protects care."
+    ethra: "Ha-kulurux xap hal."
+    literal: "Ritual-cooling protects care."
+    notes: "Relief from heat is named as mercy."
+    terms: ["ha-kulurux", "xap", "hal"]
+  -
+    id: "ritual-654"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "ritual"
+    english: "The outage reveals duty."
+    ethra: "Ha-ouuutug rah dev."
+    literal: "Ritual-outage reveals duty."
+    notes: "Failure teaches gratitude for hidden service."
+    terms: ["ha-ouuutug", "rah", "dev"]
+  -
+    id: "ritual-655"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "ritual"
+    english: "The labor union carries duty."
+    ethra: "Ha-luburun taw dev."
+    literal: "Ritual-labor-union carries duty."
+    notes: "Workers become one answerable voice."
+    terms: ["ha-luburun", "taw", "dev"]
+  -
+    id: "ritual-656"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "ritual"
+    english: "The strike names pain."
+    ethra: "Ha-suturuk nam pan."
+    literal: "Ritual-strike names pain."
+    notes: "Withheld work becomes speech when ordinary speech failed."
+    terms: ["ha-suturuk", "nam", "pan"]
+  -
+    id: "ritual-657"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "ritual"
+    english: "The referendum names the people."
+    ethra: "Ha-rufurud nam lem."
+    literal: "Ritual-referendum names people."
+    notes: "A people answers without hiding behind office."
+    terms: ["ha-rufurud", "nam", "lem"]
+  -
+    id: "ritual-658"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "Immigration guides the people."
+    ethra: "Ha-iumugur pat lem."
+    literal: "Ritual-immigration guides people."
+    notes: "Crossing toward belonging is made solemn."
+    terms: ["ha-iumugur", "pat", "lem"]
+  -
+    id: "ritual-659"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication"]
+    register: "ritual"
+    english: "Copyright names inheritance."
+    ethra: "Ha-cupuyur nam mor."
+    literal: "Ritual-copyright names inherited-duty."
+    notes: "Authored work carries a name through time."
+    terms: ["ha-cupuyur", "nam", "mor"]
+  -
+    id: "ritual-660"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "ritual"
+    english: "The trademark protects the word."
+    ethra: "Ha-turudum xap nem."
+    literal: "Ritual-trademark protects word."
+    notes: "A trusted sign must not lie about source."
+    terms: ["ha-turudum", "xap", "nem"]
+  -
+    id: "tech-857"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The appliance log records data."
+    ethra: "Aapalac-ket kat den."
+    literal: "Appliance-record records data."
+    notes: "Domestic tools become governable through maintenance evidence."
+    terms: ["aapalac-ket", "kat", "den"]
+  -
+    id: "tech-858"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The thermostat log protects data."
+    ethra: "Taharam-ket xap den."
+    literal: "Thermostat-record protects data."
+    notes: "Temperature control is modeled as a thresholded system."
+    terms: ["taharam-ket", "xap", "den"]
+  -
+    id: "tech-859"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical"
+    english: "The utility meter carries data."
+    ethra: "Uatalax-ket taw den."
+    literal: "Utility-record carries data."
+    notes: "Essential service data links household life to public systems."
+    terms: ["uatalax-ket", "taw", "den"]
+  -
+    id: "tech-860"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical"
+    english: "The outage report reveals data."
+    ethra: "Oauatag-ket rah den."
+    literal: "Outage-record reveals data."
+    notes: "Service interruption becomes diagnosable when logged."
+    terms: ["oauatag-ket", "rah", "den"]
+  -
+    id: "tech-861"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "The elevator inspection protects data."
+    ethra: "Ealavat-ket xap den."
+    literal: "Elevator-record protects data."
+    notes: "Lift safety requires structured inspection records."
+    terms: ["ealavat-ket", "xap", "den"]
+  -
+    id: "tech-862"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "The traffic study guides data."
+    ethra: "Tarafac-ket pat den."
+    literal: "Traffic-record guides data."
+    notes: "Movement flow becomes governable as measured information."
+    terms: ["tarafac-ket", "pat", "den"]
+  -
+    id: "tech-863"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "The terminal schedule carries data."
+    ethra: "Tamanal-ket taw den."
+    literal: "Terminal-record carries data."
+    notes: "Passenger thresholds are coordinated through shared records."
+    terms: ["tamanal-ket", "taw", "den"]
+  -
+    id: "tech-864"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical"
+    english: "The referendum record stores data."
+    ethra: "Rafarad-ket kat den."
+    literal: "Referendum-record records data."
+    notes: "Votes need durable count evidence."
+    terms: ["rafarad-ket", "kat", "den"]
+  -
+    id: "tech-865"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The copyright registry protects data."
+    ethra: "Capayar-ket xap den."
+    literal: "Copyright-record protects data."
+    notes: "Licensing metadata keeps authorship machine-readable."
+    terms: ["capayar-ket", "xap", "den"]
+  -
+    id: "tech-866"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The trademark registry protects data."
+    ethra: "Taradam-ket xap den."
+    literal: "Trademark-record protects data."
+    notes: "Source identity is a searchable public record."
+    terms: ["taradam-ket", "xap", "den"]
+  -
+    id: "tech-867"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical"
+    english: "The customs declaration reveals data."
+    ethra: "Casatax-ket rah den."
+    literal: "Customs-record reveals data."
+    notes: "Border goods inspection depends on declared structured facts."
+    terms: ["casatax-ket", "rah", "den"]
+  -
+    id: "tech-868"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical"
+    english: "The immigration file guides data."
+    ethra: "Iamagar-ket pat den."
+    literal: "Immigration-record guides data."
+    notes: "Case systems must keep persons visible inside process."
+    terms: ["iamagar-ket", "pat", "den"]
+  -
+    id: "tech-869"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The refrigerator sensor protects data."
+    ethra: "Faradag-ket xap den."
+    literal: "Refrigerator-record protects data."
+    notes: "Food safety can be monitored through cold-chain logs."
+    terms: ["faradag-ket", "xap", "den"]
+  -
+    id: "tech-870"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The sanitation inspection protects data."
+    ethra: "Talatax-ket xap den."
+    literal: "Toilet-record protects data."
+    notes: "Public sanitation records make hidden fixtures accountable."
+    terms: ["talatax-ket", "xap", "den"]
+  -
+    id: "tech-871"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The oven log protects data."
+    ethra: "Oavanax-ket xap den."
+    literal: "Oven-record protects data."
+    notes: "Heat cycles become inspectable for safety and repair."
+    terms: ["oavanax-ket", "xap", "den"]
+  -
+    id: "tech-872"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The microwave log protects data."
+    ethra: "Macawav-ket xap den."
+    literal: "Microwave-record protects data."
+    notes: "Small appliances still belong to accountable maintenance."
+    terms: ["macawav-ket", "xap", "den"]
+  -
+    id: "tech-873"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The dishwasher log protects data."
+    ethra: "Dasahaw-ket xap den."
+    literal: "Dishwasher-record protects data."
+    notes: "Water and energy use enter household infrastructure data."
+    terms: ["dasahaw-ket", "xap", "den"]
+  -
+    id: "tech-874"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The washer log protects data."
+    ethra: "Wasaham-ket xap den."
+    literal: "Washing-machine-record protects data."
+    notes: "Laundry cycles become service evidence."
+    terms: ["wasaham-ket", "xap", "den"]
+  -
+    id: "tech-875"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The dryer log protects data."
+    ethra: "Darayar-ket xap den."
+    literal: "Dryer-record protects data."
+    notes: "Vent and heat records matter for safety."
+    terms: ["darayar-ket", "xap", "den"]
+  -
+    id: "tech-876"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The vacuum log protects data."
+    ethra: "Vacamax-ket xap den."
+    literal: "Vacuum-record protects data."
+    notes: "Indoor air and cleaning tools can be tracked without mystique."
+    terms: ["vacamax-ket", "xap", "den"]
+  -
+    id: "tech-877"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The heater log protects data."
+    ethra: "Hatarax-ket xap den."
+    literal: "Heater-record protects data."
+    notes: "Winter safety needs auditable heat systems."
+    terms: ["hatarax-ket", "xap", "den"]
+  -
+    id: "tech-878"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The cooling log protects data."
+    ethra: "Kalarax-ket xap den."
+    literal: "Cooling-record protects data."
+    notes: "Heat-risk response depends on reliable climate data."
+    terms: ["kalarax-ket", "xap", "den"]
+  -
+    id: "tech-879"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The furnace inspection protects data."
+    ethra: "Faranac-ket xap den."
+    literal: "Furnace-record protects data."
+    notes: "Central heat is public enough to require inspection evidence."
+    terms: ["faranac-ket", "xap", "den"]
+  -
+    id: "tech-880"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The boiler inspection protects data."
+    ethra: "Balarax-ket xap den."
+    literal: "Boiler-record protects data."
+    notes: "Pressure heat needs records because comfort carries danger."
+    terms: ["balarax-ket", "xap", "den"]
+  -
+    id: "poetic-857"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "The cemetery remembers names."
+    ethra: "Cemetey mar nam."
+    literal: "Cemetery remembers names."
+    notes: "Land becomes a page for the dead."
+    terms: ["cemetey", "mar", "nam"]
+  -
+    id: "poetic-858"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ritual-spiritual"]
+    register: "poetic"
+    english: "The funeral carries love."
+    ethra: "Fenerel taw mev."
+    literal: "Funeral carries love."
+    notes: "Grief is love given public form."
+    terms: ["fenerel", "taw", "mev"]
+  -
+    id: "poetic-859"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship", "history-memory"]
+    register: "poetic"
+    english: "Genealogy carries inheritance."
+    ethra: "Genelej taw mor."
+    literal: "Genealogy carries inherited-duty."
+    notes: "Names make a ladder for memory."
+    terms: ["genelej", "taw", "mor"]
+  -
+    id: "poetic-860"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "The chronicle records memory."
+    ethra: "Ceheren kat mer."
+    literal: "Chronicle records memory."
+    notes: "Time speaks when events are ordered."
+    terms: ["ceheren", "kat", "mer"]
+  -
+    id: "poetic-861"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "Oral history carries memory."
+    ethra: "Sepelem taw mer."
+    literal: "Oral history carries memory."
+    notes: "The mouth keeps what paper has not yet held."
+    terms: ["sepelem", "taw", "mer"]
+  -
+    id: "poetic-862"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "The ruin reveals brokenness."
+    ethra: "Rewenex rah mik."
+    literal: "Ruin reveals brokenness."
+    notes: "Broken walls keep teaching after loss."
+    terms: ["rewenex", "rah", "mik"]
+  -
+    id: "poetic-863"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "The artifact names memory."
+    ethra: "Aeretef nam mer."
+    literal: "Artifact names memory."
+    notes: "A made object keeps a human trace."
+    terms: ["aeretef", "nam", "mer"]
+  -
+    id: "poetic-864"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "daily-life"]
+    register: "poetic"
+    english: "Cold keeping protects provision."
+    ethra: "Mi-faradag xap par."
+    literal: "Intimate-refrigerator protects provision."
+    notes: "Care sometimes wears the shape of preservation."
+    terms: ["mi-faradag", "xap", "par"]
+  -
+    id: "poetic-865"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Sanitation protects care."
+    ethra: "Mi-talatax xap hal."
+    literal: "Intimate-toilet protects care."
+    notes: "The least public need still belongs to dignity."
+    terms: ["mi-talatax", "xap", "hal"]
+  -
+    id: "poetic-866"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship"]
+    register: "poetic"
+    english: "The sofa carries rest."
+    ethra: "Mi-saoafax taw cap."
+    literal: "Intimate-sofa carries rest."
+    notes: "A household lowers its guard together."
+    terms: ["mi-saoafax", "taw", "cap"]
+  -
+    id: "poetic-867"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "daily-life"]
+    register: "poetic"
+    english: "The oven builds provision."
+    ethra: "Oevenex ban par."
+    literal: "Oven builds provision."
+    notes: "Patient fire becomes food."
+    terms: ["oevenex", "ban", "par"]
+  -
+    id: "poetic-868"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The fan carries air."
+    ethra: "Feaenex taw wah."
+    literal: "Fan carries air."
+    notes: "A small wind obeys care."
+    terms: ["feaenex", "taw", "wah"]
+  -
+    id: "poetic-869"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship"]
+    register: "poetic"
+    english: "The heater protects the child."
+    ethra: "Heterex xap tu."
+    literal: "Heater protects child."
+    notes: "Warmth keeps watch beside vulnerability."
+    terms: ["heterex", "xap", "tu"]
+  -
+    id: "poetic-870"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Cooling protects care."
+    ethra: "Kelerex xap hal."
+    literal: "Cooling protects care."
+    notes: "Relief is a quiet form of mercy."
+    terms: ["kelerex", "xap", "hal"]
+  -
+    id: "poetic-871"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "Rent binds the household."
+    ethra: "Renetex dav hon."
+    literal: "Rent binds household."
+    notes: "A roof held by agreement still asks for justice."
+    terms: ["renetex", "dav", "hon"]
+  -
+    id: "poetic-872"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "Tenancy reveals right."
+    ethra: "Tenenex rah ret."
+    literal: "Tenancy reveals right."
+    notes: "Shelter needs a name before power."
+    terms: ["tenenex", "rah", "ret"]
+  -
+    id: "poetic-873"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "Eviction reveals pain."
+    ethra: "Eevecex rah pan."
+    literal: "Eviction reveals pain."
+    notes: "A lost roof must not lose the person."
+    terms: ["eevecex", "rah", "pan"]
+  -
+    id: "poetic-874"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "daily-life"]
+    register: "poetic"
+    english: "Utility service carries the household."
+    ethra: "Uetelex taw hon."
+    literal: "Utility service carries household."
+    notes: "Hidden systems enter the house as common life."
+    terms: ["uetelex", "taw", "hon"]
+  -
+    id: "poetic-875"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "daily-life"]
+    register: "poetic"
+    english: "The outage reveals the household."
+    ethra: "Oeueteg rah hon."
+    literal: "Outage reveals household."
+    notes: "Failure uncovers what had been faithfully hidden."
+    terms: ["oeueteg", "rah", "hon"]
+  -
+    id: "poetic-876"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "The labor union names the people."
+    ethra: "Leberen nam lem."
+    literal: "Labor union names people."
+    notes: "Many workers make one voice answerable."
+    terms: ["leberen", "nam", "lem"]
+  -
+    id: "poetic-877"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The strike names pain."
+    ethra: "Seterek nam pan."
+    literal: "Strike names pain."
+    notes: "Absence becomes loud when speech was not heard."
+    terms: ["seterek", "nam", "pan"]
+  -
+    id: "poetic-878"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "The referendum names the people."
+    ethra: "Refered nam lem."
+    literal: "Referendum names people."
+    notes: "A public answer steps out from the crowd."
+    terms: ["refered", "nam", "lem"]
+  -
+    id: "poetic-879"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "Immigration guides identity."
+    ethra: "Iemeger pat yes."
+    literal: "Immigration guides identity."
+    notes: "Crossing becomes a path toward belonging."
+    terms: ["iemeger", "pat", "yes"]
+  -
+    id: "poetic-880"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "Traffic guides the people."
+    ethra: "Terefec pat lem."
+    literal: "Traffic guides people."
+    notes: "Many journeys learn not to become harm."
+    terms: ["terefec", "pat", "lem"]
+  -
+    id: "learner-429"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "The refrigerator protects food."
+    ethra: "Feredeg xap par."
+    literal: "Refrigerator protects provision."
+    notes: "A1 household provision sentence."
+    terms: ["feredeg", "xap", "par"]
+  -
+    id: "learner-430"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "The toilet protects care."
+    ethra: "Teletex xap hal."
+    literal: "Toilet protects care."
+    notes: "A1 sanitation sentence."
+    terms: ["teletex", "xap", "hal"]
+  -
+    id: "learner-431"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "learner-a1"
+    english: "The sofa carries rest."
+    ethra: "Seoefex taw cap."
+    literal: "Sofa carries rest."
+    notes: "A1 household rest sentence."
+    terms: ["seoefex", "taw", "cap"]
+  -
+    id: "learner-432"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "The oven builds food."
+    ethra: "Oevenex ban par."
+    literal: "Oven builds provision."
+    notes: "A1 cooking sentence."
+    terms: ["oevenex", "ban", "par"]
+  -
+    id: "learner-433"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "The fan guides air."
+    ethra: "Feaenex pat wah."
+    literal: "Fan guides air."
+    notes: "A1 air and comfort sentence."
+    terms: ["feaenex", "pat", "wah"]
+  -
+    id: "learner-434"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "Rent binds the household."
+    ethra: "Renetex dav hon."
+    literal: "Rent binds household."
+    notes: "A1 housing duty sentence."
+    terms: ["renetex", "dav", "hon"]
+  -
+    id: "learner-435"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "Tenancy protects the household."
+    ethra: "Tenenex xap hon."
+    literal: "Tenancy protects household."
+    notes: "A1 dwelling-right sentence."
+    terms: ["tenenex", "xap", "hon"]
+  -
+    id: "learner-436"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "The outage reveals duty."
+    ethra: "Oeueteg rah dev."
+    literal: "Outage reveals duty."
+    notes: "A1 service-failure sentence."
+    terms: ["oeueteg", "rah", "dev"]
+  -
+    id: "learner-437"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "The labor union names duty."
+    ethra: "Leberen nam dev."
+    literal: "Labor union names duty."
+    notes: "A1 work and public voice sentence."
+    terms: ["leberen", "nam", "dev"]
+  -
+    id: "learner-438"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "The referendum names the people."
+    ethra: "Refered nam lem."
+    literal: "Referendum names people."
+    notes: "A1 public-vote sentence."
+    terms: ["refered", "nam", "lem"]
+  -
+    id: "learner-439"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "history-memory"]
+    register: "learner-a1"
+    english: "The cemetery remembers the people."
+    ethra: "Cemetey mar lem."
+    literal: "Cemetery remembers people."
+    notes: "A1 memory and place sentence."
+    terms: ["cemetey", "mar", "lem"]
+  -
+    id: "learner-440"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "history-memory"]
+    register: "learner-a1"
+    english: "The artifact protects memory."
+    ethra: "Aeretef xap mer."
+    literal: "Artifact protects memory."
+    notes: "A1 historical-object sentence."
+    terms: ["aeretef", "xap", "mer"]

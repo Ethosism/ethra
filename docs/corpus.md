@@ -7,9 +7,9 @@ The machine-readable corpus plan is in `spec/corpus-plan.yaml`. Reviewed seed co
 Current seed corpus progress:
 
 ```text
-items 4,280 / 10,000 for v1.0
+items 4,400 / 10,000 for v1.0
 tracks  6 / 6 represented
-balance daily 856, civic 642, ritual 642, technical 856, poetic 856, learner 428
+balance daily 880, civic 660, ritual 660, technical 880, poetic 880, learner 440
 ```
 
 ## Corpus Tracks
@@ -54,7 +54,7 @@ A large dictionary without corpus becomes ornamental. Corpus reveals whether a w
 
 The `corpus-next` command recommends the next reviewed batch toward the active roadmap milestone. It uses the active roadmap target, the track weights in `spec/corpus-plan.yaml`, current item IDs, and current domain counts to avoid overfilling easy tracks while science, emotion, philosophy, economics, travel/place, ecology, AI, and health remain thin.
 
-For the current v0.9.4 state, the next 120-item batch points toward v1.0: 24 daily, 18 civic, 18 ritual, 24 technical, 24 poetic, and 12 learner items, starting at `daily-857`, `civic-643`, `ritual-643`, `tech-857`, `poetic-857`, and `learner-429`.
+For the current v0.9.5 state, the next 120-item batch points toward v1.0: 24 daily, 18 civic, 18 ritual, 24 technical, 24 poetic, and 12 learner items, starting at `daily-881`, `civic-661`, `ritual-661`, `tech-881`, `poetic-881`, and `learner-441`.
 
 ## CLI
 
