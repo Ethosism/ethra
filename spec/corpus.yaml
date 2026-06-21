@@ -1,4 +1,4 @@
-version: "0.10.1-corpus"
+version: "0.10.3-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -47601,3 +47601,1203 @@ items:
     literal: "Benchmark names measure."
     notes: "A1 grounding for standard test task."
     terms: ["beneceh", "nam", "mas"]
+  -
+    id: "daily-953"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Subsidiarity protects people."
+    ethra: "Sebeder xap lem."
+    literal: "Subsidiarity protects people."
+    notes: "Daily grounding for local-first public authority."
+    terms: ["sebeder", "xap", "lem"]
+  -
+    id: "daily-954"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Proportionality protects justice."
+    ethra: "Perepen xap sak."
+    literal: "Proportionality protects justice."
+    notes: "Daily grounding for fitted public response."
+    terms: ["perepen", "xap", "sak"]
+  -
+    id: "daily-955"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Due process protects justice."
+    ethra: "Deperes xap sak."
+    literal: "Due process protects justice."
+    notes: "Daily grounding for rightful procedure."
+    terms: ["deperes", "xap", "sak"]
+  -
+    id: "daily-956"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security", "law-governance"]
+    register: "plain"
+    english: "Redress repairs harm."
+    ethra: "Rederes tar pan."
+    literal: "Redress repairs harm."
+    notes: "Daily grounding for formal remedy."
+    terms: ["rederes", "tar", "pan"]
+  -
+    id: "daily-957"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Arraignment names duty."
+    ethra: "Aeregen nam dev."
+    literal: "Arraignment names duty."
+    notes: "Daily grounding for formal charge hearing."
+    terms: ["aeregen", "nam", "dev"]
+  -
+    id: "daily-958"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Sentencing binds duty."
+    ethra: "Seeenet dav dev."
+    literal: "Sentencing binds duty."
+    notes: "Daily grounding for consequence judgment."
+    terms: ["seeenet", "dav", "dev"]
+  -
+    id: "daily-959"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Clemency protects justice."
+    ethra: "Celemen xap sak."
+    literal: "Clemency protects justice."
+    notes: "Daily grounding for lawful mercy."
+    terms: ["celemen", "xap", "sak"]
+  -
+    id: "daily-960"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance", "conflict-security"]
+    register: "plain"
+    english: "Amnesty repairs harm."
+    ethra: "Aemeset tar pan."
+    literal: "Amnesty repairs harm."
+    notes: "Daily grounding for public penalty release."
+    terms: ["aemeset", "tar", "pan"]
+  -
+    id: "daily-961"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Recusal protects justice."
+    ethra: "Receues xap sak."
+    literal: "Recusal protects justice."
+    notes: "Daily grounding for fairness withdrawal."
+    terms: ["receues", "xap", "sak"]
+  -
+    id: "daily-962"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Conflict of interest reveals risk."
+    ethra: "Cefeiet rah kav."
+    literal: "Conflict of interest reveals risk."
+    notes: "Daily grounding for divided loyalty."
+    terms: ["cefeiet", "rah", "kav"]
+  -
+    id: "daily-963"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Ethics disclosure reveals truth."
+    ethra: "Eetehed rah rih."
+    literal: "Ethics disclosure reveals truth."
+    notes: "Daily grounding for interest disclosure."
+    terms: ["eetehed", "rah", "rih"]
+  -
+    id: "daily-964"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication", "law-governance"]
+    register: "plain"
+    english: "Public comment carries meaning."
+    ethra: "Pecemet taw nem."
+    literal: "Public comment carries meaning."
+    notes: "Daily grounding for civic testimony."
+    terms: ["pecemet", "taw", "nem"]
+  -
+    id: "daily-965"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "plain"
+    english: "Agenda guides attention."
+    ethra: "Aegened pat naf."
+    literal: "Agenda guides attention."
+    notes: "Daily grounding for ordered public business."
+    terms: ["aegened", "pat", "naf"]
+  -
+    id: "daily-966"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Docket carries writing."
+    ethra: "Deceket taw ket."
+    literal: "Docket carries writing."
+    notes: "Daily grounding for ordered case lists."
+    terms: ["deceket", "taw", "ket"]
+  -
+    id: "daily-967"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Federalism protects people."
+    ethra: "Feeeder xap lem."
+    literal: "Federalism protects people."
+    notes: "Daily grounding for layered authority."
+    terms: ["feeeder", "xap", "lem"]
+  -
+    id: "daily-968"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Separation of powers protects rule."
+    ethra: "Sepewer xap rag."
+    literal: "Separation of powers protects rule."
+    notes: "Daily grounding for divided offices."
+    terms: ["sepewer", "xap", "rag"]
+  -
+    id: "daily-969"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Checks and balances protects rule."
+    ethra: "Cekebel xap rag."
+    literal: "Checks and balances protects rule."
+    notes: "Daily grounding for reciprocal restraint."
+    terms: ["cekebel", "xap", "rag"]
+  -
+    id: "daily-970"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Judicial review protects justice."
+    ethra: "Jederev xap sak."
+    literal: "Judicial review protects justice."
+    notes: "Daily grounding for court power testing."
+    terms: ["jederev", "xap", "sak"]
+  -
+    id: "daily-971"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Executive order binds rule."
+    ethra: "Eexeoer dav rag."
+    literal: "Executive order binds rule."
+    notes: "Daily grounding for administrative command."
+    terms: ["eexeoer", "dav", "rag"]
+  -
+    id: "daily-972"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "plain"
+    english: "Misinformation breaks truth."
+    ethra: "Meiesei mak rih."
+    literal: "Misinformation breaks truth."
+    notes: "Daily grounding for mistaken public claims."
+    terms: ["meiesei", "mak", "rih"]
+  -
+    id: "daily-973"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "plain"
+    english: "Disinformation breaks people."
+    ethra: "Desenef mak lem."
+    literal: "Disinformation breaks people."
+    notes: "Daily grounding for intentional public deception."
+    terms: ["desenef", "mak", "lem"]
+  -
+    id: "daily-974"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "plain"
+    english: "Credibility protects evidence."
+    ethra: "Ceredeb xap xeg."
+    literal: "Credibility protects evidence."
+    notes: "Daily grounding for warranted trust."
+    terms: ["ceredeb", "xap", "xeg"]
+  -
+    id: "daily-975"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "plain"
+    english: "Source trace carries evidence."
+    ethra: "Serecet taw xeg."
+    literal: "Source trace carries evidence."
+    notes: "Daily grounding for accountable source paths."
+    terms: ["serecet", "taw", "xeg"]
+  -
+    id: "daily-976"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance", "media-communication"]
+    register: "plain"
+    english: "Anonymity protects name."
+    ethra: "Aeneoen xap nam."
+    literal: "Anonymity protects name."
+    notes: "Daily grounding for protected unnamedness."
+    terms: ["aeneoen", "xap", "nam"]
+  -
+    id: "civic-715"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Subsidiarity record protects people."
+    ethra: "Sabadar-da xap lem."
+    literal: "Subsidiarity-record protects people."
+    notes: "Civic grounding for local-first public authority."
+    terms: ["sabadar-da", "xap", "lem"]
+  -
+    id: "civic-716"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Proportionality record protects justice."
+    ethra: "Parapan-da xap sak."
+    literal: "Proportionality-record protects justice."
+    notes: "Civic grounding for fitted public response."
+    terms: ["parapan-da", "xap", "sak"]
+  -
+    id: "civic-717"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Due process record protects justice."
+    ethra: "Daparas-da xap sak."
+    literal: "Due process-record protects justice."
+    notes: "Civic grounding for rightful procedure."
+    terms: ["daparas-da", "xap", "sak"]
+  -
+    id: "civic-718"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Redress record repairs harm."
+    ethra: "Radaras-da tar pan."
+    literal: "Redress-record repairs harm."
+    notes: "Civic grounding for formal remedy."
+    terms: ["radaras-da", "tar", "pan"]
+  -
+    id: "civic-719"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Arraignment record names duty."
+    ethra: "Aaragan-da nam dev."
+    literal: "Arraignment-record names duty."
+    notes: "Civic grounding for formal charge hearing."
+    terms: ["aaragan-da", "nam", "dev"]
+  -
+    id: "civic-720"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Sentencing record binds duty."
+    ethra: "Saeanat-da dav dev."
+    literal: "Sentencing-record binds duty."
+    notes: "Civic grounding for consequence judgment."
+    terms: ["saeanat-da", "dav", "dev"]
+  -
+    id: "civic-721"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Clemency record protects justice."
+    ethra: "Calaman-da xap sak."
+    literal: "Clemency-record protects justice."
+    notes: "Civic grounding for lawful mercy."
+    terms: ["calaman-da", "xap", "sak"]
+  -
+    id: "civic-722"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Amnesty record repairs harm."
+    ethra: "Aamasat-da tar pan."
+    literal: "Amnesty-record repairs harm."
+    notes: "Civic grounding for public penalty release."
+    terms: ["aamasat-da", "tar", "pan"]
+  -
+    id: "civic-723"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Recusal record protects justice."
+    ethra: "Racauas-da xap sak."
+    literal: "Recusal-record protects justice."
+    notes: "Civic grounding for fairness withdrawal."
+    terms: ["racauas-da", "xap", "sak"]
+  -
+    id: "civic-724"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Conflict of interest record reveals risk."
+    ethra: "Cafaiat-da rah kav."
+    literal: "Conflict of interest-record reveals risk."
+    notes: "Civic grounding for divided loyalty."
+    terms: ["cafaiat-da", "rah", "kav"]
+  -
+    id: "civic-725"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Ethics disclosure record reveals truth."
+    ethra: "Eatahad-da rah rih."
+    literal: "Ethics disclosure-record reveals truth."
+    notes: "Civic grounding for interest disclosure."
+    terms: ["eatahad-da", "rah", "rih"]
+  -
+    id: "civic-726"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Public comment record carries meaning."
+    ethra: "Pacamat-da taw nem."
+    literal: "Public comment-record carries meaning."
+    notes: "Civic grounding for civic testimony."
+    terms: ["pacamat-da", "taw", "nem"]
+  -
+    id: "civic-727"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Agenda record guides attention."
+    ethra: "Aaganad-da pat naf."
+    literal: "Agenda-record guides attention."
+    notes: "Civic grounding for ordered public business."
+    terms: ["aaganad-da", "pat", "naf"]
+  -
+    id: "civic-728"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Docket record carries writing."
+    ethra: "Dacakat-da taw ket."
+    literal: "Docket-record carries writing."
+    notes: "Civic grounding for ordered case lists."
+    terms: ["dacakat-da", "taw", "ket"]
+  -
+    id: "civic-729"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Federalism record protects people."
+    ethra: "Faeadar-da xap lem."
+    literal: "Federalism-record protects people."
+    notes: "Civic grounding for layered authority."
+    terms: ["faeadar-da", "xap", "lem"]
+  -
+    id: "civic-730"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Separation of powers record protects rule."
+    ethra: "Sapawar-da xap rag."
+    literal: "Separation of powers-record protects rule."
+    notes: "Civic grounding for divided offices."
+    terms: ["sapawar-da", "xap", "rag"]
+  -
+    id: "civic-731"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Checks and balances record protects rule."
+    ethra: "Cakabal-da xap rag."
+    literal: "Checks and balances-record protects rule."
+    notes: "Civic grounding for reciprocal restraint."
+    terms: ["cakabal-da", "xap", "rag"]
+  -
+    id: "civic-732"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic-record"
+    english: "Judicial review record protects justice."
+    ethra: "Jadarav-da xap sak."
+    literal: "Judicial review-record protects justice."
+    notes: "Civic grounding for court power testing."
+    terms: ["jadarav-da", "xap", "sak"]
+  -
+    id: "ritual-715"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Subsidiarity solemn protects people."
+    ethra: "Ha-subudur xap lem."
+    literal: "Subsidiarity-solemn protects people."
+    notes: "Ritual grounding for local-first public authority."
+    terms: ["ha-subudur", "xap", "lem"]
+  -
+    id: "ritual-716"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Proportionality solemn protects justice."
+    ethra: "Ha-purupun xap sak."
+    literal: "Proportionality-solemn protects justice."
+    notes: "Ritual grounding for fitted public response."
+    terms: ["ha-purupun", "xap", "sak"]
+  -
+    id: "ritual-717"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Due process solemn protects justice."
+    ethra: "Ha-dupurus xap sak."
+    literal: "Due process-solemn protects justice."
+    notes: "Ritual grounding for rightful procedure."
+    terms: ["ha-dupurus", "xap", "sak"]
+  -
+    id: "ritual-718"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Redress solemn repairs harm."
+    ethra: "Ha-rudurus tar pan."
+    literal: "Redress-solemn repairs harm."
+    notes: "Ritual grounding for formal remedy."
+    terms: ["ha-rudurus", "tar", "pan"]
+  -
+    id: "ritual-719"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Arraignment solemn names duty."
+    ethra: "Ha-aurugun nam dev."
+    literal: "Arraignment-solemn names duty."
+    notes: "Ritual grounding for formal charge hearing."
+    terms: ["ha-aurugun", "nam", "dev"]
+  -
+    id: "ritual-720"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Sentencing solemn binds duty."
+    ethra: "Ha-sueunut dav dev."
+    literal: "Sentencing-solemn binds duty."
+    notes: "Ritual grounding for consequence judgment."
+    terms: ["ha-sueunut", "dav", "dev"]
+  -
+    id: "ritual-721"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Clemency solemn protects justice."
+    ethra: "Ha-culumun xap sak."
+    literal: "Clemency-solemn protects justice."
+    notes: "Ritual grounding for lawful mercy."
+    terms: ["ha-culumun", "xap", "sak"]
+  -
+    id: "ritual-722"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Amnesty solemn repairs harm."
+    ethra: "Ha-aumusut tar pan."
+    literal: "Amnesty-solemn repairs harm."
+    notes: "Ritual grounding for public penalty release."
+    terms: ["ha-aumusut", "tar", "pan"]
+  -
+    id: "ritual-723"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Recusal solemn protects justice."
+    ethra: "Ha-rucuuus xap sak."
+    literal: "Recusal-solemn protects justice."
+    notes: "Ritual grounding for fairness withdrawal."
+    terms: ["ha-rucuuus", "xap", "sak"]
+  -
+    id: "ritual-724"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Conflict of interest solemn reveals risk."
+    ethra: "Ha-cufuiut rah kav."
+    literal: "Conflict of interest-solemn reveals risk."
+    notes: "Ritual grounding for divided loyalty."
+    terms: ["ha-cufuiut", "rah", "kav"]
+  -
+    id: "ritual-725"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Ethics disclosure solemn reveals truth."
+    ethra: "Ha-eutuhud rah rih."
+    literal: "Ethics disclosure-solemn reveals truth."
+    notes: "Ritual grounding for interest disclosure."
+    terms: ["ha-eutuhud", "rah", "rih"]
+  -
+    id: "ritual-726"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Public comment solemn carries meaning."
+    ethra: "Ha-pucumut taw nem."
+    literal: "Public comment-solemn carries meaning."
+    notes: "Ritual grounding for civic testimony."
+    terms: ["ha-pucumut", "taw", "nem"]
+  -
+    id: "ritual-727"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Agenda solemn guides attention."
+    ethra: "Ha-augunud pat naf."
+    literal: "Agenda-solemn guides attention."
+    notes: "Ritual grounding for ordered public business."
+    terms: ["ha-augunud", "pat", "naf"]
+  -
+    id: "ritual-728"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Docket solemn carries writing."
+    ethra: "Ha-ducukut taw ket."
+    literal: "Docket-solemn carries writing."
+    notes: "Ritual grounding for ordered case lists."
+    terms: ["ha-ducukut", "taw", "ket"]
+  -
+    id: "ritual-729"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Federalism solemn protects people."
+    ethra: "Ha-fueudur xap lem."
+    literal: "Federalism-solemn protects people."
+    notes: "Ritual grounding for layered authority."
+    terms: ["ha-fueudur", "xap", "lem"]
+  -
+    id: "ritual-730"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Separation of powers solemn protects rule."
+    ethra: "Ha-supuwur xap rag."
+    literal: "Separation of powers-solemn protects rule."
+    notes: "Ritual grounding for divided offices."
+    terms: ["ha-supuwur", "xap", "rag"]
+  -
+    id: "ritual-731"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Checks and balances solemn protects rule."
+    ethra: "Ha-cukubul xap rag."
+    literal: "Checks and balances-solemn protects rule."
+    notes: "Ritual grounding for reciprocal restraint."
+    terms: ["ha-cukubul", "xap", "rag"]
+  -
+    id: "ritual-732"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Judicial review solemn protects justice."
+    ethra: "Ha-juduruv xap sak."
+    literal: "Judicial review-solemn protects justice."
+    notes: "Ritual grounding for court power testing."
+    terms: ["ha-juduruv", "xap", "sak"]
+  -
+    id: "tech-953"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical-record"
+    english: "Executive order log binds rule."
+    ethra: "Eaxaoar-ket dav rag."
+    literal: "Executive order-log binds rule."
+    notes: "Technical grounding for administrative command."
+    terms: ["eaxaoar-ket", "dav", "rag"]
+  -
+    id: "tech-954"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical-record"
+    english: "Misinformation log breaks truth."
+    ethra: "Maiasai-ket mak rih."
+    literal: "Misinformation-log breaks truth."
+    notes: "Technical grounding for mistaken public claims."
+    terms: ["maiasai-ket", "mak", "rih"]
+  -
+    id: "tech-955"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical-record"
+    english: "Disinformation log breaks people."
+    ethra: "Dasanaf-ket mak lem."
+    literal: "Disinformation-log breaks people."
+    notes: "Technical grounding for intentional public deception."
+    terms: ["dasanaf-ket", "mak", "lem"]
+  -
+    id: "tech-956"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical-record"
+    english: "Credibility log protects evidence."
+    ethra: "Caradab-ket xap xeg."
+    literal: "Credibility-log protects evidence."
+    notes: "Technical grounding for warranted trust."
+    terms: ["caradab-ket", "xap", "xeg"]
+  -
+    id: "tech-957"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical-record"
+    english: "Source trace log carries evidence."
+    ethra: "Saracat-ket taw xeg."
+    literal: "Source trace-log carries evidence."
+    notes: "Technical grounding for accountable source paths."
+    terms: ["saracat-ket", "taw", "xeg"]
+  -
+    id: "tech-958"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical-record"
+    english: "Anonymity log protects name."
+    ethra: "Aanaoan-ket xap nam."
+    literal: "Anonymity-log protects name."
+    notes: "Technical grounding for protected unnamedness."
+    terms: ["aanaoan-ket", "xap", "nam"]
+  -
+    id: "tech-959"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical-record"
+    english: "Pseudonymity log carries memory."
+    ethra: "Pasanam-ket taw mer."
+    literal: "Pseudonymity-log carries memory."
+    notes: "Technical grounding for stable alternate names."
+    terms: ["pasanam-ket", "taw", "mer"]
+  -
+    id: "tech-960"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical-record"
+    english: "Virality log reveals risk."
+    ethra: "Vaiaral-ket rah kav."
+    literal: "Virality-log reveals risk."
+    notes: "Technical grounding for rapid public spread."
+    terms: ["vaiaral-ket", "rah", "kav"]
+  -
+    id: "tech-961"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "media-communication"]
+    register: "technical-record"
+    english: "Media literacy log guides people."
+    ethra: "Malaiat-ket pat lem."
+    literal: "Media literacy-log guides people."
+    notes: "Technical grounding for source-aware judgment."
+    terms: ["malaiat-ket", "pat", "lem"]
+  -
+    id: "tech-962"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Attention economy log binds attention."
+    ethra: "Aatanae-ket dav naf."
+    literal: "Attention economy-log binds attention."
+    notes: "Technical grounding for traded notice."
+    terms: ["aatanae-ket", "dav", "naf"]
+  -
+    id: "tech-963"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Deflation log reveals risk."
+    ethra: "Dafalan-ket rah kav."
+    literal: "Deflation-log reveals risk."
+    notes: "Technical grounding for falling price drift."
+    terms: ["dafalan-ket", "rah", "kav"]
+  -
+    id: "tech-964"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Consumer price index log names measure."
+    ethra: "Capaiax-ket nam mas."
+    literal: "Consumer price index-log names measure."
+    notes: "Technical grounding for cost basket measures."
+    terms: ["capaiax-ket", "nam", "mas"]
+  -
+    id: "tech-965"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "law-governance"]
+    register: "technical-record"
+    english: "Tax withholding log carries duty."
+    ethra: "Taxawah-ket taw dev."
+    literal: "Tax withholding-log carries duty."
+    notes: "Technical grounding for held public share."
+    terms: ["taxawah-ket", "taw", "dev"]
+  -
+    id: "tech-966"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Capital gain log names money."
+    ethra: "Capagal-ket nam may."
+    literal: "Capital gain-log names money."
+    notes: "Technical grounding for realized asset increase."
+    terms: ["capagal-ket", "nam", "may"]
+  -
+    id: "tech-967"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Yield log carries provision."
+    ethra: "Yaealad-ket taw par."
+    literal: "Yield-log carries provision."
+    notes: "Technical grounding for produced return."
+    terms: ["yaealad-ket", "taw", "par"]
+  -
+    id: "tech-968"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical-record"
+    english: "Treasury log protects people."
+    ethra: "Tarasay-ket xap lem."
+    literal: "Treasury-log protects people."
+    notes: "Technical grounding for public money stewardship."
+    terms: ["tarasay-ket", "xap", "lem"]
+  -
+    id: "tech-969"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Monetary policy log guides money."
+    ethra: "Manapay-ket pat may."
+    literal: "Monetary policy-log guides money."
+    notes: "Technical grounding for money-supply stewardship."
+    terms: ["manapay-ket", "pat", "may"]
+  -
+    id: "tech-970"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance", "economics-provision"]
+    register: "technical-record"
+    english: "Fiscal policy log guides provision."
+    ethra: "Fasapay-ket pat par."
+    literal: "Fiscal policy-log guides provision."
+    notes: "Technical grounding for public budget choice."
+    terms: ["fasapay-ket", "pat", "par"]
+  -
+    id: "tech-971"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Exchange rate log names measure."
+    ethra: "Eaxarat-ket nam mas."
+    literal: "Exchange rate-log names measure."
+    notes: "Technical grounding for currency conversion."
+    terms: ["eaxarat-ket", "nam", "mas"]
+  -
+    id: "tech-972"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance", "economics-provision"]
+    register: "technical-record"
+    english: "Sovereign debt log binds future."
+    ethra: "Savadat-ket dav fer."
+    literal: "Sovereign debt-log binds future."
+    notes: "Technical grounding for public borrowing."
+    terms: ["savadat-ket", "dav", "fer"]
+  -
+    id: "tech-973"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Default risk log reveals risk."
+    ethra: "Dafarak-ket rah kav."
+    literal: "Default risk-log reveals risk."
+    notes: "Technical grounding for payment-failure chance."
+    terms: ["dafarak-ket", "rah", "kav"]
+  -
+    id: "tech-974"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Underwriting log names risk."
+    ethra: "Uanadar-ket nam kav."
+    literal: "Underwriting-log names risk."
+    notes: "Technical grounding for priced risk acceptance."
+    terms: ["uanadar-ket", "nam", "kav"]
+  -
+    id: "tech-975"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Actuarial risk log names risk."
+    ethra: "Aacatar-ket nam kav."
+    literal: "Actuarial risk-log names risk."
+    notes: "Technical grounding for pooled chance measure."
+    terms: ["aacatar-ket", "nam", "kav"]
+  -
+    id: "tech-976"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Diversification log protects future."
+    ethra: "Darasaf-ket xap fer."
+    literal: "Diversification-log protects future."
+    notes: "Technical grounding for risk spread."
+    terms: ["darasaf-ket", "xap", "fer"]
+  -
+    id: "poetic-953"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "media-communication"]
+    register: "poetic"
+    english: "Media literacy guides people."
+    ethra: "Meleiet pat lem."
+    literal: "Media literacy guides people."
+    notes: "Poetic grounding for source-aware judgment."
+    terms: ["meleiet", "pat", "lem"]
+  -
+    id: "poetic-954"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Attention economy binds attention."
+    ethra: "Aetenee dav naf."
+    literal: "Attention economy binds attention."
+    notes: "Poetic grounding for traded notice."
+    terms: ["aetenee", "dav", "naf"]
+  -
+    id: "poetic-955"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Deflation reveals risk."
+    ethra: "Defelen rah kav."
+    literal: "Deflation reveals risk."
+    notes: "Poetic grounding for falling price drift."
+    terms: ["defelen", "rah", "kav"]
+  -
+    id: "poetic-956"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Consumer price index names measure."
+    ethra: "Cepeiex nam mas."
+    literal: "Consumer price index names measure."
+    notes: "Poetic grounding for cost basket measures."
+    terms: ["cepeiex", "nam", "mas"]
+  -
+    id: "poetic-957"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Tax withholding carries duty."
+    ethra: "Texeweh taw dev."
+    literal: "Tax withholding carries duty."
+    notes: "Poetic grounding for held public share."
+    terms: ["texeweh", "taw", "dev"]
+  -
+    id: "poetic-958"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Capital gain names money."
+    ethra: "Cepegel nam may."
+    literal: "Capital gain names money."
+    notes: "Poetic grounding for realized asset increase."
+    terms: ["cepegel", "nam", "may"]
+  -
+    id: "poetic-959"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Yield carries provision."
+    ethra: "Yeeeled taw par."
+    literal: "Yield carries provision."
+    notes: "Poetic grounding for produced return."
+    terms: ["yeeeled", "taw", "par"]
+  -
+    id: "poetic-960"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "Treasury protects people."
+    ethra: "Teresey xap lem."
+    literal: "Treasury protects people."
+    notes: "Poetic grounding for public money stewardship."
+    terms: ["teresey", "xap", "lem"]
+  -
+    id: "poetic-961"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Monetary policy guides money."
+    ethra: "Menepey pat may."
+    literal: "Monetary policy guides money."
+    notes: "Poetic grounding for money-supply stewardship."
+    terms: ["menepey", "pat", "may"]
+  -
+    id: "poetic-962"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "Fiscal policy guides provision."
+    ethra: "Fesepey pat par."
+    literal: "Fiscal policy guides provision."
+    notes: "Poetic grounding for public budget choice."
+    terms: ["fesepey", "pat", "par"]
+  -
+    id: "poetic-963"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Exchange rate names measure."
+    ethra: "Eexeret nam mas."
+    literal: "Exchange rate names measure."
+    notes: "Poetic grounding for currency conversion."
+    terms: ["eexeret", "nam", "mas"]
+  -
+    id: "poetic-964"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance", "history-memory"]
+    register: "poetic"
+    english: "Sovereign debt binds future."
+    ethra: "Sevedet dav fer."
+    literal: "Sovereign debt binds future."
+    notes: "Poetic grounding for public borrowing."
+    terms: ["sevedet", "dav", "fer"]
+  -
+    id: "poetic-965"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Default risk reveals risk."
+    ethra: "Deferek rah kav."
+    literal: "Default risk reveals risk."
+    notes: "Poetic grounding for payment-failure chance."
+    terms: ["deferek", "rah", "kav"]
+  -
+    id: "poetic-966"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Underwriting names risk."
+    ethra: "Ueneder nam kav."
+    literal: "Underwriting names risk."
+    notes: "Poetic grounding for priced risk acceptance."
+    terms: ["ueneder", "nam", "kav"]
+  -
+    id: "poetic-967"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Actuarial risk names risk."
+    ethra: "Aeceter nam kav."
+    literal: "Actuarial risk names risk."
+    notes: "Poetic grounding for pooled chance measure."
+    terms: ["aeceter", "nam", "kav"]
+  -
+    id: "poetic-968"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Diversification protects future."
+    ethra: "Deresef xap fer."
+    literal: "Diversification protects future."
+    notes: "Poetic grounding for risk spread."
+    terms: ["deresef", "xap", "fer"]
+  -
+    id: "poetic-969"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Appreciation names measure."
+    ethra: "Aepeper nam mas."
+    literal: "Appreciation names measure."
+    notes: "Poetic grounding for value increase."
+    terms: ["aepeper", "nam", "mas"]
+  -
+    id: "poetic-970"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "Lease binds duty."
+    ethra: "Leeeaes dav dev."
+    literal: "Lease binds duty."
+    notes: "Poetic grounding for temporary use-right."
+    terms: ["leeeaes", "dav", "dev"]
+  -
+    id: "poetic-971"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Return on investment reveals measure."
+    ethra: "Reoeiex rah mas."
+    literal: "Return on investment reveals measure."
+    notes: "Poetic grounding for gain against cost."
+    terms: ["reoeiex", "rah", "mas"]
+  -
+    id: "poetic-972"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Cooperative enterprise protects people."
+    ethra: "Keoeper xap lem."
+    literal: "Cooperative enterprise protects people."
+    notes: "Poetic grounding for member-owned provision."
+    terms: ["keoeper", "xap", "lem"]
+  -
+    id: "poetic-973"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance", "history-memory"]
+    register: "poetic"
+    english: "Commons protects future."
+    ethra: "Cemenes xap fer."
+    literal: "Commons protects future."
+    notes: "Poetic grounding for governed shared resources."
+    terms: ["cemenes", "xap", "fer"]
+  -
+    id: "poetic-974"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance", "history-memory"]
+    register: "poetic"
+    english: "Public trust binds duty."
+    ethra: "Peteres dav dev."
+    literal: "Public trust binds duty."
+    notes: "Poetic grounding for entrusted common good."
+    terms: ["peteres", "dav", "dev"]
+  -
+    id: "poetic-975"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "Fiduciary duty binds duty."
+    ethra: "Fedecey dav dev."
+    literal: "Fiduciary duty binds duty."
+    notes: "Poetic grounding for entrusted loyalty."
+    terms: ["fedecey", "dav", "dev"]
+  -
+    id: "poetic-976"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Solvency protects duty."
+    ethra: "Selevey xap dev."
+    literal: "Solvency protects duty."
+    notes: "Poetic grounding for debt-answering capacity."
+    terms: ["selevey", "xap", "dev"]
+  -
+    id: "learner-477"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "Subsidiarity protects people."
+    ethra: "Sebeder xap lem."
+    literal: "Subsidiarity protects people."
+    notes: "A1 grounding for local-first public authority."
+    terms: ["sebeder", "xap", "lem"]
+  -
+    id: "learner-478"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "Proportionality protects justice."
+    ethra: "Perepen xap sak."
+    literal: "Proportionality protects justice."
+    notes: "A1 grounding for fitted public response."
+    terms: ["perepen", "xap", "sak"]
+  -
+    id: "learner-479"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "Due process protects justice."
+    ethra: "Deperes xap sak."
+    literal: "Due process protects justice."
+    notes: "A1 grounding for rightful procedure."
+    terms: ["deperes", "xap", "sak"]
+  -
+    id: "learner-480"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "Redress repairs harm."
+    ethra: "Rederes tar pan."
+    literal: "Redress repairs harm."
+    notes: "A1 grounding for formal remedy."
+    terms: ["rederes", "tar", "pan"]
+  -
+    id: "learner-481"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "Recusal protects justice."
+    ethra: "Receues xap sak."
+    literal: "Recusal protects justice."
+    notes: "A1 grounding for fairness withdrawal."
+    terms: ["receues", "xap", "sak"]
+  -
+    id: "learner-482"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "Ethics disclosure reveals truth."
+    ethra: "Eetehed rah rih."
+    literal: "Ethics disclosure reveals truth."
+    notes: "A1 grounding for interest disclosure."
+    terms: ["eetehed", "rah", "rih"]
+  -
+    id: "learner-483"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "learner-a1"
+    english: "Public comment carries meaning."
+    ethra: "Pecemet taw nem."
+    literal: "Public comment carries meaning."
+    notes: "A1 grounding for civic testimony."
+    terms: ["pecemet", "taw", "nem"]
+  -
+    id: "learner-484"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "learner-a1"
+    english: "Agenda guides attention."
+    ethra: "Aegened pat naf."
+    literal: "Agenda guides attention."
+    notes: "A1 grounding for ordered public business."
+    terms: ["aegened", "pat", "naf"]
+  -
+    id: "learner-485"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "Docket carries writing."
+    ethra: "Deceket taw ket."
+    literal: "Docket carries writing."
+    notes: "A1 grounding for ordered case lists."
+    terms: ["deceket", "taw", "ket"]
+  -
+    id: "learner-486"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "learner-a1"
+    english: "Misinformation breaks truth."
+    ethra: "Meiesei mak rih."
+    literal: "Misinformation breaks truth."
+    notes: "A1 grounding for mistaken public claims."
+    terms: ["meiesei", "mak", "rih"]
+  -
+    id: "learner-487"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "learner-a1"
+    english: "Disinformation breaks people."
+    ethra: "Desenef mak lem."
+    literal: "Disinformation breaks people."
+    notes: "A1 grounding for intentional public deception."
+    terms: ["desenef", "mak", "lem"]
+  -
+    id: "learner-488"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "learner-a1"
+    english: "Credibility protects evidence."
+    ethra: "Ceredeb xap xeg."
+    literal: "Credibility protects evidence."
+    notes: "A1 grounding for warranted trust."
+    terms: ["ceredeb", "xap", "xeg"]
