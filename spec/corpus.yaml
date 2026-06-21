@@ -1,4 +1,4 @@
-version: "0.2-seed"
+version: "0.2.4-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -1001,3 +1001,603 @@ items:
     literal: "Code is open."
     notes: "Learner technical phrase with copula."
     terms: ["ket", "e", "ap"]
+  -
+    id: "daily-026"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "I drink."
+    ethra: "Na dar."
+    literal: "I drink."
+    notes: "Uses the new drink root for a basic daily need."
+    terms: ["na", "dar"]
+  -
+    id: "daily-027"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "household"
+    english: "I cook the food."
+    ethra: "Na fab fad."
+    literal: "I cook food."
+    notes: "Meal preparation enters the household corpus."
+    terms: ["na", "fab", "fad"]
+  -
+    id: "daily-028"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "family-kinship"]
+    register: "household"
+    english: "The household cleans the room."
+    ethra: "Hon wac her."
+    literal: "Household cleans room."
+    notes: "Cleanliness is framed as shared care."
+    terms: ["hon", "wac", "her"]
+  -
+    id: "daily-029"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "family-kinship"]
+    register: "household"
+    english: "The child is hungry."
+    ethra: "Tu hab."
+    literal: "Child-student hungers."
+    notes: "Hunger is named directly without shame."
+    terms: ["tu", "hab"]
+  -
+    id: "daily-030"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "I taste the meal."
+    ethra: "Na kac fab."
+    literal: "I taste cooked-meal."
+    notes: "Taste enters daily sensory speech."
+    terms: ["na", "kac", "fab"]
+  -
+    id: "daily-031"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "I smell the room."
+    ethra: "Na fas her."
+    literal: "I smell room."
+    notes: "Smell is treated as noticed bodily evidence."
+    terms: ["na", "fas", "her"]
+  -
+    id: "daily-032"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "I carry the grain."
+    ethra: "Na taw feg."
+    literal: "I carry grain."
+    notes: "Carrying joins provision to bodily effort."
+    terms: ["na", "taw", "feg"]
+  -
+    id: "daily-033"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "The person arrives at the city."
+    ethra: "Li rav ad cat."
+    literal: "Person arrives toward city."
+    notes: "Arrival is a basic travel sentence."
+    terms: ["li", "rav", "ad", "cat"]
+  -
+    id: "daily-034"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "travel-place"]
+    register: "plain"
+    english: "The person leaves the household."
+    ethra: "Li vad hon."
+    literal: "Person departs household."
+    notes: "Departure keeps the household as the relational source."
+    terms: ["li", "vad", "hon"]
+  -
+    id: "daily-035"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place", "technology-software"]
+    register: "plain"
+    english: "I travel by vehicle toward the world."
+    ethra: "Na vac ad wed."
+    literal: "I vehicle toward world."
+    notes: "A compact travel sentence using the vehicle root."
+    terms: ["na", "vac", "ad", "wed"]
+  -
+    id: "civic-016"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security", "media-communication"]
+    register: "civic"
+    english: "The public names the threat notice."
+    ethra: "Pu nam xac-da."
+    literal: "Publicly name threat-civic."
+    notes: "A threat becomes civic speech when made inspectable."
+    terms: ["pu", "nam", "xac-da"]
+  -
+    id: "civic-017"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The citizen may defend."
+    ethra: "Te lun xaw."
+    literal: "Civic-you may defend."
+    notes: "Permission to defend is distinct from capacity or revenge."
+    terms: ["te", "lun", "xaw"]
+  -
+    id: "civic-018"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The weapon should answer to justice."
+    ethra: "Kax cel sak."
+    literal: "Weapon should justice-measure."
+    notes: "Force is placed under moral measure."
+    terms: ["kax", "cel", "sak"]
+  -
+    id: "civic-019"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security", "media-communication"]
+    register: "legal"
+    english: "The harm has been named."
+    ethra: "Hax ka nam."
+    literal: "Harm completed named."
+    notes: "Naming harm is the first legal step toward repair."
+    terms: ["hax", "ka", "nam"]
+  -
+    id: "civic-020"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The enemy is judged before truth."
+    ethra: "Zak sak so-rah."
+    literal: "Enemy judged before-truth."
+    notes: "Opposition does not remove answerability to truth."
+    terms: ["zak", "sak", "so-rah"]
+  -
+    id: "civic-021"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The attack should be repaired."
+    ethra: "Gax cel tar."
+    literal: "Attack should repair."
+    notes: "Security language is tied to restorative obligation."
+    terms: ["gax", "cel", "tar"]
+  -
+    id: "civic-022"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The person captures the opponent."
+    ethra: "Li xad za."
+    literal: "Person captures opponent."
+    notes: "The opponent pronoun preserves moral standing in conflict."
+    terms: ["li", "xad", "za"]
+  -
+    id: "civic-023"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "The truce is a duty."
+    ethra: "Caw e dev."
+    literal: "Truce is duty."
+    notes: "A ceasefire is framed as obligation, not mood."
+    terms: ["caw", "e", "dev"]
+  -
+    id: "civic-024"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security", "ritual-spiritual"]
+    register: "solemn"
+    english: "I vow the treaty."
+    ethra: "Na dov tab."
+    literal: "I vow treaty."
+    notes: "Treaty speech becomes self-binding."
+    terms: ["na", "dov", "tab"]
+  -
+    id: "civic-025"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "The person owes the debt."
+    ethra: "Li dom dal."
+    literal: "Person owes debt."
+    notes: "Debt is stated through the moral agency particle for owing."
+    terms: ["li", "dom", "dal"]
+  -
+    id: "ritual-016"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "I vow to defend the people."
+    ethra: "Ha na dov xaw so-lem."
+    literal: "Solemn I vow defend for-people."
+    notes: "Defense is bound to civilizational scope."
+    terms: ["ha", "na", "dov", "xaw", "so-lem"]
+  -
+    id: "ritual-017"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "ritual"
+    english: "The truce is peace."
+    ethra: "Ha caw e cem."
+    literal: "Solemn truce is peace."
+    notes: "Ritual register distinguishes ceasefire from true peace."
+    terms: ["ha", "caw", "e", "cem"]
+  -
+    id: "ritual-018"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "I repair the harm."
+    ethra: "Ha na ren hax."
+    literal: "Solemn I repair harm."
+    notes: "The repair particle makes restoration explicit."
+    terms: ["ha", "na", "ren", "hax"]
+  -
+    id: "ritual-019"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security", "law-governance"]
+    register: "solemn"
+    english: "The weapon does not govern."
+    ethra: "Ha kax ne rag."
+    literal: "Solemn weapon not govern."
+    notes: "A vow formula against rule by force."
+    terms: ["ha", "kax", "ne", "rag"]
+  -
+    id: "ritual-020"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance", "history-memory"]
+    register: "solemn"
+    english: "The treaty carries inherited duty."
+    ethra: "Ha tab mor dev."
+    literal: "Solemn treaty inherited-duty duty."
+    notes: "Public agreements bind memory and descendants."
+    terms: ["ha", "tab", "mor", "dev"]
+  -
+    id: "ritual-021"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "ritual"
+    english: "The threat stands before the sacred."
+    ethra: "Ha xec so-zur."
+    literal: "Solemn threat before-sacred."
+    notes: "Danger is named under ultimate witness."
+    terms: ["ha", "xec", "so-zur"]
+  -
+    id: "ritual-022"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Surrender is release."
+    ethra: "Ha dax e sel."
+    literal: "Solemn surrender is release."
+    notes: "Yielding can become mercy when force ends rightly."
+    terms: ["ha", "dax", "e", "sel"]
+  -
+    id: "ritual-023"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security", "family-kinship"]
+    register: "solemn"
+    english: "I vow no threat for the family."
+    ethra: "Na dov ne-xac so-hen."
+    literal: "I vow absence-threat for-family."
+    notes: "Uses the productive lack pattern as a vow object."
+    terms: ["na", "dov", "ne-xac", "so-hen"]
+  -
+    id: "ritual-024"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security", "family-kinship"]
+    register: "ritual"
+    english: "Fortify the household."
+    ethra: "Ha fax hon."
+    literal: "Solemn fortify household."
+    notes: "Defense is directed toward shelter, not domination."
+    terms: ["ha", "fax", "hon"]
+  -
+    id: "ritual-025"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security", "family-kinship"]
+    register: "ritual"
+    english: "Defend the child."
+    ethra: "Ha xaw tu."
+    literal: "Solemn defend child-student."
+    notes: "Ritualizes protective duty toward the vulnerable."
+    terms: ["ha", "xaw", "tu"]
+  -
+    id: "tech-016"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The database is a record."
+    ethra: "Deb e kot."
+    literal: "Database is record."
+    notes: "Introduces database as structured memory."
+    terms: ["deb", "e", "kot"]
+  -
+    id: "tech-017"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The software computes the database."
+    ethra: "Sar cad deb."
+    literal: "Software computes database."
+    notes: "Software and computation roots in a simple technical clause."
+    terms: ["sar", "cad", "deb"]
+  -
+    id: "tech-018"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "I encrypt the message."
+    ethra: "Na kal nem."
+    literal: "I encrypt word-message."
+    notes: "Encryption protects speech as entrusted record."
+    terms: ["na", "kal", "nem"]
+  -
+    id: "tech-019"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "Search sees the record."
+    ethra: "Nax rah kot."
+    literal: "Search sees record."
+    notes: "Search is modeled as retrieval under recognition."
+    terms: ["nax", "rah", "kot"]
+  -
+    id: "tech-020"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The server sees the threat sign."
+    ethra: "Sav rah xoc."
+    literal: "Server sees threat-sign."
+    notes: "Security monitoring through the new server and threat roots."
+    terms: ["sav", "rah", "xoc"]
+  -
+    id: "tech-021"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Automation keeps computing."
+    ethra: "Zah ga cad."
+    literal: "Automation ongoing computes."
+    notes: "The aspect particle marks repeated machine action."
+    terms: ["zah", "ga", "cad"]
+  -
+    id: "tech-022"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical"
+    english: "The database record is visible."
+    ethra: "Dab-ket e rih."
+    literal: "Database-record is visible."
+    notes: "Derived record pattern used for auditable data."
+    terms: ["dab-ket", "e", "rih"]
+  -
+    id: "tech-023"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance", "science-math"]
+    register: "technical"
+    english: "The computation standard should be fair."
+    ethra: "Cad-da cel sak."
+    literal: "Computation-civic should fair-measure."
+    notes: "Technical standards are placed under civic measure."
+    terms: ["cad-da", "cel", "sak"]
+  -
+    id: "tech-024"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical"
+    english: "The encryption right is privacy."
+    ethra: "Kal-ret e pec."
+    literal: "Encryption-right is privacy."
+    notes: "Rights language joins security and personhood."
+    terms: ["kal-ret", "e", "pec"]
+  -
+    id: "tech-025"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The software sees the error."
+    ethra: "Sar rah xez."
+    literal: "Software sees error."
+    notes: "Error handling uses recognition grammar rather than hidden failure."
+    terms: ["sar", "rah", "xez"]
+  -
+    id: "poetic-016"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security", "travel-place"]
+    register: "poetic"
+    english: "Threat flows through distance."
+    ethra: "Xec fal bi yex."
+    literal: "Threat flows through distance."
+    notes: "Danger is spatial and moral at once."
+    terms: ["xec", "fal", "bi", "yex"]
+  -
+    id: "poetic-017"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security", "history-memory"]
+    register: "poetic"
+    english: "Defense is a room for the people."
+    ethra: "Xew e her en lem."
+    literal: "Defense is room of people."
+    notes: "Protective force becomes shelter rather than conquest."
+    terms: ["xew", "e", "her", "en", "lem"]
+  -
+    id: "poetic-018"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security", "emotion-psychology"]
+    register: "poetic"
+    english: "The weapon does not see the heart."
+    ethra: "Kex ne rah leb."
+    literal: "Weapon not sees heart."
+    notes: "A compact warning about force without recognition."
+    terms: ["kex", "ne", "rah", "leb"]
+  -
+    id: "poetic-019"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "The river remembers the soil."
+    ethra: "Hac mar gab."
+    literal: "River remembers soil."
+    notes: "Ecological memory in root-based poetic compression."
+    terms: ["hac", "mar", "gab"]
+  -
+    id: "poetic-020"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The grass is visible by light."
+    ethra: "Gas e rih bi ner."
+    literal: "Grass is visible by light."
+    notes: "Plain image with epistemic roots."
+    terms: ["gas", "e", "rih", "bi", "ner"]
+  -
+    id: "poetic-021"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "daily-life", "emotion-psychology"]
+    register: "poetic"
+    english: "The room lives through silence."
+    ethra: "Her naf bi cez."
+    literal: "Room lives through silence."
+    notes: "Domestic stillness as presence, not emptiness."
+    terms: ["her", "naf", "bi", "cez"]
+  -
+    id: "poetic-022"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Arrival is recognition."
+    ethra: "Rav e rah."
+    literal: "Arrival is seeing."
+    notes: "Coming into presence is treated as being seen."
+    terms: ["rav", "e", "rah"]
+  -
+    id: "poetic-023"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "history-memory"]
+    register: "poetic"
+    english: "Departure travels with memory."
+    ethra: "Vad ko mar."
+    literal: "Departure with memory."
+    notes: "Leaving does not sever inherited identity."
+    terms: ["vad", "ko", "mar"]
+  -
+    id: "poetic-024"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "Grain is a duty of the future."
+    ethra: "Feg e dav en fer."
+    literal: "Grain is duty of future."
+    notes: "Food storage becomes a civilizational obligation."
+    terms: ["feg", "e", "dav", "en", "fer"]
+  -
+    id: "poetic-025"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "emotion-psychology"]
+    register: "poetic"
+    english: "Distance does not release love."
+    ethra: "Yex ne sal mav."
+    literal: "Distance not releases love."
+    notes: "Love is preserved against separation."
+    terms: ["yex", "ne", "sal", "mav"]
+  -
+    id: "learner-016"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "I drink."
+    ethra: "Na dar."
+    literal: "I drink."
+    notes: "Beginner daily need phrase."
+    terms: ["na", "dar"]
+  -
+    id: "learner-017"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "You cook."
+    ethra: "Ta fab."
+    literal: "Equal-you cook."
+    notes: "Beginner household verb."
+    terms: ["ta", "fab"]
+  -
+    id: "learner-018"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "The room is clean."
+    ethra: "Her e wic."
+    literal: "Room is clean."
+    notes: "Beginner copula plus cleanliness adjective."
+    terms: ["her", "e", "wic"]
+  -
+    id: "learner-019"
+    track: "learner-graded"
+    domain_tags: ["travel-place"]
+    register: "learner-a1"
+    english: "I arrive."
+    ethra: "Na rav."
+    literal: "I arrive."
+    notes: "Basic travel verb."
+    terms: ["na", "rav"]
+  -
+    id: "learner-020"
+    track: "learner-graded"
+    domain_tags: ["travel-place"]
+    register: "learner-a1"
+    english: "I leave."
+    ethra: "Na vad."
+    literal: "I depart."
+    notes: "Contrasts arrival and departure."
+    terms: ["na", "vad"]
+  -
+    id: "learner-021"
+    track: "learner-graded"
+    domain_tags: ["travel-place", "technology-software"]
+    register: "learner-a2"
+    english: "The vehicle moves."
+    ethra: "Vec fal."
+    literal: "Vehicle flows."
+    notes: "Learner sentence for transport."
+    terms: ["vec", "fal"]
+  -
+    id: "learner-022"
+    track: "learner-graded"
+    domain_tags: ["education-training"]
+    register: "learner-a2"
+    english: "The school teaches."
+    ethra: "Sec dak."
+    literal: "School teaches."
+    notes: "Introduces the school root beside the teaching root."
+    terms: ["sec", "dak"]
+  -
+    id: "learner-023"
+    track: "learner-graded"
+    domain_tags: ["education-training", "media-communication"]
+    register: "learner-a2"
+    english: "I ask a question."
+    ethra: "Na nay ney."
+    literal: "I question question."
+    notes: "Repetition shows verb and noun in the same root family."
+    terms: ["na", "nay", "ney"]
+  -
+    id: "learner-024"
+    track: "learner-graded"
+    domain_tags: ["technology-software"]
+    register: "learner-a2"
+    english: "The software searches."
+    ethra: "Sar nax."
+    literal: "Software searches."
+    notes: "Beginner technical clause from the new root bank."
+    terms: ["sar", "nax"]
+  -
+    id: "learner-025"
+    track: "learner-graded"
+    domain_tags: ["economics-provision", "law-governance"]
+    register: "learner-a2"
+    english: "The price is visible."
+    ethra: "Tec e rih."
+    literal: "Price is visible."
+    notes: "Economic transparency in learner grammar."
+    terms: ["tec", "e", "rih"]
