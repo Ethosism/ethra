@@ -9,6 +9,7 @@ const {
   loadRoadmap,
   roadmapSummary
 } = require("../dist/core/civilization.js");
+const { validateSpec } = require("../dist/core/validation.js");
 
 test("loads the civilizational-scale roadmap", () => {
   const roadmap = loadRoadmap();
@@ -19,8 +20,10 @@ test("loads the civilizational-scale roadmap", () => {
 
 test("summarizes current progress against roadmap targets", () => {
   const summary = roadmapSummary();
-  assert.equal(summary.current.actual_lexicon_entries, 337);
-  assert.equal(summary.current.actual_root_families, 35);
+  assert.equal(summary.current.actual_lexicon_entries, summary.current.lexicon_entries);
+  assert.equal(summary.current.actual_root_families, summary.current.root_families);
+  assert.ok(summary.current.actual_lexicon_entries >= 700);
+  assert.ok(summary.current.actual_root_families >= 80);
   assert.equal(summary.current.actual_canonical_examples, 20);
   assert.equal(summary.next_milestone.target_entries, 1000);
 });
@@ -46,4 +49,11 @@ test("loads corpus and governance programs", () => {
   assert.ok(corpus.tracks.some((track) => track.id === "technical-software"));
   assert.ok(governance.root_admission_rules.some((rule) => rule.includes("durable semantic field")));
   assert.ok(governance.review_checklist.some((item) => item.includes("root-depth")));
+});
+
+test("validates expanded root inventory", () => {
+  const report = validateSpec();
+  assert.equal(report.valid, true, JSON.stringify(report.errors, null, 2));
+  assert.equal(report.stats.roots, 85);
+  assert.equal(report.stats.lexiconEntries, 737);
 });

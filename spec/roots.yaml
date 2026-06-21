@@ -2134,3 +2134,3053 @@ roots:
         pronunciation: "mi-FAL"
         meaning: "feeling allowed to move honestly"
         role: "intimate prefix mi-"
+  -
+    id: "FD"
+    form: "F-D"
+    aliases:
+      - "FAD"
+    consonants:
+      - "f"
+      - "d"
+    category: "Body"
+    semantic_field: "food, nourishment, feeding, sustenance, bodily provision"
+    core: "food, nourishment, sustenance"
+    forms:
+      verb: "to feed, nourish, or sustain bodily life"
+      noun: "food, nourishment, sustenance"
+      adjective: "nourishing, edible, sustaining"
+      agent: "feeder, nourisher, cook, provider of food"
+      object: "meal, ration, food-object"
+      ritual: "meal blessed as shared sustenance"
+      civic: "public food provision or ration duty"
+      intimate: "feeding another as care"
+    derived:
+      verb:
+        word: "fad"
+        pronunciation: "FAD"
+        meaning: "to feed, nourish, or sustain bodily life"
+        role: "action vowel a"
+      noun:
+        word: "fed"
+        pronunciation: "FED"
+        meaning: "food, nourishment, sustenance"
+        role: "concept vowel e"
+      adjective:
+        word: "fid"
+        pronunciation: "FID"
+        meaning: "nourishing, edible, sustaining"
+        role: "quality vowel i"
+      agent:
+        word: "faden"
+        pronunciation: "FADEN"
+        meaning: "feeder, nourisher, cook, provider of food"
+        role: "actor suffix -en"
+      object:
+        word: "fod"
+        pronunciation: "FOD"
+        meaning: "meal, ration, food-object"
+        role: "object vowel o"
+      ritual:
+        word: "ha-fud"
+        pronunciation: "ha-FUD"
+        meaning: "meal blessed as shared sustenance"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "fad-da"
+        pronunciation: "FAD-DA"
+        meaning: "public food provision or ration duty"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-fad"
+        pronunciation: "mi-FAD"
+        meaning: "feeding another as care"
+        role: "intimate prefix mi-"
+  -
+    id: "CR"
+    form: "C-R"
+    aliases:
+      - "CAR"
+    consonants:
+      - "c"
+      - "r"
+    category: "Body"
+    semantic_field: "cover, cloth, garment, concealment, protection"
+    core: "cloth, clothing, cover"
+    forms:
+      verb: "to cover, clothe, veil, or protect by covering"
+      noun: "cloth, clothing, cover"
+      adjective: "covered, clothed, protected"
+      agent: "one who clothes or covers"
+      object: "garment, veil, covering"
+      ritual: "ritual garment or solemn covering"
+      civic: "uniform, public covering, or protective standard"
+      intimate: "covering another in tenderness or modesty"
+    derived:
+      verb:
+        word: "car"
+        pronunciation: "CAR"
+        meaning: "to cover, clothe, veil, or protect by covering"
+        role: "action vowel a"
+      noun:
+        word: "cer"
+        pronunciation: "CER"
+        meaning: "cloth, clothing, cover"
+        role: "concept vowel e"
+      adjective:
+        word: "cir"
+        pronunciation: "CIR"
+        meaning: "covered, clothed, protected"
+        role: "quality vowel i"
+      agent:
+        word: "caren"
+        pronunciation: "CAREN"
+        meaning: "one who clothes or covers"
+        role: "actor suffix -en"
+      object:
+        word: "cor"
+        pronunciation: "COR"
+        meaning: "garment, veil, covering"
+        role: "object vowel o"
+      ritual:
+        word: "ha-cur"
+        pronunciation: "ha-CUR"
+        meaning: "ritual garment or solemn covering"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "car-da"
+        pronunciation: "CAR-DA"
+        meaning: "uniform, public covering, or protective standard"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-car"
+        pronunciation: "mi-CAR"
+        meaning: "covering another in tenderness or modesty"
+        role: "intimate prefix mi-"
+  -
+    id: "CP"
+    form: "C-P"
+    aliases:
+      - "CAP"
+    consonants:
+      - "c"
+      - "p"
+    category: "Body"
+    semantic_field: "sleep, rest, recovery, bodily renewal"
+    core: "sleep, rest, recovery"
+    forms:
+      verb: "to sleep, rest, or recover"
+      noun: "sleep, rest, recovery"
+      adjective: "rested, sleeping, restorative"
+      agent: "sleeper or one who keeps rest"
+      object: "bed, rest-place, recovery period"
+      ritual: "rest kept as sacred restoration"
+      civic: "protected rest period or labor-rest rule"
+      intimate: "resting safely near another"
+    derived:
+      verb:
+        word: "cap"
+        pronunciation: "CAP"
+        meaning: "to sleep, rest, or recover"
+        role: "action vowel a"
+      noun:
+        word: "cep"
+        pronunciation: "CEP"
+        meaning: "sleep, rest, recovery"
+        role: "concept vowel e"
+      adjective:
+        word: "cip"
+        pronunciation: "CIP"
+        meaning: "rested, sleeping, restorative"
+        role: "quality vowel i"
+      agent:
+        word: "capen"
+        pronunciation: "CAPEN"
+        meaning: "sleeper or one who keeps rest"
+        role: "actor suffix -en"
+      object:
+        word: "cop"
+        pronunciation: "COP"
+        meaning: "bed, rest-place, recovery period"
+        role: "object vowel o"
+      ritual:
+        word: "ha-cup"
+        pronunciation: "ha-CUP"
+        meaning: "rest kept as sacred restoration"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "cap-da"
+        pronunciation: "CAP-DA"
+        meaning: "protected rest period or labor-rest rule"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-cap"
+        pronunciation: "mi-CAP"
+        meaning: "resting safely near another"
+        role: "intimate prefix mi-"
+  -
+    id: "PN"
+    form: "P-N"
+    aliases:
+      - "PAN"
+    consonants:
+      - "p"
+      - "n"
+    category: "Body"
+    semantic_field: "pain, hurt, warning, bodily distress"
+    core: "pain, hurt, distress signal"
+    forms:
+      verb: "to hurt, ache, or signal distress"
+      noun: "pain, hurt, distress signal"
+      adjective: "painful, hurting, distressed"
+      agent: "one who suffers pain or signals harm"
+      object: "wound-signal, ache, point of pain"
+      ritual: "pain named before witness"
+      civic: "injury claim or public harm record"
+      intimate: "pain entrusted to another's care"
+    derived:
+      verb:
+        word: "pan"
+        pronunciation: "PAN"
+        meaning: "to hurt, ache, or signal distress"
+        role: "action vowel a"
+      noun:
+        word: "pen"
+        pronunciation: "PEN"
+        meaning: "pain, hurt, distress signal"
+        role: "concept vowel e"
+      adjective:
+        word: "pin"
+        pronunciation: "PIN"
+        meaning: "painful, hurting, distressed"
+        role: "quality vowel i"
+      agent:
+        word: "panen"
+        pronunciation: "PANEN"
+        meaning: "one who suffers pain or signals harm"
+        role: "actor suffix -en"
+      object:
+        word: "pon"
+        pronunciation: "PON"
+        meaning: "wound-signal, ache, point of pain"
+        role: "object vowel o"
+      ritual:
+        word: "ha-pun"
+        pronunciation: "ha-PUN"
+        meaning: "pain named before witness"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "pan-da"
+        pronunciation: "PAN-DA"
+        meaning: "injury claim or public harm record"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-pan"
+        pronunciation: "mi-PAN"
+        meaning: "pain entrusted to another's care"
+        role: "intimate prefix mi-"
+  -
+    id: "HL"
+    form: "H-L"
+    aliases:
+      - "HAL"
+    consonants:
+      - "h"
+      - "l"
+    category: "Body"
+    semantic_field: "health, care, wellness, bodily integrity"
+    core: "health, wellness, bodily integrity"
+    forms:
+      verb: "to care for health or preserve wellness"
+      noun: "health, wellness, bodily integrity"
+      adjective: "healthy, cared-for, whole in body"
+      agent: "caregiver, healer, health-keeper"
+      object: "care plan, remedy, health condition"
+      ritual: "health blessing or care vow"
+      civic: "public health duty or medical care standard"
+      intimate: "care given to preserve another's life"
+    derived:
+      verb:
+        word: "hal"
+        pronunciation: "HAL"
+        meaning: "to care for health or preserve wellness"
+        role: "action vowel a"
+      noun:
+        word: "hel"
+        pronunciation: "HEL"
+        meaning: "health, wellness, bodily integrity"
+        role: "concept vowel e"
+      adjective:
+        word: "hil"
+        pronunciation: "HIL"
+        meaning: "healthy, cared-for, whole in body"
+        role: "quality vowel i"
+      agent:
+        word: "halen"
+        pronunciation: "HALEN"
+        meaning: "caregiver, healer, health-keeper"
+        role: "actor suffix -en"
+      object:
+        word: "hol"
+        pronunciation: "HOL"
+        meaning: "care plan, remedy, health condition"
+        role: "object vowel o"
+      ritual:
+        word: "ha-hul"
+        pronunciation: "ha-HUL"
+        meaning: "health blessing or care vow"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "hal-da"
+        pronunciation: "HAL-DA"
+        meaning: "public health duty or medical care standard"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-hal"
+        pronunciation: "mi-HAL"
+        meaning: "care given to preserve another's life"
+        role: "intimate prefix mi-"
+  -
+    id: "BR"
+    form: "B-R"
+    aliases:
+      - "BAR"
+    consonants:
+      - "b"
+      - "r"
+    category: "Family"
+    semantic_field: "birth, beginning, emergence, generational arrival"
+    core: "birth, beginning, emergence"
+    forms:
+      verb: "to be born, bring forth, or begin"
+      noun: "birth, beginning, emergence"
+      adjective: "born, beginning, emergent"
+      agent: "newborn, birth-giver, origin-bearer"
+      object: "birth event, beginning point"
+      ritual: "birth named before household and future"
+      civic: "birth record or recognized beginning"
+      intimate: "the arrival of a child into care"
+    derived:
+      verb:
+        word: "bar"
+        pronunciation: "BAR"
+        meaning: "to be born, bring forth, or begin"
+        role: "action vowel a"
+      noun:
+        word: "ber"
+        pronunciation: "BER"
+        meaning: "birth, beginning, emergence"
+        role: "concept vowel e"
+      adjective:
+        word: "bir"
+        pronunciation: "BIR"
+        meaning: "born, beginning, emergent"
+        role: "quality vowel i"
+      agent:
+        word: "baren"
+        pronunciation: "BAREN"
+        meaning: "newborn, birth-giver, origin-bearer"
+        role: "actor suffix -en"
+      object:
+        word: "bor"
+        pronunciation: "BOR"
+        meaning: "birth event, beginning point"
+        role: "object vowel o"
+      ritual:
+        word: "ha-bur"
+        pronunciation: "ha-BUR"
+        meaning: "birth named before household and future"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "bar-da"
+        pronunciation: "BAR-DA"
+        meaning: "birth record or recognized beginning"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-bar"
+        pronunciation: "mi-BAR"
+        meaning: "the arrival of a child into care"
+        role: "intimate prefix mi-"
+  -
+    id: "DT"
+    form: "D-T"
+    aliases:
+      - "DAT"
+    consonants:
+      - "d"
+      - "t"
+    category: "Family"
+    semantic_field: "death, mortality, loss of life, final departure"
+    core: "death, mortality, final departure"
+    forms:
+      verb: "to die, end bodily life, or mourn mortality"
+      noun: "death, mortality, final departure"
+      adjective: "dead, mortal, death-bound"
+      agent: "the dead one or mourner of death"
+      object: "grave, death record, final body"
+      ritual: "mourning speech before memory"
+      civic: "death record or public mortality duty"
+      intimate: "grief for a beloved life ended"
+    derived:
+      verb:
+        word: "dat"
+        pronunciation: "DAT"
+        meaning: "to die, end bodily life, or mourn mortality"
+        role: "action vowel a"
+      noun:
+        word: "det"
+        pronunciation: "DET"
+        meaning: "death, mortality, final departure"
+        role: "concept vowel e"
+      adjective:
+        word: "dit"
+        pronunciation: "DIT"
+        meaning: "dead, mortal, death-bound"
+        role: "quality vowel i"
+      agent:
+        word: "daten"
+        pronunciation: "DATEN"
+        meaning: "the dead one or mourner of death"
+        role: "actor suffix -en"
+      object:
+        word: "dot"
+        pronunciation: "DOT"
+        meaning: "grave, death record, final body"
+        role: "object vowel o"
+      ritual:
+        word: "ha-dut"
+        pronunciation: "ha-DUT"
+        meaning: "mourning speech before memory"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "dat-da"
+        pronunciation: "DAT-DA"
+        meaning: "death record or public mortality duty"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-dat"
+        pronunciation: "mi-DAT"
+        meaning: "grief for a beloved life ended"
+        role: "intimate prefix mi-"
+  -
+    id: "KD"
+    form: "K-D"
+    aliases:
+      - "KAD"
+    consonants:
+      - "k"
+      - "d"
+    category: "Family"
+    semantic_field: "kinline, descent, childline, generational bond"
+    core: "kinline, descent, generational bond"
+    forms:
+      verb: "to descend, be kin, or continue a line"
+      noun: "kinline, descent, generational bond"
+      adjective: "descended, kin-bound, lineage-bearing"
+      agent: "descendant, kin-bearer, line-carrier"
+      object: "lineage mark or descent record"
+      ritual: "lineage named before ancestors and future"
+      civic: "recognized descent or kinship status"
+      intimate: "belonging felt through kin memory"
+    derived:
+      verb:
+        word: "kad"
+        pronunciation: "KAD"
+        meaning: "to descend, be kin, or continue a line"
+        role: "action vowel a"
+      noun:
+        word: "ked"
+        pronunciation: "KED"
+        meaning: "kinline, descent, generational bond"
+        role: "concept vowel e"
+      adjective:
+        word: "kid"
+        pronunciation: "KID"
+        meaning: "descended, kin-bound, lineage-bearing"
+        role: "quality vowel i"
+      agent:
+        word: "kaden"
+        pronunciation: "KADEN"
+        meaning: "descendant, kin-bearer, line-carrier"
+        role: "actor suffix -en"
+      object:
+        word: "kod"
+        pronunciation: "KOD"
+        meaning: "lineage mark or descent record"
+        role: "object vowel o"
+      ritual:
+        word: "ha-kud"
+        pronunciation: "ha-KUD"
+        meaning: "lineage named before ancestors and future"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "kad-da"
+        pronunciation: "KAD-DA"
+        meaning: "recognized descent or kinship status"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-kad"
+        pronunciation: "mi-KAD"
+        meaning: "belonging felt through kin memory"
+        role: "intimate prefix mi-"
+  -
+    id: "SP"
+    form: "S-P"
+    aliases:
+      - "SAP"
+    consonants:
+      - "s"
+      - "p"
+    category: "Family"
+    semantic_field: "sibling, peer-bond, side-by-side kinship"
+    core: "sibling, peer-kin, side bond"
+    forms:
+      verb: "to stand as sibling or peer-kin"
+      noun: "sibling, peer-kin, side bond"
+      adjective: "sibling-like, side-by-side, peer-bound"
+      agent: "sibling or peer-kin"
+      object: "sibling bond or shared household place"
+      ritual: "sibling bond blessed or named"
+      civic: "sibling status or household relation"
+      intimate: "side-by-side loyalty"
+    derived:
+      verb:
+        word: "sap"
+        pronunciation: "SAP"
+        meaning: "to stand as sibling or peer-kin"
+        role: "action vowel a"
+      noun:
+        word: "sep"
+        pronunciation: "SEP"
+        meaning: "sibling, peer-kin, side bond"
+        role: "concept vowel e"
+      adjective:
+        word: "sip"
+        pronunciation: "SIP"
+        meaning: "sibling-like, side-by-side, peer-bound"
+        role: "quality vowel i"
+      agent:
+        word: "sapen"
+        pronunciation: "SAPEN"
+        meaning: "sibling or peer-kin"
+        role: "actor suffix -en"
+      object:
+        word: "sop"
+        pronunciation: "SOP"
+        meaning: "sibling bond or shared household place"
+        role: "object vowel o"
+      ritual:
+        word: "ha-sup"
+        pronunciation: "ha-SUP"
+        meaning: "sibling bond blessed or named"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "sap-da"
+        pronunciation: "SAP-DA"
+        meaning: "sibling status or household relation"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-sap"
+        pronunciation: "mi-SAP"
+        meaning: "side-by-side loyalty"
+        role: "intimate prefix mi-"
+  -
+    id: "JW"
+    form: "J-W"
+    aliases:
+      - "JAW"
+    consonants:
+      - "j"
+      - "w"
+    category: "Emotion"
+    semantic_field: "joy, gladness, delight, uplifted life"
+    core: "joy, gladness, delight"
+    forms:
+      verb: "to rejoice, delight, or brighten inwardly"
+      noun: "joy, gladness, delight"
+      adjective: "joyful, glad, delighted"
+      agent: "one who rejoices or brings joy"
+      object: "joyful event or delight-object"
+      ritual: "joy offered in festival or blessing"
+      civic: "public celebration or shared gladness"
+      intimate: "private joy recognized by another"
+    derived:
+      verb:
+        word: "jaw"
+        pronunciation: "JAW"
+        meaning: "to rejoice, delight, or brighten inwardly"
+        role: "action vowel a"
+      noun:
+        word: "jew"
+        pronunciation: "JEW"
+        meaning: "joy, gladness, delight"
+        role: "concept vowel e"
+      adjective:
+        word: "jiw"
+        pronunciation: "JIW"
+        meaning: "joyful, glad, delighted"
+        role: "quality vowel i"
+      agent:
+        word: "jawen"
+        pronunciation: "JAWEN"
+        meaning: "one who rejoices or brings joy"
+        role: "actor suffix -en"
+      object:
+        word: "jow"
+        pronunciation: "JOW"
+        meaning: "joyful event or delight-object"
+        role: "object vowel o"
+      ritual:
+        word: "ha-juw"
+        pronunciation: "ha-JUW"
+        meaning: "joy offered in festival or blessing"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "jaw-da"
+        pronunciation: "JAW-DA"
+        meaning: "public celebration or shared gladness"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-jaw"
+        pronunciation: "mi-JAW"
+        meaning: "private joy recognized by another"
+        role: "intimate prefix mi-"
+  -
+    id: "GF"
+    form: "G-F"
+    aliases:
+      - "GAF"
+    consonants:
+      - "g"
+      - "f"
+    category: "Emotion"
+    semantic_field: "grief, mourning, sorrow, loss held in memory"
+    core: "grief, mourning, sorrow"
+    forms:
+      verb: "to grieve, mourn, or hold sorrow"
+      noun: "grief, mourning, sorrow"
+      adjective: "grieving, sorrowful, mourned"
+      agent: "mourner or grief-bearer"
+      object: "loss named by grief"
+      ritual: "mourning spoken before memory"
+      civic: "public mourning or memorial duty"
+      intimate: "sorrow entrusted without concealment"
+    derived:
+      verb:
+        word: "gaf"
+        pronunciation: "GAF"
+        meaning: "to grieve, mourn, or hold sorrow"
+        role: "action vowel a"
+      noun:
+        word: "gef"
+        pronunciation: "GEF"
+        meaning: "grief, mourning, sorrow"
+        role: "concept vowel e"
+      adjective:
+        word: "gif"
+        pronunciation: "GIF"
+        meaning: "grieving, sorrowful, mourned"
+        role: "quality vowel i"
+      agent:
+        word: "gafen"
+        pronunciation: "GAFEN"
+        meaning: "mourner or grief-bearer"
+        role: "actor suffix -en"
+      object:
+        word: "gof"
+        pronunciation: "GOF"
+        meaning: "loss named by grief"
+        role: "object vowel o"
+      ritual:
+        word: "ha-guf"
+        pronunciation: "ha-GUF"
+        meaning: "mourning spoken before memory"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "gaf-da"
+        pronunciation: "GAF-DA"
+        meaning: "public mourning or memorial duty"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-gaf"
+        pronunciation: "mi-GAF"
+        meaning: "sorrow entrusted without concealment"
+        role: "intimate prefix mi-"
+  -
+    id: "XR"
+    form: "X-R"
+    aliases:
+      - "XAR"
+    consonants:
+      - "x"
+      - "r"
+    category: "Emotion"
+    semantic_field: "fear, dread, danger-sense, guarded attention"
+    core: "fear, dread, danger-sense"
+    forms:
+      verb: "to fear, dread, or sense danger"
+      noun: "fear, dread, danger-sense"
+      adjective: "afraid, guarded, danger-aware"
+      agent: "one who fears or watches for danger"
+      object: "feared thing or danger sign"
+      ritual: "fear confessed before courage"
+      civic: "threat warning or risk notice"
+      intimate: "fear named to one trusted"
+    derived:
+      verb:
+        word: "xar"
+        pronunciation: "XAR"
+        meaning: "to fear, dread, or sense danger"
+        role: "action vowel a"
+      noun:
+        word: "xer"
+        pronunciation: "XER"
+        meaning: "fear, dread, danger-sense"
+        role: "concept vowel e"
+      adjective:
+        word: "xir"
+        pronunciation: "XIR"
+        meaning: "afraid, guarded, danger-aware"
+        role: "quality vowel i"
+      agent:
+        word: "xaren"
+        pronunciation: "XAREN"
+        meaning: "one who fears or watches for danger"
+        role: "actor suffix -en"
+      object:
+        word: "xor"
+        pronunciation: "XOR"
+        meaning: "feared thing or danger sign"
+        role: "object vowel o"
+      ritual:
+        word: "ha-xur"
+        pronunciation: "ha-XUR"
+        meaning: "fear confessed before courage"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "xar-da"
+        pronunciation: "XAR-DA"
+        meaning: "threat warning or risk notice"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-xar"
+        pronunciation: "mi-XAR"
+        meaning: "fear named to one trusted"
+        role: "intimate prefix mi-"
+  -
+    id: "ZG"
+    form: "Z-G"
+    aliases:
+      - "ZAG"
+    consonants:
+      - "z"
+      - "g"
+    category: "Emotion"
+    semantic_field: "anger, heat, indignation, forceful refusal"
+    core: "anger, indignation, hot refusal"
+    forms:
+      verb: "to anger, burn inwardly, or refuse forcefully"
+      noun: "anger, indignation, hot refusal"
+      adjective: "angry, heated, indignant"
+      agent: "one who bears anger or protests"
+      object: "offense that awakens anger"
+      ritual: "anger placed under truth before action"
+      civic: "public grievance or protest"
+      intimate: "anger spoken without abandonment"
+    derived:
+      verb:
+        word: "zag"
+        pronunciation: "ZAG"
+        meaning: "to anger, burn inwardly, or refuse forcefully"
+        role: "action vowel a"
+      noun:
+        word: "zeg"
+        pronunciation: "ZEG"
+        meaning: "anger, indignation, hot refusal"
+        role: "concept vowel e"
+      adjective:
+        word: "zig"
+        pronunciation: "ZIG"
+        meaning: "angry, heated, indignant"
+        role: "quality vowel i"
+      agent:
+        word: "zagen"
+        pronunciation: "ZAGEN"
+        meaning: "one who bears anger or protests"
+        role: "actor suffix -en"
+      object:
+        word: "zog"
+        pronunciation: "ZOG"
+        meaning: "offense that awakens anger"
+        role: "object vowel o"
+      ritual:
+        word: "ha-zug"
+        pronunciation: "ha-ZUG"
+        meaning: "anger placed under truth before action"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "zag-da"
+        pronunciation: "ZAG-DA"
+        meaning: "public grievance or protest"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-zag"
+        pronunciation: "mi-ZAG"
+        meaning: "anger spoken without abandonment"
+        role: "intimate prefix mi-"
+  -
+    id: "CB"
+    form: "C-B"
+    aliases:
+      - "CAB"
+    consonants:
+      - "c"
+      - "b"
+    category: "Emotion"
+    semantic_field: "shame, concealment, exposed fault, inward recoil"
+    core: "shame, exposed fault, inward recoil"
+    forms:
+      verb: "to feel shame, recoil, or conceal fault"
+      noun: "shame, exposed fault, inward recoil"
+      adjective: "ashamed, concealed, exposed in fault"
+      agent: "one who bears shame or hides fault"
+      object: "shameful act or hidden fault"
+      ritual: "shame confessed for repair"
+      civic: "public fault or dishonor record"
+      intimate: "shame received without erasing truth"
+    derived:
+      verb:
+        word: "cab"
+        pronunciation: "CAB"
+        meaning: "to feel shame, recoil, or conceal fault"
+        role: "action vowel a"
+      noun:
+        word: "ceb"
+        pronunciation: "CEB"
+        meaning: "shame, exposed fault, inward recoil"
+        role: "concept vowel e"
+      adjective:
+        word: "cib"
+        pronunciation: "CIB"
+        meaning: "ashamed, concealed, exposed in fault"
+        role: "quality vowel i"
+      agent:
+        word: "caben"
+        pronunciation: "CABEN"
+        meaning: "one who bears shame or hides fault"
+        role: "actor suffix -en"
+      object:
+        word: "cob"
+        pronunciation: "COB"
+        meaning: "shameful act or hidden fault"
+        role: "object vowel o"
+      ritual:
+        word: "ha-cub"
+        pronunciation: "ha-CUB"
+        meaning: "shame confessed for repair"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "cab-da"
+        pronunciation: "CAB-DA"
+        meaning: "public fault or dishonor record"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-cab"
+        pronunciation: "mi-CAB"
+        meaning: "shame received without erasing truth"
+        role: "intimate prefix mi-"
+  -
+    id: "RT"
+    form: "R-T"
+    aliases:
+      - "RAT"
+    consonants:
+      - "r"
+      - "t"
+    category: "Law/civic life"
+    semantic_field: "right, claim, entitlement, just standing"
+    core: "right, claim, rightful standing"
+    forms:
+      verb: "to claim rightly or grant standing"
+      noun: "right, claim, rightful standing"
+      adjective: "rightful, claim-bearing, entitled by justice"
+      agent: "right-holder or claimant"
+      object: "recognized right or claim"
+      ritual: "right named before truth"
+      civic: "legal right or formal entitlement"
+      intimate: "the right to be treated as fully seen"
+    derived:
+      verb:
+        word: "rat"
+        pronunciation: "RAT"
+        meaning: "to claim rightly or grant standing"
+        role: "action vowel a"
+      noun:
+        word: "ret"
+        pronunciation: "RET"
+        meaning: "right, claim, rightful standing"
+        role: "concept vowel e"
+      adjective:
+        word: "rit"
+        pronunciation: "RIT"
+        meaning: "rightful, claim-bearing, entitled by justice"
+        role: "quality vowel i"
+      agent:
+        word: "raten"
+        pronunciation: "RATEN"
+        meaning: "right-holder or claimant"
+        role: "actor suffix -en"
+      object:
+        word: "rot"
+        pronunciation: "ROT"
+        meaning: "recognized right or claim"
+        role: "object vowel o"
+      ritual:
+        word: "ha-rut"
+        pronunciation: "ha-RUT"
+        meaning: "right named before truth"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "rat-da"
+        pronunciation: "RAT-DA"
+        meaning: "legal right or formal entitlement"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-rat"
+        pronunciation: "mi-RAT"
+        meaning: "the right to be treated as fully seen"
+        role: "intimate prefix mi-"
+  -
+    id: "XF"
+    form: "X-F"
+    aliases:
+      - "XAF"
+    consonants:
+      - "x"
+      - "f"
+    category: "Law/civic life"
+    semantic_field: "office, charge, mandate, entrusted public role"
+    core: "office, charge, public mandate"
+    forms:
+      verb: "to hold office, charge, or mandate"
+      noun: "office, charge, public mandate"
+      adjective: "official, mandated, charge-bearing"
+      agent: "office-holder, mandate-bearer"
+      object: "office, commission, public charge"
+      ritual: "office received under solemn witness"
+      civic: "formal office or delegated mandate"
+      intimate: "a charge entrusted personally"
+    derived:
+      verb:
+        word: "xaf"
+        pronunciation: "XAF"
+        meaning: "to hold office, charge, or mandate"
+        role: "action vowel a"
+      noun:
+        word: "xef"
+        pronunciation: "XEF"
+        meaning: "office, charge, public mandate"
+        role: "concept vowel e"
+      adjective:
+        word: "xif"
+        pronunciation: "XIF"
+        meaning: "official, mandated, charge-bearing"
+        role: "quality vowel i"
+      agent:
+        word: "xafen"
+        pronunciation: "XAFEN"
+        meaning: "office-holder, mandate-bearer"
+        role: "actor suffix -en"
+      object:
+        word: "xof"
+        pronunciation: "XOF"
+        meaning: "office, commission, public charge"
+        role: "object vowel o"
+      ritual:
+        word: "ha-xuf"
+        pronunciation: "ha-XUF"
+        meaning: "office received under solemn witness"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "xaf-da"
+        pronunciation: "XAF-DA"
+        meaning: "formal office or delegated mandate"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-xaf"
+        pronunciation: "mi-XAF"
+        meaning: "a charge entrusted personally"
+        role: "intimate prefix mi-"
+  -
+    id: "JV"
+    form: "J-V"
+    aliases:
+      - "JAV"
+    consonants:
+      - "j"
+      - "v"
+    category: "Law/civic life"
+    semantic_field: "judgment, verdict, evaluation, discerned decision"
+    core: "judgment, verdict, evaluation"
+    forms:
+      verb: "to judge, evaluate, or decide by discernment"
+      noun: "judgment, verdict, evaluation"
+      adjective: "judged, evaluated, verdict-bearing"
+      agent: "judge, evaluator, decision-bearer"
+      object: "verdict, rating, evaluation record"
+      ritual: "judgment spoken before ultimate witness"
+      civic: "court verdict or official evaluation"
+      intimate: "discernment spoken carefully to another"
+    derived:
+      verb:
+        word: "jav"
+        pronunciation: "JAV"
+        meaning: "to judge, evaluate, or decide by discernment"
+        role: "action vowel a"
+      noun:
+        word: "jev"
+        pronunciation: "JEV"
+        meaning: "judgment, verdict, evaluation"
+        role: "concept vowel e"
+      adjective:
+        word: "jiv"
+        pronunciation: "JIV"
+        meaning: "judged, evaluated, verdict-bearing"
+        role: "quality vowel i"
+      agent:
+        word: "javen"
+        pronunciation: "JAVEN"
+        meaning: "judge, evaluator, decision-bearer"
+        role: "actor suffix -en"
+      object:
+        word: "jov"
+        pronunciation: "JOV"
+        meaning: "verdict, rating, evaluation record"
+        role: "object vowel o"
+      ritual:
+        word: "ha-juv"
+        pronunciation: "ha-JUV"
+        meaning: "judgment spoken before ultimate witness"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "jav-da"
+        pronunciation: "JAV-DA"
+        meaning: "court verdict or official evaluation"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-jav"
+        pronunciation: "mi-JAV"
+        meaning: "discernment spoken carefully to another"
+        role: "intimate prefix mi-"
+  -
+    id: "KP"
+    form: "K-P"
+    aliases:
+      - "KAP"
+    consonants:
+      - "k"
+      - "p"
+    category: "Law/civic life"
+    semantic_field: "contract, pact, agreement, exchanged obligation"
+    core: "contract, pact, agreement"
+    forms:
+      verb: "to contract, agree, or bind by exchange"
+      noun: "contract, pact, agreement"
+      adjective: "contracted, agreed, pact-bound"
+      agent: "contractor, party to agreement"
+      object: "contract document or pact term"
+      ritual: "pact made before witnesses"
+      civic: "formal contract or enforceable agreement"
+      intimate: "agreement kept between trusted persons"
+    derived:
+      verb:
+        word: "kap"
+        pronunciation: "KAP"
+        meaning: "to contract, agree, or bind by exchange"
+        role: "action vowel a"
+      noun:
+        word: "kep"
+        pronunciation: "KEP"
+        meaning: "contract, pact, agreement"
+        role: "concept vowel e"
+      adjective:
+        word: "kip"
+        pronunciation: "KIP"
+        meaning: "contracted, agreed, pact-bound"
+        role: "quality vowel i"
+      agent:
+        word: "kapen"
+        pronunciation: "KAPEN"
+        meaning: "contractor, party to agreement"
+        role: "actor suffix -en"
+      object:
+        word: "kop"
+        pronunciation: "KOP"
+        meaning: "contract document or pact term"
+        role: "object vowel o"
+      ritual:
+        word: "ha-kup"
+        pronunciation: "ha-KUP"
+        meaning: "pact made before witnesses"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "kap-da"
+        pronunciation: "KAP-DA"
+        meaning: "formal contract or enforceable agreement"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-kap"
+        pronunciation: "mi-KAP"
+        meaning: "agreement kept between trusted persons"
+        role: "intimate prefix mi-"
+  -
+    id: "ZT"
+    form: "Z-T"
+    aliases:
+      - "ZAT"
+    consonants:
+      - "z"
+      - "t"
+    category: "Law/civic life"
+    semantic_field: "authority, command, delegated force, right to direct"
+    core: "authority, command, delegated force"
+    forms:
+      verb: "to authorize, command, or direct by delegated force"
+      noun: "authority, command, delegated force"
+      adjective: "authorized, commanding, directive"
+      agent: "authority-bearer or commander"
+      object: "order, authorization, directive"
+      ritual: "authority submitted to solemn witness"
+      civic: "public authority or lawful command"
+      intimate: "trusted authority used for protection"
+    derived:
+      verb:
+        word: "zat"
+        pronunciation: "ZAT"
+        meaning: "to authorize, command, or direct by delegated force"
+        role: "action vowel a"
+      noun:
+        word: "zet"
+        pronunciation: "ZET"
+        meaning: "authority, command, delegated force"
+        role: "concept vowel e"
+      adjective:
+        word: "zit"
+        pronunciation: "ZIT"
+        meaning: "authorized, commanding, directive"
+        role: "quality vowel i"
+      agent:
+        word: "zaten"
+        pronunciation: "ZATEN"
+        meaning: "authority-bearer or commander"
+        role: "actor suffix -en"
+      object:
+        word: "zot"
+        pronunciation: "ZOT"
+        meaning: "order, authorization, directive"
+        role: "object vowel o"
+      ritual:
+        word: "ha-zut"
+        pronunciation: "ha-ZUT"
+        meaning: "authority submitted to solemn witness"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "zat-da"
+        pronunciation: "ZAT-DA"
+        meaning: "public authority or lawful command"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-zat"
+        pronunciation: "mi-ZAT"
+        meaning: "trusted authority used for protection"
+        role: "intimate prefix mi-"
+  -
+    id: "DN"
+    form: "D-N"
+    aliases:
+      - "DAN"
+    consonants:
+      - "d"
+      - "n"
+    category: "Technology"
+    semantic_field: "data, given record, encoded fact, stored signal"
+    core: "data, encoded record, stored fact"
+    forms:
+      verb: "to encode, store, or give as data"
+      noun: "data, encoded record, stored fact"
+      adjective: "encoded, data-bearing, stored"
+      agent: "data keeper or recorder"
+      object: "datum, dataset, stored signal"
+      ritual: "record preserved before memory"
+      civic: "public data record or registry datum"
+      intimate: "personal record held in trust"
+    derived:
+      verb:
+        word: "dan"
+        pronunciation: "DAN"
+        meaning: "to encode, store, or give as data"
+        role: "action vowel a"
+      noun:
+        word: "den"
+        pronunciation: "DEN"
+        meaning: "data, encoded record, stored fact"
+        role: "concept vowel e"
+      adjective:
+        word: "din"
+        pronunciation: "DIN"
+        meaning: "encoded, data-bearing, stored"
+        role: "quality vowel i"
+      agent:
+        word: "danen"
+        pronunciation: "DANEN"
+        meaning: "data keeper or recorder"
+        role: "actor suffix -en"
+      object:
+        word: "don"
+        pronunciation: "DON"
+        meaning: "datum, dataset, stored signal"
+        role: "object vowel o"
+      ritual:
+        word: "ha-dun"
+        pronunciation: "ha-DUN"
+        meaning: "record preserved before memory"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "dan-da"
+        pronunciation: "DAN-DA"
+        meaning: "public data record or registry datum"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-dan"
+        pronunciation: "mi-DAN"
+        meaning: "personal record held in trust"
+        role: "intimate prefix mi-"
+  -
+    id: "NW"
+    form: "N-W"
+    aliases:
+      - "NAW"
+    consonants:
+      - "n"
+      - "w"
+    category: "Technology"
+    semantic_field: "network, connection, link, distributed relation"
+    core: "network, connection, distributed relation"
+    forms:
+      verb: "to network, connect, or link"
+      noun: "network, connection, distributed relation"
+      adjective: "networked, connected, linked"
+      agent: "connector, network node, link-maker"
+      object: "link, node, connection path"
+      ritual: "bonds named as a living network"
+      civic: "public network or infrastructure link"
+      intimate: "connection kept across distance"
+    derived:
+      verb:
+        word: "naw"
+        pronunciation: "NAW"
+        meaning: "to network, connect, or link"
+        role: "action vowel a"
+      noun:
+        word: "new"
+        pronunciation: "NEW"
+        meaning: "network, connection, distributed relation"
+        role: "concept vowel e"
+      adjective:
+        word: "niw"
+        pronunciation: "NIW"
+        meaning: "networked, connected, linked"
+        role: "quality vowel i"
+      agent:
+        word: "nawen"
+        pronunciation: "NAWEN"
+        meaning: "connector, network node, link-maker"
+        role: "actor suffix -en"
+      object:
+        word: "now"
+        pronunciation: "NOW"
+        meaning: "link, node, connection path"
+        role: "object vowel o"
+      ritual:
+        word: "ha-nuw"
+        pronunciation: "ha-NUW"
+        meaning: "bonds named as a living network"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "naw-da"
+        pronunciation: "NAW-DA"
+        meaning: "public network or infrastructure link"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-naw"
+        pronunciation: "mi-NAW"
+        meaning: "connection kept across distance"
+        role: "intimate prefix mi-"
+  -
+    id: "MF"
+    form: "M-F"
+    aliases:
+      - "MAF"
+    consonants:
+      - "m"
+      - "f"
+    category: "Technology"
+    semantic_field: "machine, mechanism, function, engineered process"
+    core: "machine, mechanism, function"
+    forms:
+      verb: "to mechanize, automate, or make function"
+      noun: "machine, mechanism, function"
+      adjective: "mechanical, functional, automated"
+      agent: "machine, operator, automating agent"
+      object: "mechanism, device, running function"
+      ritual: "machine dedicated to right use"
+      civic: "regulated machine or public mechanism"
+      intimate: "tool made to reduce another's burden"
+    derived:
+      verb:
+        word: "maf"
+        pronunciation: "MAF"
+        meaning: "to mechanize, automate, or make function"
+        role: "action vowel a"
+      noun:
+        word: "mef"
+        pronunciation: "MEF"
+        meaning: "machine, mechanism, function"
+        role: "concept vowel e"
+      adjective:
+        word: "mif"
+        pronunciation: "MIF"
+        meaning: "mechanical, functional, automated"
+        role: "quality vowel i"
+      agent:
+        word: "mafen"
+        pronunciation: "MAFEN"
+        meaning: "machine, operator, automating agent"
+        role: "actor suffix -en"
+      object:
+        word: "mof"
+        pronunciation: "MOF"
+        meaning: "mechanism, device, running function"
+        role: "object vowel o"
+      ritual:
+        word: "ha-muf"
+        pronunciation: "ha-MUF"
+        meaning: "machine dedicated to right use"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "maf-da"
+        pronunciation: "MAF-DA"
+        meaning: "regulated machine or public mechanism"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-maf"
+        pronunciation: "mi-MAF"
+        meaning: "tool made to reduce another's burden"
+        role: "intimate prefix mi-"
+  -
+    id: "MD"
+    form: "M-D"
+    aliases:
+      - "MAD"
+    consonants:
+      - "m"
+      - "d"
+    category: "Technology"
+    semantic_field: "model, representation, schema, simplified world"
+    core: "model, representation, schema"
+    forms:
+      verb: "to model, represent, or schematize"
+      noun: "model, representation, schema"
+      adjective: "modeled, representative, schematic"
+      agent: "modeler or representational system"
+      object: "model, diagram, schema"
+      ritual: "image of order used for teaching"
+      civic: "official model or planning schema"
+      intimate: "a simplified picture used to be understood"
+    derived:
+      verb:
+        word: "mad"
+        pronunciation: "MAD"
+        meaning: "to model, represent, or schematize"
+        role: "action vowel a"
+      noun:
+        word: "med"
+        pronunciation: "MED"
+        meaning: "model, representation, schema"
+        role: "concept vowel e"
+      adjective:
+        word: "mid"
+        pronunciation: "MID"
+        meaning: "modeled, representative, schematic"
+        role: "quality vowel i"
+      agent:
+        word: "maden"
+        pronunciation: "MADEN"
+        meaning: "modeler or representational system"
+        role: "actor suffix -en"
+      object:
+        word: "mod"
+        pronunciation: "MOD"
+        meaning: "model, diagram, schema"
+        role: "object vowel o"
+      ritual:
+        word: "ha-mud"
+        pronunciation: "ha-MUD"
+        meaning: "image of order used for teaching"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "mad-da"
+        pronunciation: "MAD-DA"
+        meaning: "official model or planning schema"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-mad"
+        pronunciation: "mi-MAD"
+        meaning: "a simplified picture used to be understood"
+        role: "intimate prefix mi-"
+  -
+    id: "XP"
+    form: "X-P"
+    aliases:
+      - "XAP"
+    consonants:
+      - "x"
+      - "p"
+    category: "Technology"
+    semantic_field: "security, protection, boundary defense, guarded access"
+    core: "security, protection, guarded boundary"
+    forms:
+      verb: "to secure, guard, or protect access"
+      noun: "security, protection, guarded boundary"
+      adjective: "secure, protected, access-guarded"
+      agent: "guardian, security system, protector"
+      object: "lock, credential, protected boundary"
+      ritual: "boundary guarded under vow"
+      civic: "public security or access rule"
+      intimate: "protection of another's entrusted privacy"
+    derived:
+      verb:
+        word: "xap"
+        pronunciation: "XAP"
+        meaning: "to secure, guard, or protect access"
+        role: "action vowel a"
+      noun:
+        word: "xep"
+        pronunciation: "XEP"
+        meaning: "security, protection, guarded boundary"
+        role: "concept vowel e"
+      adjective:
+        word: "xip"
+        pronunciation: "XIP"
+        meaning: "secure, protected, access-guarded"
+        role: "quality vowel i"
+      agent:
+        word: "xapen"
+        pronunciation: "XAPEN"
+        meaning: "guardian, security system, protector"
+        role: "actor suffix -en"
+      object:
+        word: "xop"
+        pronunciation: "XOP"
+        meaning: "lock, credential, protected boundary"
+        role: "object vowel o"
+      ritual:
+        word: "ha-xup"
+        pronunciation: "ha-XUP"
+        meaning: "boundary guarded under vow"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "xap-da"
+        pronunciation: "XAP-DA"
+        meaning: "public security or access rule"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-xap"
+        pronunciation: "mi-XAP"
+        meaning: "protection of another's entrusted privacy"
+        role: "intimate prefix mi-"
+  -
+    id: "RJ"
+    form: "R-J"
+    aliases:
+      - "RAJ"
+    consonants:
+      - "r"
+      - "j"
+    category: "Mind"
+    semantic_field: "reason, inference, logic, accountable thought"
+    core: "reason, inference, logic"
+    forms:
+      verb: "to reason, infer, or think accountably"
+      noun: "reason, inference, logic"
+      adjective: "rational, reasoned, inferential"
+      agent: "reasoner, thinker, analyst"
+      object: "argument, inference, reasoned account"
+      ritual: "reason submitted before truth"
+      civic: "public rationale or official reasoning"
+      intimate: "thinking honestly with another"
+    derived:
+      verb:
+        word: "raj"
+        pronunciation: "RAJ"
+        meaning: "to reason, infer, or think accountably"
+        role: "action vowel a"
+      noun:
+        word: "rej"
+        pronunciation: "REJ"
+        meaning: "reason, inference, logic"
+        role: "concept vowel e"
+      adjective:
+        word: "rij"
+        pronunciation: "RIJ"
+        meaning: "rational, reasoned, inferential"
+        role: "quality vowel i"
+      agent:
+        word: "rajen"
+        pronunciation: "RAJEN"
+        meaning: "reasoner, thinker, analyst"
+        role: "actor suffix -en"
+      object:
+        word: "roj"
+        pronunciation: "ROJ"
+        meaning: "argument, inference, reasoned account"
+        role: "object vowel o"
+      ritual:
+        word: "ha-ruj"
+        pronunciation: "ha-RUJ"
+        meaning: "reason submitted before truth"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "raj-da"
+        pronunciation: "RAJ-DA"
+        meaning: "public rationale or official reasoning"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-raj"
+        pronunciation: "mi-RAJ"
+        meaning: "thinking honestly with another"
+        role: "intimate prefix mi-"
+  -
+    id: "SM"
+    form: "S-M"
+    aliases:
+      - "SAM"
+    consonants:
+      - "s"
+      - "m"
+    category: "Mind"
+    semantic_field: "simulation, image-play, possible world, rehearsal"
+    core: "simulation, rehearsal, possible world"
+    forms:
+      verb: "to simulate, rehearse, or imagine a possible world"
+      noun: "simulation, rehearsal, possible world"
+      adjective: "simulated, imagined, rehearsed"
+      agent: "simulator, imaginer, rehearsal-maker"
+      object: "scenario, simulation, possible case"
+      ritual: "imagined judgment used for preparation"
+      civic: "policy simulation or public scenario"
+      intimate: "shared imagining of a possible life"
+    derived:
+      verb:
+        word: "sam"
+        pronunciation: "SAM"
+        meaning: "to simulate, rehearse, or imagine a possible world"
+        role: "action vowel a"
+      noun:
+        word: "sem"
+        pronunciation: "SEM"
+        meaning: "simulation, rehearsal, possible world"
+        role: "concept vowel e"
+      adjective:
+        word: "sim"
+        pronunciation: "SIM"
+        meaning: "simulated, imagined, rehearsed"
+        role: "quality vowel i"
+      agent:
+        word: "samen"
+        pronunciation: "SAMEN"
+        meaning: "simulator, imaginer, rehearsal-maker"
+        role: "actor suffix -en"
+      object:
+        word: "som"
+        pronunciation: "SOM"
+        meaning: "scenario, simulation, possible case"
+        role: "object vowel o"
+      ritual:
+        word: "ha-sum"
+        pronunciation: "ha-SUM"
+        meaning: "imagined judgment used for preparation"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "sam-da"
+        pronunciation: "SAM-DA"
+        meaning: "policy simulation or public scenario"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-sam"
+        pronunciation: "mi-SAM"
+        meaning: "shared imagining of a possible life"
+        role: "intimate prefix mi-"
+  -
+    id: "MY"
+    form: "M-Y"
+    aliases:
+      - "MAY"
+    consonants:
+      - "m"
+      - "y"
+    category: "Law/civic life"
+    semantic_field: "money, value token, unit of exchange, priced trust"
+    core: "money, value token, exchange unit"
+    forms:
+      verb: "to price, pay, or tokenize value"
+      noun: "money, value token, exchange unit"
+      adjective: "monetary, priced, value-bearing"
+      agent: "payer, treasurer, value-keeper"
+      object: "coin, price, payment unit"
+      ritual: "gift or payment placed under duty"
+      civic: "currency, public payment, or tax unit"
+      intimate: "provision offered without reducing love to price"
+    derived:
+      verb:
+        word: "may"
+        pronunciation: "MAY"
+        meaning: "to price, pay, or tokenize value"
+        role: "action vowel a"
+      noun:
+        word: "mey"
+        pronunciation: "MEY"
+        meaning: "money, value token, exchange unit"
+        role: "concept vowel e"
+      adjective:
+        word: "miy"
+        pronunciation: "MIY"
+        meaning: "monetary, priced, value-bearing"
+        role: "quality vowel i"
+      agent:
+        word: "mayen"
+        pronunciation: "MAYEN"
+        meaning: "payer, treasurer, value-keeper"
+        role: "actor suffix -en"
+      object:
+        word: "moy"
+        pronunciation: "MOY"
+        meaning: "coin, price, payment unit"
+        role: "object vowel o"
+      ritual:
+        word: "ha-muy"
+        pronunciation: "ha-MUY"
+        meaning: "gift or payment placed under duty"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "may-da"
+        pronunciation: "MAY-DA"
+        meaning: "currency, public payment, or tax unit"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-may"
+        pronunciation: "mi-MAY"
+        meaning: "provision offered without reducing love to price"
+        role: "intimate prefix mi-"
+  -
+    id: "XB"
+    form: "X-B"
+    aliases:
+      - "XAB"
+    consonants:
+      - "x"
+      - "b"
+    category: "Law/civic life"
+    semantic_field: "trade, exchange, market, reciprocal transfer"
+    core: "trade, exchange, market transfer"
+    forms:
+      verb: "to trade, exchange, or transfer reciprocally"
+      noun: "trade, exchange, market transfer"
+      adjective: "traded, exchanged, reciprocal"
+      agent: "trader, exchanger, market actor"
+      object: "trade good or exchange term"
+      ritual: "exchange blessed under fairness"
+      civic: "market rule or formal exchange"
+      intimate: "exchange of gifts without hidden debt"
+    derived:
+      verb:
+        word: "xab"
+        pronunciation: "XAB"
+        meaning: "to trade, exchange, or transfer reciprocally"
+        role: "action vowel a"
+      noun:
+        word: "xeb"
+        pronunciation: "XEB"
+        meaning: "trade, exchange, market transfer"
+        role: "concept vowel e"
+      adjective:
+        word: "xib"
+        pronunciation: "XIB"
+        meaning: "traded, exchanged, reciprocal"
+        role: "quality vowel i"
+      agent:
+        word: "xaben"
+        pronunciation: "XABEN"
+        meaning: "trader, exchanger, market actor"
+        role: "actor suffix -en"
+      object:
+        word: "xob"
+        pronunciation: "XOB"
+        meaning: "trade good or exchange term"
+        role: "object vowel o"
+      ritual:
+        word: "ha-xub"
+        pronunciation: "ha-XUB"
+        meaning: "exchange blessed under fairness"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "xab-da"
+        pronunciation: "XAB-DA"
+        meaning: "market rule or formal exchange"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-xab"
+        pronunciation: "mi-XAB"
+        meaning: "exchange of gifts without hidden debt"
+        role: "intimate prefix mi-"
+  -
+    id: "WK"
+    form: "W-K"
+    aliases:
+      - "WAK"
+    consonants:
+      - "w"
+      - "k"
+    category: "Building/making"
+    semantic_field: "work, labor, task, effort given to form"
+    core: "work, labor, task"
+    forms:
+      verb: "to work, labor, or perform a task"
+      noun: "work, labor, task"
+      adjective: "working, laboring, task-bound"
+      agent: "worker, laborer, task-bearer"
+      object: "task, job, work product"
+      ritual: "work offered as duty"
+      civic: "labor office, public task, or work standard"
+      intimate: "work done for one beloved"
+    derived:
+      verb:
+        word: "wak"
+        pronunciation: "WAK"
+        meaning: "to work, labor, or perform a task"
+        role: "action vowel a"
+      noun:
+        word: "wek"
+        pronunciation: "WEK"
+        meaning: "work, labor, task"
+        role: "concept vowel e"
+      adjective:
+        word: "wik"
+        pronunciation: "WIK"
+        meaning: "working, laboring, task-bound"
+        role: "quality vowel i"
+      agent:
+        word: "waken"
+        pronunciation: "WAKEN"
+        meaning: "worker, laborer, task-bearer"
+        role: "actor suffix -en"
+      object:
+        word: "wok"
+        pronunciation: "WOK"
+        meaning: "task, job, work product"
+        role: "object vowel o"
+      ritual:
+        word: "ha-wuk"
+        pronunciation: "ha-WUK"
+        meaning: "work offered as duty"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "wak-da"
+        pronunciation: "WAK-DA"
+        meaning: "labor office, public task, or work standard"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-wak"
+        pronunciation: "mi-WAK"
+        meaning: "work done for one beloved"
+        role: "intimate prefix mi-"
+  -
+    id: "GW"
+    form: "G-W"
+    aliases:
+      - "GAW"
+    consonants:
+      - "g"
+      - "w"
+    category: "Law/civic life"
+    semantic_field: "gift, grant, generosity, unpriced transfer"
+    core: "gift, grant, generosity"
+    forms:
+      verb: "to give, grant, or transfer generously"
+      noun: "gift, grant, generosity"
+      adjective: "given, generous, grant-bearing"
+      agent: "giver, donor, grantor"
+      object: "gift, grant, offering"
+      ritual: "gift offered before witness"
+      civic: "grant, public gift, or subsidy"
+      intimate: "gift given as recognition"
+    derived:
+      verb:
+        word: "gaw"
+        pronunciation: "GAW"
+        meaning: "to give, grant, or transfer generously"
+        role: "action vowel a"
+      noun:
+        word: "gew"
+        pronunciation: "GEW"
+        meaning: "gift, grant, generosity"
+        role: "concept vowel e"
+      adjective:
+        word: "giw"
+        pronunciation: "GIW"
+        meaning: "given, generous, grant-bearing"
+        role: "quality vowel i"
+      agent:
+        word: "gawen"
+        pronunciation: "GAWEN"
+        meaning: "giver, donor, grantor"
+        role: "actor suffix -en"
+      object:
+        word: "gow"
+        pronunciation: "GOW"
+        meaning: "gift, grant, offering"
+        role: "object vowel o"
+      ritual:
+        word: "ha-guw"
+        pronunciation: "ha-GUW"
+        meaning: "gift offered before witness"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "gaw-da"
+        pronunciation: "GAW-DA"
+        meaning: "grant, public gift, or subsidy"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-gaw"
+        pronunciation: "mi-GAW"
+        meaning: "gift given as recognition"
+        role: "intimate prefix mi-"
+  -
+    id: "MN"
+    form: "M-N"
+    aliases:
+      - "MAN"
+    consonants:
+      - "m"
+      - "n"
+    category: "Nature"
+    semantic_field: "matter, material, substance, tangible stuff"
+    core: "matter, material, substance"
+    forms:
+      verb: "to materialize or give substance"
+      noun: "matter, material, substance"
+      adjective: "material, substantial, tangible"
+      agent: "material bearer or substance-maker"
+      object: "material, substance, physical stuff"
+      ritual: "matter honored as formed world"
+      civic: "public material or resource classification"
+      intimate: "substance shaped by care"
+    derived:
+      verb:
+        word: "man"
+        pronunciation: "MAN"
+        meaning: "to materialize or give substance"
+        role: "action vowel a"
+      noun:
+        word: "men"
+        pronunciation: "MEN"
+        meaning: "matter, material, substance"
+        role: "concept vowel e"
+      adjective:
+        word: "min"
+        pronunciation: "MIN"
+        meaning: "material, substantial, tangible"
+        role: "quality vowel i"
+      agent:
+        word: "manen"
+        pronunciation: "MANEN"
+        meaning: "material bearer or substance-maker"
+        role: "actor suffix -en"
+      object:
+        word: "mon"
+        pronunciation: "MON"
+        meaning: "material, substance, physical stuff"
+        role: "object vowel o"
+      ritual:
+        word: "ha-mun"
+        pronunciation: "ha-MUN"
+        meaning: "matter honored as formed world"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "man-da"
+        pronunciation: "MAN-DA"
+        meaning: "public material or resource classification"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-man"
+        pronunciation: "mi-MAN"
+        meaning: "substance shaped by care"
+        role: "intimate prefix mi-"
+  -
+    id: "NJ"
+    form: "N-J"
+    aliases:
+      - "NAJ"
+    consonants:
+      - "n"
+      - "j"
+    category: "Nature"
+    semantic_field: "energy, vigor, activation, capacity in motion"
+    core: "energy, vigor, activation"
+    forms:
+      verb: "to energize, activate, or set in motion"
+      noun: "energy, vigor, activation"
+      adjective: "energetic, activated, vigorous"
+      agent: "energizer or active force"
+      object: "energy source or activation event"
+      ritual: "energy dedicated to right action"
+      civic: "public energy supply or power standard"
+      intimate: "vigor offered for another's need"
+    derived:
+      verb:
+        word: "naj"
+        pronunciation: "NAJ"
+        meaning: "to energize, activate, or set in motion"
+        role: "action vowel a"
+      noun:
+        word: "nej"
+        pronunciation: "NEJ"
+        meaning: "energy, vigor, activation"
+        role: "concept vowel e"
+      adjective:
+        word: "nij"
+        pronunciation: "NIJ"
+        meaning: "energetic, activated, vigorous"
+        role: "quality vowel i"
+      agent:
+        word: "najen"
+        pronunciation: "NAJEN"
+        meaning: "energizer or active force"
+        role: "actor suffix -en"
+      object:
+        word: "noj"
+        pronunciation: "NOJ"
+        meaning: "energy source or activation event"
+        role: "object vowel o"
+      ritual:
+        word: "ha-nuj"
+        pronunciation: "ha-NUJ"
+        meaning: "energy dedicated to right action"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "naj-da"
+        pronunciation: "NAJ-DA"
+        meaning: "public energy supply or power standard"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-naj"
+        pronunciation: "mi-NAJ"
+        meaning: "vigor offered for another's need"
+        role: "intimate prefix mi-"
+  -
+    id: "BV"
+    form: "B-V"
+    aliases:
+      - "BAV"
+    consonants:
+      - "b"
+      - "v"
+    category: "Nature"
+    semantic_field: "life-form, biology, organism, living pattern"
+    core: "life-form, biology, organism"
+    forms:
+      verb: "to live as an organism or biologically form"
+      noun: "life-form, biology, organism"
+      adjective: "biological, organismic, life-formed"
+      agent: "organism or living form"
+      object: "biological body or living pattern"
+      ritual: "life-form named before care"
+      civic: "biological classification or life-protection rule"
+      intimate: "living vulnerability recognized"
+    derived:
+      verb:
+        word: "bav"
+        pronunciation: "BAV"
+        meaning: "to live as an organism or biologically form"
+        role: "action vowel a"
+      noun:
+        word: "bev"
+        pronunciation: "BEV"
+        meaning: "life-form, biology, organism"
+        role: "concept vowel e"
+      adjective:
+        word: "biv"
+        pronunciation: "BIV"
+        meaning: "biological, organismic, life-formed"
+        role: "quality vowel i"
+      agent:
+        word: "baven"
+        pronunciation: "BAVEN"
+        meaning: "organism or living form"
+        role: "actor suffix -en"
+      object:
+        word: "bov"
+        pronunciation: "BOV"
+        meaning: "biological body or living pattern"
+        role: "object vowel o"
+      ritual:
+        word: "ha-buv"
+        pronunciation: "ha-BUV"
+        meaning: "life-form named before care"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "bav-da"
+        pronunciation: "BAV-DA"
+        meaning: "biological classification or life-protection rule"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-bav"
+        pronunciation: "mi-BAV"
+        meaning: "living vulnerability recognized"
+        role: "intimate prefix mi-"
+  -
+    id: "NB"
+    form: "N-B"
+    aliases:
+      - "NAB"
+    consonants:
+      - "n"
+      - "b"
+    category: "Mind"
+    semantic_field: "number, count, quantity, ordered amount"
+    core: "number, count, quantity"
+    forms:
+      verb: "to count, number, or quantify"
+      noun: "number, count, quantity"
+      adjective: "numbered, quantitative, counted"
+      agent: "counter, accountant, enumerator"
+      object: "number, count, quantity mark"
+      ritual: "count recited for memory"
+      civic: "official count, census, or quantity standard"
+      intimate: "number kept because one person matters"
+    derived:
+      verb:
+        word: "nab"
+        pronunciation: "NAB"
+        meaning: "to count, number, or quantify"
+        role: "action vowel a"
+      noun:
+        word: "neb"
+        pronunciation: "NEB"
+        meaning: "number, count, quantity"
+        role: "concept vowel e"
+      adjective:
+        word: "nib"
+        pronunciation: "NIB"
+        meaning: "numbered, quantitative, counted"
+        role: "quality vowel i"
+      agent:
+        word: "naben"
+        pronunciation: "NABEN"
+        meaning: "counter, accountant, enumerator"
+        role: "actor suffix -en"
+      object:
+        word: "nob"
+        pronunciation: "NOB"
+        meaning: "number, count, quantity mark"
+        role: "object vowel o"
+      ritual:
+        word: "ha-nub"
+        pronunciation: "ha-NUB"
+        meaning: "count recited for memory"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "nab-da"
+        pronunciation: "NAB-DA"
+        meaning: "official count, census, or quantity standard"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-nab"
+        pronunciation: "mi-NAB"
+        meaning: "number kept because one person matters"
+        role: "intimate prefix mi-"
+  -
+    id: "MS"
+    form: "M-S"
+    aliases:
+      - "MAS"
+    consonants:
+      - "m"
+      - "s"
+    category: "Mind"
+    semantic_field: "measure, proof, experiment, tested proportion"
+    core: "measure, proof, experiment"
+    forms:
+      verb: "to measure, test, or prove by proportion"
+      noun: "measure, proof, experiment"
+      adjective: "measured, tested, proven"
+      agent: "measurer, tester, experimenter"
+      object: "measure, proof, experiment record"
+      ritual: "measure placed under truth"
+      civic: "public standard or official test"
+      intimate: "careful measure before judgment"
+    derived:
+      verb:
+        word: "mas"
+        pronunciation: "MAS"
+        meaning: "to measure, test, or prove by proportion"
+        role: "action vowel a"
+      noun:
+        word: "mes"
+        pronunciation: "MES"
+        meaning: "measure, proof, experiment"
+        role: "concept vowel e"
+      adjective:
+        word: "mis"
+        pronunciation: "MIS"
+        meaning: "measured, tested, proven"
+        role: "quality vowel i"
+      agent:
+        word: "masen"
+        pronunciation: "MASEN"
+        meaning: "measurer, tester, experimenter"
+        role: "actor suffix -en"
+      object:
+        word: "mos"
+        pronunciation: "MOS"
+        meaning: "measure, proof, experiment record"
+        role: "object vowel o"
+      ritual:
+        word: "ha-mus"
+        pronunciation: "ha-MUS"
+        meaning: "measure placed under truth"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "mas-da"
+        pronunciation: "MAS-DA"
+        meaning: "public standard or official test"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-mas"
+        pronunciation: "mi-MAS"
+        meaning: "careful measure before judgment"
+        role: "intimate prefix mi-"
+  -
+    id: "PB"
+    form: "P-B"
+    aliases:
+      - "PAB"
+    consonants:
+      - "p"
+      - "b"
+    category: "Mind"
+    semantic_field: "chance, probability, uncertain outcome, risk distribution"
+    core: "chance, probability, risk distribution"
+    forms:
+      verb: "to estimate chance or distribute risk"
+      noun: "chance, probability, risk distribution"
+      adjective: "probable, uncertain, risk-bearing"
+      agent: "risk-estimator or probability judge"
+      object: "probability, chance event, risk model"
+      ritual: "uncertainty confessed before action"
+      civic: "risk assessment or probability standard"
+      intimate: "uncertainty named honestly"
+    derived:
+      verb:
+        word: "pab"
+        pronunciation: "PAB"
+        meaning: "to estimate chance or distribute risk"
+        role: "action vowel a"
+      noun:
+        word: "peb"
+        pronunciation: "PEB"
+        meaning: "chance, probability, risk distribution"
+        role: "concept vowel e"
+      adjective:
+        word: "pib"
+        pronunciation: "PIB"
+        meaning: "probable, uncertain, risk-bearing"
+        role: "quality vowel i"
+      agent:
+        word: "paben"
+        pronunciation: "PABEN"
+        meaning: "risk-estimator or probability judge"
+        role: "actor suffix -en"
+      object:
+        word: "pob"
+        pronunciation: "POB"
+        meaning: "probability, chance event, risk model"
+        role: "object vowel o"
+      ritual:
+        word: "ha-pub"
+        pronunciation: "ha-PUB"
+        meaning: "uncertainty confessed before action"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "pab-da"
+        pronunciation: "PAB-DA"
+        meaning: "risk assessment or probability standard"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-pab"
+        pronunciation: "mi-PAB"
+        meaning: "uncertainty named honestly"
+        role: "intimate prefix mi-"
+  -
+    id: "PL"
+    form: "P-L"
+    aliases:
+      - "PAL"
+    consonants:
+      - "p"
+      - "l"
+    category: "Nature"
+    semantic_field: "plant, growth, cultivation, rooted life"
+    core: "plant, growth, cultivation"
+    forms:
+      verb: "to plant, grow, cultivate, or root"
+      noun: "plant, growth, cultivation"
+      adjective: "planted, growing, cultivated"
+      agent: "planter, grower, cultivator"
+      object: "plant, seedling, cultivated field"
+      ritual: "planting done as future vow"
+      civic: "agriculture, crop, or land-use standard"
+      intimate: "growth tended patiently"
+    derived:
+      verb:
+        word: "pal"
+        pronunciation: "PAL"
+        meaning: "to plant, grow, cultivate, or root"
+        role: "action vowel a"
+      noun:
+        word: "pel"
+        pronunciation: "PEL"
+        meaning: "plant, growth, cultivation"
+        role: "concept vowel e"
+      adjective:
+        word: "pil"
+        pronunciation: "PIL"
+        meaning: "planted, growing, cultivated"
+        role: "quality vowel i"
+      agent:
+        word: "palen"
+        pronunciation: "PALEN"
+        meaning: "planter, grower, cultivator"
+        role: "actor suffix -en"
+      object:
+        word: "pol"
+        pronunciation: "POL"
+        meaning: "plant, seedling, cultivated field"
+        role: "object vowel o"
+      ritual:
+        word: "ha-pul"
+        pronunciation: "ha-PUL"
+        meaning: "planting done as future vow"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "pal-da"
+        pronunciation: "PAL-DA"
+        meaning: "agriculture, crop, or land-use standard"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-pal"
+        pronunciation: "mi-PAL"
+        meaning: "growth tended patiently"
+        role: "intimate prefix mi-"
+  -
+    id: "WH"
+    form: "W-H"
+    aliases:
+      - "WAH"
+    consonants:
+      - "w"
+      - "h"
+    category: "Nature"
+    semantic_field: "air, wind, atmosphere, shared breath-world"
+    core: "air, wind, atmosphere"
+    forms:
+      verb: "to breathe as air moves or ventilate"
+      noun: "air, wind, atmosphere"
+      adjective: "airy, wind-borne, atmospheric"
+      agent: "wind-bearer or air-mover"
+      object: "wind, airspace, breath-field"
+      ritual: "breath-world invoked as witness"
+      civic: "air quality or atmosphere standard"
+      intimate: "shared air and nearness"
+    derived:
+      verb:
+        word: "wah"
+        pronunciation: "WAH"
+        meaning: "to breathe as air moves or ventilate"
+        role: "action vowel a"
+      noun:
+        word: "weh"
+        pronunciation: "WEH"
+        meaning: "air, wind, atmosphere"
+        role: "concept vowel e"
+      adjective:
+        word: "wih"
+        pronunciation: "WIH"
+        meaning: "airy, wind-borne, atmospheric"
+        role: "quality vowel i"
+      agent:
+        word: "wahen"
+        pronunciation: "WAHEN"
+        meaning: "wind-bearer or air-mover"
+        role: "actor suffix -en"
+      object:
+        word: "woh"
+        pronunciation: "WOH"
+        meaning: "wind, airspace, breath-field"
+        role: "object vowel o"
+      ritual:
+        word: "ha-wuh"
+        pronunciation: "ha-WUH"
+        meaning: "breath-world invoked as witness"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "wah-da"
+        pronunciation: "WAH-DA"
+        meaning: "air quality or atmosphere standard"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-wah"
+        pronunciation: "mi-WAH"
+        meaning: "shared air and nearness"
+        role: "intimate prefix mi-"
+  -
+    id: "FC"
+    form: "F-C"
+    aliases:
+      - "FAC"
+    consonants:
+      - "f"
+      - "c"
+    category: "Nature"
+    semantic_field: "fire, heat, transformation, consuming light"
+    core: "fire, heat, consuming light"
+    forms:
+      verb: "to burn, heat, transform by fire"
+      noun: "fire, heat, consuming light"
+      adjective: "fiery, heated, transformative"
+      agent: "fire-bearer or heat source"
+      object: "flame, hearth, heat event"
+      ritual: "fire used for purification or vow"
+      civic: "public heat, energy, or fire-safety rule"
+      intimate: "warmth kept for another"
+    derived:
+      verb:
+        word: "fac"
+        pronunciation: "FAC"
+        meaning: "to burn, heat, transform by fire"
+        role: "action vowel a"
+      noun:
+        word: "fec"
+        pronunciation: "FEC"
+        meaning: "fire, heat, consuming light"
+        role: "concept vowel e"
+      adjective:
+        word: "fic"
+        pronunciation: "FIC"
+        meaning: "fiery, heated, transformative"
+        role: "quality vowel i"
+      agent:
+        word: "facen"
+        pronunciation: "FACEN"
+        meaning: "fire-bearer or heat source"
+        role: "actor suffix -en"
+      object:
+        word: "foc"
+        pronunciation: "FOC"
+        meaning: "flame, hearth, heat event"
+        role: "object vowel o"
+      ritual:
+        word: "ha-fuc"
+        pronunciation: "ha-FUC"
+        meaning: "fire used for purification or vow"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "fac-da"
+        pronunciation: "FAC-DA"
+        meaning: "public heat, energy, or fire-safety rule"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-fac"
+        pronunciation: "mi-FAC"
+        meaning: "warmth kept for another"
+        role: "intimate prefix mi-"
+  -
+    id: "CG"
+    form: "C-G"
+    aliases:
+      - "CAG"
+    consonants:
+      - "c"
+      - "g"
+    category: "Ritual/poetry"
+    semantic_field: "song, cadence, chant, patterned voice"
+    core: "song, cadence, chant"
+    forms:
+      verb: "to sing, chant, or shape cadence"
+      noun: "song, cadence, chant"
+      adjective: "sung, cadenced, chant-like"
+      agent: "singer, chanter, cadence-keeper"
+      object: "song, chant, melodic line"
+      ritual: "ritual chant or solemn song"
+      civic: "public anthem or ceremonial song"
+      intimate: "song offered to the beloved"
+    derived:
+      verb:
+        word: "cag"
+        pronunciation: "CAG"
+        meaning: "to sing, chant, or shape cadence"
+        role: "action vowel a"
+      noun:
+        word: "ceg"
+        pronunciation: "CEG"
+        meaning: "song, cadence, chant"
+        role: "concept vowel e"
+      adjective:
+        word: "cig"
+        pronunciation: "CIG"
+        meaning: "sung, cadenced, chant-like"
+        role: "quality vowel i"
+      agent:
+        word: "cagen"
+        pronunciation: "CAGEN"
+        meaning: "singer, chanter, cadence-keeper"
+        role: "actor suffix -en"
+      object:
+        word: "cog"
+        pronunciation: "COG"
+        meaning: "song, chant, melodic line"
+        role: "object vowel o"
+      ritual:
+        word: "ha-cug"
+        pronunciation: "ha-CUG"
+        meaning: "ritual chant or solemn song"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "cag-da"
+        pronunciation: "CAG-DA"
+        meaning: "public anthem or ceremonial song"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-cag"
+        pronunciation: "mi-CAG"
+        meaning: "song offered to the beloved"
+        role: "intimate prefix mi-"
+  -
+    id: "JM"
+    form: "J-M"
+    aliases:
+      - "JAM"
+    consonants:
+      - "j"
+      - "m"
+    category: "Ritual/poetry"
+    semantic_field: "image, icon, representation seen as form"
+    core: "image, icon, visual representation"
+    forms:
+      verb: "to image, depict, or make visible form"
+      noun: "image, icon, visual representation"
+      adjective: "imaged, iconic, depictive"
+      agent: "image-maker, artist, icon-bearer"
+      object: "image, icon, visual sign"
+      ritual: "image used in solemn remembrance"
+      civic: "public image, emblem, or seal"
+      intimate: "image kept as memory of another"
+    derived:
+      verb:
+        word: "jam"
+        pronunciation: "JAM"
+        meaning: "to image, depict, or make visible form"
+        role: "action vowel a"
+      noun:
+        word: "jem"
+        pronunciation: "JEM"
+        meaning: "image, icon, visual representation"
+        role: "concept vowel e"
+      adjective:
+        word: "jim"
+        pronunciation: "JIM"
+        meaning: "imaged, iconic, depictive"
+        role: "quality vowel i"
+      agent:
+        word: "jamen"
+        pronunciation: "JAMEN"
+        meaning: "image-maker, artist, icon-bearer"
+        role: "actor suffix -en"
+      object:
+        word: "jom"
+        pronunciation: "JOM"
+        meaning: "image, icon, visual sign"
+        role: "object vowel o"
+      ritual:
+        word: "ha-jum"
+        pronunciation: "ha-JUM"
+        meaning: "image used in solemn remembrance"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "jam-da"
+        pronunciation: "JAM-DA"
+        meaning: "public image, emblem, or seal"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-jam"
+        pronunciation: "mi-JAM"
+        meaning: "image kept as memory of another"
+        role: "intimate prefix mi-"
+  -
+    id: "RB"
+    form: "R-B"
+    aliases:
+      - "RAB"
+    consonants:
+      - "r"
+      - "b"
+    category: "Speech"
+    semantic_field: "story, narrative, account, meaning carried in sequence"
+    core: "story, narrative, account"
+    forms:
+      verb: "to tell, narrate, or account in sequence"
+      noun: "story, narrative, account"
+      adjective: "narrative, storied, account-bearing"
+      agent: "storyteller, narrator, account-giver"
+      object: "story, account, narrative record"
+      ritual: "founding story recited before memory"
+      civic: "official account or public narrative"
+      intimate: "life-story entrusted to another"
+    derived:
+      verb:
+        word: "rab"
+        pronunciation: "RAB"
+        meaning: "to tell, narrate, or account in sequence"
+        role: "action vowel a"
+      noun:
+        word: "reb"
+        pronunciation: "REB"
+        meaning: "story, narrative, account"
+        role: "concept vowel e"
+      adjective:
+        word: "rib"
+        pronunciation: "RIB"
+        meaning: "narrative, storied, account-bearing"
+        role: "quality vowel i"
+      agent:
+        word: "raben"
+        pronunciation: "RABEN"
+        meaning: "storyteller, narrator, account-giver"
+        role: "actor suffix -en"
+      object:
+        word: "rob"
+        pronunciation: "ROB"
+        meaning: "story, account, narrative record"
+        role: "object vowel o"
+      ritual:
+        word: "ha-rub"
+        pronunciation: "ha-RUB"
+        meaning: "founding story recited before memory"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "rab-da"
+        pronunciation: "RAB-DA"
+        meaning: "official account or public narrative"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-rab"
+        pronunciation: "mi-RAB"
+        meaning: "life-story entrusted to another"
+        role: "intimate prefix mi-"
+  -
+    id: "VB"
+    form: "V-B"
+    aliases:
+      - "VAB"
+    consonants:
+      - "v"
+      - "b"
+    category: "Ritual/poetry"
+    semantic_field: "blessing, good-speaking, favor spoken as duty"
+    core: "blessing, spoken favor, good-speech"
+    forms:
+      verb: "to bless, favor, or speak good over"
+      noun: "blessing, spoken favor, good-speech"
+      adjective: "blessed, favored, spoken-good"
+      agent: "blesser or favor-speaker"
+      object: "blessing, benediction, favor-word"
+      ritual: "formal blessing"
+      civic: "public commendation or honorable grant"
+      intimate: "blessing spoken over one beloved"
+    derived:
+      verb:
+        word: "vab"
+        pronunciation: "VAB"
+        meaning: "to bless, favor, or speak good over"
+        role: "action vowel a"
+      noun:
+        word: "veb"
+        pronunciation: "VEB"
+        meaning: "blessing, spoken favor, good-speech"
+        role: "concept vowel e"
+      adjective:
+        word: "vib"
+        pronunciation: "VIB"
+        meaning: "blessed, favored, spoken-good"
+        role: "quality vowel i"
+      agent:
+        word: "vaben"
+        pronunciation: "VABEN"
+        meaning: "blesser or favor-speaker"
+        role: "actor suffix -en"
+      object:
+        word: "vob"
+        pronunciation: "VOB"
+        meaning: "blessing, benediction, favor-word"
+        role: "object vowel o"
+      ritual:
+        word: "ha-vub"
+        pronunciation: "ha-VUB"
+        meaning: "formal blessing"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "vab-da"
+        pronunciation: "VAB-DA"
+        meaning: "public commendation or honorable grant"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-vab"
+        pronunciation: "mi-VAB"
+        meaning: "blessing spoken over one beloved"
+        role: "intimate prefix mi-"
+  -
+    id: "GN"
+    form: "G-N"
+    aliases:
+      - "GAN"
+    consonants:
+      - "g"
+      - "n"
+    category: "Future/civilization"
+    semantic_field: "origin, source, beginning cause, ancestry point"
+    core: "origin, source, beginning cause"
+    forms:
+      verb: "to originate, source, or begin from"
+      noun: "origin, source, beginning cause"
+      adjective: "original, source-bearing, originative"
+      agent: "originator, founder, source-bearer"
+      object: "source, origin point, founding cause"
+      ritual: "origin remembered before descendants"
+      civic: "founding source or constitutional origin"
+      intimate: "where a shared life began"
+    derived:
+      verb:
+        word: "gan"
+        pronunciation: "GAN"
+        meaning: "to originate, source, or begin from"
+        role: "action vowel a"
+      noun:
+        word: "gen"
+        pronunciation: "GEN"
+        meaning: "origin, source, beginning cause"
+        role: "concept vowel e"
+      adjective:
+        word: "gin"
+        pronunciation: "GIN"
+        meaning: "original, source-bearing, originative"
+        role: "quality vowel i"
+      agent:
+        word: "ganen"
+        pronunciation: "GANEN"
+        meaning: "originator, founder, source-bearer"
+        role: "actor suffix -en"
+      object:
+        word: "gon"
+        pronunciation: "GON"
+        meaning: "source, origin point, founding cause"
+        role: "object vowel o"
+      ritual:
+        word: "ha-gun"
+        pronunciation: "ha-GUN"
+        meaning: "origin remembered before descendants"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "gan-da"
+        pronunciation: "GAN-DA"
+        meaning: "founding source or constitutional origin"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-gan"
+        pronunciation: "mi-GAN"
+        meaning: "where a shared life began"
+        role: "intimate prefix mi-"
+  -
+    id: "LX"
+    form: "L-X"
+    aliases:
+      - "LAX"
+    consonants:
+      - "l"
+      - "x"
+    category: "Future/civilization"
+    semantic_field: "loss, absence, rupture in continuity, what is missing"
+    core: "loss, absence, missing continuity"
+    forms:
+      verb: "to lose, lack, or become absent"
+      noun: "loss, absence, missing continuity"
+      adjective: "lost, absent, lacking"
+      agent: "one who loses or bears absence"
+      object: "lost thing, absence, missing record"
+      ritual: "loss named before memory"
+      civic: "loss record, public deficit, or missing duty"
+      intimate: "absence felt in the heart"
+    derived:
+      verb:
+        word: "lax"
+        pronunciation: "LAX"
+        meaning: "to lose, lack, or become absent"
+        role: "action vowel a"
+      noun:
+        word: "lex"
+        pronunciation: "LEX"
+        meaning: "loss, absence, missing continuity"
+        role: "concept vowel e"
+      adjective:
+        word: "lix"
+        pronunciation: "LIX"
+        meaning: "lost, absent, lacking"
+        role: "quality vowel i"
+      agent:
+        word: "laxen"
+        pronunciation: "LAXEN"
+        meaning: "one who loses or bears absence"
+        role: "actor suffix -en"
+      object:
+        word: "lox"
+        pronunciation: "LOX"
+        meaning: "lost thing, absence, missing record"
+        role: "object vowel o"
+      ritual:
+        word: "ha-lux"
+        pronunciation: "ha-LUX"
+        meaning: "loss named before memory"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "lax-da"
+        pronunciation: "LAX-DA"
+        meaning: "loss record, public deficit, or missing duty"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-lax"
+        pronunciation: "mi-LAX"
+        meaning: "absence felt in the heart"
+        role: "intimate prefix mi-"
+  -
+    id: "CT"
+    form: "C-T"
+    aliases:
+      - "CAT"
+    consonants:
+      - "c"
+      - "t"
+    category: "Building/making"
+    semantic_field: "city, settlement, public dwelling, built common place"
+    core: "city, settlement, public dwelling"
+    forms:
+      verb: "to urbanize, settle, or make public dwelling"
+      noun: "city, settlement, public dwelling"
+      adjective: "urban, settled, city-bearing"
+      agent: "city-builder, settler, urban steward"
+      object: "city, town, public settlement"
+      ritual: "city founded before memory and future"
+      civic: "municipality or public settlement"
+      intimate: "the city held as shared home"
+    derived:
+      verb:
+        word: "cat"
+        pronunciation: "CAT"
+        meaning: "to urbanize, settle, or make public dwelling"
+        role: "action vowel a"
+      noun:
+        word: "cet"
+        pronunciation: "CET"
+        meaning: "city, settlement, public dwelling"
+        role: "concept vowel e"
+      adjective:
+        word: "cit"
+        pronunciation: "CIT"
+        meaning: "urban, settled, city-bearing"
+        role: "quality vowel i"
+      agent:
+        word: "caten"
+        pronunciation: "CATEN"
+        meaning: "city-builder, settler, urban steward"
+        role: "actor suffix -en"
+      object:
+        word: "cot"
+        pronunciation: "COT"
+        meaning: "city, town, public settlement"
+        role: "object vowel o"
+      ritual:
+        word: "ha-cut"
+        pronunciation: "ha-CUT"
+        meaning: "city founded before memory and future"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "cat-da"
+        pronunciation: "CAT-DA"
+        meaning: "municipality or public settlement"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-cat"
+        pronunciation: "mi-CAT"
+        meaning: "the city held as shared home"
+        role: "intimate prefix mi-"
+  -
+    id: "BD"
+    form: "B-D"
+    aliases:
+      - "BAD"
+    consonants:
+      - "b"
+      - "d"
+    category: "Law/civic life"
+    semantic_field: "border, boundary, threshold, rightful edge"
+    core: "border, boundary, threshold"
+    forms:
+      verb: "to border, bound, or set a threshold"
+      noun: "border, boundary, threshold"
+      adjective: "bordered, bounded, threshold-marked"
+      agent: "border-keeper or boundary-setter"
+      object: "border, gate, threshold mark"
+      ritual: "boundary named before crossing"
+      civic: "legal border, boundary, or jurisdiction edge"
+      intimate: "personal boundary spoken clearly"
+    derived:
+      verb:
+        word: "bad"
+        pronunciation: "BAD"
+        meaning: "to border, bound, or set a threshold"
+        role: "action vowel a"
+      noun:
+        word: "bed"
+        pronunciation: "BED"
+        meaning: "border, boundary, threshold"
+        role: "concept vowel e"
+      adjective:
+        word: "bid"
+        pronunciation: "BID"
+        meaning: "bordered, bounded, threshold-marked"
+        role: "quality vowel i"
+      agent:
+        word: "baden"
+        pronunciation: "BADEN"
+        meaning: "border-keeper or boundary-setter"
+        role: "actor suffix -en"
+      object:
+        word: "bod"
+        pronunciation: "BOD"
+        meaning: "border, gate, threshold mark"
+        role: "object vowel o"
+      ritual:
+        word: "ha-bud"
+        pronunciation: "ha-BUD"
+        meaning: "boundary named before crossing"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "bad-da"
+        pronunciation: "BAD-DA"
+        meaning: "legal border, boundary, or jurisdiction edge"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-bad"
+        pronunciation: "mi-BAD"
+        meaning: "personal boundary spoken clearly"
+        role: "intimate prefix mi-"
+  -
+    id: "MP"
+    form: "M-P"
+    aliases:
+      - "MAP"
+    consonants:
+      - "m"
+      - "p"
+    category: "Mind"
+    semantic_field: "map, plan, spatial representation, route memory"
+    core: "map, plan, route representation"
+    forms:
+      verb: "to map, plan, or represent spatially"
+      noun: "map, plan, route representation"
+      adjective: "mapped, planned, spatially represented"
+      agent: "mapper, planner, route-maker"
+      object: "map, plan, route chart"
+      ritual: "journey map blessed before departure"
+      civic: "public map, plan, or zoning chart"
+      intimate: "shared plan for where to go together"
+    derived:
+      verb:
+        word: "map"
+        pronunciation: "MAP"
+        meaning: "to map, plan, or represent spatially"
+        role: "action vowel a"
+      noun:
+        word: "mep"
+        pronunciation: "MEP"
+        meaning: "map, plan, route representation"
+        role: "concept vowel e"
+      adjective:
+        word: "mip"
+        pronunciation: "MIP"
+        meaning: "mapped, planned, spatially represented"
+        role: "quality vowel i"
+      agent:
+        word: "mapen"
+        pronunciation: "MAPEN"
+        meaning: "mapper, planner, route-maker"
+        role: "actor suffix -en"
+      object:
+        word: "mop"
+        pronunciation: "MOP"
+        meaning: "map, plan, route chart"
+        role: "object vowel o"
+      ritual:
+        word: "ha-mup"
+        pronunciation: "ha-MUP"
+        meaning: "journey map blessed before departure"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "map-da"
+        pronunciation: "MAP-DA"
+        meaning: "public map, plan, or zoning chart"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-map"
+        pronunciation: "mi-MAP"
+        meaning: "shared plan for where to go together"
+        role: "intimate prefix mi-"
+  -
+    id: "SG"
+    form: "S-G"
+    aliases:
+      - "SAG"
+    consonants:
+      - "s"
+      - "g"
+    category: "Speech"
+    semantic_field: "signal, message, sign, transmitted notice"
+    core: "signal, message, transmitted sign"
+    forms:
+      verb: "to signal, message, or send notice"
+      noun: "signal, message, transmitted sign"
+      adjective: "signaled, messaged, transmitted"
+      agent: "messenger, signaler, transmitter"
+      object: "message, signal, sign"
+      ritual: "signal used as solemn sign"
+      civic: "public notice or transmitted alert"
+      intimate: "small sign sent to be recognized"
+    derived:
+      verb:
+        word: "sag"
+        pronunciation: "SAG"
+        meaning: "to signal, message, or send notice"
+        role: "action vowel a"
+      noun:
+        word: "seg"
+        pronunciation: "SEG"
+        meaning: "signal, message, transmitted sign"
+        role: "concept vowel e"
+      adjective:
+        word: "sig"
+        pronunciation: "SIG"
+        meaning: "signaled, messaged, transmitted"
+        role: "quality vowel i"
+      agent:
+        word: "sagen"
+        pronunciation: "SAGEN"
+        meaning: "messenger, signaler, transmitter"
+        role: "actor suffix -en"
+      object:
+        word: "sog"
+        pronunciation: "SOG"
+        meaning: "message, signal, sign"
+        role: "object vowel o"
+      ritual:
+        word: "ha-sug"
+        pronunciation: "ha-SUG"
+        meaning: "signal used as solemn sign"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "sag-da"
+        pronunciation: "SAG-DA"
+        meaning: "public notice or transmitted alert"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-sag"
+        pronunciation: "mi-SAG"
+        meaning: "small sign sent to be recognized"
+        role: "intimate prefix mi-"
+  -
+    id: "CZ"
+    form: "C-Z"
+    aliases:
+      - "CAZ"
+    consonants:
+      - "c"
+      - "z"
+    category: "Speech"
+    semantic_field: "silence, withholding, quiet, unsaid presence"
+    core: "silence, withholding, quiet"
+    forms:
+      verb: "to silence, withhold speech, or keep quiet"
+      noun: "silence, withholding, quiet"
+      adjective: "silent, withheld, quiet"
+      agent: "silent one or keeper of quiet"
+      object: "silence, unsaid word, quiet interval"
+      ritual: "solemn silence before memory or judgment"
+      civic: "right of silence or withheld public record"
+      intimate: "quiet presence without evasion"
+    derived:
+      verb:
+        word: "caz"
+        pronunciation: "CAZ"
+        meaning: "to silence, withhold speech, or keep quiet"
+        role: "action vowel a"
+      noun:
+        word: "cez"
+        pronunciation: "CEZ"
+        meaning: "silence, withholding, quiet"
+        role: "concept vowel e"
+      adjective:
+        word: "ciz"
+        pronunciation: "CIZ"
+        meaning: "silent, withheld, quiet"
+        role: "quality vowel i"
+      agent:
+        word: "cazen"
+        pronunciation: "CAZEN"
+        meaning: "silent one or keeper of quiet"
+        role: "actor suffix -en"
+      object:
+        word: "coz"
+        pronunciation: "COZ"
+        meaning: "silence, unsaid word, quiet interval"
+        role: "object vowel o"
+      ritual:
+        word: "ha-cuz"
+        pronunciation: "ha-CUZ"
+        meaning: "solemn silence before memory or judgment"
+        role: "solemn prefix ha- with u vowels"
+      civic:
+        word: "caz-da"
+        pronunciation: "CAZ-DA"
+        meaning: "right of silence or withheld public record"
+        role: "public/legal suffix -da"
+      intimate:
+        word: "mi-caz"
+        pronunciation: "mi-CAZ"
+        meaning: "quiet presence without evasion"
+        role: "intimate prefix mi-"

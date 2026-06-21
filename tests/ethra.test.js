@@ -49,10 +49,10 @@ test("loads canonical example translations", () => {
   assert.match(example.cultural_notes, /Repair/);
 });
 
-test("lexicon contains the required v0.1 breadth", () => {
+test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 250);
+  assert.ok(entries.length >= 700);
   for (const category of [
     "Pronouns",
     "Particles",

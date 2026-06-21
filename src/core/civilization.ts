@@ -10,22 +10,22 @@ import type {
 
 const categoryDomainMap: Record<string, string[]> = {
   "Body": ["body-health"],
-  "Building/making": ["daily-life", "technology-software", "art-beauty"],
+  "Building/making": ["daily-life", "technology-software", "art-beauty", "economics-provision", "travel-place"],
   "Conflict/repair": ["conflict-security", "law-governance"],
   "Emotion": ["emotion-psychology"],
   "Family": ["family-kinship"],
   "Future/civilization": ["history-memory", "philosophy-metaphysics", "law-governance"],
-  "Law/civic life": ["law-governance"],
+  "Law/civic life": ["law-governance", "economics-provision", "travel-place"],
   "Love/intimacy": ["emotion-psychology", "family-kinship"],
-  "Mind": ["education-training", "ai-cognition", "philosophy-metaphysics"],
+  "Mind": ["education-training", "ai-cognition", "philosophy-metaphysics", "science-math", "travel-place"],
   "Moral agency": ["law-governance", "philosophy-metaphysics"],
-  "Nature": ["nature-ecology", "travel-place"],
+  "Nature": ["nature-ecology", "travel-place", "science-math"],
   "Particles": ["daily-life"],
   "Pronouns": ["daily-life", "family-kinship"],
   "Ritual/poetry": ["ritual-spiritual", "art-beauty"],
   "Seeing/knowing": ["science-math", "philosophy-metaphysics", "emotion-psychology"],
-  "Speech": ["media-communication", "law-governance", "ritual-spiritual"],
-  "Technology": ["technology-software"],
+  "Speech": ["media-communication", "law-governance", "ritual-spiritual", "art-beauty"],
+  "Technology": ["technology-software", "ai-cognition", "media-communication"],
   "Time": ["history-memory", "travel-place"]
 };
 

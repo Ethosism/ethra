@@ -1,7 +1,7 @@
 {
   "name": "ethra-language",
-  "version": "0.1.0",
-  "description": "Ethra v0.1: a constructed civilizational language with moral and relational grammar.",
+  "version": "0.2.0-alpha.0",
+  "description": "Ethra: a constructed civilizational language with moral grammar, relational grammar, expanding YAML specs, CLI, corpus, and governance.",
   "bin": {
     "ethra": "dist/cli/index.js"
   },

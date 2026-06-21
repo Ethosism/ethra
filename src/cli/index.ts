@@ -13,13 +13,14 @@ import {
   loadRoadmap,
   roadmapSummary
 } from "../core/civilization";
+import { validateSpec } from "../core/validation";
 
 const program = new Command();
 
 program
   .name("ethra")
-  .description("Ethra v0.1 language tools")
-  .version("0.1.0");
+  .description("Ethra language tools")
+  .version("0.2.0-alpha.0");
 
 program
   .command("generate-root")
@@ -147,6 +148,17 @@ program
   .description("Show term governance and admission rules")
   .action(() => {
     console.log(JSON.stringify(loadGovernance(), null, 2));
+  });
+
+program
+  .command("validate-spec")
+  .description("Validate root inventory, derived forms, and reserved-word collisions")
+  .action(() => {
+    const report = validateSpec();
+    console.log(JSON.stringify(report, null, 2));
+    if (!report.valid) {
+      process.exitCode = 1;
+    }
   });
 
 program.parse();

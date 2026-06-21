@@ -448,6 +448,506 @@ const roots = [
     ritual: "water or flow used in purification",
     civic: "adaptive process or supply flow",
     intimate: "feeling allowed to move honestly"
+  }),
+  root("FD", ["FAD"], ["f", "d"], "Body", "food, nourishment, feeding, sustenance, bodily provision", {
+    verb: "to feed, nourish, or sustain bodily life",
+    noun: "food, nourishment, sustenance",
+    adjective: "nourishing, edible, sustaining",
+    agent: "feeder, nourisher, cook, provider of food",
+    object: "meal, ration, food-object",
+    ritual: "meal blessed as shared sustenance",
+    civic: "public food provision or ration duty",
+    intimate: "feeding another as care"
+  }),
+  root("CR", ["CAR"], ["c", "r"], "Body", "cover, cloth, garment, concealment, protection", {
+    verb: "to cover, clothe, veil, or protect by covering",
+    noun: "cloth, clothing, cover",
+    adjective: "covered, clothed, protected",
+    agent: "one who clothes or covers",
+    object: "garment, veil, covering",
+    ritual: "ritual garment or solemn covering",
+    civic: "uniform, public covering, or protective standard",
+    intimate: "covering another in tenderness or modesty"
+  }),
+  root("CP", ["CAP"], ["c", "p"], "Body", "sleep, rest, recovery, bodily renewal", {
+    verb: "to sleep, rest, or recover",
+    noun: "sleep, rest, recovery",
+    adjective: "rested, sleeping, restorative",
+    agent: "sleeper or one who keeps rest",
+    object: "bed, rest-place, recovery period",
+    ritual: "rest kept as sacred restoration",
+    civic: "protected rest period or labor-rest rule",
+    intimate: "resting safely near another"
+  }),
+  root("PN", ["PAN"], ["p", "n"], "Body", "pain, hurt, warning, bodily distress", {
+    verb: "to hurt, ache, or signal distress",
+    noun: "pain, hurt, distress signal",
+    adjective: "painful, hurting, distressed",
+    agent: "one who suffers pain or signals harm",
+    object: "wound-signal, ache, point of pain",
+    ritual: "pain named before witness",
+    civic: "injury claim or public harm record",
+    intimate: "pain entrusted to another's care"
+  }),
+  root("HL", ["HAL"], ["h", "l"], "Body", "health, care, wellness, bodily integrity", {
+    verb: "to care for health or preserve wellness",
+    noun: "health, wellness, bodily integrity",
+    adjective: "healthy, cared-for, whole in body",
+    agent: "caregiver, healer, health-keeper",
+    object: "care plan, remedy, health condition",
+    ritual: "health blessing or care vow",
+    civic: "public health duty or medical care standard",
+    intimate: "care given to preserve another's life"
+  }),
+  root("BR", ["BAR"], ["b", "r"], "Family", "birth, beginning, emergence, generational arrival", {
+    verb: "to be born, bring forth, or begin",
+    noun: "birth, beginning, emergence",
+    adjective: "born, beginning, emergent",
+    agent: "newborn, birth-giver, origin-bearer",
+    object: "birth event, beginning point",
+    ritual: "birth named before household and future",
+    civic: "birth record or recognized beginning",
+    intimate: "the arrival of a child into care"
+  }),
+  root("DT", ["DAT"], ["d", "t"], "Family", "death, mortality, loss of life, final departure", {
+    verb: "to die, end bodily life, or mourn mortality",
+    noun: "death, mortality, final departure",
+    adjective: "dead, mortal, death-bound",
+    agent: "the dead one or mourner of death",
+    object: "grave, death record, final body",
+    ritual: "mourning speech before memory",
+    civic: "death record or public mortality duty",
+    intimate: "grief for a beloved life ended"
+  }),
+  root("KD", ["KAD"], ["k", "d"], "Family", "kinline, descent, childline, generational bond", {
+    verb: "to descend, be kin, or continue a line",
+    noun: "kinline, descent, generational bond",
+    adjective: "descended, kin-bound, lineage-bearing",
+    agent: "descendant, kin-bearer, line-carrier",
+    object: "lineage mark or descent record",
+    ritual: "lineage named before ancestors and future",
+    civic: "recognized descent or kinship status",
+    intimate: "belonging felt through kin memory"
+  }),
+  root("SP", ["SAP"], ["s", "p"], "Family", "sibling, peer-bond, side-by-side kinship", {
+    verb: "to stand as sibling or peer-kin",
+    noun: "sibling, peer-kin, side bond",
+    adjective: "sibling-like, side-by-side, peer-bound",
+    agent: "sibling or peer-kin",
+    object: "sibling bond or shared household place",
+    ritual: "sibling bond blessed or named",
+    civic: "sibling status or household relation",
+    intimate: "side-by-side loyalty"
+  }),
+  root("JW", ["JAW"], ["j", "w"], "Emotion", "joy, gladness, delight, uplifted life", {
+    verb: "to rejoice, delight, or brighten inwardly",
+    noun: "joy, gladness, delight",
+    adjective: "joyful, glad, delighted",
+    agent: "one who rejoices or brings joy",
+    object: "joyful event or delight-object",
+    ritual: "joy offered in festival or blessing",
+    civic: "public celebration or shared gladness",
+    intimate: "private joy recognized by another"
+  }),
+  root("GF", ["GAF"], ["g", "f"], "Emotion", "grief, mourning, sorrow, loss held in memory", {
+    verb: "to grieve, mourn, or hold sorrow",
+    noun: "grief, mourning, sorrow",
+    adjective: "grieving, sorrowful, mourned",
+    agent: "mourner or grief-bearer",
+    object: "loss named by grief",
+    ritual: "mourning spoken before memory",
+    civic: "public mourning or memorial duty",
+    intimate: "sorrow entrusted without concealment"
+  }),
+  root("XR", ["XAR"], ["x", "r"], "Emotion", "fear, dread, danger-sense, guarded attention", {
+    verb: "to fear, dread, or sense danger",
+    noun: "fear, dread, danger-sense",
+    adjective: "afraid, guarded, danger-aware",
+    agent: "one who fears or watches for danger",
+    object: "feared thing or danger sign",
+    ritual: "fear confessed before courage",
+    civic: "threat warning or risk notice",
+    intimate: "fear named to one trusted"
+  }),
+  root("ZG", ["ZAG"], ["z", "g"], "Emotion", "anger, heat, indignation, forceful refusal", {
+    verb: "to anger, burn inwardly, or refuse forcefully",
+    noun: "anger, indignation, hot refusal",
+    adjective: "angry, heated, indignant",
+    agent: "one who bears anger or protests",
+    object: "offense that awakens anger",
+    ritual: "anger placed under truth before action",
+    civic: "public grievance or protest",
+    intimate: "anger spoken without abandonment"
+  }),
+  root("CB", ["CAB"], ["c", "b"], "Emotion", "shame, concealment, exposed fault, inward recoil", {
+    verb: "to feel shame, recoil, or conceal fault",
+    noun: "shame, exposed fault, inward recoil",
+    adjective: "ashamed, concealed, exposed in fault",
+    agent: "one who bears shame or hides fault",
+    object: "shameful act or hidden fault",
+    ritual: "shame confessed for repair",
+    civic: "public fault or dishonor record",
+    intimate: "shame received without erasing truth"
+  }),
+  root("RT", ["RAT"], ["r", "t"], "Law/civic life", "right, claim, entitlement, just standing", {
+    verb: "to claim rightly or grant standing",
+    noun: "right, claim, rightful standing",
+    adjective: "rightful, claim-bearing, entitled by justice",
+    agent: "right-holder or claimant",
+    object: "recognized right or claim",
+    ritual: "right named before truth",
+    civic: "legal right or formal entitlement",
+    intimate: "the right to be treated as fully seen"
+  }),
+  root("XF", ["XAF"], ["x", "f"], "Law/civic life", "office, charge, mandate, entrusted public role", {
+    verb: "to hold office, charge, or mandate",
+    noun: "office, charge, public mandate",
+    adjective: "official, mandated, charge-bearing",
+    agent: "office-holder, mandate-bearer",
+    object: "office, commission, public charge",
+    ritual: "office received under solemn witness",
+    civic: "formal office or delegated mandate",
+    intimate: "a charge entrusted personally"
+  }),
+  root("JV", ["JAV"], ["j", "v"], "Law/civic life", "judgment, verdict, evaluation, discerned decision", {
+    verb: "to judge, evaluate, or decide by discernment",
+    noun: "judgment, verdict, evaluation",
+    adjective: "judged, evaluated, verdict-bearing",
+    agent: "judge, evaluator, decision-bearer",
+    object: "verdict, rating, evaluation record",
+    ritual: "judgment spoken before ultimate witness",
+    civic: "court verdict or official evaluation",
+    intimate: "discernment spoken carefully to another"
+  }),
+  root("KP", ["KAP"], ["k", "p"], "Law/civic life", "contract, pact, agreement, exchanged obligation", {
+    verb: "to contract, agree, or bind by exchange",
+    noun: "contract, pact, agreement",
+    adjective: "contracted, agreed, pact-bound",
+    agent: "contractor, party to agreement",
+    object: "contract document or pact term",
+    ritual: "pact made before witnesses",
+    civic: "formal contract or enforceable agreement",
+    intimate: "agreement kept between trusted persons"
+  }),
+  root("ZT", ["ZAT"], ["z", "t"], "Law/civic life", "authority, command, delegated force, right to direct", {
+    verb: "to authorize, command, or direct by delegated force",
+    noun: "authority, command, delegated force",
+    adjective: "authorized, commanding, directive",
+    agent: "authority-bearer or commander",
+    object: "order, authorization, directive",
+    ritual: "authority submitted to solemn witness",
+    civic: "public authority or lawful command",
+    intimate: "trusted authority used for protection"
+  }),
+  root("DN", ["DAN"], ["d", "n"], "Technology", "data, given record, encoded fact, stored signal", {
+    verb: "to encode, store, or give as data",
+    noun: "data, encoded record, stored fact",
+    adjective: "encoded, data-bearing, stored",
+    agent: "data keeper or recorder",
+    object: "datum, dataset, stored signal",
+    ritual: "record preserved before memory",
+    civic: "public data record or registry datum",
+    intimate: "personal record held in trust"
+  }),
+  root("NW", ["NAW"], ["n", "w"], "Technology", "network, connection, link, distributed relation", {
+    verb: "to network, connect, or link",
+    noun: "network, connection, distributed relation",
+    adjective: "networked, connected, linked",
+    agent: "connector, network node, link-maker",
+    object: "link, node, connection path",
+    ritual: "bonds named as a living network",
+    civic: "public network or infrastructure link",
+    intimate: "connection kept across distance"
+  }),
+  root("MF", ["MAF"], ["m", "f"], "Technology", "machine, mechanism, function, engineered process", {
+    verb: "to mechanize, automate, or make function",
+    noun: "machine, mechanism, function",
+    adjective: "mechanical, functional, automated",
+    agent: "machine, operator, automating agent",
+    object: "mechanism, device, running function",
+    ritual: "machine dedicated to right use",
+    civic: "regulated machine or public mechanism",
+    intimate: "tool made to reduce another's burden"
+  }),
+  root("MD", ["MAD"], ["m", "d"], "Technology", "model, representation, schema, simplified world", {
+    verb: "to model, represent, or schematize",
+    noun: "model, representation, schema",
+    adjective: "modeled, representative, schematic",
+    agent: "modeler or representational system",
+    object: "model, diagram, schema",
+    ritual: "image of order used for teaching",
+    civic: "official model or planning schema",
+    intimate: "a simplified picture used to be understood"
+  }),
+  root("XP", ["XAP"], ["x", "p"], "Technology", "security, protection, boundary defense, guarded access", {
+    verb: "to secure, guard, or protect access",
+    noun: "security, protection, guarded boundary",
+    adjective: "secure, protected, access-guarded",
+    agent: "guardian, security system, protector",
+    object: "lock, credential, protected boundary",
+    ritual: "boundary guarded under vow",
+    civic: "public security or access rule",
+    intimate: "protection of another's entrusted privacy"
+  }),
+  root("RJ", ["RAJ"], ["r", "j"], "Mind", "reason, inference, logic, accountable thought", {
+    verb: "to reason, infer, or think accountably",
+    noun: "reason, inference, logic",
+    adjective: "rational, reasoned, inferential",
+    agent: "reasoner, thinker, analyst",
+    object: "argument, inference, reasoned account",
+    ritual: "reason submitted before truth",
+    civic: "public rationale or official reasoning",
+    intimate: "thinking honestly with another"
+  }),
+  root("SM", ["SAM"], ["s", "m"], "Mind", "simulation, image-play, possible world, rehearsal", {
+    verb: "to simulate, rehearse, or imagine a possible world",
+    noun: "simulation, rehearsal, possible world",
+    adjective: "simulated, imagined, rehearsed",
+    agent: "simulator, imaginer, rehearsal-maker",
+    object: "scenario, simulation, possible case",
+    ritual: "imagined judgment used for preparation",
+    civic: "policy simulation or public scenario",
+    intimate: "shared imagining of a possible life"
+  }),
+  root("MY", ["MAY"], ["m", "y"], "Law/civic life", "money, value token, unit of exchange, priced trust", {
+    verb: "to price, pay, or tokenize value",
+    noun: "money, value token, exchange unit",
+    adjective: "monetary, priced, value-bearing",
+    agent: "payer, treasurer, value-keeper",
+    object: "coin, price, payment unit",
+    ritual: "gift or payment placed under duty",
+    civic: "currency, public payment, or tax unit",
+    intimate: "provision offered without reducing love to price"
+  }),
+  root("XB", ["XAB"], ["x", "b"], "Law/civic life", "trade, exchange, market, reciprocal transfer", {
+    verb: "to trade, exchange, or transfer reciprocally",
+    noun: "trade, exchange, market transfer",
+    adjective: "traded, exchanged, reciprocal",
+    agent: "trader, exchanger, market actor",
+    object: "trade good or exchange term",
+    ritual: "exchange blessed under fairness",
+    civic: "market rule or formal exchange",
+    intimate: "exchange of gifts without hidden debt"
+  }),
+  root("WK", ["WAK"], ["w", "k"], "Building/making", "work, labor, task, effort given to form", {
+    verb: "to work, labor, or perform a task",
+    noun: "work, labor, task",
+    adjective: "working, laboring, task-bound",
+    agent: "worker, laborer, task-bearer",
+    object: "task, job, work product",
+    ritual: "work offered as duty",
+    civic: "labor office, public task, or work standard",
+    intimate: "work done for one beloved"
+  }),
+  root("GW", ["GAW"], ["g", "w"], "Law/civic life", "gift, grant, generosity, unpriced transfer", {
+    verb: "to give, grant, or transfer generously",
+    noun: "gift, grant, generosity",
+    adjective: "given, generous, grant-bearing",
+    agent: "giver, donor, grantor",
+    object: "gift, grant, offering",
+    ritual: "gift offered before witness",
+    civic: "grant, public gift, or subsidy",
+    intimate: "gift given as recognition"
+  }),
+  root("MN", ["MAN"], ["m", "n"], "Nature", "matter, material, substance, tangible stuff", {
+    verb: "to materialize or give substance",
+    noun: "matter, material, substance",
+    adjective: "material, substantial, tangible",
+    agent: "material bearer or substance-maker",
+    object: "material, substance, physical stuff",
+    ritual: "matter honored as formed world",
+    civic: "public material or resource classification",
+    intimate: "substance shaped by care"
+  }),
+  root("NJ", ["NAJ"], ["n", "j"], "Nature", "energy, vigor, activation, capacity in motion", {
+    verb: "to energize, activate, or set in motion",
+    noun: "energy, vigor, activation",
+    adjective: "energetic, activated, vigorous",
+    agent: "energizer or active force",
+    object: "energy source or activation event",
+    ritual: "energy dedicated to right action",
+    civic: "public energy supply or power standard",
+    intimate: "vigor offered for another's need"
+  }),
+  root("BV", ["BAV"], ["b", "v"], "Nature", "life-form, biology, organism, living pattern", {
+    verb: "to live as an organism or biologically form",
+    noun: "life-form, biology, organism",
+    adjective: "biological, organismic, life-formed",
+    agent: "organism or living form",
+    object: "biological body or living pattern",
+    ritual: "life-form named before care",
+    civic: "biological classification or life-protection rule",
+    intimate: "living vulnerability recognized"
+  }),
+  root("NB", ["NAB"], ["n", "b"], "Mind", "number, count, quantity, ordered amount", {
+    verb: "to count, number, or quantify",
+    noun: "number, count, quantity",
+    adjective: "numbered, quantitative, counted",
+    agent: "counter, accountant, enumerator",
+    object: "number, count, quantity mark",
+    ritual: "count recited for memory",
+    civic: "official count, census, or quantity standard",
+    intimate: "number kept because one person matters"
+  }),
+  root("MS", ["MAS"], ["m", "s"], "Mind", "measure, proof, experiment, tested proportion", {
+    verb: "to measure, test, or prove by proportion",
+    noun: "measure, proof, experiment",
+    adjective: "measured, tested, proven",
+    agent: "measurer, tester, experimenter",
+    object: "measure, proof, experiment record",
+    ritual: "measure placed under truth",
+    civic: "public standard or official test",
+    intimate: "careful measure before judgment"
+  }),
+  root("PB", ["PAB"], ["p", "b"], "Mind", "chance, probability, uncertain outcome, risk distribution", {
+    verb: "to estimate chance or distribute risk",
+    noun: "chance, probability, risk distribution",
+    adjective: "probable, uncertain, risk-bearing",
+    agent: "risk-estimator or probability judge",
+    object: "probability, chance event, risk model",
+    ritual: "uncertainty confessed before action",
+    civic: "risk assessment or probability standard",
+    intimate: "uncertainty named honestly"
+  }),
+  root("PL", ["PAL"], ["p", "l"], "Nature", "plant, growth, cultivation, rooted life", {
+    verb: "to plant, grow, cultivate, or root",
+    noun: "plant, growth, cultivation",
+    adjective: "planted, growing, cultivated",
+    agent: "planter, grower, cultivator",
+    object: "plant, seedling, cultivated field",
+    ritual: "planting done as future vow",
+    civic: "agriculture, crop, or land-use standard",
+    intimate: "growth tended patiently"
+  }),
+  root("WH", ["WAH"], ["w", "h"], "Nature", "air, wind, atmosphere, shared breath-world", {
+    verb: "to breathe as air moves or ventilate",
+    noun: "air, wind, atmosphere",
+    adjective: "airy, wind-borne, atmospheric",
+    agent: "wind-bearer or air-mover",
+    object: "wind, airspace, breath-field",
+    ritual: "breath-world invoked as witness",
+    civic: "air quality or atmosphere standard",
+    intimate: "shared air and nearness"
+  }),
+  root("FC", ["FAC"], ["f", "c"], "Nature", "fire, heat, transformation, consuming light", {
+    verb: "to burn, heat, transform by fire",
+    noun: "fire, heat, consuming light",
+    adjective: "fiery, heated, transformative",
+    agent: "fire-bearer or heat source",
+    object: "flame, hearth, heat event",
+    ritual: "fire used for purification or vow",
+    civic: "public heat, energy, or fire-safety rule",
+    intimate: "warmth kept for another"
+  }),
+  root("CG", ["CAG"], ["c", "g"], "Ritual/poetry", "song, cadence, chant, patterned voice", {
+    verb: "to sing, chant, or shape cadence",
+    noun: "song, cadence, chant",
+    adjective: "sung, cadenced, chant-like",
+    agent: "singer, chanter, cadence-keeper",
+    object: "song, chant, melodic line",
+    ritual: "ritual chant or solemn song",
+    civic: "public anthem or ceremonial song",
+    intimate: "song offered to the beloved"
+  }),
+  root("JM", ["JAM"], ["j", "m"], "Ritual/poetry", "image, icon, representation seen as form", {
+    verb: "to image, depict, or make visible form",
+    noun: "image, icon, visual representation",
+    adjective: "imaged, iconic, depictive",
+    agent: "image-maker, artist, icon-bearer",
+    object: "image, icon, visual sign",
+    ritual: "image used in solemn remembrance",
+    civic: "public image, emblem, or seal",
+    intimate: "image kept as memory of another"
+  }),
+  root("RB", ["RAB"], ["r", "b"], "Speech", "story, narrative, account, meaning carried in sequence", {
+    verb: "to tell, narrate, or account in sequence",
+    noun: "story, narrative, account",
+    adjective: "narrative, storied, account-bearing",
+    agent: "storyteller, narrator, account-giver",
+    object: "story, account, narrative record",
+    ritual: "founding story recited before memory",
+    civic: "official account or public narrative",
+    intimate: "life-story entrusted to another"
+  }),
+  root("VB", ["VAB"], ["v", "b"], "Ritual/poetry", "blessing, good-speaking, favor spoken as duty", {
+    verb: "to bless, favor, or speak good over",
+    noun: "blessing, spoken favor, good-speech",
+    adjective: "blessed, favored, spoken-good",
+    agent: "blesser or favor-speaker",
+    object: "blessing, benediction, favor-word",
+    ritual: "formal blessing",
+    civic: "public commendation or honorable grant",
+    intimate: "blessing spoken over one beloved"
+  }),
+  root("GN", ["GAN"], ["g", "n"], "Future/civilization", "origin, source, beginning cause, ancestry point", {
+    verb: "to originate, source, or begin from",
+    noun: "origin, source, beginning cause",
+    adjective: "original, source-bearing, originative",
+    agent: "originator, founder, source-bearer",
+    object: "source, origin point, founding cause",
+    ritual: "origin remembered before descendants",
+    civic: "founding source or constitutional origin",
+    intimate: "where a shared life began"
+  }),
+  root("LX", ["LAX"], ["l", "x"], "Future/civilization", "loss, absence, rupture in continuity, what is missing", {
+    verb: "to lose, lack, or become absent",
+    noun: "loss, absence, missing continuity",
+    adjective: "lost, absent, lacking",
+    agent: "one who loses or bears absence",
+    object: "lost thing, absence, missing record",
+    ritual: "loss named before memory",
+    civic: "loss record, public deficit, or missing duty",
+    intimate: "absence felt in the heart"
+  }),
+  root("CT", ["CAT"], ["c", "t"], "Building/making", "city, settlement, public dwelling, built common place", {
+    verb: "to urbanize, settle, or make public dwelling",
+    noun: "city, settlement, public dwelling",
+    adjective: "urban, settled, city-bearing",
+    agent: "city-builder, settler, urban steward",
+    object: "city, town, public settlement",
+    ritual: "city founded before memory and future",
+    civic: "municipality or public settlement",
+    intimate: "the city held as shared home"
+  }),
+  root("BD", ["BAD"], ["b", "d"], "Law/civic life", "border, boundary, threshold, rightful edge", {
+    verb: "to border, bound, or set a threshold",
+    noun: "border, boundary, threshold",
+    adjective: "bordered, bounded, threshold-marked",
+    agent: "border-keeper or boundary-setter",
+    object: "border, gate, threshold mark",
+    ritual: "boundary named before crossing",
+    civic: "legal border, boundary, or jurisdiction edge",
+    intimate: "personal boundary spoken clearly"
+  }),
+  root("MP", ["MAP"], ["m", "p"], "Mind", "map, plan, spatial representation, route memory", {
+    verb: "to map, plan, or represent spatially",
+    noun: "map, plan, route representation",
+    adjective: "mapped, planned, spatially represented",
+    agent: "mapper, planner, route-maker",
+    object: "map, plan, route chart",
+    ritual: "journey map blessed before departure",
+    civic: "public map, plan, or zoning chart",
+    intimate: "shared plan for where to go together"
+  }),
+  root("SG", ["SAG"], ["s", "g"], "Speech", "signal, message, sign, transmitted notice", {
+    verb: "to signal, message, or send notice",
+    noun: "signal, message, transmitted sign",
+    adjective: "signaled, messaged, transmitted",
+    agent: "messenger, signaler, transmitter",
+    object: "message, signal, sign",
+    ritual: "signal used as solemn sign",
+    civic: "public notice or transmitted alert",
+    intimate: "small sign sent to be recognized"
+  }),
+  root("CZ", ["CAZ"], ["c", "z"], "Speech", "silence, withholding, quiet, unsaid presence", {
+    verb: "to silence, withhold speech, or keep quiet",
+    noun: "silence, withholding, quiet",
+    adjective: "silent, withheld, quiet",
+    agent: "silent one or keeper of quiet",
+    object: "silence, unsaid word, quiet interval",
+    ritual: "solemn silence before memory or judgment",
+    civic: "right of silence or withheld public record",
+    intimate: "quiet presence without evasion"
   })
 ];
 
