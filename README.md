@@ -1,10 +1,10 @@
 # Ethra Language
 
-Ethra is a v0.5.6 constructed civilizational language. It is not meant to be an Esperanto clone, a naming toy, or an aesthetic exercise. Its design goal is to make certain cultural habits native to ordinary speech: truth, duty, beauty, memory, agency, consequence, inheritance, repair, love as recognition, speech as binding, and the future as a moral claimant.
+Ethra is a v0.5.7 constructed civilizational language. It is not meant to be an Esperanto clone, a naming toy, or an aesthetic exercise. Its design goal is to make certain cultural habits native to ordinary speech: truth, duty, beauty, memory, agency, consequence, inheritance, repair, love as recognition, speech as binding, and the future as a moral claimant.
 
 The working name is kept as **Ethra** because it is short, pronounceable, and internally useful: `eth` evokes ethos and `ra` evokes seeing. The name therefore sounds like "ethos made visible."
 
-Status: v0.5.6 has passed the public-culture gate and begun the v1.0 expansion program: generated YAML data, productive derivation patterns, 1,050 root families, 21,057 lexicon entries, 2,120 reviewed corpus items, TypeScript CLI, compound terminology, sentence parsing, corpus search, governed style checking, governed term proposal packets, corpus/governance planning, and tests.
+Status: v0.5.7 has passed the public-culture gate and begun the v1.0 expansion program: generated YAML data, productive derivation patterns, 1,050 root families, 21,057 lexicon entries, 21,212 dictionary entries, 2,120 reviewed corpus items, TypeScript CLI, compound terminology, sentence parsing, corpus search, dictionary lookup, governed style checking, governed term proposal packets, corpus/governance planning, and tests.
 
 Repository: <https://github.com/Ethosism/ethra>
 
@@ -34,10 +34,10 @@ Ethra treats language as training. What is easy to say becomes easy to notice. W
 - **Derivation:** action, concept, quality, agent, object, ritual, civic, intimate, process, instrument, place, doctrine, collective, lack, category, discipline, office, record, right, and vow forms.
 - **Lexicon:** generated core lexicon with 21,057 explicit entries across pronouns, particles, moral agency, family, body, mind, emotion, seeing/knowing, speech, time, nature, building/making, law/civic life, technology, ritual/poetry, love/intimacy, conflict/repair, and future/civilization.
 - **Compounds:** 100 curated compound terms for German-style conceptual architecture.
-- **Machine-readable spec:** YAML files in `spec/` for phonology, derivation patterns, roots, particles, pronouns, grammar, syntax, lexicon, compounds, corpus, roadmap, domains, governance, style, and examples.
+- **Machine-readable spec:** YAML files in `spec/` for phonology, derivation patterns, roots, particles, pronouns, grammar, syntax, dictionary schema, lexicon, compounds, corpus, roadmap, domains, governance, style, and examples.
 - **Corpus:** 2,120 reviewed seed corpus items across daily dialogue, civic/legal, ritual/vow, technical/software, literary/poetic, and learner tracks.
 - **Expansion program:** roadmap, domain ontology, corpus plan, and governance model for growing toward civilizational-scale expressive coverage.
-- **Tooling:** CLI commands for root generation, word derivation, word analysis, sentence parsing, style checking, example lookup, root/particle/pattern listing, lexicon listing, compound creation, governed root/compound proposal packets, roadmap inspection, domain coverage, corpus planning/next-batch recommendation/listing/search, governance review, and spec/corpus validation.
+- **Tooling:** CLI commands for root generation, word derivation, word analysis, sentence parsing, dictionary lookup/statistics, style checking, example lookup, root/particle/pattern listing, lexicon listing, compound creation, governed root/compound proposal packets, roadmap inspection, domain coverage, corpus planning/next-batch recommendation/listing/search, governance review, and spec/corpus validation.
 
 ## Quick Examples
 
@@ -88,6 +88,8 @@ npm run ethra -- derive-word --root RAH --pattern instrument
 npm run ethra -- analyze-word mi-rah
 npm run ethra -- parse-sentence --text "Na dov tar mo mik."
 npm run ethra -- style-check --text "Pu na vel dev se so-lem." --register civic --require-moral-agency --require-scope
+npm run ethra -- lookup-dictionary hener --exact
+npm run ethra -- dictionary-stats --limit 5
 npm run ethra -- translate-example 8
 npm run ethra -- create-compound --words fer,dev --gloss "future-binding duty"
 npm run ethra -- propose-term --field "honor-bound duty" --kind compound --components hener,dev --domain philosophy-metaphysics --register civic --example "Hener-dev xap lem."
@@ -125,6 +127,7 @@ ethra-language/
     moral-grammar.md
     relational-grammar.md
     word-formation.md
+    dictionary.md
     parser.md
     style-checker.md
     examples.md
@@ -146,6 +149,7 @@ ethra-language/
     pronouns.yaml
     grammar.yaml
     syntax.yaml
+    dictionary-schema.yaml
     lexicon.yaml
     compounds.yaml
     examples.yaml

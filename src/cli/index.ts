@@ -3,6 +3,7 @@ import { Command } from "commander";
 import { analyzeWord } from "../analyzers/analyze";
 import { parseSentence } from "../analyzers/sentence";
 import { styleCheck } from "../analyzers/style";
+import { dictionaryStats, lookupDictionary } from "../core/dictionary";
 import { flattenLexicon, loadSpec } from "../core/spec";
 import { findExample } from "../core/examples";
 import { createCompound } from "../generators/compound";
@@ -29,7 +30,7 @@ const program = new Command();
 program
   .name("ethra")
   .description("Ethra language tools")
-  .version("0.5.6");
+  .version("0.5.7");
 
 program
   .command("generate-root")
@@ -128,6 +129,36 @@ program
       options.category ? entry.category?.toLowerCase() === options.category.toLowerCase() : true
     );
     console.log(JSON.stringify(entries, null, 2));
+  });
+
+program
+  .command("lookup-dictionary")
+  .description("Lookup dictionary-grade Ethra entries with root, register, examples, and corpus evidence")
+  .argument("<query>", "Ethra word, root id, English meaning, or semantic field")
+  .option("-l, --limit <items>", "maximum results to return", "20")
+  .option("-e, --exact", "only match exact surface word")
+  .action((query, options) => {
+    const limit = Number.parseInt(options.limit, 10);
+    if (!Number.isFinite(limit) || limit < 0) {
+      throw new Error("--limit must be a non-negative integer");
+    }
+    console.log(JSON.stringify(lookupDictionary({
+      query,
+      limit,
+      exact: Boolean(options.exact)
+    }), null, 2));
+  });
+
+program
+  .command("dictionary-stats")
+  .description("Summarize dictionary entries, sources, registers, domains, and corpus evidence")
+  .option("-l, --limit <items>", "top corpus-attested entries to show", "12")
+  .action((options) => {
+    const limit = Number.parseInt(options.limit, 10);
+    if (!Number.isFinite(limit) || limit < 0) {
+      throw new Error("--limit must be a non-negative integer");
+    }
+    console.log(JSON.stringify(dictionaryStats(limit), null, 2));
   });
 
 program

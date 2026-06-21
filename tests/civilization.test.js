@@ -15,6 +15,7 @@ const {
   roadmapSummary,
   searchCorpus
 } = require("../dist/core/civilization.js");
+const { dictionaryStats, lookupDictionary } = require("../dist/core/dictionary.js");
 const { validateCompounds, validateCorpus, validateSpec } = require("../dist/core/validation.js");
 
 test("loads the civilizational-scale roadmap", () => {
@@ -41,6 +42,8 @@ test("summarizes current progress against roadmap targets", () => {
   assert.ok(summary.current.cli_commands.includes("propose-term"));
   assert.ok(summary.current.cli_commands.includes("style-check"));
   assert.ok(summary.current.cli_commands.includes("parse-sentence"));
+  assert.ok(summary.current.cli_commands.includes("lookup-dictionary"));
+  assert.ok(summary.current.cli_commands.includes("dictionary-stats"));
   assert.equal(summary.next_milestone.id, "v1.0");
   assert.equal(summary.next_milestone.target_entries, 25000);
 });
@@ -225,6 +228,35 @@ test("searches reviewed corpus by text and structured filters", () => {
   assert.ok(noneReturned.total_matches > 0);
   assert.equal(noneReturned.returned_matches, 0);
   assert.deepEqual(noneReturned.matches, []);
+});
+
+test("builds dictionary-grade lookup entries with corpus evidence", () => {
+  const stats = dictionaryStats(5);
+  assert.equal(stats.schema_version, "0.5.7");
+  assert.equal(stats.source_counts.lexicon, 21057);
+  assert.equal(stats.source_counts.particle, 39);
+  assert.equal(stats.source_counts.pronoun, 16);
+  assert.equal(stats.source_counts.compound, 100);
+  assert.equal(stats.total_entries, 21212);
+  assert.equal(stats.root_families, 1050);
+  assert.ok(stats.corpus_attested_entries > 900);
+  assert.ok(stats.top_corpus_entries.length <= 5);
+
+  const rah = lookupDictionary({ query: "rah", exact: true, limit: 10 });
+  assert.ok(rah.total_matches >= 1);
+  assert.ok(rah.matches.some((match) => match.entry.word === "rah" && match.entry.root === "RH"));
+  assert.ok(rah.matches.some((match) => match.entry.corpus.frequency > 0));
+
+  const hener = lookupDictionary({ query: "hener", exact: true, limit: 5 });
+  assert.equal(hener.total_matches, 1);
+  assert.equal(hener.matches[0].entry.root, "HNR");
+  assert.ok(hener.matches[0].entry.meanings.includes("honor, public worth"));
+
+  const honor = lookupDictionary({ query: "honor", limit: 30 });
+  assert.ok(honor.matches.some((match) => match.entry.root === "HNR" && match.matched_fields.includes("root_family")));
+
+  const compound = lookupDictionary({ query: "future-binding duty", limit: 10 });
+  assert.ok(compound.matches.some((match) => match.entry.word === "fer-dev" && match.entry.source === "compound"));
 });
 
 test("validates expanded root inventory", () => {
