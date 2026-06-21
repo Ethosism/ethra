@@ -32001,3 +32001,1203 @@ items:
     literal: "Vineyard carries joy."
     notes: "A1 vineyard sentence."
     terms: ["veyened", "taw", "jew"]
+  -
+    id: "daily-641"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "Armor protects a person."
+    ethra: "Remerex xap li."
+    literal: "Armor protects person."
+    notes: "Security object introduced through ordinary protection speech."
+    terms: ["remerex", "xap", "li"]
+  -
+    id: "daily-642"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The firearm carries power."
+    ethra: "Fererem taw kev."
+    literal: "Firearm carries power."
+    notes: "Plain sentence for dangerous instrument and agency."
+    terms: ["fererem", "taw", "kev"]
+  -
+    id: "daily-643"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The drone sees the border."
+    ethra: "Derenex rah rag."
+    literal: "Drone sees border."
+    notes: "Daily grounding for remote observation."
+    terms: ["derenex", "rah", "rag"]
+  -
+    id: "daily-644"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "household"
+    english: "Surveillance protects the household."
+    ethra: "Serevel xap hon."
+    literal: "Surveillance protects household."
+    notes: "Household security framed as protection, not spectacle."
+    terms: ["serevel", "xap", "hon"]
+  -
+    id: "daily-645"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The countermeasure protects the gate."
+    ethra: "Ceterem xap gom."
+    literal: "Countermeasure protects gate."
+    notes: "Everyday wording for defensive response."
+    terms: ["ceterem", "xap", "gom"]
+  -
+    id: "daily-646"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The hostage carries fear."
+    ethra: "Heseteg taw xer."
+    literal: "Hostage carries fear."
+    notes: "Introduces coercion through the human burden it creates."
+    terms: ["heseteg", "taw", "xer"]
+  -
+    id: "daily-647"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "Retreat protects life."
+    ethra: "Reteret xap nef."
+    literal: "Retreat protects life."
+    notes: "Refuses to treat withdrawal as moral failure when life is preserved."
+    terms: ["reteret", "xap", "nef"]
+  -
+    id: "daily-648"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "household"
+    english: "The barricade protects the household."
+    ethra: "Bereced xap hon."
+    literal: "Barricade protects household."
+    notes: "Civil defense vocabulary kept close to ordinary home language."
+    terms: ["bereced", "xap", "hon"]
+  -
+    id: "daily-649"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The checkpoint names the boundary."
+    ethra: "Cehekep nam hal."
+    literal: "Checkpoint names boundary."
+    notes: "Security boundary described as declared and accountable."
+    terms: ["cehekep", "nam", "hal"]
+  -
+    id: "daily-650"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "household"
+    english: "The curfew protects the child."
+    ethra: "Cerefew xap tu."
+    literal: "Curfew protects child."
+    notes: "Learner-level curfew sentence framed by care."
+    terms: ["cerefew", "xap", "tu"]
+  -
+    id: "daily-651"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The convoy carries relief."
+    ethra: "Cenevey taw relefen."
+    literal: "Convoy carries relief."
+    notes: "Daily relief logistics sentence."
+    terms: ["cenevey", "taw", "relefen"]
+  -
+    id: "daily-652"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The sentinel remembers duty."
+    ethra: "Senetel mar dev."
+    literal: "Sentinel remembers duty."
+    notes: "Guarding is anchored in memory and obligation."
+    terms: ["senetel", "mar", "dev"]
+  -
+    id: "daily-653"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "Neutrality protects peace."
+    ethra: "Neterel xap cem."
+    literal: "Neutrality protects peace."
+    notes: "Diplomatic stance expressed as protection of peace."
+    terms: ["neterel", "xap", "cem"]
+  -
+    id: "daily-654"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The casualty carries memory."
+    ethra: "Ceselet taw mer."
+    literal: "Casualty carries memory."
+    notes: "Casualty language keeps the person from becoming a statistic."
+    terms: ["ceselet", "taw", "mer"]
+  -
+    id: "daily-655"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The disaster carries harm."
+    ethra: "Deseset taw mak."
+    literal: "Disaster carries break."
+    notes: "Disaster is treated as a carried field of damage."
+    terms: ["deseset", "taw", "mak"]
+  -
+    id: "daily-656"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "Humanitarian protection protects the civilian."
+    ethra: "Hemenet xap cevelen."
+    literal: "Humanitarian-protection protects civilian."
+    notes: "Protection vocabulary grounded in civilian life."
+    terms: ["hemenet", "xap", "cevelen"]
+  -
+    id: "daily-657"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The corridor guides relief."
+    ethra: "Cereder pat relefen."
+    literal: "Corridor guides relief."
+    notes: "Humanitarian access stated as guided movement."
+    terms: ["cereder", "pat", "relefen"]
+  -
+    id: "daily-658"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "Stabilization repairs the border."
+    ethra: "Setebel tar rag."
+    literal: "Stabilization repairs border."
+    notes: "Stability is expressed as restoration, not mere control."
+    terms: ["setebel", "tar", "rag"]
+  -
+    id: "daily-659"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "Demining protects the soil."
+    ethra: "Demenex xap geb."
+    literal: "Demining protects soil."
+    notes: "Post-conflict repair tied to land and future use."
+    terms: ["demenex", "xap", "geb"]
+  -
+    id: "daily-660"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The prisoner carries a right."
+    ethra: "Peresen taw ret."
+    literal: "Prisoner carries right."
+    notes: "Captivity does not erase rights."
+    terms: ["peresen", "taw", "ret"]
+  -
+    id: "daily-661"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "Disarmament protects peace."
+    ethra: "Deserem xap cem."
+    literal: "Disarmament protects peace."
+    notes: "Arms reduction expressed through civic peace."
+    terms: ["deserem", "xap", "cem"]
+  -
+    id: "daily-662"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The bunker protects life."
+    ethra: "Beneker xap nef."
+    literal: "Bunker protects life."
+    notes: "Shelter vocabulary grounded in preservation."
+    terms: ["beneker", "xap", "nef"]
+  -
+    id: "daily-663"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The warning protects the people."
+    ethra: "Werenex xap lem."
+    literal: "Warning protects people."
+    notes: "Warning is treated as a public act of care."
+    terms: ["werenex", "xap", "lem"]
+  -
+    id: "daily-664"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "Forensics reveals harm."
+    ethra: "Ferenes rah mak."
+    literal: "Forensics reveals break."
+    notes: "Investigation is tied to visible accountability."
+    terms: ["ferenes", "rah", "mak"]
+  -
+    id: "civic-481"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The armor record protects the person."
+    ethra: "Ramarax-ket xap li."
+    literal: "Armor-record protects person."
+    notes: "Inventory record treated as accountable protection."
+    terms: ["ramarax-ket", "xap", "li"]
+  -
+    id: "civic-482"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The firearm record measures power."
+    ethra: "Fararam-ket mes kev."
+    literal: "Firearm-record measures power."
+    notes: "Legal firearm language requires measured power."
+    terms: ["fararam-ket", "mes", "kev"]
+  -
+    id: "civic-483"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The missile record carries duty."
+    ethra: "Masalax-ket taw dev."
+    literal: "Missile-record carries duty."
+    notes: "High-force records remain bound to duty."
+    terms: ["masalax-ket", "taw", "dev"]
+  -
+    id: "civic-484"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The drone record names the border."
+    ethra: "Daranax-ket nam rag."
+    literal: "Drone-record names border."
+    notes: "Remote observation is made accountable to named jurisdiction."
+    terms: ["daranax-ket", "nam", "rag"]
+  -
+    id: "civic-485"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The surveillance record protects the right."
+    ethra: "Saraval-ket xap ret."
+    literal: "Surveillance-record protects right."
+    notes: "Surveillance is acceptable only inside rights language."
+    terms: ["saraval-ket", "xap", "ret"]
+  -
+    id: "civic-486"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "The countermeasure office protects the gate."
+    ethra: "Cataram-da xap gom."
+    literal: "Countermeasure-office protects gate."
+    notes: "Institutional response is linked to bounded access."
+    terms: ["cataram-da", "xap", "gom"]
+  -
+    id: "civic-487"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The hostage record protects life."
+    ethra: "Hasatag-ket xap nef."
+    literal: "Hostage-record protects life."
+    notes: "The record exists to preserve the endangered person."
+    terms: ["hasatag-ket", "xap", "nef"]
+  -
+    id: "civic-488"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The ambush record reveals harm."
+    ethra: "Mabaxac-ket rah mak."
+    literal: "Ambush-record reveals break."
+    notes: "Legal documentation must disclose harm."
+    terms: ["mabaxac-ket", "rah", "mak"]
+  -
+    id: "civic-489"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The retreat record protects life."
+    ethra: "Ratarat-ket xap nef."
+    literal: "Retreat-record protects life."
+    notes: "Withdrawal decisions are evaluated by life-preservation."
+    terms: ["ratarat-ket", "xap", "nef"]
+  -
+    id: "civic-490"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "The checkpoint office names the boundary."
+    ethra: "Cahakap-da nam hal."
+    literal: "Checkpoint-office names boundary."
+    notes: "Civic checkpoint authority must name its limit."
+    terms: ["cahakap-da", "nam", "hal"]
+  -
+    id: "civic-491"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The curfew record protects the people."
+    ethra: "Carafaw-ket xap lem."
+    literal: "Curfew-record protects people."
+    notes: "Public limits require public-protection justification."
+    terms: ["carafaw-ket", "xap", "lem"]
+  -
+    id: "civic-492"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The blockade record carries provision."
+    ethra: "Balakad-ket taw par."
+    literal: "Blockade-record carries provision."
+    notes: "Blockade law must account for provision."
+    terms: ["balakad-ket", "taw", "par"]
+  -
+    id: "civic-493"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The convoy record carries relief."
+    ethra: "Canavay-ket taw relefen."
+    literal: "Convoy-record carries relief."
+    notes: "Convoy documentation is linked to humanitarian delivery."
+    terms: ["canavay-ket", "taw", "relefen"]
+  -
+    id: "civic-494"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The casualty record remembers the person."
+    ethra: "Casalat-ket mar li."
+    literal: "Casualty-record remembers person."
+    notes: "Legal casualty records preserve personhood."
+    terms: ["casalat-ket", "mar", "li"]
+  -
+    id: "civic-495"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "The humanitarian protection office protects the civilian."
+    ethra: "Hamanat-da xap cevelen."
+    literal: "Humanitarian-office protects civilian."
+    notes: "Civic institution sentence for civilian protection."
+    terms: ["hamanat-da", "xap", "cevelen"]
+  -
+    id: "civic-496"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The prisoner record protects the right."
+    ethra: "Parasan-ket xap ret."
+    literal: "Prisoner-record protects right."
+    notes: "Custody record framed by rights preservation."
+    terms: ["parasan-ket", "xap", "ret"]
+  -
+    id: "civic-497"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The civilian record protects life."
+    ethra: "Cavalan-ket xap nef."
+    literal: "Civilian-record protects life."
+    notes: "Civilian status is a life-protecting legal category."
+    terms: ["cavalan-ket", "xap", "nef"]
+  -
+    id: "civic-498"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The forensic record reveals harm."
+    ethra: "Faranas-ket rah mak."
+    literal: "Forensic-record reveals break."
+    notes: "Forensic record carries the duty of disclosure."
+    terms: ["faranas-ket", "rah", "mak"]
+  -
+    id: "ritual-481"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let armor protect life."
+    ethra: "Ha ha-rumurux xap nef."
+    literal: "Solemn armor protects life."
+    notes: "Ritual register turns protection into a vow-like utterance."
+    terms: ["ha-rumurux", "xap", "nef"]
+  -
+    id: "ritual-482"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let the firearm carry duty."
+    ethra: "Ha ha-fururum taw dev."
+    literal: "Solemn firearm carries duty."
+    notes: "Force is brought under solemn duty."
+    terms: ["ha-fururum", "taw", "dev"]
+  -
+    id: "ritual-483"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let the drone see the border."
+    ethra: "Ha ha-durunux rah rag."
+    literal: "Solemn drone sees border."
+    notes: "Remote sight is ritually constrained by borders."
+    terms: ["ha-durunux", "rah", "rag"]
+  -
+    id: "ritual-484"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let surveillance protect rights."
+    ethra: "Ha ha-suruvul xap ret."
+    literal: "Solemn surveillance protects right."
+    notes: "Solemnizes the rights condition of watching."
+    terms: ["ha-suruvul", "xap", "ret"]
+  -
+    id: "ritual-485"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let the hostage be protected as life."
+    ethra: "Ha ha-husutug xap nef."
+    literal: "Solemn hostage protects life."
+    notes: "The hostage term is forced into life-preserving speech."
+    terms: ["ha-husutug", "xap", "nef"]
+  -
+    id: "ritual-486"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let retreat protect the people."
+    ethra: "Ha ha-ruturut xap lem."
+    literal: "Solemn retreat protects people."
+    notes: "Ritualizes restraint as collective preservation."
+    terms: ["ha-ruturut", "xap", "lem"]
+  -
+    id: "ritual-487"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let the checkpoint name the boundary."
+    ethra: "Ha ha-cuhukup nam hal."
+    literal: "Solemn checkpoint names boundary."
+    notes: "Sacred register demands named limits."
+    terms: ["ha-cuhukup", "nam", "hal"]
+  -
+    id: "ritual-488"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let the curfew protect the child."
+    ethra: "Ha ha-curufuw xap tu."
+    literal: "Solemn curfew protects child."
+    notes: "Restriction is justified by vulnerable life."
+    terms: ["ha-curufuw", "xap", "tu"]
+  -
+    id: "ritual-489"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let the convoy carry relief."
+    ethra: "Ha ha-cunuvuy taw relefen."
+    literal: "Solemn convoy carries relief."
+    notes: "Relief logistics stated as solemn carriage."
+    terms: ["ha-cunuvuy", "taw", "relefen"]
+  -
+    id: "ritual-490"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let the sentinel remember duty."
+    ethra: "Ha ha-sunutul mar dev."
+    literal: "Solemn sentinel remembers duty."
+    notes: "Watchfulness is bound to remembrance."
+    terms: ["ha-sunutul", "mar", "dev"]
+  -
+    id: "ritual-491"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let neutrality protect peace."
+    ethra: "Ha ha-nuturul xap cem."
+    literal: "Solemn neutrality protects peace."
+    notes: "Diplomatic restraint becomes a vowed protection."
+    terms: ["ha-nuturul", "xap", "cem"]
+  -
+    id: "ritual-492"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let the casualty be remembered as a person."
+    ethra: "Ha ha-cusulut mar li."
+    literal: "Solemn casualty remembers person."
+    notes: "Ritual sentence against anonymous loss."
+    terms: ["ha-cusulut", "mar", "li"]
+  -
+    id: "ritual-493"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let disaster be repaired as harm."
+    ethra: "Ha ha-dususut tar mak."
+    literal: "Solemn disaster repairs break."
+    notes: "Disaster speech turns toward repair."
+    terms: ["ha-dususut", "tar", "mak"]
+  -
+    id: "ritual-494"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let humanitarian protection guard the civilian."
+    ethra: "Ha ha-humunut xap cevelen."
+    literal: "Solemn humanitarian-protection protects civilian."
+    notes: "Civilian protection stated in sacred cadence."
+    terms: ["ha-humunut", "xap", "cevelen"]
+  -
+    id: "ritual-495"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let the corridor guide relief."
+    ethra: "Ha ha-curudur pat relefen."
+    literal: "Solemn corridor guides relief."
+    notes: "Access corridor expressed as guided mercy."
+    terms: ["ha-curudur", "pat", "relefen"]
+  -
+    id: "ritual-496"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let demining protect the soil."
+    ethra: "Ha ha-dumunux xap geb."
+    literal: "Solemn demining protects soil."
+    notes: "Repair of land placed in a solemn frame."
+    terms: ["ha-dumunux", "xap", "geb"]
+  -
+    id: "ritual-497"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let the prisoner keep the right."
+    ethra: "Ha ha-purusun xap ret."
+    literal: "Solemn prisoner protects right."
+    notes: "Captivity cannot annul moral standing."
+    terms: ["ha-purusun", "xap", "ret"]
+  -
+    id: "ritual-498"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "Let forensics reveal harm."
+    ethra: "Ha ha-furunus rah mak."
+    literal: "Solemn forensics reveals break."
+    notes: "Truth-finding is raised to solemn obligation."
+    terms: ["ha-furunus", "rah", "mak"]
+  -
+    id: "tech-641"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The armor record protects the person."
+    ethra: "Ramarax-ket xap li."
+    literal: "Armor-record protects person."
+    notes: "Asset tracking sentence for protective equipment."
+    terms: ["ramarax-ket", "xap", "li"]
+  -
+    id: "tech-642"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The firearm record measures power."
+    ethra: "Fararam-ket mes kev."
+    literal: "Firearm-record measures power."
+    notes: "Technical record sentence for force classification."
+    terms: ["fararam-ket", "mes", "kev"]
+  -
+    id: "tech-643"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The missile record carries the target."
+    ethra: "Masalax-ket taw tereget."
+    literal: "Missile-record carries target."
+    notes: "Target metadata phrased as carried responsibility."
+    terms: ["masalax-ket", "taw", "tereget"]
+  -
+    id: "tech-644"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The drone tool sees the border."
+    ethra: "Daranax-tel rah rag."
+    literal: "Drone-tool sees border."
+    notes: "Technical grounding for drone observation."
+    terms: ["daranax-tel", "rah", "rag"]
+  -
+    id: "tech-645"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The surveillance tool measures the boundary."
+    ethra: "Saraval-tel mes hal."
+    literal: "Surveillance-tool measures boundary."
+    notes: "Monitoring system sentence with explicit boundary."
+    terms: ["saraval-tel", "mes", "hal"]
+  -
+    id: "tech-646"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The countermeasure tool protects the system."
+    ethra: "Cataram-tel xap sevec."
+    literal: "Countermeasure-tool protects system."
+    notes: "Cybersecurity-compatible use of countermeasure."
+    terms: ["cataram-tel", "xap", "sevec"]
+  -
+    id: "tech-647"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The hostage record protects life."
+    ethra: "Hasatag-ket xap nef."
+    literal: "Hostage-record protects life."
+    notes: "Incident system sentence for endangered-person status."
+    terms: ["hasatag-ket", "xap", "nef"]
+  -
+    id: "tech-648"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The ambush record reveals the error."
+    ethra: "Mabaxac-ket rah xeg."
+    literal: "Ambush-record reveals error."
+    notes: "After-action analysis links ambush to failure discovery."
+    terms: ["mabaxac-ket", "rah", "xeg"]
+  -
+    id: "tech-649"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The barricade record protects the gate."
+    ethra: "Baracad-ket xap gom."
+    literal: "Barricade-record protects gate."
+    notes: "Access-control record for physical security."
+    terms: ["baracad-ket", "xap", "gom"]
+  -
+    id: "tech-650"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The checkpoint record names the person."
+    ethra: "Cahakap-ket nam li."
+    literal: "Checkpoint-record names person."
+    notes: "Identity logging sentence."
+    terms: ["cahakap-ket", "nam", "li"]
+  -
+    id: "tech-651"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The curfew record carries duty."
+    ethra: "Carafaw-ket taw dev."
+    literal: "Curfew-record carries duty."
+    notes: "Scheduling restriction represented as accountable duty."
+    terms: ["carafaw-ket", "taw", "dev"]
+  -
+    id: "tech-652"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The blockade record protects the border."
+    ethra: "Balakad-ket xap rag."
+    literal: "Blockade-record protects border."
+    notes: "Security platform sentence for boundary control."
+    terms: ["balakad-ket", "xap", "rag"]
+  -
+    id: "tech-653"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The convoy record carries the supply line."
+    ethra: "Canavay-ket taw sepeley."
+    literal: "Convoy-record carries supply-line."
+    notes: "Logistics metadata for convoy supply."
+    terms: ["canavay-ket", "taw", "sepeley"]
+  -
+    id: "tech-654"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The sentinel record protects the boundary."
+    ethra: "Sanatal-ket xap hal."
+    literal: "Sentinel-record protects boundary."
+    notes: "Monitoring record for perimeter status."
+    terms: ["sanatal-ket", "xap", "hal"]
+  -
+    id: "tech-655"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The monitoring tool measures the system."
+    ethra: "Manatar-tel mes sevec."
+    literal: "Monitoring-tool measures system."
+    notes: "Operations monitoring term grounded in software usage."
+    terms: ["manatar-tel", "mes", "sevec"]
+  -
+    id: "tech-656"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The humanitarian protection record protects the civilian."
+    ethra: "Hamanat-ket xap cevelen."
+    literal: "Humanitarian-protection-record protects civilian."
+    notes: "Case-management sentence for civilian protection."
+    terms: ["hamanat-ket", "xap", "cevelen"]
+  -
+    id: "tech-657"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The corridor record guides relief."
+    ethra: "Caradar-ket pat relefen."
+    literal: "Corridor-record guides relief."
+    notes: "Route-planning sentence for humanitarian corridors."
+    terms: ["caradar-ket", "pat", "relefen"]
+  -
+    id: "tech-658"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The stabilization record repairs the system."
+    ethra: "Satabal-ket tar sevec."
+    literal: "Stabilization-record repairs system."
+    notes: "Post-incident remediation in technical register."
+    terms: ["satabal-ket", "tar", "sevec"]
+  -
+    id: "tech-659"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The demining tool protects the soil."
+    ethra: "Damanax-tel xap geb."
+    literal: "Demining-tool protects soil."
+    notes: "Field-operation tooling sentence."
+    terms: ["damanax-tel", "xap", "geb"]
+  -
+    id: "tech-660"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The disarmament record protects peace."
+    ethra: "Dasaram-ket xap cem."
+    literal: "Disarmament-record protects peace."
+    notes: "Compliance tracking sentence for disarmament."
+    terms: ["dasaram-ket", "xap", "cem"]
+  -
+    id: "tech-661"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The radar tool sees the drone."
+    ethra: "Radarax-tel rah derenex."
+    literal: "Radar-tool sees drone."
+    notes: "Sensor sentence for detection systems."
+    terms: ["radarax-tel", "rah", "derenex"]
+  -
+    id: "tech-662"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The dispatch record guides relief."
+    ethra: "Dasapac-ket pat relefen."
+    literal: "Dispatch-record guides relief."
+    notes: "Operational dispatch connected to relief movement."
+    terms: ["dasapac-ket", "pat", "relefen"]
+  -
+    id: "tech-663"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The warning record protects the people."
+    ethra: "Waranax-ket xap lem."
+    literal: "Warning-record protects people."
+    notes: "Alerting system sentence for public safety."
+    terms: ["waranax-ket", "xap", "lem"]
+  -
+    id: "tech-664"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The forensic record reveals harm."
+    ethra: "Faranas-ket rah mak."
+    literal: "Forensic-record reveals break."
+    notes: "Evidence workflow sentence."
+    terms: ["faranas-ket", "rah", "mak"]
+  -
+    id: "poetic-641"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "Armor protects life."
+    ethra: "Remerex xap nef."
+    literal: "Armor protects life."
+    notes: "Short poetic protection line."
+    terms: ["remerex", "xap", "nef"]
+  -
+    id: "poetic-642"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The missile carries fear."
+    ethra: "Meselex taw xer."
+    literal: "Missile carries fear."
+    notes: "Poetic compression of distant threat."
+    terms: ["meselex", "taw", "xer"]
+  -
+    id: "poetic-643"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The drone sees the border."
+    ethra: "Derenex rah rag."
+    literal: "Drone sees border."
+    notes: "Repeats a civic image in poetic register."
+    terms: ["derenex", "rah", "rag"]
+  -
+    id: "poetic-644"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "Surveillance sees silence."
+    ethra: "Serevel rah caz."
+    literal: "Surveillance sees silence."
+    notes: "Poetic line about watching what does not speak."
+    terms: ["serevel", "rah", "caz"]
+  -
+    id: "poetic-645"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The hostage carries fear."
+    ethra: "Heseteg taw xer."
+    literal: "Hostage carries fear."
+    notes: "Human consequence given a compact line."
+    terms: ["heseteg", "taw", "xer"]
+  -
+    id: "poetic-646"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "Retreat protects life."
+    ethra: "Reteret xap nef."
+    literal: "Retreat protects life."
+    notes: "Poetic honor for restraint."
+    terms: ["reteret", "xap", "nef"]
+  -
+    id: "poetic-647"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The barricade protects the household."
+    ethra: "Bereced xap hon."
+    literal: "Barricade protects household."
+    notes: "Civic crisis brought back to the home."
+    terms: ["bereced", "xap", "hon"]
+  -
+    id: "poetic-648"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The curfew carries silence."
+    ethra: "Cerefew taw caz."
+    literal: "Curfew carries silence."
+    notes: "Compact night-restriction image."
+    terms: ["cerefew", "taw", "caz"]
+  -
+    id: "poetic-649"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The convoy carries relief."
+    ethra: "Cenevey taw relefen."
+    literal: "Convoy carries relief."
+    notes: "Relief line suited to chant or inscription."
+    terms: ["cenevey", "taw", "relefen"]
+  -
+    id: "poetic-650"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The sentinel remembers duty."
+    ethra: "Senetel mar dev."
+    literal: "Sentinel remembers duty."
+    notes: "Memory turns vigilance into moral posture."
+    terms: ["senetel", "mar", "dev"]
+  -
+    id: "poetic-651"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "Neutrality protects peace."
+    ethra: "Neterel xap cem."
+    literal: "Neutrality protects peace."
+    notes: "Diplomatic restraint in poetic compression."
+    terms: ["neterel", "xap", "cem"]
+  -
+    id: "poetic-652"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The casualty carries memory."
+    ethra: "Ceselet taw mer."
+    literal: "Casualty carries memory."
+    notes: "Memorial line against erasure."
+    terms: ["ceselet", "taw", "mer"]
+  -
+    id: "poetic-653"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The disaster carries harm."
+    ethra: "Deseset taw mak."
+    literal: "Disaster carries break."
+    notes: "Poetic disaster sentence."
+    terms: ["deseset", "taw", "mak"]
+  -
+    id: "poetic-654"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The corridor guides relief."
+    ethra: "Cereder pat relefen."
+    literal: "Corridor guides relief."
+    notes: "A path image for humanitarian passage."
+    terms: ["cereder", "pat", "relefen"]
+  -
+    id: "poetic-655"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "Demining repairs the soil."
+    ethra: "Demenex tar geb."
+    literal: "Demining repairs soil."
+    notes: "Post-conflict land healing expressed directly."
+    terms: ["demenex", "tar", "geb"]
+  -
+    id: "poetic-656"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The prisoner carries a right."
+    ethra: "Peresen taw ret."
+    literal: "Prisoner carries right."
+    notes: "Moral line preserving personhood in custody."
+    terms: ["peresen", "taw", "ret"]
+  -
+    id: "poetic-657"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "Disarmament protects peace."
+    ethra: "Deserem xap cem."
+    literal: "Disarmament protects peace."
+    notes: "Peace line in compact public style."
+    terms: ["deserem", "xap", "cem"]
+  -
+    id: "poetic-658"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The front carries fear."
+    ethra: "Ferenet taw xer."
+    literal: "Front carries fear."
+    notes: "War-front concept rendered as emotional burden."
+    terms: ["ferenet", "taw", "xer"]
+  -
+    id: "poetic-659"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The bunker protects life."
+    ethra: "Beneker xap nef."
+    literal: "Bunker protects life."
+    notes: "Shelter as preservation."
+    terms: ["beneker", "xap", "nef"]
+  -
+    id: "poetic-660"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "Relief feeds the people."
+    ethra: "Relefen fad lem."
+    literal: "Relief feeds people."
+    notes: "Relief line tied to provision."
+    terms: ["relefen", "fad", "lem"]
+  -
+    id: "poetic-661"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The civilian carries life."
+    ethra: "Cevelen taw nef."
+    literal: "Civilian carries life."
+    notes: "Civilian status expressed as living claim."
+    terms: ["cevelen", "taw", "nef"]
+  -
+    id: "poetic-662"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "Murder carries harm."
+    ethra: "Mereder taw mak."
+    literal: "Murder carries break."
+    notes: "Violence named without euphemism."
+    terms: ["mereder", "taw", "mak"]
+  -
+    id: "poetic-663"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The warning protects the future."
+    ethra: "Werenex xap fer."
+    literal: "Warning protects future."
+    notes: "Warning framed as future-facing care."
+    terms: ["werenex", "xap", "fer"]
+  -
+    id: "poetic-664"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "Forensics reveals harm."
+    ethra: "Ferenes rah mak."
+    literal: "Forensics reveals break."
+    notes: "Poetic truth-finding sentence."
+    terms: ["ferenes", "rah", "mak"]
+  -
+    id: "learner-321"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "Armor protects a person."
+    ethra: "Remerex xap li."
+    literal: "Armor protects person."
+    notes: "A1 security-protection sentence."
+    terms: ["remerex", "xap", "li"]
+  -
+    id: "learner-322"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "The drone sees the border."
+    ethra: "Derenex rah rag."
+    literal: "Drone sees border."
+    notes: "A1 observation sentence."
+    terms: ["derenex", "rah", "rag"]
+  -
+    id: "learner-323"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "Surveillance protects the household."
+    ethra: "Serevel xap hon."
+    literal: "Surveillance protects household."
+    notes: "A1 household safety sentence."
+    terms: ["serevel", "xap", "hon"]
+  -
+    id: "learner-324"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "The countermeasure protects the gate."
+    ethra: "Ceterem xap gom."
+    literal: "Countermeasure protects gate."
+    notes: "A1 defensive-response sentence."
+    terms: ["ceterem", "xap", "gom"]
+  -
+    id: "learner-325"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "The checkpoint names the boundary."
+    ethra: "Cehekep nam hal."
+    literal: "Checkpoint names boundary."
+    notes: "A1 boundary sentence."
+    terms: ["cehekep", "nam", "hal"]
+  -
+    id: "learner-326"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "The curfew protects the child."
+    ethra: "Cerefew xap tu."
+    literal: "Curfew protects child."
+    notes: "A1 public-safety sentence."
+    terms: ["cerefew", "xap", "tu"]
+  -
+    id: "learner-327"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "The convoy carries relief."
+    ethra: "Cenevey taw relefen."
+    literal: "Convoy carries relief."
+    notes: "A1 relief logistics sentence."
+    terms: ["cenevey", "taw", "relefen"]
+  -
+    id: "learner-328"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "The sentinel remembers duty."
+    ethra: "Senetel mar dev."
+    literal: "Sentinel remembers duty."
+    notes: "A1 moral-vigilance sentence."
+    terms: ["senetel", "mar", "dev"]
+  -
+    id: "learner-329"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "The disaster carries harm."
+    ethra: "Deseset taw mak."
+    literal: "Disaster carries break."
+    notes: "A1 disaster sentence."
+    terms: ["deseset", "taw", "mak"]
+  -
+    id: "learner-330"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "Humanitarian protection protects the civilian."
+    ethra: "Hemenet xap cevelen."
+    literal: "Humanitarian-protection protects civilian."
+    notes: "A1 civilian-protection sentence."
+    terms: ["hemenet", "xap", "cevelen"]
+  -
+    id: "learner-331"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "Demining protects the soil."
+    ethra: "Demenex xap geb."
+    literal: "Demining protects soil."
+    notes: "A1 land-safety sentence."
+    terms: ["demenex", "xap", "geb"]
+  -
+    id: "learner-332"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "The warning protects the people."
+    ethra: "Werenex xap lem."
+    literal: "Warning protects people."
+    notes: "A1 public-warning sentence."
+    terms: ["werenex", "xap", "lem"]

@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 31,057 explicit lexicon entries, 31,212 dictionary entries, 1,550 root families, and 3,200 reviewed corpus items after the v0.7.6 security-operations root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 31,057 explicit lexicon entries, 31,212 dictionary entries, 1,550 root families, and 3,320 reviewed corpus items after the v0.7.7 security-operations corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
@@ -8,7 +8,7 @@ Current progress toward the v1.0 stable-civil-language target:
 entries 31,057 / 25,000
 dictionary 31,212 entries with corpus evidence fields
 roots     1,550 / 2,500
-corpus    3,200 / 10,000 reviewed items
+corpus    3,320 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -135,7 +135,9 @@ The v0.7.5 corpus grounding batch adds 120 reviewed examples using the v0.7.4 ro
 
 The v0.7.6 security-operations root batch adds 50 roots and 1,000 derived lexicon entries for armor, firearms, missiles, drones, surveillance, countermeasures, hostages, ambushes, retreats, barricades, checkpoints, curfews, blockades, convoys, sentinels, neutrality, collateral harm, casualties, disasters, monitoring, humanitarian protection, corridors, support, stabilization, demining, prisoners, disarmament, targeting, front lines, flanks, bunkers, radar, mobilization, dispatch, relief, civilians, murder, torture, kidnapping, looting, rubble, flares, supply lines, tunnels, drop zones, warnings, incident scenes, lockdowns, forensics, and plunder.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 950 more root families and 6,800 more reviewed corpus items still needed.
+The v0.7.7 corpus grounding batch adds 120 reviewed examples using the v0.7.6 security-operations roots across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds armor, firearms, missiles, drones, surveillance, countermeasures, hostages, ambushes, retreats, barricades, checkpoints, curfews, blockades, convoys, sentinels, neutrality, casualties, disasters, humanitarian protection, corridors, stabilization, demining, prisoners, disarmament, targeting, front lines, bunkers, radar, dispatch, relief, civilians, murder, warnings, forensics, and public safety vocabulary in common, legal, solemn, technical, poetic, and learner use.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 950 more root families and 6,680 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
