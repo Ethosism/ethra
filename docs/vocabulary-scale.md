@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 43,057 explicit lexicon entries, 43,212 dictionary entries, 2,150 root families, and 4,760 reviewed corpus items after the v0.10.1 knowledge, world, and agency corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 44,057 explicit lexicon entries, 44,212 dictionary entries, 2,200 root families, and 4,760 reviewed corpus items after the v0.10.2 civic trust and economy root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
 ```text
-entries 43,057 / 25,000
-dictionary 43,212 entries with corpus evidence fields
-roots     2,150 / 2,500
+entries 44,057 / 25,000
+dictionary 44,212 entries with corpus evidence fields
+roots     2,200 / 2,500
 corpus    4,760 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
@@ -185,7 +185,9 @@ The v0.10.0 knowledge, world, and agency root batch adds 50 roots and 1,000 deri
 
 The v0.10.1 knowledge, world, and agency corpus grounding batch adds 120 reviewed examples across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds entropy, equilibrium, correlation, variance, derivatives, integrals, topology, sets, sequences, symmetry, ranges, samples, populations, units, constants, gradients, calibration, phases, constraints, deontology, axiology, legitimacy, sovereignty, pluralism, realism, nominalism, materialism, pragmatics, discourse, phonemes, morphology, etymology, dialects, lexemes, benchmarks, overfitting, underfitting, generalization, ablation, latency, throughput, drift, robustness, and clustering in ordinary, civic, ritual, technical, poetic, and learner use.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 350 more root families and 5,240 more reviewed corpus items still needed.
+The v0.10.2 civic trust and economy root batch adds 50 roots and 1,000 derived lexicon entries. It strengthens public order with subsidiarity, proportionality, due process, redress, arraignment, sentencing, clemency, amnesty, recusal, conflicts of interest, ethics disclosure, public comment, agendas, dockets, federalism, separation of powers, checks and balances, judicial review, and executive orders; public speech with misinformation, disinformation, credibility, source tracing, anonymity, pseudonymity, virality, media literacy, and the attention economy; and economic provision with deflation, consumer price indexes, tax withholding, capital gains, yield, treasury stewardship, monetary policy, fiscal policy, exchange rates, sovereign debt, default risk, underwriting, actuarial risk, diversification, appreciation, leases, return on investment, cooperative enterprise, commons, public trust, fiduciary duty, and solvency.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 300 more root families and 5,240 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
