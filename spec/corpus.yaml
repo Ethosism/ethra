@@ -1,4 +1,4 @@
-version: "0.10.3-corpus"
+version: "0.10.5-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -48801,3 +48801,1203 @@ items:
     literal: "Credibility protects evidence."
     notes: "A1 grounding for warranted trust."
     terms: ["ceredeb", "xap", "xeg"]
+  -
+    id: "daily-977"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics", "emotion-psychology"]
+    register: "plain"
+    english: "Qualia reveals inner life."
+    ethra: "Keleyex rah leb."
+    literal: "Qualia reveals inner life."
+    notes: "Daily grounding for qualia, felt character of experience, what consciousness is like from within."
+    terms: ["keleyex", "rah", "leb"]
+  -
+    id: "daily-978"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics", "ai-cognition"]
+    register: "plain"
+    english: "Intentionality guides attention."
+    ethra: "Netenel pat naf."
+    literal: "Intentionality guides attention."
+    notes: "Daily grounding for intentionality, directedness of mind toward object, meaning, goal, or value."
+    terms: ["netenel", "pat", "naf"]
+  -
+    id: "daily-979"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics", "emotion-psychology"]
+    register: "plain"
+    english: "Authenticity protects truth."
+    ethra: "Hetenec xap rih."
+    literal: "Authenticity protects truth."
+    notes: "Daily grounding for authenticity, truthful self-expression, inward and outward life held together."
+    terms: ["hetenec", "xap", "rih"]
+  -
+    id: "daily-980"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Emergence reveals meaning."
+    ethra: "Yemereg rah nem."
+    literal: "Emergence reveals meaning."
+    notes: "Daily grounding for emergence, higher-order pattern arising from many lower interactions."
+    terms: ["yemereg", "rah", "nem"]
+  -
+    id: "daily-981"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Counterfactual guides justice."
+    ethra: "Kenetef pat sak."
+    literal: "Counterfactual guides justice."
+    notes: "Daily grounding for counterfactual, disciplined possible alternative used to test cause, duty, or regret."
+    terms: ["kenetef", "pat", "sak"]
+  -
+    id: "daily-982"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics", "technology-software"]
+    register: "plain"
+    english: "Self-reference reveals risk."
+    ethra: "Seleref rah kav."
+    literal: "Self-reference reveals risk."
+    notes: "Daily grounding for self-reference, statement or system referring to itself, reflexive loop of meaning."
+    terms: ["seleref", "rah", "kav"]
+  -
+    id: "daily-983"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Indexicality guides meaning."
+    ethra: "Yedexel pat nem."
+    literal: "Indexicality guides meaning."
+    notes: "Daily grounding for indexicality, meaning anchored by speaker, place, time, or relation."
+    terms: ["yedexel", "pat", "nem"]
+  -
+    id: "daily-984"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance", "science-math"]
+    register: "plain"
+    english: "Burden of proof protects evidence."
+    ethra: "Berepef xap xeg."
+    literal: "Burden of proof protects evidence."
+    notes: "Daily grounding for burden of proof, assigned duty to support a claim with sufficient evidence."
+    terms: ["berepef", "xap", "xeg"]
+  -
+    id: "daily-985"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance", "economics-provision"]
+    register: "plain"
+    english: "Moral hazard breaks duty."
+    ethra: "Merehez mak dev."
+    literal: "Moral hazard breaks duty."
+    notes: "Daily grounding for moral hazard, risk created when protection from consequence distorts responsibility."
+    terms: ["merehez", "mak", "dev"]
+  -
+    id: "daily-986"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "ai-cognition"]
+    register: "plain"
+    english: "Situated cognition teaches attention."
+    ethra: "Seteceg dak naf."
+    literal: "Situated cognition teaches attention."
+    notes: "Daily grounding for situated cognition, thought shaped by body, tools, place, practice, and relation."
+    terms: ["seteceg", "dak", "naf"]
+  -
+    id: "daily-987"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "ai-cognition"]
+    register: "plain"
+    english: "Field guides model."
+    ethra: "Feleder pat med."
+    literal: "Field guides model."
+    notes: "Daily grounding for field, continuous domain of values, forces, relations, or influence."
+    terms: ["feleder", "pat", "med"]
+  -
+    id: "daily-988"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Chaos reveals risk."
+    ethra: "Kehex rah kav."
+    literal: "Chaos reveals risk."
+    notes: "Daily grounding for chaos, deterministic sensitivity, order whose future is hard to predict."
+    terms: ["kehex", "rah", "kav"]
+  -
+    id: "daily-989"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Invariant protects truth."
+    ethra: "Neverex xap rih."
+    literal: "Invariant protects truth."
+    notes: "Daily grounding for invariant, property preserved across transformation, test, or context shift."
+    terms: ["neverex", "xap", "rih"]
+  -
+    id: "daily-990"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "science-math"]
+    register: "plain"
+    english: "Objective function guides model."
+    ethra: "Bejecef pat med."
+    literal: "Objective function guides model."
+    notes: "Daily grounding for objective function, declared target a system optimizes or is judged against."
+    terms: ["bejecef", "pat", "med"]
+  -
+    id: "daily-991"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ai-cognition", "science-math"]
+    register: "plain"
+    english: "Loss function teaches model."
+    ethra: "Lesesex dak med."
+    literal: "Loss function teaches model."
+    notes: "Daily grounding for loss function, penalty measure that teaches a model or method what error costs."
+    terms: ["lesesex", "dak", "med"]
+  -
+    id: "daily-992"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Isomorphism reveals truth."
+    ethra: "Yesemer rah rih."
+    literal: "Isomorphism reveals truth."
+    notes: "Daily grounding for isomorphism, structure-preserving correspondence between different forms."
+    terms: ["yesemer", "rah", "rih"]
+  -
+    id: "daily-993"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "technology-software"]
+    register: "plain"
+    english: "Boundary condition binds model."
+    ethra: "Benedec dav med."
+    literal: "Boundary condition binds model."
+    notes: "Daily grounding for boundary condition, required edge state that shapes a solution or process."
+    terms: ["benedec", "dav", "med"]
+  -
+    id: "daily-994"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "ai-cognition"]
+    register: "plain"
+    english: "Synapse carries meaning."
+    ethra: "Seyenep taw nem."
+    literal: "Synapse carries meaning."
+    notes: "Daily grounding for synapse, signal junction between nerve cells, learning contact in the body."
+    terms: ["seyenep", "taw", "nem"]
+  -
+    id: "daily-995"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "science-math"]
+    register: "plain"
+    english: "Comorbidity guides care."
+    ethra: "Cemereb pat hal."
+    literal: "Comorbidity guides care."
+    notes: "Daily grounding for comorbidity, co-occurring illness, interacting burdens in one patient or population."
+    terms: ["cemereb", "pat", "hal"]
+  -
+    id: "daily-996"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "science-math"]
+    register: "plain"
+    english: "Biomarker reveals body."
+    ethra: "Bemerek rah gem."
+    literal: "Biomarker reveals body."
+    notes: "Daily grounding for biomarker, measurable bodily sign used to detect state, risk, or response."
+    terms: ["bemerek", "rah", "gem"]
+  -
+    id: "daily-997"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "law-governance"]
+    register: "plain"
+    english: "Clinical pathway guides care."
+    ethra: "Petehew pat hal."
+    literal: "Clinical pathway guides care."
+    notes: "Daily grounding for clinical pathway, ordered care route across diagnosis, treatment, review, and repair."
+    terms: ["petehew", "pat", "hal"]
+  -
+    id: "daily-998"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "law-governance"]
+    register: "plain"
+    english: "Side effect reveals harm."
+    ethra: "Sedefex rah pan."
+    literal: "Side effect reveals harm."
+    notes: "Daily grounding for side effect, unintended treatment consequence that must be noticed and answered."
+    terms: ["sedefex", "rah", "pan"]
+  -
+    id: "daily-999"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "science-math"]
+    register: "plain"
+    english: "Lesion reveals harm."
+    ethra: "Lesenex rah pan."
+    literal: "Lesion reveals harm."
+    notes: "Daily grounding for lesion, damaged tissue site, localized bodily change requiring interpretation."
+    terms: ["lesenex", "rah", "pan"]
+  -
+    id: "daily-1000"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Adherence protects body."
+    ethra: "Deherex xap gem."
+    literal: "Adherence protects body."
+    notes: "Daily grounding for adherence, kept treatment practice, faithful following of a care plan."
+    terms: ["deherex", "xap", "gem"]
+  -
+    id: "civic-733"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "Burden of proof civic binds evidence."
+    ethra: "Barapaf-da dav xeg."
+    literal: "Burden of proof civic binds evidence."
+    notes: "Civic grounding for burden of proof, assigned duty to support a claim with sufficient evidence."
+    terms: ["barapaf-da", "dav", "xeg"]
+  -
+    id: "civic-734"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "Moral hazard civic reveals risk."
+    ethra: "Marahaz-da rah kav."
+    literal: "Moral hazard civic reveals risk."
+    notes: "Civic grounding for moral hazard, risk created when protection from consequence distorts responsibility."
+    terms: ["marahaz-da", "rah", "kav"]
+  -
+    id: "civic-735"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software", "ai-cognition"]
+    register: "civic"
+    english: "Adversarial example civic reveals risk."
+    ethra: "Davasax-da rah kav."
+    literal: "Adversarial example civic reveals risk."
+    notes: "Civic grounding for adversarial example, crafted input that reveals brittle perception or model failure."
+    terms: ["davasax-da", "rah", "kav"]
+  -
+    id: "civic-736"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software", "science-math"]
+    register: "civic"
+    english: "Oracle civic protects evidence."
+    ethra: "Waracal-da xap xeg."
+    literal: "Oracle civic protects evidence."
+    notes: "Civic grounding for oracle, trusted answer source, external judge, or hidden ground truth used for testing."
+    terms: ["waracal-da", "xap", "xeg"]
+  -
+    id: "civic-737"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software", "ai-cognition"]
+    register: "civic"
+    english: "Model card civic protects people."
+    ethra: "Madacad-da xap lem."
+    literal: "Model card civic protects people."
+    notes: "Civic grounding for model card, structured public record of model purpose, limits, risks, and evaluation."
+    terms: ["madacad-da", "xap", "lem"]
+  -
+    id: "civic-738"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software", "ai-cognition"]
+    register: "civic"
+    english: "Dataset card civic protects memory."
+    ethra: "Datacad-da xap mer."
+    literal: "Dataset card civic protects memory."
+    notes: "Civic grounding for dataset card, structured public record of data origin, coverage, consent, bias, and limits."
+    terms: ["datacad-da", "xap", "mer"]
+  -
+    id: "civic-739"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software", "media-communication"]
+    register: "civic"
+    english: "Prompt leakage civic breaks rule."
+    ethra: "Paralak-da mak rag."
+    literal: "Prompt leakage civic breaks rule."
+    notes: "Civic grounding for prompt leakage, exposed hidden instruction or context that should have remained guarded."
+    terms: ["paralak-da", "mak", "rag"]
+  -
+    id: "civic-740"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software"]
+    register: "civic"
+    english: "Safety case civic binds duty."
+    ethra: "Safatac-da dav dev."
+    literal: "Safety case civic binds duty."
+    notes: "Civic grounding for safety case, structured argument that a system is acceptably safe for use."
+    terms: ["safatac-da", "dav", "dev"]
+  -
+    id: "civic-741"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software", "ai-cognition"]
+    register: "civic"
+    english: "Shadow mode civic protects people."
+    ethra: "Sahadam-da xap lem."
+    literal: "Shadow mode civic protects people."
+    notes: "Civic grounding for shadow mode, silent deployment that observes real use without acting on users."
+    terms: ["sahadam-da", "xap", "lem"]
+  -
+    id: "civic-742"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training", "philosophy-metaphysics"]
+    register: "civic"
+    english: "Socratic questioning civic teaches justice."
+    ethra: "Sakarat-da dak sak."
+    literal: "Socratic questioning civic teaches justice."
+    notes: "Civic grounding for Socratic questioning, disciplined inquiry that exposes assumptions through ordered questions."
+    terms: ["sakarat-da", "dak", "sak"]
+  -
+    id: "civic-743"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training", "media-communication"]
+    register: "civic"
+    english: "Didactics civic teaches people."
+    ethra: "Dadakat-da dak lem."
+    literal: "Didactics civic teaches people."
+    notes: "Civic grounding for didactics, explicit art of instruction, ordered teaching design for transmission."
+    terms: ["dadakat-da", "dak", "lem"]
+  -
+    id: "civic-744"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training", "philosophy-metaphysics"]
+    register: "civic"
+    english: "Critical thinking civic protects justice."
+    ethra: "Caratak-da xap sak."
+    literal: "Critical thinking civic protects justice."
+    notes: "Civic grounding for critical thinking, disciplined judgment that tests claims, frames, evidence, and implication."
+    terms: ["caratak-da", "xap", "sak"]
+  -
+    id: "civic-745"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "Arbitration civic binds justice."
+    ethra: "Yarabat-da dav sak."
+    literal: "Arbitration civic binds justice."
+    notes: "Civic grounding for arbitration, binding third-party judgment outside ordinary court."
+    terms: ["yarabat-da", "dav", "sak"]
+  -
+    id: "civic-746"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "Mediation civic repairs harm."
+    ethra: "Madatan-da tar pan."
+    literal: "Mediation civic repairs harm."
+    notes: "Civic grounding for mediation, guided nonbinding repair process between parties in conflict."
+    terms: ["madatan-da", "tar", "pan"]
+  -
+    id: "civic-747"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security", "history-memory"]
+    register: "civic"
+    english: "Atrocity civic binds memory."
+    ethra: "Yatarac-da dav mer."
+    literal: "Atrocity civic binds memory."
+    notes: "Civic grounding for atrocity, grave public harm against persons, communities, or protected life."
+    terms: ["yatarac-da", "dav", "mer"]
+  -
+    id: "civic-748"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security", "body-health"]
+    register: "civic"
+    english: "De-escalation civic protects care."
+    ethra: "Dasakal-da xap hal."
+    literal: "De-escalation civic protects care."
+    notes: "Civic grounding for de-escalation, lowering conflict intensity while preserving truth, safety, and dignity."
+    terms: ["dasakal-da", "xap", "hal"]
+  -
+    id: "civic-749"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "Rules of engagement civic binds rule."
+    ethra: "Rawajag-da dav rag."
+    literal: "Rules of engagement civic binds rule."
+    notes: "Civic grounding for rules of engagement, declared limits for force, contact, and public danger."
+    terms: ["rawajag-da", "dav", "rag"]
+  -
+    id: "civic-750"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "Plea bargain civic binds justice."
+    ethra: "Palabag-da dav sak."
+    literal: "Plea bargain civic binds justice."
+    notes: "Civic grounding for plea bargain, negotiated admission and consequence under public judgment."
+    terms: ["palabag-da", "dav", "sak"]
+  -
+    id: "ritual-733"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics", "emotion-psychology"]
+    register: "solemn"
+    english: "Qualia solemn reveals inner life."
+    ethra: "Ha-kuluyux rah leb."
+    literal: "Qualia solemn reveals inner life."
+    notes: "Ritual grounding for qualia, felt character of experience, what consciousness is like from within."
+    terms: ["ha-kuluyux", "rah", "leb"]
+  -
+    id: "ritual-734"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics", "ai-cognition"]
+    register: "solemn"
+    english: "Intentionality solemn guides attention."
+    ethra: "Ha-nutunul pat naf."
+    literal: "Intentionality solemn guides attention."
+    notes: "Ritual grounding for intentionality, directedness of mind toward object, meaning, goal, or value."
+    terms: ["ha-nutunul", "pat", "naf"]
+  -
+    id: "ritual-735"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics", "emotion-psychology"]
+    register: "solemn"
+    english: "Authenticity solemn protects truth."
+    ethra: "Ha-hutunuc xap rih."
+    literal: "Authenticity solemn protects truth."
+    notes: "Ritual grounding for authenticity, truthful self-expression, inward and outward life held together."
+    terms: ["ha-hutunuc", "xap", "rih"]
+  -
+    id: "ritual-736"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math", "philosophy-metaphysics"]
+    register: "solemn"
+    english: "Emergence solemn reveals meaning."
+    ethra: "Ha-yumurug rah nem."
+    literal: "Emergence solemn reveals meaning."
+    notes: "Ritual grounding for emergence, higher-order pattern arising from many lower interactions."
+    terms: ["ha-yumurug", "rah", "nem"]
+  -
+    id: "ritual-737"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math", "philosophy-metaphysics"]
+    register: "solemn"
+    english: "Counterfactual solemn guides justice."
+    ethra: "Ha-kunutuf pat sak."
+    literal: "Counterfactual solemn guides justice."
+    notes: "Ritual grounding for counterfactual, disciplined possible alternative used to test cause, duty, or regret."
+    terms: ["ha-kunutuf", "pat", "sak"]
+  -
+    id: "ritual-738"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics", "technology-software"]
+    register: "solemn"
+    english: "Self-reference solemn reveals truth."
+    ethra: "Ha-suluruf rah rih."
+    literal: "Self-reference solemn reveals truth."
+    notes: "Ritual grounding for self-reference, statement or system referring to itself, reflexive loop of meaning."
+    terms: ["ha-suluruf", "rah", "rih"]
+  -
+    id: "ritual-739"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "philosophy-metaphysics"]
+    register: "solemn"
+    english: "Indexicality solemn guides meaning."
+    ethra: "Ha-yuduxul pat nem."
+    literal: "Indexicality solemn guides meaning."
+    notes: "Ritual grounding for indexicality, meaning anchored by speaker, place, time, or relation."
+    terms: ["ha-yuduxul", "pat", "nem"]
+  -
+    id: "ritual-740"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "ai-cognition"]
+    register: "solemn"
+    english: "Situated cognition solemn teaches attention."
+    ethra: "Ha-sutucug dak naf."
+    literal: "Situated cognition solemn teaches attention."
+    notes: "Ritual grounding for situated cognition, thought shaped by body, tools, place, practice, and relation."
+    terms: ["ha-sutucug", "dak", "naf"]
+  -
+    id: "ritual-741"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math", "philosophy-metaphysics"]
+    register: "solemn"
+    english: "Invariant solemn protects truth."
+    ethra: "Ha-nuvurux xap rih."
+    literal: "Invariant solemn protects truth."
+    notes: "Ritual grounding for invariant, property preserved across transformation, test, or context shift."
+    terms: ["ha-nuvurux", "xap", "rih"]
+  -
+    id: "ritual-742"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math", "philosophy-metaphysics"]
+    register: "solemn"
+    english: "Isomorphism solemn reveals truth."
+    ethra: "Ha-yusumur rah rih."
+    literal: "Isomorphism solemn reveals truth."
+    notes: "Ritual grounding for isomorphism, structure-preserving correspondence between different forms."
+    terms: ["ha-yusumur", "rah", "rih"]
+  -
+    id: "ritual-743"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health", "ai-cognition"]
+    register: "solemn"
+    english: "Synapse solemn carries meaning."
+    ethra: "Ha-suyunup taw nem."
+    literal: "Synapse solemn carries meaning."
+    notes: "Ritual grounding for synapse, signal junction between nerve cells, learning contact in the body."
+    terms: ["ha-suyunup", "taw", "nem"]
+  -
+    id: "ritual-744"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health", "science-math"]
+    register: "solemn"
+    english: "Comorbidity solemn guides care."
+    ethra: "Ha-cumurub pat hal."
+    literal: "Comorbidity solemn guides care."
+    notes: "Ritual grounding for comorbidity, co-occurring illness, interacting burdens in one patient or population."
+    terms: ["ha-cumurub", "pat", "hal"]
+  -
+    id: "ritual-745"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "body-health"]
+    register: "solemn"
+    english: "Microbiome solemn protects body."
+    ethra: "Ha-mucurub xap gem."
+    literal: "Microbiome solemn protects body."
+    notes: "Ritual grounding for microbiome, living microbial community, hidden ecology inside body, soil, or water."
+    terms: ["ha-mucurub", "xap", "gem"]
+  -
+    id: "ritual-746"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "science-math"]
+    register: "solemn"
+    english: "Trophic cascade solemn guides water."
+    ethra: "Ha-turupuc pat yam."
+    literal: "Trophic cascade solemn guides water."
+    notes: "Ritual grounding for trophic cascade, food-web chain reaction across predators, prey, plants, and habitat."
+    terms: ["ha-turupuc", "pat", "yam"]
+  -
+    id: "ritual-747"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "science-math"]
+    register: "solemn"
+    english: "Photosynthesis solemn carries care."
+    ethra: "Ha-puhutus taw hal."
+    literal: "Photosynthesis solemn carries care."
+    notes: "Ritual grounding for photosynthesis, light-made sugar, plant conversion of sun, water, and air into life."
+    terms: ["ha-puhutus", "taw", "hal"]
+  -
+    id: "ritual-748"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "science-math"]
+    register: "solemn"
+    english: "Denitrification solemn carries air."
+    ethra: "Ha-dunutur taw wah."
+    literal: "Denitrification solemn carries air."
+    notes: "Ritual grounding for denitrification, microbial return of nitrogen from soil and water into air."
+    terms: ["ha-dunutur", "taw", "wah"]
+  -
+    id: "ritual-749"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security", "history-memory"]
+    register: "solemn"
+    english: "Atrocity solemn binds memory."
+    ethra: "Ha-yuturuc dav mer."
+    literal: "Atrocity solemn binds memory."
+    notes: "Ritual grounding for atrocity, grave public harm against persons, communities, or protected life."
+    terms: ["ha-yuturuc", "dav", "mer"]
+  -
+    id: "ritual-750"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security", "law-governance"]
+    register: "solemn"
+    english: "War crime solemn breaks justice."
+    ethra: "Ha-wucurum mak sak."
+    literal: "War crime solemn breaks justice."
+    notes: "Ritual grounding for war crime, unlawful grave violation committed during armed conflict."
+    terms: ["ha-wucurum", "mak", "sak"]
+  -
+    id: "tech-977"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical-record"
+    english: "Field log guides model."
+    ethra: "Faladar-ket pat med."
+    literal: "Field log guides model."
+    notes: "Technical grounding for field, continuous domain of values, forces, relations, or influence."
+    terms: ["faladar-ket", "pat", "med"]
+  -
+    id: "tech-978"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "philosophy-metaphysics"]
+    register: "technical-record"
+    english: "Chaos log reveals risk."
+    ethra: "Kahax-ket rah kav."
+    literal: "Chaos log reveals risk."
+    notes: "Technical grounding for chaos, deterministic sensitivity, order whose future is hard to predict."
+    terms: ["kahax-ket", "rah", "kav"]
+  -
+    id: "tech-979"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "philosophy-metaphysics"]
+    register: "technical-record"
+    english: "Invariant log protects truth."
+    ethra: "Navarax-ket xap rih."
+    literal: "Invariant log protects truth."
+    notes: "Technical grounding for invariant, property preserved across transformation, test, or context shift."
+    terms: ["navarax-ket", "xap", "rih"]
+  -
+    id: "tech-980"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "science-math"]
+    register: "technical-record"
+    english: "Objective function log guides model."
+    ethra: "Bajacaf-ket pat med."
+    literal: "Objective function log guides model."
+    notes: "Technical grounding for objective function, declared target a system optimizes or is judged against."
+    terms: ["bajacaf-ket", "pat", "med"]
+  -
+    id: "tech-981"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "science-math"]
+    register: "technical-record"
+    english: "Loss function log teaches model."
+    ethra: "Lasasax-ket dak med."
+    literal: "Loss function log teaches model."
+    notes: "Technical grounding for loss function, penalty measure that teaches a model or method what error costs."
+    terms: ["lasasax-ket", "dak", "med"]
+  -
+    id: "tech-982"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "philosophy-metaphysics"]
+    register: "technical-record"
+    english: "Isomorphism log reveals data."
+    ethra: "Yasamar-ket rah den."
+    literal: "Isomorphism log reveals data."
+    notes: "Technical grounding for isomorphism, structure-preserving correspondence between different forms."
+    terms: ["yasamar-ket", "rah", "den"]
+  -
+    id: "tech-983"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Boundary condition log binds model."
+    ethra: "Banadac-ket dav med."
+    literal: "Boundary condition log binds model."
+    notes: "Technical grounding for boundary condition, required edge state that shapes a solution or process."
+    terms: ["banadac-ket", "dav", "med"]
+  -
+    id: "tech-984"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health", "ai-cognition"]
+    register: "technical-record"
+    english: "Synapse log carries data."
+    ethra: "Sayanap-ket taw den."
+    literal: "Synapse log carries data."
+    notes: "Technical grounding for synapse, signal junction between nerve cells, learning contact in the body."
+    terms: ["sayanap-ket", "taw", "den"]
+  -
+    id: "tech-985"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health", "science-math"]
+    register: "technical-record"
+    english: "Comorbidity log guides care."
+    ethra: "Camarab-ket pat hal."
+    literal: "Comorbidity log guides care."
+    notes: "Technical grounding for comorbidity, co-occurring illness, interacting burdens in one patient or population."
+    terms: ["camarab-ket", "pat", "hal"]
+  -
+    id: "tech-986"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health", "science-math"]
+    register: "technical-record"
+    english: "Biomarker log reveals body."
+    ethra: "Bamarak-ket rah gem."
+    literal: "Biomarker log reveals body."
+    notes: "Technical grounding for biomarker, measurable bodily sign used to detect state, risk, or response."
+    terms: ["bamarak-ket", "rah", "gem"]
+  -
+    id: "tech-987"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health", "law-governance"]
+    register: "technical-record"
+    english: "Clinical pathway log guides care."
+    ethra: "Patahaw-ket pat hal."
+    literal: "Clinical pathway log guides care."
+    notes: "Technical grounding for clinical pathway, ordered care route across diagnosis, treatment, review, and repair."
+    terms: ["patahaw-ket", "pat", "hal"]
+  -
+    id: "tech-988"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health", "law-governance"]
+    register: "technical-record"
+    english: "Side effect log reveals harm."
+    ethra: "Sadafax-ket rah pan."
+    literal: "Side effect log reveals harm."
+    notes: "Technical grounding for side effect, unintended treatment consequence that must be noticed and answered."
+    terms: ["sadafax-ket", "rah", "pan"]
+  -
+    id: "tech-989"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health", "science-math"]
+    register: "technical-record"
+    english: "Lesion log reveals body."
+    ethra: "Lasanax-ket rah gem."
+    literal: "Lesion log reveals body."
+    notes: "Technical grounding for lesion, damaged tissue site, localized bodily change requiring interpretation."
+    terms: ["lasanax-ket", "rah", "gem"]
+  -
+    id: "tech-990"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health", "law-governance"]
+    register: "technical-record"
+    english: "Adherence log protects care."
+    ethra: "Daharax-ket xap hal."
+    literal: "Adherence log protects care."
+    notes: "Technical grounding for adherence, kept treatment practice, faithful following of a care plan."
+    terms: ["daharax-ket", "xap", "hal"]
+  -
+    id: "tech-991"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "body-health"]
+    register: "technical-record"
+    english: "Microbiome log protects body."
+    ethra: "Macarab-ket xap gem."
+    literal: "Microbiome log protects body."
+    notes: "Technical grounding for microbiome, living microbial community, hidden ecology inside body, soil, or water."
+    terms: ["macarab-ket", "xap", "gem"]
+  -
+    id: "tech-992"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "science-math"]
+    register: "technical-record"
+    english: "Trophic cascade log guides water."
+    ethra: "Tarapac-ket pat yam."
+    literal: "Trophic cascade log guides water."
+    notes: "Technical grounding for trophic cascade, food-web chain reaction across predators, prey, plants, and habitat."
+    terms: ["tarapac-ket", "pat", "yam"]
+  -
+    id: "tech-993"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "science-math"]
+    register: "technical-record"
+    english: "Evaporation log carries water."
+    ethra: "Vaparax-ket taw yam."
+    literal: "Evaporation log carries water."
+    notes: "Technical grounding for evaporation, water rising as vapor, phase change from surface into air."
+    terms: ["vaparax-ket", "taw", "yam"]
+  -
+    id: "tech-994"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "daily-life"]
+    register: "technical-record"
+    english: "Precipitation log carries water."
+    ethra: "Paracap-ket taw yam."
+    literal: "Precipitation log carries water."
+    notes: "Technical grounding for precipitation, water returned from sky as rain, snow, sleet, hail, or mixed fall."
+    terms: ["paracap-ket", "taw", "yam"]
+  -
+    id: "tech-995"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "science-math"]
+    register: "technical-record"
+    english: "Photosynthesis log carries care."
+    ethra: "Pahatas-ket taw hal."
+    literal: "Photosynthesis log carries care."
+    notes: "Technical grounding for photosynthesis, light-made sugar, plant conversion of sun, water, and air into life."
+    terms: ["pahatas-ket", "taw", "hal"]
+  -
+    id: "tech-996"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "science-math"]
+    register: "technical-record"
+    english: "Denitrification log carries air."
+    ethra: "Danatar-ket taw wah."
+    literal: "Denitrification log carries air."
+    notes: "Technical grounding for denitrification, microbial return of nitrogen from soil and water into air."
+    terms: ["danatar-ket", "taw", "wah"]
+  -
+    id: "tech-997"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Adversarial example log reveals risk."
+    ethra: "Davasax-ket rah kav."
+    literal: "Adversarial example log reveals risk."
+    notes: "Technical grounding for adversarial example, crafted input that reveals brittle perception or model failure."
+    terms: ["davasax-ket", "rah", "kav"]
+  -
+    id: "tech-998"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Oracle log protects evidence."
+    ethra: "Waracal-ket xap xeg."
+    literal: "Oracle log protects evidence."
+    notes: "Technical grounding for oracle, trusted answer source, external judge, or hidden ground truth used for testing."
+    terms: ["waracal-ket", "xap", "xeg"]
+  -
+    id: "tech-999"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Model card log guides model."
+    ethra: "Madacad-ket pat med."
+    literal: "Model card log guides model."
+    notes: "Technical grounding for model card, structured public record of model purpose, limits, risks, and evaluation."
+    terms: ["madacad-ket", "pat", "med"]
+  -
+    id: "tech-1000"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Dataset card log carries data."
+    ethra: "Datacad-ket taw den."
+    literal: "Dataset card log carries data."
+    notes: "Technical grounding for dataset card, structured public record of data origin, coverage, consent, bias, and limits."
+    terms: ["datacad-ket", "taw", "den"]
+  -
+    id: "poetic-977"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics", "emotion-psychology"]
+    register: "poetic"
+    english: "Qualia intimate carries inner life."
+    ethra: "Mi-kalayax taw leb."
+    literal: "Qualia intimate carries inner life."
+    notes: "Poetic grounding for qualia, felt character of experience, what consciousness is like from within."
+    terms: ["mi-kalayax", "taw", "leb"]
+  -
+    id: "poetic-978"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics", "ai-cognition"]
+    register: "poetic"
+    english: "Intentionality intimate guides attention."
+    ethra: "Mi-natanal pat naf."
+    literal: "Intentionality intimate guides attention."
+    notes: "Poetic grounding for intentionality, directedness of mind toward object, meaning, goal, or value."
+    terms: ["mi-natanal", "pat", "naf"]
+  -
+    id: "poetic-979"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics", "emotion-psychology"]
+    register: "poetic"
+    english: "Authenticity intimate protects truth."
+    ethra: "Mi-hatanac xap rih."
+    literal: "Authenticity intimate protects truth."
+    notes: "Poetic grounding for authenticity, truthful self-expression, inward and outward life held together."
+    terms: ["mi-hatanac", "xap", "rih"]
+  -
+    id: "poetic-980"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Emergence intimate reveals meaning."
+    ethra: "Mi-yamarag rah nem."
+    literal: "Emergence intimate reveals meaning."
+    notes: "Poetic grounding for emergence, higher-order pattern arising from many lower interactions."
+    terms: ["mi-yamarag", "rah", "nem"]
+  -
+    id: "poetic-981"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Counterfactual intimate guides future."
+    ethra: "Mi-kanataf pat fer."
+    literal: "Counterfactual intimate guides future."
+    notes: "Poetic grounding for counterfactual, disciplined possible alternative used to test cause, duty, or regret."
+    terms: ["mi-kanataf", "pat", "fer"]
+  -
+    id: "poetic-982"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics", "technology-software"]
+    register: "poetic"
+    english: "Self-reference intimate reveals inner life."
+    ethra: "Mi-salaraf rah leb."
+    literal: "Self-reference intimate reveals inner life."
+    notes: "Poetic grounding for self-reference, statement or system referring to itself, reflexive loop of meaning."
+    terms: ["mi-salaraf", "rah", "leb"]
+  -
+    id: "poetic-983"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Indexicality intimate guides meaning."
+    ethra: "Mi-yadaxal pat nem."
+    literal: "Indexicality intimate guides meaning."
+    notes: "Poetic grounding for indexicality, meaning anchored by speaker, place, time, or relation."
+    terms: ["mi-yadaxal", "pat", "nem"]
+  -
+    id: "poetic-984"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance", "science-math"]
+    register: "poetic"
+    english: "Burden of proof intimate carries evidence."
+    ethra: "Mi-barapaf taw xeg."
+    literal: "Burden of proof intimate carries evidence."
+    notes: "Poetic grounding for burden of proof, assigned duty to support a claim with sufficient evidence."
+    terms: ["mi-barapaf", "taw", "xeg"]
+  -
+    id: "poetic-985"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance", "economics-provision"]
+    register: "poetic"
+    english: "Moral hazard intimate breaks duty."
+    ethra: "Mi-marahaz mak dev."
+    literal: "Moral hazard intimate breaks duty."
+    notes: "Poetic grounding for moral hazard, risk created when protection from consequence distorts responsibility."
+    terms: ["mi-marahaz", "mak", "dev"]
+  -
+    id: "poetic-986"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "ai-cognition"]
+    register: "poetic"
+    english: "Situated cognition intimate teaches attention."
+    ethra: "Mi-satacag dak naf."
+    literal: "Situated cognition intimate teaches attention."
+    notes: "Poetic grounding for situated cognition, thought shaped by body, tools, place, practice, and relation."
+    terms: ["mi-satacag", "dak", "naf"]
+  -
+    id: "poetic-987"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "ai-cognition"]
+    register: "poetic"
+    english: "Field intimate guides future."
+    ethra: "Mi-faladar pat fer."
+    literal: "Field intimate guides future."
+    notes: "Poetic grounding for field, continuous domain of values, forces, relations, or influence."
+    terms: ["mi-faladar", "pat", "fer"]
+  -
+    id: "poetic-988"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Chaos intimate reveals risk."
+    ethra: "Mi-kahax rah kav."
+    literal: "Chaos intimate reveals risk."
+    notes: "Poetic grounding for chaos, deterministic sensitivity, order whose future is hard to predict."
+    terms: ["mi-kahax", "rah", "kav"]
+  -
+    id: "poetic-989"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Invariant intimate protects truth."
+    ethra: "Mi-navarax xap rih."
+    literal: "Invariant intimate protects truth."
+    notes: "Poetic grounding for invariant, property preserved across transformation, test, or context shift."
+    terms: ["mi-navarax", "xap", "rih"]
+  -
+    id: "poetic-990"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "science-math"]
+    register: "poetic"
+    english: "Objective function intimate guides model."
+    ethra: "Mi-bajacaf pat med."
+    literal: "Objective function intimate guides model."
+    notes: "Poetic grounding for objective function, declared target a system optimizes or is judged against."
+    terms: ["mi-bajacaf", "pat", "med"]
+  -
+    id: "poetic-991"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "science-math"]
+    register: "poetic"
+    english: "Loss function intimate teaches model."
+    ethra: "Mi-lasasax dak med."
+    literal: "Loss function intimate teaches model."
+    notes: "Poetic grounding for loss function, penalty measure that teaches a model or method what error costs."
+    terms: ["mi-lasasax", "dak", "med"]
+  -
+    id: "poetic-992"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Isomorphism intimate reveals truth."
+    ethra: "Mi-yasamar rah rih."
+    literal: "Isomorphism intimate reveals truth."
+    notes: "Poetic grounding for isomorphism, structure-preserving correspondence between different forms."
+    terms: ["mi-yasamar", "rah", "rih"]
+  -
+    id: "poetic-993"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "technology-software"]
+    register: "poetic"
+    english: "Boundary condition intimate binds future."
+    ethra: "Mi-banadac dav fer."
+    literal: "Boundary condition intimate binds future."
+    notes: "Poetic grounding for boundary condition, required edge state that shapes a solution or process."
+    terms: ["mi-banadac", "dav", "fer"]
+  -
+    id: "poetic-994"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "body-health"]
+    register: "poetic"
+    english: "Microbiome intimate protects body."
+    ethra: "Mi-macarab xap gem."
+    literal: "Microbiome intimate protects body."
+    notes: "Poetic grounding for microbiome, living microbial community, hidden ecology inside body, soil, or water."
+    terms: ["mi-macarab", "xap", "gem"]
+  -
+    id: "poetic-995"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "science-math"]
+    register: "poetic"
+    english: "Trophic cascade intimate guides water."
+    ethra: "Mi-tarapac pat yam."
+    literal: "Trophic cascade intimate guides water."
+    notes: "Poetic grounding for trophic cascade, food-web chain reaction across predators, prey, plants, and habitat."
+    terms: ["mi-tarapac", "pat", "yam"]
+  -
+    id: "poetic-996"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "science-math"]
+    register: "poetic"
+    english: "Evaporation intimate carries air."
+    ethra: "Mi-vaparax taw wah."
+    literal: "Evaporation intimate carries air."
+    notes: "Poetic grounding for evaporation, water rising as vapor, phase change from surface into air."
+    terms: ["mi-vaparax", "taw", "wah"]
+  -
+    id: "poetic-997"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "daily-life"]
+    register: "poetic"
+    english: "Precipitation intimate carries water."
+    ethra: "Mi-paracap taw yam."
+    literal: "Precipitation intimate carries water."
+    notes: "Poetic grounding for precipitation, water returned from sky as rain, snow, sleet, hail, or mixed fall."
+    terms: ["mi-paracap", "taw", "yam"]
+  -
+    id: "poetic-998"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "science-math"]
+    register: "poetic"
+    english: "Photosynthesis intimate carries care."
+    ethra: "Mi-pahatas taw hal."
+    literal: "Photosynthesis intimate carries care."
+    notes: "Poetic grounding for photosynthesis, light-made sugar, plant conversion of sun, water, and air into life."
+    terms: ["mi-pahatas", "taw", "hal"]
+  -
+    id: "poetic-999"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "science-math"]
+    register: "poetic"
+    english: "Denitrification intimate carries air."
+    ethra: "Mi-danatar taw wah."
+    literal: "Denitrification intimate carries air."
+    notes: "Poetic grounding for denitrification, microbial return of nitrogen from soil and water into air."
+    terms: ["mi-danatar", "taw", "wah"]
+  -
+    id: "poetic-1000"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "media-communication"]
+    register: "poetic"
+    english: "Fluency intimate teaches people."
+    ethra: "Mi-falasay dak lem."
+    literal: "Fluency intimate teaches people."
+    notes: "Poetic grounding for fluency, smooth command of skill, language, or practice without loss of judgment."
+    terms: ["mi-falasay", "dak", "lem"]
+  -
+    id: "learner-489"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "philosophy-metaphysics", "emotion-psychology"]
+    register: "learner-a1"
+    english: "Qualia reveals inner life."
+    ethra: "Keleyex rah leb."
+    literal: "Qualia reveals inner life."
+    notes: "A1 grounding for qualia, felt character of experience, what consciousness is like from within."
+    terms: ["keleyex", "rah", "leb"]
+  -
+    id: "learner-490"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "philosophy-metaphysics", "ai-cognition"]
+    register: "learner-a1"
+    english: "Intentionality guides attention."
+    ethra: "Netenel pat naf."
+    literal: "Intentionality guides attention."
+    notes: "A1 grounding for intentionality, directedness of mind toward object, meaning, goal, or value."
+    terms: ["netenel", "pat", "naf"]
+  -
+    id: "learner-491"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health", "science-math"]
+    register: "learner-a1"
+    english: "Biomarker reveals body."
+    ethra: "Bemerek rah gem."
+    literal: "Biomarker reveals body."
+    notes: "A1 grounding for biomarker, measurable bodily sign used to detect state, risk, or response."
+    terms: ["bemerek", "rah", "gem"]
+  -
+    id: "learner-492"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology", "body-health"]
+    register: "learner-a1"
+    english: "Microbiome protects body."
+    ethra: "Mecereb xap gem."
+    literal: "Microbiome protects body."
+    notes: "A1 grounding for microbiome, living microbial community, hidden ecology inside body, soil, or water."
+    terms: ["mecereb", "xap", "gem"]
+  -
+    id: "learner-493"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "technology-software", "ai-cognition"]
+    register: "learner-a1"
+    english: "Model card guides model."
+    ethra: "Medeced pat med."
+    literal: "Model card guides model."
+    notes: "A1 grounding for model card, structured public record of model purpose, limits, risks, and evaluation."
+    terms: ["medeced", "pat", "med"]
+  -
+    id: "learner-494"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "technology-software", "law-governance"]
+    register: "learner-a1"
+    english: "Safety case protects people."
+    ethra: "Sefetec xap lem."
+    literal: "Safety case protects people."
+    notes: "A1 grounding for safety case, structured argument that a system is acceptably safe for use."
+    terms: ["sefetec", "xap", "lem"]
+  -
+    id: "learner-495"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance", "conflict-security"]
+    register: "learner-a1"
+    english: "Arbitration binds justice."
+    ethra: "Yerebet dav sak."
+    literal: "Arbitration binds justice."
+    notes: "A1 grounding for arbitration, binding third-party judgment outside ordinary court."
+    terms: ["yerebet", "dav", "sak"]
+  -
+    id: "learner-496"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance", "conflict-security"]
+    register: "learner-a1"
+    english: "Habeas corpus protects justice."
+    ethra: "Hebesec xap sak."
+    literal: "Habeas corpus protects justice."
+    notes: "A1 grounding for habeas corpus, demand that custody answer before law with the person present."
+    terms: ["hebesec", "xap", "sak"]
+  -
+    id: "learner-497"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security", "law-governance"]
+    register: "learner-a1"
+    english: "War crime breaks justice."
+    ethra: "Wecerem mak sak."
+    literal: "War crime breaks justice."
+    notes: "A1 grounding for war crime, unlawful grave violation committed during armed conflict."
+    terms: ["wecerem", "mak", "sak"]
+  -
+    id: "learner-498"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training", "media-communication"]
+    register: "learner-a1"
+    english: "Fluency teaches people."
+    ethra: "Felesey dak lem."
+    literal: "Fluency teaches people."
+    notes: "A1 grounding for fluency, smooth command of skill, language, or practice without loss of judgment."
+    terms: ["felesey", "dak", "lem"]
+  -
+    id: "learner-499"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "Critical thinking protects truth."
+    ethra: "Ceretek xap rih."
+    literal: "Critical thinking protects truth."
+    notes: "A1 grounding for critical thinking, disciplined judgment that tests claims, frames, evidence, and implication."
+    terms: ["ceretek", "xap", "rih"]
+  -
+    id: "learner-500"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "Praxis teaches duty."
+    ethra: "Perekes dak dev."
+    literal: "Praxis teaches duty."
+    notes: "A1 grounding for praxis, theory joined to disciplined action, knowledge tested in lived practice."
+    terms: ["perekes", "dak", "dev"]

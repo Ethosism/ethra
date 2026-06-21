@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 45,057 explicit lexicon entries, 45,212 dictionary entries, 2,250 root families, and 4,880 reviewed corpus items after the v0.10.4 consciousness, assurance, and conflict-repair root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 45,057 explicit lexicon entries, 45,212 dictionary entries, 2,250 root families, and 5,000 reviewed corpus items after the v0.10.5 consciousness, assurance, and conflict-repair corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
@@ -8,7 +8,7 @@ Current progress toward the v1.0 stable-civil-language target:
 entries 45,057 / 25,000
 dictionary 45,212 entries with corpus evidence fields
 roots     2,250 / 2,500
-corpus    4,880 / 10,000 reviewed items
+corpus    5,000 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -191,7 +191,9 @@ The v0.10.3 civic trust and economy corpus grounding batch adds 120 reviewed exa
 
 The v0.10.4 consciousness, assurance, and conflict-repair root batch adds 50 roots and 1,000 derived lexicon entries. It strengthens phenomenology and reasoning with qualia, intentionality, authenticity, emergence, counterfactuals, self-reference, indexicality, burden of proof, moral hazard, situated cognition, fields, chaos, invariants, objective functions, loss functions, isomorphisms, and boundary conditions; body and ecology with synapses, comorbidity, biomarkers, clinical pathways, side effects, lesions, adherence, microbiomes, trophic cascades, evaporation, precipitation, photosynthesis, and denitrification; AI assurance and learning with adversarial examples, oracles, model cards, dataset cards, prompt leakage, safety cases, shadow mode, Socratic questioning, fluency, praxis, didactics, and critical thinking; and law/conflict repair with arbitration, mediation, atrocities, de-escalation, rules of engagement, habeas corpus, plea bargains, and war crimes.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 250 more root families and 5,120 more reviewed corpus items still needed.
+The v0.10.5 consciousness, assurance, and conflict-repair corpus grounding batch adds 120 reviewed examples across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds qualia, intentionality, authenticity, emergence, counterfactuals, self-reference, indexicality, burden of proof, moral hazard, situated cognition, fields, chaos, invariants, objective functions, loss functions, isomorphisms, boundary conditions, synapses, comorbidity, biomarkers, clinical pathways, side effects, lesions, adherence, microbiomes, trophic cascades, evaporation, precipitation, photosynthesis, denitrification, adversarial examples, oracles, model cards, dataset cards, prompt leakage, safety cases, shadow mode, Socratic questioning, fluency, praxis, didactics, critical thinking, arbitration, mediation, atrocities, de-escalation, rules of engagement, habeas corpus, plea bargains, and war crimes in ordinary, civic, ritual, technical, poetic, and learner use.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 250 more root families and 5,000 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
