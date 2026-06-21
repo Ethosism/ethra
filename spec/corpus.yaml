@@ -30801,3 +30801,1203 @@ items:
     literal: "Wardenship protects person."
     notes: "A1 custody-duty sentence."
     terms: ["wereden", "xap", "li"]
+  -
+    id: "daily-617"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "household"
+    english: "The dog protects the child."
+    ethra: "Keyenex xap tu."
+    literal: "Dog protects child-student."
+    notes: "Grounds canine companionship in household care."
+    terms: ["keyenex", "xap", "tu"]
+  -
+    id: "daily-618"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "household"
+    english: "The cat protects the quiet home."
+    ethra: "Felen xap hen."
+    literal: "Cat protects home."
+    notes: "Places feline presence in ordinary household speech."
+    terms: ["felen", "xap", "hen"]
+  -
+    id: "daily-619"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "common"
+    english: "The horse carries the person along the path."
+    ethra: "Heres taw li."
+    literal: "Horse carries person."
+    notes: "Animal transport is framed as entrusted strength."
+    terms: ["heres", "taw", "li"]
+  -
+    id: "daily-620"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "household"
+    english: "Cattle feed the household."
+    ethra: "Ketelex fad hon."
+    literal: "Cattle feed household."
+    notes: "Livestock provision is made ordinary and accountable."
+    terms: ["ketelex", "fad", "hon"]
+  -
+    id: "daily-621"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "common"
+    english: "Sheep carry fabric."
+    ethra: "Sehepex taw feber."
+    literal: "Sheep carry fabric."
+    notes: "Wool animals connect field life to material culture."
+    terms: ["sehepex", "taw", "feber"]
+  -
+    id: "daily-622"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "common"
+    english: "The goat walks rough ground."
+    ethra: "Gewetex pat geb."
+    literal: "Goat walks ground."
+    notes: "Rough-land provision enters ordinary speech."
+    terms: ["gewetex", "pat", "geb"]
+  -
+    id: "daily-623"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "household"
+    english: "The chicken feeds the child."
+    ethra: "Ceheken fad tu."
+    literal: "Chicken feeds child-student."
+    notes: "Small flock provision is tied to child care."
+    terms: ["ceheken", "fad", "tu"]
+  -
+    id: "daily-624"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "common"
+    english: "The bee protects fruit."
+    ethra: "Beyex xap ferej."
+    literal: "Bee protects fruit."
+    notes: "Pollination becomes a visible future-bearing act."
+    terms: ["beyex", "xap", "ferej"]
+  -
+    id: "daily-625"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "common"
+    english: "The worm repairs soil."
+    ethra: "Weremex tar geb."
+    literal: "Worm repairs soil."
+    notes: "Hidden soil life is named as repair."
+    terms: ["weremex", "tar", "geb"]
+  -
+    id: "daily-626"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "common"
+    english: "The snake carries fear."
+    ethra: "Senekex taw xer."
+    literal: "Snake carries fear."
+    notes: "Dangerous animals can be named without superstition."
+    terms: ["senekex", "taw", "xer"]
+  -
+    id: "daily-627"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "common"
+    english: "The frog names water."
+    ethra: "Feregex nam wam."
+    literal: "Frog names water."
+    notes: "Wetland signs enter common noticing."
+    terms: ["feregex", "nam", "wam"]
+  -
+    id: "daily-628"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "common"
+    english: "The turtle carries shelter."
+    ethra: "Teretel taw hen."
+    literal: "Turtle carries home."
+    notes: "Shell-bearing life becomes an image of portable shelter."
+    terms: ["teretel", "taw", "hen"]
+  -
+    id: "daily-629"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "common"
+    english: "The deer guides quiet attention."
+    ethra: "Dereyex pat san."
+    literal: "Deer guides attention."
+    notes: "Wild gentleness trains notice."
+    terms: ["dereyex", "pat", "san"]
+  -
+    id: "daily-630"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The bear carries power."
+    ethra: "Bereyex taw kev."
+    literal: "Bear carries power."
+    notes: "Large wild force is named without domination."
+    terms: ["bereyex", "taw", "kev"]
+  -
+    id: "daily-631"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "common"
+    english: "The wolf carries the pack."
+    ethra: "Welefex taw lem."
+    literal: "Wolf carries people/collective."
+    notes: "Pack coordination is made visible through collective grammar."
+    terms: ["welefex", "taw", "lem"]
+  -
+    id: "daily-632"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "common"
+    english: "The fox guides caution."
+    ethra: "Fekesex pat rej."
+    literal: "Fox guides reasoned judgment."
+    notes: "Clever wildness is tied to prudence."
+    terms: ["fekesex", "pat", "rej"]
+  -
+    id: "daily-633"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "common"
+    english: "The farm feeds the people."
+    ethra: "Feremex fad lem."
+    literal: "Farm feeds people."
+    notes: "Cultivated land is linked to public survival."
+    terms: ["feremex", "fad", "lem"]
+  -
+    id: "daily-634"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "common"
+    english: "The field carries crops."
+    ethra: "Feledex taw cerepex."
+    literal: "Field carries crop."
+    notes: "Open land is measured by cultivated return."
+    terms: ["feledex", "taw", "cerepex"]
+  -
+    id: "daily-635"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "common"
+    english: "The harvest carries provision."
+    ethra: "Herevex taw par."
+    literal: "Harvest carries provision."
+    notes: "Seasonal work becomes stored responsibility."
+    terms: ["herevex", "taw", "par"]
+  -
+    id: "daily-636"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "common"
+    english: "The plow opens soil."
+    ethra: "Pelewex ap geb."
+    literal: "Plow opens soil."
+    notes: "Field preparation is expressed as careful opening."
+    terms: ["pelewex", "ap", "geb"]
+  -
+    id: "daily-637"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "common"
+    english: "Irrigation guides water."
+    ethra: "Reregex pat wam."
+    literal: "Irrigation guides water."
+    notes: "Water is directed toward need rather than wasted."
+    terms: ["reregex", "pat", "wam"]
+  -
+    id: "daily-638"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "household"
+    english: "Grain preserves provision."
+    ethra: "Gerenex mar par."
+    literal: "Grain preserves provision."
+    notes: "Staple food is tied to memory and storage."
+    terms: ["gerenex", "mar", "par"]
+  -
+    id: "daily-639"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "household"
+    english: "The garden protects love."
+    ethra: "Gereden xap mev."
+    literal: "Garden protects love."
+    notes: "Household cultivation is treated as care."
+    terms: ["gereden", "xap", "mev"]
+  -
+    id: "daily-640"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "art-beauty"]
+    register: "common"
+    english: "The vineyard carries joy."
+    ethra: "Veyened taw jew."
+    literal: "Vineyard carries joy."
+    notes: "Patient fruit work is given ordinary emotional range."
+    terms: ["veyened", "taw", "jew"]
+  -
+    id: "civic-463"
+    track: "civic-law"
+    domain_tags: ["law-governance", "family-kinship"]
+    register: "civic"
+    english: "The public dog office protects the child."
+    ethra: "Kayanax-da xap tu."
+    literal: "Dog civic office protects child-student."
+    notes: "Service-animal care is framed as a public duty rather than a private indulgence."
+    terms: ["kayanax-da", "xap", "tu"]
+  -
+    id: "civic-464"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "legal"
+    english: "The cat record names the boundary."
+    ethra: "Falan-ket nam hal."
+    literal: "Cat record names boundary."
+    notes: "Animal presence may become a documented household or property fact."
+    terms: ["falan-ket", "nam", "hal"]
+  -
+    id: "civic-465"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "legal"
+    english: "The horse record guides the office."
+    ethra: "Haras-ket pat dev."
+    literal: "Horse record guides office."
+    notes: "Transport animals enter civic duty through recorded responsibility."
+    terms: ["haras-ket", "pat", "dev"]
+  -
+    id: "civic-466"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "The cattle record protects life."
+    ethra: "Katalax-ket xap nef."
+    literal: "Cattle record protects life."
+    notes: "Food-bearing herds are documented as public health infrastructure."
+    terms: ["katalax-ket", "xap", "nef"]
+  -
+    id: "civic-467"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The chicken office protects provision."
+    ethra: "Cahakan-da xap par."
+    literal: "Chicken civic office protects provision."
+    notes: "Small-scale food systems receive explicit civic vocabulary."
+    terms: ["cahakan-da", "xap", "par"]
+  -
+    id: "civic-468"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The bee office protects fruit."
+    ethra: "Bayax-da xap ferej."
+    literal: "Bee civic office protects fruit."
+    notes: "Pollinators are named as a shared ecological trust."
+    terms: ["bayax-da", "xap", "ferej"]
+  -
+    id: "civic-469"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The snake record protects the gate."
+    ethra: "Sanakax-ket xap gom."
+    literal: "Snake record protects gate."
+    notes: "Danger at an entrance becomes a recordable safety matter."
+    terms: ["sanakax-ket", "xap", "gom"]
+  -
+    id: "civic-470"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "The bear office protects the people."
+    ethra: "Barayax-da xap lem."
+    literal: "Bear civic office protects people."
+    notes: "Wildlife authority is expressed as public protection."
+    terms: ["barayax-da", "xap", "lem"]
+  -
+    id: "civic-471"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The wolf record guides the boundary."
+    ethra: "Walafax-ket pat rag."
+    literal: "Wolf record guides border."
+    notes: "Predator movement is given accountable boundary language."
+    terms: ["walafax-ket", "pat", "rag"]
+  -
+    id: "civic-472"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "The farm record carries the office."
+    ethra: "Faramax-ket taw dev."
+    literal: "Farm record carries office."
+    notes: "Farm stewardship is linked to administrative duty."
+    terms: ["faramax-ket", "taw", "dev"]
+  -
+    id: "civic-473"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "legal"
+    english: "The field record names the land."
+    ethra: "Faladax-ket nam geb."
+    literal: "Field record names soil/land."
+    notes: "Land use begins with named and reviewable fields."
+    terms: ["faladax-ket", "nam", "geb"]
+  -
+    id: "civic-474"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "The crop record measures provision."
+    ethra: "Carapax-ket mes par."
+    literal: "Crop record measures provision."
+    notes: "Food production is made visible through measure."
+    terms: ["carapax-ket", "mes", "par"]
+  -
+    id: "civic-475"
+    track: "civic-law"
+    domain_tags: ["law-governance", "history-memory"]
+    register: "legal"
+    english: "The harvest record carries memory."
+    ethra: "Haravax-ket taw mer."
+    literal: "Harvest record carries memory."
+    notes: "The archive of harvests becomes civic memory."
+    terms: ["haravax-ket", "taw", "mer"]
+  -
+    id: "civic-476"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "legal"
+    english: "The irrigation right protects water."
+    ethra: "Raragax-ret xap wam."
+    literal: "Irrigation right protects water."
+    notes: "Water access is framed as a right with stewardship limits."
+    terms: ["raragax-ret", "xap", "wam"]
+  -
+    id: "civic-477"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The grain office protects provision."
+    ethra: "Garanax-da xap par."
+    literal: "Grain civic office protects provision."
+    notes: "Staple reserves enter institutional speech."
+    terms: ["garanax-da", "xap", "par"]
+  -
+    id: "civic-478"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "The wheat record carries the harvest."
+    ethra: "Wahatax-ket taw herevex."
+    literal: "Wheat record carries harvest."
+    notes: "Specific staple crops can be documented without losing root economy."
+    terms: ["wahatax-ket", "taw", "herevex"]
+  -
+    id: "civic-479"
+    track: "civic-law"
+    domain_tags: ["law-governance", "family-kinship"]
+    register: "civic"
+    english: "The garden office protects the household."
+    ethra: "Garadan-da xap hon."
+    literal: "Garden civic office protects household."
+    notes: "Household cultivation is given a civic frame when it bears shared resilience."
+    terms: ["garadan-da", "xap", "hon"]
+  -
+    id: "civic-480"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "legal"
+    english: "The vineyard record carries the right."
+    ethra: "Vayanad-ket taw ret."
+    literal: "Vineyard record carries right."
+    notes: "Long-lived cultivation is tied to right, inheritance, and record."
+    terms: ["vayanad-ket", "taw", "ret"]
+  -
+    id: "ritual-463"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship"]
+    register: "solemn"
+    english: "Let the ritual dog-form protect the household."
+    ethra: "Ha ha-kuyunux xap hon."
+    literal: "Solemn ritual-dog protects household."
+    notes: "Companion guardianship receives a vow register."
+    terms: ["ha", "ha-kuyunux", "xap", "hon"]
+  -
+    id: "ritual-464"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "solemn"
+    english: "Let the ritual cat-form protect quiet."
+    ethra: "Ha ha-fulun xap cap."
+    literal: "Solemn ritual-cat protects quiet."
+    notes: "Quiet attention is named as something to guard."
+    terms: ["ha", "ha-fulun", "xap", "cap"]
+  -
+    id: "ritual-465"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "travel-place"]
+    register: "solemn"
+    english: "Let the ritual horse-form carry the path."
+    ethra: "Ha ha-hurus taw pet."
+    literal: "Solemn ritual-horse carries path."
+    notes: "Journey power is made answerable to direction."
+    terms: ["ha", "ha-hurus", "taw", "pet"]
+  -
+    id: "ritual-466"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn"
+    english: "Let the ritual cattle-form feed the people."
+    ethra: "Ha ha-kutulux fad lem."
+    literal: "Solemn ritual-cattle feeds people."
+    notes: "Provision is treated as covenantal care."
+    terms: ["ha", "ha-kutulux", "fad", "lem"]
+  -
+    id: "ritual-467"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn"
+    english: "Let the ritual sheep-form carry fabric."
+    ethra: "Ha ha-suhupux taw feber."
+    literal: "Solemn ritual-sheep carries fabric."
+    notes: "Material warmth is placed in a solemn register."
+    terms: ["ha", "ha-suhupux", "taw", "feber"]
+  -
+    id: "ritual-468"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Let the ritual bee-form protect fruit."
+    ethra: "Ha ha-buyux xap fer."
+    literal: "Solemn ritual-bee protects fruit."
+    notes: "Pollination becomes an image of small faithful work."
+    terms: ["ha", "ha-buyux", "xap", "fer"]
+  -
+    id: "ritual-469"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "art-beauty"]
+    register: "poetic-solemn"
+    english: "Let the ritual butterfly-form reveal light."
+    ethra: "Ha ha-bufuluy rah ler."
+    literal: "Solemn ritual-butterfly reveals light."
+    notes: "Fragile beauty is given a form of revelation."
+    terms: ["ha", "ha-bufuluy", "rah", "ler"]
+  -
+    id: "ritual-470"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Let the ritual worm-form repair soil."
+    ethra: "Ha ha-wurumux tar geb."
+    literal: "Solemn ritual-worm repairs soil."
+    notes: "Hidden repair work is elevated without sentimentality."
+    terms: ["ha", "ha-wurumux", "tar", "geb"]
+  -
+    id: "ritual-471"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Let the ritual frog-form name water."
+    ethra: "Ha ha-furugux nam wam."
+    literal: "Solemn ritual-frog names water."
+    notes: "Wetland life becomes a witness to water."
+    terms: ["ha", "ha-furugux", "nam", "wam"]
+  -
+    id: "ritual-472"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship"]
+    register: "solemn"
+    english: "Let the ritual turtle-form carry home."
+    ethra: "Ha ha-turutul taw hen."
+    literal: "Solemn ritual-turtle carries home."
+    notes: "Shelter is remembered as something carried faithfully."
+    terms: ["ha", "ha-turutul", "taw", "hen"]
+  -
+    id: "ritual-473"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn"
+    english: "Let the ritual farm-form feed the people."
+    ethra: "Ha ha-furumux fad lem."
+    literal: "Solemn ritual-farm feeds people."
+    notes: "Cultivation becomes a vow before shared need."
+    terms: ["ha", "ha-furumux", "fad", "lem"]
+  -
+    id: "ritual-474"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Let the ritual field-form carry water."
+    ethra: "Ha ha-fuludux taw wam."
+    literal: "Solemn ritual-field carries water."
+    notes: "The field is voiced as a vessel of life."
+    terms: ["ha", "ha-fuludux", "taw", "wam"]
+  -
+    id: "ritual-475"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "solemn"
+    english: "Let the ritual harvest-form carry memory."
+    ethra: "Ha ha-huruvux taw mer."
+    literal: "Solemn ritual-harvest carries memory."
+    notes: "Past provision is ritually remembered."
+    terms: ["ha", "ha-huruvux", "taw", "mer"]
+  -
+    id: "ritual-476"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Let the ritual plow-form open soil."
+    ethra: "Ha ha-puluwux ap geb."
+    literal: "Solemn ritual-plow opens soil."
+    notes: "Breaking ground is given moral seriousness."
+    terms: ["ha", "ha-puluwux", "ap", "geb"]
+  -
+    id: "ritual-477"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Let the ritual irrigation-form guide water."
+    ethra: "Ha ha-rurugux pat wam."
+    literal: "Solemn ritual-irrigation guides water."
+    notes: "Directed water is treated as disciplined care."
+    terms: ["ha", "ha-rurugux", "pat", "wam"]
+  -
+    id: "ritual-478"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn"
+    english: "Let the ritual grain-form preserve provision."
+    ethra: "Ha ha-gurunux mar par."
+    literal: "Solemn ritual-grain preserves provision."
+    notes: "Stored food becomes a vow against forgetfulness."
+    terms: ["ha", "ha-gurunux", "mar", "par"]
+  -
+    id: "ritual-479"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship"]
+    register: "solemn"
+    english: "Let the ritual garden-form protect love."
+    ethra: "Ha ha-gurudun xap mev."
+    literal: "Solemn ritual-garden protects love."
+    notes: "Cultivated beauty becomes a household vow."
+    terms: ["ha", "ha-gurudun", "xap", "mev"]
+  -
+    id: "ritual-480"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "art-beauty"]
+    register: "poetic-solemn"
+    english: "Let the ritual vineyard-form carry joy."
+    ethra: "Ha ha-vuyunud taw jew."
+    literal: "Solemn ritual-vineyard carries joy."
+    notes: "Long patience is spoken as joy-bearing cultivation."
+    terms: ["ha", "ha-vuyunud", "taw", "jew"]
+  -
+    id: "tech-617"
+    track: "technical-software"
+    domain_tags: ["technology-software", "family-kinship"]
+    register: "technical"
+    english: "The dog record protects the household."
+    ethra: "Kayanax-ket xap hon."
+    literal: "Dog record protects household."
+    notes: "Household animal data is framed by protective custody."
+    terms: ["kayanax-ket", "xap", "hon"]
+  -
+    id: "tech-618"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The cat record carries the boundary."
+    ethra: "Falan-ket taw hal."
+    literal: "Cat record carries boundary."
+    notes: "Boundary-sensitive records show how domestic facts become system facts."
+    terms: ["falan-ket", "taw", "hal"]
+  -
+    id: "tech-619"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "The horse record guides the path."
+    ethra: "Haras-ket pat pet."
+    literal: "Horse record guides path."
+    notes: "Transport data binds movement to route."
+    terms: ["haras-ket", "pat", "pet"]
+  -
+    id: "tech-620"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The cattle record protects life."
+    ethra: "Katalax-ket xap nef."
+    literal: "Cattle record protects life."
+    notes: "Food-system data is treated as a life-support record."
+    terms: ["katalax-ket", "xap", "nef"]
+  -
+    id: "tech-621"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The chicken record carries provision."
+    ethra: "Cahakan-ket taw par."
+    literal: "Chicken record carries provision."
+    notes: "Small livestock entries can support provisioning systems."
+    terms: ["cahakan-ket", "taw", "par"]
+  -
+    id: "tech-622"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The bee record protects fruit."
+    ethra: "Bayax-ket xap ferej."
+    literal: "Bee record protects fruit."
+    notes: "Pollinator data is tied to crop resilience."
+    terms: ["bayax-ket", "xap", "ferej"]
+  -
+    id: "tech-623"
+    track: "technical-software"
+    domain_tags: ["technology-software", "art-beauty"]
+    register: "technical"
+    english: "The butterfly record reveals the window."
+    ethra: "Bafalay-ket rah wed."
+    literal: "Butterfly record reveals window."
+    notes: "Observation data can bind beauty to a visible point of encounter."
+    terms: ["bafalay-ket", "rah", "wed"]
+  -
+    id: "tech-624"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The worm record protects soil."
+    ethra: "Waramax-ket xap geb."
+    literal: "Worm record protects soil."
+    notes: "Soil-health systems track small repair agents."
+    terms: ["waramax-ket", "xap", "geb"]
+  -
+    id: "tech-625"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The snake record protects the gate."
+    ethra: "Sanakax-ket xap gom."
+    literal: "Snake record protects gate."
+    notes: "Hazard records mark where protection is needed."
+    terms: ["sanakax-ket", "xap", "gom"]
+  -
+    id: "tech-626"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The frog record measures water."
+    ethra: "Faragax-ket mes wam."
+    literal: "Frog record measures water."
+    notes: "Indicator species become evidence in ecological monitoring."
+    terms: ["faragax-ket", "mes", "wam"]
+  -
+    id: "tech-627"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The turtle record protects the window."
+    ethra: "Taratal-ket xap wed."
+    literal: "Turtle record protects window."
+    notes: "Slow observation records preserve a visible life history."
+    terms: ["taratal-ket", "xap", "wed"]
+  -
+    id: "tech-628"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The deer record guides the boundary."
+    ethra: "Darayax-ket pat hal."
+    literal: "Deer record guides boundary."
+    notes: "Wildlife movement data guides land decisions."
+    terms: ["darayax-ket", "pat", "hal"]
+  -
+    id: "tech-629"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The wolf record measures the border."
+    ethra: "Walafax-ket mes rag."
+    literal: "Wolf record measures border."
+    notes: "Predator tracking turns fear into accountable measurement."
+    terms: ["walafax-ket", "mes", "rag"]
+  -
+    id: "tech-630"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The farm record carries the crop."
+    ethra: "Faramax-ket taw cerepex."
+    literal: "Farm record carries crop."
+    notes: "Agricultural systems bind fields, labor, and yield."
+    terms: ["faramax-ket", "taw", "cerepex"]
+  -
+    id: "tech-631"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The field record carries the land."
+    ethra: "Faladax-ket taw geb."
+    literal: "Field record carries land."
+    notes: "Field records preserve use, condition, and accountability."
+    terms: ["faladax-ket", "taw", "geb"]
+  -
+    id: "tech-632"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The crop record measures the harvest."
+    ethra: "Carapax-ket mes herevex."
+    literal: "Crop record measures harvest."
+    notes: "Yield data is evaluated against provision."
+    terms: ["carapax-ket", "mes", "herevex"]
+  -
+    id: "tech-633"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The irrigation tool guides water."
+    ethra: "Raragax-tel pat wam."
+    literal: "Irrigation tool guides water."
+    notes: "Water-control tooling is defined by disciplined direction."
+    terms: ["raragax-tel", "pat", "wam"]
+  -
+    id: "tech-634"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The grain record protects provision."
+    ethra: "Garanax-ket xap par."
+    literal: "Grain record protects provision."
+    notes: "Reserve data is treated as a protective system."
+    terms: ["garanax-ket", "xap", "par"]
+  -
+    id: "tech-635"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The wheat record carries the harvest."
+    ethra: "Wahatax-ket taw herevex."
+    literal: "Wheat record carries harvest."
+    notes: "Crop-specific records preserve the path from field to storehouse."
+    terms: ["wahatax-ket", "taw", "herevex"]
+  -
+    id: "tech-636"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The corn record carries the field."
+    ethra: "Karanax-ket taw feledex."
+    literal: "Corn record carries field."
+    notes: "Crop records remain bound to place."
+    terms: ["karanax-ket", "taw", "feledex"]
+  -
+    id: "tech-637"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The bean record protects soil."
+    ethra: "Bananax-ket xap geb."
+    literal: "Bean record protects soil."
+    notes: "Regenerative crop data connects food to land repair."
+    terms: ["bananax-ket", "xap", "geb"]
+  -
+    id: "tech-638"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The potato record protects provision."
+    ethra: "Patatax-ket xap par."
+    literal: "Potato record protects provision."
+    notes: "Staple crop data is part of civic resilience."
+    terms: ["patatax-ket", "xap", "par"]
+  -
+    id: "tech-639"
+    track: "technical-software"
+    domain_tags: ["technology-software", "family-kinship"]
+    register: "technical"
+    english: "The garden record carries the household."
+    ethra: "Garadan-ket taw hon."
+    literal: "Garden record carries household."
+    notes: "Household food production becomes visible to planning systems."
+    terms: ["garadan-ket", "taw", "hon"]
+  -
+    id: "tech-640"
+    track: "technical-software"
+    domain_tags: ["technology-software", "art-beauty"]
+    register: "technical"
+    english: "The vineyard record carries joy."
+    ethra: "Vayanad-ket taw jew."
+    literal: "Vineyard record carries joy."
+    notes: "A technical record can preserve cultural value, not only output."
+    terms: ["vayanad-ket", "taw", "jew"]
+  -
+    id: "poetic-617"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship"]
+    register: "poetic"
+    english: "The dog remembers home."
+    ethra: "Keyenex mar hen."
+    literal: "Dog remembers home."
+    notes: "Companion loyalty is compressed into memory and shelter."
+    terms: ["keyenex", "mar", "hen"]
+  -
+    id: "poetic-618"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "The cat protects silence."
+    ethra: "Felen xap caz."
+    literal: "Cat protects silence."
+    notes: "Quiet domestic presence becomes a poetic guard."
+    terms: ["felen", "xap", "caz"]
+  -
+    id: "poetic-619"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "The horse carries the path."
+    ethra: "Heres taw pet."
+    literal: "Horse carries path."
+    notes: "Movement and direction collapse into a strong image."
+    terms: ["heres", "taw", "pet"]
+  -
+    id: "poetic-620"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "Cattle feed memory."
+    ethra: "Ketelex fad mer."
+    literal: "Cattle feed memory."
+    notes: "Provision is linked to remembered survival."
+    terms: ["ketelex", "fad", "mer"]
+  -
+    id: "poetic-621"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Sheep carry fabric."
+    ethra: "Sehepex taw feber."
+    literal: "Sheep carry fabric."
+    notes: "Warmth is voiced through the animal that bears it."
+    terms: ["sehepex", "taw", "feber"]
+  -
+    id: "poetic-622"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The goat walks the ground."
+    ethra: "Gewetex pat geb."
+    literal: "Goat walks ground."
+    notes: "Roughness and endurance appear in simple motion."
+    terms: ["gewetex", "pat", "geb"]
+  -
+    id: "poetic-623"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship"]
+    register: "poetic"
+    english: "The chicken feeds light."
+    ethra: "Ceheken fad ler."
+    literal: "Chicken feeds light."
+    notes: "Morning provision is linked to first light."
+    terms: ["ceheken", "fad", "ler"]
+  -
+    id: "poetic-624"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The bee protects fruit."
+    ethra: "Beyex xap ferej."
+    literal: "Bee protects fruit."
+    notes: "Small diligence carries future sweetness."
+    terms: ["beyex", "xap", "ferej"]
+  -
+    id: "poetic-625"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The butterfly reveals light."
+    ethra: "Befeley rah ler."
+    literal: "Butterfly reveals light."
+    notes: "Fragile motion becomes revelation."
+    terms: ["befeley", "rah", "ler"]
+  -
+    id: "poetic-626"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The worm repairs soil."
+    ethra: "Weremex tar geb."
+    literal: "Worm repairs soil."
+    notes: "The hidden low work becomes honorable."
+    terms: ["weremex", "tar", "geb"]
+  -
+    id: "poetic-627"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "The snake carries fear."
+    ethra: "Senekex taw xer."
+    literal: "Snake carries fear."
+    notes: "Fear is given shape instead of abstraction."
+    terms: ["senekex", "taw", "xer"]
+  -
+    id: "poetic-628"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The frog names water."
+    ethra: "Feregex nam wam."
+    literal: "Frog names water."
+    notes: "The sound of a place becomes a name for its water."
+    terms: ["feregex", "nam", "wam"]
+  -
+    id: "poetic-629"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship"]
+    register: "poetic"
+    english: "The turtle carries home."
+    ethra: "Teretel taw hen."
+    literal: "Turtle carries home."
+    notes: "Shelter becomes a life-form."
+    terms: ["teretel", "taw", "hen"]
+  -
+    id: "poetic-630"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "The deer guides attention."
+    ethra: "Dereyex pat san."
+    literal: "Deer guides attention."
+    notes: "Grace trains the eye."
+    terms: ["dereyex", "pat", "san"]
+  -
+    id: "poetic-631"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The bear carries power."
+    ethra: "Bereyex taw kev."
+    literal: "Bear carries power."
+    notes: "Strength is named as carried, not worshiped."
+    terms: ["bereyex", "taw", "kev"]
+  -
+    id: "poetic-632"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "The wolf remembers the people."
+    ethra: "Welefex mar lem."
+    literal: "Wolf remembers people."
+    notes: "Collective identity is mirrored through pack memory."
+    terms: ["welefex", "mar", "lem"]
+  -
+    id: "poetic-633"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "The farm feeds fruit."
+    ethra: "Feremex fad fer."
+    literal: "Farm feeds fruit."
+    notes: "Cultivation is compressed into a fruit-bearing image."
+    terms: ["feremex", "fad", "fer"]
+  -
+    id: "poetic-634"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The field carries rain."
+    ethra: "Feledex taw wem."
+    literal: "Field carries rain."
+    notes: "Land and weather meet in one compact phrase."
+    terms: ["feledex", "taw", "wem"]
+  -
+    id: "poetic-635"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "The crop reveals the field."
+    ethra: "Cerepex rah feledex."
+    literal: "Crop reveals field."
+    notes: "Yield discloses the hidden condition of land."
+    terms: ["cerepex", "rah", "feledex"]
+  -
+    id: "poetic-636"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "The harvest carries gratitude."
+    ethra: "Herevex taw get."
+    literal: "Harvest carries gratitude."
+    notes: "Received provision becomes remembered thanks."
+    terms: ["herevex", "taw", "get"]
+  -
+    id: "poetic-637"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The plow opens soil."
+    ethra: "Pelewex ap geb."
+    literal: "Plow opens soil."
+    notes: "A hard tool becomes an image of prepared promise."
+    terms: ["pelewex", "ap", "geb"]
+  -
+    id: "poetic-638"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "Irrigation guides the river."
+    ethra: "Reregex pat sel."
+    literal: "Irrigation guides river."
+    notes: "Water power is directed toward life."
+    terms: ["reregex", "pat", "sel"]
+  -
+    id: "poetic-639"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship"]
+    register: "poetic"
+    english: "The garden protects love."
+    ethra: "Gereden xap mev."
+    literal: "Garden protects love."
+    notes: "Care becomes visible in cultivated beauty."
+    terms: ["gereden", "xap", "mev"]
+  -
+    id: "poetic-640"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "The vineyard carries joy."
+    ethra: "Veyened taw jew."
+    literal: "Vineyard carries joy."
+    notes: "Joy is treated as a fruit of long care."
+    terms: ["veyened", "taw", "jew"]
+  -
+    id: "learner-309"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "learner-a1"
+    english: "The dog protects the child."
+    ethra: "Keyenex xap tu."
+    literal: "Dog protects child-student."
+    notes: "A1 animal-care sentence."
+    terms: ["keyenex", "xap", "tu"]
+  -
+    id: "learner-310"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "learner-a1"
+    english: "The cat protects the home."
+    ethra: "Felen xap hen."
+    literal: "Cat protects home."
+    notes: "A1 household-animal sentence."
+    terms: ["felen", "xap", "hen"]
+  -
+    id: "learner-311"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "learner-a1"
+    english: "The horse carries the person."
+    ethra: "Heres taw li."
+    literal: "Horse carries person."
+    notes: "A1 transport-animal sentence."
+    terms: ["heres", "taw", "li"]
+  -
+    id: "learner-312"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "learner-a1"
+    english: "The bee protects fruit."
+    ethra: "Beyex xap ferej."
+    literal: "Bee protects fruit."
+    notes: "A1 pollination sentence."
+    terms: ["beyex", "xap", "ferej"]
+  -
+    id: "learner-313"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "learner-a1"
+    english: "The worm repairs soil."
+    ethra: "Weremex tar geb."
+    literal: "Worm repairs soil."
+    notes: "A1 soil-repair sentence."
+    terms: ["weremex", "tar", "geb"]
+  -
+    id: "learner-314"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "The farm feeds the people."
+    ethra: "Feremex fad lem."
+    literal: "Farm feeds people."
+    notes: "A1 farm-provision sentence."
+    terms: ["feremex", "fad", "lem"]
+  -
+    id: "learner-315"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "The field carries the crop."
+    ethra: "Feledex taw cerepex."
+    literal: "Field carries crop."
+    notes: "A1 field-and-crop sentence."
+    terms: ["feledex", "taw", "cerepex"]
+  -
+    id: "learner-316"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "The harvest carries provision."
+    ethra: "Herevex taw par."
+    literal: "Harvest carries provision."
+    notes: "A1 harvest sentence."
+    terms: ["herevex", "taw", "par"]
+  -
+    id: "learner-317"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "Grain feeds the household."
+    ethra: "Gerenex fad hon."
+    literal: "Grain feeds household."
+    notes: "A1 staple-food sentence."
+    terms: ["gerenex", "fad", "hon"]
+  -
+    id: "learner-318"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "learner-a1"
+    english: "The garden protects love."
+    ethra: "Gereden xap mev."
+    literal: "Garden protects love."
+    notes: "A1 garden-care sentence."
+    terms: ["gereden", "xap", "mev"]
+  -
+    id: "learner-319"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "The orchard carries fruit."
+    ethra: "Recedex taw ferej."
+    literal: "Orchard carries fruit."
+    notes: "A1 orchard sentence."
+    terms: ["recedex", "taw", "ferej"]
+  -
+    id: "learner-320"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "art-beauty"]
+    register: "learner-a1"
+    english: "The vineyard carries joy."
+    ethra: "Veyened taw jew."
+    literal: "Vineyard carries joy."
+    notes: "A1 vineyard sentence."
+    terms: ["veyened", "taw", "jew"]
