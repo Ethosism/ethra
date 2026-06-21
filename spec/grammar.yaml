@@ -1,0 +1,87 @@
+version: "0.1"
+typology: "Mostly analytic, SVO, root-and-pattern derivation with optional compounding."
+default_word_order: "Subject - particles - verb - object - scope/complements."
+core_order_examples:
+  -
+    ethra: "Na vel dev se."
+    literal: "I choose duty this."
+    meaning: "I choose this duty."
+  -
+    ethra: "Lem ga naf bi mar."
+    literal: "People ongoing live through remember."
+    meaning: "The people survive by remembering."
+noun_phrase:
+  possession: "Possessor follows with en or directly after intimate/body nouns: leb en na or leb na."
+  plurality: "Plurality is optional. Add lu after a noun only when plurality matters."
+  definiteness: "Context supplies definiteness; se marks this, te marks civic address, and mo marks a relative object."
+tense_aspect:
+  past: "pa"
+  present_progressive: "nu"
+  future: "fu"
+  completed: "ka"
+  ongoing_habitual: "ga"
+  intended: "va"
+mood:
+  imperative: "ke"
+  question: "ya"
+  negation: "ne"
+  copula: "e"
+moral_chain:
+  order: "subject + time/aspect + moral particle + verb + object + scope"
+  examples:
+    - "Na kan tar. = I can repair."
+    - "Na lun tar. = I may repair."
+    - "Na wen tar. = I want to repair."
+    - "Na vel tar. = I choose to repair."
+    - "Na cel tar. = I should repair."
+    - "Na dom tar. = I owe repair."
+    - "Na dov tar. = I vow to repair."
+    - "Na mor tar. = I inherited the duty to repair."
+    - "Na tor tar. = I chose the duty to repair."
+relational_register:
+  principle: "Pronouns encode stance, not caste. A speaker can choose a stance to clarify care, respect, opposition, or sacred address."
+  intimate: "ti"
+  equal: "ta"
+  elder_teacher: "to"
+  child_student: "tu"
+  civic_peer: "te"
+  opponent: "za"
+  sacred: "hu"
+  collective_people: "tum"
+compounds:
+  format: "word-word-word"
+  head: "The final member is the grammatical head unless a civic definition fixes another reading."
+  examples:
+    -
+      word: "fer-dev"
+      meaning: "future-binding duty"
+    -
+      word: "mer-yes"
+      meaning: "memory-carried identity"
+    -
+      word: "rih-leb"
+      meaning: "visible inner truth"
+    -
+      word: "val-dev"
+      meaning: "chosen obligation"
+    -
+      word: "yas-pet"
+      meaning: "self-authored destiny"
+    -
+      word: "mer-tar"
+      meaning: "inherited repair"
+    -
+      word: "ha-sun"
+      meaning: "sacred attention"
+    -
+      word: "lem-val"
+      meaning: "civilization-scale agency"
+    -
+      word: "mav-reh"
+      meaning: "love as recognition"
+    -
+      word: "nem-dev"
+      meaning: "speech that creates obligation"
+    -
+      word: "mi-rah-yes"
+      meaning: "a person fully seen by another"

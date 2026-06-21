@@ -1,0 +1,31 @@
+{
+  "name": "ethra-language",
+  "version": "0.1.0",
+  "description": "Ethra v0.1: a constructed civilizational language with moral and relational grammar.",
+  "bin": {
+    "ethra": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build:spec": "node scripts/build-spec.mjs",
+    "build": "tsc",
+    "test": "npm run build:spec && npm run build && node --test tests/*.test.js",
+    "ethra": "tsx src/cli/index.ts"
+  },
+  "keywords": [
+    "conlang",
+    "language",
+    "moral-grammar",
+    "constructed-language"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "yaml": "^2.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}

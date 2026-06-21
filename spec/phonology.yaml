@@ -1,0 +1,187 @@
+language: "Ethra"
+version: "0.1"
+vowels:
+  -
+    symbol: "a"
+    ipa: "/a/"
+    guide: "father without lengthening"
+  -
+    symbol: "e"
+    ipa: "/e/"
+    guide: "clear e as in bet, slightly tenser"
+  -
+    symbol: "i"
+    ipa: "/i/"
+    guide: "machine"
+  -
+    symbol: "o"
+    ipa: "/o/"
+    guide: "more"
+  -
+    symbol: "u"
+    ipa: "/u/"
+    guide: "rule"
+consonants:
+  -
+    symbol: "b"
+    ipa: "/b/"
+    guide: "bat"
+    force: "hard"
+  -
+    symbol: "d"
+    ipa: "/d/"
+    guide: "day"
+    force: "hard"
+  -
+    symbol: "f"
+    ipa: "/f/"
+    guide: "fire"
+    force: "soft"
+  -
+    symbol: "g"
+    ipa: "/g/"
+    guide: "go"
+    force: "hard"
+  -
+    symbol: "h"
+    ipa: "/h/"
+    guide: "house"
+    force: "soft"
+  -
+    symbol: "j"
+    ipa: "/dʒ/"
+    guide: "judge"
+    force: "hard"
+  -
+    symbol: "k"
+    ipa: "/k/"
+    guide: "key"
+    force: "hard"
+  -
+    symbol: "l"
+    ipa: "/l/"
+    guide: "light"
+    force: "soft"
+  -
+    symbol: "m"
+    ipa: "/m/"
+    guide: "mother"
+    force: "soft"
+  -
+    symbol: "n"
+    ipa: "/n/"
+    guide: "name"
+    force: "soft"
+  -
+    symbol: "p"
+    ipa: "/p/"
+    guide: "path"
+    force: "hard"
+  -
+    symbol: "r"
+    ipa: "/ɾ/ or /r/"
+    guide: "tapped or lightly rolled r"
+    force: "soft"
+  -
+    symbol: "s"
+    ipa: "/s/"
+    guide: "see"
+    force: "hard"
+  -
+    symbol: "t"
+    ipa: "/t/"
+    guide: "truth"
+    force: "hard"
+  -
+    symbol: "v"
+    ipa: "/v/"
+    guide: "vow"
+    force: "soft"
+  -
+    symbol: "w"
+    ipa: "/w/"
+    guide: "we"
+    force: "soft"
+  -
+    symbol: "x"
+    ipa: "/x/"
+    guide: "Bach or a strong h; may soften to h in casual speech"
+    force: "hard"
+  -
+    symbol: "y"
+    ipa: "/j/"
+    guide: "yes"
+    force: "soft"
+  -
+    symbol: "z"
+    ipa: "/z/"
+    guide: "zeal"
+    force: "hard"
+  -
+    symbol: "c"
+    ipa: "/ʃ/"
+    guide: "sh as in she; c never means k or s"
+    force: "soft"
+romanization_rules:
+  - "One written symbol maps to one phoneme."
+  - "The letter c always means sh."
+  - "The letter j always means the sound in judge."
+  - "Hyphen marks compounds, register prefixes, or civic suffixes; it is pronounced as a light boundary."
+  - "No silent letters and no English-style alternate spellings."
+syllable_structure:
+  allowed:
+    - "CV"
+    - "CVC"
+    - "V"
+    - "VC"
+  coda_limit: "A syllable may end in one consonant. Clusters are avoided inside each hyphen segment."
+  examples:
+    - "ra"
+    - "rah"
+    - "mi-rah"
+    - "ba-na"
+    - "dav-da"
+stress_rules:
+  - "Stress the first syllable of the main lexical word."
+  - "Prefixes such as mi-, ha-, and so- are lighter than the root."
+  - "In ritual speech, each hyphen boundary may receive a small secondary beat."
+sound_registers:
+  soft_intimate:
+    - "m"
+    - "n"
+    - "l"
+    - "r"
+    - "v"
+    - "w"
+    - "y"
+    - "h"
+    - "c"
+  hard_commanding:
+    - "p"
+    - "t"
+    - "k"
+    - "g"
+    - "d"
+    - "b"
+    - "s"
+    - "z"
+    - "j"
+    - "x"
+  principle: "Soft sounds carry intimacy, memory, grief, mercy, and tenderness. Hard sounds carry command, law, construction, correction, and public action."
+pronunciation_examples:
+  -
+    word: "rah"
+    pronunciation: "RAH"
+    meaning: "see; recognize"
+  -
+    word: "mi-rah"
+    pronunciation: "mi-RAH"
+    meaning: "intimate recognition"
+  -
+    word: "dav-da"
+    pronunciation: "DAV-da"
+    meaning: "civic obligation"
+  -
+    word: "ha-zur"
+    pronunciation: "ha-ZUR"
+    meaning: "solemn ultimate witness"

@@ -1,0 +1,161 @@
+examples:
+  -
+    number: 1
+    english: "See me."
+    ethra: "Ke rah na."
+    literal_translation: "Imperative see me."
+    natural_translation: "See me."
+    grammar_notes: "Ke marks command or plea; rah is the RH action pattern; na is first person object by position."
+    cultural_notes: "The phrase asks for recognition, not only visual attention."
+  -
+    number: 2
+    english: "Really see me."
+    ethra: "Ke sol-rah na."
+    literal_translation: "Imperative true-see me."
+    natural_translation: "Really see me."
+    grammar_notes: "sol- intensifies toward full truth; the compound keeps recognition visible."
+    cultural_notes: "Ethra treats deep seeing as a moral act of attention."
+  -
+    number: 3
+    english: "My heart is an open book."
+    ethra: "Leb en na e kot rih."
+    literal_translation: "Heart of me is book visible."
+    natural_translation: "My heart is an open book."
+    grammar_notes: "Possession uses en; e is the copula; rih is the visible/honest adjective from RH."
+    cultural_notes: "Inner life should be speakable without requiring disguise."
+  -
+    number: 4
+    english: "I would walk with you to the end of the world."
+    ethra: "Na va pat ko ti ad ned wed."
+    literal_translation: "I intended walk with beloved-you toward end world."
+    natural_translation: "I would walk with you to the end of the world."
+    grammar_notes: "va marks intended or conditional action; ko marks companionship; ad marks limit."
+    cultural_notes: "Love is stated as chosen path and shared limit."
+  -
+    number: 5
+    english: "Remember who you are."
+    ethra: "Ke mar yes ta."
+    literal_translation: "Imperative remember self you-equal."
+    natural_translation: "Remember who you are."
+    grammar_notes: "yes is identity/personhood from YS; ta keeps the address equal."
+    cultural_notes: "Identity is treated as memory carried into agency."
+  -
+    number: 6
+    english: "I choose this duty."
+    ethra: "Na vel dev se."
+    literal_translation: "I choose duty this."
+    natural_translation: "I choose this duty."
+    grammar_notes: "vel is moral choice; dev is duty; se marks this."
+    cultural_notes: "The sentence separates desire from chosen obligation."
+  -
+    number: 7
+    english: "I inherited this duty."
+    ethra: "Na mor dev se."
+    literal_translation: "I inherited-duty duty this."
+    natural_translation: "I inherited this duty."
+    grammar_notes: "mor marks inherited duty rather than personal selection."
+    cultural_notes: "The speaker acknowledges obligation received from history."
+  -
+    number: 8
+    english: "I vow to repair what was broken."
+    ethra: "Na dov tar mo mik."
+    literal_translation: "I vow repair what broken."
+    natural_translation: "I vow to repair what was broken."
+    grammar_notes: "dov is vow; mo introduces the relative object; mik is broken from MK."
+    cultural_notes: "Repair becomes binding speech, not a mood."
+  -
+    number: 9
+    english: "Build what the future has already claimed."
+    ethra: "Ke ban mo fer ka dav."
+    literal_translation: "Imperative build what future completed bind."
+    natural_translation: "Build what the future has already claimed."
+    grammar_notes: "ka marks completed claim; dav binds by duty."
+    cultural_notes: "The unborn future is a claimant, not an abstraction."
+  -
+    number: 10
+    english: "The people survive by remembering."
+    ethra: "Lem ga naf bi mar."
+    literal_translation: "People ongoing live through remember."
+    natural_translation: "The people survive by remembering."
+    grammar_notes: "ga marks habitual continuity; bi marks means."
+    cultural_notes: "Culture survives by active memory, not inertia."
+  -
+    number: 11
+    english: "Love is recognition."
+    ethra: "Mev e reh."
+    literal_translation: "Love is recognition."
+    natural_translation: "Love is recognition."
+    grammar_notes: "Both nouns come from root families MV and RH; e defines identity."
+    cultural_notes: "Love is framed as seeing the person truly."
+  -
+    number: 12
+    english: "A word spoken becomes a burden carried."
+    ethra: "Nem ka nam e dev mor."
+    literal_translation: "Word completed spoken is duty inherited-carried."
+    natural_translation: "A spoken word becomes a carried burden."
+    grammar_notes: "ka marks completed speech; dev is obligation; mor marks carried inheritance."
+    cultural_notes: "Speech creates obligation, so careless words are morally expensive."
+  -
+    number: 13
+    english: "I act for myself."
+    ethra: "Na val so-na."
+    literal_translation: "I act for-self."
+    natural_translation: "I act for myself."
+    grammar_notes: "so-na marks scope of agency."
+    cultural_notes: "Ethra can name self-interest without pretending it is universal."
+  -
+    number: 14
+    english: "I act for my family."
+    ethra: "Na val so-hen."
+    literal_translation: "I act for-family."
+    natural_translation: "I act for my family."
+    grammar_notes: "so-hen marks family scope from HN."
+    cultural_notes: "Family is a legitimate but bounded scope of action."
+  -
+    number: 15
+    english: "I act for my people."
+    ethra: "Na val so-lem."
+    literal_translation: "I act for-people."
+    natural_translation: "I act for my people."
+    grammar_notes: "so-lem marks civic/civilizational scope."
+    cultural_notes: "Peoplehood carries memory and duty across generations."
+  -
+    number: 16
+    english: "I act before truth."
+    ethra: "Na val so-rah."
+    literal_translation: "I act before-truth."
+    natural_translation: "I act before truth."
+    grammar_notes: "so-rah marks action under visible truth."
+    cultural_notes: "Agency is accountable to what can be witnessed."
+  -
+    number: 17
+    english: "The child receives the name and becomes responsible to the future."
+    ethra: "Tu lun nom en li, li fu dav ad fer."
+    literal_translation: "Child-student receives name of person, that person future binds toward future."
+    natural_translation: "The child receives the name and becomes responsible to the future."
+    grammar_notes: "tu is child/student address; nom is name; dav makes responsibility explicit."
+    cultural_notes: "Naming enters the child into memory and future duty."
+  -
+    number: 18
+    english: "Freedom without memory becomes emptiness."
+    ethra: "Sel ne ko mer e xed."
+    literal_translation: "Freedom not with memory is emptiness."
+    natural_translation: "Freedom without memory becomes emptiness."
+    grammar_notes: "sel is release/freedom from SL; ne ko means without; xed is an auxiliary lexicon word for emptiness."
+    cultural_notes: "Freedom cut from inheritance loses form and direction."
+  -
+    number: 19
+    english: "Power without duty becomes corruption."
+    ethra: "Kev ne ko dev e mak-da."
+    literal_translation: "Power not with duty is break-civic."
+    natural_translation: "Power without duty becomes corruption."
+    grammar_notes: "kev is power; dev is duty; mak-da marks public corruption/rupture."
+    cultural_notes: "Power must answer to obligation or it decays."
+  -
+    number: 20
+    english: "A superior culture teaches its people what to notice."
+    ethra: "Lem hid dak lem en li mo san."
+    literal_translation: "Culture dignified teaches people of it what notice."
+    natural_translation: "A superior culture teaches its people what to notice."
+    grammar_notes: "hid marks dignified excellence; dak teaches; san notices."
+    cultural_notes: "The highest cultural task is trained attention toward truth, duty, beauty, memory, and consequence."
