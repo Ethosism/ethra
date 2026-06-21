@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 20,057 explicit lexicon entries and 800 reviewed corpus items after the v0.3.9 v0.5 root target closure. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 20,057 explicit lexicon entries and 900 reviewed corpus items after the v0.3.10 corpus grounding batch. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.5 public-culture target:
 
 ```text
 entries 20,057 / 10,000
 roots     1,000 / 1,000
-corpus      800 / 2,000 reviewed items
+corpus      900 / 2,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -58,7 +58,9 @@ The v0.3.8 infrastructure-scale root batch adds 100 roots for appellate review, 
 
 The v0.3.9 civilizational-closure root batch adds 100 roots for being, becoming, meaning, value, ethics, paradox, contradiction, analogy, distinction, reference, dictionaries, lexicons, idioms, proverbs, syntax, semantics, paragraphs, copying, bibliographies, libraries, news, journals, magazines, blogs, conversation, deliberation, parties, lobbying, cabinets, ministries, bureaucracy, refugees, visas, passports, majorities, minorities, police, language models, neural networks, training, crawlers, moderation, reinforcement, retrieval, parameters, embeddings, classification, loaders, controllers, accelerators, gateways, connectors, lenses, biochemistry, enzymes, proteins, fungi, glaciers, spheres, radiation, gravity, electricity, plasma, sky, empathy, humor, irony, despair, curiosity, kindness, generosity, frustration, tone, numbness, mirrors, clocks, glass, plastic, fabric, paper, keyboards, desks, chairs, shelves, boxes, wires, hymns, psalms, temples, pilgrimage, candles, religion, symbols, mystery, incense, veneration, tables, calendars, wheels, and batteries.
 
-The v0.5 entry and root targets are now met. The main remaining v0.5 gap is reviewed corpus depth, now 800 / 2,000.
+The v0.3.10 corpus batch adds 100 reviewed examples grounding recent civic, ritual, software, AI, media, philosophy, nature, household, emotion, and learner roots. It balances all six corpus tracks at 150 items each.
+
+The v0.5 entry and root targets are now met. The main remaining v0.5 gap is reviewed corpus depth, now 900 / 2,000.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
