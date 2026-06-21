@@ -1,4 +1,4 @@
-version: "0.9.7-corpus"
+version: "0.9.9-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -8849,7 +8849,7 @@ items:
     english: "Ethics protects power."
     ethra: "Tehek xap kev."
     literal: "Ethics protects power."
-    notes: "Learner moral-agency sentence."
+    notes: "Learner philosophy-metaphysics sentence."
     terms: ["tehek", "xap", "kev"]
   -
     id: "learner-136"
@@ -36719,7 +36719,7 @@ items:
     english: "The assignment carries duty."
     ethra: "Segenem taw dev."
     literal: "Assignment carries duty."
-    notes: "A1 moral-agency education sentence."
+    notes: "A1 philosophy-metaphysics education sentence."
     terms: ["segenem", "taw", "dev"]
   -
     id: "learner-361"
@@ -45201,3 +45201,1203 @@ items:
     literal: "Ceasefire binds power."
     notes: "A1 conflict restraint sentence."
     terms: ["cefeier", "dav", "kev"]
+  -
+    id: "daily-905"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Scarcity names need."
+    ethra: "Seceaex nam hal."
+    literal: "Scarcity names need."
+    notes: "Daily provision sentence grounding scarcity as a notice of need."
+    terms: ["seceaex", "nam", "hal"]
+  -
+    id: "daily-906"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Abundance carries duty."
+    ethra: "Aebenec taw dev."
+    literal: "Abundance carries duty."
+    notes: "Daily provision sentence joining surplus to obligation."
+    terms: ["aebenec", "taw", "dev"]
+  -
+    id: "daily-907"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Wealth binds duty."
+    ethra: "Wetehel dav dev."
+    literal: "Wealth binds duty."
+    notes: "Daily wealth sentence using binding moral grammar."
+    terms: ["wetehel", "dav", "dev"]
+  -
+    id: "daily-908"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Poverty reveals need."
+    ethra: "Peveret rah hal."
+    literal: "Poverty reveals need."
+    notes: "Daily poverty sentence treating deprivation as visible claim."
+    terms: ["peveret", "rah", "hal"]
+  -
+    id: "daily-909"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "family-kinship"]
+    register: "plain"
+    english: "Income carries the household."
+    ethra: "Necemex taw hon."
+    literal: "Income carries household."
+    notes: "Daily income sentence grounding provision in household care."
+    terms: ["necemex", "taw", "hon"]
+  -
+    id: "daily-910"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "family-kinship"]
+    register: "plain"
+    english: "Salary protects the household."
+    ethra: "Selerex xap hon."
+    literal: "Salary protects household."
+    notes: "Daily compensation sentence for ordinary provision."
+    terms: ["selerex", "xap", "hon"]
+  -
+    id: "daily-911"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "history-memory"]
+    register: "plain"
+    english: "Pension carries memory."
+    ethra: "Penesen taw mer."
+    literal: "Pension carries memory."
+    notes: "Daily later-life provision sentence linking pension to continuity."
+    terms: ["penesen", "taw", "mer"]
+  -
+    id: "daily-912"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "history-memory"]
+    register: "plain"
+    english: "Savings protect the future."
+    ethra: "Seveges xap fer."
+    literal: "Savings protect future."
+    notes: "Daily savings sentence with future as claimant."
+    terms: ["seveges", "xap", "fer"]
+  -
+    id: "daily-913"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "An asset carries duty."
+    ethra: "Aesetex taw dev."
+    literal: "Asset carries duty."
+    notes: "Daily ownership sentence resisting amoral possession."
+    terms: ["aesetex", "taw", "dev"]
+  -
+    id: "daily-914"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "law-governance"]
+    register: "plain"
+    english: "Monopoly breaks trust."
+    ethra: "Menepel mak kep."
+    literal: "Monopoly breaks trust."
+    notes: "Daily market-power sentence grounding capture as broken trust."
+    terms: ["menepel", "mak", "kep"]
+  -
+    id: "daily-915"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Interest rate names price."
+    ethra: "Neterex nam may."
+    literal: "Interest-rate names price."
+    notes: "Daily finance sentence for borrowed-time price."
+    terms: ["neterex", "nam", "may"]
+  -
+    id: "daily-916"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Equity stake carries risk."
+    ethra: "Kesex taw kav."
+    literal: "Equity-stake carries risk."
+    notes: "Daily ownership-share sentence linking gain to exposure."
+    terms: ["kesex", "taw", "kav"]
+  -
+    id: "daily-917"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Opportunity cost reveals choice."
+    ethra: "Oepeces rah vel."
+    literal: "Opportunity-cost reveals choice."
+    notes: "Daily tradeoff sentence making hidden alternatives visible."
+    terms: ["oepeces", "rah", "vel"]
+  -
+    id: "daily-918"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "nature-ecology"]
+    register: "plain"
+    english: "Externality carries harm."
+    ethra: "Xeteren taw pan."
+    literal: "Externality carries harm."
+    notes: "Daily consequence sentence for outside costs."
+    terms: ["xeteren", "taw", "pan"]
+  -
+    id: "daily-919"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "law-governance"]
+    register: "plain"
+    english: "Inequality breaks trust."
+    ethra: "Nekelet mak kep."
+    literal: "Inequality breaks trust."
+    notes: "Daily distribution sentence grounding unevenness in civic trust."
+    terms: ["nekelet", "mak", "kep"]
+  -
+    id: "daily-920"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "Coordinate names place."
+    ethra: "Kepetex nam wed."
+    literal: "Coordinate names place."
+    notes: "Daily mapping sentence for named position."
+    terms: ["kepetex", "nam", "wed"]
+  -
+    id: "daily-921"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "Latitude guides the map."
+    ethra: "Leteted pat map."
+    literal: "Latitude guides map."
+    notes: "Daily navigation sentence for north-south position."
+    terms: ["leteted", "pat", "map"]
+  -
+    id: "daily-922"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "Longitude guides the map."
+    ethra: "Leneged pat map."
+    literal: "Longitude guides map."
+    notes: "Daily navigation sentence for east-west position."
+    terms: ["leneged", "pat", "map"]
+  -
+    id: "daily-923"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "Elevation names place."
+    ethra: "Eelevex nam wed."
+    literal: "Elevation names place."
+    notes: "Daily terrain sentence for measured height without extra inflection."
+    terms: ["eelevex", "nam", "wed"]
+  -
+    id: "daily-924"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place", "family-kinship"]
+    register: "plain"
+    english: "Neighborhood carries the household."
+    ethra: "Nebereh taw hon."
+    literal: "Neighborhood carries household."
+    notes: "Daily local-place sentence tying dwelling circles to household care."
+    terms: ["nebereh", "taw", "hon"]
+  -
+    id: "daily-925"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance", "travel-place"]
+    register: "plain"
+    english: "Province carries law."
+    ethra: "Pereven taw lem."
+    literal: "Province carries law."
+    notes: "Daily civic-place sentence for regional public units."
+    terms: ["pereven", "taw", "lem"]
+  -
+    id: "daily-926"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "County protects the record."
+    ethra: "Cenetey xap ket."
+    literal: "County protects record."
+    notes: "Daily local-governance sentence for public continuity."
+    terms: ["cenetey", "xap", "ket"]
+  -
+    id: "daily-927"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place", "law-governance"]
+    register: "plain"
+    english: "Parcel names boundary."
+    ethra: "Perecel nam benedey."
+    literal: "Parcel names boundary."
+    notes: "Daily land sentence for bounded ownership and duty."
+    terms: ["perecel", "nam", "benedey"]
+  -
+    id: "daily-928"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Venue guides judgment."
+    ethra: "Venexer pat jav."
+    literal: "Venue guides judgment."
+    notes: "Daily legal-place sentence for proper forum."
+    terms: ["venexer", "pat", "jav"]
+  -
+    id: "civic-679"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic-report"
+    english: "Scarcity finding reveals need."
+    ethra: "Sacaaax-da rah hal."
+    literal: "Scarcity-civic reveals need."
+    notes: "Civic finding form for scarcity as public claim."
+    terms: ["sacaaax-da", "rah", "hal"]
+  -
+    id: "civic-680"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic-charter"
+    english: "Abundance charter carries duty."
+    ethra: "Aabanac-da taw dev."
+    literal: "Abundance-civic carries duty."
+    notes: "Civic charter form for surplus under obligation."
+    terms: ["aabanac-da", "taw", "dev"]
+  -
+    id: "civic-681"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "public-record"
+    english: "Wealth record binds duty."
+    ethra: "Watahal-ket dav dev."
+    literal: "Wealth-record binds duty."
+    notes: "Public record form joining stored capacity to obligation."
+    terms: ["watahal-ket", "dav", "dev"]
+  -
+    id: "civic-682"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic-report"
+    english: "Poverty report reveals need."
+    ethra: "Pavarat-da rah hal."
+    literal: "Poverty-civic reveals need."
+    notes: "Civic poverty report treating deprivation as visible public claim."
+    terms: ["pavarat-da", "rah", "hal"]
+  -
+    id: "civic-683"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic-statement"
+    english: "Income statement names need."
+    ethra: "Nacamax-da nam hal."
+    literal: "Income-civic names need."
+    notes: "Civic income statement for recurring provision review."
+    terms: ["nacamax-da", "nam", "hal"]
+  -
+    id: "civic-684"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "public-record"
+    english: "Salary record protects trust."
+    ethra: "Salarax-ket xap kep."
+    literal: "Salary-record protects trust."
+    notes: "Public compensation record preserving trust."
+    terms: ["salarax-ket", "xap", "kep"]
+  -
+    id: "civic-685"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision", "history-memory"]
+    register: "civic-mandate"
+    english: "Pension mandate carries memory."
+    ethra: "Panasan-da taw mer."
+    literal: "Pension-civic carries memory."
+    notes: "Civic mandate for deferred provision and elder continuity."
+    terms: ["panasan-da", "taw", "mer"]
+  -
+    id: "civic-686"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision", "history-memory"]
+    register: "public-record"
+    english: "Savings record protects future."
+    ethra: "Savagas-ket xap fer."
+    literal: "Savings-record protects future."
+    notes: "Public savings record with future-facing duty."
+    terms: ["savagas-ket", "xap", "fer"]
+  -
+    id: "civic-687"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic-register"
+    english: "Asset register names duty."
+    ethra: "Aasatax-da nam dev."
+    literal: "Asset-civic names duty."
+    notes: "Civic asset register that frames ownership as accountable."
+    terms: ["aasatax-da", "nam", "dev"]
+  -
+    id: "civic-688"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic-finding"
+    english: "Monopoly finding reveals harm."
+    ethra: "Manapal-da rah pan."
+    literal: "Monopoly-civic reveals harm."
+    notes: "Civic market-power finding that surfaces public injury."
+    terms: ["manapal-da", "rah", "pan"]
+  -
+    id: "civic-689"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "public-notice"
+    english: "Interest-rate notice names price."
+    ethra: "Natarax-da nam may."
+    literal: "Interest-rate-civic names price."
+    notes: "Public finance notice for borrowed-time price."
+    terms: ["natarax-da", "nam", "may"]
+  -
+    id: "civic-690"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "public-record"
+    english: "Equity record carries risk."
+    ethra: "Kasax-ket taw kav."
+    literal: "Equity-record carries risk."
+    notes: "Public ownership-share record linking stake to exposure."
+    terms: ["kasax-ket", "taw", "kav"]
+  -
+    id: "civic-691"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision", "philosophy-metaphysics"]
+    register: "civic-report"
+    english: "Opportunity-cost report reveals choice."
+    ethra: "Oapacas-da rah vel."
+    literal: "Opportunity-cost-civic reveals choice."
+    notes: "Civic tradeoff report making alternatives governable."
+    terms: ["oapacas-da", "rah", "vel"]
+  -
+    id: "civic-692"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision", "nature-ecology"]
+    register: "civic-charge"
+    english: "Externality charge carries harm."
+    ethra: "Xataran-da taw pan."
+    literal: "Externality-civic carries harm."
+    notes: "Civic charge form for outside consequences."
+    terms: ["xataran-da", "taw", "pan"]
+  -
+    id: "civic-693"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic-report"
+    english: "Inequality report breaks trust."
+    ethra: "Nakalat-da mak kep."
+    literal: "Inequality-civic breaks trust."
+    notes: "Civic distribution report naming trust damage."
+    terms: ["nakalat-da", "mak", "kep"]
+  -
+    id: "civic-694"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "public-record"
+    english: "Coordinate record names place."
+    ethra: "Kapatax-ket nam wed."
+    literal: "Coordinate-record names place."
+    notes: "Public location record for inspectable position."
+    terms: ["kapatax-ket", "nam", "wed"]
+  -
+    id: "civic-695"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic-charter"
+    english: "Province charter carries law."
+    ethra: "Paravan-da taw lem."
+    literal: "Province-civic carries law."
+    notes: "Civic regional charter sentence."
+    terms: ["paravan-da", "taw", "lem"]
+  -
+    id: "civic-696"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic-ruling"
+    english: "Venue ruling guides judgment."
+    ethra: "Vanaxar-da pat jav."
+    literal: "Venue-civic guides judgment."
+    notes: "Civic forum sentence for jurisdiction and judgment."
+    terms: ["vanaxar-da", "pat", "jav"]
+  -
+    id: "ritual-679"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn-vow"
+    english: "Solemn scarcity reveals need."
+    ethra: "Ha-sucuaux rah hal."
+    literal: "Ritual-scarcity reveals need."
+    notes: "Ritual scarcity form used before duty is accepted."
+    terms: ["ha-sucuaux", "rah", "hal"]
+  -
+    id: "ritual-680"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn-vow"
+    english: "Solemn abundance carries duty."
+    ethra: "Ha-aubunuc taw dev."
+    literal: "Ritual-abundance carries duty."
+    notes: "Ritual surplus sentence rejecting wasteful entitlement."
+    terms: ["ha-aubunuc", "taw", "dev"]
+  -
+    id: "ritual-681"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn-vow"
+    english: "Solemn wealth binds duty."
+    ethra: "Ha-wutuhul dav dev."
+    literal: "Ritual-wealth binds duty."
+    notes: "Ritual wealth sentence for accountable stewardship."
+    terms: ["ha-wutuhul", "dav", "dev"]
+  -
+    id: "ritual-682"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn-vow"
+    english: "Solemn poverty reveals need."
+    ethra: "Ha-puvurut rah hal."
+    literal: "Ritual-poverty reveals need."
+    notes: "Ritual deprivation sentence for public mercy."
+    terms: ["ha-puvurut", "rah", "hal"]
+  -
+    id: "ritual-683"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "family-kinship"]
+    register: "solemn-vow"
+    english: "Solemn income carries the household."
+    ethra: "Ha-nucumux taw hon."
+    literal: "Ritual-income carries household."
+    notes: "Ritual income sentence binding provision to household care."
+    terms: ["ha-nucumux", "taw", "hon"]
+  -
+    id: "ritual-684"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "family-kinship"]
+    register: "solemn-vow"
+    english: "Solemn salary protects the household."
+    ethra: "Ha-sulurux xap hon."
+    literal: "Ritual-salary protects household."
+    notes: "Ritual compensation sentence for faithful provision."
+    terms: ["ha-sulurux", "xap", "hon"]
+  -
+    id: "ritual-685"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "history-memory"]
+    register: "solemn-vow"
+    english: "Solemn pension carries memory."
+    ethra: "Ha-punusun taw mer."
+    literal: "Ritual-pension carries memory."
+    notes: "Ritual pension sentence for continuity across age."
+    terms: ["ha-punusun", "taw", "mer"]
+  -
+    id: "ritual-686"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "history-memory"]
+    register: "solemn-vow"
+    english: "Solemn savings protect the future."
+    ethra: "Ha-suvugus xap fer."
+    literal: "Ritual-savings protect future."
+    notes: "Ritual future-facing provision sentence."
+    terms: ["ha-suvugus", "xap", "fer"]
+  -
+    id: "ritual-687"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn-vow"
+    english: "Solemn asset carries duty."
+    ethra: "Ha-ausutux taw dev."
+    literal: "Ritual-asset carries duty."
+    notes: "Ritual ownership sentence before accountability."
+    terms: ["ha-ausutux", "taw", "dev"]
+  -
+    id: "ritual-688"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn-warning"
+    english: "Solemn monopoly breaks trust."
+    ethra: "Ha-munupul mak kep."
+    literal: "Ritual-monopoly breaks trust."
+    notes: "Ritual warning against captured power."
+    terms: ["ha-munupul", "mak", "kep"]
+  -
+    id: "ritual-689"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn-notice"
+    english: "Solemn interest rate names price."
+    ethra: "Ha-nuturux nam may."
+    literal: "Ritual-interest-rate names price."
+    notes: "Ritual finance sentence for transparent cost."
+    terms: ["ha-nuturux", "nam", "may"]
+  -
+    id: "ritual-690"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn-vow"
+    english: "Solemn equity stake carries risk."
+    ethra: "Ha-kusux taw kav."
+    literal: "Ritual-equity carries risk."
+    notes: "Ritual stake sentence connecting ownership to consequence."
+    terms: ["ha-kusux", "taw", "kav"]
+  -
+    id: "ritual-691"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "philosophy-metaphysics"]
+    register: "solemn-reflection"
+    english: "Solemn opportunity cost reveals choice."
+    ethra: "Ha-oupucus rah vel."
+    literal: "Ritual-opportunity-cost reveals choice."
+    notes: "Ritual tradeoff sentence before decision."
+    terms: ["ha-oupucus", "rah", "vel"]
+  -
+    id: "ritual-692"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "nature-ecology"]
+    register: "solemn-warning"
+    english: "Solemn externality reveals harm."
+    ethra: "Ha-xuturun rah pan."
+    literal: "Ritual-externality reveals harm."
+    notes: "Ritual consequence sentence for unseen injury."
+    terms: ["ha-xuturun", "rah", "pan"]
+  -
+    id: "ritual-693"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn-warning"
+    english: "Solemn inequality breaks trust."
+    ethra: "Ha-nukulut mak kep."
+    literal: "Ritual-inequality breaks trust."
+    notes: "Ritual distribution warning."
+    terms: ["ha-nukulut", "mak", "kep"]
+  -
+    id: "ritual-694"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "travel-place"]
+    register: "solemn-naming"
+    english: "Solemn coordinate names place."
+    ethra: "Ha-kuputux nam wed."
+    literal: "Ritual-coordinate names place."
+    notes: "Ritual location sentence for naming where duty stands."
+    terms: ["ha-kuputux", "nam", "wed"]
+  -
+    id: "ritual-695"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "travel-place"]
+    register: "solemn-guidance"
+    english: "Solemn latitude guides the map."
+    ethra: "Ha-lututud pat map."
+    literal: "Ritual-latitude guides map."
+    notes: "Ritual navigation sentence."
+    terms: ["ha-lututud", "pat", "map"]
+  -
+    id: "ritual-696"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "travel-place"]
+    register: "solemn-guidance"
+    english: "Solemn longitude guides the map."
+    ethra: "Ha-lunugud pat map."
+    literal: "Ritual-longitude guides map."
+    notes: "Ritual navigation sentence."
+    terms: ["ha-lunugud", "pat", "map"]
+  -
+    id: "tech-905"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Scarcity record reveals need."
+    ethra: "Sacaaax-ket rah hal."
+    literal: "Scarcity-record reveals need."
+    notes: "Technical scarcity record for resource dashboards."
+    terms: ["sacaaax-ket", "rah", "hal"]
+  -
+    id: "tech-906"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Abundance record carries duty."
+    ethra: "Aabanac-ket taw dev."
+    literal: "Abundance-record carries duty."
+    notes: "Technical abundance record for capacity stewardship."
+    terms: ["aabanac-ket", "taw", "dev"]
+  -
+    id: "tech-907"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Wealth ledger binds duty."
+    ethra: "Watahal-ket dav dev."
+    literal: "Wealth-record binds duty."
+    notes: "Technical ledger sentence linking capacity to obligation."
+    terms: ["watahal-ket", "dav", "dev"]
+  -
+    id: "tech-908"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Poverty record reveals need."
+    ethra: "Pavarat-ket rah hal."
+    literal: "Poverty-record reveals need."
+    notes: "Technical deprivation record for public systems."
+    terms: ["pavarat-ket", "rah", "hal"]
+  -
+    id: "tech-909"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "family-kinship"]
+    register: "technical-record"
+    english: "Income record carries the household."
+    ethra: "Nacamax-ket taw hon."
+    literal: "Income-record carries household."
+    notes: "Technical income record for household provision."
+    terms: ["nacamax-ket", "taw", "hon"]
+  -
+    id: "tech-910"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Salary record protects trust."
+    ethra: "Salarax-ket xap kep."
+    literal: "Salary-record protects trust."
+    notes: "Technical compensation record for auditability."
+    terms: ["salarax-ket", "xap", "kep"]
+  -
+    id: "tech-911"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "history-memory"]
+    register: "technical-record"
+    english: "Pension record carries memory."
+    ethra: "Panasan-ket taw mer."
+    literal: "Pension-record carries memory."
+    notes: "Technical deferred-provision record."
+    terms: ["panasan-ket", "taw", "mer"]
+  -
+    id: "tech-912"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "history-memory"]
+    register: "technical-record"
+    english: "Savings record protects future."
+    ethra: "Savagas-ket xap fer."
+    literal: "Savings-record protects future."
+    notes: "Technical savings record for future claims."
+    terms: ["savagas-ket", "xap", "fer"]
+  -
+    id: "tech-913"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-register"
+    english: "Asset record names duty."
+    ethra: "Aasatax-ket nam dev."
+    literal: "Asset-record names duty."
+    notes: "Technical asset record with duty-tag semantics."
+    terms: ["aasatax-ket", "nam", "dev"]
+  -
+    id: "tech-914"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-alert"
+    english: "Monopoly record breaks trust."
+    ethra: "Manapal-ket mak kep."
+    literal: "Monopoly-record breaks trust."
+    notes: "Technical market-power record for concentration alerts."
+    terms: ["manapal-ket", "mak", "kep"]
+  -
+    id: "tech-915"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Interest-rate record names price."
+    ethra: "Natarax-ket nam may."
+    literal: "Interest-rate-record names price."
+    notes: "Technical finance record for rate metadata."
+    terms: ["natarax-ket", "nam", "may"]
+  -
+    id: "tech-916"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Equity record carries risk."
+    ethra: "Kasax-ket taw kav."
+    literal: "Equity-record carries risk."
+    notes: "Technical cap-table record linking stake and risk."
+    terms: ["kasax-ket", "taw", "kav"]
+  -
+    id: "tech-917"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "philosophy-metaphysics"]
+    register: "technical-record"
+    english: "Opportunity-cost record reveals choice."
+    ethra: "Oapacas-ket rah vel."
+    literal: "Opportunity-cost-record reveals choice."
+    notes: "Technical planning record for alternatives."
+    terms: ["oapacas-ket", "rah", "vel"]
+  -
+    id: "tech-918"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "nature-ecology"]
+    register: "technical-record"
+    english: "Externality record reveals harm."
+    ethra: "Xataran-ket rah pan."
+    literal: "Externality-record reveals harm."
+    notes: "Technical externality record for hidden costs."
+    terms: ["xataran-ket", "rah", "pan"]
+  -
+    id: "tech-919"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-alert"
+    english: "Inequality record breaks trust."
+    ethra: "Nakalat-ket mak kep."
+    literal: "Inequality-record breaks trust."
+    notes: "Technical distribution record for trust risk."
+    terms: ["nakalat-ket", "mak", "kep"]
+  -
+    id: "tech-920"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical-record"
+    english: "Coordinate record names place."
+    ethra: "Kapatax-ket nam wed."
+    literal: "Coordinate-record names place."
+    notes: "Technical geolocation record."
+    terms: ["kapatax-ket", "nam", "wed"]
+  -
+    id: "tech-921"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical-record"
+    english: "Latitude record guides the map."
+    ethra: "Latatad-ket pat map."
+    literal: "Latitude-record guides map."
+    notes: "Technical north-south coordinate sentence."
+    terms: ["latatad-ket", "pat", "map"]
+  -
+    id: "tech-922"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical-record"
+    english: "Longitude record guides the map."
+    ethra: "Lanagad-ket pat map."
+    literal: "Longitude-record guides map."
+    notes: "Technical east-west coordinate sentence."
+    terms: ["lanagad-ket", "pat", "map"]
+  -
+    id: "tech-923"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical-record"
+    english: "Elevation record names place."
+    ethra: "Ealavax-ket nam wed."
+    literal: "Elevation-record names place."
+    notes: "Technical terrain record for height metadata."
+    terms: ["ealavax-ket", "nam", "wed"]
+  -
+    id: "tech-924"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place", "family-kinship"]
+    register: "technical-record"
+    english: "Neighborhood record protects the household."
+    ethra: "Nabarah-ket xap hon."
+    literal: "Neighborhood-record protects household."
+    notes: "Technical local-place record for service boundaries."
+    terms: ["nabarah-ket", "xap", "hon"]
+  -
+    id: "tech-925"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance", "travel-place"]
+    register: "technical-record"
+    english: "Province record carries law."
+    ethra: "Paravan-ket taw lem."
+    literal: "Province-record carries law."
+    notes: "Technical regional jurisdiction record."
+    terms: ["paravan-ket", "taw", "lem"]
+  -
+    id: "tech-926"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical-record"
+    english: "County record protects law."
+    ethra: "Canatay-ket xap lem."
+    literal: "County-record protects law."
+    notes: "Technical local district record."
+    terms: ["canatay-ket", "xap", "lem"]
+  -
+    id: "tech-927"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place", "law-governance"]
+    register: "technical-record"
+    english: "Parcel record names boundary."
+    ethra: "Paracal-ket nam benedey."
+    literal: "Parcel-record names boundary."
+    notes: "Technical land-parcel record."
+    terms: ["paracal-ket", "nam", "benedey"]
+  -
+    id: "tech-928"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical-record"
+    english: "Venue record guides judgment."
+    ethra: "Vanaxar-ket pat jav."
+    literal: "Venue-record guides judgment."
+    notes: "Technical forum record for jurisdictional systems."
+    terms: ["vanaxar-ket", "pat", "jav"]
+  -
+    id: "poetic-905"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Scarcity teaches duty."
+    ethra: "Seceaex dak dev."
+    literal: "Scarcity teaches duty."
+    notes: "Poetic scarcity line using instruction as moral pressure."
+    terms: ["seceaex", "dak", "dev"]
+  -
+    id: "poetic-906"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision", "history-memory"]
+    register: "poetic"
+    english: "Abundance remembers duty."
+    ethra: "Aebenec mer dev."
+    literal: "Abundance remembers duty."
+    notes: "Poetic abundance line against forgetful plenty."
+    terms: ["aebenec", "mer", "dev"]
+  -
+    id: "poetic-907"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic-warning"
+    english: "Wealth breaks trust."
+    ethra: "Wetehel mak kep."
+    literal: "Wealth breaks trust."
+    notes: "Poetic warning when stored capacity loses duty."
+    terms: ["wetehel", "mak", "kep"]
+  -
+    id: "poetic-908"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Poverty reveals need."
+    ethra: "Peveret rah hal."
+    literal: "Poverty reveals need."
+    notes: "Poetic deprivation line for mercy and attention."
+    terms: ["peveret", "rah", "hal"]
+  -
+    id: "poetic-909"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision", "family-kinship"]
+    register: "poetic"
+    english: "Income carries the household."
+    ethra: "Necemex taw hon."
+    literal: "Income carries household."
+    notes: "Poetic household provision line."
+    terms: ["necemex", "taw", "hon"]
+  -
+    id: "poetic-910"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Salary binds duty."
+    ethra: "Selerex dav dev."
+    literal: "Salary binds duty."
+    notes: "Poetic compensation line using obligation as cadence."
+    terms: ["selerex", "dav", "dev"]
+  -
+    id: "poetic-911"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision", "history-memory"]
+    register: "poetic"
+    english: "Pension carries memory."
+    ethra: "Penesen taw mer."
+    literal: "Pension carries memory."
+    notes: "Poetic elder provision line."
+    terms: ["penesen", "taw", "mer"]
+  -
+    id: "poetic-912"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision", "history-memory"]
+    register: "poetic"
+    english: "Savings protect the future."
+    ethra: "Seveges xap fer."
+    literal: "Savings protect future."
+    notes: "Poetic future claim line."
+    terms: ["seveges", "xap", "fer"]
+  -
+    id: "poetic-913"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "An asset carries duty."
+    ethra: "Aesetex taw dev."
+    literal: "Asset carries duty."
+    notes: "Poetic ownership line."
+    terms: ["aesetex", "taw", "dev"]
+  -
+    id: "poetic-914"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic-warning"
+    english: "Monopoly breaks trust."
+    ethra: "Menepel mak kep."
+    literal: "Monopoly breaks trust."
+    notes: "Poetic captured-power warning."
+    terms: ["menepel", "mak", "kep"]
+  -
+    id: "poetic-915"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Interest rate names price."
+    ethra: "Neterex nam may."
+    literal: "Interest-rate names price."
+    notes: "Poetic finance line."
+    terms: ["neterex", "nam", "may"]
+  -
+    id: "poetic-916"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Equity stake carries risk."
+    ethra: "Kesex taw kav."
+    literal: "Equity-stake carries risk."
+    notes: "Poetic ownership-share line."
+    terms: ["kesex", "taw", "kav"]
+  -
+    id: "poetic-917"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Opportunity cost reveals choice."
+    ethra: "Oepeces rah vel."
+    literal: "Opportunity-cost reveals choice."
+    notes: "Poetic alternative-value line."
+    terms: ["oepeces", "rah", "vel"]
+  -
+    id: "poetic-918"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision", "nature-ecology"]
+    register: "poetic-warning"
+    english: "Externality carries harm."
+    ethra: "Xeteren taw pan."
+    literal: "Externality carries harm."
+    notes: "Poetic outside-consequence warning."
+    terms: ["xeteren", "taw", "pan"]
+  -
+    id: "poetic-919"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic-warning"
+    english: "Inequality breaks trust."
+    ethra: "Nekelet mak kep."
+    literal: "Inequality breaks trust."
+    notes: "Poetic distribution warning."
+    terms: ["nekelet", "mak", "kep"]
+  -
+    id: "poetic-920"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "Coordinate names place."
+    ethra: "Kepetex nam wed."
+    literal: "Coordinate names place."
+    notes: "Poetic location line."
+    terms: ["kepetex", "nam", "wed"]
+  -
+    id: "poetic-921"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "Latitude guides the map."
+    ethra: "Leteted pat map."
+    literal: "Latitude guides map."
+    notes: "Poetic navigation line."
+    terms: ["leteted", "pat", "map"]
+  -
+    id: "poetic-922"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "Longitude guides the map."
+    ethra: "Leneged pat map."
+    literal: "Longitude guides map."
+    notes: "Poetic navigation line."
+    terms: ["leneged", "pat", "map"]
+  -
+    id: "poetic-923"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "Elevation names place."
+    ethra: "Eelevex nam wed."
+    literal: "Elevation names place."
+    notes: "Poetic height-place line."
+    terms: ["eelevex", "nam", "wed"]
+  -
+    id: "poetic-924"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "history-memory"]
+    register: "poetic"
+    english: "Neighborhood carries memory."
+    ethra: "Nebereh taw mer."
+    literal: "Neighborhood carries memory."
+    notes: "Poetic local continuity line."
+    terms: ["nebereh", "taw", "mer"]
+  -
+    id: "poetic-925"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance", "travel-place"]
+    register: "poetic"
+    english: "Province carries law."
+    ethra: "Pereven taw lem."
+    literal: "Province carries law."
+    notes: "Poetic regional law line."
+    terms: ["pereven", "taw", "lem"]
+  -
+    id: "poetic-926"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance", "history-memory"]
+    register: "poetic"
+    english: "County remembers names."
+    ethra: "Cenetey mer nam."
+    literal: "County remembers name."
+    notes: "Poetic local record line."
+    terms: ["cenetey", "mer", "nam"]
+  -
+    id: "poetic-927"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "law-governance"]
+    register: "poetic"
+    english: "Parcel names boundary."
+    ethra: "Perecel nam benedey."
+    literal: "Parcel names boundary."
+    notes: "Poetic boundary line."
+    terms: ["perecel", "nam", "benedey"]
+  -
+    id: "poetic-928"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "Venue guides judgment."
+    ethra: "Venexer pat jav."
+    literal: "Venue guides judgment."
+    notes: "Poetic forum line."
+    terms: ["venexer", "pat", "jav"]
+  -
+    id: "learner-453"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "Scarcity names need."
+    ethra: "Seceaex nam hal."
+    literal: "Scarcity names need."
+    notes: "A1 scarcity sentence."
+    terms: ["seceaex", "nam", "hal"]
+  -
+    id: "learner-454"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "Abundance carries duty."
+    ethra: "Aebenec taw dev."
+    literal: "Abundance carries duty."
+    notes: "A1 abundance sentence."
+    terms: ["aebenec", "taw", "dev"]
+  -
+    id: "learner-455"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "Wealth carries duty."
+    ethra: "Wetehel taw dev."
+    literal: "Wealth carries duty."
+    notes: "A1 wealth sentence."
+    terms: ["wetehel", "taw", "dev"]
+  -
+    id: "learner-456"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "Poverty reveals need."
+    ethra: "Peveret rah hal."
+    literal: "Poverty reveals need."
+    notes: "A1 poverty sentence."
+    terms: ["peveret", "rah", "hal"]
+  -
+    id: "learner-457"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "learner-a1"
+    english: "Coordinate names place."
+    ethra: "Kepetex nam wed."
+    literal: "Coordinate names place."
+    notes: "A1 coordinate sentence."
+    terms: ["kepetex", "nam", "wed"]
+  -
+    id: "learner-458"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "learner-a1"
+    english: "Emissions reveal harm."
+    ethra: "Mesesen rah pan."
+    literal: "Emissions reveal harm."
+    notes: "A1 pollution sentence."
+    terms: ["mesesen", "rah", "pan"]
+  -
+    id: "learner-459"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology", "history-memory"]
+    register: "learner-a1"
+    english: "Sequestration protects future."
+    ethra: "Sekeset xap fer."
+    literal: "Sequestration protects future."
+    notes: "A1 climate storage sentence."
+    terms: ["sekeset", "xap", "fer"]
+  -
+    id: "learner-460"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "learner-a1"
+    english: "Self-regulation protects attention."
+    ethra: "Seregel xap naf."
+    literal: "Self-regulation protects attention."
+    notes: "A1 emotional governance sentence."
+    terms: ["seregel", "xap", "naf"]
+  -
+    id: "learner-461"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "learner-a1"
+    english: "Idempotence protects release."
+    ethra: "Repesef xap reles."
+    literal: "Idempotence protects release."
+    notes: "A1 software safety sentence."
+    terms: ["repesef", "xap", "reles"]
+  -
+    id: "learner-462"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "learner-a1"
+    english: "Rate limit protects people."
+    ethra: "Retelem xap yes."
+    literal: "Rate-limit protects person."
+    notes: "A1 traffic-control sentence."
+    terms: ["retelem", "xap", "yes"]
+  -
+    id: "learner-463"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training", "history-memory"]
+    register: "learner-a1"
+    english: "Learning transfer carries memory."
+    ethra: "Lereter taw mer."
+    literal: "Learning-transfer carries memory."
+    notes: "A1 education sentence."
+    terms: ["lereter", "taw", "mer"]
+  -
+    id: "learner-464"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training", "conflict-security"]
+    register: "learner-a1"
+    english: "Formative assessment guides repair."
+    ethra: "Femeaes pat tar."
+    literal: "Formative-assessment guides repair."
+    notes: "A1 assessment sentence."
+    terms: ["femeaes", "pat", "tar"]
