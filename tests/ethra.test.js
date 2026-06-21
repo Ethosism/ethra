@@ -7,6 +7,7 @@ const { flattenLexicon } = require("../dist/core/spec.js");
 const { validateWord } = require("../dist/core/phonology.js");
 const { createCompound } = require("../dist/generators/compound.js");
 const { deriveWord, findRoot } = require("../dist/generators/derivation.js");
+const { proposeTerm } = require("../dist/generators/proposal.js");
 
 test("validates simple Ethra phonology", () => {
   assert.equal(validateWord("rah").valid, true);
@@ -225,6 +226,37 @@ test("creates compounds", () => {
   const compound = createCompound(["fer", "dev"], "future-binding duty");
   assert.equal(compound.word, "fer-dev");
   assert.equal(compound.meaning, "future-binding duty");
+});
+
+test("creates governed term proposal packets", () => {
+  const rootProposal = proposeTerm({
+    field: "sacred attention",
+    kind: "root",
+    root: "RAH",
+    domain: "ritual-spiritual",
+    register: "ritual",
+    gloss: "attention placed before sacred witness",
+    example: "Ha rah fen."
+  });
+  assert.equal(rootProposal.status, "candidate");
+  assert.equal(rootProposal.kind, "root");
+  assert.equal(rootProposal.candidate.root, "RH");
+  assert.ok(rootProposal.warnings.some((warning) => warning.includes("collides")));
+  assert.ok(rootProposal.governance.missing_requirements.includes("no obvious collision"));
+
+  const compoundProposal = proposeTerm({
+    field: "honor-bound duty",
+    kind: "compound",
+    components: ["hener", "dev"],
+    domain: "philosophy-metaphysics",
+    register: "civic",
+    gloss: "duty bound to public honor",
+    example: "Hener-dev xap lem."
+  });
+  assert.equal(compoundProposal.kind, "compound");
+  assert.equal(compoundProposal.candidate.word, "hener-dev");
+  assert.equal(compoundProposal.candidate.valid_phonology, true);
+  assert.deepEqual(compoundProposal.governance.missing_requirements, []);
 });
 
 test("loads canonical example translations", () => {

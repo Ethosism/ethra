@@ -72,9 +72,12 @@ Useful commands:
 
 ```bash
 npm run ethra -- compound-summary
+npm run ethra -- propose-term --field "honor-bound duty" --kind compound --components hener,dev --domain philosophy-metaphysics --register civic
 npm run ethra -- list-compounds --domain law-governance
 npm run ethra -- validate-compounds
 ```
+
+For new terminology, prefer `propose-term` before editing the accepted specs directly. A proposal packet keeps morphology, collision checks, domain/register intent, and governance requirements visible during review.
 
 ## Legal And Civic Precision
 

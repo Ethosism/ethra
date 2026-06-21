@@ -5,6 +5,7 @@ import { flattenLexicon, loadSpec } from "../core/spec";
 import { findExample } from "../core/examples";
 import { createCompound } from "../generators/compound";
 import { deriveWord, generateRoot } from "../generators/derivation";
+import { proposeTerm } from "../generators/proposal";
 import {
   corpusSummary,
   corpusExpansionPlan,
@@ -26,7 +27,7 @@ const program = new Command();
 program
   .name("ethra")
   .description("Ethra language tools")
-  .version("0.5.3");
+  .version("0.5.4");
 
 program
   .command("generate-root")
@@ -110,6 +111,33 @@ program
   .option("-g, --gloss <gloss>", "intended gloss")
   .action((options) => {
     console.log(JSON.stringify(createCompound(options.words.split(","), options.gloss), null, 2));
+  });
+
+program
+  .command("propose-term")
+  .description("Create a governed candidate packet for a new root or compound")
+  .requiredOption("-f, --field <field>", "semantic field or proposed definition")
+  .option("-k, --kind <kind>", "proposal kind: root or compound")
+  .option("-d, --domain <domain>", "domain id for review")
+  .option("-r, --register <register>", "intended register")
+  .option("--root <root>", "override generated root consonants for root proposals")
+  .option("-c, --components <components>", "comma-separated compound components")
+  .option("-g, --gloss <gloss>", "intended gloss or definition")
+  .option("-e, --example <example>", "example sentence or usage context")
+  .action((options) => {
+    if (options.kind && !["root", "compound"].includes(options.kind)) {
+      throw new Error("--kind must be either 'root' or 'compound'");
+    }
+    console.log(JSON.stringify(proposeTerm({
+      field: options.field,
+      kind: options.kind,
+      domain: options.domain,
+      register: options.register,
+      root: options.root,
+      components: options.components?.split(","),
+      gloss: options.gloss,
+      example: options.example
+    }), null, 2));
   });
 
 program

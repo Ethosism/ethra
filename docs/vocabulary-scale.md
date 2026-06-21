@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 21,057 explicit lexicon entries, 1,050 root families, and 2,120 reviewed corpus items after the v0.5.3 corpus-search tooling batch. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
+Ethra currently has 21,057 explicit lexicon entries, 1,050 root families, and 2,120 reviewed corpus items after the v0.5.4 term-proposal tooling batch. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
 
 Current progress toward the v1.0 stable-civil-language target:
 
@@ -87,6 +87,8 @@ The v0.5.1 corpus batch adds the first 120 reviewed examples toward v1.0: 24 dai
 The v0.5.2 root batch adds 50 v1 stability roots and 1,000 derived lexicon entries. It deliberately strengthens underweighted civil-language categories: moral agency, love/intimacy, future/civilization, conflict/repair, seeing/knowing, time, family, and emotion. New fields include honor, temperance, courage, humility, fidelity, responsibility, canon, diaspora, heritage, commonwealth, deterrence, negotiation, rescue, crisis, logic, inference, causality, forecast, interval, epoch, custody, calm, panic, jealousy, serenity, and regret.
 
 The v0.5.3 tooling batch adds `search-corpus`, the first v1.0 corpus search command. It searches reviewed examples by English, Ethra, literal translation, notes, accepted terms, and IDs, with structured filters for track, domain, register, term, and result limit.
+
+The v0.5.4 tooling batch adds `propose-term`, a governed candidate packet generator for roots and compounds. It checks phonology, existing components, obvious collisions, related roots, derived previews, review requirements, and example coverage before any proposed term is treated as accepted.
 
 The next numeric gaps are v1.0 gaps: 3,943 more explicit entries, 1,450 more root families, and 7,880 more reviewed corpus items.
 

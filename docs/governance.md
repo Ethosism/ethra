@@ -57,3 +57,13 @@ Ethra must preserve:
 - memory as identity-bearing
 
 No expansion should make those easier to ignore.
+
+## Proposal Tool
+
+Use `propose-term` to create governed candidate packets before accepting new roots or compounds. The tool checks phonology, visible morphology, obvious collisions, related roots, review requirements, and example coverage.
+
+```bash
+npm run ethra -- propose-term --field "honor-bound duty" --kind compound --components hener,dev --domain philosophy-metaphysics --register civic --example "Hener-dev xap lem."
+```
+
+The output is intentionally marked `candidate`. Governance review still decides whether the term becomes provisional, accepted, deprecated, or historical.

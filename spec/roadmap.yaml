@@ -2,7 +2,7 @@ version: "0.2-program"
 purpose: "Civilizational-scale vocabulary and corpus expansion plan for Ethra."
 principle: "Grow expressive coverage without flattening Ethra into translated English. Every expansion must preserve root-depth, moral grammar, relational grammar, cultural continuity, and machine-readable structure."
 current_state:
-  release: "v0.5.3"
+  release: "v0.5.4"
   lexicon_entries: 21057
   root_families: 1050
   corpus_items: 2120
@@ -19,6 +19,7 @@ current_state:
     - "list-patterns"
     - "list-lexicon"
     - "create-compound"
+    - "propose-term"
     - "list-compounds"
     - "compound-summary"
     - "roadmap"
