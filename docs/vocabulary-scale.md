@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 20,057 explicit lexicon entries and 1,380 reviewed corpus items after the v0.3.15 governed corpus expansion batch. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 20,057 explicit lexicon entries and 1,500 reviewed corpus items after the v0.3.16 governed corpus expansion batch. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.5 public-culture target:
 
 ```text
 entries 20,057 / 10,000
 roots     1,000 / 1,000
-corpus    1,380 / 2,000 reviewed items
+corpus    1,500 / 2,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -70,7 +70,9 @@ The v0.3.14 corpus batch adds another 120 reviewed examples, bringing under-cove
 
 The v0.3.15 corpus batch adds 120 more reviewed examples, grounding alignment, reason, simulation, evaluation, labor, stewardship, weaponry, defense, mercy, habitat, media records, kinship, consent, joy, grief, fear, and attention across all six tracks.
 
-The v0.5 entry and root targets are now met. The main remaining v0.5 gap is reviewed corpus depth, now 1,380 / 2,000.
+The v0.3.16 corpus batch adds 120 more reviewed examples, strengthening science/math, economics, education, conflict repair, ecology, travel/place, body-health, media, technical software, and poetic registers while keeping planner-balanced track growth.
+
+The v0.5 entry and root targets are now met. The main remaining v0.5 gap is reviewed corpus depth, now 1,500 / 2,000.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
