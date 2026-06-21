@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 38,057 explicit lexicon entries, 38,212 dictionary entries, 1,900 root families, and 4,040 reviewed corpus items after the v0.9.0 health and media root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 38,057 explicit lexicon entries, 38,212 dictionary entries, 1,900 root families, and 4,160 reviewed corpus items after the v0.9.1 health and media corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
@@ -8,7 +8,7 @@ Current progress toward the v1.0 stable-civil-language target:
 entries 38,057 / 25,000
 dictionary 38,212 entries with corpus evidence fields
 roots     1,900 / 2,500
-corpus    4,040 / 10,000 reviewed items
+corpus    4,160 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -163,7 +163,9 @@ The v0.8.9 economics/provision and travel/place corpus grounding batch adds 120 
 
 The v0.9.0 health and media root batch adds 50 roots and 1,000 derived lexicon entries. It deepens body-health vocabulary with cough, nausea, dizziness, headache, rash, inflammation, bleeding, clotting, swelling, bruises, burns, sprains, strains, cramps, itching, sneezing, blisters, anemia, asthma, migraines, diarrhea, cholesterol, arrhythmia, convulsions, and stroke. It also strengthens public media with headlines, captions, subtitles, advertisements, newsletters, retractions, fact-checking, censorship, whistleblowing, bulletins, briefings, framing, trends, memes, podcasts, streaming, syndication, leaks, bylines, datelines, mastheads, paywalls, feeds, debunking, and scoops.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 600 more root families and 5,960 more reviewed corpus items still needed.
+The v0.9.1 health and media corpus grounding batch adds 120 reviewed examples across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds cough, nausea, dizziness, headache, rash, inflammation, bleeding, clotting, swelling, bruises, burns, cramps, asthma, migraines, cholesterol, arrhythmia, convulsions, stroke, headlines, captions, subtitles, retractions, fact-checking, censorship, whistleblowing, briefings, framing, bylines, datelines, feeds, and debunking in ordinary, civic, ritual, technical, poetic, and learner use.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 600 more root families and 5,840 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 

@@ -1,4 +1,4 @@
-version: "0.8.9-corpus"
+version: "0.9.1-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -39442,6 +39442,246 @@ items:
     notes: "Travel goods are treated as portable household memory."
     terms: ["legegex", "taw", "hon"]
   -
+    id: "daily-809"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "family-kinship"]
+    register: "household"
+    english: "The child coughs. I write the cough."
+    ethra: "Tu cagahax. Na kat cegehex."
+    literal: "Child-student coughs. I write cough."
+    notes: "A symptom becomes care only when it is noticed and recorded."
+    terms: ["tu", "cagahax", "na", "kat", "cegehex"]
+  -
+    id: "daily-810"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "emotion-psychology", "family-kinship"]
+    register: "intimate"
+    english: "I feel nausea. Beloved, guard my care."
+    ethra: "Na nazayax. Ti xap hal."
+    literal: "I nausea. Intimate-you protect care."
+    notes: "Physical aversion is spoken directly in intimate register."
+    terms: ["na", "nazayax", "ti", "xap", "hal"]
+  -
+    id: "daily-811"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The person is dizzy. You guide the person."
+    ethra: "Li dazazay. Ta pat li."
+    literal: "Person grows dizzy. Equal-you guide person."
+    notes: "Care language pairs bodily instability with relational guidance."
+    terms: ["li", "dazazay", "ta", "pat"]
+  -
+    id: "daily-812"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "emotion-psychology", "family-kinship"]
+    register: "intimate"
+    english: "I have a headache. Beloved, protect rest."
+    ethra: "Na hadapax. Ti xap cap."
+    literal: "I headache. Intimate-you protect rest."
+    notes: "Pain is answered with protected quiet rather than dismissal."
+    terms: ["na", "hadapax", "ti", "xap", "cap"]
+  -
+    id: "daily-813"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The rash reveals pain."
+    ethra: "Resehex rah pan."
+    literal: "Rash reveals pain."
+    notes: "Visible skin trouble is treated as evidence, not annoyance."
+    terms: ["resehex", "rah", "pan"]
+  -
+    id: "daily-814"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "Inflammation names care."
+    ethra: "Nefelem nam hal."
+    literal: "Inflammation names care."
+    notes: "The body signals where disciplined repair is needed."
+    terms: ["nefelem", "nam", "hal"]
+  -
+    id: "daily-815"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "I see the bleeding."
+    ethra: "Na rah beledeg."
+    literal: "I see bleeding."
+    notes: "Emergency speech starts with plain recognition."
+    terms: ["na", "rah", "beledeg"]
+  -
+    id: "daily-816"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "Clotting protects the wound-flow."
+    ethra: "Celetex xap beledeg."
+    literal: "Clotting protects bleeding."
+    notes: "Repair can begin as the body limits loss."
+    terms: ["celetex", "xap", "beledeg"]
+  -
+    id: "daily-817"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "Swelling names pain."
+    ethra: "Sewelex nam pan."
+    literal: "Swelling names pain."
+    notes: "The corpus preserves body signs as meaningful speech."
+    terms: ["sewelex", "nam", "pan"]
+  -
+    id: "daily-818"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "history-memory"]
+    register: "plain"
+    english: "The bruise remembers pain."
+    ethra: "Berezex mar pan."
+    literal: "Bruise remembers pain."
+    notes: "A mark on the body is framed as memory requiring care."
+    terms: ["berezex", "mar", "pan"]
+  -
+    id: "daily-819"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "conflict-security"]
+    register: "plain"
+    english: "I repair the burn."
+    ethra: "Na tar beresex."
+    literal: "I repair burn."
+    notes: "Injury vocabulary keeps care active and agentive."
+    terms: ["na", "tar", "beresex"]
+  -
+    id: "daily-820"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "I see the sprain."
+    ethra: "Na rah seperej."
+    literal: "I see sprain."
+    notes: "Ordinary care begins by naming the damaged support."
+    terms: ["na", "rah", "seperej"]
+  -
+    id: "daily-821"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "economics-provision"]
+    register: "plain"
+    english: "The strain remembers work."
+    ethra: "Seterej mar wak."
+    literal: "Strain remembers work."
+    notes: "Labor leaves bodily memory that should not be ignored."
+    terms: ["seterej", "mar", "wak"]
+  -
+    id: "daily-822"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The cramp names rest."
+    ethra: "Ceremep nam cap."
+    literal: "Cramp names rest."
+    notes: "The body can make a claim before the will does."
+    terms: ["ceremep", "nam", "cap"]
+  -
+    id: "daily-823"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "Itching names care."
+    ethra: "Tecehex nam hal."
+    literal: "Itching names care."
+    notes: "Small discomfort still receives precise language."
+    terms: ["tecehex", "nam", "hal"]
+  -
+    id: "daily-824"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "nature-ecology"]
+    register: "plain"
+    english: "The sneeze protects the air."
+    ethra: "Senezex xap wah."
+    literal: "Sneeze protects air."
+    notes: "A reflex is made intelligible as bodily boundary work."
+    terms: ["senezex", "xap", "wah"]
+  -
+    id: "daily-825"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The blister protects pain."
+    ethra: "Beleset xap pan."
+    literal: "Blister protects pain."
+    notes: "The protective pocket is interpreted as damaged tissue asking not to be reopened."
+    terms: ["beleset", "xap", "pan"]
+  -
+    id: "daily-826"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "I see anemia."
+    ethra: "Na rah nemexex."
+    literal: "I see anemia."
+    notes: "Hidden weakness receives explicit care vocabulary."
+    terms: ["na", "rah", "nemexex"]
+  -
+    id: "daily-827"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "nature-ecology"]
+    register: "plain"
+    english: "I see asthma."
+    ethra: "Na rah setemeh."
+    literal: "I see asthma."
+    notes: "Breath trouble is named without shame."
+    terms: ["na", "rah", "setemeh"]
+  -
+    id: "daily-828"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "Migraine reveals pain."
+    ethra: "Megeren rah pan."
+    literal: "Migraine reveals pain."
+    notes: "Severe inward pain is made visible by speech."
+    terms: ["megeren", "rah", "pan"]
+  -
+    id: "daily-829"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "I write the diarrhea."
+    ethra: "Na kat derehex."
+    literal: "I write diarrhea."
+    notes: "Uncomfortable symptoms still belong in accurate care records."
+    terms: ["na", "kat", "derehex"]
+  -
+    id: "daily-830"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "I see cholesterol."
+    ethra: "Na rah ceheles."
+    literal: "I see cholesterol."
+    notes: "Measured risk becomes discussable in ordinary speech."
+    terms: ["na", "rah", "ceheles"]
+  -
+    id: "daily-831"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "Arrhythmia names care."
+    ethra: "Retehem nam hal."
+    literal: "Arrhythmia names care."
+    notes: "A broken rhythm makes a claim on attention."
+    terms: ["retehem", "nam", "hal"]
+  -
+    id: "daily-832"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "Convulsion names care."
+    ethra: "Ceveles nam hal."
+    literal: "Convulsion names care."
+    notes: "Loss of bodily command is given calm, exact language."
+    terms: ["ceveles", "nam", "hal"]
+  -
     id: "civic-589"
     track: "civic-law"
     domain_tags: ["law-governance", "economics-provision"]
@@ -39622,6 +39862,186 @@ items:
     notes: "Failure under obligation opens a cure path."
     terms: ["pu", "dafalat-da", "nam", "tar"]
   -
+    id: "civic-607"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health", "conflict-security"]
+    register: "civic"
+    english: "The public stroke alert names duty."
+    ethra: "Pu satakax-da nam dev."
+    literal: "Public stroke-record names duty."
+    notes: "Emergency recognition becomes a civic obligation to act."
+    terms: ["pu", "satakax-da", "nam", "dev"]
+  -
+    id: "civic-608"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health", "nature-ecology"]
+    register: "civic"
+    english: "The asthma plan protects breath."
+    ethra: "Pu satamah-da xap wah."
+    literal: "Public asthma-record protects air."
+    notes: "Public care treats breath as a shared protection concern."
+    terms: ["pu", "satamah-da", "xap", "wah"]
+  -
+    id: "civic-609"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health"]
+    register: "legal"
+    english: "The bleeding report guides care."
+    ethra: "Pu baladag-da pat hal."
+    literal: "Public bleeding-record guides care."
+    notes: "Triage records make urgent care inspectable."
+    terms: ["pu", "baladag-da", "pat", "hal"]
+  -
+    id: "civic-610"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health"]
+    register: "legal"
+    english: "The inflammation marker guides care."
+    ethra: "Pu nafalam-da pat hal."
+    literal: "Public inflammation-record guides care."
+    notes: "Measured bodily fire becomes actionable public evidence."
+    terms: ["pu", "nafalam-da", "pat", "hal"]
+  -
+    id: "civic-611"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health", "family-kinship"]
+    register: "civic"
+    english: "The rash notice protects the child."
+    ethra: "Pu rasahax-da xap tu."
+    literal: "Public rash-record protects child-student."
+    notes: "Care notices protect vulnerable learners without stigma."
+    terms: ["pu", "rasahax-da", "xap", "tu"]
+  -
+    id: "civic-612"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health", "economics-provision"]
+    register: "civic"
+    english: "The headache record protects work."
+    ethra: "Pu hadapax-da xap wak."
+    literal: "Public headache-record protects work."
+    notes: "Workplace care records protect capacity rather than punish weakness."
+    terms: ["pu", "hadapax-da", "xap", "wak"]
+  -
+    id: "civic-613"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication", "conflict-security"]
+    register: "civic"
+    english: "The headline correction repairs the record."
+    ethra: "Pu hadalan-da tar kot."
+    literal: "Public headline-record repairs book-record."
+    notes: "Public titles are accountable because they govern first attention."
+    terms: ["pu", "hadalan-da", "tar", "kot"]
+  -
+    id: "civic-614"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The caption correction reveals visible truth."
+    ethra: "Pu capatan-da rah rih."
+    literal: "Public caption-record reveals visible-truth."
+    notes: "Image text is governed as public witness."
+    terms: ["pu", "capatan-da", "rah", "rih"]
+  -
+    id: "civic-615"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication", "education-training"]
+    register: "civic"
+    english: "The subtitle standard protects the word."
+    ethra: "Pu sabatat-da xap nem."
+    literal: "Public subtitle-record protects word."
+    notes: "Accessibility text is treated as a civic language right."
+    terms: ["pu", "sabatat-da", "xap", "nem"]
+  -
+    id: "civic-616"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication", "economics-provision"]
+    register: "legal"
+    english: "The advertisement disclosure names the price."
+    ethra: "Pu davaratax-da nam tec."
+    literal: "Public advertisement-record names price."
+    notes: "Paid persuasion must disclose exchange clearly."
+    terms: ["pu", "davaratax-da", "nam", "tec"]
+  -
+    id: "civic-617"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication", "history-memory"]
+    register: "civic"
+    english: "The newsletter archive remembers the people."
+    ethra: "Pu nawalat-da mar lem."
+    literal: "Public newsletter-record remembers people."
+    notes: "Periodic public letters become civic memory."
+    terms: ["pu", "nawalat-da", "mar", "lem"]
+  -
+    id: "civic-618"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication", "conflict-security"]
+    register: "legal"
+    english: "The retraction notice repairs visible truth."
+    ethra: "Pu ratanax-da tar rih."
+    literal: "Public retraction-record repairs visible-truth."
+    notes: "Correction is formalized as public repair, not embarrassment."
+    terms: ["pu", "ratanax-da", "tar", "rih"]
+  -
+    id: "civic-619"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The fact-check report protects visible truth."
+    ethra: "Pu facahak-da xap rih."
+    literal: "Public fact-check-record protects visible-truth."
+    notes: "Verification is a civic defense of truthful attention."
+    terms: ["pu", "facahak-da", "xap", "rih"]
+  -
+    id: "civic-620"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication", "conflict-security"]
+    register: "legal"
+    english: "The censorship order names the right."
+    ethra: "Pu canasar-da nam ret."
+    literal: "Public censorship-record names right."
+    notes: "Suppression must answer to declared protected standing."
+    terms: ["pu", "canasar-da", "nam", "ret"]
+  -
+    id: "civic-621"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication", "conflict-security"]
+    register: "legal"
+    english: "The whistleblower protection carries duty."
+    ethra: "Pu wasalab-da taw dev."
+    literal: "Public whistleblowing-record carries duty."
+    notes: "Protected disclosure is framed as entrusted public burden."
+    terms: ["pu", "wasalab-da", "taw", "dev"]
+  -
+    id: "civic-622"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "The bulletin notice guides the people."
+    ethra: "Pu balalat-da pat lem."
+    literal: "Public bulletin-record guides people."
+    notes: "Short official speech is judged by whether it directs action clearly."
+    terms: ["pu", "balalat-da", "pat", "lem"]
+  -
+    id: "civic-623"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The briefing packet guides choice."
+    ethra: "Pu barafag-da pat vel."
+    literal: "Public briefing-record guides choice."
+    notes: "Compressed public knowledge must improve agency."
+    terms: ["pu", "barafag-da", "pat", "vel"]
+  -
+    id: "civic-624"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The framing disclosure protects recognition."
+    ethra: "Pu faramag-da xap reh."
+    literal: "Public framing-record protects recognition."
+    notes: "Interpretive context must be visible when it shapes judgment."
+    terms: ["pu", "faramag-da", "xap", "reh"]
+  -
     id: "ritual-589"
     track: "ritual-vow"
     domain_tags: ["ritual-spiritual", "economics-provision"]
@@ -39801,6 +40221,186 @@ items:
     literal: "Solemn-default names repair."
     notes: "Failure is not final when repair is named."
     terms: ["ha-dufulut", "nam", "tar"]
+  -
+    id: "ritual-607"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "May the cough reveal care."
+    ethra: "Ha-cuguhux rah hal."
+    literal: "Solemn-cough reveals care."
+    notes: "A small symptom is welcomed into truthful attention."
+    terms: ["ha-cuguhux", "rah", "hal"]
+  -
+    id: "ritual-608"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "May nausea name rest."
+    ethra: "Ha-nuzuyux nam cap."
+    literal: "Solemn-nausea names rest."
+    notes: "The vow register lets the body ask without humiliation."
+    terms: ["ha-nuzuyux", "nam", "cap"]
+  -
+    id: "ritual-609"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health", "emotion-psychology", "family-kinship"]
+    register: "ritual"
+    english: "May dizziness guide the person toward help."
+    ethra: "Ha-duzuzuy pat li."
+    literal: "Solemn-dizziness guides person."
+    notes: "Disorientation becomes a summons to relational steadiness."
+    terms: ["ha-duzuzuy", "pat", "li"]
+  -
+    id: "ritual-610"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "May headache protect rest."
+    ethra: "Ha-hudupux xap cap."
+    literal: "Solemn-headache protects rest."
+    notes: "Pain is allowed to claim a boundary around quiet."
+    terms: ["ha-hudupux", "xap", "cap"]
+  -
+    id: "ritual-611"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "May the rash reveal pain."
+    ethra: "Ha-rusuhux rah pan."
+    literal: "Solemn-rash reveals pain."
+    notes: "Visible distress is received as truthful sign."
+    terms: ["ha-rusuhux", "rah", "pan"]
+  -
+    id: "ritual-612"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health", "conflict-security"]
+    register: "ritual"
+    english: "May inflammation name repair."
+    ethra: "Ha-nufulum nam tar."
+    literal: "Solemn-inflammation names repair."
+    notes: "The body's fire is interpreted as a call toward restoration."
+    terms: ["ha-nufulum", "nam", "tar"]
+  -
+    id: "ritual-613"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "May bleeding name care."
+    ethra: "Ha-buludug nam hal."
+    literal: "Solemn-bleeding names care."
+    notes: "Urgency is given simple ritual speech so action can begin."
+    terms: ["ha-buludug", "nam", "hal"]
+  -
+    id: "ritual-614"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health", "law-governance"]
+    register: "ritual"
+    english: "May stroke name duty."
+    ethra: "Ha-sutukux nam dev."
+    literal: "Solemn-stroke names duty."
+    notes: "Sudden loss binds witnesses to action."
+    terms: ["ha-sutukux", "nam", "dev"]
+  -
+    id: "ritual-615"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "May the headline reveal visible truth."
+    ethra: "Ha-hudulun rah rih."
+    literal: "Solemn-headline reveals visible-truth."
+    notes: "The first public line is placed under truth."
+    terms: ["ha-hudulun", "rah", "rih"]
+  -
+    id: "ritual-616"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "conflict-security"]
+    register: "ritual"
+    english: "May retraction repair visible truth."
+    ethra: "Ha-rutunux tar rih."
+    literal: "Solemn-retraction repairs visible-truth."
+    notes: "Taking back false speech is honored as repair."
+    terms: ["ha-rutunux", "tar", "rih"]
+  -
+    id: "ritual-617"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "May fact-checking protect visible truth."
+    ethra: "Ha-fucuhuk xap rih."
+    literal: "Solemn-fact-check protects visible-truth."
+    notes: "Verification is made dignified rather than merely procedural."
+    terms: ["ha-fucuhuk", "xap", "rih"]
+  -
+    id: "ritual-618"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "law-governance"]
+    register: "ritual"
+    english: "May censorship name the right."
+    ethra: "Ha-cunusur nam ret."
+    literal: "Solemn-censorship names right."
+    notes: "A blocked word must be judged before protected speech."
+    terms: ["ha-cunusur", "nam", "ret"]
+  -
+    id: "ritual-619"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "law-governance"]
+    register: "ritual"
+    english: "May whistleblowing carry duty."
+    ethra: "Ha-wusulub taw dev."
+    literal: "Solemn-whistleblowing carries duty."
+    notes: "Disclosure from inside trust is treated as a burden before truth."
+    terms: ["ha-wusulub", "taw", "dev"]
+  -
+    id: "ritual-620"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "May briefing guide choice."
+    ethra: "Ha-burufug pat vel."
+    literal: "Solemn-briefing guides choice."
+    notes: "Prepared knowledge should strengthen agency."
+    terms: ["ha-burufug", "pat", "vel"]
+  -
+    id: "ritual-621"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "May framing reveal recognition."
+    ethra: "Ha-furumug rah reh."
+    literal: "Solemn-framing reveals recognition."
+    notes: "Context shaping is confessed so sight can become honest."
+    terms: ["ha-furumug", "rah", "reh"]
+  -
+    id: "ritual-622"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "law-governance"]
+    register: "ritual"
+    english: "May the byline bind the word."
+    ethra: "Ha-buyulun dav nem."
+    literal: "Solemn-byline binds word."
+    notes: "Authorship is speech made answerable."
+    terms: ["ha-buyulun", "dav", "nem"]
+  -
+    id: "ritual-623"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "history-memory"]
+    register: "ritual"
+    english: "May the dateline remember the path."
+    ethra: "Ha-dutulun mar pat."
+    literal: "Solemn-dateline remembers path."
+    notes: "Where and when become memory that speech cannot dodge."
+    terms: ["ha-dutulun", "mar", "pat"]
+  -
+    id: "ritual-624"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "conflict-security"]
+    register: "ritual"
+    english: "May debunking repair the word."
+    ethra: "Ha-dubunuk tar nem."
+    literal: "Solemn-debunking repairs word."
+    notes: "False speech is ritually dismantled for the sake of shared attention."
+    terms: ["ha-dubunuk", "tar", "nem"]
   -
     id: "tech-785"
     track: "technical-software"
@@ -40042,6 +40642,246 @@ items:
     notes: "Infrastructure models bind road, land, and water context."
     terms: ["casaway-tel", "map", "wed"]
   -
+    id: "tech-809"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The cough record remembers data."
+    ethra: "Cagahax-ket mar den."
+    literal: "Cough-record remembers data."
+    notes: "Symptom logging treats breath events as structured evidence."
+    terms: ["cagahax-ket", "mar", "den"]
+  -
+    id: "tech-810"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The nausea record protects care."
+    ethra: "Nazayax-ket xap hal."
+    literal: "Nausea-record protects care."
+    notes: "Side-effect tracking keeps subjective symptoms visible."
+    terms: ["nazayax-ket", "xap", "hal"]
+  -
+    id: "tech-811"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The dizziness record guides care."
+    ethra: "Dazazay-ket pat hal."
+    literal: "Dizziness-record guides care."
+    notes: "Balance events become workflow cues for fall prevention."
+    terms: ["dazazay-ket", "pat", "hal"]
+  -
+    id: "tech-812"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The headache record remembers data."
+    ethra: "Hadapax-ket mar den."
+    literal: "Headache-record remembers data."
+    notes: "Patterned pain requires longitudinal memory."
+    terms: ["hadapax-ket", "mar", "den"]
+  -
+    id: "tech-813"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The rash record reveals data."
+    ethra: "Rasahax-ket rah den."
+    literal: "Rash-record reveals data."
+    notes: "Visible symptoms are captured as clinical evidence."
+    terms: ["rasahax-ket", "rah", "den"]
+  -
+    id: "tech-814"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The inflammation record guides care."
+    ethra: "Nafalam-ket pat hal."
+    literal: "Inflammation-record guides care."
+    notes: "Biomarker records turn response into accountable action."
+    terms: ["nafalam-ket", "pat", "hal"]
+  -
+    id: "tech-815"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health", "law-governance"]
+    register: "technical"
+    english: "The bleeding record protects the right."
+    ethra: "Baladag-ket xap ret."
+    literal: "Bleeding-record protects right."
+    notes: "Urgent care records preserve patient standing and accountability."
+    terms: ["baladag-ket", "xap", "ret"]
+  -
+    id: "tech-816"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The clotting record protects care."
+    ethra: "Calatax-ket xap hal."
+    literal: "Clotting-record protects care."
+    notes: "Coagulation events are tracked to avoid invisible risk."
+    terms: ["calatax-ket", "xap", "hal"]
+  -
+    id: "tech-817"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The swelling record reveals data."
+    ethra: "Sawalax-ket rah den."
+    literal: "Swelling-record reveals data."
+    notes: "Edema monitoring makes pressure and change inspectable."
+    terms: ["sawalax-ket", "rah", "den"]
+  -
+    id: "tech-818"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health", "history-memory"]
+    register: "technical"
+    english: "The bruise record remembers data."
+    ethra: "Barazax-ket mar den."
+    literal: "Bruise-record remembers data."
+    notes: "Impact marks are preserved without relying on memory alone."
+    terms: ["barazax-ket", "mar", "den"]
+  -
+    id: "tech-819"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The burn record guides care."
+    ethra: "Barasax-ket pat hal."
+    literal: "Burn-record guides care."
+    notes: "Injury severity becomes an explicit care path."
+    terms: ["barasax-ket", "pat", "hal"]
+  -
+    id: "tech-820"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health", "nature-ecology"]
+    register: "technical"
+    english: "The asthma tool protects breath."
+    ethra: "Satamah-tel xap wah."
+    literal: "Asthma-tool protects air."
+    notes: "Device language treats breath support as protected access."
+    terms: ["satamah-tel", "xap", "wah"]
+  -
+    id: "tech-821"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The migraine record remembers data."
+    ethra: "Magaran-ket mar den."
+    literal: "Migraine-record remembers data."
+    notes: "Trigger records help pain become explainable over time."
+    terms: ["magaran-ket", "mar", "den"]
+  -
+    id: "tech-822"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The cholesterol record reveals data."
+    ethra: "Cahalas-ket rah den."
+    literal: "Cholesterol-record reveals data."
+    notes: "Risk measurement becomes visible without moral accusation."
+    terms: ["cahalas-ket", "rah", "den"]
+  -
+    id: "tech-823"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The arrhythmia record reveals data."
+    ethra: "Rataham-ket rah den."
+    literal: "Arrhythmia-record reveals data."
+    notes: "Rhythm alerts make hidden heart disorder inspectable."
+    terms: ["rataham-ket", "rah", "den"]
+  -
+    id: "tech-824"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health", "conflict-security"]
+    register: "technical"
+    english: "The convulsion record protects the person."
+    ethra: "Cavalas-ket xap li."
+    literal: "Convulsion-record protects person."
+    notes: "Seizure logs are safety tools, not mere notes."
+    terms: ["cavalas-ket", "xap", "li"]
+  -
+    id: "tech-825"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The stroke record guides care."
+    ethra: "Satakax-ket pat hal."
+    literal: "Stroke-record guides care."
+    notes: "Emergency timing is made machine-readable."
+    terms: ["satakax-ket", "pat", "hal"]
+  -
+    id: "tech-826"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The headline tool reveals words."
+    ethra: "Hadalan-tel rah nem."
+    literal: "Headline-tool reveals word."
+    notes: "Publication tooling exposes the first claim made to attention."
+    terms: ["hadalan-tel", "rah", "nem"]
+  -
+    id: "tech-827"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The caption tool reveals visible truth."
+    ethra: "Capatan-tel rah rih."
+    literal: "Caption-tool reveals visible-truth."
+    notes: "Media systems need inspectable image descriptions."
+    terms: ["capatan-tel", "rah", "rih"]
+  -
+    id: "tech-828"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication", "education-training"]
+    register: "technical"
+    english: "The subtitle record protects the word."
+    ethra: "Sabatat-ket xap nem."
+    literal: "Subtitle-record protects word."
+    notes: "Accessible text becomes durable media evidence."
+    terms: ["sabatat-ket", "xap", "nem"]
+  -
+    id: "tech-829"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The fact-check tool protects visible truth."
+    ethra: "Facahak-tel xap rih."
+    literal: "Fact-check-tool protects visible-truth."
+    notes: "Verification tooling enforces the public memory of claims."
+    terms: ["facahak-tel", "xap", "rih"]
+  -
+    id: "tech-830"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication", "law-governance"]
+    register: "technical"
+    english: "The whistleblowing record protects the right."
+    ethra: "Wasalab-ket xap ret."
+    literal: "Whistleblowing-record protects right."
+    notes: "Protected disclosure systems preserve source standing."
+    terms: ["wasalab-ket", "xap", "ret"]
+  -
+    id: "tech-831"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The feed tool guides the word."
+    ethra: "Fadasax-tel pat nem."
+    literal: "Feed-tool guides word."
+    notes: "Attention streams are treated as designed public speech."
+    terms: ["fadasax-tel", "pat", "nem"]
+  -
+    id: "tech-832"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication", "conflict-security"]
+    register: "technical"
+    english: "The debunking record repairs the word."
+    ethra: "Dabanak-ket tar nem."
+    literal: "Debunking-record repairs word."
+    notes: "False claims are corrected into durable media memory."
+    terms: ["dabanak-ket", "tar", "nem"]
+  -
     id: "poetic-785"
     track: "literary-poetic"
     domain_tags: ["art-beauty", "travel-place", "history-memory"]
@@ -40282,6 +41122,246 @@ items:
     notes: "A raised road carries the memory of water beneath it."
     terms: ["cesewey", "mar", "wed"]
   -
+    id: "poetic-809"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health", "nature-ecology"]
+    register: "poetic"
+    english: "Cough reveals air."
+    ethra: "Cegehex rah wah."
+    literal: "Cough reveals air."
+    notes: "Breath becomes visible only when it is interrupted."
+    terms: ["cegehex", "rah", "wah"]
+  -
+    id: "poetic-810"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Nausea names rest."
+    ethra: "Nezeyex nam cap."
+    literal: "Nausea names rest."
+    notes: "The stomach speaks before explanation arrives."
+    terms: ["nezeyex", "nam", "cap"]
+  -
+    id: "poetic-811"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Dizziness reveals emptiness."
+    ethra: "Dezezey rah xed."
+    literal: "Dizziness reveals emptiness."
+    notes: "The lost ground becomes an image for unmoored being."
+    terms: ["dezezey", "rah", "xed"]
+  -
+    id: "poetic-812"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Headache carries rest."
+    ethra: "Hedepex taw cap."
+    literal: "Headache carries rest."
+    notes: "Pain bears the command to withdraw from noise."
+    terms: ["hedepex", "taw", "cap"]
+  -
+    id: "poetic-813"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "The rash reveals pain."
+    ethra: "Resehex rah pan."
+    literal: "Rash reveals pain."
+    notes: "The skin makes the hidden interior public."
+    terms: ["resehex", "rah", "pan"]
+  -
+    id: "poetic-814"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health", "conflict-security"]
+    register: "poetic"
+    english: "Inflammation carries repair."
+    ethra: "Nefelem taw tar."
+    literal: "Inflammation carries repair."
+    notes: "Bodily fire is imagined as the heat of restoration."
+    terms: ["nefelem", "taw", "tar"]
+  -
+    id: "poetic-815"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health", "law-governance"]
+    register: "poetic"
+    english: "Bleeding names duty."
+    ethra: "Beledeg nam dev."
+    literal: "Bleeding names duty."
+    notes: "The visible wound commands witnesses."
+    terms: ["beledeg", "nam", "dev"]
+  -
+    id: "poetic-816"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Clotting builds care."
+    ethra: "Celetex ban hal."
+    literal: "Clotting builds care."
+    notes: "The body's seal becomes the first architecture of healing."
+    terms: ["celetex", "ban", "hal"]
+  -
+    id: "poetic-817"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health", "history-memory"]
+    register: "poetic"
+    english: "Swelling remembers pain."
+    ethra: "Sewelex mar pan."
+    literal: "Swelling remembers pain."
+    notes: "The body enlarges the place where attention is owed."
+    terms: ["sewelex", "mar", "pan"]
+  -
+    id: "poetic-818"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health", "history-memory"]
+    register: "poetic"
+    english: "The bruise remembers pain."
+    ethra: "Berezex mar pan."
+    literal: "Bruise remembers pain."
+    notes: "Color keeps the record after impact has passed."
+    terms: ["berezex", "mar", "pan"]
+  -
+    id: "poetic-819"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Burn names pain."
+    ethra: "Beresex nam pan."
+    literal: "Burn names pain."
+    notes: "Heat writes a hard word on the body."
+    terms: ["beresex", "nam", "pan"]
+  -
+    id: "poetic-820"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Cramp binds rest."
+    ethra: "Ceremep dav cap."
+    literal: "Cramp binds rest."
+    notes: "The tightened muscle forces stillness."
+    terms: ["ceremep", "dav", "cap"]
+  -
+    id: "poetic-821"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health", "nature-ecology"]
+    register: "poetic"
+    english: "Asthma reveals air."
+    ethra: "Setemeh rah wah."
+    literal: "Asthma reveals air."
+    notes: "Breath is noticed most sharply at the gate."
+    terms: ["setemeh", "rah", "wah"]
+  -
+    id: "poetic-822"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Migraine reveals pain."
+    ethra: "Megeren rah pan."
+    literal: "Migraine reveals pain."
+    notes: "Light and ache turn inward truth outward."
+    terms: ["megeren", "rah", "pan"]
+  -
+    id: "poetic-823"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health", "law-governance"]
+    register: "poetic"
+    english: "Stroke names duty."
+    ethra: "Setekex nam dev."
+    literal: "Stroke names duty."
+    notes: "Sudden loss becomes a bell for those nearby."
+    terms: ["setekex", "nam", "dev"]
+  -
+    id: "poetic-824"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication"]
+    register: "poetic"
+    english: "The headline carries the people."
+    ethra: "Hedelen taw lem."
+    literal: "Headline carries people."
+    notes: "A first line can gather a crowd before wisdom speaks."
+    terms: ["hedelen", "taw", "lem"]
+  -
+    id: "poetic-825"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Caption reveals visible truth."
+    ethra: "Cepeten rah rih."
+    literal: "Caption reveals visible-truth."
+    notes: "A small line under an image teaches the eye how to answer."
+    terms: ["cepeten", "rah", "rih"]
+  -
+    id: "poetic-826"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "conflict-security"]
+    register: "poetic"
+    english: "Retraction repairs the word."
+    ethra: "Retenex tar nem."
+    literal: "Retraction repairs word."
+    notes: "Truth sometimes enters speech by the door of correction."
+    terms: ["retenex", "tar", "nem"]
+  -
+    id: "poetic-827"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Fact-checking protects visible truth."
+    ethra: "Fecehek xap rih."
+    literal: "Fact-checking protects visible-truth."
+    notes: "A tested word stands with cleaner light."
+    terms: ["fecehek", "xap", "rih"]
+  -
+    id: "poetic-828"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Censorship names emptiness."
+    ethra: "Ceneser nam xed."
+    literal: "Censorship names emptiness."
+    notes: "A blocked word leaves a shaped absence."
+    terms: ["ceneser", "nam", "xed"]
+  -
+    id: "poetic-829"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "law-governance"]
+    register: "poetic"
+    english: "Whistleblowing carries duty."
+    ethra: "Weseleb taw dev."
+    literal: "Whistleblowing carries duty."
+    notes: "A warning from hidden rooms walks toward public burden."
+    terms: ["weseleb", "taw", "dev"]
+  -
+    id: "poetic-830"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Framing guides sight."
+    ethra: "Feremeg pat rah."
+    literal: "Framing guides seeing."
+    notes: "The window teaches the eye what counts as world."
+    terms: ["feremeg", "pat", "rah"]
+  -
+    id: "poetic-831"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "family-kinship"]
+    register: "poetic"
+    english: "The trend guides the people."
+    ethra: "Terened pat lem."
+    literal: "Trend guides people."
+    notes: "Many eyes move before the people decide what they have seen."
+    terms: ["terened", "pat", "lem"]
+  -
+    id: "poetic-832"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "law-governance"]
+    register: "poetic"
+    english: "The byline binds the name."
+    ethra: "Beyelen dav nam."
+    literal: "Byline binds name."
+    notes: "A named author stands beneath the word."
+    terms: ["beyelen", "dav", "nam"]
+  -
     id: "learner-393"
     track: "learner-graded"
     domain_tags: ["daily-life", "economics-provision"]
@@ -40401,3 +41481,123 @@ items:
     literal: "Causeway protects path."
     notes: "A1 infrastructure sentence."
     terms: ["cesewey", "xap", "pat"]
+  -
+    id: "learner-405"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "Cough names care."
+    ethra: "Cegehex nam hal."
+    literal: "Cough names care."
+    notes: "A1 symptom sentence."
+    terms: ["cegehex", "nam", "hal"]
+  -
+    id: "learner-406"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "Nausea protects rest."
+    ethra: "Nezeyex xap cap."
+    literal: "Nausea protects rest."
+    notes: "A1 care and rest sentence."
+    terms: ["nezeyex", "xap", "cap"]
+  -
+    id: "learner-407"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "The rash reveals pain."
+    ethra: "Resehex rah pan."
+    literal: "Rash reveals pain."
+    notes: "A1 visible symptom sentence."
+    terms: ["resehex", "rah", "pan"]
+  -
+    id: "learner-408"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health", "law-governance"]
+    register: "learner-a1"
+    english: "Bleeding names duty."
+    ethra: "Beledeg nam dev."
+    literal: "Bleeding names duty."
+    notes: "A1 urgency and duty sentence."
+    terms: ["beledeg", "nam", "dev"]
+  -
+    id: "learner-409"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health", "nature-ecology"]
+    register: "learner-a1"
+    english: "Asthma reveals air."
+    ethra: "Setemeh rah wah."
+    literal: "Asthma reveals air."
+    notes: "A1 breath sentence."
+    terms: ["setemeh", "rah", "wah"]
+  -
+    id: "learner-410"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "Stroke names care."
+    ethra: "Setekex nam hal."
+    literal: "Stroke names care."
+    notes: "A1 emergency care sentence."
+    terms: ["setekex", "nam", "hal"]
+  -
+    id: "learner-411"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "learner-a1"
+    english: "The headline names the word."
+    ethra: "Hedelen nam nem."
+    literal: "Headline names word."
+    notes: "A1 public speech sentence."
+    terms: ["hedelen", "nam", "nem"]
+  -
+    id: "learner-412"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "The caption reveals visible truth."
+    ethra: "Cepeten rah rih."
+    literal: "Caption reveals visible-truth."
+    notes: "A1 media truth sentence."
+    terms: ["cepeten", "rah", "rih"]
+  -
+    id: "learner-413"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication", "conflict-security"]
+    register: "learner-a1"
+    english: "Retraction repairs the word."
+    ethra: "Retenex tar nem."
+    literal: "Retraction repairs word."
+    notes: "A1 correction sentence."
+    terms: ["retenex", "tar", "nem"]
+  -
+    id: "learner-414"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "Fact-checking protects visible truth."
+    ethra: "Fecehek xap rih."
+    literal: "Fact-checking protects visible-truth."
+    notes: "A1 verification sentence."
+    terms: ["fecehek", "xap", "rih"]
+  -
+    id: "learner-415"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication", "law-governance"]
+    register: "learner-a1"
+    english: "Whistleblowing carries duty."
+    ethra: "Weseleb taw dev."
+    literal: "Whistleblowing carries duty."
+    notes: "A1 public duty sentence."
+    terms: ["weseleb", "taw", "dev"]
+  -
+    id: "learner-416"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "learner-a1"
+    english: "The feed guides seeing."
+    ethra: "Fedesex pat rah."
+    literal: "Feed guides seeing."
+    notes: "A1 attention sentence."
+    terms: ["fedesex", "pat", "rah"]
