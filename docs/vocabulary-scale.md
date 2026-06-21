@@ -1,12 +1,12 @@
 # Vocabulary Scale
 
-Ethra currently has 12,057 explicit lexicon entries and 600 reviewed corpus items after the v0.3.3 institutional-scale root expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 14,057 explicit lexicon entries and 600 reviewed corpus items after the v0.3.4 human-depth root expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.5 public-culture target:
 
 ```text
-entries 12,057 / 10,000
-roots       600 / 1,000
+entries 14,057 / 10,000
+roots       700 / 1,000
 corpus      600 / 2,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
@@ -46,7 +46,9 @@ The v0.3.2 corpus batch adds 100 reviewed examples grounding public-culture root
 
 The v0.3.3 institutional-scale root batch adds 100 roots for jurisdiction, precedent, liability, warrants, subpoenas, finance, software collaboration, network performance, physics and mathematics, clinical care, public infrastructure, diplomacy, media forms, and conflict/security operations.
 
-The main remaining v0.5 gaps are root depth, now 600 / 1,000, and reviewed corpus depth, now 600 / 2,000.
+The v0.3.4 human-depth root batch adds 100 roots for context, perspective, salience, bias, verification, expertise, vulnerability, tenderness, devotion, forgiveness, conscience, virtue, vice, repentance, discipline, years, nights, anniversaries, anxiety, resentment, loneliness, kinship roles, vigil, sanctuary, renewal, decline, reform, homeland, and continuity.
+
+The main remaining v0.5 gaps are root depth, now 700 / 1,000, and reviewed corpus depth, now 600 / 2,000.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 

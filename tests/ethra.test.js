@@ -104,6 +104,22 @@ test("looks up roots by aliases and derives words", () => {
   const civilization = deriveWord("CVL", "civic-legal");
   assert.equal(civilization.word, "caval-da");
   assert.equal(civilization.root.id, "CVL");
+
+  const context = deriveWord("CXT", "noun");
+  assert.equal(context.word, "cexet");
+  assert.equal(context.root.id, "CXT");
+
+  const vulnerability = deriveWord("VLB", "intimate");
+  assert.equal(vulnerability.word, "mi-valab");
+  assert.equal(vulnerability.root.id, "VLB");
+
+  const conscience = deriveWord("CNS", "record");
+  assert.equal(conscience.word, "canas-ket");
+  assert.equal(conscience.root.id, "CNS");
+
+  const continuity = deriveWord("CNT", "civic-legal");
+  assert.equal(continuity.word, "canat-da");
+  assert.equal(continuity.root.id, "CNT");
 });
 
 test("analyzes known words", () => {
@@ -132,7 +148,7 @@ test("loads canonical example translations", () => {
 test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 12000);
+  assert.ok(entries.length >= 14000);
   for (const category of [
     "Pronouns",
     "Particles",
