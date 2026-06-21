@@ -1,4 +1,4 @@
-version: "0.2.8-corpus"
+version: "0.2.11-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -2801,3 +2801,603 @@ items:
     literal: "Dance begins."
     notes: "Beginner ritual/art sentence with a familiar motion of start."
     terms: ["nep", "gan"]
+  -
+    id: "daily-056"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "The window receives light."
+    ethra: "Wes lun ner."
+    literal: "Window may receive clarity/light."
+    notes: "A basic household sentence using the new window root."
+    terms: ["wes", "lun", "ner"]
+  -
+    id: "daily-057"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "household"
+    english: "The roof protects the house in weather."
+    ethra: "Ceh xap han ko wew."
+    literal: "Roof protects home with weather."
+    notes: "Shelter language ties ordinary architecture to shared vulnerability."
+    terms: ["ceh", "xap", "han", "ko", "wew"]
+  -
+    id: "daily-058"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "emotion-psychology"]
+    register: "household"
+    english: "The grandparent comforts the child."
+    ethra: "Nenes kanal tu."
+    literal: "Grandparent comforts child-student."
+    notes: "Comfort is placed inside intergenerational care."
+    terms: ["nenes", "kanal", "tu"]
+  -
+    id: "daily-059"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "I wait in the queue with patience."
+    ethra: "Na xas ko jeh."
+    literal: "I queue with patience."
+    notes: "Turn-taking is framed as a small practice of restraint."
+    terms: ["na", "xas", "ko", "jeh"]
+  -
+    id: "daily-060"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "The animal drinks water."
+    ethra: "Yeb dar fel."
+    literal: "Animal drinks water."
+    notes: "A simple ecological daily-life sentence."
+    terms: ["yeb", "dar", "fel"]
+  -
+    id: "daily-061"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The seat receives the tired body."
+    ethra: "Cej lun gam biy."
+    literal: "Seat may receive body tired."
+    notes: "Rest is given a concrete household object."
+    terms: ["cej", "lun", "gam", "biy"]
+  -
+    id: "daily-062"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "plain"
+    english: "The letter answers the note."
+    ethra: "Zes vax kez."
+    literal: "Letter answers note."
+    notes: "Written reply is expressed through the answer root."
+    terms: ["zes", "vax", "kez"]
+  -
+    id: "daily-063"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "travel-place"]
+    register: "plain"
+    english: "The arm reaches toward the door."
+    ethra: "Yeh yah ad daw."
+    literal: "Arm reaches toward door."
+    notes: "Bodily agency meets ordinary household movement."
+    terms: ["yeh", "yah", "ad", "daw"]
+  -
+    id: "daily-064"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "history-memory"]
+    register: "plain"
+    english: "Hope opens the day."
+    ethra: "Wenel ap ded."
+    literal: "Hope opens day."
+    notes: "Hope is treated as a daily orientation, not a vague mood."
+    terms: ["wenel", "ap", "ded"]
+  -
+    id: "daily-065"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "The tree is visible."
+    ethra: "Wez e rih."
+    literal: "Tree is visible."
+    notes: "A simple visibility sentence for a new nature root."
+    terms: ["wez", "e", "rih"]
+  -
+    id: "civic-046"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "The citizenship record names the person."
+    ethra: "Zab-ket nam yes."
+    literal: "Citizenship-record names personhood."
+    notes: "Civic membership is tied to recognized personhood."
+    terms: ["zab-ket", "nam", "yes"]
+  -
+    id: "civic-047"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic"
+    english: "Leadership answers before truth."
+    ethra: "Zej vax so-rah."
+    literal: "Leadership answers before-truth."
+    notes: "Authority is grammatically made answerable."
+    terms: ["zej", "vax", "so-rah"]
+  -
+    id: "civic-048"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "The wage record protects the worker."
+    ethra: "Zap-ket xap waken."
+    literal: "Wage-record protects worker."
+    notes: "Labor provision is made auditable through records."
+    terms: ["zap-ket", "xap", "waken"]
+  -
+    id: "civic-049"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "legal"
+    english: "The legal case carries evidence."
+    ethra: "Xek taw deg."
+    literal: "Case carries evidence."
+    notes: "Dispute files are oriented around proof, not performance."
+    terms: ["xek", "taw", "deg"]
+  -
+    id: "civic-050"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The penalty binds the case."
+    ethra: "Xeh dav xek."
+    literal: "Penalty binds case."
+    notes: "Sanction is treated as bounded consequence."
+    terms: ["xeh", "dav", "xek"]
+  -
+    id: "civic-051"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The stewardship mandate protects the forest."
+    ethra: "Tanal-da xap cev."
+    literal: "Stewardship-record protects forest."
+    notes: "Guardianship extends to land and living systems."
+    terms: ["tanal-da", "xap", "cev"]
+  -
+    id: "civic-052"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The coercion complaint names refusal."
+    ethra: "Zaz-da nam fej."
+    literal: "Coercion-record names refusal."
+    notes: "Legal speech distinguishes refusal from mere noncompliance."
+    terms: ["zaz-da", "nam", "fej"]
+  -
+    id: "civic-053"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic"
+    english: "The election record counts the vote."
+    ethra: "Vas-ket nab ves."
+    literal: "Vote-record counts vote."
+    notes: "Public choice is bound to countable record."
+    terms: ["vas-ket", "nab", "ves"]
+  -
+    id: "civic-054"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "emergency"
+    english: "The public alarm opens the gate."
+    ethra: "Pu xej ap gah."
+    literal: "Public alarm opens gate."
+    notes: "Emergency warning is connected to controlled passage."
+    terms: ["pu", "xej", "ap", "gah"]
+  -
+    id: "civic-055"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software"]
+    register: "technical-legal"
+    english: "The endpoint record names the server."
+    ethra: "Zax-ket nam res."
+    literal: "Endpoint-record names server."
+    notes: "Technical infrastructure is made legible for public accountability."
+    terms: ["zax-ket", "nam", "res"]
+  -
+    id: "ritual-046"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "ritual"
+    english: "Prayer carries hope before truth."
+    ethra: "Ha cec taw wenel so-rah."
+    literal: "Solemn prayer carries hope before-truth."
+    notes: "Hope is spoken under witness rather than fantasy."
+    terms: ["ha", "cec", "taw", "wenel", "so-rah"]
+  -
+    id: "ritual-047"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "The myth remembers the ancestor."
+    ethra: "Ha cey mar mez."
+    literal: "Solemn myth remembers ancestor."
+    notes: "Founding image carries remembered source-persons."
+    terms: ["ha", "cey", "mar", "mez"]
+  -
+    id: "ritual-048"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "art-beauty"]
+    register: "ritual"
+    english: "The color of the offering is dignified."
+    ethra: "Ha zec en nek e hid."
+    literal: "Solemn color of offering is dignified."
+    notes: "Visible tone becomes part of ritual fittingness."
+    terms: ["ha", "zec", "en", "nek", "e", "hid"]
+  -
+    id: "ritual-049"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security", "emotion-psychology"]
+    register: "vow"
+    english: "The reconciliation vow names the broken bond."
+    ethra: "Ha ranan-dov nam mik-bel."
+    literal: "Solemn reconciliation-vow names broken-belonging."
+    notes: "Repair is socialized into restored relation."
+    terms: ["ha", "ranan-dov", "nam", "mik-bel"]
+  -
+    id: "ritual-050"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship"]
+    register: "blessing"
+    english: "The grandparent blesses the descendant."
+    ethra: "Ha nenes vab wej."
+    literal: "Solemn grandparent blesses descendant."
+    notes: "Lineage is carried through blessing rather than possession."
+    terms: ["ha", "nenes", "vab", "wej"]
+  -
+    id: "ritual-051"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "history-memory"]
+    register: "vow"
+    english: "We steward the seed for the future."
+    ethra: "Ha num tanal ces so-fer."
+    literal: "Solemn we steward seed for-future."
+    notes: "The seed is treated as a claimant of future care."
+    terms: ["ha", "num", "tanal", "ces", "so-fer"]
+  -
+    id: "ritual-052"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "mourning"
+    english: "Comfort acts with grief."
+    ethra: "Ha kenel val ko gef."
+    literal: "Solemn comfort acts with grief."
+    notes: "Consolation does not erase grief; it accompanies it."
+    terms: ["ha", "kenel", "val", "ko", "gef"]
+  -
+    id: "ritual-053"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "ritual"
+    english: "The forest receives prayer."
+    ethra: "Ha cev lun cec."
+    literal: "Solemn forest may receive prayer."
+    notes: "Ecological care receives a ritual register."
+    terms: ["ha", "cev", "lun", "cec"]
+  -
+    id: "ritual-054"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "emotion-psychology"]
+    register: "ritual"
+    english: "The ocean humbles pride."
+    ethra: "Ha cex haj jed."
+    literal: "Solemn ocean humbles pride."
+    notes: "Scale becomes a teacher of humility."
+    terms: ["ha", "cex", "haj", "jed"]
+  -
+    id: "ritual-055"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory", "media-communication"]
+    register: "ritual"
+    english: "The dream speaks to the people."
+    ethra: "Ha yey nam ad lem."
+    literal: "Solemn dream speaks toward people."
+    notes: "Dream language is admitted only under solemn interpretation."
+    terms: ["ha", "yey", "nam", "ad", "lem"]
+  -
+    id: "tech-046"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "The protocol protects the endpoint."
+    ethra: "Vey xap zex."
+    literal: "Protocol protects endpoint."
+    notes: "Infrastructure safety is expressed through rule-governed contact."
+    terms: ["vey", "xap", "zex"]
+  -
+    id: "tech-047"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "Encryption hides the file."
+    ethra: "Xev day hef."
+    literal: "Encryption hides file."
+    notes: "Protected meaning uses hiddenness without moral evasion."
+    terms: ["xev", "day", "hef"]
+  -
+    id: "tech-048"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The algorithm compresses the data."
+    ethra: "Pez vaz den."
+    literal: "Algorithm compresses data."
+    notes: "Procedure and compact encoding are kept as separate roots."
+    terms: ["pez", "vaz", "den"]
+  -
+    id: "tech-049"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "The cache stores the version."
+    ethra: "Ref wav rey."
+    literal: "Cache stores version."
+    notes: "Temporary memory and release state are distinguished."
+    terms: ["ref", "wav", "rey"]
+  -
+    id: "tech-050"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The server answers the query."
+    ethra: "Res vax kaw."
+    literal: "Server answers query."
+    notes: "Machine response is made answerable rather than magical."
+    terms: ["res", "vax", "kaw"]
+  -
+    id: "tech-051"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The error raises an alarm."
+    ethra: "Rex xaj."
+    literal: "Error alarms."
+    notes: "Fault signals enter repair through explicit warning."
+    terms: ["rex", "xaj"]
+  -
+    id: "tech-052"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The interface shows the queue."
+    ethra: "Rel rah xes."
+    literal: "Interface shows queue."
+    notes: "A control surface makes waiting order visible."
+    terms: ["rel", "rah", "xes"]
+  -
+    id: "tech-053"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The bot runs the protocol."
+    ethra: "Vev rar vey."
+    literal: "Bot runs protocol."
+    notes: "Delegated process remains bound by procedure."
+    terms: ["vev", "rar", "vey"]
+  -
+    id: "tech-054"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The prompt names the language."
+    ethra: "Pey nam tek."
+    literal: "Prompt names language."
+    notes: "System input is tied to linguistic form."
+    terms: ["pey", "nam", "tek"]
+  -
+    id: "tech-055"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The endpoint records the letter."
+    ethra: "Zex kat zes."
+    literal: "Endpoint records letter."
+    notes: "Service contact becomes written memory."
+    terms: ["zex", "kat", "zes"]
+  -
+    id: "poetic-046"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "media-communication"]
+    register: "poetic"
+    english: "A star writes on the ocean."
+    ethra: "Xey kat cex."
+    literal: "Star writes ocean."
+    notes: "Distant light becomes script over great water."
+    terms: ["xey", "kat", "cex"]
+  -
+    id: "poetic-047"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "The mountain holds the myth."
+    ethra: "Yem fav cey."
+    literal: "Mountain holds myth."
+    notes: "Landscape preserves founding image."
+    terms: ["yem", "fav", "cey"]
+  -
+    id: "poetic-048"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "emotion-psychology"]
+    register: "poetic"
+    english: "The forest dreams in rain."
+    ethra: "Cev yay ko leh."
+    literal: "Forest dreams with rain."
+    notes: "Nature imagery joins sleep, water, and rooted life."
+    terms: ["cev", "yay", "ko", "leh"]
+  -
+    id: "poetic-049"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "ritual-spiritual"]
+    register: "poetic"
+    english: "Stone remembers the prayer."
+    ethra: "Yez mar cec."
+    literal: "Stone remembers prayer."
+    notes: "Durable matter becomes a vessel for solemn speech."
+    terms: ["yez", "mar", "cec"]
+  -
+    id: "poetic-050"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "daily-life", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The window is a gate of light."
+    ethra: "Wes e gah en ner."
+    literal: "Window is gate of clarity/light."
+    notes: "Household architecture becomes an image of clarity."
+    terms: ["wes", "e", "gah", "en", "ner"]
+  -
+    id: "poetic-051"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "The seed binds the future."
+    ethra: "Ces dav fer."
+    literal: "Seed binds future."
+    notes: "The smallest living beginning is made morally consequential."
+    terms: ["ces", "dav", "fer"]
+  -
+    id: "poetic-052"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology", "body-health"]
+    register: "poetic"
+    english: "Wonder opens the eye."
+    ethra: "Yej ap fef."
+    literal: "Wonder opens eye."
+    notes: "Attention is awakened before knowledge becomes formal."
+    terms: ["yej", "ap", "fef"]
+  -
+    id: "poetic-053"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "ritual-spiritual"]
+    register: "poetic"
+    english: "The animal watches the moon."
+    ethra: "Yeb rah mel."
+    literal: "Animal sees moon."
+    notes: "Nonhuman life is given a scene of witness."
+    terms: ["yeb", "rah", "mel"]
+  -
+    id: "poetic-054"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "daily-life", "body-health"]
+    register: "poetic"
+    english: "The floor receives the dance."
+    ethra: "Cef lun nep."
+    literal: "Floor may receive dance."
+    notes: "Built surface becomes participant in embodied rhythm."
+    terms: ["cef", "lun", "nep"]
+  -
+    id: "poetic-055"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "media-communication"]
+    register: "poetic"
+    english: "The roof listens to weather."
+    ethra: "Ceh hap wew."
+    literal: "Roof hears weather."
+    notes: "Shelter is personified as receiving sky-condition."
+    terms: ["ceh", "hap", "wew"]
+  -
+    id: "learner-046"
+    track: "learner-graded"
+    domain_tags: ["nature-ecology"]
+    register: "learner-a1"
+    english: "The tree is visible."
+    ethra: "Wez e rih."
+    literal: "Tree is visible."
+    notes: "Beginner nature sentence."
+    terms: ["wez", "e", "rih"]
+  -
+    id: "learner-047"
+    track: "learner-graded"
+    domain_tags: ["daily-life"]
+    register: "learner-a1"
+    english: "The window is clear."
+    ethra: "Wes e ner."
+    literal: "Window is clarity."
+    notes: "Beginner household copula sentence."
+    terms: ["wes", "e", "ner"]
+  -
+    id: "learner-048"
+    track: "learner-graded"
+    domain_tags: ["media-communication", "education-training"]
+    register: "learner-a1"
+    english: "I read the letter."
+    ethra: "Na saj zes."
+    literal: "I read letter."
+    notes: "Introduces the literacy and letter roots together."
+    terms: ["na", "saj", "zes"]
+  -
+    id: "learner-049"
+    track: "learner-graded"
+    domain_tags: ["education-training"]
+    register: "learner-a1"
+    english: "The student studies."
+    ethra: "Tej taj."
+    literal: "Student studies."
+    notes: "Beginner education sentence."
+    terms: ["tej", "taj"]
+  -
+    id: "learner-050"
+    track: "learner-graded"
+    domain_tags: ["education-training"]
+    register: "learner-a1"
+    english: "The mentor teaches."
+    ethra: "Teh dak."
+    literal: "Mentor teaches."
+    notes: "Simple teacher relation with the mentor root."
+    terms: ["teh", "dak"]
+  -
+    id: "learner-051"
+    track: "learner-graded"
+    domain_tags: ["ritual-spiritual"]
+    register: "learner-a1"
+    english: "The prayer begins."
+    ethra: "Cec gan."
+    literal: "Prayer begins."
+    notes: "Beginner ritual noun plus start verb."
+    terms: ["cec", "gan"]
+  -
+    id: "learner-052"
+    track: "learner-graded"
+    domain_tags: ["nature-ecology"]
+    register: "learner-a1"
+    english: "The fish swims."
+    ethra: "Yep yap."
+    literal: "Fish swims."
+    notes: "Noun and verb from the same root family."
+    terms: ["yep", "yap"]
+  -
+    id: "learner-053"
+    track: "learner-graded"
+    domain_tags: ["daily-life"]
+    register: "learner-a1"
+    english: "The queue waits."
+    ethra: "Xes xas."
+    literal: "Queue queues/waits."
+    notes: "Beginner turn-order sentence."
+    terms: ["xes", "xas"]
+  -
+    id: "learner-054"
+    track: "learner-graded"
+    domain_tags: ["technology-software"]
+    register: "learner-a2"
+    english: "The server answers."
+    ethra: "Res vax."
+    literal: "Server answers."
+    notes: "Beginner technical response sentence."
+    terms: ["res", "vax"]
+  -
+    id: "learner-055"
+    track: "learner-graded"
+    domain_tags: ["emotion-psychology"]
+    register: "learner-a1"
+    english: "Hope is clear."
+    ethra: "Wenel e ner."
+    literal: "Hope is clarity."
+    notes: "A learner-safe abstract sentence."
+    terms: ["wenel", "e", "ner"]

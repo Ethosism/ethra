@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 8,057 explicit lexicon entries and 280 reviewed corpus items after the v0.2.10 root-target expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 8,057 explicit lexicon entries and 340 reviewed corpus items after the v0.2.11 corpus-grounding expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.3 everyday-fluency target:
 
 ```text
 entries 8,057 / 3,000
 roots     400 / 400
-corpus    280 / 500 reviewed items
+corpus    340 / 500 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -28,7 +28,11 @@ The v0.2.9 root batch adds 50 roots for everyday fluency and technical civilizat
 
 The v0.2.10 root batch adds 43 roots to meet the v0.3 root target: analysis, comfort, throat, grandparent, reconciliation, stewardship, hope, prudence, protocol, compression, window, weather, tree, penalty, alarm, case, head, queue, encryption, shock, star, animal, arm, wonder, mountain, fish, dream, stone, citizenship, leadership, wage, letter, endpoint, coercion, color, floor, roof, seat, seed, forest, ocean, myth, and prayer.
 
-With v0.2.10, the v0.3 root count is met. The main remaining v0.3 gap is reviewed corpus depth: 280 / 500 items.
+With v0.2.10, the v0.3 root count was met; corpus depth then stood at 280 / 500 items.
+
+The v0.2.11 corpus batch adds 60 reviewed examples across all six corpus tracks, grounding the newest roots in household speech, public law, ritual and vow language, software protocols, poetic nature imagery, and learner-grade sentences.
+
+With v0.2.11, the main remaining v0.3 gap is reviewed corpus depth: 340 / 500 items.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
