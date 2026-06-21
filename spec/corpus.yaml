@@ -1,4 +1,4 @@
-version: "0.8.5-corpus"
+version: "0.8.7-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -38001,3 +38001,1203 @@ items:
     literal: "Keystone-species protects life."
     notes: "A1 ecosystem stability sentence."
     terms: ["keseten", "xap", "bev"]
+  -
+    id: "daily-761"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Satisfaction guides work."
+    ethra: "Setefex pat wak."
+    literal: "Satisfaction guides work."
+    notes: "Grounds enoughness as a practical guide rather than indulgence."
+    terms: ["setefex", "pat", "wak"]
+  -
+    id: "daily-762"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Uplift carries the heart."
+    ethra: "Lefetex taw leb."
+    literal: "Uplift carries heart."
+    notes: "Names rising gladness as embodied support."
+    terms: ["lefetex", "taw", "leb"]
+  -
+    id: "daily-763"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Apathy breaks attention."
+    ethra: "Petehex mak san."
+    literal: "Apathy breaks attention."
+    notes: "Makes indifference visible as damage to noticing."
+    terms: ["petehex", "mak", "san"]
+  -
+    id: "daily-764"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Defensiveness protects the self."
+    ethra: "Defenes xap yes."
+    literal: "Defensiveness protects self."
+    notes: "Allows guardedness to be named before judgment."
+    terms: ["defenes", "xap", "yes"]
+  -
+    id: "daily-765"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Volatility breaks duty."
+    ethra: "Veletey mak dev."
+    literal: "Volatility breaks duty."
+    notes: "Connects unstable feeling to answerability."
+    terms: ["veletey", "mak", "dev"]
+  -
+    id: "daily-766"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Agitation carries fear."
+    ethra: "Aegetex taw xar."
+    literal: "Agitation carries fear."
+    notes: "Distinguishes arousal from clear action."
+    terms: ["aegetex", "taw", "xar"]
+  -
+    id: "daily-767"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "body-health"]
+    register: "plain"
+    english: "Soothing repairs the heart."
+    ethra: "Setehex tar leb."
+    literal: "Soothing repairs heart."
+    notes: "Care is described as truthful settling."
+    terms: ["setehex", "tar", "leb"]
+  -
+    id: "daily-768"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "history-memory"]
+    register: "plain"
+    english: "Heaviness carries grief."
+    ethra: "Heveyex taw gef."
+    literal: "Heaviness carries grief."
+    notes: "Makes interior weight speakable."
+    terms: ["heveyex", "taw", "gef"]
+  -
+    id: "daily-769"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "law-governance"]
+    register: "plain"
+    english: "Humiliation breaks dignity."
+    ethra: "Helemet mak hener."
+    literal: "Humiliation breaks honor/dignity."
+    notes: "Names shame caused by contempt as a repairable wound."
+    terms: ["helemet", "mak", "hener"]
+  -
+    id: "daily-770"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "history-memory"]
+    register: "plain"
+    english: "Rumination carries memory."
+    ethra: "Remenex taw mer."
+    literal: "Rumination carries memory."
+    notes: "Shows repeated thought as memory without release."
+    terms: ["remenex", "taw", "mer"]
+  -
+    id: "daily-771"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "body-health"]
+    register: "plain"
+    english: "Coping protects the self."
+    ethra: "Kepenex xap yes."
+    literal: "Coping protects self."
+    notes: "Burden management is named without glamorizing strain."
+    terms: ["kepenex", "xap", "yes"]
+  -
+    id: "daily-772"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Resolve guides action."
+    ethra: "Reselev pat val."
+    literal: "Resolve guides action."
+    notes: "Settled feeling supports chosen agency."
+    terms: ["reselev", "pat", "val"]
+  -
+    id: "daily-773"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "history-memory"]
+    register: "plain"
+    english: "Consolation repairs grief."
+    ethra: "Cenecel tar gef."
+    literal: "Consolation repairs grief."
+    notes: "Comfort is framed as nearness that honors loss."
+    terms: ["cenecel", "tar", "gef"]
+  -
+    id: "daily-774"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "law-governance"]
+    register: "plain"
+    english: "Endurance carries duty."
+    ethra: "Nederex taw dev."
+    literal: "Endurance carries duty."
+    notes: "Long inward steadiness is tied to obligation."
+    terms: ["nederex", "taw", "dev"]
+  -
+    id: "daily-775"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "conflict-security"]
+    register: "plain"
+    english: "Vigilance protects the path."
+    ethra: "Vegelex xap pat."
+    literal: "Vigilance protects path."
+    notes: "Fear disciplined into useful attention."
+    terms: ["vegelex", "xap", "pat"]
+  -
+    id: "daily-776"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "media-communication"]
+    register: "plain"
+    english: "Affective tone reveals speech."
+    ethra: "Fexetex rah nem."
+    literal: "Affective-tone reveals speech."
+    notes: "Tone is treated as part of what speech communicates."
+    terms: ["fexetex", "rah", "nem"]
+  -
+    id: "daily-777"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Mood swing breaks peace."
+    ethra: "Medesew mak cam."
+    literal: "Mood-swing breaks peace."
+    notes: "Rapid affect shift is distinct from ordinary feeling."
+    terms: ["medesew", "mak", "cam"]
+  -
+    id: "daily-778"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "conflict-security"]
+    register: "plain"
+    english: "Dissonance reveals conflict."
+    ethra: "Desenex rah mak."
+    literal: "Dissonance reveals break/conflict."
+    notes: "Inner mismatch can become a truthful signal."
+    terms: ["desenex", "rah", "mak"]
+  -
+    id: "daily-779"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Withdrawal protects the self."
+    ethra: "Weteher xap yes."
+    literal: "Withdrawal protects self."
+    notes: "Relational retreat is named without automatic condemnation."
+    terms: ["weteher", "xap", "yes"]
+  -
+    id: "daily-780"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "conflict-security"]
+    register: "plain"
+    english: "The freeze response breaks action."
+    ethra: "Ferezen mak val."
+    literal: "Freeze-response breaks action."
+    notes: "Immobilized fear is distinguished from chosen refusal."
+    terms: ["ferezen", "mak", "val"]
+  -
+    id: "daily-781"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "body-health"]
+    register: "plain"
+    english: "Craving carries want."
+    ethra: "Cerevex taw wen."
+    literal: "Craving carries want."
+    notes: "Urgent bodily desire is named apart from agency."
+    terms: ["cerevex", "taw", "wen"]
+  -
+    id: "daily-782"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "body-health"]
+    register: "plain"
+    english: "The flinch protects the body."
+    ethra: "Felenec xap gem."
+    literal: "Flinch protects body."
+    notes: "A reflex can be protective before it is rational."
+    terms: ["felenec", "xap", "gem"]
+  -
+    id: "daily-783"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "body-health"]
+    register: "plain"
+    english: "Pleasure guides care."
+    ethra: "Pelesex pat hal."
+    literal: "Pleasure guides care."
+    notes: "Enjoyment is tied to attention and consent-sensitive care."
+    terms: ["pelesex", "pat", "hal"]
+  -
+    id: "daily-784"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "education-training"]
+    register: "plain"
+    english: "Overwhelm breaks attention."
+    ethra: "Veleweh mak san."
+    literal: "Overwhelm breaks attention."
+    notes: "Capacity flooding is separated from laziness or refusal."
+    terms: ["veleweh", "mak", "san"]
+  -
+    id: "civic-571"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The maximum record guides the rule."
+    ethra: "Maxamam-ket pat rag."
+    literal: "Maximum-record guides rule."
+    notes: "Formal extremum becomes inspectable public reasoning."
+    terms: ["maxamam-ket", "pat", "rag"]
+  -
+    id: "civic-572"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The minimum record protects dignity."
+    ethra: "Mananam-ket xap hener."
+    literal: "Minimum-record protects dignity."
+    notes: "Minimum standards are framed as dignity protections."
+    terms: ["mananam-ket", "xap", "hener"]
+  -
+    id: "civic-573"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The permutation record guides evidence."
+    ethra: "Paramaj-ket pat xeg."
+    literal: "Permutation-record guides evidence."
+    notes: "Ordering changes remain accountable in civic review."
+    terms: ["paramaj-ket", "pat", "xeg"]
+  -
+    id: "civic-574"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The combination record carries evidence."
+    ethra: "Camaban-ket taw xeg."
+    literal: "Combination-record carries evidence."
+    notes: "Selection methods are treated as public evidence."
+    terms: ["camaban-ket", "taw", "xeg"]
+  -
+    id: "civic-575"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The histogram record reveals measure."
+    ethra: "Hasatax-ket rah mas."
+    literal: "Histogram-record reveals measure."
+    notes: "Distribution summaries must be visible to judgment."
+    terms: ["hasatax-ket", "rah", "mas"]
+  -
+    id: "civic-576"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math", "technology-software"]
+    register: "civic"
+    english: "The operator record guides code."
+    ethra: "Oaparat-ket pat ket."
+    literal: "Operator-record guides code."
+    notes: "Formal rules are logged as part of accountable computation."
+    terms: ["oaparat-ket", "pat", "ket"]
+  -
+    id: "civic-577"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The sparsity record protects clarity."
+    ethra: "Saparas-ket xap rih."
+    literal: "Sparsity-record protects clarity."
+    notes: "Meaningful fewness is treated as an audit virtue."
+    terms: ["saparas-ket", "xap", "rih"]
+  -
+    id: "civic-578"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The null-space record reveals emptiness."
+    ethra: "Nalalax-ket rah xed."
+    literal: "Null-space-record reveals emptiness."
+    notes: "A formal absence can be legally relevant."
+    terms: ["nalalax-ket", "rah", "xed"]
+  -
+    id: "civic-579"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The rank record guides judgment."
+    ethra: "Ranakax-ket pat jav."
+    literal: "Rank-record guides judgment."
+    notes: "Dimension count is treated as evidence, not status."
+    terms: ["ranakax-ket", "pat", "jav"]
+  -
+    id: "civic-580"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The determinant record carries proof."
+    ethra: "Dataram-ket taw mas."
+    literal: "Determinant-record carries proof."
+    notes: "Invertibility evidence is preserved in public form."
+    terms: ["dataram-ket", "taw", "mas"]
+  -
+    id: "civic-581"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The adjoint record guides the operator."
+    ethra: "Dajanat-ket pat oeperet."
+    literal: "Adjoint-record guides operator."
+    notes: "Paired transformations are made auditable."
+    terms: ["dajanat-ket", "pat", "oeperet"]
+  -
+    id: "civic-582"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math", "technology-software"]
+    register: "civic"
+    english: "The covariance record reveals data."
+    ethra: "Cavaran-ket rah den."
+    literal: "Covariance-record reveals data."
+    notes: "Joint variation must not be hidden in public analysis."
+    terms: ["cavaran-ket", "rah", "den"]
+  -
+    id: "civic-583"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The monotonicity record protects order."
+    ethra: "Manatan-ket xap rag."
+    literal: "Monotonicity-record protects order."
+    notes: "Order-preserving change becomes a reviewable constraint."
+    terms: ["manatan-ket", "xap", "rag"]
+  -
+    id: "civic-584"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math", "conflict-security"]
+    register: "civic"
+    english: "The bound record protects security."
+    ethra: "Banadas-ket xap xep."
+    literal: "Bound-record protects security."
+    notes: "Formal bounds become safety duties."
+    terms: ["banadas-ket", "xap", "xep"]
+  -
+    id: "civic-585"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math", "ai-cognition"]
+    register: "civic"
+    english: "The projection record guides the model."
+    ethra: "Parajax-ket pat med."
+    literal: "Projection-record guides model."
+    notes: "Dimension reduction is recorded as a model choice."
+    terms: ["parajax-ket", "pat", "med"]
+  -
+    id: "civic-586"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The bijection record protects equivalence."
+    ethra: "Bajacax-ket xap kevelen."
+    literal: "Bijection-record protects equivalence."
+    notes: "Exact correspondence is treated as a claim needing record."
+    terms: ["bajacax-ket", "xap", "kevelen"]
+  -
+    id: "civic-587"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math", "ai-cognition"]
+    register: "civic"
+    english: "The surjection record reveals the model."
+    ethra: "Sarajax-ket rah med."
+    literal: "Surjection-record reveals model."
+    notes: "Coverage of targets is made visible."
+    terms: ["sarajax-ket", "rah", "med"]
+  -
+    id: "civic-588"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The injection record protects clarity."
+    ethra: "Najacax-ket xap rih."
+    literal: "Injection-record protects clarity."
+    notes: "Distinctness preservation becomes an inspectable claim."
+    terms: ["najacax-ket", "xap", "rih"]
+  -
+    id: "ritual-571"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "solemn"
+    english: "Solemnly, satisfaction carries peace."
+    ethra: "Ha setefex taw cam."
+    literal: "Solemn satisfaction carries peace."
+    notes: "Enoughness is given a place in solemn speech."
+    terms: ["ha", "setefex", "taw", "cam"]
+  -
+    id: "ritual-572"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "solemn"
+    english: "Solemnly, uplift carries joy."
+    ethra: "Ha lefetex taw jaw."
+    literal: "Solemn uplift carries joy."
+    notes: "Rising gladness is treated as shareable blessing."
+    terms: ["ha", "lefetex", "taw", "jaw"]
+  -
+    id: "ritual-573"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "solemn"
+    english: "Solemnly, apathy breaks attention."
+    ethra: "Ha petehex mak san."
+    literal: "Solemn apathy breaks attention."
+    notes: "Apathy is named as failure of sacred noticing."
+    terms: ["ha", "petehex", "mak", "san"]
+  -
+    id: "ritual-574"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "solemn"
+    english: "Solemnly, defensiveness protects the self."
+    ethra: "Ha defenes xap yes."
+    literal: "Solemn defensiveness protects self."
+    notes: "Guardedness is confessed without erasing self-protection."
+    terms: ["ha", "defenes", "xap", "yes"]
+  -
+    id: "ritual-575"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "solemn"
+    english: "Solemnly, volatility breaks peace."
+    ethra: "Ha veletey mak cam."
+    literal: "Solemn volatility breaks peace."
+    notes: "Unstable feeling is brought before repair."
+    terms: ["ha", "veletey", "mak", "cam"]
+  -
+    id: "ritual-576"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "solemn"
+    english: "Solemnly, agitation carries fear."
+    ethra: "Ha aegetex taw xar."
+    literal: "Solemn agitation carries fear."
+    notes: "Restless fear is named instead of hidden."
+    terms: ["ha", "aegetex", "taw", "xar"]
+  -
+    id: "ritual-577"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "solemn"
+    english: "Solemnly, soothing repairs the heart."
+    ethra: "Ha setehex tar leb."
+    literal: "Solemn soothing repairs heart."
+    notes: "Careful comfort becomes ritual repair."
+    terms: ["ha", "setehex", "tar", "leb"]
+  -
+    id: "ritual-578"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology", "history-memory"]
+    register: "solemn"
+    english: "Solemnly, heaviness carries grief."
+    ethra: "Ha heveyex taw gef."
+    literal: "Solemn heaviness carries grief."
+    notes: "The weight of sorrow is permitted in vow language."
+    terms: ["ha", "heveyex", "taw", "gef"]
+  -
+    id: "ritual-579"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology", "law-governance"]
+    register: "solemn"
+    english: "Solemnly, humiliation repairs dignity."
+    ethra: "Ha helemet tar hener."
+    literal: "Solemn humiliation repairs dignity."
+    notes: "The sentence points humiliation toward restoration."
+    terms: ["ha", "helemet", "tar", "hener"]
+  -
+    id: "ritual-580"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology", "history-memory"]
+    register: "solemn"
+    english: "Solemnly, rumination carries memory."
+    ethra: "Ha remenex taw mer."
+    literal: "Solemn rumination carries memory."
+    notes: "Looping thought is admitted into solemn attention."
+    terms: ["ha", "remenex", "taw", "mer"]
+  -
+    id: "ritual-581"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "solemn"
+    english: "Solemnly, coping protects the heart."
+    ethra: "Ha kepenex xap leb."
+    literal: "Solemn coping protects heart."
+    notes: "Burden management is treated as mercy toward the self."
+    terms: ["ha", "kepenex", "xap", "leb"]
+  -
+    id: "ritual-582"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology", "law-governance"]
+    register: "solemn"
+    english: "Solemnly, resolve carries duty."
+    ethra: "Ha reselev taw dev."
+    literal: "Solemn resolve carries duty."
+    notes: "Determination is bound to answerability."
+    terms: ["ha", "reselev", "taw", "dev"]
+  -
+    id: "ritual-583"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology", "history-memory"]
+    register: "solemn"
+    english: "Solemnly, consolation repairs grief."
+    ethra: "Ha cenecel tar gef."
+    literal: "Solemn consolation repairs grief."
+    notes: "Comfort is not denial but near repair."
+    terms: ["ha", "cenecel", "tar", "gef"]
+  -
+    id: "ritual-584"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology", "law-governance"]
+    register: "solemn"
+    english: "Solemnly, endurance carries duty."
+    ethra: "Ha nederex taw dev."
+    literal: "Solemn endurance carries duty."
+    notes: "Long strain is acknowledged as vow-bearing."
+    terms: ["ha", "nederex", "taw", "dev"]
+  -
+    id: "ritual-585"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology", "conflict-security"]
+    register: "solemn"
+    english: "Solemnly, vigilance protects the people."
+    ethra: "Ha vegelex xap lem."
+    literal: "Solemn vigilance protects people."
+    notes: "Watchfulness is given public moral scope."
+    terms: ["ha", "vegelex", "xap", "lem"]
+  -
+    id: "ritual-586"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology", "media-communication"]
+    register: "solemn"
+    english: "Solemnly, affective tone reveals speech."
+    ethra: "Ha fexetex rah nem."
+    literal: "Solemn affective-tone reveals speech."
+    notes: "The emotional color of words is made accountable."
+    terms: ["ha", "fexetex", "rah", "nem"]
+  -
+    id: "ritual-587"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology", "daily-life"]
+    register: "solemn"
+    english: "Solemnly, burnout repairs work."
+    ethra: "Ha berenex tar wak."
+    literal: "Solemn burnout repairs work."
+    notes: "Exhausted depletion is turned toward recovery."
+    terms: ["ha", "berenex", "tar", "wak"]
+  -
+    id: "ritual-588"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "solemn"
+    english: "Solemnly, overwhelm breaks attention."
+    ethra: "Ha veleweh mak san."
+    literal: "Solemn overwhelm breaks attention."
+    notes: "Capacity flooding is admitted as a real limit."
+    terms: ["ha", "veleweh", "mak", "san"]
+  -
+    id: "tech-761"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical"
+    english: "The maximum guides the model."
+    ethra: "Mexemem pat med."
+    literal: "Maximum guides model."
+    notes: "Optimization vocabulary enters technical model speech."
+    terms: ["mexemem", "pat", "med"]
+  -
+    id: "tech-762"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical"
+    english: "The minimum protects the model."
+    ethra: "Menenem xap med."
+    literal: "Minimum protects model."
+    notes: "Lower bounds are expressed as model constraints."
+    terms: ["menenem", "xap", "med"]
+  -
+    id: "tech-763"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical"
+    english: "Permutation data guides the model."
+    ethra: "Peremej den pat med."
+    literal: "Permutation data guides model."
+    notes: "Ordering variants are treated as model input."
+    terms: ["peremej", "den", "pat", "med"]
+  -
+    id: "tech-764"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical"
+    english: "Combination data feeds the model."
+    ethra: "Cemeben den fad med."
+    literal: "Combination data feeds model."
+    notes: "Selection sets enter technical training language."
+    terms: ["cemeben", "den", "fad", "med"]
+  -
+    id: "tech-765"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The histogram reveals data."
+    ethra: "Hesetex rah den."
+    literal: "Histogram reveals data."
+    notes: "Distribution shape is made visible."
+    terms: ["hesetex", "rah", "den"]
+  -
+    id: "tech-766"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The operator guides data."
+    ethra: "Oeperet pat den."
+    literal: "Operator guides data."
+    notes: "Formal transformations enter software register."
+    terms: ["oeperet", "pat", "den"]
+  -
+    id: "tech-767"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical"
+    english: "Sparsity protects the model."
+    ethra: "Seperes xap med."
+    literal: "Sparsity protects model."
+    notes: "Few-active structure becomes a model virtue."
+    terms: ["seperes", "xap", "med"]
+  -
+    id: "tech-768"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The null space reveals emptiness."
+    ethra: "Nelelex rah xed."
+    literal: "Null-space reveals emptiness."
+    notes: "Zero-mapped direction is grounded as formal absence."
+    terms: ["nelelex", "rah", "xed"]
+  -
+    id: "tech-769"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical"
+    english: "Rank guides the model."
+    ethra: "Renekex pat med."
+    literal: "Rank guides model."
+    notes: "Independent dimension count supports model diagnosis."
+    terms: ["renekex", "pat", "med"]
+  -
+    id: "tech-770"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The determinant reveals order."
+    ethra: "Deterem rah rag."
+    literal: "Determinant reveals order."
+    notes: "The determinant is tied to structural visibility."
+    terms: ["deterem", "rah", "rag"]
+  -
+    id: "tech-771"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The adjoint guides the operator."
+    ethra: "Dejenet pat oeperet."
+    literal: "Adjoint guides operator."
+    notes: "Paired operators become usable in technical prose."
+    terms: ["dejenet", "pat", "oeperet"]
+  -
+    id: "tech-772"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Covariance reveals data."
+    ethra: "Ceveren rah den."
+    literal: "Covariance reveals data."
+    notes: "Joint variation is exposed for inspection."
+    terms: ["ceveren", "rah", "den"]
+  -
+    id: "tech-773"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Monotonicity protects order."
+    ethra: "Meneten xap rag."
+    literal: "Monotonicity protects order."
+    notes: "Order-preserving behavior is named as a constraint."
+    terms: ["meneten", "xap", "rag"]
+  -
+    id: "tech-774"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical"
+    english: "The bound protects the model."
+    ethra: "Benedes xap med."
+    literal: "Bound protects model."
+    notes: "Formal limits become model safety language."
+    terms: ["benedes", "xap", "med"]
+  -
+    id: "tech-775"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical"
+    english: "Projection guides the model."
+    ethra: "Perejex pat med."
+    literal: "Projection guides model."
+    notes: "A reduced view is made explicit as a model act."
+    terms: ["perejex", "pat", "med"]
+  -
+    id: "tech-776"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Bijection protects equivalence."
+    ethra: "Bejecex xap kevelen."
+    literal: "Bijection protects equivalence."
+    notes: "One-to-one correspondence grounds exact equivalence."
+    terms: ["bejecex", "xap", "kevelen"]
+  -
+    id: "tech-777"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical"
+    english: "Surjection guides the model."
+    ethra: "Serejex pat med."
+    literal: "Surjection guides model."
+    notes: "Coverage of target space is treated as a model property."
+    terms: ["serejex", "pat", "med"]
+  -
+    id: "tech-778"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Injection protects clarity."
+    ethra: "Nejecex xap rih."
+    literal: "Injection protects clarity."
+    notes: "Distinct inputs remain inspectably distinct."
+    terms: ["nejecex", "xap", "rih"]
+  -
+    id: "tech-779"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Homomorphism carries order."
+    ethra: "Hemeref taw rag."
+    literal: "Homomorphism carries order."
+    notes: "Structure-preserving maps become ordinary technical vocabulary."
+    terms: ["hemeref", "taw", "rag"]
+  -
+    id: "tech-780"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Summation carries number."
+    ethra: "Segemes taw nab."
+    literal: "Summation carries number."
+    notes: "Accumulation is grounded in number speech."
+    terms: ["segemes", "taw", "nab"]
+  -
+    id: "tech-781"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "media-communication"]
+    register: "technical"
+    english: "Lambda abstraction guides code."
+    ethra: "Lemebex pat ket."
+    literal: "Lambda-abstraction guides code."
+    notes: "Scope-bound functions enter code language."
+    terms: ["lemebex", "pat", "ket"]
+  -
+    id: "tech-782"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Induction carries proof."
+    ethra: "Nedeket taw mas."
+    literal: "Induction carries proof."
+    notes: "Succession proof is tied to formal evidence."
+    terms: ["nedeket", "taw", "mas"]
+  -
+    id: "tech-783"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "media-communication"]
+    register: "technical"
+    english: "Recursion guides code."
+    ethra: "Receres pat ket."
+    literal: "Recursion guides code."
+    notes: "Self-calling rules become normal software vocabulary."
+    terms: ["receres", "pat", "ket"]
+  -
+    id: "tech-784"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical"
+    english: "The basis protects the model."
+    ethra: "Besepes xap med."
+    literal: "Basis protects model."
+    notes: "Spanning support is represented as model structure."
+    terms: ["besepes", "xap", "med"]
+  -
+    id: "poetic-761"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "emotion-psychology"]
+    register: "poetic"
+    english: "The maximum teaches the heart."
+    ethra: "Mexemem dak leb."
+    literal: "Maximum teaches heart."
+    notes: "Peak value becomes an image for interior discipline."
+    terms: ["mexemem", "dak", "leb"]
+  -
+    id: "poetic-762"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "ritual-spiritual"]
+    register: "poetic"
+    english: "The minimum protects beauty."
+    ethra: "Menenem xap had."
+    literal: "Minimum protects beauty."
+    notes: "Small sufficiency is treated as graceful restraint."
+    terms: ["menenem", "xap", "had"]
+  -
+    id: "poetic-763"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "history-memory"]
+    register: "poetic"
+    english: "Permutation carries memory."
+    ethra: "Peremej taw mer."
+    literal: "Permutation carries memory."
+    notes: "The same members in new order become an image of recollection."
+    terms: ["peremej", "taw", "mer"]
+  -
+    id: "poetic-764"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "history-memory"]
+    register: "poetic"
+    english: "Combination builds the people."
+    ethra: "Cemeben ban lem."
+    literal: "Combination builds people."
+    notes: "Selection and joining are linked to culture-making."
+    terms: ["cemeben", "ban", "lem"]
+  -
+    id: "poetic-765"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The histogram reveals the people."
+    ethra: "Hesetex rah lem."
+    literal: "Histogram reveals people."
+    notes: "Counted shape is made humanly inspectable."
+    terms: ["hesetex", "rah", "lem"]
+  -
+    id: "poetic-766"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "media-communication"]
+    register: "poetic"
+    english: "Sparsity protects silence."
+    ethra: "Seperes xap cez."
+    literal: "Sparsity protects silence."
+    notes: "Meaningful fewness is rendered as poetic restraint."
+    terms: ["seperes", "xap", "cez"]
+  -
+    id: "poetic-767"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The null space carries emptiness."
+    ethra: "Nelelex taw xed."
+    literal: "Null-space carries emptiness."
+    notes: "Formal zero becomes a philosophical image."
+    terms: ["nelelex", "taw", "xed"]
+  -
+    id: "poetic-768"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "law-governance"]
+    register: "poetic"
+    english: "Rank judges dignity."
+    ethra: "Renekex jav hener."
+    literal: "Rank judges dignity."
+    notes: "The line warns against confusing measure with worth."
+    terms: ["renekex", "jav", "hener"]
+  -
+    id: "poetic-769"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "conflict-security"]
+    register: "poetic"
+    english: "The determinant reveals rupture."
+    ethra: "Deterem rah mak."
+    literal: "Determinant reveals break."
+    notes: "A small formal sign exposes collapse or preservation."
+    terms: ["deterem", "rah", "mak"]
+  -
+    id: "poetic-770"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The adjoint carries action."
+    ethra: "Dejenet taw val."
+    literal: "Adjoint carries action."
+    notes: "A paired operator becomes an answer to agency."
+    terms: ["dejenet", "taw", "val"]
+  -
+    id: "poetic-771"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Covariance carries reason."
+    ethra: "Ceveren taw raj."
+    literal: "Covariance carries reason."
+    notes: "Shared variation is interpreted as disciplined thought."
+    terms: ["ceveren", "taw", "raj"]
+  -
+    id: "poetic-772"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "travel-place"]
+    register: "poetic"
+    english: "Monotonicity carries the path."
+    ethra: "Meneten taw pat."
+    literal: "Monotonicity carries path."
+    notes: "One-direction change becomes a journey image."
+    terms: ["meneten", "taw", "pat"]
+  -
+    id: "poetic-773"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "law-governance"]
+    register: "poetic"
+    english: "The bound protects freedom."
+    ethra: "Benedes xap sel."
+    literal: "Bound protects freedom."
+    notes: "Constraint is shown as a condition of responsible liberty."
+    terms: ["benedes", "xap", "sel"]
+  -
+    id: "poetic-774"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Projection reveals the self."
+    ethra: "Perejex rah yes."
+    literal: "Projection reveals self."
+    notes: "A partial view is allowed to reveal without exhausting identity."
+    terms: ["perejex", "rah", "yes"]
+  -
+    id: "poetic-775"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "law-governance"]
+    register: "poetic"
+    english: "Homomorphism carries order."
+    ethra: "Hemeref taw rag."
+    literal: "Homomorphism carries order."
+    notes: "Preserved structure is given civic-poetic weight."
+    terms: ["hemeref", "taw", "rag"]
+  -
+    id: "poetic-776"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Summation carries evidence."
+    ethra: "Segemes taw xeg."
+    literal: "Summation carries evidence."
+    notes: "Many small terms become one account."
+    terms: ["segemes", "taw", "xeg"]
+  -
+    id: "poetic-777"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "media-communication"]
+    register: "poetic"
+    english: "Lambda abstraction protects the name."
+    ethra: "Lemebex xap nam."
+    literal: "Lambda-abstraction protects name."
+    notes: "Anonymous function form becomes an image of scoped naming."
+    terms: ["lemebex", "xap", "nam"]
+  -
+    id: "poetic-778"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "history-memory"]
+    register: "poetic"
+    english: "Induction carries the future."
+    ethra: "Nedeket taw fer."
+    literal: "Induction carries future."
+    notes: "The next step inherits the base case."
+    terms: ["nedeket", "taw", "fer"]
+  -
+    id: "poetic-779"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "history-memory"]
+    register: "poetic"
+    english: "Recursion remembers the path."
+    ethra: "Receres mar pat."
+    literal: "Recursion remembers path."
+    notes: "Return without loss is cast as memory."
+    terms: ["receres", "mar", "pat"]
+  -
+    id: "poetic-780"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "travel-place"]
+    register: "poetic"
+    english: "The basis builds the world."
+    ethra: "Besepes ban wed."
+    literal: "Basis builds world."
+    notes: "Spanning supports become world-making foundations."
+    terms: ["besepes", "ban", "wed"]
+  -
+    id: "poetic-781"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "conflict-security"]
+    register: "poetic"
+    english: "Equivalence repairs rupture."
+    ethra: "Kevelen tar mak."
+    literal: "Equivalence repairs break."
+    notes: "Relation-same standing is treated as reconciliation of forms."
+    terms: ["kevelen", "tar", "mak"]
+  -
+    id: "poetic-782"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology", "law-governance"]
+    register: "poetic"
+    english: "Resolve carries duty."
+    ethra: "Reselev taw dev."
+    literal: "Resolve carries duty."
+    notes: "Determination is given moral weight."
+    terms: ["reselev", "taw", "dev"]
+  -
+    id: "poetic-783"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology", "history-memory"]
+    register: "poetic"
+    english: "Consolation carries grief."
+    ethra: "Cenecel taw gef."
+    literal: "Consolation carries grief."
+    notes: "Comfort does not discard sorrow."
+    terms: ["cenecel", "taw", "gef"]
+  -
+    id: "poetic-784"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology", "media-communication"]
+    register: "poetic"
+    english: "Overwhelm breaks silence."
+    ethra: "Veleweh mak cez."
+    literal: "Overwhelm breaks silence."
+    notes: "Too-muchness forces speech out of quiet."
+    terms: ["veleweh", "mak", "cez"]
+  -
+    id: "learner-381"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "The maximum guides number."
+    ethra: "Mexemem pat nab."
+    literal: "Maximum guides number."
+    notes: "A1 formal math sentence."
+    terms: ["mexemem", "pat", "nab"]
+  -
+    id: "learner-382"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "The minimum protects measure."
+    ethra: "Menenem xap mas."
+    literal: "Minimum protects measure."
+    notes: "A1 formal math sentence."
+    terms: ["menenem", "xap", "mas"]
+  -
+    id: "learner-383"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math", "technology-software"]
+    register: "learner-a1"
+    english: "The histogram reveals data."
+    ethra: "Hesetex rah den."
+    literal: "Histogram reveals data."
+    notes: "A1 data sentence."
+    terms: ["hesetex", "rah", "den"]
+  -
+    id: "learner-384"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math", "technology-software"]
+    register: "learner-a1"
+    english: "The operator guides code."
+    ethra: "Oeperet pat ket."
+    literal: "Operator guides code."
+    notes: "A1 code sentence."
+    terms: ["oeperet", "pat", "ket"]
+  -
+    id: "learner-385"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math", "ai-cognition"]
+    register: "learner-a1"
+    english: "The bound protects the model."
+    ethra: "Benedes xap med."
+    literal: "Bound protects model."
+    notes: "A1 model sentence."
+    terms: ["benedes", "xap", "med"]
+  -
+    id: "learner-386"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Equivalence protects truth."
+    ethra: "Kevelen xap rih."
+    literal: "Equivalence protects truth."
+    notes: "A1 equivalence sentence."
+    terms: ["kevelen", "xap", "rih"]
+  -
+    id: "learner-387"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "learner-a1"
+    english: "Satisfaction carries peace."
+    ethra: "Setefex taw cam."
+    literal: "Satisfaction carries peace."
+    notes: "A1 feeling sentence."
+    terms: ["setefex", "taw", "cam"]
+  -
+    id: "learner-388"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "learner-a1"
+    english: "Apathy breaks attention."
+    ethra: "Petehex mak san."
+    literal: "Apathy breaks attention."
+    notes: "A1 attention sentence."
+    terms: ["petehex", "mak", "san"]
+  -
+    id: "learner-389"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "learner-a1"
+    english: "Soothing repairs the heart."
+    ethra: "Setehex tar leb."
+    literal: "Soothing repairs heart."
+    notes: "A1 care sentence."
+    terms: ["setehex", "tar", "leb"]
+  -
+    id: "learner-390"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "emotion-psychology", "history-memory"]
+    register: "learner-a1"
+    english: "Rumination carries memory."
+    ethra: "Remenex taw mer."
+    literal: "Rumination carries memory."
+    notes: "A1 memory sentence."
+    terms: ["remenex", "taw", "mer"]
+  -
+    id: "learner-391"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "learner-a1"
+    english: "Burnout breaks work."
+    ethra: "Berenex mak wak."
+    literal: "Burnout breaks work."
+    notes: "A1 work sentence."
+    terms: ["berenex", "mak", "wak"]
+  -
+    id: "learner-392"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "learner-a1"
+    english: "Overwhelm breaks attention."
+    ethra: "Veleweh mak san."
+    literal: "Overwhelm breaks attention."
+    notes: "A1 capacity sentence."
+    terms: ["veleweh", "mak", "san"]
