@@ -1,4 +1,4 @@
-version: "0.6.7-corpus"
+version: "0.6.9-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -27201,3 +27201,1203 @@ items:
     literal: "Footnote protects source."
     notes: "A1 citation sentence."
     terms: ["feten", "xap", "yen"]
+  -
+    id: "daily-545"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Entropy breaks order."
+    ethra: "Neterep mak rag."
+    literal: "Entropy breaks order."
+    notes: "A household-level way to speak about disorder without losing the moral claim of order."
+    terms: ["neterep", "mak", "rag"]
+  -
+    id: "daily-546"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "The spectrum reveals many data."
+    ethra: "Sepeter rah lu den."
+    literal: "Spectrum reveals many data."
+    notes: "Continuum thinking enters ordinary speech without requiring technical prose."
+    terms: ["sepeter", "rah", "lu", "den"]
+  -
+    id: "daily-547"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "media-communication"]
+    register: "plain"
+    english: "Wavelength guides the signal."
+    ethra: "Weleneg pat seg."
+    literal: "Wavelength guides signal."
+    notes: "Signal behavior is made explainable in short daily speech."
+    terms: ["weleneg", "pat", "seg"]
+  -
+    id: "daily-548"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Amplitude measures power."
+    ethra: "Mepelet mes kav."
+    literal: "Amplitude measures power."
+    notes: "Strength is described as measured height rather than vague intensity."
+    terms: ["mepelet", "mes", "kav"]
+  -
+    id: "daily-549"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Phase orders time."
+    ethra: "Feyes rag tem."
+    literal: "Phase orders time."
+    notes: "Cycle position becomes a compact time relation."
+    terms: ["feyes", "rag", "tem"]
+  -
+    id: "daily-550"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Symmetry protects truth."
+    ethra: "Semeter xap reh."
+    literal: "Symmetry protects truth."
+    notes: "Balanced form is treated as evidence-bearing, not merely decorative."
+    terms: ["semeter", "xap", "reh"]
+  -
+    id: "daily-551"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Correlation measures many data."
+    ethra: "Kerelet mes lu den."
+    literal: "Correlation measures many data."
+    notes: "The sentence keeps correlation separate from causal proof."
+    terms: ["kerelet", "mes", "lu", "den"]
+  -
+    id: "daily-552"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "The sample carries evidence."
+    ethra: "Semepel taw deg."
+    literal: "Sample carries evidence."
+    notes: "Partial evidence is useful but must carry its burden visibly."
+    terms: ["semepel", "taw", "deg"]
+  -
+    id: "daily-553"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "The constant protects measure."
+    ethra: "Ceneset xap mes."
+    literal: "Constant protects measure."
+    notes: "Stable terms make comparison trustworthy."
+    terms: ["ceneset", "xap", "mes"]
+  -
+    id: "daily-554"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "ai-cognition"]
+    register: "plain"
+    english: "The gradient guides the model."
+    ethra: "Geredex pat med."
+    literal: "Gradient guides model."
+    notes: "Optimization language is compressed into a simple learner-friendly clause."
+    terms: ["geredex", "pat", "med"]
+  -
+    id: "daily-555"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "The norm guides measure."
+    ethra: "Neremex pat mes."
+    literal: "Norm guides measure."
+    notes: "Reference standards enter ordinary judgment."
+    terms: ["neremex", "pat", "mes"]
+  -
+    id: "daily-556"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "The unit protects measure."
+    ethra: "Yenetex xap mes."
+    literal: "Unit protects measure."
+    notes: "Measurement is framed as a disciplined public trust."
+    terms: ["yenetex", "xap", "mes"]
+  -
+    id: "daily-557"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Algae protects life."
+    ethra: "Legey xap nef."
+    literal: "Algae protects life."
+    notes: "Small ecological actors are given ordinary moral visibility."
+    terms: ["legey", "xap", "nef"]
+  -
+    id: "daily-558"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "history-memory"]
+    register: "plain"
+    english: "Pollination carries the future."
+    ethra: "Pelenex taw fer."
+    literal: "Pollination carries future."
+    notes: "Plant reproduction is tied directly to the future's claim."
+    terms: ["pelenex", "taw", "fer"]
+  -
+    id: "daily-559"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "The predator follows the prey."
+    ethra: "Peredey pat pereyeb."
+    literal: "Predator follows prey."
+    notes: "Ecological conflict is named without moral flattening."
+    terms: ["peredey", "pat", "pereyeb"]
+  -
+    id: "daily-560"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "science-math"]
+    register: "plain"
+    english: "Salinity measures water."
+    ethra: "Selenet mes wet."
+    literal: "Salinity measures water."
+    notes: "Water quality becomes a short inspectable sentence."
+    terms: ["selenet", "mes", "wet"]
+  -
+    id: "daily-561"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "economics-provision"]
+    register: "plain"
+    english: "Compost builds provision."
+    ethra: "Cemepes ban par."
+    literal: "Compost builds provision."
+    notes: "Waste return is framed as future provision."
+    terms: ["cemepes", "ban", "par"]
+  -
+    id: "daily-562"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "conflict-security"]
+    register: "plain"
+    english: "The invasive species breaks conservation."
+    ethra: "Nevesex mak cenesev."
+    literal: "Invasive-species breaks conservation."
+    notes: "Ecological imbalance is spoken as a repair-demanding break."
+    terms: ["nevesex", "mak", "cenesev"]
+  -
+    id: "daily-563"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Conservation protects life."
+    ethra: "Cenesev xap nef."
+    literal: "Conservation protects life."
+    notes: "Conservation is introduced as a direct life-protecting act."
+    terms: ["cenesev", "xap", "nef"]
+  -
+    id: "daily-564"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "body-health"]
+    register: "plain"
+    english: "The parasite breaks life."
+    ethra: "Pereset mak nef."
+    literal: "Parasite breaks life."
+    notes: "Dependency without reciprocity is made legible."
+    terms: ["pereset", "mak", "nef"]
+  -
+    id: "daily-565"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Symbiosis builds life."
+    ethra: "Semebex ban nef."
+    literal: "Symbiosis builds life."
+    notes: "Mutual dependence is treated as constructive relation."
+    terms: ["semebex", "ban", "nef"]
+  -
+    id: "daily-566"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "plain"
+    english: "Latency breaks work."
+    ethra: "Letenes mak kar."
+    literal: "Latency breaks craft."
+    notes: "System delay is grounded in the felt cost to work."
+    terms: ["letenes", "mak", "kar"]
+  -
+    id: "daily-567"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "plain"
+    english: "Throughput measures work."
+    ethra: "Terepet mes kar."
+    literal: "Throughput measures craft."
+    notes: "Operational rate becomes everyday technical speech."
+    terms: ["terepet", "mes", "kar"]
+  -
+    id: "daily-568"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software", "ai-cognition"]
+    register: "plain"
+    english: "Robustness protects the model."
+    ethra: "Rebeset xap med."
+    literal: "Robustness protects model."
+    notes: "Reliability under stress is named as protection."
+    terms: ["rebeset", "xap", "med"]
+  -
+    id: "civic-409"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The entropy disclosure measures power."
+    ethra: "Pu natarap-da mes kav."
+    literal: "Public entropy-disclosure measures power."
+    notes: "Public technical claims must show where usable order is lost."
+    terms: ["pu", "natarap-da", "mes", "kav"]
+  -
+    id: "civic-410"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math", "media-communication"]
+    register: "civic"
+    english: "The spectrum record protects data."
+    ethra: "Pu sapatar-da xap den."
+    literal: "Public spectrum-record protects data."
+    notes: "Measured ranges become governed public records."
+    terms: ["pu", "sapatar-da", "xap", "den"]
+  -
+    id: "civic-411"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The sample record carries evidence."
+    ethra: "Pu samapal-da taw deg."
+    literal: "Public sample-record carries evidence."
+    notes: "Sampling is placed under evidentiary responsibility."
+    terms: ["pu", "samapal-da", "taw", "deg"]
+  -
+    id: "civic-412"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "The constant standard protects measure."
+    ethra: "Pu canasat-da xap mes."
+    literal: "Public constant-standard protects measure."
+    notes: "Standards keep public measurement from drifting."
+    terms: ["pu", "canasat-da", "xap", "mes"]
+  -
+    id: "civic-413"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "science-math"]
+    register: "civic"
+    english: "The algae survey measures water."
+    ethra: "Pu lagay-da mes wet."
+    literal: "Public algae-survey measures water."
+    notes: "Water quality is made legible as civic evidence."
+    terms: ["pu", "lagay-da", "mes", "wet"]
+  -
+    id: "civic-414"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "history-memory"]
+    register: "civic"
+    english: "The pollination record protects the future."
+    ethra: "Pu palanax-da xap fer."
+    literal: "Public pollination-record protects future."
+    notes: "Agricultural continuity is treated as a public future duty."
+    terms: ["pu", "palanax-da", "xap", "fer"]
+  -
+    id: "civic-415"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The conservation mandate protects life."
+    ethra: "Pu canasav-da xap nef."
+    literal: "Public conservation-mandate protects life."
+    notes: "Ecological preservation is made civic rather than sentimental."
+    terms: ["pu", "canasav-da", "xap", "nef"]
+  -
+    id: "civic-416"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "conflict-security"]
+    register: "civic"
+    english: "The invasive-species order repairs restoration."
+    ethra: "Pu navasax-da ren tar."
+    literal: "Public invasive-species-order repair-particle repair."
+    notes: "Ecological containment is linked to repair, not mere control."
+    terms: ["pu", "navasax-da", "ren", "tar"]
+  -
+    id: "civic-417"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software"]
+    register: "civic"
+    english: "The latency report measures the service."
+    ethra: "Pu latanas-da mes sevec."
+    literal: "Public latency-report measures service."
+    notes: "Public service quality must make waiting visible."
+    terms: ["pu", "latanas-da", "mes", "sevec"]
+  -
+    id: "civic-418"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software"]
+    register: "civic"
+    english: "The throughput report protects work."
+    ethra: "Pu tarapat-da xap kar."
+    literal: "Public throughput-report protects craft."
+    notes: "Operational capacity is tied to public work, not vanity metrics."
+    terms: ["pu", "tarapat-da", "xap", "kar"]
+  -
+    id: "civic-419"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software"]
+    register: "civic"
+    english: "The robustness report protects the people."
+    ethra: "Pu rabasat-da xap lem."
+    literal: "Public robustness-report protects people."
+    notes: "Critical system strength is framed as public protection."
+    terms: ["pu", "rabasat-da", "xap", "lem"]
+  -
+    id: "civic-420"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software", "ai-cognition"]
+    register: "civic"
+    english: "The drift report reveals data."
+    ethra: "Pu darafat-da rah den."
+    literal: "Public drift-report reveals data."
+    notes: "Changing conditions must be disclosed before decisions rely on stale models."
+    terms: ["pu", "darafat-da", "rah", "den"]
+  -
+    id: "civic-421"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software", "media-communication"]
+    register: "civic"
+    english: "The redaction log protects truth."
+    ethra: "Pu radacat-da xap reh."
+    literal: "Public redaction-log protects truth."
+    notes: "Necessary silence must remain answerable to truth."
+    terms: ["pu", "radacat-da", "xap", "reh"]
+  -
+    id: "civic-422"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "civic"
+    english: "The pedagogy standard teaches the student."
+    ethra: "Pu padagaj-da dak tu."
+    literal: "Public pedagogy-standard teaches student."
+    notes: "Teaching method is governed by its effect on the learner."
+    terms: ["pu", "padagaj-da", "dak", "tu"]
+  -
+    id: "civic-423"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training", "history-memory"]
+    register: "civic"
+    english: "The attendance record witnesses presence."
+    ethra: "Pu datanad-da rah roh."
+    literal: "Public attendance-record witnesses presence."
+    notes: "Presence becomes a public fact without erasing the person."
+    terms: ["pu", "datanad-da", "rah", "roh"]
+  -
+    id: "civic-424"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "The escalation report protects the people."
+    ethra: "Pu salax-da xap lem."
+    literal: "Public escalation-report protects people."
+    notes: "Rising danger must be named early enough to prevent harm."
+    terms: ["pu", "salax-da", "xap", "lem"]
+  -
+    id: "civic-425"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "The violence report owes repair."
+    ethra: "Pu valanax-da dom tar."
+    literal: "Public violence-report owes repair."
+    notes: "Public records of harm are tied to restoration obligations."
+    terms: ["pu", "valanax-da", "dom", "tar"]
+  -
+    id: "civic-426"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software", "conflict-security"]
+    register: "civic"
+    english: "The breach notice protects data."
+    ethra: "Pu baracax-da xap den."
+    literal: "Public breach-notice protects data."
+    notes: "A security failure becomes public duty, not hidden embarrassment."
+    terms: ["pu", "baracax-da", "xap", "den"]
+  -
+    id: "ritual-409"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "ritual"
+    english: "Let entropy teach humility."
+    ethra: "Ha neterep dak hej."
+    literal: "Solemn entropy teaches humility."
+    notes: "Disorder is made a discipline of intellectual humility."
+    terms: ["ha", "neterep", "dak", "hej"]
+  -
+    id: "ritual-410"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Let the spectrum reveal truth."
+    ethra: "Ha sepeter rah reh."
+    literal: "Solemn spectrum reveals truth."
+    notes: "Range and difference are placed before truth rather than flattened."
+    terms: ["ha", "sepeter", "rah", "reh"]
+  -
+    id: "ritual-411"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "ritual"
+    english: "Let symmetry protect light."
+    ethra: "Ha semeter xap ner."
+    literal: "Solemn symmetry protects light."
+    notes: "Balanced form is given ritual dignity as clarity-preserving order."
+    terms: ["ha", "semeter", "xap", "ner"]
+  -
+    id: "ritual-412"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "ritual"
+    english: "Let the sample carry evidence."
+    ethra: "Ha semepel taw deg."
+    literal: "Solemn sample carries evidence."
+    notes: "Small portions are treated as witnesses with limits."
+    terms: ["ha", "semepel", "taw", "deg"]
+  -
+    id: "ritual-413"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "history-memory"]
+    register: "ritual"
+    english: "Let pollination carry the future."
+    ethra: "Ha pelenex taw fer."
+    literal: "Solemn pollination carries future."
+    notes: "Fragile ecological continuities become vow-worthy attention."
+    terms: ["ha", "pelenex", "taw", "fer"]
+  -
+    id: "ritual-414"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "ritual"
+    english: "Let conservation protect life."
+    ethra: "Ha cenesev xap nef."
+    literal: "Solemn conservation protects life."
+    notes: "The ritual voice binds preservation to living inheritance."
+    terms: ["ha", "cenesev", "xap", "nef"]
+  -
+    id: "ritual-415"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "family-kinship"]
+    register: "ritual"
+    english: "Let symbiosis teach the people."
+    ethra: "Ha semebex dak lem."
+    literal: "Solemn symbiosis teaches people."
+    notes: "Mutual life becomes a model for civic relation."
+    terms: ["ha", "semebex", "dak", "lem"]
+  -
+    id: "ritual-416"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "technology-software", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Let latency reveal time."
+    ethra: "Ha letenes rah tem."
+    literal: "Solemn latency reveals time."
+    notes: "Waiting is treated as a visible cost, not an invisible nuisance."
+    terms: ["ha", "letenes", "rah", "tem"]
+  -
+    id: "ritual-417"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "technology-software"]
+    register: "ritual"
+    english: "Let robustness protect work."
+    ethra: "Ha rebeset xap kar."
+    literal: "Solemn robustness protects craft."
+    notes: "System resilience is placed under service to work."
+    terms: ["ha", "rebeset", "xap", "kar"]
+  -
+    id: "ritual-418"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "emotion-psychology"]
+    register: "ritual"
+    english: "Let feedback repair the heart."
+    ethra: "Ha fedebek tar leb."
+    literal: "Solemn feedback repairs heart."
+    notes: "Correction should restore inward life rather than humiliate it."
+    terms: ["ha", "fedebek", "tar", "leb"]
+  -
+    id: "ritual-419"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training"]
+    register: "ritual"
+    english: "Let remediation repair the student."
+    ethra: "Ha remedex tar tu."
+    literal: "Solemn remediation repairs student."
+    notes: "Learning repair is given dignity instead of stigma."
+    terms: ["ha", "remedex", "tar", "tu"]
+  -
+    id: "ritual-420"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Let practice drill build capability."
+    ethra: "Ha perekec ban kav."
+    literal: "Solemn practice-drill builds capability."
+    notes: "Repeated training is framed as moral capacity formation."
+    terms: ["ha", "perekec", "ban", "kav"]
+  -
+    id: "ritual-421"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Let explanation reveal truth."
+    ethra: "Ha xepelen rah reh."
+    literal: "Solemn explanation reveals truth."
+    notes: "Teaching speech must answer to truth, not performance."
+    terms: ["ha", "xepelen", "rah", "reh"]
+  -
+    id: "ritual-422"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training"]
+    register: "ritual"
+    english: "Let tutoring recognize the student."
+    ethra: "Ha tetereg rah tu."
+    literal: "Solemn tutoring recognizes student."
+    notes: "Close instruction begins with seeing the learner."
+    terms: ["ha", "tetereg", "rah", "tu"]
+  -
+    id: "ritual-423"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training"]
+    register: "ritual"
+    english: "Let scholarship protect teaching."
+    ethra: "Ha sekeler xap dak."
+    literal: "Solemn scholarship protects teaching."
+    notes: "Sustained study is treated as a guardian of transmission."
+    terms: ["ha", "sekeler", "xap", "dak"]
+  -
+    id: "ritual-424"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "ritual"
+    english: "Let escalation require repair."
+    ethra: "Ha selex cel tar."
+    literal: "Solemn escalation should repair."
+    notes: "Rising conflict is turned toward restoration before rupture completes."
+    terms: ["ha", "selex", "cel", "tar"]
+  -
+    id: "ritual-425"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security", "body-health"]
+    register: "ritual"
+    english: "Let violence break life no more."
+    ethra: "Ha velenex mak nef ne."
+    literal: "Solemn violence breaks life not."
+    notes: "The vow names violence directly while rejecting its rule."
+    terms: ["ha", "velenex", "mak", "nef", "ne"]
+  -
+    id: "ritual-426"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Let propaganda not reveal truth."
+    ethra: "Ha perepeg ne rah reh."
+    literal: "Solemn propaganda not reveals truth."
+    notes: "Manipulative speech is denied the status of revelation."
+    terms: ["ha", "perepeg", "ne", "rah", "reh"]
+  -
+    id: "tech-545"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The entropy value measures order."
+    ethra: "Notorop mes rag."
+    literal: "Entropy-value measures order."
+    notes: "Thermodynamic loss is represented as an inspectable measured value."
+    terms: ["notorop", "mes", "rag"]
+  -
+    id: "tech-546"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The spectrum record carries data."
+    ethra: "Sapatar-ket taw den."
+    literal: "Spectrum-record carries data."
+    notes: "Measured bands are grounded as data-bearing records."
+    terms: ["sapatar-ket", "taw", "den"]
+  -
+    id: "tech-547"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "media-communication"]
+    register: "technical"
+    english: "The wavelength record protects the signal."
+    ethra: "Walanag-ket xap seg."
+    literal: "Wavelength-record protects signal."
+    notes: "Signal processing gets a durable record form."
+    terms: ["walanag-ket", "xap", "seg"]
+  -
+    id: "tech-548"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The amplitude record measures power."
+    ethra: "Mapalat-ket mes kav."
+    literal: "Amplitude-record measures power."
+    notes: "Strength is tied to measured signal height."
+    terms: ["mapalat-ket", "mes", "kav"]
+  -
+    id: "tech-549"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The phase record orders time."
+    ethra: "Fayas-ket rag tem."
+    literal: "Phase-record orders time."
+    notes: "Cycle position is stored as technical timing evidence."
+    terms: ["fayas-ket", "rag", "tem"]
+  -
+    id: "tech-550"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The correlation record measures data."
+    ethra: "Karalat-ket mes den."
+    literal: "Correlation-record measures data."
+    notes: "Co-movement is made auditable as a statistical record."
+    terms: ["karalat-ket", "mes", "den"]
+  -
+    id: "tech-551"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The sample record carries evidence."
+    ethra: "Samapal-ket taw deg."
+    literal: "Sample-record carries evidence."
+    notes: "Technical sampling remains tied to evidentiary burden."
+    terms: ["samapal-ket", "taw", "deg"]
+  -
+    id: "tech-552"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical"
+    english: "The gradient record guides the model."
+    ethra: "Garadax-ket pat med."
+    literal: "Gradient-record guides model."
+    notes: "Optimization traces become named model evidence."
+    terms: ["garadax-ket", "pat", "med"]
+  -
+    id: "tech-553"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The normalization record protects measure."
+    ethra: "Naramax-ket xap mes."
+    literal: "Normalization-record protects measure."
+    notes: "Reference scaling is treated as part of measurement accountability."
+    terms: ["naramax-ket", "xap", "mes"]
+  -
+    id: "tech-554"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The unit record protects measure."
+    ethra: "Yanatax-ket xap mes."
+    literal: "Unit-record protects measure."
+    notes: "Units are formal records rather than hidden assumptions."
+    terms: ["yanatax-ket", "xap", "mes"]
+  -
+    id: "tech-555"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "The latency record measures the service."
+    ethra: "Latanas-ket mes sevec."
+    literal: "Latency-record measures service."
+    notes: "Response delay is a first-class service record."
+    terms: ["latanas-ket", "mes", "sevec"]
+  -
+    id: "tech-556"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "The throughput record measures the service."
+    ethra: "Tarapat-ket mes sevec."
+    literal: "Throughput-record measures service."
+    notes: "Processed flow is kept distinct from latency."
+    terms: ["tarapat-ket", "mes", "sevec"]
+  -
+    id: "tech-557"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "The robustness record protects the service."
+    ethra: "Rabasat-ket xap sevec."
+    literal: "Robustness-record protects service."
+    notes: "Stress survival is framed as a service obligation."
+    terms: ["rabasat-ket", "xap", "sevec"]
+  -
+    id: "tech-558"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The overfitting record reveals the model."
+    ethra: "Wavafat-ket rah med."
+    literal: "Overfitting-record reveals model."
+    notes: "A model's false memory is made inspectable."
+    terms: ["wavafat-ket", "rah", "med"]
+  -
+    id: "tech-559"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The underfitting record reveals the model."
+    ethra: "Nadafat-ket rah med."
+    literal: "Underfitting-record reveals model."
+    notes: "Insufficient learned structure is separated from overfitting."
+    terms: ["nadafat-ket", "rah", "med"]
+  -
+    id: "tech-560"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The drift record reveals data."
+    ethra: "Darafat-ket rah den."
+    literal: "Drift-record reveals data."
+    notes: "Data shift becomes an auditable model-monitoring event."
+    terms: ["darafat-ket", "rah", "den"]
+  -
+    id: "tech-561"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "The serialization record carries data."
+    ethra: "Saralaz-ket taw den."
+    literal: "Serialization-record carries data."
+    notes: "Portable state is treated as record-bearing memory."
+    terms: ["saralaz-ket", "taw", "den"]
+  -
+    id: "tech-562"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "The metric record measures the service."
+    ethra: "Matarac-ket mes sevec."
+    literal: "Metric-record measures service."
+    notes: "Named operational numbers are made inspectable."
+    terms: ["matarac-ket", "mes", "sevec"]
+  -
+    id: "tech-563"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "The anomaly record reveals the service."
+    ethra: "Namalay-ket rah sevec."
+    literal: "Anomaly-record reveals service."
+    notes: "Unexpected behavior becomes a visible service fact."
+    terms: ["namalay-ket", "rah", "sevec"]
+  -
+    id: "tech-564"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The redaction log protects data."
+    ethra: "Radacat-ket xap den."
+    literal: "Redaction-record protects data."
+    notes: "Protected omission is logged as accountable privacy practice."
+    terms: ["radacat-ket", "xap", "den"]
+  -
+    id: "tech-565"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "The feedback record guides the model."
+    ethra: "Fadabak-ket pat med."
+    literal: "Feedback-record guides model."
+    notes: "Returned information is modeled as a training control."
+    terms: ["fadabak-ket", "pat", "med"]
+  -
+    id: "tech-566"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "The remediation record repairs the student."
+    ethra: "Ramadax-ket tar tu."
+    literal: "Remediation-record repairs student."
+    notes: "Learning support data is tied to repair rather than punishment."
+    terms: ["ramadax-ket", "tar", "tu"]
+  -
+    id: "tech-567"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The sabotage report reveals the break."
+    ethra: "Sabataj-ket rah mak."
+    literal: "Sabotage-record reveals break."
+    notes: "Hidden damage must become visible evidence."
+    terms: ["sabataj-ket", "rah", "mak"]
+  -
+    id: "tech-568"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The breach record protects data."
+    ethra: "Baracax-ket xap den."
+    literal: "Breach-record protects data."
+    notes: "Incident evidence is part of protecting what remains."
+    terms: ["baracax-ket", "xap", "den"]
+  -
+    id: "poetic-545"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Entropy is order broken."
+    ethra: "Neterep e rag mak."
+    literal: "Entropy is order broken."
+    notes: "A scientific term is compressed into moral memory."
+    terms: ["neterep", "e", "rag", "mak"]
+  -
+    id: "poetic-546"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The spectrum is many truths."
+    ethra: "Sepeter e lu reh."
+    literal: "Spectrum is many truths."
+    notes: "Range is allowed to disclose multiplicity without relativism."
+    terms: ["sepeter", "e", "lu", "reh"]
+  -
+    id: "poetic-547"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "media-communication"]
+    register: "poetic"
+    english: "Wavelength is signal with time."
+    ethra: "Weleneg e seg ko tem."
+    literal: "Wavelength is signal with time."
+    notes: "Technical recurrence becomes a time-bearing image."
+    terms: ["weleneg", "e", "seg", "ko", "tem"]
+  -
+    id: "poetic-548"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Amplitude is power seen."
+    ethra: "Mepelet e kav rah."
+    literal: "Amplitude is power seen."
+    notes: "Strength is not left invisible or vague."
+    terms: ["mepelet", "e", "kav", "rah"]
+  -
+    id: "poetic-549"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Phase is time with order."
+    ethra: "Feyes e tem ko rag."
+    literal: "Phase is time with order."
+    notes: "A cycle is pictured as ordered time rather than repetition alone."
+    terms: ["feyes", "e", "tem", "ko", "rag"]
+  -
+    id: "poetic-550"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Symmetry is beauty with order."
+    ethra: "Semeter e jom ko rag."
+    literal: "Symmetry is beauty with order."
+    notes: "Beauty is bound to intelligible form."
+    terms: ["semeter", "e", "jom", "ko", "rag"]
+  -
+    id: "poetic-551"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Correlation is data with data."
+    ethra: "Kerelet e den ko den."
+    literal: "Correlation is data with data."
+    notes: "The phrase refuses to treat co-movement as causation."
+    terms: ["kerelet", "e", "den", "ko", "den"]
+  -
+    id: "poetic-552"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "The sample carries evidence."
+    ethra: "Semepel taw deg."
+    literal: "Sample carries evidence."
+    notes: "A small part becomes an honest witness."
+    terms: ["semepel", "taw", "deg"]
+  -
+    id: "poetic-553"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The constant is time not broken."
+    ethra: "Ceneset e tem ne mak."
+    literal: "Constant is time not broken."
+    notes: "Stability is spoken as resistance to rupture."
+    terms: ["ceneset", "e", "tem", "ne", "mak"]
+  -
+    id: "poetic-554"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "emotion-psychology"]
+    register: "poetic"
+    english: "The gradient guides desire."
+    ethra: "Geredex pat mav."
+    literal: "Gradient guides desire."
+    notes: "Direction of change becomes an image for ordered wanting."
+    terms: ["geredex", "pat", "mav"]
+  -
+    id: "poetic-555"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "Algae is light through water."
+    ethra: "Legey e ner bi wet."
+    literal: "Algae is light through water."
+    notes: "Small water-life is given a luminous image."
+    terms: ["legey", "e", "ner", "bi", "wet"]
+  -
+    id: "poetic-556"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "Pollination carries the future."
+    ethra: "Pelenex taw fer."
+    literal: "Pollination carries future."
+    notes: "The fruit of tomorrow is made visible in a tiny transfer."
+    terms: ["pelenex", "taw", "fer"]
+  -
+    id: "poetic-557"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "conflict-security"]
+    register: "poetic"
+    english: "The predator is life with rupture."
+    ethra: "Peredey e nef ko mak."
+    literal: "Predator is life with break."
+    notes: "Natural violence is named without either denial or worship."
+    terms: ["peredey", "e", "nef", "ko", "mak"]
+  -
+    id: "poetic-558"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The prey is life before truth."
+    ethra: "Pereyeb e nef so-rah."
+    literal: "Prey is life before-truth."
+    notes: "Vulnerability is placed under witness."
+    terms: ["pereyeb", "e", "nef", "so-rah"]
+  -
+    id: "poetic-559"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "conflict-security"]
+    register: "poetic"
+    english: "Compost is repair through life."
+    ethra: "Cemepes e tar bi nef."
+    literal: "Compost is repair through life."
+    notes: "Decay becomes restoration rather than waste."
+    terms: ["cemepes", "e", "tar", "bi", "nef"]
+  -
+    id: "poetic-560"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "Conservation is duty for the future."
+    ethra: "Cenesev e dev so-fer."
+    literal: "Conservation is duty for-future."
+    notes: "Ecology is bound to unborn claimants."
+    terms: ["cenesev", "e", "dev", "so-fer"]
+  -
+    id: "poetic-561"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Symbiosis is a vow through life."
+    ethra: "Semebex e dov bi nef."
+    literal: "Symbiosis is vow through life."
+    notes: "Mutual survival is given covenantal force."
+    terms: ["semebex", "e", "dov", "bi", "nef"]
+  -
+    id: "poetic-562"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Latency is time broken."
+    ethra: "Letenes e tem mak."
+    literal: "Latency is time broken."
+    notes: "Delay becomes a wound in expected responsiveness."
+    terms: ["letenes", "e", "tem", "mak"]
+  -
+    id: "poetic-563"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Robustness is power with humility."
+    ethra: "Rebeset e kav ko hej."
+    literal: "Robustness is power with humility."
+    notes: "Strength is praised only when it has met stress truthfully."
+    terms: ["rebeset", "e", "kav", "ko", "hej"]
+  -
+    id: "poetic-564"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software", "ai-cognition"]
+    register: "poetic"
+    english: "Drift breaks the model."
+    ethra: "Derefet mak med."
+    literal: "Drift breaks model."
+    notes: "The world changes while the old judgment weakens."
+    terms: ["derefet", "mak", "med"]
+  -
+    id: "poetic-565"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "The anomaly reveals the service."
+    ethra: "Nemeley rah sevec."
+    literal: "Anomaly reveals service."
+    notes: "The strange event becomes a witness."
+    terms: ["nemeley", "rah", "sevec"]
+  -
+    id: "poetic-566"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Redaction is hiddenness with duty."
+    ethra: "Redecet e cez ko dev."
+    literal: "Redaction is hidden with duty."
+    notes: "Protected omission is distinguished from deceit."
+    terms: ["redecet", "e", "cez", "ko", "dev"]
+  -
+    id: "poetic-567"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "conflict-security"]
+    register: "poetic"
+    english: "Feedback is speech guiding repair."
+    ethra: "Fedebek e nem pat tar."
+    literal: "Feedback is speech guides repair."
+    notes: "Correction is made useful by its direction toward restoration."
+    terms: ["fedebek", "e", "nem", "pat", "tar"]
+  -
+    id: "poetic-568"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Explanation is recognition with mercy."
+    ethra: "Xepelen e rah ko sel."
+    literal: "Explanation is recognition with mercy."
+    notes: "To explain well is to see the learner and speak gently enough for truth."
+    terms: ["xepelen", "e", "rah", "ko", "sel"]
+  -
+    id: "learner-273"
+    track: "learner-graded"
+    domain_tags: ["science-math"]
+    register: "learner-a1"
+    english: "Entropy breaks order."
+    ethra: "Neterep mak rag."
+    literal: "Entropy breaks order."
+    notes: "A1 science sentence."
+    terms: ["neterep", "mak", "rag"]
+  -
+    id: "learner-274"
+    track: "learner-graded"
+    domain_tags: ["science-math"]
+    register: "learner-a1"
+    english: "The spectrum reveals data."
+    ethra: "Sepeter rah den."
+    literal: "Spectrum reveals data."
+    notes: "A1 range-and-data sentence."
+    terms: ["sepeter", "rah", "den"]
+  -
+    id: "learner-275"
+    track: "learner-graded"
+    domain_tags: ["science-math"]
+    register: "learner-a1"
+    english: "The sample carries evidence."
+    ethra: "Semepel taw deg."
+    literal: "Sample carries evidence."
+    notes: "A1 evidence sentence."
+    terms: ["semepel", "taw", "deg"]
+  -
+    id: "learner-276"
+    track: "learner-graded"
+    domain_tags: ["nature-ecology"]
+    register: "learner-a1"
+    english: "Algae protects life."
+    ethra: "Legey xap nef."
+    literal: "Algae protects life."
+    notes: "A1 ecology sentence."
+    terms: ["legey", "xap", "nef"]
+  -
+    id: "learner-277"
+    track: "learner-graded"
+    domain_tags: ["nature-ecology", "history-memory"]
+    register: "learner-a1"
+    english: "Pollination carries the future."
+    ethra: "Pelenex taw fer."
+    literal: "Pollination carries future."
+    notes: "A1 future ecology sentence."
+    terms: ["pelenex", "taw", "fer"]
+  -
+    id: "learner-278"
+    track: "learner-graded"
+    domain_tags: ["nature-ecology"]
+    register: "learner-a1"
+    english: "Conservation protects life."
+    ethra: "Cenesev xap nef."
+    literal: "Conservation protects life."
+    notes: "A1 conservation sentence."
+    terms: ["cenesev", "xap", "nef"]
+  -
+    id: "learner-279"
+    track: "learner-graded"
+    domain_tags: ["technology-software", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "Latency measures time."
+    ethra: "Letenes mes tem."
+    literal: "Latency measures time."
+    notes: "A1 system-delay sentence."
+    terms: ["letenes", "mes", "tem"]
+  -
+    id: "learner-280"
+    track: "learner-graded"
+    domain_tags: ["technology-software"]
+    register: "learner-a1"
+    english: "Throughput measures work."
+    ethra: "Terepet mes kar."
+    literal: "Throughput measures craft."
+    notes: "A1 operation-rate sentence."
+    terms: ["terepet", "mes", "kar"]
+  -
+    id: "learner-281"
+    track: "learner-graded"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "learner-a1"
+    english: "Robustness protects the model."
+    ethra: "Rebeset xap med."
+    literal: "Robustness protects model."
+    notes: "A1 reliability sentence."
+    terms: ["rebeset", "xap", "med"]
+  -
+    id: "learner-282"
+    track: "learner-graded"
+    domain_tags: ["education-training", "conflict-security"]
+    register: "learner-a1"
+    english: "Feedback guides repair."
+    ethra: "Fedebek pat tar."
+    literal: "Feedback guides repair."
+    notes: "A1 correction sentence."
+    terms: ["fedebek", "pat", "tar"]
+  -
+    id: "learner-283"
+    track: "learner-graded"
+    domain_tags: ["conflict-security", "body-health"]
+    register: "learner-a1"
+    english: "Violence breaks life."
+    ethra: "Velenex mak nef."
+    literal: "Violence breaks life."
+    notes: "A1 harm sentence."
+    terms: ["velenex", "mak", "nef"]
+  -
+    id: "learner-284"
+    track: "learner-graded"
+    domain_tags: ["body-health"]
+    register: "learner-a1"
+    english: "Hydration protects the body."
+    ethra: "Heyeder xap gom."
+    literal: "Hydration protects body."
+    notes: "A1 health sentence."
+    terms: ["heyeder", "xap", "gom"]
