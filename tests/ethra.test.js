@@ -387,7 +387,7 @@ test("loads canonical example translations", () => {
 test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 23000);
+  assert.ok(entries.length >= 26000);
   assert.ok(entries.some((entry) => entry.word === "hener" && entry.meaning === "honor, public worth"));
   assert.ok(entries.some((entry) => entry.word === "cereg" && entry.meaning === "courage, brave duty"));
   assert.ok(entries.some((entry) => entry.word === "kenen" && entry.meaning === "canon, received standard"));
@@ -403,6 +403,18 @@ test("lexicon contains the expanded seed breadth", () => {
   assert.ok(entries.some((entry) => entry.word === "berew" && entry.meaning === "browser, web-reading instrument"));
   assert.ok(entries.some((entry) => entry.word === "temem" && entry.meaning === "atom, smallest chemical unit"));
   assert.ok(entries.some((entry) => entry.word === "ceyet" && entry.meaning === "cell, living unit"));
+  assert.ok(entries.some((entry) => entry.word === "keweren" && entry.meaning === "quarantine, protective health separation"));
+  assert.ok(entries.some((entry) => entry.word === "peleceb" && entry.meaning === "placebo, inert trial treatment"));
+  assert.ok(entries.some((entry) => entry.word === "gelek" && entry.meaning === "glucose, blood sugar"));
+  assert.ok(entries.some((entry) => entry.word === "tenet" && entry.meaning === "tenant, lease-bound dweller"));
+  assert.ok(entries.some((entry) => entry.word === "nefel" && entry.meaning === "inflation, rising price drift"));
+  assert.ok(entries.some((entry) => entry.word === "benex" && entry.meaning === "benchmark, performance standard test"));
+  assert.ok(entries.some((entry) => entry.word === "helex" && entry.meaning === "hallucination, fluent false output"));
+  assert.ok(entries.some((entry) => entry.word === "celeb" && entry.meaning === "calibration, corrected measure"));
+  assert.ok(entries.some((entry) => entry.word === "verenec" && entry.meaning === "variance, measured spread"));
+  assert.ok(entries.some((entry) => entry.word === "feten" && entry.meaning === "footnote, supporting lower note"));
+  assert.ok(entries.some((entry) => entry.word === "cemenet" && entry.meaning === "commentary, explanatory side-text"));
+  assert.ok(entries.some((entry) => entry.word === "debel" && entry.meaning === "duplicate, repeated copy"));
   for (const category of [
     "Pronouns",
     "Particles",
