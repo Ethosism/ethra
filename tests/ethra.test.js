@@ -36,6 +36,14 @@ test("looks up roots by aliases and derives words", () => {
   const legalRight = deriveWord("RAH", "legal-right");
   assert.equal(legalRight.word, "rah-ret");
   assert.equal(legalRight.pattern, "right");
+
+  const threat = deriveWord("XAC", "noun");
+  assert.equal(threat.word, "xec");
+  assert.equal(threat.root.id, "XC");
+
+  const database = deriveWord("DB", "record");
+  assert.equal(database.word, "dab-ket");
+  assert.equal(database.pattern, "record");
 });
 
 test("analyzes known words", () => {
@@ -64,7 +72,7 @@ test("loads canonical example translations", () => {
 test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 3000);
+  assert.ok(entries.length >= 4000);
   for (const category of [
     "Pronouns",
     "Particles",

@@ -1,16 +1,18 @@
 # Vocabulary Scale
 
-Ethra currently has 3,097 explicit lexicon entries after the v0.2.2 derivational-depth expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 4,197 explicit lexicon entries after the v0.2.3 root-bank expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.3 everyday-fluency target:
 
 ```text
-entries 3,097 / 3,000
-roots     152 / 400
+entries 4,197 / 3,000
+roots     207 / 400
 corpus    100 / 500 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
+
+The v0.2.3 root batch adds conflict/security, food, household, education, technology, economics, travel, and ecology roots such as threat, defense, weapon, truce, drink, cooking, cleanliness, school, examination, database, computation, price, credit, arrival, vehicle, distance, river, soil, and pasture.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 

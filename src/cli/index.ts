@@ -24,7 +24,7 @@ const program = new Command();
 program
   .name("ethra")
   .description("Ethra language tools")
-  .version("0.2.2");
+  .version("0.2.3");
 
 program
   .command("generate-root")
