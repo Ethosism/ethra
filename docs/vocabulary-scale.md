@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 25,057 explicit lexicon entries, 25,212 dictionary entries, 1,250 root families, and 2,480 reviewed corpus items after the v0.6.4 entry-gate root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 25,057 explicit lexicon entries, 25,212 dictionary entries, 1,250 root families, and 2,600 reviewed corpus items after the v0.6.5 corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
@@ -8,7 +8,7 @@ Current progress toward the v1.0 stable-civil-language target:
 entries 25,057 / 25,000
 dictionary 25,212 entries with corpus evidence fields
 roots     1,250 / 2,500
-corpus    2,480 / 10,000 reviewed items
+corpus    2,600 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -111,7 +111,9 @@ The v0.6.3 corpus batch adds 120 reviewed examples using the v0.6.2 roots across
 
 The v0.6.4 entry-gate root batch adds 50 roots and 1,000 derived lexicon entries for orchestration, permissions, provenance, compliance, disclosure, zoning, permits, sanctions, ordinances, triage, vital signs, infection, allergy, blood pressure, screening, syndromes, mental health, counseling, ecosystems, species, watersheds, satellites, energy, cycles, experiments, maintenance, pipelines, toolchains, sandboxes, responses, forums, cinema, stages, performance, lyric form, ingress, workshops, rubrics, tutorials, bugs, marketplaces, funding, sponsorship, notarization, filings, delivery, variables, logging, hyperlinks, and randomness.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 1,250 more root families and 7,520 more reviewed corpus items still needed.
+The v0.6.5 corpus grounding batch adds 120 reviewed examples using the v0.6.4 roots across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds orchestration, permissions, provenance, compliance, disclosure, zoning, permits, sanctions, ordinances, triage, vital signs, mental health, counseling, ecosystems, species, watersheds, satellites, energy, cycles, experiments, maintenance, pipelines, toolchains, sandboxes, responses, forums, stages, performance, lyrics, ingress, workshops, rubrics, tutorials, bugs, marketplaces, funding, sponsorship, notarization, filings, delivery, variables, logging, hyperlinks, and randomness in actual sentences.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 1,250 more root families and 7,400 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
