@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 24,057 explicit lexicon entries, 24,212 dictionary entries, 1,200 root families, and 2,360 reviewed corpus items after the v0.6.2 domain-depth root batch. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
+Ethra currently has 24,057 explicit lexicon entries, 24,212 dictionary entries, 1,200 root families, and 2,480 reviewed corpus items after the v0.6.3 corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
 
 Current progress toward the v1.0 stable-civil-language target:
 
@@ -8,7 +8,7 @@ Current progress toward the v1.0 stable-civil-language target:
 entries 24,057 / 25,000
 dictionary 24,212 entries with corpus evidence fields
 roots     1,200 / 2,500
-corpus    2,360 / 10,000 reviewed items
+corpus    2,480 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -107,7 +107,9 @@ The v0.6.1 corpus batch adds 120 reviewed examples using the v0.6.0 roots across
 
 The v0.6.2 domain-depth root batch adds 50 roots and 1,000 derived lexicon entries for hardware, firmware, commits, pull requests, services, rollbacks, observability, keyfiles, websockets, servers, clusters, hashing, metadata, filesystems, blobs, probability, complexity, linearity, chemistry, biology, evolution, physics, stability, nuclei, global scale, regulation, tenders, debt, compensation, reconstruction, regions, locality, cupboards, showers, groceries, laundry, commuting, narrative, rhetoric, genre, drama, theology, walking, recipes, freezing, heritage, maps, song, and rhythm.
 
-The next numeric gaps are v1.0 gaps: 943 more explicit entries, 1,300 more root families, and 7,640 more reviewed corpus items.
+The v0.6.3 corpus batch adds 120 reviewed examples using the v0.6.2 roots across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds hardware, firmware, commits, pull requests, services, rollbacks, observability, keyfiles, websockets, servers, clusters, hashing, metadata, filesystems, blobs, probability, complexity, linearity, chemistry, biology, evolution, physics, stability, nuclei, regulation, tenders, debt, compensation, reconstruction, regions, locality, cupboards, showers, groceries, laundry, commuting, narrative, rhetoric, genre, drama, theology, walking, recipes, freezing, heritage, maps, song, and rhythm in lived use.
+
+The next numeric gaps are v1.0 gaps: 943 more explicit entries, 1,300 more root families, and 7,520 more reviewed corpus items.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
