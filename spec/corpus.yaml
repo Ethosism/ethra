@@ -1,4 +1,4 @@
-version: "0.3.20-corpus"
+version: "0.5.0-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -19801,3 +19801,203 @@ items:
     literal: "Home protects child."
     notes: "Learner home-child sentence."
     terms: ["hen", "xap", "jal"]
+  -
+    id: "daily-396"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics", "ai-cognition"]
+    register: "common"
+    english: "Truth guides choice."
+    ethra: "Reh pat vel."
+    literal: "Recognition guides choice."
+    notes: "Daily truth-choice closeout sentence."
+    terms: ["reh", "pat", "vel"]
+  -
+    id: "daily-397"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security", "emotion-psychology"]
+    register: "common"
+    english: "Peace repairs threat."
+    ethra: "Cem tar zex."
+    literal: "Peace repairs threat."
+    notes: "Daily peace-threat closeout sentence."
+    terms: ["cem", "tar", "zex"]
+  -
+    id: "daily-398"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "body-health"]
+    register: "common"
+    english: "Water remembers life."
+    ethra: "Fel mar nef."
+    literal: "Water remembers life."
+    notes: "Daily water-life closeout sentence."
+    terms: ["fel", "mar", "nef"]
+  -
+    id: "daily-399"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "history-memory"]
+    register: "common"
+    english: "Learning protects future."
+    ethra: "Dak xap fer."
+    literal: "Learning protects future."
+    notes: "Daily learning-future closeout sentence."
+    terms: ["dak", "xap", "fer"]
+  -
+    id: "daily-400"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication", "history-memory"]
+    register: "common"
+    english: "Speech binds memory."
+    ethra: "Nem dav mar."
+    literal: "Word binds memory."
+    notes: "Daily speech-memory closeout sentence."
+    terms: ["nem", "dav", "mar"]
+  -
+    id: "civic-299"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math", "history-memory"]
+    register: "civic"
+    english: "Evidence should bind record."
+    ethra: "Xeg cel dav ket."
+    literal: "Evidence should bind record."
+    notes: "Civic evidence-record closeout sentence."
+    terms: ["xeg", "cel", "dav", "ket"]
+  -
+    id: "civic-300"
+    track: "civic-law"
+    domain_tags: ["law-governance", "family-kinship", "history-memory"]
+    register: "civic"
+    english: "Inheritance should protect child."
+    ethra: "Pereg cel xap jal."
+    literal: "Inheritance should protect child."
+    notes: "Civic inheritance-child closeout sentence."
+    terms: ["pereg", "cel", "xap", "jal"]
+  -
+    id: "ritual-298"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics", "law-governance"]
+    register: "ritual"
+    english: "Truth protects people."
+    ethra: "Ha reh xap lem."
+    literal: "Sacred-speech recognition protects people."
+    notes: "Ritual truth-people closeout sentence."
+    terms: ["ha", "reh", "xap", "lem"]
+  -
+    id: "ritual-299"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security", "emotion-psychology"]
+    register: "ritual"
+    english: "Peace repairs fear."
+    ethra: "Ha cem tar xer."
+    literal: "Sacred-speech peace repairs fear."
+    notes: "Ritual peace-fear closeout sentence."
+    terms: ["ha", "cem", "tar", "xer"]
+  -
+    id: "ritual-300"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "law-governance"]
+    register: "ritual"
+    english: "Speech binds duty."
+    ethra: "Ha nem dav dev."
+    literal: "Sacred-speech word binds duty."
+    notes: "Ritual speech-duty closeout sentence."
+    terms: ["ha", "nem", "dav", "dev"]
+  -
+    id: "tech-396"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Dataset protects proof."
+    ethra: "Xadal xap pejeg."
+    literal: "Dataset protects proof."
+    notes: "Technical dataset-proof closeout sentence."
+    terms: ["xadal", "xap", "pejeg"]
+  -
+    id: "tech-397"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "Protocol guides signal."
+    ethra: "Tex pat seg."
+    literal: "Protocol guides signal."
+    notes: "Technical protocol-signal closeout sentence."
+    terms: ["tex", "pat", "seg"]
+  -
+    id: "tech-398"
+    track: "technical-software"
+    domain_tags: ["technology-software", "history-memory"]
+    register: "technical"
+    english: "Network carries record."
+    ethra: "Newer taw ket."
+    literal: "Network carries record."
+    notes: "Technical network-record closeout sentence."
+    terms: ["newer", "taw", "ket"]
+  -
+    id: "tech-399"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "Alignment protects evaluation."
+    ethra: "Zey xap jev."
+    literal: "Alignment protects evaluation."
+    notes: "Technical alignment-evaluation closeout sentence."
+    terms: ["zey", "xap", "jev"]
+  -
+    id: "tech-400"
+    track: "technical-software"
+    domain_tags: ["technology-software", "history-memory"]
+    register: "technical"
+    english: "Synchronization protects memory."
+    ethra: "Zeden xap mar."
+    literal: "Synchronization protects memory."
+    notes: "Technical synchronization-memory closeout sentence."
+    terms: ["zeden", "xap", "mar"]
+  -
+    id: "poetic-396"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics", "history-memory"]
+    register: "poetic"
+    english: "Truth opens future."
+    ethra: "Reh ap fer."
+    literal: "Recognition opens future."
+    notes: "Poetic truth-future closeout sentence."
+    terms: ["reh", "ap", "fer"]
+  -
+    id: "poetic-397"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security", "family-kinship"]
+    register: "poetic"
+    english: "Peace protects home."
+    ethra: "Cem xap hen."
+    literal: "Peace protects home."
+    notes: "Poetic peace-home closeout sentence."
+    terms: ["cem", "xap", "hen"]
+  -
+    id: "poetic-398"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "Water carries memory."
+    ethra: "Fel taw mar."
+    literal: "Water carries memory."
+    notes: "Poetic water-memory closeout sentence."
+    terms: ["fel", "taw", "mar"]
+  -
+    id: "poetic-399"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "law-governance"]
+    register: "poetic"
+    english: "Speech names duty."
+    ethra: "Nem nam dev."
+    literal: "Word names duty."
+    notes: "Poetic speech-duty closeout sentence."
+    terms: ["nem", "nam", "dev"]
+  -
+    id: "poetic-400"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship", "history-memory"]
+    register: "poetic"
+    english: "Child carries future."
+    ethra: "Jal taw fer."
+    literal: "Child carries future."
+    notes: "Poetic child-future closeout sentence."
+    terms: ["jal", "taw", "fer"]

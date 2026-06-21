@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 20,057 explicit lexicon entries and 1,980 reviewed corpus items after the v0.3.20 governed corpus expansion batch. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 20,057 explicit lexicon entries and 2,000 reviewed corpus items after the v0.5.0 public-culture corpus closeout. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
 
-Current progress toward the v0.5 public-culture target:
+Current progress toward the v1.0 stable-civil-language target:
 
 ```text
-entries 20,057 / 10,000
-roots     1,000 / 1,000
-corpus    1,980 / 2,000 reviewed items
+entries 20,057 / 25,000
+roots     1,000 / 2,500
+corpus    2,000 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -80,7 +80,9 @@ The v0.3.19 corpus batch adds 120 more reviewed examples, strengthening truth-an
 
 The v0.3.20 corpus batch adds 120 more reviewed examples, bringing learner-graded material to its v0.5 target and leaving only 20 reviewed items before the public-culture corpus gate. It strengthens science, security, ecology, philosophy, provision, education, health, AI, travel, emotion, media, family, civic, ritual, technical, and poetic usage.
 
-The v0.5 entry and root targets are now met. The main remaining v0.5 gap is reviewed corpus depth, now 1,980 / 2,000.
+The v0.5.0 corpus closeout adds the final 20 reviewed examples needed for public culture. All six track targets are met: 400 daily-dialogue items, 300 civic/legal items, 300 ritual/vow items, 400 technical/software items, 400 literary/poetic items, and 200 learner-graded items.
+
+The next numeric gaps are v1.0 gaps: 4,943 more explicit entries, 1,500 more root families, and 8,000 more reviewed corpus items.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
