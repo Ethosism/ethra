@@ -1,4 +1,4 @@
-version: "0.6.9-corpus"
+version: "0.7.0-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -

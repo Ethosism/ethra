@@ -259,6 +259,62 @@ test("looks up roots by aliases and derives words", () => {
   const variable = deriveWord("VRB", "noun");
   assert.equal(variable.word, "vereb");
   assert.equal(variable.root.id, "VRB");
+
+  const shirt = deriveWord("SHRT", "noun");
+  assert.equal(shirt.word, "seheret");
+  assert.equal(shirt.root.id, "SHRT");
+
+  const trousers = deriveWord("TRSR", "noun");
+  assert.equal(trousers.word, "tereser");
+  assert.equal(trousers.root.id, "TRSR");
+
+  const jacket = deriveWord("JKT", "noun");
+  assert.equal(jacket.word, "jeket");
+  assert.equal(jacket.root.id, "JKT");
+
+  const shoe = deriveWord("CWH", "noun");
+  assert.equal(shoe.word, "ceweh");
+  assert.equal(shoe.root.id, "CWH");
+
+  const bread = deriveWord("BRX", "noun");
+  assert.equal(bread.word, "berex");
+  assert.equal(bread.root.id, "BRX");
+
+  const fruit = deriveWord("FRJ", "noun");
+  assert.equal(fruit.word, "ferej");
+  assert.equal(fruit.root.id, "FRJ");
+
+  const vegetable = deriveWord("VGJ", "noun");
+  assert.equal(vegetable.word, "vegej");
+  assert.equal(vegetable.root.id, "VGJ");
+
+  const pillow = deriveWord("PLW", "noun");
+  assert.equal(pillow.word, "pelew");
+  assert.equal(pillow.root.id, "PLW");
+
+  const soap = deriveWord("SWP", "noun");
+  assert.equal(soap.word, "sewep");
+  assert.equal(soap.root.id, "SWP");
+
+  const wallet = deriveWord("WLT", "noun");
+  assert.equal(wallet.word, "welet");
+  assert.equal(wallet.root.id, "WLT");
+
+  const address = deriveWord("DRS", "noun");
+  assert.equal(address.word, "deres");
+  assert.equal(address.root.id, "DRS");
+
+  const knife = deriveWord("KNF", "noun");
+  assert.equal(knife.word, "kenef");
+  assert.equal(knife.root.id, "KNF");
+
+  const cup = deriveWord("KWP", "noun");
+  assert.equal(cup.word, "kewep");
+  assert.equal(cup.root.id, "KWP");
+
+  const umbrella = deriveWord("MBRL", "noun");
+  assert.equal(umbrella.word, "meberel");
+  assert.equal(umbrella.root.id, "MBRL");
 });
 
 test("analyzes known words", () => {
