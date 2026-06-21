@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 47,057 explicit lexicon entries, 47,212 dictionary entries, 2,350 root families, and 5,240 reviewed corpus items after the v0.10.9 relational learning and repair corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 48,057 explicit lexicon entries, 48,212 dictionary entries, 2,400 root families, and 5,240 reviewed corpus items after the v0.10.10 reason, media, and place root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
 ```text
-entries 47,057 / 25,000
-dictionary 47,212 entries with corpus evidence fields
-roots     2,350 / 2,500
+entries 48,057 / 25,000
+dictionary 48,212 entries with corpus evidence fields
+roots     2,400 / 2,500
 corpus    5,240 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
@@ -201,7 +201,9 @@ The v0.10.8 relational learning and repair root batch adds 50 roots and 1,000 de
 
 The v0.10.9 relational learning and repair corpus grounding batch adds 120 reviewed examples across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds blended families, step-kin, half-kin, wardship, parenting time, alimony, respite care, kin conflict, obsession, avoidance, impulse, inhibition, compulsion, soothing, distress, humiliation, tutoring, rubrics, feedforward, drills, pedagogy, diagnostic pretests, remediation, accommodations, context windows, token budgets, hallucinations, tool calls, retrieval-augmented generation, vector databases, subagents, ground-truth labels, wetlands, coral reefs, pollinators, watersheds, firebreaks, seed banks, rewilding, mycorrhiza, incident command, debriefs, safe houses, sanctions, arms control, protective orders, deconfliction, peacekeeping, explosive clearance, and victim services in ordinary, civic, ritual, technical, poetic, and learner use.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 150 more root families and 4,760 more reviewed corpus items still needed.
+The v0.10.10 reason, media, and place root batch adds 50 roots and 1,000 derived lexicon entries across philosophy, science, media, travel/place, economics/provision, and ritual life. It adds transcendence, immanence, finitude, infinity, spirit, concord, duality, unity, axioms, theorems, medians, averages, modes, standard deviations, percentiles, z-scores, null hypotheses, replication, citations, footnotes, glosses, interviews, editorials, comments, addresses, intersections, sidewalks, plazas, campuses, embassies, consulates, border crossings, checkpoints, signage, apartments, hallways, vouchers, warranties, dues, donations, grants, scholarships, liturgy, sermons, fasting, anointing, consecration, initiation, rites of passage, and confession.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 100 more root families and 4,760 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
