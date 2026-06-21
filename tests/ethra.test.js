@@ -80,6 +80,18 @@ test("looks up roots by aliases and derives words", () => {
   const prayer = deriveWord("CC", "noun");
   assert.equal(prayer.word, "cec");
   assert.equal(prayer.root.id, "CC");
+
+  const charter = deriveWord("BRT", "noun");
+  assert.equal(charter.word, "beret");
+  assert.equal(charter.root.id, "BRT");
+
+  const authentication = deriveWord("KSN", "record");
+  assert.equal(authentication.word, "kasan-ket");
+  assert.equal(authentication.root.id, "KSN");
+
+  const biodiversity = deriveWord("BDS", "civic-legal");
+  assert.equal(biodiversity.word, "badas-da");
+  assert.equal(biodiversity.root.id, "BDS");
 });
 
 test("analyzes known words", () => {
@@ -108,7 +120,7 @@ test("loads canonical example translations", () => {
 test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 8000);
+  assert.ok(entries.length >= 10000);
   for (const category of [
     "Pronouns",
     "Particles",
