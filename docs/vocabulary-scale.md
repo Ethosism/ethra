@@ -1,12 +1,12 @@
 # Vocabulary Scale
 
-Ethra currently has 6,197 explicit lexicon entries and 280 reviewed corpus items after the v0.2.8 corpus-grounding expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 7,197 explicit lexicon entries and 280 reviewed corpus items after the v0.2.9 root-bank expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.3 everyday-fluency target:
 
 ```text
-entries 6,197 / 3,000
-roots     307 / 400
+entries 7,197 / 3,000
+roots     357 / 400
 corpus    280 / 500 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
@@ -23,6 +23,8 @@ The v0.2.6 corpus batch adds 60 reviewed examples across all six corpus tracks, 
 The v0.2.7 root batch adds 50 roots for time, body, emotion, social life, knowledge, ecology, and ritual: day, hour, schedule, pause, deadline, delay, return, brain, muscle, illness, fatigue, scar, eye, foot, gratitude, guilt, humility, envy, laughter, pride, patience, neighbor, guest, host, community, market, workplace, belief, idea, grade, research, hypothesis, cause, pattern, note, rain, insect, lake, lightning, plant-root, volcano, metal, magnet, ceremony, festival, offering, and dance.
 
 The v0.2.8 corpus batch adds 60 reviewed examples across all six corpus tracks, grounding the v0.2.7 roots in daily schedules, fatigue, neighborly return, market hours, public deadlines, medical records, research protocols, ritual offerings, technical debugging, natural imagery, and learner sentences.
+
+The v0.2.9 root batch adds 50 roots for everyday fluency and technical civilization: evidence, doubt, comparison, interpretation, hiddenness, accountability, consent, refusal, restraint, trust, care, mother, father, ancestor, descendant, clan, mouth, nose, face, voice, pulse, stomach, dose, tooth, symptom, pregnancy, prompt, algorithm, cache, interface, execution, server, error, version, backup, skill, reading, science, laboratory, equation, curriculum, mentor, student, language, answer, bridge, street, station, vote, and automation agent.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 

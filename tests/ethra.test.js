@@ -60,6 +60,18 @@ test("looks up roots by aliases and derives words", () => {
   const offering = deriveWord("NAK", "noun");
   assert.equal(offering.word, "nek");
   assert.equal(offering.root.id, "NK");
+
+  const evidence = deriveWord("DAG", "noun");
+  assert.equal(evidence.word, "deg");
+  assert.equal(evidence.root.id, "DG");
+
+  const algorithm = deriveWord("PZ", "noun");
+  assert.equal(algorithm.word, "pez");
+  assert.equal(algorithm.root.id, "PZ");
+
+  const care = deriveWord("WY", "verb");
+  assert.equal(care.word, "way");
+  assert.equal(care.root.id, "WY");
 });
 
 test("analyzes known words", () => {
@@ -88,7 +100,7 @@ test("loads canonical example translations", () => {
 test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 6000);
+  assert.ok(entries.length >= 7000);
   for (const category of [
     "Pronouns",
     "Particles",
