@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 20,057 explicit lexicon entries and 1,620 reviewed corpus items after the v0.3.17 governed corpus expansion batch. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 20,057 explicit lexicon entries and 1,740 reviewed corpus items after the v0.3.18 governed corpus expansion batch. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.5 public-culture target:
 
 ```text
 entries 20,057 / 10,000
 roots     1,000 / 1,000
-corpus    1,620 / 2,000 reviewed items
+corpus    1,740 / 2,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -74,7 +74,9 @@ The v0.3.16 corpus batch adds 120 more reviewed examples, strengthening science/
 
 The v0.3.17 corpus batch adds 120 more reviewed examples, deepening science, provision, education, AI, conflict, ecology, travel, body-health, media, family inheritance, civic, ritual, technical, and poetic usage. It also moves learner-graded material within ten items of its v0.5 track target.
 
-The v0.5 entry and root targets are now met. The main remaining v0.5 gap is reviewed corpus depth, now 1,620 / 2,000.
+The v0.3.18 corpus batch adds 120 more reviewed examples, strengthening science, economics, education, AI accountability, conflict repair, ecology, travel, health consent, software networking, memory, public speech, and learner material. It also keeps all six corpus tracks aligned with the governed planner and brings the remaining v0.5 corpus gap down to 260 items.
+
+The v0.5 entry and root targets are now met. The main remaining v0.5 gap is reviewed corpus depth, now 1,740 / 2,000.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
