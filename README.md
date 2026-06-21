@@ -4,6 +4,10 @@ Ethra is a v0.1 constructed civilizational language. It is not meant to be an Es
 
 The working name is kept as **Ethra** because it is short, pronounceable, and internally useful: `eth` evokes ethos and `ra` evokes seeing. The name therefore sounds like "ethos made visible."
 
+Status: initial v0.1 specification, generated YAML data, TypeScript CLI, and tests.
+
+Repository: <https://github.com/Ethosism/ethra>
+
 ## Why Build It
 
 English is powerful because it is flexible, absorptive, globally distributed, and technically productive. It is not, however, a cleanly designed language. Its spelling is irregular, its moral distinctions are often optional, and its pronouns are relationally thin.
@@ -27,7 +31,9 @@ Ethra treats language as training. What is easy to say becomes easy to notice. W
 - **Moral grammar:** particles distinguish can, may, want, choose, should, owe, vow, inherited duty, chosen duty, entrusted duty, repair, and scope of action.
 - **Relational grammar:** pronouns distinguish beloved, equal, elder/teacher, child/student, citizen, opponent, sacred addressee, and collective people.
 - **Roots:** 36 root families with derived action, concept, quality, agent, object, ritual, civic, and intimate forms.
-- **Lexicon:** generated v0.1 core lexicon with more than 250 explicit entries.
+- **Lexicon:** generated v0.1 core lexicon with 337 explicit entries across pronouns, particles, moral agency, family, body, mind, emotion, seeing/knowing, speech, time, nature, building/making, law/civic life, technology, ritual/poetry, love/intimacy, conflict/repair, and future/civilization.
+- **Machine-readable spec:** YAML files in `spec/` for phonology, roots, particles, pronouns, grammar, lexicon, and examples.
+- **Tooling:** CLI commands for root generation, word derivation, word analysis, example lookup, particle/root listing, lexicon listing, and compound creation.
 
 ## Quick Examples
 
@@ -68,8 +74,10 @@ npm test
 Use the CLI from source:
 
 ```bash
+npm run ethra -- generate-root --field "sacred attention"
 npm run ethra -- list-roots
 npm run ethra -- list-particles
+npm run ethra -- list-lexicon --category "Moral agency"
 npm run ethra -- derive-word --root RAH --pattern intimate-imperative
 npm run ethra -- analyze-word mi-rah
 npm run ethra -- translate-example 8
@@ -120,6 +128,8 @@ ethra-language/
 3. Add CLI or analyzer behavior in `src/`.
 4. Add focused tests in `tests/`.
 5. Keep new grammar justified by cultural function. Decorative complexity is rejected.
+
+The generated YAML is committed intentionally. It is the stable interface for future parsers, web apps, corpus tools, and teaching material.
 
 ## v0.2 Targets
 
