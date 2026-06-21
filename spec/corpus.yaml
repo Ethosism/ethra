@@ -1,4 +1,4 @@
-version: "0.9.9-corpus"
+version: "0.10.1-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -46401,3 +46401,1203 @@ items:
     literal: "Formative-assessment guides repair."
     notes: "A1 assessment sentence."
     terms: ["femeaes", "pat", "tar"]
+  -
+    id: "daily-929"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Entropy reveals emptiness."
+    ethra: "Eeneter rah xed."
+    literal: "Entropy reveals emptiness."
+    notes: "Daily grounding for disorder and lost usable order."
+    terms: ["eeneter", "rah", "xed"]
+  -
+    id: "daily-930"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Equilibrium protects measure."
+    ethra: "Eekeleb xap mas."
+    literal: "Equilibrium protects measure."
+    notes: "Daily grounding for balanced system state."
+    terms: ["eekeleb", "xap", "mas"]
+  -
+    id: "daily-931"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Correlation reveals data."
+    ethra: "Cerelex rah den."
+    literal: "Correlation reveals data."
+    notes: "Daily grounding for measured relation."
+    terms: ["cerelex", "rah", "den"]
+  -
+    id: "daily-932"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Variance reveals data."
+    ethra: "Veaeren rah den."
+    literal: "Variance reveals data."
+    notes: "Daily grounding for measured spread."
+    terms: ["veaeren", "rah", "den"]
+  -
+    id: "daily-933"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Derivative guides path."
+    ethra: "Derevet pat pat."
+    literal: "Derivative guides path."
+    notes: "Daily grounding for rate of change."
+    terms: ["derevet", "pat"]
+  -
+    id: "daily-934"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Integral carries data."
+    ethra: "Neteger taw den."
+    literal: "Integral carries data."
+    notes: "Daily grounding for accumulated whole."
+    terms: ["neteger", "taw", "den"]
+  -
+    id: "daily-935"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Topology protects path."
+    ethra: "Tepeleg xap pat."
+    literal: "Topology protects path."
+    notes: "Daily grounding for continuity of form."
+    terms: ["tepeleg", "xap", "pat"]
+  -
+    id: "daily-936"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Set names boundary."
+    ethra: "Seeetex nam benedey."
+    literal: "Set names boundary."
+    notes: "Daily grounding for membership collection."
+    terms: ["seeetex", "nam", "benedey"]
+  -
+    id: "daily-937"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "history-memory"]
+    register: "plain"
+    english: "Sequence carries memory."
+    ethra: "Seeeken taw mer."
+    literal: "Sequence carries memory."
+    notes: "Daily grounding for ordered succession."
+    terms: ["seeeken", "taw", "mer"]
+  -
+    id: "daily-938"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "art-beauty"]
+    register: "plain"
+    english: "Symmetry reveals beauty."
+    ethra: "Seyemem rah hed."
+    literal: "Symmetry reveals beauty."
+    notes: "Daily grounding for transformed sameness."
+    terms: ["seyemem", "rah", "hed"]
+  -
+    id: "daily-939"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Range names boundary."
+    ethra: "Renegee nam benedey."
+    literal: "Range names boundary."
+    notes: "Daily grounding for reachable value span."
+    terms: ["renegee", "nam", "benedey"]
+  -
+    id: "daily-940"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Sample carries evidence."
+    ethra: "Semepex taw xeg."
+    literal: "Sample carries evidence."
+    notes: "Daily grounding for selected evidence."
+    terms: ["semepex", "taw", "xeg"]
+  -
+    id: "daily-941"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Population names people."
+    ethra: "Peoepel nam lem."
+    literal: "Population names people."
+    notes: "Daily grounding for study whole."
+    terms: ["peoepel", "nam", "lem"]
+  -
+    id: "daily-942"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Unit protects measure."
+    ethra: "Uenetex xap mas."
+    literal: "Unit protects measure."
+    notes: "Daily grounding for standard measure-one."
+    terms: ["uenetex", "xap", "mas"]
+  -
+    id: "daily-943"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "ai-cognition"]
+    register: "plain"
+    english: "Constant protects model."
+    ethra: "Cenexet xap med."
+    literal: "Constant protects model."
+    notes: "Daily grounding for fixed value."
+    terms: ["cenexet", "xap", "med"]
+  -
+    id: "daily-944"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "ai-cognition"]
+    register: "plain"
+    english: "Gradient guides model."
+    ethra: "Geredet pat med."
+    literal: "Gradient guides model."
+    notes: "Daily grounding for directed change slope."
+    terms: ["geredet", "pat", "med"]
+  -
+    id: "daily-945"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Calibration protects measure."
+    ethra: "Celeber xap mas."
+    literal: "Calibration protects measure."
+    notes: "Daily grounding for corrected measurement alignment."
+    terms: ["celeber", "xap", "mas"]
+  -
+    id: "daily-946"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Phase names path."
+    ethra: "Peheaes nam pat."
+    literal: "Phase names path."
+    notes: "Daily grounding for system state."
+    terms: ["peheaes", "nam", "pat"]
+  -
+    id: "daily-947"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Constraint guides choice."
+    ethra: "Ceseter pat vel."
+    literal: "Constraint guides choice."
+    notes: "Daily grounding for bounding condition."
+    terms: ["ceseter", "pat", "vel"]
+  -
+    id: "daily-948"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Deontology binds duty."
+    ethra: "Deeeoen dav dev."
+    literal: "Deontology binds duty."
+    notes: "Daily grounding for duty-first moral reasoning."
+    terms: ["deeeoen", "dav", "dev"]
+  -
+    id: "daily-949"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics", "art-beauty"]
+    register: "plain"
+    english: "Axiology names beauty."
+    ethra: "Aexeleg nam hed."
+    literal: "Axiology names beauty."
+    notes: "Daily grounding for value study."
+    terms: ["aexeleg", "nam", "hed"]
+  -
+    id: "daily-950"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Legitimacy protects rule."
+    ethra: "Legetey xap rag."
+    literal: "Legitimacy protects rule."
+    notes: "Daily grounding for rightful authority."
+    terms: ["legetey", "xap", "rag"]
+  -
+    id: "daily-951"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance", "history-memory"]
+    register: "plain"
+    english: "Sovereignty carries people."
+    ethra: "Seoever taw lem."
+    literal: "Sovereignty carries people."
+    notes: "Daily grounding for final public authority."
+    terms: ["seoever", "taw", "lem"]
+  -
+    id: "daily-952"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance", "history-memory"]
+    register: "plain"
+    english: "Pluralism protects people."
+    ethra: "Pelerel xap lem."
+    literal: "Pluralism protects people."
+    notes: "Daily grounding for ordered many-ness."
+    terms: ["pelerel", "xap", "lem"]
+  -
+    id: "civic-697"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Entropy record reveals risk."
+    ethra: "Eanatar-da rah kav."
+    literal: "Entropy-record reveals risk."
+    notes: "Civic grounding for disorder and lost usable order."
+    terms: ["eanatar-da", "rah", "kav"]
+  -
+    id: "civic-698"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Equilibrium record protects justice."
+    ethra: "Eakalab-da xap sak."
+    literal: "Equilibrium-record protects justice."
+    notes: "Civic grounding for balanced system state."
+    terms: ["eakalab-da", "xap", "sak"]
+  -
+    id: "civic-699"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Correlation record reveals data."
+    ethra: "Caralax-da rah den."
+    literal: "Correlation-record reveals data."
+    notes: "Civic grounding for measured relation."
+    terms: ["caralax-da", "rah", "den"]
+  -
+    id: "civic-700"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Variance record reveals data."
+    ethra: "Vaaaran-da rah den."
+    literal: "Variance-record reveals data."
+    notes: "Civic grounding for measured spread."
+    terms: ["vaaaran-da", "rah", "den"]
+  -
+    id: "civic-701"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Derivative record guides measure."
+    ethra: "Daravat-da pat mas."
+    literal: "Derivative-record guides measure."
+    notes: "Civic grounding for rate of change."
+    terms: ["daravat-da", "pat", "mas"]
+  -
+    id: "civic-702"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Integral record carries data."
+    ethra: "Natagar-da taw den."
+    literal: "Integral-record carries data."
+    notes: "Civic grounding for accumulated whole."
+    terms: ["natagar-da", "taw", "den"]
+  -
+    id: "civic-703"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Topology record protects path."
+    ethra: "Tapalag-da xap pat."
+    literal: "Topology-record protects path."
+    notes: "Civic grounding for continuity of form."
+    terms: ["tapalag-da", "xap", "pat"]
+  -
+    id: "civic-704"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Set record names boundary."
+    ethra: "Saeatax-da nam benedey."
+    literal: "Set-record names boundary."
+    notes: "Civic grounding for membership collection."
+    terms: ["saeatax-da", "nam", "benedey"]
+  -
+    id: "civic-705"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Sequence record carries writing."
+    ethra: "Saeakan-da taw ket."
+    literal: "Sequence-record carries writing."
+    notes: "Civic grounding for ordered succession."
+    terms: ["saeakan-da", "taw", "ket"]
+  -
+    id: "civic-706"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Symmetry record reveals beauty."
+    ethra: "Sayamam-da rah hed."
+    literal: "Symmetry-record reveals beauty."
+    notes: "Civic grounding for transformed sameness."
+    terms: ["sayamam-da", "rah", "hed"]
+  -
+    id: "civic-707"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Range record names boundary."
+    ethra: "Ranagae-da nam benedey."
+    literal: "Range-record names boundary."
+    notes: "Civic grounding for reachable value span."
+    terms: ["ranagae-da", "nam", "benedey"]
+  -
+    id: "civic-708"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Sample record carries evidence."
+    ethra: "Samapax-da taw xeg."
+    literal: "Sample-record carries evidence."
+    notes: "Civic grounding for selected evidence."
+    terms: ["samapax-da", "taw", "xeg"]
+  -
+    id: "civic-709"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Population record names people."
+    ethra: "Paoapal-da nam lem."
+    literal: "Population-record names people."
+    notes: "Civic grounding for study whole."
+    terms: ["paoapal-da", "nam", "lem"]
+  -
+    id: "civic-710"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Unit record protects measure."
+    ethra: "Uanatax-da xap mas."
+    literal: "Unit-record protects measure."
+    notes: "Civic grounding for standard measure-one."
+    terms: ["uanatax-da", "xap", "mas"]
+  -
+    id: "civic-711"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Constant record protects model."
+    ethra: "Canaxat-da xap med."
+    literal: "Constant-record protects model."
+    notes: "Civic grounding for fixed value."
+    terms: ["canaxat-da", "xap", "med"]
+  -
+    id: "civic-712"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Gradient record guides model."
+    ethra: "Garadat-da pat med."
+    literal: "Gradient-record guides model."
+    notes: "Civic grounding for directed change slope."
+    terms: ["garadat-da", "pat", "med"]
+  -
+    id: "civic-713"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Calibration record protects measure."
+    ethra: "Calabar-da xap mas."
+    literal: "Calibration-record protects measure."
+    notes: "Civic grounding for corrected measurement alignment."
+    terms: ["calabar-da", "xap", "mas"]
+  -
+    id: "civic-714"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic-record"
+    english: "Constraint record guides choice."
+    ethra: "Casatar-da pat vel."
+    literal: "Constraint-record guides choice."
+    notes: "Civic grounding for bounding condition."
+    terms: ["casatar-da", "pat", "vel"]
+  -
+    id: "ritual-697"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Entropy solemn reveals risk."
+    ethra: "Ha-eunutur rah kav."
+    literal: "Entropy-solemn reveals risk."
+    notes: "Ritual grounding for disorder and lost usable order."
+    terms: ["ha-eunutur", "rah", "kav"]
+  -
+    id: "ritual-698"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Equilibrium solemn protects justice."
+    ethra: "Ha-eukulub xap sak."
+    literal: "Equilibrium-solemn protects justice."
+    notes: "Ritual grounding for balanced system state."
+    terms: ["ha-eukulub", "xap", "sak"]
+  -
+    id: "ritual-699"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Correlation solemn reveals data."
+    ethra: "Ha-curulux rah den."
+    literal: "Correlation-solemn reveals data."
+    notes: "Ritual grounding for measured relation."
+    terms: ["ha-curulux", "rah", "den"]
+  -
+    id: "ritual-700"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Variance solemn reveals data."
+    ethra: "Ha-vuaurun rah den."
+    literal: "Variance-solemn reveals data."
+    notes: "Ritual grounding for measured spread."
+    terms: ["ha-vuaurun", "rah", "den"]
+  -
+    id: "ritual-701"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Derivative solemn guides measure."
+    ethra: "Ha-duruvut pat mas."
+    literal: "Derivative-solemn guides measure."
+    notes: "Ritual grounding for rate of change."
+    terms: ["ha-duruvut", "pat", "mas"]
+  -
+    id: "ritual-702"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Integral solemn carries data."
+    ethra: "Ha-nutugur taw den."
+    literal: "Integral-solemn carries data."
+    notes: "Ritual grounding for accumulated whole."
+    terms: ["ha-nutugur", "taw", "den"]
+  -
+    id: "ritual-703"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Topology solemn protects path."
+    ethra: "Ha-tupulug xap pat."
+    literal: "Topology-solemn protects path."
+    notes: "Ritual grounding for continuity of form."
+    terms: ["ha-tupulug", "xap", "pat"]
+  -
+    id: "ritual-704"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Set solemn names boundary."
+    ethra: "Ha-sueutux nam benedey."
+    literal: "Set-solemn names boundary."
+    notes: "Ritual grounding for membership collection."
+    terms: ["ha-sueutux", "nam", "benedey"]
+  -
+    id: "ritual-705"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Sequence solemn carries writing."
+    ethra: "Ha-sueukun taw ket."
+    literal: "Sequence-solemn carries writing."
+    notes: "Ritual grounding for ordered succession."
+    terms: ["ha-sueukun", "taw", "ket"]
+  -
+    id: "ritual-706"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Symmetry solemn reveals beauty."
+    ethra: "Ha-suyumum rah hed."
+    literal: "Symmetry-solemn reveals beauty."
+    notes: "Ritual grounding for transformed sameness."
+    terms: ["ha-suyumum", "rah", "hed"]
+  -
+    id: "ritual-707"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Range solemn names boundary."
+    ethra: "Ha-runugue nam benedey."
+    literal: "Range-solemn names boundary."
+    notes: "Ritual grounding for reachable value span."
+    terms: ["ha-runugue", "nam", "benedey"]
+  -
+    id: "ritual-708"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Sample solemn carries evidence."
+    ethra: "Ha-sumupux taw xeg."
+    literal: "Sample-solemn carries evidence."
+    notes: "Ritual grounding for selected evidence."
+    terms: ["ha-sumupux", "taw", "xeg"]
+  -
+    id: "ritual-709"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Population solemn names people."
+    ethra: "Ha-puoupul nam lem."
+    literal: "Population-solemn names people."
+    notes: "Ritual grounding for study whole."
+    terms: ["ha-puoupul", "nam", "lem"]
+  -
+    id: "ritual-710"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Unit solemn protects measure."
+    ethra: "Ha-uunutux xap mas."
+    literal: "Unit-solemn protects measure."
+    notes: "Ritual grounding for standard measure-one."
+    terms: ["ha-uunutux", "xap", "mas"]
+  -
+    id: "ritual-711"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Constant solemn protects model."
+    ethra: "Ha-cunuxut xap med."
+    literal: "Constant-solemn protects model."
+    notes: "Ritual grounding for fixed value."
+    terms: ["ha-cunuxut", "xap", "med"]
+  -
+    id: "ritual-712"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Gradient solemn guides model."
+    ethra: "Ha-gurudut pat med."
+    literal: "Gradient-solemn guides model."
+    notes: "Ritual grounding for directed change slope."
+    terms: ["ha-gurudut", "pat", "med"]
+  -
+    id: "ritual-713"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Calibration solemn protects measure."
+    ethra: "Ha-culubur xap mas."
+    literal: "Calibration-solemn protects measure."
+    notes: "Ritual grounding for corrected measurement alignment."
+    terms: ["ha-culubur", "xap", "mas"]
+  -
+    id: "ritual-714"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math"]
+    register: "solemn"
+    english: "Constraint solemn guides choice."
+    ethra: "Ha-cusutur pat vel."
+    literal: "Constraint-solemn guides choice."
+    notes: "Ritual grounding for bounding condition."
+    terms: ["ha-cusutur", "pat", "vel"]
+  -
+    id: "tech-929"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Entropy log reveals data."
+    ethra: "Eanatar-ket rah den."
+    literal: "Entropy-log reveals data."
+    notes: "Technical grounding for disorder and lost usable order."
+    terms: ["eanatar-ket", "rah", "den"]
+  -
+    id: "tech-930"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Equilibrium log protects model."
+    ethra: "Eakalab-ket xap med."
+    literal: "Equilibrium-log protects model."
+    notes: "Technical grounding for balanced system state."
+    terms: ["eakalab-ket", "xap", "med"]
+  -
+    id: "tech-931"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Correlation log reveals data."
+    ethra: "Caralax-ket rah den."
+    literal: "Correlation-log reveals data."
+    notes: "Technical grounding for measured relation."
+    terms: ["caralax-ket", "rah", "den"]
+  -
+    id: "tech-932"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Variance log reveals data."
+    ethra: "Vaaaran-ket rah den."
+    literal: "Variance-log reveals data."
+    notes: "Technical grounding for measured spread."
+    terms: ["vaaaran-ket", "rah", "den"]
+  -
+    id: "tech-933"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical-record"
+    english: "Derivative log guides model."
+    ethra: "Daravat-ket pat med."
+    literal: "Derivative-log guides model."
+    notes: "Technical grounding for rate of change."
+    terms: ["daravat-ket", "pat", "med"]
+  -
+    id: "tech-934"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Integral log carries data."
+    ethra: "Natagar-ket taw den."
+    literal: "Integral-log carries data."
+    notes: "Technical grounding for accumulated whole."
+    terms: ["natagar-ket", "taw", "den"]
+  -
+    id: "tech-935"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Topology log protects model."
+    ethra: "Tapalag-ket xap med."
+    literal: "Topology-log protects model."
+    notes: "Technical grounding for continuity of form."
+    terms: ["tapalag-ket", "xap", "med"]
+  -
+    id: "tech-936"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Set log names data."
+    ethra: "Saeatax-ket nam den."
+    literal: "Set-log names data."
+    notes: "Technical grounding for membership collection."
+    terms: ["saeatax-ket", "nam", "den"]
+  -
+    id: "tech-937"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "history-memory"]
+    register: "technical-record"
+    english: "Sequence log carries writing."
+    ethra: "Saeakan-ket taw ket."
+    literal: "Sequence-log carries writing."
+    notes: "Technical grounding for ordered succession."
+    terms: ["saeakan-ket", "taw", "ket"]
+  -
+    id: "tech-938"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical-record"
+    english: "Symmetry log reveals model."
+    ethra: "Sayamam-ket rah med."
+    literal: "Symmetry-log reveals model."
+    notes: "Technical grounding for transformed sameness."
+    terms: ["sayamam-ket", "rah", "med"]
+  -
+    id: "tech-939"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Range log names boundary."
+    ethra: "Ranagae-ket nam benedey."
+    literal: "Range-log names boundary."
+    notes: "Technical grounding for reachable value span."
+    terms: ["ranagae-ket", "nam", "benedey"]
+  -
+    id: "tech-940"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Sample log carries evidence."
+    ethra: "Samapax-ket taw xeg."
+    literal: "Sample-log carries evidence."
+    notes: "Technical grounding for selected evidence."
+    terms: ["samapax-ket", "taw", "xeg"]
+  -
+    id: "tech-941"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Population log names data."
+    ethra: "Paoapal-ket nam den."
+    literal: "Population-log names data."
+    notes: "Technical grounding for study whole."
+    terms: ["paoapal-ket", "nam", "den"]
+  -
+    id: "tech-942"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Unit log protects measure."
+    ethra: "Uanatax-ket xap mas."
+    literal: "Unit-log protects measure."
+    notes: "Technical grounding for standard measure-one."
+    terms: ["uanatax-ket", "xap", "mas"]
+  -
+    id: "tech-943"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical-record"
+    english: "Constant log protects model."
+    ethra: "Canaxat-ket xap med."
+    literal: "Constant-log protects model."
+    notes: "Technical grounding for fixed value."
+    terms: ["canaxat-ket", "xap", "med"]
+  -
+    id: "tech-944"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical-record"
+    english: "Gradient log guides model."
+    ethra: "Garadat-ket pat med."
+    literal: "Gradient-log guides model."
+    notes: "Technical grounding for directed change slope."
+    terms: ["garadat-ket", "pat", "med"]
+  -
+    id: "tech-945"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Calibration log protects measure."
+    ethra: "Calabar-ket xap mas."
+    literal: "Calibration-log protects measure."
+    notes: "Technical grounding for corrected measurement alignment."
+    terms: ["calabar-ket", "xap", "mas"]
+  -
+    id: "tech-946"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical-record"
+    english: "Phase log names path."
+    ethra: "Pahaaas-ket nam pat."
+    literal: "Phase-log names path."
+    notes: "Technical grounding for system state."
+    terms: ["pahaaas-ket", "nam", "pat"]
+  -
+    id: "tech-947"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical-record"
+    english: "Constraint log guides choice."
+    ethra: "Casatar-ket pat vel."
+    literal: "Constraint-log guides choice."
+    notes: "Technical grounding for bounding condition."
+    terms: ["casatar-ket", "pat", "vel"]
+  -
+    id: "tech-948"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical-record"
+    english: "Benchmark log names measure."
+    ethra: "Banacah-ket nam mas."
+    literal: "Benchmark-log names measure."
+    notes: "Technical grounding for standard test task."
+    terms: ["banacah-ket", "nam", "mas"]
+  -
+    id: "tech-949"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Overfitting log reveals risk."
+    ethra: "Oavafat-ket rah kav."
+    literal: "Overfitting-log reveals risk."
+    notes: "Technical grounding for narrow memorized fit."
+    terms: ["oavafat-ket", "rah", "kav"]
+  -
+    id: "tech-950"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Underfitting log reveals harm."
+    ethra: "Uanafat-ket rah pan."
+    literal: "Underfitting-log reveals harm."
+    notes: "Technical grounding for insufficient model fit."
+    terms: ["uanafat-ket", "rah", "pan"]
+  -
+    id: "tech-951"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Generalization log protects model."
+    ethra: "Ganaral-ket xap med."
+    literal: "Generalization-log protects model."
+    notes: "Technical grounding for patterns beyond cases."
+    terms: ["ganaral-ket", "xap", "med"]
+  -
+    id: "tech-952"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Ablation log reveals model."
+    ethra: "Aabalat-ket rah med."
+    literal: "Ablation-log reveals model."
+    notes: "Technical grounding for component-removal testing."
+    terms: ["aabalat-ket", "rah", "med"]
+  -
+    id: "poetic-929"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Axiology names beauty."
+    ethra: "Aexeleg nam hed."
+    literal: "Axiology names beauty."
+    notes: "Poetic grounding for value study."
+    terms: ["aexeleg", "nam", "hed"]
+  -
+    id: "poetic-930"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "Legitimacy protects rule."
+    ethra: "Legetey xap rag."
+    literal: "Legitimacy protects rule."
+    notes: "Poetic grounding for rightful authority."
+    terms: ["legetey", "xap", "rag"]
+  -
+    id: "poetic-931"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance", "history-memory"]
+    register: "poetic"
+    english: "Sovereignty carries people."
+    ethra: "Seoever taw lem."
+    literal: "Sovereignty carries people."
+    notes: "Poetic grounding for final public authority."
+    terms: ["seoever", "taw", "lem"]
+  -
+    id: "poetic-932"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance", "history-memory"]
+    register: "poetic"
+    english: "Pluralism protects people."
+    ethra: "Pelerel xap lem."
+    literal: "Pluralism protects people."
+    notes: "Poetic grounding for ordered many-ness."
+    terms: ["pelerel", "xap", "lem"]
+  -
+    id: "poetic-933"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Realism reveals truth."
+    ethra: "Reeeael rah rih."
+    literal: "Realism reveals truth."
+    notes: "Poetic grounding for reality-standing thought."
+    terms: ["reeeael", "rah", "rih"]
+  -
+    id: "poetic-934"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics", "media-communication"]
+    register: "poetic"
+    english: "Nominalism names undefined."
+    ethra: "Nemelex nam nam."
+    literal: "Nominalism names undefined."
+    notes: "Poetic grounding for name-bounded doctrine."
+    terms: ["nemelex", "nam"]
+  -
+    id: "poetic-935"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics", "science-math"]
+    register: "poetic"
+    english: "Materialism reveals data."
+    ethra: "Meterel rah den."
+    literal: "Materialism reveals data."
+    notes: "Poetic grounding for matter-first doctrine."
+    terms: ["meterel", "rah", "den"]
+  -
+    id: "poetic-936"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication"]
+    register: "poetic"
+    english: "Pragmatics reveals meaning."
+    ethra: "Peregex rah nem."
+    literal: "Pragmatics reveals meaning."
+    notes: "Poetic grounding for meaning in use."
+    terms: ["peregex", "rah", "nem"]
+  -
+    id: "poetic-937"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication"]
+    register: "poetic"
+    english: "Discourse carries meaning."
+    ethra: "Desecex taw nem."
+    literal: "Discourse carries meaning."
+    notes: "Poetic grounding for extended speech."
+    terms: ["desecex", "taw", "nem"]
+  -
+    id: "poetic-938"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication"]
+    register: "poetic"
+    english: "Phoneme protects undefined."
+    ethra: "Feoenem xap nam."
+    literal: "Phoneme protects undefined."
+    notes: "Poetic grounding for contrastive sound."
+    terms: ["feoenem", "xap", "nam"]
+  -
+    id: "poetic-939"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication"]
+    register: "poetic"
+    english: "Morphology protects undefined."
+    ethra: "Meoeref xap nam."
+    literal: "Morphology protects undefined."
+    notes: "Poetic grounding for word-form structure."
+    terms: ["meoeref", "xap", "nam"]
+  -
+    id: "poetic-940"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "history-memory"]
+    register: "poetic"
+    english: "Etymology carries memory."
+    ethra: "Eeteyem taw mer."
+    literal: "Etymology carries memory."
+    notes: "Poetic grounding for word ancestry."
+    terms: ["eeteyem", "taw", "mer"]
+  -
+    id: "poetic-941"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "travel-place"]
+    register: "poetic"
+    english: "Dialect carries undefined."
+    ethra: "Deieael taw nam."
+    literal: "Dialect carries undefined."
+    notes: "Poetic grounding for local speech form."
+    terms: ["deieael", "taw", "nam"]
+  -
+    id: "poetic-942"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication"]
+    register: "poetic"
+    english: "Lexeme names writing."
+    ethra: "Leeexem nam ket."
+    literal: "Lexeme names writing."
+    notes: "Poetic grounding for dictionary units."
+    terms: ["leeexem", "nam", "ket"]
+  -
+    id: "poetic-943"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Benchmark names measure."
+    ethra: "Beneceh nam mas."
+    literal: "Benchmark names measure."
+    notes: "Poetic grounding for standard test task."
+    terms: ["beneceh", "nam", "mas"]
+  -
+    id: "poetic-944"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software", "ai-cognition"]
+    register: "poetic"
+    english: "Overfitting breaks model."
+    ethra: "Oevefet mak med."
+    literal: "Overfitting breaks model."
+    notes: "Poetic grounding for narrow memorized fit."
+    terms: ["oevefet", "mak", "med"]
+  -
+    id: "poetic-945"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software", "ai-cognition"]
+    register: "poetic"
+    english: "Underfitting breaks model."
+    ethra: "Uenefet mak med."
+    literal: "Underfitting breaks model."
+    notes: "Poetic grounding for insufficient model fit."
+    terms: ["uenefet", "mak", "med"]
+  -
+    id: "poetic-946"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software", "ai-cognition"]
+    register: "poetic"
+    english: "Generalization protects model."
+    ethra: "Generel xap med."
+    literal: "Generalization protects model."
+    notes: "Poetic grounding for patterns beyond cases."
+    terms: ["generel", "xap", "med"]
+  -
+    id: "poetic-947"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software", "ai-cognition"]
+    register: "poetic"
+    english: "Ablation reveals model."
+    ethra: "Aebelet rah med."
+    literal: "Ablation reveals model."
+    notes: "Poetic grounding for component-removal testing."
+    terms: ["aebelet", "rah", "med"]
+  -
+    id: "poetic-948"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Latency names time."
+    ethra: "Lenetec nam tem."
+    literal: "Latency names time."
+    notes: "Poetic grounding for response delay."
+    terms: ["lenetec", "nam", "tem"]
+  -
+    id: "poetic-949"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Throughput carries data."
+    ethra: "Tehepet taw den."
+    literal: "Throughput carries data."
+    notes: "Poetic grounding for work-flow capacity."
+    terms: ["tehepet", "taw", "den"]
+  -
+    id: "poetic-950"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software", "ai-cognition"]
+    register: "poetic"
+    english: "Drift reveals risk."
+    ethra: "Defetex rah kav."
+    literal: "Drift reveals risk."
+    notes: "Poetic grounding for gradual truth shift."
+    terms: ["defetex", "rah", "kav"]
+  -
+    id: "poetic-951"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Robustness protects model."
+    ethra: "Reoebex xap med."
+    literal: "Robustness protects model."
+    notes: "Poetic grounding for durable performance."
+    terms: ["reoebex", "xap", "med"]
+  -
+    id: "poetic-952"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software", "science-math"]
+    register: "poetic"
+    english: "Clustering names category."
+    ethra: "Celeuex nam gec."
+    literal: "Clustering names category."
+    notes: "Poetic grounding for similarity grouping."
+    terms: ["celeuex", "nam", "gec"]
+  -
+    id: "learner-465"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Entropy reveals emptiness."
+    ethra: "Eeneter rah xed."
+    literal: "Entropy reveals emptiness."
+    notes: "A1 grounding for disorder and lost usable order."
+    terms: ["eeneter", "rah", "xed"]
+  -
+    id: "learner-466"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Equilibrium protects measure."
+    ethra: "Eekeleb xap mas."
+    literal: "Equilibrium protects measure."
+    notes: "A1 grounding for balanced system state."
+    terms: ["eekeleb", "xap", "mas"]
+  -
+    id: "learner-467"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Correlation reveals data."
+    ethra: "Cerelex rah den."
+    literal: "Correlation reveals data."
+    notes: "A1 grounding for measured relation."
+    terms: ["cerelex", "rah", "den"]
+  -
+    id: "learner-468"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Variance reveals data."
+    ethra: "Veaeren rah den."
+    literal: "Variance reveals data."
+    notes: "A1 grounding for measured spread."
+    terms: ["veaeren", "rah", "den"]
+  -
+    id: "learner-469"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Derivative guides path."
+    ethra: "Derevet pat pat."
+    literal: "Derivative guides path."
+    notes: "A1 grounding for rate of change."
+    terms: ["derevet", "pat"]
+  -
+    id: "learner-470"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Integral carries data."
+    ethra: "Neteger taw den."
+    literal: "Integral carries data."
+    notes: "A1 grounding for accumulated whole."
+    terms: ["neteger", "taw", "den"]
+  -
+    id: "learner-471"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Topology protects path."
+    ethra: "Tepeleg xap pat."
+    literal: "Topology protects path."
+    notes: "A1 grounding for continuity of form."
+    terms: ["tepeleg", "xap", "pat"]
+  -
+    id: "learner-472"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Set names boundary."
+    ethra: "Seeetex nam benedey."
+    literal: "Set names boundary."
+    notes: "A1 grounding for membership collection."
+    terms: ["seeetex", "nam", "benedey"]
+  -
+    id: "learner-473"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math", "history-memory"]
+    register: "learner-a1"
+    english: "Sequence carries memory."
+    ethra: "Seeeken taw mer."
+    literal: "Sequence carries memory."
+    notes: "A1 grounding for ordered succession."
+    terms: ["seeeken", "taw", "mer"]
+  -
+    id: "learner-474"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math", "art-beauty"]
+    register: "learner-a1"
+    english: "Symmetry reveals beauty."
+    ethra: "Seyemem rah hed."
+    literal: "Symmetry reveals beauty."
+    notes: "A1 grounding for transformed sameness."
+    terms: ["seyemem", "rah", "hed"]
+  -
+    id: "learner-475"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Sample carries evidence."
+    ethra: "Semepex taw xeg."
+    literal: "Sample carries evidence."
+    notes: "A1 grounding for selected evidence."
+    terms: ["semepex", "taw", "xeg"]
+  -
+    id: "learner-476"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "learner-a1"
+    english: "Benchmark names measure."
+    ethra: "Beneceh nam mas."
+    literal: "Benchmark names measure."
+    notes: "A1 grounding for standard test task."
+    terms: ["beneceh", "nam", "mas"]
