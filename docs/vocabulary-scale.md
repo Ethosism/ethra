@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 45,057 explicit lexicon entries, 45,212 dictionary entries, 2,250 root families, and 5,000 reviewed corpus items after the v0.10.5 consciousness, assurance, and conflict-repair corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 46,057 explicit lexicon entries, 46,212 dictionary entries, 2,300 root families, and 5,000 reviewed corpus items after the v0.10.6 public-service operations root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
 ```text
-entries 45,057 / 25,000
-dictionary 45,212 entries with corpus evidence fields
-roots     2,250 / 2,500
+entries 46,057 / 25,000
+dictionary 46,212 entries with corpus evidence fields
+roots     2,300 / 2,500
 corpus    5,000 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
@@ -193,7 +193,9 @@ The v0.10.4 consciousness, assurance, and conflict-repair root batch adds 50 roo
 
 The v0.10.5 consciousness, assurance, and conflict-repair corpus grounding batch adds 120 reviewed examples across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds qualia, intentionality, authenticity, emergence, counterfactuals, self-reference, indexicality, burden of proof, moral hazard, situated cognition, fields, chaos, invariants, objective functions, loss functions, isomorphisms, boundary conditions, synapses, comorbidity, biomarkers, clinical pathways, side effects, lesions, adherence, microbiomes, trophic cascades, evaporation, precipitation, photosynthesis, denitrification, adversarial examples, oracles, model cards, dataset cards, prompt leakage, safety cases, shadow mode, Socratic questioning, fluency, praxis, didactics, critical thinking, arbitration, mediation, atrocities, de-escalation, rules of engagement, habeas corpus, plea bargains, and war crimes in ordinary, civic, ritual, technical, poetic, and learner use.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 250 more root families and 5,000 more reviewed corpus items still needed.
+The v0.10.6 public-service operations root batch adds 50 roots and 1,000 derived lexicon entries for ordinary institutional life: forms, applications, intake, eligibility, waitlists, casework, benefits, submissions, approvals, help desks, tickets, services, registrations, signatures, stamps, templates, file attachments, acknowledgments, purchases, orders, inventory, checkout, shipments, tracking, fulfillment, quotes, billing, payments, chargebacks, cancellations, confirmations, service portals, refills, discharge, copays, claims, hospice, follow-up, visits, consultations, backlogs, sprints, runbooks, on-call duty, service-level agreements, uptime, downtime, deployments, runtime environments, and backfills.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 200 more root families and 5,000 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
