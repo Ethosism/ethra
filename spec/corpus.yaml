@@ -1,4 +1,4 @@
-version: "0.2.4-corpus"
+version: "0.2.6-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -1601,3 +1601,603 @@ items:
     literal: "Price is visible."
     notes: "Economic transparency in learner grammar."
     terms: ["tec", "e", "rih"]
+  -
+    id: "daily-036"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics"]
+    register: "plain"
+    english: "I focus now."
+    ethra: "Na nu fan."
+    literal: "I now focus."
+    notes: "Focus enters everyday attention speech."
+    terms: ["na", "nu", "fan"]
+  -
+    id: "daily-037"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "media-communication"]
+    register: "plain"
+    english: "I hear you."
+    ethra: "Na hap ta."
+    literal: "I hear equal-you."
+    notes: "Hearing is a bodily form of receiving another."
+    terms: ["na", "hap", "ta"]
+  -
+    id: "daily-038"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "household"
+    english: "Open the door."
+    ethra: "Ke daw."
+    literal: "Imperative door/open-entry."
+    notes: "A plain household command using the door root."
+    terms: ["ke", "daw"]
+  -
+    id: "daily-039"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "I carry the package by hand."
+    ethra: "Na taw gep bi ram."
+    literal: "I carry package through hand."
+    notes: "Connects transport, container, and manual action."
+    terms: ["na", "taw", "gep", "bi", "ram"]
+  -
+    id: "daily-040"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "emotion-psychology"]
+    register: "intimate"
+    english: "Welcome the family."
+    ethra: "Ke wag hon."
+    literal: "Imperative welcome household."
+    notes: "Hospitality is ordinary speech with relational weight."
+    terms: ["ke", "wag", "hon"]
+  -
+    id: "daily-041"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Snow falls."
+    ethra: "Sef fal."
+    literal: "Snow flows/falls."
+    notes: "Weather speech gains a simple snow sentence."
+    terms: ["sef", "fal"]
+  -
+    id: "daily-042"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "The cloud covers the moon."
+    ethra: "Gek car mel."
+    literal: "Cloud covers moon."
+    notes: "Uses ordinary natural terms for sky observation."
+    terms: ["gek", "car", "mel"]
+  -
+    id: "daily-043"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "intimate"
+    english: "Mercy softens anger."
+    ethra: "Meh sal zeg."
+    literal: "Mercy releases anger."
+    notes: "A daily moral-emotional repair sentence."
+    terms: ["meh", "sal", "zeg"]
+  -
+    id: "daily-044"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "media-communication"]
+    register: "plain"
+    english: "I translate the text."
+    ethra: "Na jay xet."
+    literal: "I translate text."
+    notes: "Translation enters ordinary learning and communication."
+    terms: ["na", "jay", "xet"]
+  -
+    id: "daily-045"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software", "media-communication"]
+    register: "plain"
+    english: "The file is in the record."
+    ethra: "Hef e kot."
+    literal: "File is record."
+    notes: "A beginner technical noun used in ordinary speech."
+    terms: ["hef", "e", "kot"]
+  -
+    id: "civic-026"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "The public text is binding."
+    ethra: "Pu xet e div."
+    literal: "Public text is bound."
+    notes: "Public text is framed as obligation-bearing."
+    terms: ["pu", "xet", "e", "div"]
+  -
+    id: "civic-027"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "legal"
+    english: "The translation record is visible."
+    ethra: "Jay-ket e rih."
+    literal: "Translation-record is visible."
+    notes: "Legal translation must be inspectable."
+    terms: ["jay-ket", "e", "rih"]
+  -
+    id: "civic-028"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "The broadcaster should name the source."
+    ethra: "Bacen cel nam gon."
+    literal: "Broadcaster should name source."
+    notes: "Public speech is tied to accountable origin."
+    terms: ["bacen", "cel", "nam", "gon"]
+  -
+    id: "civic-029"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "legal"
+    english: "The rumor is not evidence."
+    ethra: "Fem ne e xeg."
+    literal: "Rumor not is evidence."
+    notes: "Separates carried report from proof."
+    terms: ["fem", "ne", "e", "xeg"]
+  -
+    id: "civic-030"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "legal"
+    english: "The grammar standard is public."
+    ethra: "Gat-da e pu."
+    literal: "Grammar-standard is public."
+    notes: "Language standards are treated as civic infrastructure."
+    terms: ["gat-da", "e", "pu"]
+  -
+    id: "civic-031"
+    track: "civic-law"
+    domain_tags: ["law-governance", "daily-life"]
+    register: "civic"
+    english: "The gate may close."
+    ethra: "Gah lun car."
+    literal: "Gate may close/cover."
+    notes: "Access control is permission-bound."
+    terms: ["gah", "lun", "car"]
+  -
+    id: "civic-032"
+    track: "civic-law"
+    domain_tags: ["law-governance", "daily-life", "emotion-psychology"]
+    register: "civic"
+    english: "The wall must not erase welcome."
+    ethra: "Web cel ne sal weg."
+    literal: "Wall should not release welcome."
+    notes: "Boundary-making is balanced against hospitality."
+    terms: ["web", "cel", "ne", "sal", "weg"]
+  -
+    id: "civic-033"
+    track: "civic-law"
+    domain_tags: ["law-governance", "history-memory"]
+    register: "civic"
+    english: "The monument carries public memory."
+    ethra: "Mej mor mer."
+    literal: "Monument inherited-duty memory."
+    notes: "Monuments are public memory under obligation."
+    terms: ["mej", "mor", "mer"]
+  -
+    id: "civic-034"
+    track: "civic-law"
+    domain_tags: ["law-governance", "family-kinship", "history-memory"]
+    register: "legal"
+    english: "Lineage does not own the child."
+    ethra: "Ler ne fav tu."
+    literal: "Lineage not owns child-student."
+    notes: "Descent is bounded by personhood and care."
+    terms: ["ler", "ne", "fav", "tu"]
+  -
+    id: "civic-035"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software"]
+    register: "legal"
+    english: "The query log is a record."
+    ethra: "Kaw-ket e kot."
+    literal: "Query-record is record."
+    notes: "System requests are auditable public evidence when relevant."
+    terms: ["kaw-ket", "e", "kot"]
+  -
+    id: "ritual-026"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "solemn"
+    english: "I vow focused attention."
+    ethra: "Ha na dov fen."
+    literal: "Solemn I vow focus."
+    notes: "Attention becomes a vowed discipline."
+    terms: ["ha", "na", "dov", "fen"]
+  -
+    id: "ritual-027"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "solemn"
+    english: "Mercy stands before judgment."
+    ethra: "Ha meh so-rah jav."
+    literal: "Solemn mercy before-truth judgment."
+    notes: "Ritualizes mercy without denying judgment."
+    terms: ["ha", "meh", "so-rah", "jav"]
+  -
+    id: "ritual-028"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship", "emotion-psychology"]
+    register: "ritual"
+    english: "Welcome the stranger as a person."
+    ethra: "Ha wag li."
+    literal: "Solemn welcome person."
+    notes: "Hospitality starts with personhood."
+    terms: ["ha", "wag", "li"]
+  -
+    id: "ritual-029"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "solemn"
+    english: "The legacy answers to the future."
+    ethra: "Ha let dav ad fer."
+    literal: "Solemn legacy binds toward future."
+    notes: "Inheritance is measured by its future claim."
+    terms: ["ha", "let", "dav", "ad", "fer"]
+  -
+    id: "ritual-030"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "The generation remembers the name."
+    ethra: "Ha zef mar nom."
+    literal: "Solemn generation remembers name."
+    notes: "Generational speech binds identity and memory."
+    terms: ["ha", "zef", "mar", "nom"]
+  -
+    id: "ritual-031"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "art-beauty"]
+    register: "ritual"
+    english: "Music carries grief."
+    ethra: "Ha mew taw gef."
+    literal: "Solemn music carries grief."
+    notes: "Ritual music is emotional carriage."
+    terms: ["ha", "mew", "taw", "gef"]
+  -
+    id: "ritual-032"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "daily-life"]
+    register: "solemn"
+    english: "Open the gate for repair."
+    ethra: "Ha ke gah ad tar."
+    literal: "Solemn imperative gate toward repair."
+    notes: "The gate becomes an image of permitted restoration."
+    terms: ["ha", "ke", "gah", "ad", "tar"]
+  -
+    id: "ritual-033"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health", "emotion-psychology"]
+    register: "solemn"
+    english: "The hand receives mercy."
+    ethra: "Ha ram lun meh."
+    literal: "Solemn hand may receive mercy."
+    notes: "The acting body is allowed to receive repair."
+    terms: ["ha", "ram", "lun", "meh"]
+  -
+    id: "ritual-034"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "ritual"
+    english: "The moon witnesses the vow."
+    ethra: "Ha mel rah dov."
+    literal: "Solemn moon witnesses vow."
+    notes: "Night measure becomes poetic witness."
+    terms: ["ha", "mel", "rah", "dov"]
+  -
+    id: "ritual-035"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "solemn"
+    english: "I vow faithful belonging."
+    ethra: "Ha na dov ley-bel."
+    literal: "Solemn I vow loyalty-belonging."
+    notes: "Compounds fidelity and belonging in vow register."
+    terms: ["ha", "na", "dov", "ley-bel"]
+  -
+    id: "tech-026"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The file stores the text."
+    ethra: "Hef wav xet."
+    literal: "File stores text."
+    notes: "File and text roots in a simple software sentence."
+    terms: ["hef", "wav", "xet"]
+  -
+    id: "tech-027"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The query sees the database."
+    ethra: "Kaw rah deb."
+    literal: "Query sees database."
+    notes: "Query is treated as directed recognition over stored memory."
+    terms: ["kaw", "rah", "deb"]
+  -
+    id: "tech-028"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "The kernel governs the process."
+    ethra: "Kam rag dab-ga."
+    literal: "Kernel governs database-process."
+    notes: "Uses kernel as an accountable operating center."
+    terms: ["kam", "rag", "dab-ga"]
+  -
+    id: "tech-029"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The virtual world simulates presence."
+    ethra: "Vej sam roh."
+    literal: "Virtual-presence simulates presence."
+    notes: "Virtuality is grounded in simulated presence, not mere illusion."
+    terms: ["vej", "sam", "roh"]
+  -
+    id: "tech-030"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The broadcast sends the signal."
+    ethra: "Bac sag sog."
+    literal: "Broadcast signals signal-object."
+    notes: "Transmission vocabulary joins broadcast and signal roots."
+    terms: ["bac", "sag", "sog"]
+  -
+    id: "tech-031"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "The graph shows the function."
+    ethra: "Geg rah yek."
+    literal: "Graph sees/shows function."
+    notes: "Visual explanation through graph and function roots."
+    terms: ["geg", "rah", "yek"]
+  -
+    id: "tech-032"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The symbol names the command."
+    ethra: "Sez nam nom."
+    literal: "Symbol names name-command."
+    notes: "Symbols are connected to naming and commands."
+    terms: ["sez", "nam", "nom"]
+  -
+    id: "tech-033"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The phone call becomes a record."
+    ethra: "Peh e kot."
+    literal: "Phone-call is record."
+    notes: "Communication events can become auditable memory."
+    terms: ["peh", "e", "kot"]
+  -
+    id: "tech-034"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical"
+    english: "The file right is privacy."
+    ethra: "Haf-ret e pec."
+    literal: "File-right is privacy."
+    notes: "Extends privacy grammar to files."
+    terms: ["haf-ret", "e", "pec"]
+  -
+    id: "tech-035"
+    track: "technical-software"
+    domain_tags: ["technology-software", "philosophy-metaphysics"]
+    register: "technical"
+    english: "Focused attention improves search."
+    ethra: "Fen ban nax."
+    literal: "Focus builds search."
+    notes: "Search quality is tied to disciplined attention."
+    terms: ["fen", "ban", "nax"]
+  -
+    id: "poetic-026"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Focus is a lamp for the mind."
+    ethra: "Fen e lep en yes."
+    literal: "Focus is lamp of self."
+    notes: "Attention as portable clarity."
+    terms: ["fen", "e", "lep", "en", "yes"]
+  -
+    id: "poetic-027"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "travel-place"]
+    register: "poetic"
+    english: "Dust remembers the road."
+    ethra: "Zed mar pot."
+    literal: "Dust remembers path-object."
+    notes: "Travel leaves memory in matter."
+    terms: ["zed", "mar", "pot"]
+  -
+    id: "poetic-028"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "travel-place"]
+    register: "poetic"
+    english: "The bird crosses the valley."
+    ethra: "Jeb pat gej."
+    literal: "Bird travels valley."
+    notes: "Nature image for moving through low places."
+    terms: ["jeb", "pat", "gej"]
+  -
+    id: "poetic-029"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The flower opens before light."
+    ethra: "Jef ap so-rah."
+    literal: "Flower opens before-truth."
+    notes: "Uses truth-scope as light-facing openness."
+    terms: ["jef", "ap", "so-rah"]
+  -
+    id: "poetic-030"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory", "body-health"]
+    register: "poetic"
+    english: "Custom is memory in the hand."
+    ethra: "Bem e mer en ram."
+    literal: "Custom is memory of hand."
+    notes: "Cultural practice becomes embodied memory."
+    terms: ["bem", "e", "mer", "en", "ram"]
+  -
+    id: "poetic-031"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Affection is a warm door."
+    ethra: "Yel e daw."
+    literal: "Affection is door."
+    notes: "Intimacy is pictured as an opening."
+    terms: ["yel", "e", "daw"]
+  -
+    id: "poetic-032"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "The embrace shelters grief."
+    ethra: "Vef han gef."
+    literal: "Embrace homes/shelters grief."
+    notes: "A physical gesture becomes a house for sorrow."
+    terms: ["vef", "han", "gef"]
+  -
+    id: "poetic-033"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "Ice holds the river still."
+    ethra: "Pex fav hac."
+    literal: "Ice holds river."
+    notes: "Cold as temporary possession of flow."
+    terms: ["pex", "fav", "hac"]
+  -
+    id: "poetic-034"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "The monument speaks after the people sleep."
+    ethra: "Mej nam pa lem cap."
+    literal: "Monument speaks past people rest."
+    notes: "Public memory outlives the sleeping generation."
+    terms: ["mej", "nam", "pa", "lem", "cap"]
+  -
+    id: "poetic-035"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "The virtual room is not home."
+    ethra: "Vej-her ne e han."
+    literal: "Virtual-room not is home."
+    notes: "A compact warning about simulated presence."
+    terms: ["vej-her", "ne", "e", "han"]
+  -
+    id: "learner-026"
+    track: "learner-graded"
+    domain_tags: ["philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "I focus."
+    ethra: "Na fan."
+    literal: "I focus."
+    notes: "Beginner attention verb."
+    terms: ["na", "fan"]
+  -
+    id: "learner-027"
+    track: "learner-graded"
+    domain_tags: ["body-health", "media-communication"]
+    register: "learner-a1"
+    english: "I hear."
+    ethra: "Na hap."
+    literal: "I hear."
+    notes: "Beginner sensory verb."
+    terms: ["na", "hap"]
+  -
+    id: "learner-028"
+    track: "learner-graded"
+    domain_tags: ["daily-life"]
+    register: "learner-a1"
+    english: "The door opens."
+    ethra: "Daw ap."
+    literal: "Door opens."
+    notes: "Learner household sentence."
+    terms: ["daw", "ap"]
+  -
+    id: "learner-029"
+    track: "learner-graded"
+    domain_tags: ["emotion-psychology"]
+    register: "learner-a1"
+    english: "You are welcome."
+    ethra: "Ta e weg."
+    literal: "Equal-you is welcome."
+    notes: "Simple hospitality phrase."
+    terms: ["ta", "e", "weg"]
+  -
+    id: "learner-030"
+    track: "learner-graded"
+    domain_tags: ["technology-software"]
+    register: "learner-a2"
+    english: "The file is visible."
+    ethra: "Hef e rih."
+    literal: "File is visible."
+    notes: "Beginner technical copula sentence."
+    terms: ["hef", "e", "rih"]
+  -
+    id: "learner-031"
+    track: "learner-graded"
+    domain_tags: ["technology-software"]
+    register: "learner-a2"
+    english: "The query searches."
+    ethra: "Kaw nax."
+    literal: "Query searches."
+    notes: "Reinforces query and search roots."
+    terms: ["kaw", "nax"]
+  -
+    id: "learner-032"
+    track: "learner-graded"
+    domain_tags: ["media-communication"]
+    register: "learner-a2"
+    english: "I read the text."
+    ethra: "Na rah xet."
+    literal: "I see/read text."
+    notes: "Uses seeing for reading in beginner grammar."
+    terms: ["na", "rah", "xet"]
+  -
+    id: "learner-033"
+    track: "learner-graded"
+    domain_tags: ["travel-place", "nature-ecology"]
+    register: "learner-a2"
+    english: "The valley is low."
+    ethra: "Gej e gij."
+    literal: "Valley is valley-quality/low."
+    notes: "Shows noun and adjective from one root family."
+    terms: ["gej", "e", "gij"]
+  -
+    id: "learner-034"
+    track: "learner-graded"
+    domain_tags: ["nature-ecology"]
+    register: "learner-a1"
+    english: "The moon is clear."
+    ethra: "Mel e ner."
+    literal: "Moon is clarity."
+    notes: "Simple nature sentence with light/clarity vocabulary."
+    terms: ["mel", "e", "ner"]
+  -
+    id: "learner-035"
+    track: "learner-graded"
+    domain_tags: ["history-memory"]
+    register: "learner-a2"
+    english: "The generation remembers."
+    ethra: "Zef mar."
+    literal: "Generation remembers."
+    notes: "Learner history-memory sentence."
+    terms: ["zef", "mar"]

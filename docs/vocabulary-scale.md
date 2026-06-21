@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 5,197 explicit lexicon entries and 160 reviewed corpus items after the v0.2.5 root-balance expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 5,197 explicit lexicon entries and 220 reviewed corpus items after the v0.2.6 corpus-depth expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.3 everyday-fluency target:
 
 ```text
 entries 5,197 / 3,000
 roots     257 / 400
-corpus    160 / 500 reviewed items
+corpus    220 / 500 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -17,6 +17,8 @@ The v0.2.3 root batch adds conflict/security, food, household, education, techno
 The v0.2.4 corpus batch adds 60 reviewed examples across daily dialogue, civic/legal, ritual/vow, technical/software, literary/poetic, and learner tracks, with special pressure on the new security, household, technology, travel, education, and provision roots.
 
 The v0.2.5 root batch adds 50 roots for underbuilt categories: focus, perception, discernment, broadcast, grammar, translation, text, print, phone, door, gate, wall, lamp, package, hook, legacy, monument, custom, generation, mercy, affection, embrace, welcome, belonging, loyalty, hand, tongue, shoulder, bone, ear, hair, desert, ice, bird, moon, snow, valley, cloud, dust, flower, query, kernel, file, and virtual presence.
+
+The v0.2.6 corpus batch adds 60 reviewed examples across all six corpus tracks, grounding the v0.2.5 roots in attention, hearing, doors, hospitality, public text, translation, ritual mercy, files, queries, kernels, symbols, virtual presence, nature imagery, and learner grammar.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 

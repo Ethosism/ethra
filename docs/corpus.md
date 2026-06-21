@@ -7,9 +7,9 @@ The machine-readable corpus plan is in `spec/corpus-plan.yaml`. Reviewed seed co
 Current seed corpus progress:
 
 ```text
-items 160 / 500 for v0.3
+items 220 / 500 for v0.3
 tracks  6 / 6 represented
-balance daily 35, civic 25, ritual 25, technical 25, poetic 25, learner 25
+balance daily 45, civic 35, ritual 35, technical 35, poetic 35, learner 35
 ```
 
 ## Corpus Tracks
