@@ -1,4 +1,4 @@
-version: "0.7.1-corpus"
+version: "0.8.3-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -35601,3 +35601,1203 @@ items:
     literal: "Self-evaluation protects reason."
     notes: "A1 internal-check sentence."
     terms: ["selefev", "xap", "raj"]
+  -
+    id: "daily-713"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "plain"
+    english: "The classroom guides attention."
+    ethra: "Celeser pat san."
+    literal: "Classroom guides attention."
+    notes: "Grounds the classroom as a shared site of disciplined attention."
+    terms: ["celeser", "pat", "san"]
+  -
+    id: "daily-714"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "history-memory"]
+    register: "plain"
+    english: "The textbook carries memory."
+    ethra: "Texeteb taw mer."
+    literal: "Textbook carries memory."
+    notes: "A teaching text is treated as durable cultural memory."
+    terms: ["texeteb", "taw", "mer"]
+  -
+    id: "daily-715"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "plain"
+    english: "The workbook builds exercise."
+    ethra: "Werekeb ban xerecex."
+    literal: "Workbook builds exercise."
+    notes: "Practice becomes visible as written repeated work."
+    terms: ["werekeb", "ban", "xerecex"]
+  -
+    id: "daily-716"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "philosophy-metaphysics"]
+    register: "plain"
+    english: "The assignment carries duty."
+    ethra: "Segenem taw dev."
+    literal: "Assignment carries duty."
+    notes: "Assigned learning work is framed as entrusted answerability."
+    terms: ["segenem", "taw", "dev"]
+  -
+    id: "daily-717"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "plain"
+    english: "Coursework guides the student."
+    ethra: "Ceresew pat tu."
+    literal: "Coursework guides child-student."
+    notes: "Coursework is ordinary formation rather than abstract paperwork."
+    terms: ["ceresew", "pat", "tu"]
+  -
+    id: "daily-718"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "plain"
+    english: "The module guides coursework."
+    ethra: "Medelex pat ceresew."
+    literal: "Module guides coursework."
+    notes: "A bounded lesson unit orders a larger course path."
+    terms: ["medelex", "pat", "ceresew"]
+  -
+    id: "daily-719"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "teacher"
+    english: "The lesson plan guides the teacher."
+    ethra: "Lesepel pat to."
+    literal: "Lesson-plan guides teacher-you."
+    notes: "Teacher address is used as a relational noun in learner-facing speech."
+    terms: ["lesepel", "pat", "to"]
+  -
+    id: "daily-720"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "philosophy-metaphysics"]
+    register: "plain"
+    english: "The learning objective names the path."
+    ethra: "Bejekec nam pat."
+    literal: "Learning-objective names path."
+    notes: "A visible aim clarifies the path of study."
+    terms: ["bejekec", "nam", "pat"]
+  -
+    id: "daily-721"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "science-math"]
+    register: "plain"
+    english: "The learning outcome reveals learning."
+    ethra: "Xetecem rah dak."
+    literal: "Learning-outcome reveals teaching-learning."
+    notes: "Outcome language turns invisible formation into witnessable result."
+    terms: ["xetecem", "rah", "dak"]
+  -
+    id: "daily-722"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Competency protects agency."
+    ethra: "Cemepet xap val."
+    literal: "Competency protects agency."
+    notes: "Proven ability strengthens action rather than mere status."
+    terms: ["cemepet", "xap", "val"]
+  -
+    id: "daily-723"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "plain"
+    english: "Mastery carries learning."
+    ethra: "Meseter taw dak."
+    literal: "Mastery carries teaching-learning."
+    notes: "Mastery is treated as reliable retained formation."
+    terms: ["meseter", "taw", "dak"]
+  -
+    id: "daily-724"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "plain"
+    english: "The prerequisite guides coursework."
+    ethra: "Perekex pat ceresew."
+    literal: "Prerequisite guides coursework."
+    notes: "Prior learning protects later progress."
+    terms: ["perekex", "pat", "ceresew"]
+  -
+    id: "daily-725"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Advising guides choice."
+    ethra: "Deveser pat vel."
+    literal: "Advising guides choice."
+    notes: "Study counsel is tied to agency rather than passive placement."
+    terms: ["deveser", "pat", "vel"]
+  -
+    id: "daily-726"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "plain"
+    english: "Office hours protect questions."
+    ethra: "Feherex xap ya."
+    literal: "Office-hours protect question."
+    notes: "Teacher access gives confusion a legitimate place to speak."
+    terms: ["feherex", "xap", "ya"]
+  -
+    id: "daily-727"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "media-communication"]
+    register: "plain"
+    english: "Discussion teaches attention."
+    ethra: "Deseces dak san."
+    literal: "Discussion teaches attention."
+    notes: "Dialogue becomes a discipline of shared noticing."
+    terms: ["deseces", "dak", "san"]
+  -
+    id: "daily-728"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "history-memory"]
+    register: "plain"
+    english: "Peer learning builds memory."
+    ethra: "Pereler ban mer."
+    literal: "Peer-learning builds memory."
+    notes: "Equals teaching one another strengthens retention."
+    terms: ["pereler", "ban", "mer"]
+  -
+    id: "daily-729"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Group work carries duty."
+    ethra: "Gerepew taw dev."
+    literal: "Group-work carries duty."
+    notes: "Shared work keeps individual answerability visible."
+    terms: ["gerepew", "taw", "dev"]
+  -
+    id: "daily-730"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "history-memory"]
+    register: "plain"
+    english: "The study habit protects memory."
+    ethra: "Setedey xap mer."
+    literal: "Study-habit protects memory."
+    notes: "Repeated attention becomes moral care for memory."
+    terms: ["setedey", "xap", "mer"]
+  -
+    id: "daily-731"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "media-communication"]
+    register: "plain"
+    english: "Note-taking carries attention."
+    ethra: "Netetek taw san."
+    literal: "Note-taking carries attention."
+    notes: "Captured thought preserves the act of listening."
+    terms: ["netetek", "taw", "san"]
+  -
+    id: "daily-732"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "history-memory"]
+    register: "plain"
+    english: "Spaced repetition protects memory."
+    ethra: "Sepeced xap mer."
+    literal: "Spaced-repetition protects memory."
+    notes: "Timed return is named as a duty to retention."
+    terms: ["sepeced", "xap", "mer"]
+  -
+    id: "daily-733"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "history-memory"]
+    register: "plain"
+    english: "The mnemonic names memory."
+    ethra: "Memenex nam mer."
+    literal: "Mnemonic names memory."
+    notes: "A memory aid gives recall a handle."
+    terms: ["memenex", "nam", "mer"]
+  -
+    id: "daily-734"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "conflict-security"]
+    register: "plain"
+    english: "Reflection repairs action."
+    ethra: "Refelex tar val."
+    literal: "Reflection repairs action."
+    notes: "After-action thought corrects what agency has done."
+    terms: ["refelex", "tar", "val"]
+  -
+    id: "daily-735"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Learner support protects agency."
+    ethra: "Lerenes xap val."
+    literal: "Learner-support protects agency."
+    notes: "Support is framed as strengthening, not replacing, responsibility."
+    terms: ["lerenes", "xap", "val"]
+  -
+    id: "daily-736"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "media-communication"]
+    register: "plain"
+    english: "Rereading reveals the book."
+    ethra: "Rederep rah kot."
+    literal: "Rereading reveals book."
+    notes: "The same text opens more deeply under returned attention."
+    terms: ["rederep", "rah", "kot"]
+  -
+    id: "civic-535"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "civic"
+    english: "The registrar remembers the transcript."
+    ethra: "Regeset mar terenes."
+    literal: "Registrar remembers transcript."
+    notes: "Academic records are placed under public stewardship."
+    terms: ["regeset", "mar", "terenes"]
+  -
+    id: "civic-536"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "civic"
+    english: "Enrollment names the people."
+    ethra: "Nerelex nam lem."
+    literal: "Enrollment names people."
+    notes: "Admission into learning membership becomes public record."
+    terms: ["nerelex", "nam", "lem"]
+  -
+    id: "civic-537"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training", "science-math"]
+    register: "civic"
+    english: "The credential reveals competency."
+    ethra: "Ceredex rah cemepet."
+    literal: "Credential reveals competency."
+    notes: "A credential must witness actual capability."
+    terms: ["ceredex", "rah", "cemepet"]
+  -
+    id: "civic-538"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "legal"
+    english: "Certification protects competency."
+    ethra: "Ceretef xap cemepet."
+    literal: "Certification protects competency."
+    notes: "Formal attestation guards the public meaning of competence."
+    terms: ["ceretef", "xap", "cemepet"]
+  -
+    id: "civic-539"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training", "history-memory"]
+    register: "civic"
+    english: "The diploma carries memory."
+    ethra: "Depelem taw mer."
+    literal: "Diploma carries memory."
+    notes: "Completion credentials preserve a path of formation."
+    terms: ["depelem", "taw", "mer"]
+  -
+    id: "civic-540"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training", "history-memory"]
+    register: "civic"
+    english: "The transcript remembers learning."
+    ethra: "Terenes mar dak."
+    literal: "Transcript remembers learning."
+    notes: "Official records keep learning from becoming unverifiable."
+    terms: ["terenes", "mar", "dak"]
+  -
+    id: "civic-541"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "civic"
+    english: "The prerequisite protects truth."
+    ethra: "Perekex xap rih."
+    literal: "Prerequisite protects truth."
+    notes: "Progression rules should protect honest readiness."
+    terms: ["perekex", "xap", "rih"]
+  -
+    id: "civic-542"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "civic"
+    english: "The outcome guides the credential."
+    ethra: "Xetecem pat ceredex."
+    literal: "Outcome guides credential."
+    notes: "Credentialing follows demonstrated result rather than reputation."
+    terms: ["xetecem", "pat", "ceredex"]
+  -
+    id: "civic-543"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training", "science-math"]
+    register: "civic"
+    english: "The project carries evidence."
+    ethra: "Perejet taw xeg."
+    literal: "Project carries evidence."
+    notes: "Sustained work becomes reviewable proof."
+    terms: ["perejet", "taw", "xeg"]
+  -
+    id: "civic-544"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training", "economics-provision"]
+    register: "civic"
+    english: "The portfolio reveals work."
+    ethra: "Peretef rah wak."
+    literal: "Portfolio reveals work."
+    notes: "Collected artifacts let growth answer publicly."
+    terms: ["peretef", "rah", "wak"]
+  -
+    id: "civic-545"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training", "science-math"]
+    register: "civic"
+    english: "The presentation names evidence."
+    ethra: "Peresex nam xeg."
+    literal: "Presentation names evidence."
+    notes: "Spoken defense must make its proof explicit."
+    terms: ["peresex", "nam", "xeg"]
+  -
+    id: "civic-546"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training", "conflict-security"]
+    register: "civic"
+    english: "Debate training protects truth."
+    ethra: "Debetex xap rih."
+    literal: "Debate-training protects truth."
+    notes: "Ordered opposition is treated as civic truth discipline."
+    terms: ["debetex", "xap", "rih"]
+  -
+    id: "civic-547"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "civic"
+    english: "The practicum reveals skill."
+    ethra: "Leberex rah kal."
+    literal: "Practicum reveals skill."
+    notes: "Applied supervised learning demonstrates capability."
+    terms: ["leberex", "rah", "kal"]
+  -
+    id: "civic-548"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The internship carries duty."
+    ethra: "Neteren taw dev."
+    literal: "Internship carries duty."
+    notes: "Work learning is a first share in public responsibility."
+    terms: ["neteren", "taw", "dev"]
+  -
+    id: "civic-549"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "legal"
+    english: "Academic integrity protects judgment."
+    ethra: "Kecemed xap jav."
+    literal: "Academic-integrity protects judgment."
+    notes: "Assessment requires truthfulness to remain legitimate."
+    terms: ["kecemed", "xap", "jav"]
+  -
+    id: "civic-550"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training", "media-communication"]
+    register: "legal"
+    english: "Plagiarism breaks truth."
+    ethra: "Peleger mak rih."
+    literal: "Plagiarism breaks truth."
+    notes: "False authorship is treated as public rupture."
+    terms: ["peleger", "mak", "rih"]
+  -
+    id: "civic-551"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "legal"
+    english: "Cheating breaks judgment."
+    ethra: "Ceheten mak jav."
+    literal: "Cheating breaks judgment."
+    notes: "False performance corrupts the assessment act."
+    terms: ["ceheten", "mak", "jav"]
+  -
+    id: "civic-552"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training", "body-health"]
+    register: "legal"
+    english: "Accommodation protects judgment."
+    ethra: "Kemedex xap jav."
+    literal: "Accommodation protects judgment."
+    notes: "Fitted support removes needless barriers without lowering truth."
+    terms: ["kemedex", "xap", "jav"]
+  -
+    id: "ritual-535"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training"]
+    register: "solemn"
+    english: "May the classroom protect attention."
+    ethra: "Ha celeser xap san."
+    literal: "Solemn classroom protects attention."
+    notes: "A learning room is blessed as a place of attention."
+    terms: ["ha", "celeser", "xap", "san"]
+  -
+    id: "ritual-536"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "history-memory"]
+    register: "solemn"
+    english: "May the textbook carry memory."
+    ethra: "Ha texeteb taw mer."
+    literal: "Solemn textbook carries memory."
+    notes: "Teaching text is raised into memory-bearing speech."
+    terms: ["ha", "texeteb", "taw", "mer"]
+  -
+    id: "ritual-537"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "philosophy-metaphysics"]
+    register: "solemn"
+    english: "May the assignment carry duty."
+    ethra: "Ha segenem taw dev."
+    literal: "Solemn assignment carries duty."
+    notes: "Learning work is treated as entrusted effort."
+    terms: ["ha", "segenem", "taw", "dev"]
+  -
+    id: "ritual-538"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training"]
+    register: "solemn"
+    english: "May mastery carry skill."
+    ethra: "Ha meseter taw kal."
+    literal: "Solemn mastery carries skill."
+    notes: "Skill is blessed as reliable command rather than display."
+    terms: ["ha", "meseter", "taw", "kal"]
+  -
+    id: "ritual-539"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training"]
+    register: "solemn"
+    english: "May the prerequisite protect the path."
+    ethra: "Ha perekex xap pat."
+    literal: "Solemn prerequisite protects path."
+    notes: "Earlier learning is honored as guard of later steps."
+    terms: ["ha", "perekex", "xap", "pat"]
+  -
+    id: "ritual-540"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "history-memory"]
+    register: "solemn"
+    english: "May the diploma remember the path."
+    ethra: "Ha depelem mar pat."
+    literal: "Solemn diploma remembers path."
+    notes: "Completion is ritually tied to the walked road of formation."
+    terms: ["ha", "depelem", "mar", "pat"]
+  -
+    id: "ritual-541"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "emotion-psychology"]
+    register: "solemn"
+    english: "May mentorship guide the heart."
+    ethra: "Ha menetes pat leb."
+    literal: "Solemn mentorship guides heart."
+    notes: "Guidance is placed near the inner life of the learner."
+    terms: ["ha", "menetes", "pat", "leb"]
+  -
+    id: "ritual-542"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "media-communication"]
+    register: "solemn"
+    english: "May literacy protect speech."
+    ethra: "Ha leterey xap nem."
+    literal: "Solemn literacy protects speech."
+    notes: "Reading and writing guard durable public language."
+    terms: ["ha", "leterey", "xap", "nem"]
+  -
+    id: "ritual-543"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "science-math"]
+    register: "solemn"
+    english: "May numeracy carry truth."
+    ethra: "Ha nemerec taw rih."
+    literal: "Solemn numeracy carries truth."
+    notes: "Number fluency is blessed only insofar as it serves truth."
+    terms: ["ha", "nemerec", "taw", "rih"]
+  -
+    id: "ritual-544"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training"]
+    register: "solemn"
+    english: "May study habit protect attention."
+    ethra: "Ha setedey xap san."
+    literal: "Solemn study-habit protects attention."
+    notes: "Repeated study becomes a ritual discipline of noticing."
+    terms: ["ha", "setedey", "xap", "san"]
+  -
+    id: "ritual-545"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "history-memory"]
+    register: "solemn"
+    english: "May spaced repetition protect memory."
+    ethra: "Ha sepeced xap mer."
+    literal: "Solemn spaced-repetition protects memory."
+    notes: "Return over time is treated as a vow to remember."
+    terms: ["ha", "sepeced", "xap", "mer"]
+  -
+    id: "ritual-546"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "emotion-psychology"]
+    register: "solemn"
+    english: "May metacognition reveal attention."
+    ethra: "Ha metegen rah san."
+    literal: "Solemn metacognition reveals attention."
+    notes: "The learner is invited to see the act of learning."
+    terms: ["ha", "metegen", "rah", "san"]
+  -
+    id: "ritual-547"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "conflict-security"]
+    register: "solemn"
+    english: "May reflection repair action."
+    ethra: "Ha refelex tar val."
+    literal: "Solemn reflection repairs action."
+    notes: "Reflection becomes a ritual of correction after doing."
+    terms: ["ha", "refelex", "tar", "val"]
+  -
+    id: "ritual-548"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "family-kinship"]
+    register: "solemn"
+    english: "May peer learning build a people."
+    ethra: "Ha pereler ban lem."
+    literal: "Solemn peer-learning builds people."
+    notes: "Equal instruction is imagined as civic formation."
+    terms: ["ha", "pereler", "ban", "lem"]
+  -
+    id: "ritual-549"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "philosophy-metaphysics"]
+    register: "solemn"
+    english: "May group work carry duty."
+    ethra: "Ha gerepew taw dev."
+    literal: "Solemn group-work carries duty."
+    notes: "Common labor is blessed only with named responsibility."
+    terms: ["ha", "gerepew", "taw", "dev"]
+  -
+    id: "ritual-550"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "law-governance"]
+    register: "solemn"
+    english: "May academic integrity protect truth."
+    ethra: "Ha kecemed xap rih."
+    literal: "Solemn academic-integrity protects truth."
+    notes: "Honest study is placed before ultimate witness."
+    terms: ["ha", "kecemed", "xap", "rih"]
+  -
+    id: "ritual-551"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "philosophy-metaphysics"]
+    register: "solemn"
+    english: "May learner support protect agency."
+    ethra: "Ha lerenes xap val."
+    literal: "Solemn learner-support protects agency."
+    notes: "Help is praised when it strengthens responsible action."
+    terms: ["ha", "lerenes", "xap", "val"]
+  -
+    id: "ritual-552"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training", "history-memory"]
+    register: "solemn"
+    english: "May rereading reveal memory."
+    ethra: "Ha rederep rah mer."
+    literal: "Solemn rereading reveals memory."
+    notes: "Returning to a text becomes a ritual of recovered meaning."
+    terms: ["ha", "rederep", "rah", "mer"]
+  -
+    id: "tech-713"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "ai-cognition"]
+    register: "technical"
+    english: "Remote learning teaches the model."
+    ethra: "Remetel dak med."
+    literal: "Remote-learning teaches model."
+    notes: "Distance instruction is grounded as machine-readable training language."
+    terms: ["remetel", "dak", "med"]
+  -
+    id: "tech-714"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "Hybrid learning guides the classroom."
+    ethra: "Heyebel pat celeser."
+    literal: "Hybrid-learning guides classroom."
+    notes: "Mixed-place learning is represented as a governed instructional mode."
+    terms: ["heyebel", "pat", "celeser"]
+  -
+    id: "tech-715"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "history-memory"]
+    register: "technical"
+    english: "Textbook data carries memory."
+    ethra: "Texeteb den taw mer."
+    literal: "Textbook data carries memory."
+    notes: "Teaching texts become structured data without losing memory function."
+    terms: ["texeteb", "den", "taw", "mer"]
+  -
+    id: "tech-716"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "history-memory"]
+    register: "technical"
+    english: "The workbook record carries memory."
+    ethra: "Warakab-ket taw mer."
+    literal: "Workbook-record carries memory."
+    notes: "Practice artifacts are treated as reviewable learning traces."
+    terms: ["warakab-ket", "taw", "mer"]
+  -
+    id: "tech-717"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "ai-cognition"]
+    register: "technical"
+    english: "Exercise data teaches the model."
+    ethra: "Xerecex den dak med."
+    literal: "Exercise data teaches model."
+    notes: "Practice items can become explicit training examples."
+    terms: ["xerecex", "den", "dak", "med"]
+  -
+    id: "tech-718"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The assignment record protects duty."
+    ethra: "Saganam-ket xap dev."
+    literal: "Assignment-record protects duty."
+    notes: "Task records preserve responsibility across systems."
+    terms: ["saganam-ket", "xap", "dev"]
+  -
+    id: "tech-719"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "history-memory"]
+    register: "technical"
+    english: "The coursework record carries memory."
+    ethra: "Carasaw-ket taw mer."
+    literal: "Coursework-record carries memory."
+    notes: "Course work is made durable for later audit."
+    terms: ["carasaw-ket", "taw", "mer"]
+  -
+    id: "tech-720"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "The module record carries the module."
+    ethra: "Madalax-ket taw medelex."
+    literal: "Module-record carries module."
+    notes: "Bounded lesson units receive structured metadata."
+    terms: ["madalax-ket", "taw", "medelex"]
+  -
+    id: "tech-721"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "The lesson-plan record guides teaching."
+    ethra: "Lasapal-ket pat dak."
+    literal: "Lesson-plan-record guides teaching."
+    notes: "Instructional planning is made repeatable and inspectable."
+    terms: ["lasapal-ket", "pat", "dak"]
+  -
+    id: "tech-722"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "The objective record names the objective."
+    ethra: "Bajakac-ket nam bejekec."
+    literal: "Objective-record names objective."
+    notes: "Learning aims are explicitly declared in system records."
+    terms: ["bajakac-ket", "nam", "bejekec"]
+  -
+    id: "tech-723"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "science-math"]
+    register: "technical"
+    english: "The outcome record reveals the outcome."
+    ethra: "Xatacam-ket rah xetecem."
+    literal: "Outcome-record reveals outcome."
+    notes: "Assessment outputs expose what learning produced."
+    terms: ["xatacam-ket", "rah", "xetecem"]
+  -
+    id: "tech-724"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "science-math"]
+    register: "technical"
+    english: "The competency record reveals competency."
+    ethra: "Camapat-ket rah cemepet."
+    literal: "Competency-record reveals competency."
+    notes: "Capability claims must be tied to records."
+    terms: ["camapat-ket", "rah", "cemepet"]
+  -
+    id: "tech-725"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "science-math"]
+    register: "technical"
+    english: "The mastery record reveals mastery."
+    ethra: "Masatar-ket rah meseter."
+    literal: "Mastery-record reveals mastery."
+    notes: "Reliable command is made audit-visible."
+    terms: ["masatar-ket", "rah", "meseter"]
+  -
+    id: "tech-726"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "law-governance"]
+    register: "technical"
+    english: "The credential record protects competency."
+    ethra: "Caradax-ket xap cemepet."
+    literal: "Credential-record protects competency."
+    notes: "Qualification systems protect public capability claims."
+    terms: ["caradax-ket", "xap", "cemepet"]
+  -
+    id: "tech-727"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "law-governance"]
+    register: "technical"
+    english: "The certification record protects certification."
+    ethra: "Carataf-ket xap ceretef."
+    literal: "Certification-record protects certification."
+    notes: "Formal attestation needs a durable record trail."
+    terms: ["carataf-ket", "xap", "ceretef"]
+  -
+    id: "tech-728"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "law-governance"]
+    register: "technical"
+    english: "The transcript record carries the transcript."
+    ethra: "Taranas-ket taw terenes."
+    literal: "Transcript-record carries transcript."
+    notes: "Academic standing is encoded as explicit structured memory."
+    terms: ["taranas-ket", "taw", "terenes"]
+  -
+    id: "tech-729"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "law-governance"]
+    register: "technical"
+    english: "The enrollment record names enrollment."
+    ethra: "Naralax-ket nam nerelex."
+    literal: "Enrollment-record names enrollment."
+    notes: "Membership in a course is made visible to systems."
+    terms: ["naralax-ket", "nam", "nerelex"]
+  -
+    id: "tech-730"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "law-governance"]
+    register: "technical"
+    english: "The registrar record protects the transcript."
+    ethra: "Ragasat-ket xap terenes."
+    literal: "Registrar-record protects transcript."
+    notes: "Records offices become guardians of learner standing."
+    terms: ["ragasat-ket", "xap", "terenes"]
+  -
+    id: "tech-731"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The advising record guides choice."
+    ethra: "Davasar-ket pat vel."
+    literal: "Advising-record guides choice."
+    notes: "Guidance metadata preserves the agency of course selection."
+    terms: ["davasar-ket", "pat", "vel"]
+  -
+    id: "tech-732"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "The office-hours record names office hours."
+    ethra: "Faharax-ket nam feherex."
+    literal: "Office-hours-record names office-hours."
+    notes: "Teacher availability becomes searchable learner support."
+    terms: ["faharax-ket", "nam", "feherex"]
+  -
+    id: "tech-733"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "The project record carries the project."
+    ethra: "Parajat-ket taw perejet."
+    literal: "Project-record carries project."
+    notes: "Sustained work receives a durable artifact trail."
+    terms: ["parajat-ket", "taw", "perejet"]
+  -
+    id: "tech-734"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "science-math"]
+    register: "technical"
+    english: "The portfolio record reveals the portfolio."
+    ethra: "Parataf-ket rah peretef."
+    literal: "Portfolio-record reveals portfolio."
+    notes: "Collected learner evidence is exposed for review."
+    terms: ["parataf-ket", "rah", "peretef"]
+  -
+    id: "tech-735"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "media-communication"]
+    register: "technical"
+    english: "The presentation record names the presentation."
+    ethra: "Parasax-ket nam peresex."
+    literal: "Presentation-record names presentation."
+    notes: "Spoken demonstrations become reviewable media records."
+    terms: ["parasax-ket", "nam", "peresex"]
+  -
+    id: "tech-736"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "law-governance"]
+    register: "technical"
+    english: "The academic-integrity record protects truth."
+    ethra: "Kacamad-ket xap rih."
+    literal: "Academic-integrity-record protects truth."
+    notes: "Integrity policy becomes actionable system memory."
+    terms: ["kacamad-ket", "xap", "rih"]
+  -
+    id: "poetic-713"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The colloquium reveals truth."
+    ethra: "Kelekeb rah rih."
+    literal: "Colloquium reveals truth."
+    notes: "Gathered scholarly speech is imagined as shared unveiling."
+    terms: ["kelekeb", "rah", "rih"]
+  -
+    id: "poetic-714"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training"]
+    register: "poetic"
+    english: "Discussion carries attention."
+    ethra: "Deseces taw san."
+    literal: "Discussion carries attention."
+    notes: "Dialogue bears the fragile work of noticing together."
+    terms: ["deseces", "taw", "san"]
+  -
+    id: "poetic-715"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "conflict-security"]
+    register: "poetic"
+    english: "Debate training protects truth."
+    ethra: "Debetex xap rih."
+    literal: "Debate-training protects truth."
+    notes: "Opposition is given form so truth may survive heat."
+    terms: ["debetex", "xap", "rih"]
+  -
+    id: "poetic-716"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training"]
+    register: "poetic"
+    english: "Practicum reveals skill."
+    ethra: "Leberex rah kal."
+    literal: "Practicum reveals skill."
+    notes: "Hands-on learning lets hidden skill become visible."
+    terms: ["leberex", "rah", "kal"]
+  -
+    id: "poetic-717"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "nature-ecology"]
+    register: "poetic"
+    english: "Fieldwork reveals truth."
+    ethra: "Feledew rah rih."
+    literal: "Fieldwork reveals truth."
+    notes: "Study leaves the room and lets the world answer."
+    terms: ["feledew", "rah", "rih"]
+  -
+    id: "poetic-718"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training"]
+    register: "poetic"
+    english: "Apprenticeship carries skill."
+    ethra: "Perenex taw kal."
+    literal: "Apprenticeship carries skill."
+    notes: "Craft passes from hand to hand as living memory."
+    terms: ["perenex", "taw", "kal"]
+  -
+    id: "poetic-719"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Internship carries duty."
+    ethra: "Neteren taw dev."
+    literal: "Internship carries duty."
+    notes: "The first work role is a small doorway into responsibility."
+    terms: ["neteren", "taw", "dev"]
+  -
+    id: "poetic-720"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "emotion-psychology"]
+    register: "poetic"
+    english: "Mentorship guides the heart."
+    ethra: "Menetes pat leb."
+    literal: "Mentorship guides heart."
+    notes: "Counsel shapes judgment without owning the path."
+    terms: ["menetes", "pat", "leb"]
+  -
+    id: "poetic-721"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "media-communication"]
+    register: "poetic"
+    english: "Literacy protects speech."
+    ethra: "Leterey xap nem."
+    literal: "Literacy protects speech."
+    notes: "Reading and writing guard words from vanishing."
+    terms: ["leterey", "xap", "nem"]
+  -
+    id: "poetic-722"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "science-math"]
+    register: "poetic"
+    english: "Numeracy reveals truth."
+    ethra: "Nemerec rah rih."
+    literal: "Numeracy reveals truth."
+    notes: "Number becomes beautiful only when it serves clarity."
+    terms: ["nemerec", "rah", "rih"]
+  -
+    id: "poetic-723"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training"]
+    register: "poetic"
+    english: "Note-taking carries attention."
+    ethra: "Netetek taw san."
+    literal: "Note-taking carries attention."
+    notes: "A written trace holds the listening moment."
+    terms: ["netetek", "taw", "san"]
+  -
+    id: "poetic-724"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "history-memory"]
+    register: "poetic"
+    english: "Spaced repetition protects memory."
+    ethra: "Sepeced xap mer."
+    literal: "Spaced-repetition protects memory."
+    notes: "Return over time becomes mercy for forgetting."
+    terms: ["sepeced", "xap", "mer"]
+  -
+    id: "poetic-725"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "history-memory"]
+    register: "poetic"
+    english: "The mnemonic names memory."
+    ethra: "Memenex nam mer."
+    literal: "Mnemonic names memory."
+    notes: "A sign is shaped so memory may find its way home."
+    terms: ["memenex", "nam", "mer"]
+  -
+    id: "poetic-726"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Metacognition reveals the self."
+    ethra: "Metegen rah yes."
+    literal: "Metacognition reveals self."
+    notes: "The learner turns inward to see the one who learns."
+    terms: ["metegen", "rah", "yes"]
+  -
+    id: "poetic-727"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "emotion-psychology"]
+    register: "poetic"
+    english: "Reflection repairs the heart."
+    ethra: "Refelex tar leb."
+    literal: "Reflection repairs heart."
+    notes: "Looking back becomes an act of inward repair."
+    terms: ["refelex", "tar", "leb"]
+  -
+    id: "poetic-728"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "history-memory"]
+    register: "poetic"
+    english: "Peer learning builds memory."
+    ethra: "Pereler ban mer."
+    literal: "Peer-learning builds memory."
+    notes: "Companions help one another keep what was learned."
+    terms: ["pereler", "ban", "mer"]
+  -
+    id: "poetic-729"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Group work carries duty."
+    ethra: "Gerepew taw dev."
+    literal: "Group-work carries duty."
+    notes: "Shared labor is beautiful only when responsibility remains named."
+    terms: ["gerepew", "taw", "dev"]
+  -
+    id: "poetic-730"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "technology-software"]
+    register: "poetic"
+    english: "Remote learning guides teaching."
+    ethra: "Remetel pat dak."
+    literal: "Remote-learning guides teaching."
+    notes: "A lesson crosses distance without abandoning form."
+    terms: ["remetel", "pat", "dak"]
+  -
+    id: "poetic-731"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "technology-software"]
+    register: "poetic"
+    english: "Hybrid learning carries the path."
+    ethra: "Heyebel taw pat."
+    literal: "Hybrid-learning carries path."
+    notes: "Near and far are joined into one road of study."
+    terms: ["heyebel", "taw", "pat"]
+  -
+    id: "poetic-732"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "media-communication"]
+    register: "poetic"
+    english: "Plagiarism breaks speech."
+    ethra: "Peleger mak nem."
+    literal: "Plagiarism breaks speech."
+    notes: "A stolen voice wounds the word itself."
+    terms: ["peleger", "mak", "nem"]
+  -
+    id: "poetic-733"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "law-governance"]
+    register: "poetic"
+    english: "Cheating breaks truth."
+    ethra: "Ceheten mak rih."
+    literal: "Cheating breaks truth."
+    notes: "False performance makes the test lose its face."
+    terms: ["ceheten", "mak", "rih"]
+  -
+    id: "poetic-734"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Accommodation protects agency."
+    ethra: "Kemedex xap val."
+    literal: "Accommodation protects agency."
+    notes: "Fitted support lets real effort answer."
+    terms: ["kemedex", "xap", "val"]
+  -
+    id: "poetic-735"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Learner support protects the student."
+    ethra: "Lerenes xap tu."
+    literal: "Learner-support protects child-student."
+    notes: "Aid is named as care for the learner's agency."
+    terms: ["lerenes", "xap", "tu"]
+  -
+    id: "poetic-736"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "media-communication"]
+    register: "poetic"
+    english: "Rereading reveals the book."
+    ethra: "Rederep rah kot."
+    literal: "Rereading reveals book."
+    notes: "The book changes because the reader returns changed."
+    terms: ["rederep", "rah", "kot"]
+  -
+    id: "learner-357"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training"]
+    register: "learner-a1"
+    english: "The classroom is open."
+    ethra: "Celeser e ap."
+    literal: "Classroom is open."
+    notes: "A1 classroom sentence."
+    terms: ["celeser", "e", "ap"]
+  -
+    id: "learner-358"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training", "history-memory"]
+    register: "learner-a1"
+    english: "The textbook carries memory."
+    ethra: "Texeteb taw mer."
+    literal: "Textbook carries memory."
+    notes: "A1 textbook-memory sentence."
+    terms: ["texeteb", "taw", "mer"]
+  -
+    id: "learner-359"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training"]
+    register: "learner-a1"
+    english: "The workbook builds exercise."
+    ethra: "Werekeb ban xerecex."
+    literal: "Workbook builds exercise."
+    notes: "A1 practice sentence."
+    terms: ["werekeb", "ban", "xerecex"]
+  -
+    id: "learner-360"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "The assignment carries duty."
+    ethra: "Segenem taw dev."
+    literal: "Assignment carries duty."
+    notes: "A1 moral-agency education sentence."
+    terms: ["segenem", "taw", "dev"]
+  -
+    id: "learner-361"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training"]
+    register: "learner-a1"
+    english: "The lesson plan guides teaching."
+    ethra: "Lesepel pat dak."
+    literal: "Lesson-plan guides teaching."
+    notes: "A1 lesson-planning sentence."
+    terms: ["lesepel", "pat", "dak"]
+  -
+    id: "learner-362"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "The objective names the path."
+    ethra: "Bejekec nam pat."
+    literal: "Objective names path."
+    notes: "A1 learning-aim sentence."
+    terms: ["bejekec", "nam", "pat"]
+  -
+    id: "learner-363"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training", "science-math"]
+    register: "learner-a1"
+    english: "The outcome reveals learning."
+    ethra: "Xetecem rah dak."
+    literal: "Outcome reveals learning."
+    notes: "A1 learning-outcome sentence."
+    terms: ["xetecem", "rah", "dak"]
+  -
+    id: "learner-364"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training"]
+    register: "learner-a1"
+    english: "Mastery protects skill."
+    ethra: "Meseter xap kal."
+    literal: "Mastery protects skill."
+    notes: "A1 mastery sentence."
+    terms: ["meseter", "xap", "kal"]
+  -
+    id: "learner-365"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training", "history-memory"]
+    register: "learner-a1"
+    english: "The transcript carries memory."
+    ethra: "Terenes taw mer."
+    literal: "Transcript carries memory."
+    notes: "A1 record-memory sentence."
+    terms: ["terenes", "taw", "mer"]
+  -
+    id: "learner-366"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training"]
+    register: "learner-a1"
+    english: "Mentorship guides the student."
+    ethra: "Menetes pat tu."
+    literal: "Mentorship guides child-student."
+    notes: "A1 mentorship sentence."
+    terms: ["menetes", "pat", "tu"]
+  -
+    id: "learner-367"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training", "law-governance"]
+    register: "learner-a1"
+    english: "Integrity protects truth."
+    ethra: "Kecemed xap rih."
+    literal: "Academic-integrity protects truth."
+    notes: "A1 honesty sentence."
+    terms: ["kecemed", "xap", "rih"]
+  -
+    id: "learner-368"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training", "media-communication"]
+    register: "learner-a1"
+    english: "Rereading reveals the book."
+    ethra: "Rederep rah kot."
+    literal: "Rereading reveals book."
+    notes: "A1 rereading sentence."
+    terms: ["rederep", "rah", "kot"]

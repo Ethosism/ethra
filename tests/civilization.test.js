@@ -34,7 +34,7 @@ test("summarizes current progress against roadmap targets", () => {
   assert.equal(summary.current.actual_derivation_patterns, summary.current.derivation_patterns);
   assert.ok(summary.current.actual_lexicon_entries >= 34057);
   assert.ok(summary.current.actual_root_families >= 1700);
-  assert.ok(summary.current.actual_corpus_items >= 3560);
+  assert.ok(summary.current.actual_corpus_items >= 3680);
   assert.ok(summary.current.actual_compound_terms >= 100);
   assert.equal(summary.current.actual_derivation_patterns, 20);
   assert.equal(summary.current.actual_canonical_examples, 20);
@@ -74,17 +74,17 @@ test("reports domain coverage gaps", () => {
 test("loads corpus and governance programs", () => {
   const corpus = corpusSummary();
   const governance = loadGovernance();
-  assert.equal(corpus.current_items, 3560);
+  assert.equal(corpus.current_items, 3680);
   assert.equal(corpus.remaining_items_v02, 0);
   assert.ok(corpus.tracks.some((track) => track.id === "technical-software"));
   assert.ok(corpus.tracks.every((track) => track.current_items >= 200));
   const trackCounts = new Map(corpus.tracks.map((track) => [track.id, track.current_items]));
-  assert.equal(trackCounts.get("daily-dialogues"), 712);
-  assert.equal(trackCounts.get("civic-law"), 534);
-  assert.equal(trackCounts.get("ritual-vow"), 534);
-  assert.equal(trackCounts.get("technical-software"), 712);
-  assert.equal(trackCounts.get("literary-poetic"), 712);
-  assert.equal(trackCounts.get("learner-graded"), 356);
+  assert.equal(trackCounts.get("daily-dialogues"), 736);
+  assert.equal(trackCounts.get("civic-law"), 552);
+  assert.equal(trackCounts.get("ritual-vow"), 552);
+  assert.equal(trackCounts.get("technical-software"), 736);
+  assert.equal(trackCounts.get("literary-poetic"), 736);
+  assert.equal(trackCounts.get("learner-graded"), 368);
   assert.ok(governance.root_admission_rules.some((rule) => rule.includes("durable semantic field")));
   assert.ok(governance.review_checklist.some((item) => item.includes("root-depth")));
 });
@@ -92,8 +92,8 @@ test("loads corpus and governance programs", () => {
 test("recommends the next governed corpus expansion batch", () => {
   const plan = corpusExpansionPlan(120, 6);
   assert.equal(plan.milestone.id, "v1.0");
-  assert.equal(plan.current_items, 3560);
-  assert.equal(plan.remaining_items_to_milestone, 6440);
+  assert.equal(plan.current_items, 3680);
+  assert.equal(plan.remaining_items_to_milestone, 6320);
   assert.equal(plan.recommended_batch_size, 120);
 
   const recommendations = new Map(plan.track_recommendations.map((track) => [track.id, track]));
@@ -103,22 +103,23 @@ test("recommends the next governed corpus expansion batch", () => {
   assert.equal(recommendations.get("technical-software")?.recommended_items, 24);
   assert.equal(recommendations.get("literary-poetic")?.recommended_items, 24);
   assert.equal(recommendations.get("learner-graded")?.recommended_items, 12);
-  assert.equal(recommendations.get("daily-dialogues")?.next_item_ids[0], "daily-713");
-  assert.equal(recommendations.get("civic-law")?.next_item_ids[0], "civic-535");
-  assert.equal(recommendations.get("ritual-vow")?.next_item_ids[0], "ritual-535");
-  assert.equal(recommendations.get("technical-software")?.next_item_ids[0], "tech-713");
-  assert.equal(recommendations.get("technical-software")?.next_item_ids.at(-1), "tech-736");
-  assert.equal(recommendations.get("literary-poetic")?.next_item_ids[0], "poetic-713");
-  assert.equal(recommendations.get("learner-graded")?.next_item_ids[0], "learner-357");
-  assert.equal(plan.domain_pressure[0].id, "education-training");
+  assert.equal(recommendations.get("daily-dialogues")?.next_item_ids[0], "daily-737");
+  assert.equal(recommendations.get("civic-law")?.next_item_ids[0], "civic-553");
+  assert.equal(recommendations.get("ritual-vow")?.next_item_ids[0], "ritual-553");
+  assert.equal(recommendations.get("technical-software")?.next_item_ids[0], "tech-737");
+  assert.equal(recommendations.get("technical-software")?.next_item_ids.at(-1), "tech-760");
+  assert.equal(recommendations.get("literary-poetic")?.next_item_ids[0], "poetic-737");
+  assert.equal(recommendations.get("learner-graded")?.next_item_ids[0], "learner-369");
+  assert.equal(plan.domain_pressure[0].id, "nature-ecology");
   assert.ok(plan.domain_pressure.some((domain) => domain.id === "science-math"));
-  assert.ok(plan.domain_pressure.some((domain) => domain.id === "nature-ecology"));
   assert.ok(plan.domain_pressure.some((domain) => domain.id === "emotion-psychology"));
+  assert.ok(plan.domain_pressure.some((domain) => domain.id === "philosophy-metaphysics"));
 });
 
 test("lists and validates reviewed corpus items", () => {
   const technicalItems = listCorpusItems("technical-software");
-  assert.equal(technicalItems.length, 712);
+  assert.equal(technicalItems.length, 736);
+  assert.ok(technicalItems.some((item) => item.ethra === "Remetel dak med."));
   assert.ok(technicalItems.some((item) => item.ethra === "Mef xap den."));
   assert.ok(technicalItems.some((item) => item.ethra === "Dab-ket e rih."));
   assert.ok(technicalItems.some((item) => item.ethra === "Hef wav xet."));
@@ -259,9 +260,9 @@ test("lists and validates reviewed corpus items", () => {
 
   const report = validateCorpus();
   assert.equal(report.valid, true, JSON.stringify(report.errors, null, 2));
-  assert.equal(report.stats.items, 3560);
+  assert.equal(report.stats.items, 3680);
   assert.equal(report.stats.tracks, 6);
-  assert.ok(report.stats.uniqueTerms >= 1877);
+  assert.ok(report.stats.uniqueTerms >= 1947);
 });
 
 test("searches reviewed corpus by text and structured filters", () => {
@@ -322,6 +323,18 @@ test("searches reviewed corpus by text and structured filters", () => {
   const aiGrounding = searchCorpus({ query: "grounding protects evidence", track: "learner-graded", limit: 5 });
   assert.ok(aiGrounding.matches.some((match) => match.id === "learner-354"));
   assert.ok(aiGrounding.matches.some((match) => match.item.terms.includes("gerened")));
+
+  const classroomEducation = searchCorpus({ query: "classroom guides attention", track: "daily-dialogues", limit: 5 });
+  assert.ok(classroomEducation.matches.some((match) => match.id === "daily-713"));
+  assert.ok(classroomEducation.matches.some((match) => match.item.terms.includes("celeser")));
+
+  const technicalEducation = searchCorpus({ query: "remote learning teaches model", track: "technical-software", limit: 5 });
+  assert.ok(technicalEducation.matches.some((match) => match.id === "tech-713"));
+  assert.ok(technicalEducation.matches.some((match) => match.item.terms.includes("remetel")));
+
+  const integrityLearner = searchCorpus({ query: "integrity protects truth", track: "learner-graded", limit: 5 });
+  assert.ok(integrityLearner.matches.some((match) => match.id === "learner-367"));
+  assert.ok(integrityLearner.matches.some((match) => match.item.terms.includes("kecemed")));
 });
 
 test("builds dictionary-grade lookup entries with corpus evidence", () => {
@@ -337,7 +350,7 @@ test("builds dictionary-grade lookup entries with corpus evidence", () => {
   assert.ok(stats.domain_counts["science-math"] >= 9230);
   assert.ok(stats.domain_counts["conflict-security"] >= 1948);
   assert.ok(stats.domain_counts["education-training"] >= 4502);
-  assert.ok(stats.corpus_attested_entries >= 1922);
+  assert.ok(stats.corpus_attested_entries >= 1992);
   assert.ok(stats.top_corpus_entries.length <= 5);
 
   const rah = lookupDictionary({ query: "rah", exact: true, limit: 10 });
