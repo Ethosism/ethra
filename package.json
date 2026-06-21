@@ -1,7 +1,7 @@
 {
   "name": "ethra-language",
-  "version": "0.6.3",
-  "description": "Ethra: a constructed civilizational language with moral grammar, relational grammar, 1,200 root families, 24,057 lexicon entries, dictionary lookup, 2,480 corpus items, sentence parsing, corpus search, style checking, term proposal tooling, expansion planning, productive derivation patterns, YAML specs, CLI, and governance.",
+  "version": "0.6.4",
+  "description": "Ethra: a constructed civilizational language with moral grammar, relational grammar, 1,250 root families, 25,057 lexicon entries, dictionary lookup, 2,480 corpus items, sentence parsing, corpus search, style checking, term proposal tooling, expansion planning, productive derivation patterns, YAML specs, CLI, and governance.",
   "bin": {
     "ethra": "dist/cli/index.js"
   },

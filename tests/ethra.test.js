@@ -227,6 +227,38 @@ test("looks up roots by aliases and derives words", () => {
   const heritage = deriveWord("HTY", "civic-legal");
   assert.equal(heritage.word, "hatay-da");
   assert.equal(heritage.root.id, "HTY");
+
+  const orchestration = deriveWord("RKC", "noun");
+  assert.equal(orchestration.word, "rekec");
+  assert.equal(orchestration.root.id, "RKC");
+
+  const permission = deriveWord("PMN", "civic-legal");
+  assert.equal(permission.word, "paman-da");
+  assert.equal(permission.root.id, "PMN");
+
+  const triage = deriveWord("TRJ", "noun");
+  assert.equal(triage.word, "terej");
+  assert.equal(triage.root.id, "TRJ");
+
+  const mentalHealth = deriveWord("MHL", "noun");
+  assert.equal(mentalHealth.word, "mehel");
+  assert.equal(mentalHealth.root.id, "MHL");
+
+  const ecosystem = deriveWord("KLG", "noun");
+  assert.equal(ecosystem.word, "keleg");
+  assert.equal(ecosystem.root.id, "KLG");
+
+  const experiment = deriveWord("XLP", "noun");
+  assert.equal(experiment.word, "xelep");
+  assert.equal(experiment.root.id, "XLP");
+
+  const logging = deriveWord("LGC", "record");
+  assert.equal(logging.word, "lagac-ket");
+  assert.equal(logging.root.id, "LGC");
+
+  const variable = deriveWord("VRB", "noun");
+  assert.equal(variable.word, "vereb");
+  assert.equal(variable.root.id, "VRB");
 });
 
 test("analyzes known words", () => {
