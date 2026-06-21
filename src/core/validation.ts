@@ -16,6 +16,7 @@ export interface SpecValidationReport {
   stats: {
     roots: number;
     lexiconEntries: number;
+    derivationPatterns: number;
     particles: number;
     pronouns: number;
     examples: number;
@@ -67,6 +68,33 @@ export function validateSpec(spec: EthraSpec = loadSpec()): SpecValidationReport
   const aliases = new Map<string, string>();
   const derivedWords = new Map<string, string>();
   const reservedWords = new Map<string, string>();
+  const patternIds = new Set<string>();
+
+  for (const pattern of spec.derivation_patterns.patterns) {
+    if (patternIds.has(pattern.id)) {
+      addIssue(issues, "error", "duplicate-derivation-pattern", `Derivation pattern '${pattern.id}' appears more than once.`);
+    }
+    patternIds.add(pattern.id);
+
+    const validation = validateWord(pattern.example_word);
+    if (!validation.valid) {
+      addIssue(
+        issues,
+        "error",
+        "invalid-pattern-example",
+        `Derivation pattern '${pattern.id}' example '${pattern.example_word}' fails phonology: ${validation.errors.join("; ")}.`
+      );
+    }
+  }
+
+  if (spec.derivation_patterns.total_patterns_per_root !== spec.derivation_patterns.patterns.length) {
+    addIssue(
+      issues,
+      "warning",
+      "pattern-count-mismatch",
+      `Derivation pattern count ${spec.derivation_patterns.total_patterns_per_root} does not match ${spec.derivation_patterns.patterns.length} listed patterns.`
+    );
+  }
 
   for (const particle of spec.particles.particles) {
     reservedWords.set(particle.word, `particle:${particle.type}`);
@@ -98,6 +126,10 @@ export function validateSpec(spec: EthraSpec = loadSpec()): SpecValidationReport
     }
 
     for (const [pattern, derived] of Object.entries(root.derived)) {
+      if (!patternIds.has(pattern)) {
+        addIssue(issues, "error", "unknown-root-pattern", `${root.id}.${pattern} is not listed in derivation-patterns.yaml.`);
+      }
+
       const validation = validateWord(derived.word);
       if (!validation.valid) {
         addIssue(
@@ -130,6 +162,12 @@ export function validateSpec(spec: EthraSpec = loadSpec()): SpecValidationReport
         }
       }
     }
+
+    for (const pattern of patternIds) {
+      if (!root.derived[pattern]) {
+        addIssue(issues, "error", "missing-root-pattern", `${root.id} is missing derivation pattern '${pattern}'.`);
+      }
+    }
   }
 
   const lexiconEntries = flattenLexicon(spec);
@@ -156,6 +194,7 @@ export function validateSpec(spec: EthraSpec = loadSpec()): SpecValidationReport
     stats: {
       roots: spec.roots.roots.length,
       lexiconEntries: lexiconEntries.length,
+      derivationPatterns: spec.derivation_patterns.patterns.length,
       particles: spec.particles.particles.length,
       pronouns: spec.pronouns.pronouns.length,
       examples: spec.examples.examples.length

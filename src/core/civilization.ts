@@ -3,6 +3,7 @@ import type {
   CompoundsSpec,
   CorpusPlanSpec,
   CorpusSpec,
+  DerivationPatternsSpec,
   DomainSpec,
   DomainsSpec,
   GovernanceSpec,
@@ -37,6 +38,7 @@ export interface RoadmapSummary {
     actual_root_families: number;
     actual_corpus_items: number;
     actual_compound_terms: number;
+    actual_derivation_patterns: number;
     actual_canonical_examples: number;
   };
   next_milestone: RoadmapMilestone;
@@ -58,6 +60,10 @@ export interface DomainCoverage {
 
 export function loadRoadmap(): RoadmapSpec {
   return readSpecYaml<RoadmapSpec>("roadmap.yaml");
+}
+
+export function loadDerivationPatterns(): DerivationPatternsSpec {
+  return readSpecYaml<DerivationPatternsSpec>("derivation-patterns.yaml");
 }
 
 export function loadDomains(): DomainsSpec {
@@ -85,6 +91,7 @@ export function roadmapSummary(): RoadmapSummary {
   const roadmap = loadRoadmap();
   const corpus = loadCorpus();
   const compounds = loadCompounds();
+  const derivationPatterns = loadDerivationPatterns();
   const milestones = roadmap.milestones;
   const current = {
     ...roadmap.current_state,
@@ -92,6 +99,7 @@ export function roadmapSummary(): RoadmapSummary {
     actual_root_families: spec.roots.roots.length,
     actual_corpus_items: corpus.items.length,
     actual_compound_terms: compounds.terms.length,
+    actual_derivation_patterns: derivationPatterns.patterns.length,
     actual_canonical_examples: spec.examples.examples.length
   };
   const nextMilestone =

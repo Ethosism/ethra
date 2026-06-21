@@ -1,13 +1,14 @@
 # Vocabulary Scale
 
-Ethra currently has 1,273 explicit lexicon entries after the v0.2 foundation expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 3,097 explicit lexicon entries after the v0.2.2 derivational-depth expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
-Current progress toward the v0.2 foundation target:
+Current progress toward the v0.3 everyday-fluency target:
 
 ```text
-entries 1,273 / 1,000
-roots     152 / 150
-corpus    100 / 100 reviewed items
+entries 3,097 / 3,000
+roots     152 / 400
+corpus    100 / 500 reviewed items
+patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
 
@@ -30,11 +31,11 @@ These numbers are targets, not magic thresholds. A bad 25,000-word dictionary is
 Ethra should grow through four channels:
 
 1. **Root expansion:** add durable semantic fields.
-2. **Pattern derivation:** generate predictable action, concept, quality, agent, object, civic, ritual, and intimate forms.
+2. **Pattern derivation:** generate predictable action, concept, quality, agent, object, civic, ritual, intimate, process, instrument, place, doctrine, collective, lack, category, discipline, office, record, right, and vow forms.
 3. **Compounding:** build German-style conceptual architecture while keeping roots visible.
 4. **Corpus pressure:** add terms because texts, dialogues, laws, tools, poems, or lessons need them.
 
-The curated compound bank in `spec/compounds.yaml` is the first explicit terminology layer beyond root-pattern derivation.
+The productive pattern catalog is stored in `spec/derivation-patterns.yaml`. The curated compound bank in `spec/compounds.yaml` is the first explicit terminology layer beyond root-pattern derivation.
 
 ## Why Not Just Translate English
 

@@ -8,6 +8,7 @@ const {
   listCompounds,
   listCorpusItems,
   listDomains,
+  loadDerivationPatterns,
   loadGovernance,
   loadRoadmap,
   roadmapSummary
@@ -27,13 +28,23 @@ test("summarizes current progress against roadmap targets", () => {
   assert.equal(summary.current.actual_root_families, summary.current.root_families);
   assert.equal(summary.current.actual_corpus_items, summary.current.corpus_items);
   assert.equal(summary.current.actual_compound_terms, summary.current.compound_terms);
-  assert.ok(summary.current.actual_lexicon_entries >= 1000);
+  assert.equal(summary.current.actual_derivation_patterns, summary.current.derivation_patterns);
+  assert.ok(summary.current.actual_lexicon_entries >= 3000);
   assert.ok(summary.current.actual_root_families >= 150);
   assert.ok(summary.current.actual_corpus_items >= 100);
   assert.ok(summary.current.actual_compound_terms >= 100);
+  assert.equal(summary.current.actual_derivation_patterns, 20);
   assert.equal(summary.current.actual_canonical_examples, 20);
   assert.equal(summary.next_milestone.id, "v0.3");
   assert.equal(summary.next_milestone.target_entries, 3000);
+});
+
+test("loads productive derivation pattern catalog", () => {
+  const patterns = loadDerivationPatterns();
+  assert.equal(patterns.total_patterns_per_root, 20);
+  assert.equal(patterns.patterns.length, 20);
+  assert.ok(patterns.patterns.some((pattern) => pattern.id === "instrument" && pattern.example_word === "rah-tel"));
+  assert.ok(patterns.patterns.some((pattern) => pattern.id === "right" && pattern.register === "legal"));
 });
 
 test("lists highest-priority expansion domains", () => {
@@ -77,7 +88,8 @@ test("validates expanded root inventory", () => {
   const report = validateSpec();
   assert.equal(report.valid, true, JSON.stringify(report.errors, null, 2));
   assert.equal(report.stats.roots, 152);
-  assert.equal(report.stats.lexiconEntries, 1273);
+  assert.equal(report.stats.lexiconEntries, 3097);
+  assert.equal(report.stats.derivationPatterns, 20);
 });
 
 test("lists and validates curated compound terminology", () => {

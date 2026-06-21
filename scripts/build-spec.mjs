@@ -98,6 +98,235 @@ const phonology = {
   ]
 };
 
+const derivationPatterns = {
+  version: "0.2.2",
+  purpose: "Productive root-pattern morphology for growing Ethra without word-by-word English copying.",
+  principle: "Every root can generate action, concept, quality, persons, objects, registers, institutions, disciplines, records, rights, vows, and absences while keeping the root family audible.",
+  total_patterns_per_root: 20,
+  patterns: [
+    {
+      id: "verb",
+      label: "action",
+      role: "action vowel a",
+      surface_template: "C-a-C",
+      part_of_speech: "verb",
+      semantic_function: "root action or enactment",
+      register: "plain",
+      example_root: "RH",
+      example_word: "rah"
+    },
+    {
+      id: "noun",
+      label: "concept",
+      role: "concept vowel e",
+      surface_template: "C-e-C",
+      part_of_speech: "noun",
+      semantic_function: "core concept, state, or field",
+      register: "plain",
+      example_root: "RH",
+      example_word: "reh"
+    },
+    {
+      id: "adjective",
+      label: "quality",
+      role: "quality vowel i",
+      surface_template: "C-i-C",
+      part_of_speech: "adjective",
+      semantic_function: "quality or condition of the root",
+      register: "plain",
+      example_root: "RH",
+      example_word: "rih"
+    },
+    {
+      id: "agent",
+      label: "actor",
+      role: "actor suffix -en",
+      surface_template: "action + -en",
+      part_of_speech: "noun",
+      semantic_function: "person or system that performs the root action",
+      register: "plain",
+      example_root: "RH",
+      example_word: "rahen"
+    },
+    {
+      id: "object",
+      label: "object",
+      role: "object vowel o",
+      surface_template: "C-o-C",
+      part_of_speech: "noun",
+      semantic_function: "object, result, or visible instance of the root",
+      register: "plain",
+      example_root: "RH",
+      example_word: "roh"
+    },
+    {
+      id: "ritual",
+      label: "solemn form",
+      role: "solemn prefix ha- with u vowels",
+      surface_template: "ha- + C-u-C",
+      part_of_speech: "ritual formula",
+      semantic_function: "root placed into sacred, vow, ceremonial, or poetic cadence",
+      register: "ritual",
+      example_root: "RH",
+      example_word: "ha-ruh"
+    },
+    {
+      id: "civic",
+      label: "public/legal term",
+      role: "public/legal suffix -da",
+      surface_template: "action + -da",
+      part_of_speech: "civic/legal term",
+      semantic_function: "root formalized for public, legal, institutional, or administrative use",
+      register: "civic",
+      example_root: "RH",
+      example_word: "rah-da"
+    },
+    {
+      id: "intimate",
+      label: "emotional form",
+      role: "intimate prefix mi-",
+      surface_template: "mi- + action",
+      part_of_speech: "intimate/emotional term",
+      semantic_function: "root in direct personal, vulnerable, or beloved address",
+      register: "intimate",
+      example_root: "RH",
+      example_word: "mi-rah"
+    },
+    {
+      id: "process",
+      label: "ongoing practice",
+      role: "process suffix -ga",
+      surface_template: "action + -ga",
+      part_of_speech: "noun",
+      semantic_function: "ongoing process, habit, craft, or practice of the root",
+      register: "technical",
+      example_root: "RH",
+      example_word: "rah-ga"
+    },
+    {
+      id: "instrument",
+      label: "tool",
+      role: "instrument suffix -tel",
+      surface_template: "action + -tel",
+      part_of_speech: "noun",
+      semantic_function: "instrument, tool, medium, or interface used to enact the root",
+      register: "technical",
+      example_root: "RH",
+      example_word: "rah-tel"
+    },
+    {
+      id: "place",
+      label: "field/place",
+      role: "place suffix -wed",
+      surface_template: "action + -wed",
+      part_of_speech: "noun",
+      semantic_function: "place, field, arena, or site where the root is enacted",
+      register: "public",
+      example_root: "RH",
+      example_word: "rah-wed"
+    },
+    {
+      id: "doctrine",
+      label: "theory",
+      role: "doctrine suffix -lek",
+      surface_template: "action + -lek",
+      part_of_speech: "noun",
+      semantic_function: "doctrine, theory, explanatory frame, or school of the root",
+      register: "scholarly",
+      example_root: "RH",
+      example_word: "rah-lek"
+    },
+    {
+      id: "collective",
+      label: "collective body",
+      role: "collective suffix -lem",
+      surface_template: "action + -lem",
+      part_of_speech: "noun",
+      semantic_function: "collective, guild, people, or organized body around the root",
+      register: "civic",
+      example_root: "RH",
+      example_word: "rah-lem"
+    },
+    {
+      id: "lack",
+      label: "absence",
+      role: "negative prefix ne-",
+      surface_template: "ne- + action",
+      part_of_speech: "noun",
+      semantic_function: "absence, lack, deprivation, or negation of the root field",
+      register: "analytic",
+      example_root: "RH",
+      example_word: "ne-rah"
+    },
+    {
+      id: "category",
+      label: "class",
+      role: "category suffix -gec",
+      surface_template: "action + -gec",
+      part_of_speech: "noun",
+      semantic_function: "category, type, class, or named kind defined by the root",
+      register: "technical",
+      example_root: "RH",
+      example_word: "rah-gec"
+    },
+    {
+      id: "discipline",
+      label: "training",
+      role: "discipline suffix -dak",
+      surface_template: "action + -dak",
+      part_of_speech: "noun",
+      semantic_function: "teaching, study, discipline, or trained art of the root",
+      register: "educational",
+      example_root: "RH",
+      example_word: "rah-dak"
+    },
+    {
+      id: "office",
+      label: "office",
+      role: "office suffix -xaf",
+      surface_template: "action + -xaf",
+      part_of_speech: "noun",
+      semantic_function: "office, public role, mandate, or authorized stewardship of the root",
+      register: "civic",
+      example_root: "RH",
+      example_word: "rah-xaf"
+    },
+    {
+      id: "record",
+      label: "record",
+      role: "record suffix -ket",
+      surface_template: "action + -ket",
+      part_of_speech: "noun",
+      semantic_function: "record, document, archive, log, or written evidence of the root",
+      register: "civic",
+      example_root: "RH",
+      example_word: "rah-ket"
+    },
+    {
+      id: "right",
+      label: "right",
+      role: "right suffix -ret",
+      surface_template: "action + -ret",
+      part_of_speech: "noun",
+      semantic_function: "right, claim, protected standing, or answerable entitlement in the root field",
+      register: "legal",
+      example_root: "RH",
+      example_word: "rah-ret"
+    },
+    {
+      id: "vow",
+      label: "binding vow",
+      role: "vow suffix -dov",
+      surface_template: "action + -dov",
+      part_of_speech: "noun",
+      semantic_function: "vow, oath, pledged obligation, or self-binding promise concerning the root",
+      register: "ritual/legal",
+      example_root: "RH",
+      example_word: "rah-dov"
+    }
+  ]
+};
+
 const roots = [
   root("RH", ["RAH"], ["r", "h"], "Seeing/knowing", "see, reveal, witness, recognize, truth, face, presence", {
     verb: "to see, reveal, or recognize",
@@ -954,23 +1183,14 @@ const roots = [
 
 function root(id, aliases, consonants, category, semanticField, forms) {
   const derived = {};
-  const patternRoles = {
-    verb: "action vowel a",
-    noun: "concept vowel e",
-    adjective: "quality vowel i",
-    agent: "actor suffix -en",
-    object: "object vowel o",
-    ritual: "solemn prefix ha- with u vowels",
-    civic: "public/legal suffix -da",
-    intimate: "intimate prefix mi-"
-  };
+  const patternRoles = Object.fromEntries(derivationPatterns.patterns.map((pattern) => [pattern.id, pattern.role]));
 
   for (const pattern of Object.keys(patternRoles)) {
     const word = derive(consonants, pattern);
     derived[pattern] = {
       word,
       pronunciation: pronounce(word),
-      meaning: forms[pattern],
+      meaning: forms[pattern] ?? derivedMeaning(forms, pattern),
       role: patternRoles[pattern]
     };
   }
@@ -986,6 +1206,26 @@ function root(id, aliases, consonants, category, semanticField, forms) {
     forms,
     derived
   };
+}
+
+function derivedMeaning(forms, pattern) {
+  const concept = forms.noun;
+  const action = forms.verb;
+  const templates = {
+    process: `ongoing process, practice, or craft of: ${action}`,
+    instrument: `instrument, tool, medium, or interface for: ${action}`,
+    place: `place, arena, or field where this root is enacted: ${concept}`,
+    doctrine: `doctrine, theory, or explanatory frame of: ${concept}`,
+    collective: `collective body, guild, or people organized around: ${concept}`,
+    lack: `absence, negation, or deprivation of: ${concept}`,
+    category: `category, class, or type defined by: ${concept}`,
+    discipline: `teaching, training, or disciplined study of: ${concept}`,
+    office: `office, mandate, or authorized stewardship concerning: ${concept}`,
+    record: `record, archive, log, or written evidence of: ${concept}`,
+    right: `right, claim, or protected standing concerning: ${concept}`,
+    vow: `vow, oath, or pledged obligation concerning: ${concept}`
+  };
+  return templates[pattern] ?? concept;
 }
 
 function foundationSeedRoots() {
@@ -1084,20 +1324,34 @@ function interleave(consonants, vowel) {
 }
 
 function derive(consonants, pattern) {
-  if (pattern === "verb") return interleave(consonants, "a");
+  const base = interleave(consonants, "a");
+  if (pattern === "verb") return base;
   if (pattern === "noun") return interleave(consonants, "e");
   if (pattern === "adjective") return interleave(consonants, "i");
-  if (pattern === "agent") return `${interleave(consonants, "a")}en`;
+  if (pattern === "agent") return `${base}en`;
   if (pattern === "object") return interleave(consonants, "o");
   if (pattern === "ritual") return `ha-${interleave(consonants, "u")}`;
-  if (pattern === "civic") return `${interleave(consonants, "a")}-da`;
-  if (pattern === "intimate") return `mi-${interleave(consonants, "a")}`;
+  if (pattern === "civic") return `${base}-da`;
+  if (pattern === "intimate") return `mi-${base}`;
+  if (pattern === "process") return `${base}-ga`;
+  if (pattern === "instrument") return `${base}-tel`;
+  if (pattern === "place") return `${base}-wed`;
+  if (pattern === "doctrine") return `${base}-lek`;
+  if (pattern === "collective") return `${base}-lem`;
+  if (pattern === "lack") return `ne-${base}`;
+  if (pattern === "category") return `${base}-gec`;
+  if (pattern === "discipline") return `${base}-dak`;
+  if (pattern === "office") return `${base}-xaf`;
+  if (pattern === "record") return `${base}-ket`;
+  if (pattern === "right") return `${base}-ret`;
+  if (pattern === "vow") return `${base}-dov`;
   throw new Error(`Unknown pattern ${pattern}`);
 }
 
 function pronounce(word) {
   return word.split("-").map((segment, index) => {
     if (index === 0 && ["mi", "ha", "so"].includes(segment)) return segment;
+    if (index === 0 && segment === "ne" && word.includes("-")) return segment;
     return segment.toUpperCase();
   }).join("-");
 }
@@ -1284,6 +1538,9 @@ const extraLexicon = [
 
 function makeLexicon() {
   const categories = {};
+  const patternPartOfSpeech = Object.fromEntries(
+    derivationPatterns.patterns.map((pattern) => [pattern.id, pattern.part_of_speech])
+  );
   function add(category, entry) {
     categories[category] ??= [];
     categories[category].push(entry);
@@ -1300,21 +1557,11 @@ function makeLexicon() {
 
   for (const rootEntry of roots) {
     for (const [pattern, derived] of Object.entries(rootEntry.derived)) {
-      const partOfSpeech = {
-        verb: "verb",
-        noun: "noun",
-        adjective: "adjective",
-        agent: "noun",
-        object: "noun",
-        ritual: "ritual formula",
-        civic: "civic/legal term",
-        intimate: "intimate/emotional term"
-      }[pattern];
       add(rootEntry.category, word(
         rootEntry.category,
         derived.word,
         derived.pronunciation,
-        partOfSpeech,
+        patternPartOfSpeech[pattern] ?? "derived term",
         rootEntry.id,
         derived.meaning,
         `${rootEntry.form} root, ${derived.role}`,
@@ -1349,6 +1596,18 @@ function exampleFor(wordValue, pattern) {
   if (pattern === "ritual") return `Ha ${wordValue}.`;
   if (pattern === "civic") return `Pu ${wordValue}.`;
   if (pattern === "intimate") return `Ti ${wordValue} na.`;
+  if (pattern === "process") return `${capitalize(wordValue)} ga ban rih.`;
+  if (pattern === "instrument") return `Na ban bi ${wordValue}.`;
+  if (pattern === "place") return `Nel pat ad ${wordValue}.`;
+  if (pattern === "doctrine") return `${capitalize(wordValue)} lek e rih.`;
+  if (pattern === "collective") return `${capitalize(wordValue)} lem pu nam.`;
+  if (pattern === "lack") return `${capitalize(wordValue)} e xed.`;
+  if (pattern === "category") return `${capitalize(wordValue)} e gec.`;
+  if (pattern === "discipline") return `Tu dak ${wordValue}.`;
+  if (pattern === "office") return `${capitalize(wordValue)} xaf ten dev.`;
+  if (pattern === "record") return `Kat ${wordValue}.`;
+  if (pattern === "right") return `${capitalize(wordValue)} ret cel sak.`;
+  if (pattern === "vow") return `Na dov ${wordValue}.`;
   return `Na nam ${wordValue}.`;
 }
 
@@ -1357,6 +1616,7 @@ function capitalize(value) {
 }
 
 writeYaml("phonology.yaml", phonology);
+writeYaml("derivation-patterns.yaml", derivationPatterns);
 writeYaml("roots.yaml", { roots });
 writeYaml("particles.yaml", { particles });
 writeYaml("pronouns.yaml", { pronouns });

@@ -7,14 +7,36 @@ Ethra forms words in four main ways.
 Each root enters patterns:
 
 ```text
-action      a-vowels       R-H -> rah
-concept     e-vowels       R-H -> reh
-quality     i-vowels       R-H -> rih
-agent       action + en     R-H -> rahen
-object      o-vowels       R-H -> roh
-ritual      ha- + u-vowels  R-H -> ha-ruh
-civic       action + -da    R-H -> rah-da
-intimate    mi- + action    R-H -> mi-rah
+action       a-vowels        R-H -> rah
+concept      e-vowels        R-H -> reh
+quality      i-vowels        R-H -> rih
+agent        action + -en     R-H -> rahen
+object       o-vowels        R-H -> roh
+ritual       ha- + u-vowels  R-H -> ha-ruh
+civic        action + -da    R-H -> rah-da
+intimate     mi- + action    R-H -> mi-rah
+process      action + -ga    R-H -> rah-ga
+instrument   action + -tel   R-H -> rah-tel
+place        action + -wed   R-H -> rah-wed
+doctrine     action + -lek   R-H -> rah-lek
+collective   action + -lem   R-H -> rah-lem
+lack         ne- + action    R-H -> ne-rah
+category     action + -gec   R-H -> rah-gec
+discipline   action + -dak   R-H -> rah-dak
+office       action + -xaf   R-H -> rah-xaf
+record       action + -ket   R-H -> rah-ket
+right        action + -ret   R-H -> rah-ret
+vow          action + -dov   R-H -> rah-dov
+```
+
+The full machine-readable catalog is in `spec/derivation-patterns.yaml`. The newer patterns are deliberately institutional and scholarly: they let one root generate tools, records, rights, offices, doctrines, disciplines, and absences without flattening into translated English.
+
+Useful commands:
+
+```bash
+npm run ethra -- list-patterns
+npm run ethra -- derive-word --root RAH --pattern instrument
+npm run ethra -- derive-word --root DAV --pattern right
 ```
 
 ## Analytic Particles

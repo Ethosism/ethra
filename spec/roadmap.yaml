@@ -2,11 +2,12 @@ version: "0.2-program"
 purpose: "Civilizational-scale vocabulary and corpus expansion plan for Ethra."
 principle: "Grow expressive coverage without flattening Ethra into translated English. Every expansion must preserve root-depth, moral grammar, relational grammar, cultural continuity, and machine-readable structure."
 current_state:
-  release: "v0.2.1"
-  lexicon_entries: 1273
+  release: "v0.2.2"
+  lexicon_entries: 3097
   root_families: 152
   corpus_items: 100
   compound_terms: 100
+  derivation_patterns: 20
   canonical_examples: 20
   cli_commands:
     - "generate-root"
@@ -15,6 +16,7 @@ current_state:
     - "translate-example"
     - "list-roots"
     - "list-particles"
+    - "list-patterns"
     - "list-lexicon"
     - "create-compound"
     - "list-compounds"
@@ -107,7 +109,7 @@ milestones:
       - "New domains can be added by rule-governed expansion rather than ad hoc invention."
 expansion_formula:
   root_productivity:
-    base_patterns_per_root: 8
+    base_patterns_per_root: 20
     expected_compounds_per_root: "20-80 once a domain has corpus demand"
     expected_phrases_per_root: "10-40 moral, relational, legal, technical, or poetic phrase templates"
   required_systems:

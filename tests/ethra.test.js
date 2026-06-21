@@ -28,6 +28,14 @@ test("looks up roots by aliases and derives words", () => {
   assert.equal(result.word, "mi-rah");
   assert.equal(result.pattern, "intimate");
   assert.match(result.culturalNotes, /ke mi-rah/);
+
+  const tool = deriveWord("RAH", "tool");
+  assert.equal(tool.word, "rah-tel");
+  assert.equal(tool.pattern, "instrument");
+
+  const legalRight = deriveWord("RAH", "legal-right");
+  assert.equal(legalRight.word, "rah-ret");
+  assert.equal(legalRight.pattern, "right");
 });
 
 test("analyzes known words", () => {
@@ -35,6 +43,10 @@ test("analyzes known words", () => {
   assert.equal(analysis.validPhonology, true);
   assert.ok(analysis.matches.some((match) => match.root === "RH"));
   assert.ok(analysis.morphology.some((line) => line.includes("compound/prefixed")));
+
+  const instrument = analyzeWord("rah-tel");
+  assert.equal(instrument.validPhonology, true);
+  assert.ok(instrument.matches.some((match) => match.pattern === "instrument"));
 });
 
 test("creates compounds", () => {
@@ -52,7 +64,7 @@ test("loads canonical example translations", () => {
 test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 1000);
+  assert.ok(entries.length >= 3000);
   for (const category of [
     "Pronouns",
     "Particles",

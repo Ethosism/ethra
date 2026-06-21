@@ -12,6 +12,7 @@ import {
   listCompounds,
   listDomains,
   listCorpusItems,
+  loadDerivationPatterns,
   loadGovernance,
   loadRoadmap,
   roadmapSummary
@@ -23,7 +24,7 @@ const program = new Command();
 program
   .name("ethra")
   .description("Ethra language tools")
-  .version("0.2.1");
+  .version("0.2.2");
 
 program
   .command("generate-root")
@@ -80,6 +81,13 @@ program
   .description("List tense, mood, moral, and register particles")
   .action(() => {
     console.log(JSON.stringify(loadSpec().particles.particles, null, 2));
+  });
+
+program
+  .command("list-patterns")
+  .description("List productive derivation patterns")
+  .action(() => {
+    console.log(JSON.stringify(loadDerivationPatterns(), null, 2));
   });
 
 program

@@ -58,8 +58,29 @@ export interface ExampleTranslation {
   cultural_notes: string;
 }
 
+export interface DerivationPatternSpec {
+  id: string;
+  label: string;
+  role: string;
+  surface_template: string;
+  part_of_speech: string;
+  semantic_function: string;
+  register: string;
+  example_root: string;
+  example_word: string;
+}
+
+export interface DerivationPatternsSpec {
+  version: string;
+  purpose: string;
+  principle: string;
+  total_patterns_per_root: number;
+  patterns: DerivationPatternSpec[];
+}
+
 export interface EthraSpec {
   phonology: any;
+  derivation_patterns: DerivationPatternsSpec;
   roots: { roots: RootSpec[] };
   particles: { particles: ParticleSpec[] };
   pronouns: { pronouns: PronounSpec[] };
@@ -88,6 +109,7 @@ export interface RoadmapSpec {
     root_families: number;
     corpus_items: number;
     compound_terms: number;
+    derivation_patterns: number;
     canonical_examples: number;
     cli_commands: string[];
   };

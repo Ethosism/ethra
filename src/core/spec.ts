@@ -18,6 +18,7 @@ export function loadSpec(): EthraSpec {
   if (!cache) {
     cache = {
       phonology: readSpecYaml("phonology.yaml"),
+      derivation_patterns: readSpecYaml("derivation-patterns.yaml"),
       roots: readSpecYaml("roots.yaml"),
       particles: readSpecYaml("particles.yaml"),
       pronouns: readSpecYaml("pronouns.yaml"),
