@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 21,057 explicit lexicon entries, 1,050 root families, and 2,120 reviewed corpus items after the v0.5.2 first v1.0 root expansion batch. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
+Ethra currently has 21,057 explicit lexicon entries, 1,050 root families, and 2,120 reviewed corpus items after the v0.5.3 corpus-search tooling batch. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
 
 Current progress toward the v1.0 stable-civil-language target:
 
@@ -85,6 +85,8 @@ The v0.5.0 corpus closeout adds the final 20 reviewed examples needed for public
 The v0.5.1 corpus batch adds the first 120 reviewed examples toward v1.0: 24 daily-dialogue items, 18 civic/legal items, 18 ritual/vow items, 24 technical/software items, 24 literary/poetic items, and 12 learner-graded items. It moves the corpus to 2,120 reviewed items while strengthening science/math, nature/ecology, economics/provision, education, conflict/security, health, AI, media, family, civic, ritual, technical, and poetic usage.
 
 The v0.5.2 root batch adds 50 v1 stability roots and 1,000 derived lexicon entries. It deliberately strengthens underweighted civil-language categories: moral agency, love/intimacy, future/civilization, conflict/repair, seeing/knowing, time, family, and emotion. New fields include honor, temperance, courage, humility, fidelity, responsibility, canon, diaspora, heritage, commonwealth, deterrence, negotiation, rescue, crisis, logic, inference, causality, forecast, interval, epoch, custody, calm, panic, jealousy, serenity, and regret.
+
+The v0.5.3 tooling batch adds `search-corpus`, the first v1.0 corpus search command. It searches reviewed examples by English, Ethra, literal translation, notes, accepted terms, and IDs, with structured filters for track, domain, register, term, and result limit.
 
 The next numeric gaps are v1.0 gaps: 3,943 more explicit entries, 1,450 more root families, and 7,880 more reviewed corpus items.
 

@@ -1,10 +1,10 @@
 # Ethra Language
 
-Ethra is a v0.5.2 constructed civilizational language. It is not meant to be an Esperanto clone, a naming toy, or an aesthetic exercise. Its design goal is to make certain cultural habits native to ordinary speech: truth, duty, beauty, memory, agency, consequence, inheritance, repair, love as recognition, speech as binding, and the future as a moral claimant.
+Ethra is a v0.5.3 constructed civilizational language. It is not meant to be an Esperanto clone, a naming toy, or an aesthetic exercise. Its design goal is to make certain cultural habits native to ordinary speech: truth, duty, beauty, memory, agency, consequence, inheritance, repair, love as recognition, speech as binding, and the future as a moral claimant.
 
 The working name is kept as **Ethra** because it is short, pronounceable, and internally useful: `eth` evokes ethos and `ra` evokes seeing. The name therefore sounds like "ethos made visible."
 
-Status: v0.5.2 has passed the public-culture gate and begun the v1.0 expansion program: generated YAML data, productive derivation patterns, 1,050 root families, 21,057 lexicon entries, 2,120 reviewed corpus items, TypeScript CLI, compound terminology, corpus/governance planning, and tests.
+Status: v0.5.3 has passed the public-culture gate and begun the v1.0 expansion program: generated YAML data, productive derivation patterns, 1,050 root families, 21,057 lexicon entries, 2,120 reviewed corpus items, TypeScript CLI, compound terminology, corpus search, corpus/governance planning, and tests.
 
 Repository: <https://github.com/Ethosism/ethra>
 
@@ -37,7 +37,7 @@ Ethra treats language as training. What is easy to say becomes easy to notice. W
 - **Machine-readable spec:** YAML files in `spec/` for phonology, derivation patterns, roots, particles, pronouns, grammar, lexicon, compounds, corpus, roadmap, domains, governance, and examples.
 - **Corpus:** 2,120 reviewed seed corpus items across daily dialogue, civic/legal, ritual/vow, technical/software, literary/poetic, and learner tracks.
 - **Expansion program:** roadmap, domain ontology, corpus plan, and governance model for growing toward civilizational-scale expressive coverage.
-- **Tooling:** CLI commands for root generation, word derivation, word analysis, example lookup, root/particle/pattern listing, lexicon listing, compound creation, roadmap inspection, domain coverage, corpus planning/next-batch recommendation/listing, governance review, and spec/corpus validation.
+- **Tooling:** CLI commands for root generation, word derivation, word analysis, example lookup, root/particle/pattern listing, lexicon listing, compound creation, roadmap inspection, domain coverage, corpus planning/next-batch recommendation/listing/search, governance review, and spec/corpus validation.
 
 ## Quick Examples
 
@@ -96,6 +96,7 @@ npm run ethra -- coverage-report
 npm run ethra -- corpus-plan
 npm run ethra -- corpus-next --size 120
 npm run ethra -- list-corpus --track technical-software
+npm run ethra -- search-corpus --query "data model" --track technical-software --limit 5
 npm run ethra -- governance
 npm run ethra -- validate-spec
 npm run ethra -- validate-corpus

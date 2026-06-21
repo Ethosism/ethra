@@ -2,6 +2,7 @@ import { flattenLexicon, loadSpec, readSpecYaml } from "./spec";
 import type {
   CompoundsSpec,
   CorpusPlanSpec,
+  CorpusItem,
   CorpusSpec,
   DerivationPatternsSpec,
   DomainSpec,
@@ -90,6 +91,30 @@ export interface CorpusExpansionPlan {
   track_recommendations: CorpusTrackExpansion[];
   domain_pressure: CorpusDomainPressure[];
   quality_gates: string[];
+}
+
+export interface CorpusSearchOptions {
+  query?: string;
+  track?: string;
+  domain?: string;
+  register?: string;
+  term?: string;
+  limit?: number;
+}
+
+export interface CorpusSearchMatch {
+  id: string;
+  score: number;
+  matched_fields: string[];
+  item: CorpusItem;
+}
+
+export interface CorpusSearchReport {
+  purpose: string;
+  query: Required<Pick<CorpusSearchOptions, "limit">> & Omit<CorpusSearchOptions, "limit">;
+  total_matches: number;
+  returned_matches: number;
+  matches: CorpusSearchMatch[];
 }
 
 export function loadRoadmap(): RoadmapSpec {
@@ -368,6 +393,105 @@ export function listCorpusItems(track?: string) {
   const items = loadCorpus().items;
   if (!track) return items;
   return items.filter((item) => item.track === track);
+}
+
+function normalizeSearchText(value: string | undefined): string {
+  return (value ?? "").toLowerCase().trim();
+}
+
+function searchTokens(query: string): string[] {
+  return query
+    .split(/[\s,]+/)
+    .map((token) => token.trim())
+    .filter(Boolean);
+}
+
+function scoreCorpusField(fieldValue: string, query: string, tokens: string[], weight: number): number {
+  const normalized = normalizeSearchText(fieldValue);
+  let score = 0;
+  if (query && normalized.includes(query)) {
+    score += weight * 3;
+  }
+  for (const token of tokens) {
+    if (normalized.includes(token)) {
+      score += weight;
+    }
+  }
+  return score;
+}
+
+export function searchCorpus(options: CorpusSearchOptions = {}): CorpusSearchReport {
+  const corpus = loadCorpus();
+  const query = normalizeSearchText(options.query);
+  const tokens = searchTokens(query);
+  const track = normalizeSearchText(options.track);
+  const domain = normalizeSearchText(options.domain);
+  const register = normalizeSearchText(options.register);
+  const term = normalizeSearchText(options.term);
+  const limit = Math.max(0, Math.floor(options.limit ?? 25));
+  const matches: CorpusSearchMatch[] = [];
+
+  for (const item of corpus.items) {
+    const terms = item.terms.map((value) => value.toLowerCase());
+    if (track && item.track.toLowerCase() !== track) continue;
+    if (domain && !item.domain_tags.some((value) => value.toLowerCase() === domain)) continue;
+    if (register && item.register.toLowerCase() !== register) continue;
+    if (term && !terms.includes(term)) continue;
+
+    const fields = {
+      id: item.id,
+      english: item.english,
+      ethra: item.ethra,
+      literal: item.literal,
+      notes: item.notes,
+      terms: item.terms.join(" ")
+    };
+    const aggregate = normalizeSearchText(Object.values(fields).join(" "));
+    if (query && !tokens.every((token) => aggregate.includes(token))) {
+      continue;
+    }
+
+    const fieldWeights: Record<keyof typeof fields, number> = {
+      id: 8,
+      english: 4,
+      ethra: 5,
+      literal: 3,
+      notes: 1,
+      terms: 4
+    };
+    let score = 0;
+    const matchedFields: string[] = [];
+    for (const [field, value] of Object.entries(fields) as Array<[keyof typeof fields, string]>) {
+      const fieldScore = scoreCorpusField(value, query, tokens, fieldWeights[field]);
+      if (fieldScore > 0) {
+        score += fieldScore;
+        matchedFields.push(field);
+      }
+    }
+
+    matches.push({
+      id: item.id,
+      score,
+      matched_fields: matchedFields,
+      item
+    });
+  }
+
+  const sorted = matches.sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
+  return {
+    purpose: "Search reviewed Ethra corpus examples by text and structured metadata.",
+    query: {
+      query: options.query,
+      track: options.track,
+      domain: options.domain,
+      register: options.register,
+      term: options.term,
+      limit
+    },
+    total_matches: sorted.length,
+    returned_matches: Math.min(sorted.length, limit),
+    matches: sorted.slice(0, limit)
+  };
 }
 
 export function listCompounds(domain?: string, status?: string) {

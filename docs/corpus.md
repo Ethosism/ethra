@@ -54,7 +54,7 @@ A large dictionary without corpus becomes ornamental. Corpus reveals whether a w
 
 The `corpus-next` command recommends the next reviewed batch toward the active roadmap milestone. It uses the active roadmap target, the track weights in `spec/corpus-plan.yaml`, current item IDs, and current domain counts to avoid overfilling easy tracks while science, AI, education, economics, conflict/security, and philosophy remain thin.
 
-For the current v0.5.2 state, the next 120-item batch points toward v1.0: 24 daily, 18 civic, 18 ritual, 24 technical, 24 poetic, and 12 learner items, starting at `daily-425`, `civic-319`, `ritual-319`, `tech-425`, `poetic-425`, and `learner-213`.
+For the current v0.5.3 state, the next 120-item batch points toward v1.0: 24 daily, 18 civic, 18 ritual, 24 technical, 24 poetic, and 12 learner items, starting at `daily-425`, `civic-319`, `ritual-319`, `tech-425`, `poetic-425`, and `learner-213`.
 
 ## CLI
 
@@ -62,5 +62,6 @@ For the current v0.5.2 state, the next 120-item batch points toward v1.0: 24 dai
 npm run ethra -- corpus-plan
 npm run ethra -- corpus-next --size 120
 npm run ethra -- list-corpus --track daily-dialogues
+npm run ethra -- search-corpus --query "future duty" --domain philosophy-metaphysics --limit 10
 npm run ethra -- validate-corpus
 ```

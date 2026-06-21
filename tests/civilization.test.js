@@ -12,7 +12,8 @@ const {
   loadDerivationPatterns,
   loadGovernance,
   loadRoadmap,
-  roadmapSummary
+  roadmapSummary,
+  searchCorpus
 } = require("../dist/core/civilization.js");
 const { validateCompounds, validateCorpus, validateSpec } = require("../dist/core/validation.js");
 
@@ -36,6 +37,7 @@ test("summarizes current progress against roadmap targets", () => {
   assert.ok(summary.current.actual_compound_terms >= 100);
   assert.equal(summary.current.actual_derivation_patterns, 20);
   assert.equal(summary.current.actual_canonical_examples, 20);
+  assert.ok(summary.current.cli_commands.includes("search-corpus"));
   assert.equal(summary.next_milestone.id, "v1.0");
   assert.equal(summary.next_milestone.target_entries, 25000);
 });
@@ -192,6 +194,34 @@ test("lists and validates reviewed corpus items", () => {
   assert.equal(report.stats.items, 2120);
   assert.equal(report.stats.tracks, 6);
   assert.ok(report.stats.uniqueTerms >= 926);
+});
+
+test("searches reviewed corpus by text and structured filters", () => {
+  const exactEthra = searchCorpus({ query: "Den mas med", track: "technical-software", limit: 3 });
+  assert.ok(exactEthra.total_matches >= 1);
+  assert.equal(exactEthra.matches[0].id, "tech-401");
+  assert.ok(exactEthra.matches[0].matched_fields.includes("ethra"));
+
+  const learnerTechnical = searchCorpus({
+    query: "data model",
+    track: "learner-graded",
+    register: "learner-a1",
+    limit: 5
+  });
+  assert.ok(learnerTechnical.matches.some((match) => match.id === "learner-210"));
+  assert.ok(learnerTechnical.matches.every((match) => match.item.track === "learner-graded"));
+  assert.ok(learnerTechnical.matches.every((match) => match.item.register === "learner-a1"));
+
+  const recognition = searchCorpus({ term: "reh", domain: "philosophy-metaphysics", limit: 7 });
+  assert.ok(recognition.total_matches >= recognition.returned_matches);
+  assert.ok(recognition.returned_matches <= 7);
+  assert.ok(recognition.matches.every((match) => match.item.domain_tags.includes("philosophy-metaphysics")));
+  assert.ok(recognition.matches.every((match) => match.item.terms.includes("reh")));
+
+  const noneReturned = searchCorpus({ query: "future", limit: 0 });
+  assert.ok(noneReturned.total_matches > 0);
+  assert.equal(noneReturned.returned_matches, 0);
+  assert.deepEqual(noneReturned.matches, []);
 });
 
 test("validates expanded root inventory", () => {

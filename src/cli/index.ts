@@ -16,7 +16,8 @@ import {
   loadDerivationPatterns,
   loadGovernance,
   loadRoadmap,
-  roadmapSummary
+  roadmapSummary,
+  searchCorpus
 } from "../core/civilization";
 import { validateCompounds, validateCorpus, validateSpec } from "../core/validation";
 
@@ -25,7 +26,7 @@ const program = new Command();
 program
   .name("ethra")
   .description("Ethra language tools")
-  .version("0.5.2");
+  .version("0.5.3");
 
 program
   .command("generate-root")
@@ -194,6 +195,30 @@ program
   .option("-t, --track <track>", "filter by corpus track")
   .action((options) => {
     console.log(JSON.stringify(listCorpusItems(options.track), null, 2));
+  });
+
+program
+  .command("search-corpus")
+  .description("Search reviewed corpus items by text, track, domain, register, or term")
+  .option("-q, --query <query>", "text to search across English, Ethra, literal, notes, terms, and IDs")
+  .option("-t, --track <track>", "filter by corpus track")
+  .option("-d, --domain <domain>", "filter by domain id")
+  .option("-r, --register <register>", "filter by register")
+  .option("--term <term>", "filter by accepted Ethra term")
+  .option("-l, --limit <items>", "maximum results to return", "25")
+  .action((options) => {
+    const limit = Number.parseInt(options.limit, 10);
+    if (!Number.isFinite(limit) || limit < 0) {
+      throw new Error("--limit must be a non-negative integer");
+    }
+    console.log(JSON.stringify(searchCorpus({
+      query: options.query,
+      track: options.track,
+      domain: options.domain,
+      register: options.register,
+      term: options.term,
+      limit
+    }), null, 2));
   });
 
 program
