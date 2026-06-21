@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 39,057 explicit lexicon entries, 39,212 dictionary entries, 1,950 root families, and 4,160 reviewed corpus items after the v0.9.2 cognitive and civil depth root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 39,057 explicit lexicon entries, 39,212 dictionary entries, 1,950 root families, and 4,280 reviewed corpus items after the v0.9.3 cognitive and civil corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
@@ -8,7 +8,7 @@ Current progress toward the v1.0 stable-civil-language target:
 entries 39,057 / 25,000
 dictionary 39,212 entries with corpus evidence fields
 roots     1,950 / 2,500
-corpus    4,160 / 10,000 reviewed items
+corpus    4,280 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -167,7 +167,9 @@ The v0.9.1 health and media corpus grounding batch adds 120 reviewed examples ac
 
 The v0.9.2 cognitive and civil depth root batch adds 50 roots and 1,000 derived lexicon entries. It strengthens formal abstraction with functors, monads, group theory, ring algebra, Fourier transforms, Markov and stochastic processes, bifurcations, genotype, and phenotype; philosophy with ontology, epistemology, phenomenology, hermeneutics, teleology, normativity, subjectivity, and objectivity; psychology with attachment, attunement, dysregulation, triggers, flashbacks, dissociation, repression, transference, boundaries, and resilience; AI, education, and cognition with planners, executors, critics, exploration, exploitation, regularization, normalization, trajectories, snapshots, handoffs, phonics, spelling, handwriting, recitation, memorization, and scaffolding; and family law with child support, divorce, foster care, step-parenting, co-parenting, and kin councils.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 550 more root families and 5,840 more reviewed corpus items still needed.
+The v0.9.3 cognitive and civil corpus grounding batch adds 120 reviewed examples across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds functors, monads, group theory, ring algebra, Fourier transforms, Markov and stochastic processes, bifurcations, genotype, phenotype, ontology, epistemology, phenomenology, hermeneutics, teleology, normativity, subjectivity, objectivity, attachment, attunement, dysregulation, triggers, flashbacks, dissociation, repression, transference, boundaries, resilience, planners, executors, critics, exploration, exploitation, regularization, normalization, trajectories, snapshots, handoffs, phonics, spelling, handwriting, recitation, memorization, scaffolding, child support, divorce, foster care, step-parenting, co-parenting, and kin councils in ordinary, civic, ritual, technical, poetic, and learner use.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 550 more root families and 5,720 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
