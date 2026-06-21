@@ -29601,3 +29601,1203 @@ items:
     literal: "Umbrella protects child-student."
     notes: "A1 weather-care sentence."
     terms: ["meberel", "xap", "tu"]
+  -
+    id: "daily-593"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "common"
+    english: "The carpenter repairs the home."
+    ethra: "Cerepen tar hen."
+    literal: "Carpentry repairs home."
+    notes: "Grounds skilled household repair as visible provision."
+    terms: ["cerepen", "tar", "hen"]
+  -
+    id: "daily-594"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "common"
+    english: "The mason builds the wall."
+    ethra: "Mesenex ban wer."
+    literal: "Masonry builds wall."
+    notes: "Places durable shelter craft in everyday speech."
+    terms: ["mesenex", "ban", "wer"]
+  -
+    id: "daily-595"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "common"
+    english: "The plumber protects water."
+    ethra: "Pelemer xap wam."
+    literal: "Plumbing protects water."
+    notes: "Makes sanitation and water access ordinary civic care."
+    terms: ["pelemer", "xap", "wam"]
+  -
+    id: "daily-596"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "common"
+    english: "The electrician carries light."
+    ethra: "Pewerek taw ler."
+    literal: "Electrical work carries light."
+    notes: "Links household power to clarity and responsibility."
+    terms: ["pewerek", "taw", "ler"]
+  -
+    id: "daily-597"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "common"
+    english: "The mechanic repairs the machine."
+    ethra: "Mecehen tar mac."
+    literal: "Mechanic repairs machine."
+    notes: "Practical machine repair is treated as restored agency."
+    terms: ["mecehen", "tar", "mac"]
+  -
+    id: "daily-598"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "common"
+    english: "The tailor repairs the shirt."
+    ethra: "Telerex tar seheret."
+    literal: "Tailoring repairs shirt."
+    notes: "Clothing repair preserves dignity without waste."
+    terms: ["telerex", "tar", "seheret"]
+  -
+    id: "daily-599"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "common"
+    english: "The weaver binds fabric."
+    ethra: "Weverex dav feber."
+    literal: "Weaving binds fabric."
+    notes: "Textile making is named as ordered joining."
+    terms: ["weverex", "dav", "feber"]
+  -
+    id: "daily-600"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "common"
+    english: "The barber shapes the face."
+    ethra: "Beberex ban nev."
+    literal: "Barbering forms face."
+    notes: "Personal grooming is handled as public presence, not vanity alone."
+    terms: ["beberex", "ban", "nev"]
+  -
+    id: "daily-601"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "common"
+    english: "The housekeeper protects rest."
+    ethra: "Hesekep xap cap."
+    literal: "Housekeeping protects rest."
+    notes: "Domestic order is connected to bodily restoration."
+    terms: ["hesekep", "xap", "cap"]
+  -
+    id: "daily-602"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "common"
+    english: "The waiter carries the meal."
+    ethra: "Weterex taw par."
+    literal: "Meal service carries provision."
+    notes: "Service work is named as dignified provision-bearing."
+    terms: ["weterex", "taw", "par"]
+  -
+    id: "daily-603"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "common"
+    english: "The chef feeds the household."
+    ethra: "Cehefex fad hon."
+    literal: "Chef work feeds household."
+    notes: "Skilled cooking enters the household register."
+    terms: ["cehefex", "fad", "hon"]
+  -
+    id: "daily-604"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "common"
+    english: "The driver guides the road."
+    ethra: "Derever pat pet."
+    literal: "Driving guides path."
+    notes: "Transport work is ordinary path stewardship."
+    terms: ["derever", "pat", "pet"]
+  -
+    id: "daily-605"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "common"
+    english: "The caregiver protects the elder."
+    ethra: "Ceregev xap to."
+    literal: "Caregiving protects elder-teacher."
+    notes: "Care is given relational precision without caste."
+    terms: ["ceregev", "xap", "to"]
+  -
+    id: "daily-606"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "common"
+    english: "The volunteer chooses the duty."
+    ethra: "Veleter vel dev."
+    literal: "Volunteering chooses duty."
+    notes: "Unpaid public service is marked as chosen obligation."
+    terms: ["veleter", "vel", "dev"]
+  -
+    id: "daily-607"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "common"
+    english: "The programmer builds the tool."
+    ethra: "Pereger ban tel."
+    literal: "Programming builds tool."
+    notes: "Software work is treated as practical making."
+    terms: ["pereger", "ban", "tel"]
+  -
+    id: "daily-608"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "common"
+    english: "The writer names memory."
+    ethra: "Wereter nam mer."
+    literal: "Writing names memory."
+    notes: "Ordinary writing preserves what a people must recall."
+    terms: ["wereter", "nam", "mer"]
+  -
+    id: "daily-609"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "art-beauty"]
+    register: "common"
+    english: "The photographer reveals the face."
+    ethra: "Peheteg rah nev."
+    literal: "Photography reveals face."
+    notes: "Image-making is framed as recognition, not consumption."
+    terms: ["peheteg", "rah", "nev"]
+  -
+    id: "daily-610"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "art-beauty"]
+    register: "common"
+    english: "The singer carries grief."
+    ethra: "Seneger taw gef."
+    literal: "Singing carries grief."
+    notes: "Song gives emotion an ordered public voice."
+    terms: ["seneger", "taw", "gef"]
+  -
+    id: "daily-611"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "common"
+    english: "The trainer guides practice."
+    ethra: "Terener pat perekec."
+    literal: "Training guides practice."
+    notes: "Skill is formed by repeated guided action."
+    terms: ["terener", "pat", "perekec"]
+  -
+    id: "daily-612"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "common"
+    english: "The coach repairs pride."
+    ethra: "Cecehex tar pir."
+    literal: "Coaching repairs pride."
+    notes: "Correction is joined to character, not only performance."
+    terms: ["cecehex", "tar", "pir"]
+  -
+    id: "daily-613"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "The repair worker restores order."
+    ethra: "Reperex tar rag."
+    literal: "Repair work restores order."
+    notes: "Mending is named as refusal of final breakage."
+    terms: ["reperex", "tar", "rag"]
+  -
+    id: "daily-614"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "common"
+    english: "The delegate carries the voice."
+    ethra: "Delegex taw nem."
+    literal: "Delegation carries speech."
+    notes: "Representation is treated as entrusted speech."
+    terms: ["delegex", "taw", "nem"]
+  -
+    id: "daily-615"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "common"
+    english: "The warden protects the person."
+    ethra: "Wereden xap li."
+    literal: "Wardenship protects person."
+    notes: "Custody remains answerable to personhood."
+    terms: ["wereden", "xap", "li"]
+  -
+    id: "daily-616"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "common"
+    english: "The navigator reveals the path."
+    ethra: "Neveget rah pet."
+    literal: "Navigation reveals path."
+    notes: "Direction is made visible for shared movement."
+    terms: ["neveget", "rah", "pet"]
+  -
+    id: "civic-445"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The carpentry record reveals duty."
+    ethra: "Carapan-ket rah dev."
+    literal: "Carpentry-record reveals duty."
+    notes: "Trade records make practical obligations inspectable."
+    terms: ["carapan-ket", "rah", "dev"]
+  -
+    id: "civic-446"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic"
+    english: "The masonry standard protects the city."
+    ethra: "Pu masanax-da xap cat."
+    literal: "Public masonry-standard protects city."
+    notes: "Building standards are justified by public shelter."
+    terms: ["pu", "masanax-da", "xap", "cat"]
+  -
+    id: "civic-447"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health"]
+    register: "civic"
+    english: "The plumbing standard protects water."
+    ethra: "Pu palamar-da xap wam."
+    literal: "Public plumbing-standard protects water."
+    notes: "Water infrastructure is treated as public health."
+    terms: ["pu", "palamar-da", "xap", "wam"]
+  -
+    id: "civic-448"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software"]
+    register: "civic"
+    english: "The electrical record carries light."
+    ethra: "Pawarak-ket taw ler."
+    literal: "Electrical-record carries light."
+    notes: "Power systems become auditable clarity."
+    terms: ["pawarak-ket", "taw", "ler"]
+  -
+    id: "civic-449"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software"]
+    register: "civic"
+    english: "The mechanic license protects machines."
+    ethra: "Macahan-ket xap mac."
+    literal: "Mechanic-record protects machine."
+    notes: "Repair authority is attached to machine safety."
+    terms: ["macahan-ket", "xap", "mac"]
+  -
+    id: "civic-450"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health"]
+    register: "legal"
+    english: "The physician license protects life."
+    ethra: "Pahayas-ket xap nef."
+    literal: "Physician-record protects life."
+    notes: "Clinical authority is measured by protection of life."
+    terms: ["pahayas-ket", "xap", "nef"]
+  -
+    id: "civic-451"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health"]
+    register: "legal"
+    english: "The dentistry record protects the body."
+    ethra: "Danatas-ket xap gom."
+    literal: "Dentistry-record protects body."
+    notes: "Specialized care remains part of whole bodily duty."
+    terms: ["danatas-ket", "xap", "gom"]
+  -
+    id: "civic-452"
+    track: "civic-law"
+    domain_tags: ["law-governance", "emotion-psychology"]
+    register: "legal"
+    english: "The therapy record protects the heart."
+    ethra: "Taharap-ket xap leb."
+    literal: "Therapy-record protects heart."
+    notes: "Mental-health records carry duty to inward life."
+    terms: ["taharap-ket", "xap", "leb"]
+  -
+    id: "civic-453"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "legal"
+    english: "The legal counsel record protects the right."
+    ethra: "Lawarax-ket xap ret."
+    literal: "Lawyer-record protects right."
+    notes: "Counsel is framed as protection under judgment."
+    terms: ["lawarax-ket", "xap", "ret"]
+  -
+    id: "civic-454"
+    track: "civic-law"
+    domain_tags: ["law-governance", "history-memory"]
+    register: "civic"
+    english: "The clerk record carries public order."
+    ethra: "Calarak-ket taw rag."
+    literal: "Clerk-record carries order."
+    notes: "Administrative work is made legible as kept order."
+    terms: ["calarak-ket", "taw", "rag"]
+  -
+    id: "civic-455"
+    track: "civic-law"
+    domain_tags: ["law-governance", "daily-life"]
+    register: "civic"
+    english: "Reception guides the citizen."
+    ethra: "Recepet pat te."
+    literal: "Reception guides civic-you."
+    notes: "Front-desk service is a civic doorway, not a low-status function."
+    terms: ["recepet", "pat", "te"]
+  -
+    id: "civic-456"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The supervisor should see the work."
+    ethra: "Seperev cel rah wak."
+    literal: "Supervision should see work."
+    notes: "Oversight is obligated attention, not mere control."
+    terms: ["seperev", "cel", "rah", "wak"]
+  -
+    id: "civic-457"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "Management is entrusted with work."
+    ethra: "Megerex ten wak."
+    literal: "Management entrusted-with work."
+    notes: "Management is defined by entrusted stewardship."
+    terms: ["megerex", "ten", "wak"]
+  -
+    id: "civic-458"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The employer owes duty."
+    ethra: "Meperex dom dev."
+    literal: "Employer owes duty."
+    notes: "Employment power is paired with obligation."
+    terms: ["meperex", "dom", "dev"]
+  -
+    id: "civic-459"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The client may name a claim."
+    ethra: "Celenet lun nam ret."
+    literal: "Client may name right/claim."
+    notes: "Service recipients retain lawful voice."
+    terms: ["celenet", "lun", "nam", "ret"]
+  -
+    id: "civic-460"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The customer record carries payment."
+    ethra: "Casatam-ket taw may."
+    literal: "Customer-record carries payment."
+    notes: "Commerce data is handled as accountable exchange."
+    terms: ["casatam-ket", "taw", "may"]
+  -
+    id: "civic-461"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "civic"
+    english: "The volunteer right should protect service."
+    ethra: "Valatar-ret cel xap sevec."
+    literal: "Volunteer-right should protect service."
+    notes: "Chosen service is protected without turning into coercion."
+    terms: ["valatar-ret", "cel", "xap", "sevec"]
+  -
+    id: "civic-462"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The warden appointment protects the person."
+    ethra: "Waradan-ket xap li."
+    literal: "Warden-record protects person."
+    notes: "Custodial records are judged by person-preserving duty."
+    terms: ["waradan-ket", "xap", "li"]
+  -
+    id: "ritual-445"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship"]
+    register: "ritual"
+    english: "May carpentry repair the home."
+    ethra: "Ha ha-curupun tar hen."
+    literal: "Solemn carpentry repairs home."
+    notes: "Household craft is raised into vow-language."
+    terms: ["ha", "ha-curupun", "tar", "hen"]
+  -
+    id: "ritual-446"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "travel-place"]
+    register: "ritual"
+    english: "May masonry build the wall."
+    ethra: "Ha ha-musunux ban wer."
+    literal: "Solemn masonry builds wall."
+    notes: "Stonework becomes a sign of kept shelter."
+    terms: ["ha", "ha-musunux", "ban", "wer"]
+  -
+    id: "ritual-447"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "May plumbing protect water."
+    ethra: "Ha ha-pulumur xap wam."
+    literal: "Solemn plumbing protects water."
+    notes: "Clean water is treated as a solemn public mercy."
+    terms: ["ha", "ha-pulumur", "xap", "wam"]
+  -
+    id: "ritual-448"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "technology-software"]
+    register: "ritual"
+    english: "May electrical work carry light."
+    ethra: "Ha ha-puwuruk taw ler."
+    literal: "Solemn electrical work carries light."
+    notes: "Power is bound to clarity rather than spectacle."
+    terms: ["ha", "ha-puwuruk", "taw", "ler"]
+  -
+    id: "ritual-449"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "technology-software"]
+    register: "ritual"
+    english: "May the mechanic repair the machine."
+    ethra: "Ha ha-mucuhun tar mac."
+    literal: "Solemn mechanic repairs machine."
+    notes: "Repair work is admitted into ceremonial seriousness."
+    terms: ["ha", "ha-mucuhun", "tar", "mac"]
+  -
+    id: "ritual-450"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "May the physician protect life."
+    ethra: "Ha ha-puhuyus xap nef."
+    literal: "Solemn physician care protects life."
+    notes: "Healing authority is placed under reverent duty."
+    terms: ["ha", "ha-puhuyus", "xap", "nef"]
+  -
+    id: "ritual-451"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "ritual"
+    english: "May therapy protect the heart."
+    ethra: "Ha ha-tuhurup xap leb."
+    literal: "Solemn therapy protects heart."
+    notes: "Inward care can be spoken in solemn cadence."
+    terms: ["ha", "ha-tuhurup", "xap", "leb"]
+  -
+    id: "ritual-452"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "ritual"
+    english: "May legal counsel name the right."
+    ethra: "Ha ha-luwurux nam ret."
+    literal: "Solemn legal counsel names right."
+    notes: "Advocacy is restrained by truth before judgment."
+    terms: ["ha", "ha-luwurux", "nam", "ret"]
+  -
+    id: "ritual-453"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "May the scribe preserve memory."
+    ethra: "Ha ha-sucurub mar mer."
+    literal: "Solemn scribe preserves memory."
+    notes: "Writing is treated as continuity work."
+    terms: ["ha", "ha-sucurub", "mar", "mer"]
+  -
+    id: "ritual-454"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "ritual"
+    english: "May assistance be entrusted with duty."
+    ethra: "Ha ha-hulupux ten dev."
+    literal: "Solemn assistance entrusted-with duty."
+    notes: "Helping is elevated without becoming domination."
+    terms: ["ha", "ha-hulupux", "ten", "dev"]
+  -
+    id: "ritual-455"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "ritual"
+    english: "May supervision see work."
+    ethra: "Ha ha-supuruv rah wak."
+    literal: "Solemn supervision sees work."
+    notes: "Oversight becomes disciplined attention."
+    terms: ["ha", "ha-supuruv", "rah", "wak"]
+  -
+    id: "ritual-456"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "ritual"
+    english: "May management be entrusted with work."
+    ethra: "Ha ha-mugurux ten wak."
+    literal: "Solemn management entrusted-with work."
+    notes: "Leadership language is bent toward stewardship."
+    terms: ["ha", "ha-mugurux", "ten", "wak"]
+  -
+    id: "ritual-457"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "May caregiving protect the elder."
+    ethra: "Ha ha-curuguv xap to."
+    literal: "Solemn caregiving protects elder-teacher."
+    notes: "Care for elders is spoken as honored duty."
+    terms: ["ha", "ha-curuguv", "xap", "to"]
+  -
+    id: "ritual-458"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training"]
+    register: "ritual"
+    english: "May volunteering choose duty."
+    ethra: "Ha ha-vulutur vel dev."
+    literal: "Solemn volunteering chooses duty."
+    notes: "Voluntary service is not casual; it chooses obligation."
+    terms: ["ha", "ha-vulutur", "vel", "dev"]
+  -
+    id: "ritual-459"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "art-beauty"]
+    register: "ritual"
+    english: "May design build order."
+    ethra: "Ha ha-dusugun ban rag."
+    literal: "Solemn design builds order."
+    notes: "Beauty is joined to form and discipline."
+    terms: ["ha", "ha-dusugun", "ban", "rag"]
+  -
+    id: "ritual-460"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "technology-software"]
+    register: "ritual"
+    english: "May programming build the tool."
+    ethra: "Ha ha-purugur ban tel."
+    literal: "Solemn programming builds tool."
+    notes: "Technical making receives vow-capable language."
+    terms: ["ha", "ha-purugur", "ban", "tel"]
+  -
+    id: "ritual-461"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "art-beauty"]
+    register: "ritual"
+    english: "May singing carry grief."
+    ethra: "Ha ha-sunugur taw gef."
+    literal: "Solemn singing carries grief."
+    notes: "Song gives sorrow a dignified vessel."
+    terms: ["ha", "ha-sunugur", "taw", "gef"]
+  -
+    id: "ritual-462"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "ritual"
+    english: "May repair work mend the broken."
+    ethra: "Ha ha-rupurux tar mak."
+    literal: "Solemn repair work repairs brokenness."
+    notes: "The repair vocation is named against final ruin."
+    terms: ["ha", "ha-rupurux", "tar", "mak"]
+  -
+    id: "tech-593"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The carpentry record carries the message."
+    ethra: "Carapan-ket taw meseg."
+    literal: "Carpentry-record carries message."
+    notes: "Work-order systems keep trade communication inspectable."
+    terms: ["carapan-ket", "taw", "meseg"]
+  -
+    id: "tech-594"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The plumbing tool reveals water."
+    ethra: "Palamar-tel rah wam."
+    literal: "Plumbing-tool reveals water."
+    notes: "Diagnostic tools make hidden infrastructure visible."
+    terms: ["palamar-tel", "rah", "wam"]
+  -
+    id: "tech-595"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The electrical record protects life."
+    ethra: "Pawarak-ket xap nef."
+    literal: "Electrical-record protects life."
+    notes: "Safety telemetry ties power to bodily stakes."
+    terms: ["pawarak-ket", "xap", "nef"]
+  -
+    id: "tech-596"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The mechanic record carries repair."
+    ethra: "Macahan-ket taw tar."
+    literal: "Mechanic-record carries repair."
+    notes: "Maintenance systems preserve the trail of restoration."
+    terms: ["macahan-ket", "taw", "tar"]
+  -
+    id: "tech-597"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The tailoring record carries the shirt."
+    ethra: "Talarax-ket taw seheret."
+    literal: "Tailoring-record carries shirt."
+    notes: "Garment workflows can preserve personal fit and dignity."
+    terms: ["talarax-ket", "taw", "seheret"]
+  -
+    id: "tech-598"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The weaving record carries fabric."
+    ethra: "Wavarax-ket taw feber."
+    literal: "Weaving-record carries fabric."
+    notes: "Textile production data keeps material lineage visible."
+    terms: ["wavarax-ket", "taw", "feber"]
+  -
+    id: "tech-599"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The janitorial record protects order."
+    ethra: "Janatar-ket xap rag."
+    literal: "Janitorial-record protects order."
+    notes: "Cleaning operations are technical care for shared space."
+    terms: ["janatar-ket", "xap", "rag"]
+  -
+    id: "tech-600"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The housekeeping record protects rest."
+    ethra: "Hasakap-ket xap cap."
+    literal: "Housekeeping-record protects rest."
+    notes: "Service systems measure hospitality by restoration."
+    terms: ["hasakap-ket", "xap", "cap"]
+  -
+    id: "tech-601"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The chef record carries provision."
+    ethra: "Cahafax-ket taw par."
+    literal: "Chef-record carries provision."
+    notes: "Kitchen systems attach food preparation to accountable provision."
+    terms: ["cahafax-ket", "taw", "par"]
+  -
+    id: "tech-602"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "The driver record guides the path."
+    ethra: "Daravar-ket pat pet."
+    literal: "Driver-record guides path."
+    notes: "Routing data records transport responsibility."
+    terms: ["daravar-ket", "pat", "pet"]
+  -
+    id: "tech-603"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "The pilot record reveals the path."
+    ethra: "Payalat-ket rah pet."
+    literal: "Pilot-record reveals path."
+    notes: "Flight records turn movement into accountable visibility."
+    terms: ["payalat-ket", "rah", "pet"]
+  -
+    id: "tech-604"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical"
+    english: "The crew record carries duty."
+    ethra: "Carawax-ket taw dev."
+    literal: "Crew-record carries duty."
+    notes: "Shared work requires explicit responsibility trails."
+    terms: ["carawax-ket", "taw", "dev"]
+  -
+    id: "tech-605"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "The courier record carries the package."
+    ethra: "Dalavar-ket taw gep."
+    literal: "Delivery-record carries package."
+    notes: "Logistics vocabulary joins package custody to accountable movement."
+    terms: ["dalavar-ket", "taw", "gep"]
+  -
+    id: "tech-606"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "The navigation tool reveals the path."
+    ethra: "Navagat-tel rah pet."
+    literal: "Navigation-tool reveals path."
+    notes: "Maps and routing tools are treated as directed clarity."
+    terms: ["navagat-tel", "rah", "pet"]
+  -
+    id: "tech-607"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The physician record protects life."
+    ethra: "Pahayas-ket xap nef."
+    literal: "Physician-record protects life."
+    notes: "Clinical systems keep the care claim explicit."
+    terms: ["pahayas-ket", "xap", "nef"]
+  -
+    id: "tech-608"
+    track: "technical-software"
+    domain_tags: ["technology-software", "emotion-psychology"]
+    register: "technical"
+    english: "The therapy record protects the heart."
+    ethra: "Taharap-ket xap leb."
+    literal: "Therapy-record protects heart."
+    notes: "Care software must preserve inward-life context."
+    terms: ["taharap-ket", "xap", "leb"]
+  -
+    id: "tech-609"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical"
+    english: "The legal record reveals the right."
+    ethra: "Lawarax-ket rah ret."
+    literal: "Legal-record reveals right."
+    notes: "Legal technology is evaluated by visible claims."
+    terms: ["lawarax-ket", "rah", "ret"]
+  -
+    id: "tech-610"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical"
+    english: "The reception record guides the citizen."
+    ethra: "Racapat-ket pat te."
+    literal: "Reception-record guides civic-you."
+    notes: "Intake systems should orient people rather than hide process."
+    terms: ["racapat-ket", "pat", "te"]
+  -
+    id: "tech-611"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The supervision record sees work."
+    ethra: "Saparav-ket rah wak."
+    literal: "Supervision-record sees work."
+    notes: "Workflow oversight is framed as accountable attention."
+    terms: ["saparav-ket", "rah", "wak"]
+  -
+    id: "tech-612"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The management record carries work."
+    ethra: "Magarax-ket taw wak."
+    literal: "Management-record carries work."
+    notes: "Planning systems expose stewardship rather than hiding it."
+    terms: ["magarax-ket", "taw", "wak"]
+  -
+    id: "tech-613"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The engineering record builds the tool."
+    ethra: "Nagarax-ket ban tel."
+    literal: "Engineering-record builds tool."
+    notes: "Engineering artifacts are joined to auditable making."
+    terms: ["nagarax-ket", "ban", "tel"]
+  -
+    id: "tech-614"
+    track: "technical-software"
+    domain_tags: ["technology-software", "art-beauty"]
+    register: "technical"
+    english: "The design record builds order."
+    ethra: "Dasagan-ket ban rag."
+    literal: "Design-record builds order."
+    notes: "Design systems keep form answerable to function."
+    terms: ["dasagan-ket", "ban", "rag"]
+  -
+    id: "tech-615"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The programmer record protects data."
+    ethra: "Paragar-ket xap den."
+    literal: "Programmer-record protects data."
+    notes: "Software labor is tied to data custody."
+    terms: ["paragar-ket", "xap", "den"]
+  -
+    id: "tech-616"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The interpretation tool carries speech."
+    ethra: "Natapar-tel taw nem."
+    literal: "Interpreter-tool carries speech."
+    notes: "Language tools are judged by whether they carry meaning responsibly."
+    terms: ["natapar-tel", "taw", "nem"]
+  -
+    id: "poetic-593"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship"]
+    register: "poetic"
+    english: "The carpenter is a hand with the home."
+    ethra: "Cerepen e rem ko hen."
+    literal: "Carpentry is hand with home."
+    notes: "Craft is pictured through touch and shelter."
+    terms: ["cerepen", "e", "rem", "ko", "hen"]
+  -
+    id: "poetic-594"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "Masonry builds the city with earth."
+    ethra: "Mesenex ban cat ko geb."
+    literal: "Masonry builds city with earth."
+    notes: "Stone and soil become civic form."
+    terms: ["mesenex", "ban", "cat", "ko", "geb"]
+  -
+    id: "poetic-595"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Plumbing reveals water."
+    ethra: "Pelemer rah wam."
+    literal: "Plumbing reveals water."
+    notes: "Hidden flow becomes visible care."
+    terms: ["pelemer", "rah", "wam"]
+  -
+    id: "poetic-596"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Electrical work carries light to the household."
+    ethra: "Pewerek taw ler ad hon."
+    literal: "Electrical work carries light toward household."
+    notes: "Power is imagined as carried clarity."
+    terms: ["pewerek", "taw", "ler", "ad", "hon"]
+  -
+    id: "poetic-597"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "The mechanic repairs the machine."
+    ethra: "Mecehen tar mac."
+    literal: "Mechanic repairs machine."
+    notes: "Restored machinery is a quiet public good."
+    terms: ["mecehen", "tar", "mac"]
+  -
+    id: "poetic-598"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "Tailoring preserves the shirt."
+    ethra: "Telerex mar seheret."
+    literal: "Tailoring preserves shirt."
+    notes: "Repairing clothing becomes memory against waste."
+    terms: ["telerex", "mar", "seheret"]
+  -
+    id: "poetic-599"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "Weaving binds memory."
+    ethra: "Weverex dav mer."
+    literal: "Weaving binds memory."
+    notes: "Thread becomes continuity made touchable."
+    terms: ["weverex", "dav", "mer"]
+  -
+    id: "poetic-600"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "Cobbling protects the path."
+    ethra: "Cebelex xap pet."
+    literal: "Cobbling protects path."
+    notes: "Footwear craft is honored by the road it serves."
+    terms: ["cebelex", "xap", "pet"]
+  -
+    id: "poetic-601"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Housekeeping protects rest."
+    ethra: "Hesekep xap cap."
+    literal: "Housekeeping protects rest."
+    notes: "Order becomes the condition of peaceable sleep."
+    terms: ["hesekep", "xap", "cap"]
+  -
+    id: "poetic-602"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship"]
+    register: "poetic"
+    english: "The chef feeds love."
+    ethra: "Cehefex fad mev."
+    literal: "Chef work feeds love."
+    notes: "Shared food is treated as recognition in action."
+    terms: ["cehefex", "fad", "mev"]
+  -
+    id: "poetic-603"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "The driver guides the future."
+    ethra: "Derever pat fer."
+    literal: "Driving guides future."
+    notes: "Transport work is given future-bearing consequence."
+    terms: ["derever", "pat", "fer"]
+  -
+    id: "poetic-604"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "Delivery carries the claim."
+    ethra: "Delever taw ret."
+    literal: "Delivery carries right/claim."
+    notes: "A package can bear promise and expectation."
+    terms: ["delever", "taw", "ret"]
+  -
+    id: "poetic-605"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "Navigation reveals the path."
+    ethra: "Neveget rah pet."
+    literal: "Navigation reveals path."
+    notes: "Direction becomes a form of seeing."
+    terms: ["neveget", "rah", "pet"]
+  -
+    id: "poetic-606"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Physician care protects life."
+    ethra: "Peheyes xap nef."
+    literal: "Physician care protects life."
+    notes: "Clinical skill is compressed into a line of protection."
+    terms: ["peheyes", "xap", "nef"]
+  -
+    id: "poetic-607"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Therapy repairs the heart."
+    ethra: "Teherep tar leb."
+    literal: "Therapy repairs heart."
+    notes: "Inner restoration is made speakable."
+    terms: ["teherep", "tar", "leb"]
+  -
+    id: "poetic-608"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "The lawyer names the right."
+    ethra: "Lewerex nam ret."
+    literal: "Lawyering names right."
+    notes: "Advocacy is speech under moral pressure."
+    terms: ["lewerex", "nam", "ret"]
+  -
+    id: "poetic-609"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "The scribe preserves the word."
+    ethra: "Secereb mar nem."
+    literal: "Scribing preserves word."
+    notes: "Written speech becomes carried memory."
+    terms: ["secereb", "mar", "nem"]
+  -
+    id: "poetic-610"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "Assistance carries duty."
+    ethra: "Helepex taw dev."
+    literal: "Assistance carries duty."
+    notes: "Help becomes morally visible."
+    terms: ["helepex", "taw", "dev"]
+  -
+    id: "poetic-611"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Supervision sees the work."
+    ethra: "Seperev rah wak."
+    literal: "Supervision sees work."
+    notes: "Attention is the first obligation of oversight."
+    terms: ["seperev", "rah", "wak"]
+  -
+    id: "poetic-612"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Management builds order."
+    ethra: "Megerex ban rag."
+    literal: "Management builds order."
+    notes: "Coordination is honored only when it forms order."
+    terms: ["megerex", "ban", "rag"]
+  -
+    id: "poetic-613"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training"]
+    register: "poetic"
+    english: "The volunteer chooses duty."
+    ethra: "Veleter vel dev."
+    literal: "Volunteering chooses duty."
+    notes: "Free action becomes serious through chosen obligation."
+    terms: ["veleter", "vel", "dev"]
+  -
+    id: "poetic-614"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Engineering builds the tool."
+    ethra: "Negerex ban tel."
+    literal: "Engineering builds tool."
+    notes: "Technical craft is allowed poetic dignity."
+    terms: ["negerex", "ban", "tel"]
+  -
+    id: "poetic-615"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Programming builds data."
+    ethra: "Pereger ban den."
+    literal: "Programming builds data."
+    notes: "Code is treated as made order, not disembodied magic."
+    terms: ["pereger", "ban", "den"]
+  -
+    id: "poetic-616"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "Wardenship protects personhood."
+    ethra: "Wereden xap yes."
+    literal: "Wardenship protects selfhood."
+    notes: "Custody is judged by whether identity survives it."
+    terms: ["wereden", "xap", "yes"]
+  -
+    id: "learner-297"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "learner-a1"
+    english: "The carpenter repairs the home."
+    ethra: "Cerepen tar hen."
+    literal: "Carpentry repairs home."
+    notes: "A1 trade and home sentence."
+    terms: ["cerepen", "tar", "hen"]
+  -
+    id: "learner-298"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "The plumber protects water."
+    ethra: "Pelemer xap wam."
+    literal: "Plumbing protects water."
+    notes: "A1 water-care sentence."
+    terms: ["pelemer", "xap", "wam"]
+  -
+    id: "learner-299"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "learner-a1"
+    english: "The mechanic repairs the machine."
+    ethra: "Mecehen tar mac."
+    literal: "Mechanic repairs machine."
+    notes: "A1 repair sentence."
+    terms: ["mecehen", "tar", "mac"]
+  -
+    id: "learner-300"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "learner-a1"
+    english: "The chef feeds the family."
+    ethra: "Cehefex fad hon."
+    literal: "Chef work feeds household."
+    notes: "A1 food and role sentence."
+    terms: ["cehefex", "fad", "hon"]
+  -
+    id: "learner-301"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "learner-a1"
+    english: "The driver guides the path."
+    ethra: "Derever pat pet."
+    literal: "Driving guides path."
+    notes: "A1 travel-role sentence."
+    terms: ["derever", "pat", "pet"]
+  -
+    id: "learner-302"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "The doctor protects life."
+    ethra: "Peheyes xap nef."
+    literal: "Physician care protects life."
+    notes: "A1 health-role sentence."
+    terms: ["peheyes", "xap", "nef"]
+  -
+    id: "learner-303"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "The lawyer names the right."
+    ethra: "Lewerex nam ret."
+    literal: "Lawyering names right."
+    notes: "A1 law-role sentence."
+    terms: ["lewerex", "nam", "ret"]
+  -
+    id: "learner-304"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "history-memory"]
+    register: "learner-a1"
+    english: "The writer names memory."
+    ethra: "Wereter nam mer."
+    literal: "Writing names memory."
+    notes: "A1 writing and memory sentence."
+    terms: ["wereter", "nam", "mer"]
+  -
+    id: "learner-305"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "learner-a1"
+    english: "The programmer builds the tool."
+    ethra: "Pereger ban tel."
+    literal: "Programming builds tool."
+    notes: "A1 software-role sentence."
+    terms: ["pereger", "ban", "tel"]
+  -
+    id: "learner-306"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "art-beauty"]
+    register: "learner-a1"
+    english: "The singer carries joy."
+    ethra: "Seneger taw jew."
+    literal: "Singing carries joy."
+    notes: "A1 art-role sentence."
+    terms: ["seneger", "taw", "jew"]
+  -
+    id: "learner-307"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training"]
+    register: "learner-a1"
+    english: "The coach guides practice."
+    ethra: "Cecehex pat perekec."
+    literal: "Coaching guides practice."
+    notes: "A1 training sentence."
+    terms: ["cecehex", "pat", "perekec"]
+  -
+    id: "learner-308"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "The warden protects the person."
+    ethra: "Wereden xap li."
+    literal: "Wardenship protects person."
+    notes: "A1 custody-duty sentence."
+    terms: ["wereden", "xap", "li"]
