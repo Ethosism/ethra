@@ -39,6 +39,7 @@ test("summarizes current progress against roadmap targets", () => {
   assert.equal(summary.current.actual_canonical_examples, 20);
   assert.ok(summary.current.cli_commands.includes("search-corpus"));
   assert.ok(summary.current.cli_commands.includes("propose-term"));
+  assert.ok(summary.current.cli_commands.includes("style-check"));
   assert.equal(summary.next_milestone.id, "v1.0");
   assert.equal(summary.next_milestone.target_entries, 25000);
 });

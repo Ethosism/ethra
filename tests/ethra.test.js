@@ -2,6 +2,7 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 
 const { analyzeWord } = require("../dist/analyzers/analyze.js");
+const { styleCheck } = require("../dist/analyzers/style.js");
 const { findExample } = require("../dist/core/examples.js");
 const { flattenLexicon } = require("../dist/core/spec.js");
 const { validateWord } = require("../dist/core/phonology.js");
@@ -220,6 +221,35 @@ test("analyzes known words", () => {
   const instrument = analyzeWord("rah-tel");
   assert.equal(instrument.validPhonology, true);
   assert.ok(instrument.matches.some((match) => match.pattern === "instrument"));
+});
+
+test("checks Ethra style for register, agency, and phonology", () => {
+  const civic = styleCheck({
+    text: "Pu na vel dev se so-lem.",
+    register: "civic",
+    requireMoralAgency: true,
+    requireScope: true
+  });
+  assert.equal(civic.valid, true);
+  assert.equal(civic.issue_counts.error, 0);
+  assert.equal(civic.issue_counts.warning, 0);
+  assert.ok(civic.observed.moral_particles.includes("vel"));
+  assert.ok(civic.observed.scope_particles.includes("so-lem"));
+  assert.ok(civic.observed.register_markers.includes("pu"));
+
+  const imperative = styleCheck({ text: "Ke rah na." });
+  assert.equal(imperative.valid, true);
+  assert.ok(imperative.issues.some((issue) => issue.code === "address-implicit"));
+  assert.equal(imperative.issues.some((issue) => issue.code === "moral-agency-implicit"), false);
+
+  const weakVow = styleCheck({ text: "Na dov tar mo mik.", requireScope: true });
+  assert.equal(weakVow.valid, true);
+  assert.ok(weakVow.issues.some((issue) => issue.code === "scope-implicit"));
+  assert.ok(weakVow.issues.some((issue) => issue.code === "vow-witness-implicit"));
+
+  const invalid = styleCheck({ text: "Na qra dev." });
+  assert.equal(invalid.valid, false);
+  assert.ok(invalid.issues.some((issue) => issue.code === "phonology"));
 });
 
 test("creates compounds", () => {

@@ -1,0 +1,32 @@
+version: "0.5.5"
+purpose: "Machine-readable style-checking guidance for Ethra sentences and corpus candidates."
+principle: "A style check should protect Ethra's civilizational grammar: clear phonology, known morphology, explicit moral agency when needed, relationally precise address, register discipline, and visible scope of action."
+issue_levels:
+  error: "Violates phonology, token shape, or required input."
+  warning: "Likely weakens accepted Ethra style or a requested register."
+  notice: "Acceptable form, but a stronger moral, relational, or register marker may be available."
+register_expectations:
+  ritual:
+    markers: ["ha", "ha-", "so-zur", "hu"]
+    rationale: "Ritual language should mark solemnity, sacred address, or ultimate witness."
+  civic:
+    markers: ["pu", "-da", "te", "tum", "so-lem", "so-rah"]
+    rationale: "Civic language should show public address, public office, people-scale scope, or truth-facing accountability."
+  intimate:
+    markers: ["mi", "mi-", "ti"]
+    rationale: "Intimate language should mark beloved address, vulnerability, or inward recognition."
+  technical:
+    markers: ["-tel", "-ket", "-ga", "-gec", "-dak"]
+    rationale: "Technical language should prefer visible tools, records, processes, categories, or disciplines."
+moral_scope:
+  agency_particles: ["kan", "lun", "wen", "vel", "cel", "dom", "dov", "ten", "mor", "tor", "ren"]
+  binding_particles: ["dom", "dov", "ten", "mor", "tor", "ren"]
+  scope_particles: ["so-na", "so-hen", "so-lem", "so-fer", "so-rah", "so-zur"]
+  future_scope_particles: ["so-fer", "so-lem"]
+  witness_scope_particles: ["so-rah", "so-zur"]
+relational_address:
+  second_person_pronouns: ["ti", "ta", "to", "tu", "te", "za", "hu", "tum"]
+  principle: "Commands, vows, intimate speech, civic speech, and sacred speech should make address stance explicit when the addressee matters."
+compound_guidance:
+  max_segments_before_notice: 4
+  principle: "Compounds should preserve root visibility without becoming hard to read or recite."

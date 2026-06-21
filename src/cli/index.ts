@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { Command } from "commander";
 import { analyzeWord } from "../analyzers/analyze";
+import { styleCheck } from "../analyzers/style";
 import { flattenLexicon, loadSpec } from "../core/spec";
 import { findExample } from "../core/examples";
 import { createCompound } from "../generators/compound";
@@ -27,7 +28,7 @@ const program = new Command();
 program
   .name("ethra")
   .description("Ethra language tools")
-  .version("0.5.4");
+  .version("0.5.5");
 
 program
   .command("generate-root")
@@ -52,6 +53,22 @@ program
   .argument("<word>", "word to analyze")
   .action((word) => {
     console.log(JSON.stringify(analyzeWord(word), null, 2));
+  });
+
+program
+  .command("style-check")
+  .description("Check Ethra text for phonology, known forms, moral agency, scope, and register fit")
+  .requiredOption("-t, --text <text>", "Ethra sentence or phrase")
+  .option("-r, --register <register>", "expected register: ritual, civic, intimate, or technical")
+  .option("--require-moral-agency", "warn when no moral-agency particle appears")
+  .option("--require-scope", "warn when no scope particle appears")
+  .action((options) => {
+    console.log(JSON.stringify(styleCheck({
+      text: options.text,
+      register: options.register,
+      requireMoralAgency: Boolean(options.requireMoralAgency),
+      requireScope: Boolean(options.requireScope)
+    }), null, 2));
   });
 
 program
