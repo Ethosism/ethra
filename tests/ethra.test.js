@@ -236,7 +236,12 @@ test("loads canonical example translations", () => {
 test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 20000);
+  assert.ok(entries.length >= 21000);
+  assert.ok(entries.some((entry) => entry.word === "hener" && entry.meaning === "honor, public worth"));
+  assert.ok(entries.some((entry) => entry.word === "cereg" && entry.meaning === "courage, brave duty"));
+  assert.ok(entries.some((entry) => entry.word === "kenen" && entry.meaning === "canon, received standard"));
+  assert.ok(entries.some((entry) => entry.word === "lejek" && entry.meaning === "logic, ordered inference"));
+  assert.ok(entries.some((entry) => entry.word === "regem" && entry.meaning === "regret, backward sorrow"));
   for (const category of [
     "Pronouns",
     "Particles",
