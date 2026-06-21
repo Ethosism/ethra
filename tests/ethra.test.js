@@ -120,6 +120,26 @@ test("looks up roots by aliases and derives words", () => {
   const continuity = deriveWord("CNT", "civic-legal");
   assert.equal(continuity.word, "canat-da");
   assert.equal(continuity.root.id, "CNT");
+
+  const contract = deriveWord("KNC", "noun");
+  assert.equal(contract.word, "kenec");
+  assert.equal(contract.root.id, "KNC");
+
+  const request = deriveWord("RKS", "noun");
+  assert.equal(request.word, "rekes");
+  assert.equal(request.root.id, "RKS");
+
+  const network = deriveWord("NWR", "noun");
+  assert.equal(network.word, "newer");
+  assert.equal(network.root.id, "NWR");
+
+  const syllabus = deriveWord("SYB", "noun");
+  assert.equal(syllabus.word, "seyeb");
+  assert.equal(syllabus.root.id, "SYB");
+
+  const kidney = deriveWord("KDN", "noun");
+  assert.equal(kidney.word, "keden");
+  assert.equal(kidney.root.id, "KDN");
 });
 
 test("analyzes known words", () => {
@@ -148,7 +168,7 @@ test("loads canonical example translations", () => {
 test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 14000);
+  assert.ok(entries.length >= 16000);
   for (const category of [
     "Pronouns",
     "Particles",
