@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 31,057 explicit lexicon entries, 31,212 dictionary entries, 1,550 root families, and 3,320 reviewed corpus items after the v0.7.7 security-operations corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 32,057 explicit lexicon entries, 32,212 dictionary entries, 1,600 root families, and 3,320 reviewed corpus items after the v0.7.8 science-method root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
 ```text
-entries 31,057 / 25,000
-dictionary 31,212 entries with corpus evidence fields
-roots     1,550 / 2,500
+entries 32,057 / 25,000
+dictionary 32,212 entries with corpus evidence fields
+roots     1,600 / 2,500
 corpus    3,320 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
@@ -137,7 +137,9 @@ The v0.7.6 security-operations root batch adds 50 roots and 1,000 derived lexico
 
 The v0.7.7 corpus grounding batch adds 120 reviewed examples using the v0.7.6 security-operations roots across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds armor, firearms, missiles, drones, surveillance, countermeasures, hostages, ambushes, retreats, barricades, checkpoints, curfews, blockades, convoys, sentinels, neutrality, casualties, disasters, humanitarian protection, corridors, stabilization, demining, prisoners, disarmament, targeting, front lines, bunkers, radar, dispatch, relief, civilians, murder, warnings, forensics, and public safety vocabulary in common, legal, solemn, technical, poetic, and learner use.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 950 more root families and 6,680 more reviewed corpus items still needed.
+The v0.7.8 science-method root batch adds 50 roots and 1,000 derived lexicon entries for formal proof scaffolding, advanced mathematics, statistical inference, uncertainty disclosure, lab instruments, empirical study design, scholarly review, falsification, reproducibility, interpolation, extrapolation, and approximation. New fields include lemma, corollary, postulate, conjecture, eigenvalues, eigenvectors, Jacobians, Hessians, manifolds, fractals, logarithms, trigonometry, differential equations, medians, quartiles, percentiles, standard deviation, outliers, residuals, regression, likelihood, priors, posteriors, Bayesian reasoning, confidence intervals, statistical significance, null hypotheses, p-values, estimators, precision, recall, accuracy, microscopes, telescopes, spectrometers, centrifuges, pipettes, beakers, reagents, specimens, assays, control groups, cohorts, blinding, peer review, falsification, reproducibility, interpolation, extrapolation, and approximation.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 900 more root families and 6,680 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
