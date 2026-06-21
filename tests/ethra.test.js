@@ -523,6 +523,12 @@ test("lexicon contains the expanded seed breadth", () => {
   assert.ok(entries.some((entry) => entry.word === "velenex" && entry.meaning === "violence, harmful force"));
   assert.ok(entries.some((entry) => entry.word === "sepeles" && entry.meaning === "specialist, focused care expert"));
   assert.ok(entries.some((entry) => entry.word === "heyeder" && entry.meaning === "hydration, water balance"));
+  assert.ok(entries.some((entry) => entry.word === "fererem" && entry.meaning === "firearm, projectile weapon"));
+  assert.ok(entries.some((entry) => entry.word === "derenex" && entry.meaning === "drone, unmanned craft"));
+  assert.ok(entries.some((entry) => entry.word === "serevel" && entry.meaning === "surveillance, persistent watch"));
+  assert.ok(entries.some((entry) => entry.word === "cehekep" && entry.meaning === "checkpoint, controlled passage"));
+  assert.ok(entries.some((entry) => entry.word === "cevelen" && entry.meaning === "civilian, noncombatant person"));
+  assert.ok(entries.some((entry) => entry.word === "ferenes" && entry.meaning === "forensics, trace evidence craft"));
   for (const category of [
     "Pronouns",
     "Particles",
