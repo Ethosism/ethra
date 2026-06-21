@@ -1,4 +1,4 @@
-version: "0.10.8-corpus"
+version: "0.10.9-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -51201,3 +51201,1203 @@ items:
     literal: "Backfill repairs memory."
     notes: "A1 grounding for backfill, later gap filling, backfill, later filling of missing data, work, coverage, or historical record."
     terms: ["bekefel", "tar", "mer"]
+  -
+    id: "daily-1025"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "plain"
+    english: "Blended family protects the child."
+    ethra: "Belefem xap tu."
+    literal: "Blended family protects child."
+    notes: "Daily grounding for blended family, joined household, blended family, household joined from prior bonds, children, spouses, and shared care."
+    terms: ["belefem", "xap", "tu"]
+  -
+    id: "daily-1026"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "plain"
+    english: "Step-kin carries duty."
+    ethra: "Seteken taw dev."
+    literal: "Step-kin carries duty."
+    notes: "Daily grounding for step-kin, joined household relation, step-kin, kinship formed by marriage, care, and chosen household duty."
+    terms: ["seteken", "taw", "dev"]
+  -
+    id: "daily-1027"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "plain"
+    english: "Half-kin sees the family."
+    ethra: "Hefeked rah hen."
+    literal: "Half-kin sees family."
+    notes: "Daily grounding for half-kin, shared-parent relation, half-kin, shared-parent relation, partial descent held as real family."
+    terms: ["hefeked", "rah", "hen"]
+  -
+    id: "daily-1028"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "plain"
+    english: "Wardship protects the child."
+    ethra: "Weredex xap tu."
+    literal: "Wardship protects child."
+    notes: "Daily grounding for wardship, protected dependent standing, wardship, protected dependent standing under another's care and authority."
+    terms: ["weredex", "xap", "tu"]
+  -
+    id: "daily-1029"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "plain"
+    english: "Parenting time carries care."
+    ethra: "Peretem taw hal."
+    literal: "Parenting time carries care."
+    notes: "Daily grounding for parenting time, scheduled child presence, parenting time, scheduled child presence, care shared across households."
+    terms: ["peretem", "taw", "hal"]
+  -
+    id: "daily-1030"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "economics-provision"]
+    register: "plain"
+    english: "Alimony carries duty."
+    ethra: "Lemeney taw dev."
+    literal: "Alimony carries duty."
+    notes: "Daily grounding for alimony, spousal support, alimony, spousal support after household rupture, provision owed across separation."
+    terms: ["lemeney", "taw", "dev"]
+  -
+    id: "daily-1031"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "body-health"]
+    register: "plain"
+    english: "Respite care protects the heart."
+    ethra: "Resepet xap leb."
+    literal: "Respite care protects heart."
+    notes: "Daily grounding for respite care, protected caregiver relief, respite care, temporary relief for caregivers, protected rest within duty."
+    terms: ["resepet", "xap", "leb"]
+  -
+    id: "daily-1032"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "conflict-security"]
+    register: "plain"
+    english: "Kin conflict breaks home."
+    ethra: "Kenecef mak hen."
+    literal: "Kin conflict breaks family."
+    notes: "Daily grounding for kin conflict, household dispute, kin conflict, family rupture, household dispute needing truth and repair."
+    terms: ["kenecef", "mak", "hen"]
+  -
+    id: "daily-1033"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Obsession binds attention."
+    ethra: "Besesen dav san."
+    literal: "Obsession binds attention."
+    notes: "Daily grounding for obsession, fixed inward hold, obsession, fixed inward hold, thought or desire that will not release attention."
+    terms: ["besesen", "dav", "san"]
+  -
+    id: "daily-1034"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Avoidance protects the heart."
+    ethra: "Aevedes xap leb."
+    literal: "Avoidance protects heart."
+    notes: "Daily grounding for avoidance, protective turning away, avoidance, protective turning away that can preserve or evade truth."
+    terms: ["aevedes", "xap", "leb"]
+  -
+    id: "daily-1035"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Impulse carries power."
+    ethra: "Nepeles taw kev."
+    literal: "Impulse carries power."
+    notes: "Daily grounding for impulse, sudden action pressure, impulse, sudden drive before deliberation, action pressure rising fast."
+    terms: ["nepeles", "taw", "kev"]
+  -
+    id: "daily-1036"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Inhibition protects action."
+    ethra: "Nehebex xap val."
+    literal: "Inhibition protects action."
+    notes: "Daily grounding for inhibition, checked action, inhibition, checked action, restraint, blocked expression, or held impulse."
+    terms: ["nehebex", "xap", "val"]
+  -
+    id: "daily-1037"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Compulsion binds action."
+    ethra: "Kepeles dav val."
+    literal: "Compulsion binds action."
+    notes: "Daily grounding for compulsion, driven repetition, compulsion, driven repetition, felt necessity that narrows agency."
+    terms: ["kepeles", "dav", "val"]
+  -
+    id: "daily-1038"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "body-health"]
+    register: "plain"
+    english: "Soothing guides the heart."
+    ethra: "Seteher pat leb."
+    literal: "Soothing guides heart."
+    notes: "Daily grounding for soothing, calming regulation, soothing, calming regulation, comfort that lowers distress without denial."
+    terms: ["seteher", "pat", "leb"]
+  -
+    id: "daily-1039"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Distress calls care."
+    ethra: "Deseter nam hal."
+    literal: "Distress names care."
+    notes: "Daily grounding for distress, felt strain, distress, felt strain, alarmed suffering before or during pressure."
+    terms: ["deseter", "nam", "hal"]
+  -
+    id: "daily-1040"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "conflict-security"]
+    register: "plain"
+    english: "Humiliation wounds the heart."
+    ethra: "Hemelen mak leb."
+    literal: "Humiliation wounds heart."
+    notes: "Daily grounding for humiliation, dignity-wound, humiliation, dignity-wound from public lowering or contempt."
+    terms: ["hemelen", "mak", "leb"]
+  -
+    id: "daily-1041"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "plain"
+    english: "Tutoring teaches the child."
+    ethra: "Teueter dak tu."
+    literal: "Tutoring teaches child."
+    notes: "Daily grounding for tutoring, focused learning guidance, tutoring, focused guidance, one-to-one or small-group learning help."
+    terms: ["teueter", "dak", "tu"]
+  -
+    id: "daily-1042"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "plain"
+    english: "Rubric guides justice."
+    ethra: "Reberex pat sak."
+    literal: "Rubric guides justice."
+    notes: "Daily grounding for rubric, explicit judgment frame, rubric, explicit judgment frame, named criteria for evaluating work."
+    terms: ["reberex", "pat", "sak"]
+  -
+    id: "daily-1043"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "plain"
+    english: "Feedforward guides the future."
+    ethra: "Fedefer pat fer."
+    literal: "Feedforward guides future."
+    notes: "Daily grounding for feedforward, future-guiding correction, feedforward, guidance before next action, correction aimed at future performance."
+    terms: ["fedefer", "pat", "fer"]
+  -
+    id: "daily-1044"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "plain"
+    english: "Drill carries learning."
+    ethra: "Derelex taw dak."
+    literal: "Drill carries teaching."
+    notes: "Daily grounding for drill, repeated constrained practice, drill, repeated practice under constraint, skill made reliable through cycles."
+    terms: ["derelex", "taw", "dak"]
+  -
+    id: "daily-1045"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "plain"
+    english: "Pedagogy guides the people."
+    ethra: "Pedegey pat lem."
+    literal: "Pedagogy guides people."
+    notes: "Daily grounding for pedagogy, teaching craft, pedagogy, teaching craft, theory and practice of forming learners."
+    terms: ["pedegey", "pat", "lem"]
+  -
+    id: "daily-1046"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "plain"
+    english: "Diagnostic pretest reveals the path."
+    ethra: "Degepet rah pat."
+    literal: "Diagnostic pretest reveals path."
+    notes: "Daily grounding for diagnostic pretest, readiness measure, diagnostic pretest, early measure that finds readiness before instruction."
+    terms: ["degepet", "rah", "pat"]
+  -
+    id: "daily-1047"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "conflict-security"]
+    register: "plain"
+    english: "Remediation repairs learning."
+    ethra: "Remedey tar dak."
+    literal: "Remediation repairs teaching."
+    notes: "Daily grounding for remediation, corrective instruction, remediation, corrective instruction after a learning gap is found."
+    terms: ["remedey", "tar", "dak"]
+  -
+    id: "daily-1048"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "plain"
+    english: "Accommodation protects people."
+    ethra: "Aecemex xap lem."
+    literal: "Accommodation protects people."
+    notes: "Daily grounding for accommodation, fair access adjustment, accommodation, adjusted support that preserves fair access without lowering truth."
+    terms: ["aecemex", "xap", "lem"]
+  -
+    id: "civic-769"
+    track: "civic-law"
+    domain_tags: ["family-kinship", "law-governance"]
+    register: "civic-record"
+    english: "Blended-family record protects the child."
+    ethra: "Balafam-da xap tu."
+    literal: "Blended family record protects child."
+    notes: "Civic grounding for blended family, joined household, blended family, household joined from prior bonds, children, spouses, and shared care."
+    terms: ["balafam-da", "xap", "tu"]
+  -
+    id: "civic-770"
+    track: "civic-law"
+    domain_tags: ["family-kinship", "law-governance"]
+    register: "civic-record"
+    english: "Step-kin record carries duty."
+    ethra: "Satakan-da taw dev."
+    literal: "Step-kin record carries duty."
+    notes: "Civic grounding for step-kin, joined household relation, step-kin, kinship formed by marriage, care, and chosen household duty."
+    terms: ["satakan-da", "taw", "dev"]
+  -
+    id: "civic-771"
+    track: "civic-law"
+    domain_tags: ["family-kinship", "law-governance"]
+    register: "civic-record"
+    english: "Wardship record protects the child."
+    ethra: "Waradax-da xap tu."
+    literal: "Wardship record protects child."
+    notes: "Civic grounding for wardship, protected dependent standing, wardship, protected dependent standing under another's care and authority."
+    terms: ["waradax-da", "xap", "tu"]
+  -
+    id: "civic-772"
+    track: "civic-law"
+    domain_tags: ["family-kinship", "law-governance"]
+    register: "civic-record"
+    english: "Parenting-time order guides care."
+    ethra: "Paratam-da pat hal."
+    literal: "Parenting time record guides care."
+    notes: "Civic grounding for parenting time, scheduled child presence, parenting time, scheduled child presence, care shared across households."
+    terms: ["paratam-da", "pat", "hal"]
+  -
+    id: "civic-773"
+    track: "civic-law"
+    domain_tags: ["family-kinship", "economics-provision", "law-governance"]
+    register: "civic-record"
+    english: "Alimony order binds duty."
+    ethra: "Lamanay-da dav dev."
+    literal: "Alimony record binds duty."
+    notes: "Civic grounding for alimony, spousal support, alimony, spousal support after household rupture, provision owed across separation."
+    terms: ["lamanay-da", "dav", "dev"]
+  -
+    id: "civic-774"
+    track: "civic-law"
+    domain_tags: ["family-kinship", "conflict-security", "law-governance"]
+    register: "civic-record"
+    english: "Kin-conflict record repairs family."
+    ethra: "Kanacaf-da tar hen."
+    literal: "Kin conflict record repairs family."
+    notes: "Civic grounding for kin conflict, household dispute, kin conflict, family rupture, household dispute needing truth and repair."
+    terms: ["kanacaf-da", "tar", "hen"]
+  -
+    id: "civic-775"
+    track: "civic-law"
+    domain_tags: ["emotion-psychology", "body-health"]
+    register: "civic-record"
+    english: "Avoidance record reveals care."
+    ethra: "Aavadas-da rah hal."
+    literal: "Avoidance record reveals care."
+    notes: "Civic grounding for avoidance, protective turning away, avoidance, protective turning away that can preserve or evade truth."
+    terms: ["aavadas-da", "rah", "hal"]
+  -
+    id: "civic-776"
+    track: "civic-law"
+    domain_tags: ["emotion-psychology", "body-health"]
+    register: "civic-record"
+    english: "Compulsion care plan protects action."
+    ethra: "Kapalas-da xap val."
+    literal: "Compulsion record protects action."
+    notes: "Civic grounding for compulsion, driven repetition, compulsion, driven repetition, felt necessity that narrows agency."
+    terms: ["kapalas-da", "xap", "val"]
+  -
+    id: "civic-777"
+    track: "civic-law"
+    domain_tags: ["emotion-psychology", "conflict-security", "law-governance"]
+    register: "civic-record"
+    english: "Humiliation record repairs honor."
+    ethra: "Hamalan-da tar hener."
+    literal: "Humiliation record repairs honor."
+    notes: "Civic grounding for humiliation, dignity-wound, humiliation, dignity-wound from public lowering or contempt."
+    terms: ["hamalan-da", "tar", "hener"]
+  -
+    id: "civic-778"
+    track: "civic-law"
+    domain_tags: ["education-training", "law-governance"]
+    register: "civic-record"
+    english: "Rubric standard guides justice."
+    ethra: "Rabarax-da pat sak."
+    literal: "Rubric record guides justice."
+    notes: "Civic grounding for rubric, explicit judgment frame, rubric, explicit judgment frame, named criteria for evaluating work."
+    terms: ["rabarax-da", "pat", "sak"]
+  -
+    id: "civic-779"
+    track: "civic-law"
+    domain_tags: ["education-training"]
+    register: "civic-record"
+    english: "Diagnostic pretest record reveals learning."
+    ethra: "Dagapat-da rah dak."
+    literal: "Diagnostic pretest record reveals teaching."
+    notes: "Civic grounding for diagnostic pretest, readiness measure, diagnostic pretest, early measure that finds readiness before instruction."
+    terms: ["dagapat-da", "rah", "dak"]
+  -
+    id: "civic-780"
+    track: "civic-law"
+    domain_tags: ["education-training", "law-governance"]
+    register: "civic-record"
+    english: "Accommodation plan protects people."
+    ethra: "Aacamax-da xap lem."
+    literal: "Accommodation record protects people."
+    notes: "Civic grounding for accommodation, fair access adjustment, accommodation, adjusted support that preserves fair access without lowering truth."
+    terms: ["aacamax-da", "xap", "lem"]
+  -
+    id: "civic-781"
+    track: "civic-law"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "civic-record"
+    english: "Context-window standard protects memory."
+    ethra: "Cataxaw-da xap mer."
+    literal: "Context window record protects memory."
+    notes: "Civic grounding for context window, bounded memory span, context window, bounded memory span available to a model or agent during action."
+    terms: ["cataxaw-da", "xap", "mer"]
+  -
+    id: "civic-782"
+    track: "civic-law"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "civic-record"
+    english: "Hallucination report reveals error."
+    ethra: "Halacan-da rah xeg."
+    literal: "Hallucination record reveals error."
+    notes: "Civic grounding for hallucination, fluent false output, hallucination, fluent false output, generated claim not grounded in truth or source."
+    terms: ["halacan-da", "rah", "xeg"]
+  -
+    id: "civic-783"
+    track: "civic-law"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "civic-record"
+    english: "Retrieval grounding record protects data."
+    ethra: "Raaagax-da xap den."
+    literal: "Retrieval-augmented generation record protects data."
+    notes: "Civic grounding for retrieval-augmented generation, retrieval-augmented generation, answer-making grounded by fetched memory or documents."
+    terms: ["raaagax-da", "xap", "den"]
+  -
+    id: "civic-784"
+    track: "civic-law"
+    domain_tags: ["nature-ecology", "law-governance"]
+    register: "civic-record"
+    english: "Wetland protection record protects the world."
+    ethra: "Watalan-da xap wed."
+    literal: "Wetland record protects world."
+    notes: "Civic grounding for wetland, water-held land, wetland, water-held land, living filter and flood shelter."
+    terms: ["watalan-da", "xap", "wed"]
+  -
+    id: "civic-785"
+    track: "civic-law"
+    domain_tags: ["conflict-security", "law-governance"]
+    register: "civic-record"
+    english: "Incident-command record guides people."
+    ethra: "Nacamad-da pat lem."
+    literal: "Incident command record guides people."
+    notes: "Civic grounding for incident command, emergency coordination, incident command, coordinated authority during emergency response."
+    terms: ["nacamad-da", "pat", "lem"]
+  -
+    id: "civic-786"
+    track: "civic-law"
+    domain_tags: ["conflict-security", "law-governance"]
+    register: "civic-record"
+    english: "Protective-order record protects the child."
+    ethra: "Paratad-da xap tu."
+    literal: "Protective order record protects child."
+    notes: "Civic grounding for protective order, legal harm boundary, protective order, legal boundary set to shield a person from harm."
+    terms: ["paratad-da", "xap", "tu"]
+  -
+    id: "ritual-769"
+    track: "ritual-vow"
+    domain_tags: ["family-kinship", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let blended family protect home."
+    ethra: "Ha-bulufum xap hen."
+    literal: "Blended family in solemn speech protects family."
+    notes: "Ritual grounding for blended family, joined household, blended family, household joined from prior bonds, children, spouses, and shared care."
+    terms: ["ha-bulufum", "xap", "hen"]
+  -
+    id: "ritual-770"
+    track: "ritual-vow"
+    domain_tags: ["family-kinship", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let wardship protect the child."
+    ethra: "Ha-wurudux xap tu."
+    literal: "Wardship in solemn speech protects child."
+    notes: "Ritual grounding for wardship, protected dependent standing, wardship, protected dependent standing under another's care and authority."
+    terms: ["ha-wurudux", "xap", "tu"]
+  -
+    id: "ritual-771"
+    track: "ritual-vow"
+    domain_tags: ["family-kinship", "body-health", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let respite care protect the heart."
+    ethra: "Ha-rusuput xap leb."
+    literal: "Respite care in solemn speech protects heart."
+    notes: "Ritual grounding for respite care, protected caregiver relief, respite care, temporary relief for caregivers, protected rest within duty."
+    terms: ["ha-rusuput", "xap", "leb"]
+  -
+    id: "ritual-772"
+    track: "ritual-vow"
+    domain_tags: ["emotion-psychology", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let obsession reveal the heart."
+    ethra: "Ha-bususun rah leb."
+    literal: "Obsession in solemn speech reveals heart."
+    notes: "Ritual grounding for obsession, fixed inward hold, obsession, fixed inward hold, thought or desire that will not release attention."
+    terms: ["ha-bususun", "rah", "leb"]
+  -
+    id: "ritual-773"
+    track: "ritual-vow"
+    domain_tags: ["emotion-psychology", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let avoidance reveal memory."
+    ethra: "Ha-auvudus rah mer."
+    literal: "Avoidance in solemn speech reveals memory."
+    notes: "Ritual grounding for avoidance, protective turning away, avoidance, protective turning away that can preserve or evade truth."
+    terms: ["ha-auvudus", "rah", "mer"]
+  -
+    id: "ritual-774"
+    track: "ritual-vow"
+    domain_tags: ["emotion-psychology", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let compulsion repair action."
+    ethra: "Ha-kupulus tar val."
+    literal: "Compulsion in solemn speech repairs action."
+    notes: "Ritual grounding for compulsion, driven repetition, compulsion, driven repetition, felt necessity that narrows agency."
+    terms: ["ha-kupulus", "tar", "val"]
+  -
+    id: "ritual-775"
+    track: "ritual-vow"
+    domain_tags: ["emotion-psychology", "body-health", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let soothing protect the heart."
+    ethra: "Ha-sutuhur xap leb."
+    literal: "Soothing in solemn speech protects heart."
+    notes: "Ritual grounding for soothing, calming regulation, soothing, calming regulation, comfort that lowers distress without denial."
+    terms: ["ha-sutuhur", "xap", "leb"]
+  -
+    id: "ritual-776"
+    track: "ritual-vow"
+    domain_tags: ["emotion-psychology", "conflict-security", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let humiliation repair honor."
+    ethra: "Ha-humulun tar hener."
+    literal: "Humiliation in solemn speech repairs honor."
+    notes: "Ritual grounding for humiliation, dignity-wound, humiliation, dignity-wound from public lowering or contempt."
+    terms: ["ha-humulun", "tar", "hener"]
+  -
+    id: "ritual-777"
+    track: "ritual-vow"
+    domain_tags: ["education-training", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let tutoring teach the child."
+    ethra: "Ha-tuuutur dak tu."
+    literal: "Tutoring in solemn speech teaches child."
+    notes: "Ritual grounding for tutoring, focused learning guidance, tutoring, focused guidance, one-to-one or small-group learning help."
+    terms: ["ha-tuuutur", "dak", "tu"]
+  -
+    id: "ritual-778"
+    track: "ritual-vow"
+    domain_tags: ["education-training", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let rubric guide justice."
+    ethra: "Ha-ruburux pat sak."
+    literal: "Rubric in solemn speech guides justice."
+    notes: "Ritual grounding for rubric, explicit judgment frame, rubric, explicit judgment frame, named criteria for evaluating work."
+    terms: ["ha-ruburux", "pat", "sak"]
+  -
+    id: "ritual-779"
+    track: "ritual-vow"
+    domain_tags: ["education-training", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let feedforward guide the future."
+    ethra: "Ha-fudufur pat fer."
+    literal: "Feedforward in solemn speech guides future."
+    notes: "Ritual grounding for feedforward, future-guiding correction, feedforward, guidance before next action, correction aimed at future performance."
+    terms: ["ha-fudufur", "pat", "fer"]
+  -
+    id: "ritual-780"
+    track: "ritual-vow"
+    domain_tags: ["education-training", "conflict-security", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let remediation repair learning."
+    ethra: "Ha-rumuduy tar dak."
+    literal: "Remediation in solemn speech repairs teaching."
+    notes: "Ritual grounding for remediation, corrective instruction, remediation, corrective instruction after a learning gap is found."
+    terms: ["ha-rumuduy", "tar", "dak"]
+  -
+    id: "ritual-781"
+    track: "ritual-vow"
+    domain_tags: ["education-training", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let accommodation protect people."
+    ethra: "Ha-aucumux xap lem."
+    literal: "Accommodation in solemn speech protects people."
+    notes: "Ritual grounding for accommodation, fair access adjustment, accommodation, adjusted support that preserves fair access without lowering truth."
+    terms: ["ha-aucumux", "xap", "lem"]
+  -
+    id: "ritual-782"
+    track: "ritual-vow"
+    domain_tags: ["technology-software", "ai-cognition", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let context window protect memory."
+    ethra: "Ha-cutuxuw xap mer."
+    literal: "Context window in solemn speech protects memory."
+    notes: "Ritual grounding for context window, bounded memory span, context window, bounded memory span available to a model or agent during action."
+    terms: ["ha-cutuxuw", "xap", "mer"]
+  -
+    id: "ritual-783"
+    track: "ritual-vow"
+    domain_tags: ["technology-software", "ai-cognition", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let hallucination reveal error."
+    ethra: "Ha-hulucun rah xeg."
+    literal: "Hallucination in solemn speech reveals error."
+    notes: "Ritual grounding for hallucination, fluent false output, hallucination, fluent false output, generated claim not grounded in truth or source."
+    terms: ["ha-hulucun", "rah", "xeg"]
+  -
+    id: "ritual-784"
+    track: "ritual-vow"
+    domain_tags: ["nature-ecology", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let wetland protect the world."
+    ethra: "Ha-wutulun xap wed."
+    literal: "Wetland in solemn speech protects world."
+    notes: "Ritual grounding for wetland, water-held land, wetland, water-held land, living filter and flood shelter."
+    terms: ["ha-wutulun", "xap", "wed"]
+  -
+    id: "ritual-785"
+    track: "ritual-vow"
+    domain_tags: ["nature-ecology", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let rewilding repair the world."
+    ethra: "Ha-ruwurud tar wed."
+    literal: "Rewilding in solemn speech repairs world."
+    notes: "Ritual grounding for rewilding, restored wild process, rewilding, restoration of self-sustaining wild systems and native life."
+    terms: ["ha-ruwurud", "tar", "wed"]
+  -
+    id: "ritual-786"
+    track: "ritual-vow"
+    domain_tags: ["conflict-security", "law-governance", "ritual-spiritual"]
+    register: "ritual-vow"
+    english: "Let victim services repair justice."
+    ethra: "Ha-vucusuv tar sak."
+    literal: "Victim services in solemn speech repairs justice."
+    notes: "Ritual grounding for victim services, care after harm, victim services, coordinated care, witness support, and repair after harm."
+    terms: ["ha-vucusuv", "tar", "sak"]
+  -
+    id: "tech-1025"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Context-window log protects memory."
+    ethra: "Cataxaw-ket xap mer."
+    literal: "Context window record protects memory."
+    notes: "Technical grounding for context window, bounded memory span, context window, bounded memory span available to a model or agent during action."
+    terms: ["cataxaw-ket", "xap", "mer"]
+  -
+    id: "tech-1026"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Token-budget log carries data."
+    ethra: "Takabaj-ket taw den."
+    literal: "Token budget record carries data."
+    notes: "Technical grounding for token budget, counted language capacity, token budget, counted language capacity available to a model, agent, or exchange."
+    terms: ["takabaj-ket", "taw", "den"]
+  -
+    id: "tech-1027"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Hallucination log reveals error."
+    ethra: "Halacan-ket rah xeg."
+    literal: "Hallucination record reveals error."
+    notes: "Technical grounding for hallucination, fluent false output, hallucination, fluent false output, generated claim not grounded in truth or source."
+    terms: ["halacan-ket", "rah", "xeg"]
+  -
+    id: "tech-1028"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Tool-call log carries duty."
+    ethra: "Talacal-ket taw dev."
+    literal: "Tool call record carries duty."
+    notes: "Technical grounding for tool call, delegated action request, tool call, delegated action request from an agent to an external system."
+    terms: ["talacal-ket", "taw", "dev"]
+  -
+    id: "tech-1029"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Retrieval-generation record protects data."
+    ethra: "Raaagax-ket xap den."
+    literal: "Retrieval-augmented generation record protects data."
+    notes: "Technical grounding for retrieval-augmented generation, retrieval-augmented generation, answer-making grounded by fetched memory or documents."
+    terms: ["raaagax-ket", "xap", "den"]
+  -
+    id: "tech-1030"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Vector-database index protects data."
+    ethra: "Vadabax-ket xap den."
+    literal: "Vector database record protects data."
+    notes: "Technical grounding for vector database, semantic memory store, vector database, semantic memory store for embeddings and similarity search."
+    terms: ["vadabax-ket", "xap", "den"]
+  -
+    id: "tech-1031"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Subagent trace carries action."
+    ethra: "Sabagan-ket taw val."
+    literal: "Subagent record carries action."
+    notes: "Technical grounding for subagent, bounded delegated agent, subagent, bounded delegated agent serving a larger task or authority."
+    terms: ["sabagan-ket", "taw", "val"]
+  -
+    id: "tech-1032"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical-record"
+    english: "Ground-truth label protects truth."
+    ethra: "Gatalab-ket xap rah."
+    literal: "Ground-truth label record protects truth."
+    notes: "Technical grounding for ground-truth label, authoritative answer, ground-truth label, authoritative answer used to test, train, or judge a system."
+    terms: ["gatalab-ket", "xap", "rah"]
+  -
+    id: "tech-1033"
+    track: "technical-software"
+    domain_tags: ["education-training", "technology-software"]
+    register: "technical-record"
+    english: "Rubric file guides the model."
+    ethra: "Rabarax-ket pat med."
+    literal: "Rubric record guides model."
+    notes: "Technical grounding for rubric, explicit judgment frame, rubric, explicit judgment frame, named criteria for evaluating work."
+    terms: ["rabarax-ket", "pat", "med"]
+  -
+    id: "tech-1034"
+    track: "technical-software"
+    domain_tags: ["education-training", "technology-software"]
+    register: "technical-record"
+    english: "Feedforward note guides the future."
+    ethra: "Fadafar-ket pat fer."
+    literal: "Feedforward record guides future."
+    notes: "Technical grounding for feedforward, future-guiding correction, feedforward, guidance before next action, correction aimed at future performance."
+    terms: ["fadafar-ket", "pat", "fer"]
+  -
+    id: "tech-1035"
+    track: "technical-software"
+    domain_tags: ["education-training", "technology-software"]
+    register: "technical-record"
+    english: "Diagnostic-pretest file reveals learning."
+    ethra: "Dagapat-ket rah dak."
+    literal: "Diagnostic pretest record reveals teaching."
+    notes: "Technical grounding for diagnostic pretest, readiness measure, diagnostic pretest, early measure that finds readiness before instruction."
+    terms: ["dagapat-ket", "rah", "dak"]
+  -
+    id: "tech-1036"
+    track: "technical-software"
+    domain_tags: ["education-training", "technology-software"]
+    register: "technical-record"
+    english: "Accommodation file protects people."
+    ethra: "Aacamax-ket xap lem."
+    literal: "Accommodation record protects people."
+    notes: "Technical grounding for accommodation, fair access adjustment, accommodation, adjusted support that preserves fair access without lowering truth."
+    terms: ["aacamax-ket", "xap", "lem"]
+  -
+    id: "tech-1037"
+    track: "technical-software"
+    domain_tags: ["conflict-security", "technology-software"]
+    register: "technical-record"
+    english: "Incident-command log guides people."
+    ethra: "Nacamad-ket pat lem."
+    literal: "Incident command record guides people."
+    notes: "Technical grounding for incident command, emergency coordination, incident command, coordinated authority during emergency response."
+    terms: ["nacamad-ket", "pat", "lem"]
+  -
+    id: "tech-1038"
+    track: "technical-software"
+    domain_tags: ["conflict-security", "technology-software"]
+    register: "technical-record"
+    english: "Debrief log remembers action."
+    ethra: "Dabaraf-ket mar val."
+    literal: "Debrief record remembers action."
+    notes: "Technical grounding for debrief, after-action truth, debrief, structured after-action truth, learning after risk or mission."
+    terms: ["dabaraf-ket", "mar", "val"]
+  -
+    id: "tech-1039"
+    track: "technical-software"
+    domain_tags: ["conflict-security", "technology-software"]
+    register: "technical-record"
+    english: "Deconfliction channel protects action."
+    ethra: "Dacanaf-ket xap val."
+    literal: "Deconfliction record protects action."
+    notes: "Technical grounding for deconfliction, harm-preventing separation, deconfliction, coordinated separation of actors to prevent accidental harm."
+    terms: ["dacanaf-ket", "xap", "val"]
+  -
+    id: "tech-1040"
+    track: "technical-software"
+    domain_tags: ["conflict-security", "technology-software"]
+    register: "technical-record"
+    english: "Peacekeeping log protects people."
+    ethra: "Pacakap-ket xap lem."
+    literal: "Peacekeeping record protects people."
+    notes: "Technical grounding for peacekeeping, protected peace monitoring, peacekeeping, protected monitoring that holds fragile peace in public space."
+    terms: ["pacakap-ket", "xap", "lem"]
+  -
+    id: "tech-1041"
+    track: "technical-software"
+    domain_tags: ["conflict-security", "technology-software"]
+    register: "technical-record"
+    english: "Explosive-clearance record repairs path."
+    ethra: "Xacalan-ket tar pat."
+    literal: "Explosive clearance record repairs path."
+    notes: "Technical grounding for explosive clearance, hidden ordnance removal, explosive clearance, removal of hidden ordnance so land becomes usable again."
+    terms: ["xacalan-ket", "tar", "pat"]
+  -
+    id: "tech-1042"
+    track: "technical-software"
+    domain_tags: ["conflict-security", "technology-software"]
+    register: "technical-record"
+    english: "Victim-services file guides care."
+    ethra: "Vacasav-ket pat hal."
+    literal: "Victim services record guides care."
+    notes: "Technical grounding for victim services, care after harm, victim services, coordinated care, witness support, and repair after harm."
+    terms: ["vacasav-ket", "pat", "hal"]
+  -
+    id: "tech-1043"
+    track: "technical-software"
+    domain_tags: ["nature-ecology", "technology-software"]
+    register: "technical-record"
+    english: "Wetland record protects the world."
+    ethra: "Watalan-ket xap wed."
+    literal: "Wetland record protects world."
+    notes: "Technical grounding for wetland, water-held land, wetland, water-held land, living filter and flood shelter."
+    terms: ["watalan-ket", "xap", "wed"]
+  -
+    id: "tech-1044"
+    track: "technical-software"
+    domain_tags: ["nature-ecology", "technology-software"]
+    register: "technical-record"
+    english: "Coral-reef record protects care."
+    ethra: "Caralaf-ket xap hal."
+    literal: "Coral reef record protects care."
+    notes: "Technical grounding for coral reef, living marine shelter, coral reef, living stone shore, marine shelter built by small bodies."
+    terms: ["caralaf-ket", "xap", "hal"]
+  -
+    id: "tech-1045"
+    track: "technical-software"
+    domain_tags: ["nature-ecology", "technology-software"]
+    register: "technical-record"
+    english: "Watershed record carries data."
+    ethra: "Watasah-ket taw den."
+    literal: "Watershed record carries data."
+    notes: "Technical grounding for watershed, shared water basin, watershed, land basin gathering water into a shared flow."
+    terms: ["watasah-ket", "taw", "den"]
+  -
+    id: "tech-1046"
+    track: "technical-software"
+    domain_tags: ["nature-ecology", "technology-software"]
+    register: "technical-record"
+    english: "Firebreak plan protects home."
+    ethra: "Fabarak-ket xap hen."
+    literal: "Firebreak record protects family."
+    notes: "Technical grounding for firebreak, flame-slowing boundary, firebreak, cleared boundary that slows flame and protects life."
+    terms: ["fabarak-ket", "xap", "hen"]
+  -
+    id: "tech-1047"
+    track: "technical-software"
+    domain_tags: ["nature-ecology", "technology-software"]
+    register: "technical-record"
+    english: "Seed-bank record protects the future."
+    ethra: "Sadabak-ket xap fer."
+    literal: "Seed bank record protects future."
+    notes: "Technical grounding for seed bank, preserved living possibility, seed bank, preserved living possibility stored against loss and famine."
+    terms: ["sadabak-ket", "xap", "fer"]
+  -
+    id: "tech-1048"
+    track: "technical-software"
+    domain_tags: ["nature-ecology", "technology-software"]
+    register: "technical-record"
+    english: "Rewilding plan repairs the world."
+    ethra: "Rawarad-ket tar wed."
+    literal: "Rewilding record repairs world."
+    notes: "Technical grounding for rewilding, restored wild process, rewilding, restoration of self-sustaining wild systems and native life."
+    terms: ["rawarad-ket", "tar", "wed"]
+  -
+    id: "poetic-1025"
+    track: "literary-poetic"
+    domain_tags: ["family-kinship", "art-beauty"]
+    register: "poetic"
+    english: "Blended family carries memory."
+    ethra: "Belefem taw mer."
+    literal: "Blended family carries memory."
+    notes: "Poetic grounding for blended family, joined household, blended family, household joined from prior bonds, children, spouses, and shared care."
+    terms: ["belefem", "taw", "mer"]
+  -
+    id: "poetic-1026"
+    track: "literary-poetic"
+    domain_tags: ["family-kinship", "art-beauty"]
+    register: "poetic"
+    english: "Step-kin protects love."
+    ethra: "Seteken xap mev."
+    literal: "Step-kin protects love."
+    notes: "Poetic grounding for step-kin, joined household relation, step-kin, kinship formed by marriage, care, and chosen household duty."
+    terms: ["seteken", "xap", "mev"]
+  -
+    id: "poetic-1027"
+    track: "literary-poetic"
+    domain_tags: ["family-kinship", "art-beauty"]
+    register: "poetic"
+    english: "Half-kin carries family."
+    ethra: "Hefeked taw hen."
+    literal: "Half-kin carries family."
+    notes: "Poetic grounding for half-kin, shared-parent relation, half-kin, shared-parent relation, partial descent held as real family."
+    terms: ["hefeked", "taw", "hen"]
+  -
+    id: "poetic-1028"
+    track: "literary-poetic"
+    domain_tags: ["family-kinship", "art-beauty"]
+    register: "poetic"
+    english: "Wardship protects the child."
+    ethra: "Weredex xap tu."
+    literal: "Wardship protects child."
+    notes: "Poetic grounding for wardship, protected dependent standing, wardship, protected dependent standing under another's care and authority."
+    terms: ["weredex", "xap", "tu"]
+  -
+    id: "poetic-1029"
+    track: "literary-poetic"
+    domain_tags: ["family-kinship", "art-beauty"]
+    register: "poetic"
+    english: "Parenting time carries the future."
+    ethra: "Peretem taw fer."
+    literal: "Parenting time carries future."
+    notes: "Poetic grounding for parenting time, scheduled child presence, parenting time, scheduled child presence, care shared across households."
+    terms: ["peretem", "taw", "fer"]
+  -
+    id: "poetic-1030"
+    track: "literary-poetic"
+    domain_tags: ["family-kinship", "body-health", "art-beauty"]
+    register: "poetic"
+    english: "Respite care protects the heart."
+    ethra: "Resepet xap leb."
+    literal: "Respite care protects heart."
+    notes: "Poetic grounding for respite care, protected caregiver relief, respite care, temporary relief for caregivers, protected rest within duty."
+    terms: ["resepet", "xap", "leb"]
+  -
+    id: "poetic-1031"
+    track: "literary-poetic"
+    domain_tags: ["family-kinship", "conflict-security", "art-beauty"]
+    register: "poetic"
+    english: "Kin conflict repairs family."
+    ethra: "Kenecef tar hen."
+    literal: "Kin conflict repairs family."
+    notes: "Poetic grounding for kin conflict, household dispute, kin conflict, family rupture, household dispute needing truth and repair."
+    terms: ["kenecef", "tar", "hen"]
+  -
+    id: "poetic-1032"
+    track: "literary-poetic"
+    domain_tags: ["emotion-psychology", "art-beauty"]
+    register: "poetic"
+    english: "Obsession binds attention."
+    ethra: "Besesen dav san."
+    literal: "Obsession binds attention."
+    notes: "Poetic grounding for obsession, fixed inward hold, obsession, fixed inward hold, thought or desire that will not release attention."
+    terms: ["besesen", "dav", "san"]
+  -
+    id: "poetic-1033"
+    track: "literary-poetic"
+    domain_tags: ["emotion-psychology", "art-beauty"]
+    register: "poetic"
+    english: "Avoidance protects the heart."
+    ethra: "Aevedes xap leb."
+    literal: "Avoidance protects heart."
+    notes: "Poetic grounding for avoidance, protective turning away, avoidance, protective turning away that can preserve or evade truth."
+    terms: ["aevedes", "xap", "leb"]
+  -
+    id: "poetic-1034"
+    track: "literary-poetic"
+    domain_tags: ["emotion-psychology", "art-beauty"]
+    register: "poetic"
+    english: "Impulse carries power."
+    ethra: "Nepeles taw kev."
+    literal: "Impulse carries power."
+    notes: "Poetic grounding for impulse, sudden action pressure, impulse, sudden drive before deliberation, action pressure rising fast."
+    terms: ["nepeles", "taw", "kev"]
+  -
+    id: "poetic-1035"
+    track: "literary-poetic"
+    domain_tags: ["emotion-psychology", "art-beauty"]
+    register: "poetic"
+    english: "Inhibition protects speech."
+    ethra: "Nehebex xap nem."
+    literal: "Inhibition protects speech."
+    notes: "Poetic grounding for inhibition, checked action, inhibition, checked action, restraint, blocked expression, or held impulse."
+    terms: ["nehebex", "xap", "nem"]
+  -
+    id: "poetic-1036"
+    track: "literary-poetic"
+    domain_tags: ["emotion-psychology", "art-beauty"]
+    register: "poetic"
+    english: "Compulsion binds action."
+    ethra: "Kepeles dav val."
+    literal: "Compulsion binds action."
+    notes: "Poetic grounding for compulsion, driven repetition, compulsion, driven repetition, felt necessity that narrows agency."
+    terms: ["kepeles", "dav", "val"]
+  -
+    id: "poetic-1037"
+    track: "literary-poetic"
+    domain_tags: ["emotion-psychology", "art-beauty"]
+    register: "poetic"
+    english: "Soothing protects the heart."
+    ethra: "Seteher xap leb."
+    literal: "Soothing protects heart."
+    notes: "Poetic grounding for soothing, calming regulation, soothing, calming regulation, comfort that lowers distress without denial."
+    terms: ["seteher", "xap", "leb"]
+  -
+    id: "poetic-1038"
+    track: "literary-poetic"
+    domain_tags: ["emotion-psychology", "art-beauty"]
+    register: "poetic"
+    english: "Distress names care."
+    ethra: "Deseter nam hal."
+    literal: "Distress names care."
+    notes: "Poetic grounding for distress, felt strain, distress, felt strain, alarmed suffering before or during pressure."
+    terms: ["deseter", "nam", "hal"]
+  -
+    id: "poetic-1039"
+    track: "literary-poetic"
+    domain_tags: ["emotion-psychology", "conflict-security", "art-beauty"]
+    register: "poetic"
+    english: "Humiliation repairs honor."
+    ethra: "Hemelen tar hener."
+    literal: "Humiliation repairs honor."
+    notes: "Poetic grounding for humiliation, dignity-wound, humiliation, dignity-wound from public lowering or contempt."
+    terms: ["hemelen", "tar", "hener"]
+  -
+    id: "poetic-1040"
+    track: "literary-poetic"
+    domain_tags: ["education-training", "art-beauty"]
+    register: "poetic"
+    english: "Tutoring teaches memory."
+    ethra: "Teueter dak mer."
+    literal: "Tutoring teaches memory."
+    notes: "Poetic grounding for tutoring, focused learning guidance, tutoring, focused guidance, one-to-one or small-group learning help."
+    terms: ["teueter", "dak", "mer"]
+  -
+    id: "poetic-1041"
+    track: "literary-poetic"
+    domain_tags: ["education-training", "art-beauty"]
+    register: "poetic"
+    english: "Feedforward guides the future."
+    ethra: "Fedefer pat fer."
+    literal: "Feedforward guides future."
+    notes: "Poetic grounding for feedforward, future-guiding correction, feedforward, guidance before next action, correction aimed at future performance."
+    terms: ["fedefer", "pat", "fer"]
+  -
+    id: "poetic-1042"
+    track: "literary-poetic"
+    domain_tags: ["education-training", "art-beauty"]
+    register: "poetic"
+    english: "Remediation repairs learning."
+    ethra: "Remedey tar dak."
+    literal: "Remediation repairs teaching."
+    notes: "Poetic grounding for remediation, corrective instruction, remediation, corrective instruction after a learning gap is found."
+    terms: ["remedey", "tar", "dak"]
+  -
+    id: "poetic-1043"
+    track: "literary-poetic"
+    domain_tags: ["education-training", "art-beauty"]
+    register: "poetic"
+    english: "Accommodation protects people."
+    ethra: "Aecemex xap lem."
+    literal: "Accommodation protects people."
+    notes: "Poetic grounding for accommodation, fair access adjustment, accommodation, adjusted support that preserves fair access without lowering truth."
+    terms: ["aecemex", "xap", "lem"]
+  -
+    id: "poetic-1044"
+    track: "literary-poetic"
+    domain_tags: ["nature-ecology", "art-beauty"]
+    register: "poetic"
+    english: "Wetland carries the world."
+    ethra: "Wetelen taw wed."
+    literal: "Wetland carries world."
+    notes: "Poetic grounding for wetland, water-held land, wetland, water-held land, living filter and flood shelter."
+    terms: ["wetelen", "taw", "wed"]
+  -
+    id: "poetic-1045"
+    track: "literary-poetic"
+    domain_tags: ["nature-ecology", "art-beauty"]
+    register: "poetic"
+    english: "Coral reef protects care."
+    ethra: "Cerelef xap hal."
+    literal: "Coral reef protects care."
+    notes: "Poetic grounding for coral reef, living marine shelter, coral reef, living stone shore, marine shelter built by small bodies."
+    terms: ["cerelef", "xap", "hal"]
+  -
+    id: "poetic-1046"
+    track: "literary-poetic"
+    domain_tags: ["nature-ecology", "art-beauty"]
+    register: "poetic"
+    english: "Pollinator carries the future."
+    ethra: "Peleter taw fer."
+    literal: "Pollinator carries future."
+    notes: "Poetic grounding for pollinator, fertility carrier, pollinator, carrier of fertility between flowers, fields, and seasons."
+    terms: ["peleter", "taw", "fer"]
+  -
+    id: "poetic-1047"
+    track: "literary-poetic"
+    domain_tags: ["nature-ecology", "art-beauty"]
+    register: "poetic"
+    english: "Rewilding repairs the world."
+    ethra: "Rewered tar wed."
+    literal: "Rewilding repairs world."
+    notes: "Poetic grounding for rewilding, restored wild process, rewilding, restoration of self-sustaining wild systems and native life."
+    terms: ["rewered", "tar", "wed"]
+  -
+    id: "poetic-1048"
+    track: "literary-poetic"
+    domain_tags: ["nature-ecology", "art-beauty"]
+    register: "poetic"
+    english: "Mycorrhiza protects the world."
+    ethra: "Mecerez xap wed."
+    literal: "Mycorrhiza protects world."
+    notes: "Poetic grounding for mycorrhiza, root-fungus partnership, mycorrhiza, root-fungus partnership, hidden exchange between soil and plant."
+    terms: ["mecerez", "xap", "wed"]
+  -
+    id: "learner-513"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "learner-a1"
+    english: "Blended family protects child."
+    ethra: "Belefem xap tu."
+    literal: "Blended family protects child."
+    notes: "A1 grounding for blended family, joined household, blended family, household joined from prior bonds, children, spouses, and shared care."
+    terms: ["belefem", "xap", "tu"]
+  -
+    id: "learner-514"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "learner-a1"
+    english: "Step-kin carries duty."
+    ethra: "Seteken taw dev."
+    literal: "Step-kin carries duty."
+    notes: "A1 grounding for step-kin, joined household relation, step-kin, kinship formed by marriage, care, and chosen household duty."
+    terms: ["seteken", "taw", "dev"]
+  -
+    id: "learner-515"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "learner-a1"
+    english: "Obsession binds attention."
+    ethra: "Besesen dav san."
+    literal: "Obsession binds attention."
+    notes: "A1 grounding for obsession, fixed inward hold, obsession, fixed inward hold, thought or desire that will not release attention."
+    terms: ["besesen", "dav", "san"]
+  -
+    id: "learner-516"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "learner-a1"
+    english: "Soothing protects heart."
+    ethra: "Seteher xap leb."
+    literal: "Soothing protects heart."
+    notes: "A1 grounding for soothing, calming regulation, soothing, calming regulation, comfort that lowers distress without denial."
+    terms: ["seteher", "xap", "leb"]
+  -
+    id: "learner-517"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training"]
+    register: "learner-a1"
+    english: "Tutoring teaches child."
+    ethra: "Teueter dak tu."
+    literal: "Tutoring teaches child."
+    notes: "A1 grounding for tutoring, focused learning guidance, tutoring, focused guidance, one-to-one or small-group learning help."
+    terms: ["teueter", "dak", "tu"]
+  -
+    id: "learner-518"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training"]
+    register: "learner-a1"
+    english: "Rubric guides action."
+    ethra: "Reberex pat val."
+    literal: "Rubric guides action."
+    notes: "A1 grounding for rubric, explicit judgment frame, rubric, explicit judgment frame, named criteria for evaluating work."
+    terms: ["reberex", "pat", "val"]
+  -
+    id: "learner-519"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "technology-software", "ai-cognition"]
+    register: "learner-a1"
+    english: "Context window protects memory."
+    ethra: "Cetexew xap mer."
+    literal: "Context window protects memory."
+    notes: "A1 grounding for context window, bounded memory span, context window, bounded memory span available to a model or agent during action."
+    terms: ["cetexew", "xap", "mer"]
+  -
+    id: "learner-520"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "technology-software", "ai-cognition"]
+    register: "learner-a1"
+    english: "Tool call carries duty."
+    ethra: "Telecel taw dev."
+    literal: "Tool call carries duty."
+    notes: "A1 grounding for tool call, delegated action request, tool call, delegated action request from an agent to an external system."
+    terms: ["telecel", "taw", "dev"]
+  -
+    id: "learner-521"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "learner-a1"
+    english: "Wetland protects world."
+    ethra: "Wetelen xap wed."
+    literal: "Wetland protects world."
+    notes: "A1 grounding for wetland, water-held land, wetland, water-held land, living filter and flood shelter."
+    terms: ["wetelen", "xap", "wed"]
+  -
+    id: "learner-522"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "learner-a1"
+    english: "Seed bank protects future."
+    ethra: "Sedebek xap fer."
+    literal: "Seed bank protects future."
+    notes: "A1 grounding for seed bank, preserved living possibility, seed bank, preserved living possibility stored against loss and famine."
+    terms: ["sedebek", "xap", "fer"]
+  -
+    id: "learner-523"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "Incident command guides people."
+    ethra: "Necemed pat lem."
+    literal: "Incident command guides people."
+    notes: "A1 grounding for incident command, emergency coordination, incident command, coordinated authority during emergency response."
+    terms: ["necemed", "pat", "lem"]
+  -
+    id: "learner-524"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "Victim services repairs care."
+    ethra: "Vecesev tar hal."
+    literal: "Victim services repairs care."
+    notes: "A1 grounding for victim services, care after harm, victim services, coordinated care, witness support, and repair after harm."
+    terms: ["vecesev", "tar", "hal"]
