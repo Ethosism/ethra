@@ -29,8 +29,8 @@ test("summarizes current progress against roadmap targets", () => {
   assert.equal(summary.current.actual_corpus_items, summary.current.corpus_items);
   assert.equal(summary.current.actual_compound_terms, summary.current.compound_terms);
   assert.equal(summary.current.actual_derivation_patterns, summary.current.derivation_patterns);
-  assert.ok(summary.current.actual_lexicon_entries >= 5000);
-  assert.ok(summary.current.actual_root_families >= 250);
+  assert.ok(summary.current.actual_lexicon_entries >= 6000);
+  assert.ok(summary.current.actual_root_families >= 300);
   assert.ok(summary.current.actual_corpus_items >= 220);
   assert.ok(summary.current.actual_compound_terms >= 100);
   assert.equal(summary.current.actual_derivation_patterns, 20);
@@ -90,8 +90,8 @@ test("lists and validates reviewed corpus items", () => {
 test("validates expanded root inventory", () => {
   const report = validateSpec();
   assert.equal(report.valid, true, JSON.stringify(report.errors, null, 2));
-  assert.equal(report.stats.roots, 257);
-  assert.equal(report.stats.lexiconEntries, 5197);
+  assert.equal(report.stats.roots, 307);
+  assert.equal(report.stats.lexiconEntries, 6197);
   assert.equal(report.stats.derivationPatterns, 20);
 });
 
