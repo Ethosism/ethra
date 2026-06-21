@@ -211,6 +211,22 @@ test("looks up roots by aliases and derives words", () => {
   const battery = deriveWord("BTY", "noun");
   assert.equal(battery.word, "betey");
   assert.equal(battery.root.id, "BTY");
+
+  const hardware = deriveWord("HWR", "noun");
+  assert.equal(hardware.word, "hewer");
+  assert.equal(hardware.root.id, "HWR");
+
+  const commitRecord = deriveWord("KMT", "record");
+  assert.equal(commitRecord.word, "kamat-ket");
+  assert.equal(commitRecord.root.id, "KMT");
+
+  const probability = deriveWord("PBL", "noun");
+  assert.equal(probability.word, "pebel");
+  assert.equal(probability.root.id, "PBL");
+
+  const heritage = deriveWord("HTY", "civic-legal");
+  assert.equal(heritage.word, "hatay-da");
+  assert.equal(heritage.root.id, "HTY");
 });
 
 test("analyzes known words", () => {
