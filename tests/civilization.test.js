@@ -31,7 +31,7 @@ test("summarizes current progress against roadmap targets", () => {
   assert.equal(summary.current.actual_derivation_patterns, summary.current.derivation_patterns);
   assert.ok(summary.current.actual_lexicon_entries >= 6000);
   assert.ok(summary.current.actual_root_families >= 300);
-  assert.ok(summary.current.actual_corpus_items >= 220);
+  assert.ok(summary.current.actual_corpus_items >= 280);
   assert.ok(summary.current.actual_compound_terms >= 100);
   assert.equal(summary.current.actual_derivation_patterns, 20);
   assert.equal(summary.current.actual_canonical_examples, 20);
@@ -65,26 +65,28 @@ test("reports domain coverage gaps", () => {
 test("loads corpus and governance programs", () => {
   const corpus = corpusSummary();
   const governance = loadGovernance();
-  assert.equal(corpus.current_items, 220);
+  assert.equal(corpus.current_items, 280);
   assert.equal(corpus.remaining_items_v02, 0);
   assert.ok(corpus.tracks.some((track) => track.id === "technical-software"));
-  assert.ok(corpus.tracks.every((track) => track.current_items >= 35));
+  assert.ok(corpus.tracks.every((track) => track.current_items >= 45));
   assert.ok(governance.root_admission_rules.some((rule) => rule.includes("durable semantic field")));
   assert.ok(governance.review_checklist.some((item) => item.includes("root-depth")));
 });
 
 test("lists and validates reviewed corpus items", () => {
   const technicalItems = listCorpusItems("technical-software");
-  assert.equal(technicalItems.length, 35);
+  assert.equal(technicalItems.length, 45);
   assert.ok(technicalItems.some((item) => item.ethra === "Mef xap den."));
   assert.ok(technicalItems.some((item) => item.ethra === "Dab-ket e rih."));
   assert.ok(technicalItems.some((item) => item.ethra === "Hef wav xet."));
+  assert.ok(technicalItems.some((item) => item.ethra === "Koh mas kej."));
+  assert.ok(technicalItems.some((item) => item.ethra === "Den-kez kat tet."));
 
   const report = validateCorpus();
   assert.equal(report.valid, true, JSON.stringify(report.errors, null, 2));
-  assert.equal(report.stats.items, 220);
+  assert.equal(report.stats.items, 280);
   assert.equal(report.stats.tracks, 6);
-  assert.ok(report.stats.uniqueTerms >= 250);
+  assert.ok(report.stats.uniqueTerms >= 320);
 });
 
 test("validates expanded root inventory", () => {

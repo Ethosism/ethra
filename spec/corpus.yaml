@@ -1,4 +1,4 @@
-version: "0.2.6-corpus"
+version: "0.2.8-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -2201,3 +2201,603 @@ items:
     literal: "Generation remembers."
     notes: "Learner history-memory sentence."
     terms: ["zef", "mar"]
+  -
+    id: "daily-046"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "history-memory", "emotion-psychology"]
+    register: "plain"
+    english: "The day begins with gratitude."
+    ethra: "Ded gan ko gev."
+    literal: "Day begins with gratitude."
+    notes: "Places ordinary time under thankful memory."
+    terms: ["ded", "gan", "ko", "gev"]
+  -
+    id: "daily-047"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "household"
+    english: "I schedule the hour for the guest."
+    ethra: "Na tam heh ad jej."
+    literal: "I schedule hour toward guest."
+    notes: "Hospitality becomes time deliberately arranged for another."
+    terms: ["na", "tam", "heh", "ad", "jej"]
+  -
+    id: "daily-048"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The worker pauses with fatigue."
+    ethra: "Waken tap ko bey."
+    literal: "Worker pauses with fatigue."
+    notes: "Fatigue is named plainly so rest can become responsible rather than evasive."
+    terms: ["waken", "tap", "ko", "bey"]
+  -
+    id: "daily-049"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software", "family-kinship"]
+    register: "plain"
+    english: "The neighbor returns the tool."
+    ethra: "Jeg rad tel."
+    literal: "Neighbor returns tool."
+    notes: "Local trust is shown through returning borrowed instruments."
+    terms: ["jeg", "rad", "tel"]
+  -
+    id: "daily-050"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "The market opens at the appointed hour."
+    ethra: "Jex ap ad heh."
+    literal: "Market opens toward hour."
+    notes: "Daily commerce is tied to public timekeeping."
+    terms: ["jex", "ap", "ad", "heh"]
+  -
+    id: "daily-051"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "workplace"
+    english: "The workplace keeps the schedule."
+    ethra: "Jez mar tem."
+    literal: "Workplace remembers schedule."
+    notes: "A workplace is accountable to arranged duties, not only activity."
+    terms: ["jez", "mar", "tem"]
+  -
+    id: "daily-052"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "emotion-psychology"]
+    register: "plain"
+    english: "The rain passed. The child laughs."
+    ethra: "Leh pa fal. Tu hay."
+    literal: "Rain past flows. Child laughs."
+    notes: "A simple weather-to-emotion sequence for everyday speech."
+    terms: ["leh", "pa", "fal", "tu", "hay"]
+  -
+    id: "daily-053"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "media-communication"]
+    register: "plain"
+    english: "I write a note to the teacher."
+    ethra: "Na kat kez ad to."
+    literal: "I write note toward teacher-you."
+    notes: "Uses relational address for instruction without adding hierarchy beyond context."
+    terms: ["na", "kat", "kez", "ad", "to"]
+  -
+    id: "daily-054"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "history-memory"]
+    register: "plain"
+    english: "The eye sees the scar."
+    ethra: "Fef rah bez."
+    literal: "Eye sees scar."
+    notes: "A bodily observation sentence that keeps harm visible without dramatizing it."
+    terms: ["fef", "rah", "bez"]
+  -
+    id: "daily-055"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "emotion-psychology"]
+    register: "household"
+    english: "The family hosts the guest with patience."
+    ethra: "Hon jak jej ko jeh."
+    literal: "Household hosts guest with patience."
+    notes: "Hospitality is framed as patient household responsibility."
+    terms: ["hon", "jak", "jej", "ko", "jeh"]
+  -
+    id: "civic-036"
+    track: "civic-law"
+    domain_tags: ["law-governance", "daily-life"]
+    register: "civic"
+    english: "The governing body publishes the public schedule."
+    ethra: "Rag-lem pu nam tam-da."
+    literal: "Governance-body publicly names schedule-record."
+    notes: "Public timekeeping is treated as civic speech that citizens can inspect."
+    terms: ["rag-lem", "pu", "nam", "tam-da"]
+  -
+    id: "civic-037"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision", "family-kinship"]
+    register: "civic"
+    english: "The market license names the host and the guest."
+    ethra: "Jax-da nam jek ko jej."
+    literal: "Market-record names host with guest."
+    notes: "Commerce and hospitality are both made legible in public records."
+    terms: ["jax-da", "nam", "jek", "ko", "jej"]
+  -
+    id: "civic-038"
+    track: "civic-law"
+    domain_tags: ["law-governance", "daily-life"]
+    register: "legal"
+    english: "The deadline binds the office."
+    ethra: "Tet dav xef."
+    literal: "Deadline binds office."
+    notes: "Deadlines become public answerability rather than mere dates."
+    terms: ["tet", "dav", "xef"]
+  -
+    id: "civic-039"
+    track: "civic-law"
+    domain_tags: ["law-governance", "history-memory"]
+    register: "legal"
+    english: "The late filing becomes a record."
+    ethra: "Led-ket e kot."
+    literal: "Lateness-record is record."
+    notes: "Late action is not erased; it is transformed into accountable memory."
+    terms: ["led-ket", "e", "kot"]
+  -
+    id: "civic-040"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health"]
+    register: "medical"
+    english: "The medical record names the illness."
+    ethra: "Bax-da nam bex."
+    literal: "Illness-record names illness."
+    notes: "Medical language keeps diagnosis as named responsibility."
+    terms: ["bax-da", "nam", "bex"]
+  -
+    id: "civic-041"
+    track: "civic-law"
+    domain_tags: ["law-governance", "emotion-psychology", "conflict-security"]
+    register: "civic"
+    english: "The public apology carries guilt and repair."
+    ethra: "Pu haj-da taw gez ko tar."
+    literal: "Public humility-record carries guilt with repair."
+    notes: "Apology is civic humility joined to restoration, not image management."
+    terms: ["pu", "haj-da", "taw", "gez", "ko", "tar"]
+  -
+    id: "civic-042"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math", "education-training"]
+    register: "research"
+    english: "The research protocol states the hypothesis."
+    ethra: "Kah-da nam kej."
+    literal: "Research-record names hypothesis."
+    notes: "Research claims are entered through inspectable protocol."
+    terms: ["kah-da", "nam", "kej"]
+  -
+    id: "civic-043"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The causal finding names the cause before truth."
+    ethra: "Kas-da nam kes so-rah."
+    literal: "Cause-record names cause before-truth."
+    notes: "Causation is stated under visible truth before judgment."
+    terms: ["kas-da", "nam", "kes", "so-rah"]
+  -
+    id: "civic-044"
+    track: "civic-law"
+    domain_tags: ["law-governance", "history-memory", "ritual-spiritual"]
+    register: "civic"
+    english: "The community records the festival."
+    ethra: "Jes kat neh."
+    literal: "Community records festival."
+    notes: "Communal joy becomes part of public memory."
+    terms: ["jes", "kat", "neh"]
+  -
+    id: "civic-045"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ritual-spiritual", "economics-provision"]
+    register: "civic"
+    english: "The public ceremony receives the offering."
+    ethra: "Nac-da lun nek."
+    literal: "Ceremony-record may receive offering."
+    notes: "Public ritual gifts are accepted under visible procedure."
+    terms: ["nac-da", "lun", "nek"]
+  -
+    id: "ritual-036"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory", "daily-life"]
+    register: "ritual"
+    english: "At the appointed hour, we remember the day."
+    ethra: "Ha heh, num mar ded."
+    literal: "Solemn hour, we-as-people remember day."
+    notes: "Ritual timing turns ordinary days into cultural memory."
+    terms: ["ha", "heh", "num", "mar", "ded"]
+  -
+    id: "ritual-037"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "ritual"
+    english: "The ceremony receives the offering before truth."
+    ethra: "Ha nec lun nek so-rah."
+    literal: "Solemn ceremony may receive offering before-truth."
+    notes: "The offering is accepted only under witness."
+    terms: ["ha", "nec", "lun", "nek", "so-rah"]
+  -
+    id: "ritual-038"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology", "daily-life"]
+    register: "vow"
+    english: "We vow patience in delay."
+    ethra: "Ha num dov jeh ko tez."
+    literal: "Solemn we vow patience with delay."
+    notes: "Delay is morally shaped by vowed steadiness."
+    terms: ["ha", "num", "dov", "jeh", "ko", "tez"]
+  -
+    id: "ritual-039"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health", "history-memory"]
+    register: "solemn"
+    english: "The scar is named openly."
+    ethra: "Ha bez nam ap."
+    literal: "Solemn scar named open."
+    notes: "Wounds are neither hidden nor worshiped; they are made speakable."
+    terms: ["ha", "bez", "nam", "ap"]
+  -
+    id: "ritual-040"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "art-beauty", "emotion-psychology"]
+    register: "ritual"
+    english: "Gratitude becomes a song."
+    ethra: "Ha gev e ceg."
+    literal: "Solemn gratitude is song."
+    notes: "Thanks is raised into patterned communal voice."
+    terms: ["ha", "gev", "e", "ceg"]
+  -
+    id: "ritual-041"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology", "conflict-security"]
+    register: "confession"
+    english: "Guilt moves toward repair."
+    ethra: "Ha gez pat ad tar."
+    literal: "Solemn guilt travels toward repair."
+    notes: "Guilt is not final identity; it is directional pressure toward restoration."
+    terms: ["ha", "gez", "pat", "ad", "tar"]
+  -
+    id: "ritual-042"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship", "emotion-psychology"]
+    register: "blessing"
+    english: "The guest receives blessing in the house."
+    ethra: "Ha jej lun veb en han."
+    literal: "Solemn guest may receive blessing of home."
+    notes: "Hospitality is ritually elevated without erasing guest status."
+    terms: ["ha", "jej", "lun", "veb", "en", "han"]
+  -
+    id: "ritual-043"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory", "family-kinship"]
+    register: "festival"
+    english: "The festival remembers the community."
+    ethra: "Ha neh mar jes."
+    literal: "Solemn festival remembers community."
+    notes: "Celebration carries local peoplehood forward."
+    terms: ["ha", "neh", "mar", "jes"]
+  -
+    id: "ritual-044"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "art-beauty", "body-health"]
+    register: "ritual"
+    english: "The dance carries the body toward beauty."
+    ethra: "Ha nep taw gam ad hed."
+    literal: "Solemn dance carries body toward beauty."
+    notes: "Embodied rhythm becomes disciplined praise of form."
+    terms: ["ha", "nep", "taw", "gam", "ad", "hed"]
+  -
+    id: "ritual-045"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance", "media-communication"]
+    register: "vow"
+    english: "The offering binds speech to duty."
+    ethra: "Ha nek dav nam ad dev."
+    literal: "Solemn offering binds speech toward duty."
+    notes: "Gift and word become answerable together."
+    terms: ["ha", "nek", "dav", "nam", "ad", "dev"]
+  -
+    id: "tech-036"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The scheduler stores the hour and deadline."
+    ethra: "Tamen wav heh ko tet."
+    literal: "Scheduler stores hour with deadline."
+    notes: "Scheduling software is framed as accountable time-memory."
+    terms: ["tamen", "wav", "heh", "ko", "tet"]
+  -
+    id: "tech-037"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The kernel pauses the process with fatigue."
+    ethra: "Kam tap dab-ga ko bey."
+    literal: "Kernel pauses database-process with fatigue."
+    notes: "System pause language can represent resource exhaustion without moral confusion."
+    terms: ["kam", "tap", "dab-ga", "ko", "bey"]
+  -
+    id: "tech-038"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "science-math"]
+    register: "technical"
+    english: "The model records the pattern."
+    ethra: "Med kat key."
+    literal: "Model records pattern."
+    notes: "Pattern recognition is made explicit as recorded structure."
+    terms: ["med", "kat", "key"]
+  -
+    id: "tech-039"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "science-math"]
+    register: "technical"
+    english: "The research query tests the hypothesis."
+    ethra: "Koh mas kej."
+    literal: "Research-question tests hypothesis."
+    notes: "Technical inquiry keeps testability visible."
+    terms: ["koh", "mas", "kej"]
+  -
+    id: "tech-040"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication", "science-math"]
+    register: "technical"
+    english: "The note links the cause to the error."
+    ethra: "Kez naw kes ad mik."
+    literal: "Note links cause toward brokenness."
+    notes: "Debugging language names causation and fault without hiding either."
+    terms: ["kez", "naw", "kes", "ad", "mik"]
+  -
+    id: "tech-041"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "nature-ecology"]
+    register: "technical"
+    english: "The magnet attracts the metal."
+    ethra: "Meg mag mec."
+    literal: "Magnet draws metal."
+    notes: "Physical force vocabulary enters technical description compactly."
+    terms: ["meg", "mag", "mec"]
+  -
+    id: "tech-042"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The virtual workplace keeps the file."
+    ethra: "Vej-jez mar hef."
+    literal: "Virtual-workplace remembers file."
+    notes: "Remote work spaces are treated as memory-bearing places, not only screens."
+    terms: ["vej-jez", "mar", "hef"]
+  -
+    id: "tech-043"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health", "law-governance"]
+    register: "technical"
+    english: "The eye-care record protects privacy."
+    ethra: "Faf-da xap pec."
+    literal: "Eye-care-record secures privacy."
+    notes: "Medical technical records require protected personal standing."
+    terms: ["faf-da", "xap", "pec"]
+  -
+    id: "tech-044"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical"
+    english: "The calculation explains the cause."
+    ethra: "Kek raj kes."
+    literal: "Calculation reasons cause."
+    notes: "Formal reckoning is used to make causes accountable."
+    terms: ["kek", "raj", "kes"]
+  -
+    id: "tech-045"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication", "daily-life"]
+    register: "technical"
+    english: "The data note marks the deadline."
+    ethra: "Den-kez kat tet."
+    literal: "Data-note records deadline."
+    notes: "Small annotations can carry time-bound responsibility."
+    terms: ["den-kez", "kat", "tet"]
+  -
+    id: "poetic-036"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "media-communication"]
+    register: "poetic"
+    english: "Rain writes on the lake."
+    ethra: "Leh kat lel."
+    literal: "Rain writes lake."
+    notes: "Weather becomes script on still water."
+    terms: ["leh", "kat", "lel"]
+  -
+    id: "poetic-037"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "body-health"]
+    register: "poetic"
+    english: "The eye remembers lightning."
+    ethra: "Fef mar les."
+    literal: "Eye remembers lightning."
+    notes: "Sudden clarity stays in the body."
+    terms: ["fef", "mar", "les"]
+  -
+    id: "poetic-038"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "The plant-root binds the future."
+    ethra: "Lew dav fer."
+    literal: "Plant-root binds future."
+    notes: "Hidden roots make visible future life possible."
+    terms: ["lew", "dav", "fer"]
+  -
+    id: "poetic-039"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "The volcano remembers fire."
+    ethra: "Lez mar fac."
+    literal: "Volcano remembers fire."
+    notes: "The earth is imagined as carrying old heat."
+    terms: ["lez", "mar", "fac"]
+  -
+    id: "poetic-040"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision", "body-health"]
+    register: "poetic"
+    english: "Metal receives the hand's work."
+    ethra: "Mec lun wak en ram."
+    literal: "Metal may receive work of hand."
+    notes: "Material becomes culture through embodied labor."
+    terms: ["mec", "lun", "wak", "en", "ram"]
+  -
+    id: "poetic-041"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health", "history-memory"]
+    register: "poetic"
+    english: "A scar is a book written by pain."
+    ethra: "Bez e kot bi pan."
+    literal: "Scar is book by pain."
+    notes: "The body is allowed to keep testimony."
+    terms: ["bez", "e", "kot", "bi", "pan"]
+  -
+    id: "poetic-042"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology", "family-kinship"]
+    register: "poetic"
+    english: "Laughter opens the house."
+    ethra: "Hey ap han."
+    literal: "Laughter opens home."
+    notes: "Joy becomes a threshold into belonging."
+    terms: ["hey", "ap", "han"]
+  -
+    id: "poetic-043"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Humility is the low gate of clarity."
+    ethra: "Hej e gij gah en ner."
+    literal: "Humility is low gate of clarity."
+    notes: "Knowing begins through teachable smallness."
+    terms: ["hej", "e", "gij", "gah", "en", "ner"]
+  -
+    id: "poetic-044"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship", "history-memory"]
+    register: "poetic"
+    english: "The community is a lake of names."
+    ethra: "Jes e lel en nom."
+    literal: "Community is lake of names."
+    notes: "Peoplehood is pictured as still memory holding many persons."
+    terms: ["jes", "e", "lel", "en", "nom"]
+  -
+    id: "poetic-045"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health", "education-training"]
+    register: "poetic"
+    english: "The dance teaches the foot to speak."
+    ethra: "Nep dak fep nam."
+    literal: "Dance teaches foot speak."
+    notes: "Rhythm makes the body articulate."
+    terms: ["nep", "dak", "fep", "nam"]
+  -
+    id: "learner-036"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "history-memory"]
+    register: "learner-a1"
+    english: "A day is time."
+    ethra: "Ded e tes."
+    literal: "Day is time."
+    notes: "Beginner time noun contrast."
+    terms: ["ded", "e", "tes"]
+  -
+    id: "learner-037"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "learner-a1"
+    english: "The hour returns."
+    ethra: "Heh rad."
+    literal: "Hour returns."
+    notes: "Simple time sentence using return."
+    terms: ["heh", "rad"]
+  -
+    id: "learner-038"
+    track: "learner-graded"
+    domain_tags: ["body-health", "emotion-psychology"]
+    register: "learner-a1"
+    english: "I am tired."
+    ethra: "Na e biy."
+    literal: "I am tired."
+    notes: "Beginner body-state copula sentence."
+    terms: ["na", "e", "biy"]
+  -
+    id: "learner-039"
+    track: "learner-graded"
+    domain_tags: ["body-health", "daily-life"]
+    register: "learner-a1"
+    english: "The eye sees."
+    ethra: "Fef rah."
+    literal: "Eye sees."
+    notes: "Beginner body and seeing sentence."
+    terms: ["fef", "rah"]
+  -
+    id: "learner-040"
+    track: "learner-graded"
+    domain_tags: ["emotion-psychology", "daily-life"]
+    register: "learner-a1"
+    english: "I thank you."
+    ethra: "Na gav ta."
+    literal: "I thank equal-you."
+    notes: "Introduces gratitude as an action."
+    terms: ["na", "gav", "ta"]
+  -
+    id: "learner-041"
+    track: "learner-graded"
+    domain_tags: ["family-kinship", "daily-life"]
+    register: "learner-a1"
+    english: "The guest walks."
+    ethra: "Jej pat."
+    literal: "Guest walks."
+    notes: "Simple person and motion sentence."
+    terms: ["jej", "pat"]
+  -
+    id: "learner-042"
+    track: "learner-graded"
+    domain_tags: ["economics-provision", "daily-life"]
+    register: "learner-a1"
+    english: "The market opens."
+    ethra: "Jex ap."
+    literal: "Market opens."
+    notes: "Beginner commerce sentence."
+    terms: ["jex", "ap"]
+  -
+    id: "learner-043"
+    track: "learner-graded"
+    domain_tags: ["education-training", "philosophy-metaphysics"]
+    register: "learner-a2"
+    english: "The idea is clear."
+    ethra: "Kef e ner."
+    literal: "Idea is clarity."
+    notes: "Simple abstract copula sentence."
+    terms: ["kef", "e", "ner"]
+  -
+    id: "learner-044"
+    track: "learner-graded"
+    domain_tags: ["nature-ecology", "daily-life"]
+    register: "learner-a1"
+    english: "It rains."
+    ethra: "Lah."
+    literal: "Rain."
+    notes: "One-word weather sentence using the rain action pattern."
+    terms: ["lah"]
+  -
+    id: "learner-045"
+    track: "learner-graded"
+    domain_tags: ["art-beauty", "education-training"]
+    register: "learner-a1"
+    english: "The dance begins."
+    ethra: "Nep gan."
+    literal: "Dance begins."
+    notes: "Beginner ritual/art sentence with a familiar motion of start."
+    terms: ["nep", "gan"]

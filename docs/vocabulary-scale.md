@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 6,197 explicit lexicon entries and 220 reviewed corpus items after the v0.2.7 root-bank expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 6,197 explicit lexicon entries and 280 reviewed corpus items after the v0.2.8 corpus-grounding expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.3 everyday-fluency target:
 
 ```text
 entries 6,197 / 3,000
 roots     307 / 400
-corpus    220 / 500 reviewed items
+corpus    280 / 500 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -21,6 +21,8 @@ The v0.2.5 root batch adds 50 roots for underbuilt categories: focus, perception
 The v0.2.6 corpus batch adds 60 reviewed examples across all six corpus tracks, grounding the v0.2.5 roots in attention, hearing, doors, hospitality, public text, translation, ritual mercy, files, queries, kernels, symbols, virtual presence, nature imagery, and learner grammar.
 
 The v0.2.7 root batch adds 50 roots for time, body, emotion, social life, knowledge, ecology, and ritual: day, hour, schedule, pause, deadline, delay, return, brain, muscle, illness, fatigue, scar, eye, foot, gratitude, guilt, humility, envy, laughter, pride, patience, neighbor, guest, host, community, market, workplace, belief, idea, grade, research, hypothesis, cause, pattern, note, rain, insect, lake, lightning, plant-root, volcano, metal, magnet, ceremony, festival, offering, and dance.
+
+The v0.2.8 corpus batch adds 60 reviewed examples across all six corpus tracks, grounding the v0.2.7 roots in daily schedules, fatigue, neighborly return, market hours, public deadlines, medical records, research protocols, ritual offerings, technical debugging, natural imagery, and learner sentences.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
