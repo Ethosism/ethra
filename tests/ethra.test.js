@@ -92,6 +92,18 @@ test("looks up roots by aliases and derives words", () => {
   const biodiversity = deriveWord("BDS", "civic-legal");
   assert.equal(biodiversity.word, "badas-da");
   assert.equal(biodiversity.root.id, "BDS");
+
+  const jurisdiction = deriveWord("YRL", "noun");
+  assert.equal(jurisdiction.word, "yerel");
+  assert.equal(jurisdiction.root.id, "YRL");
+
+  const patch = deriveWord("PCH", "record");
+  assert.equal(patch.word, "pacah-ket");
+  assert.equal(patch.root.id, "PCH");
+
+  const civilization = deriveWord("CVL", "civic-legal");
+  assert.equal(civilization.word, "caval-da");
+  assert.equal(civilization.root.id, "CVL");
 });
 
 test("analyzes known words", () => {
@@ -120,7 +132,7 @@ test("loads canonical example translations", () => {
 test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 10000);
+  assert.ok(entries.length >= 12000);
   for (const category of [
     "Pronouns",
     "Particles",
