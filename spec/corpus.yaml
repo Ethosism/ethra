@@ -1,4 +1,4 @@
-version: "0.3.10-corpus"
+version: "0.3.11-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -9001,3 +9001,1203 @@ items:
     literal: "Battery carries power."
     notes: "Learner energy-storage sentence."
     terms: ["betey", "taw", "kev"]
+  -
+    id: "daily-151"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "plain"
+    english: "Home protects the child."
+    ethra: "Hen xap jal."
+    literal: "Home protects child."
+    notes: "Household speech frames shelter as active care."
+    terms: ["hen", "xap", "jal"]
+  -
+    id: "daily-152"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The body carries breath."
+    ethra: "Gem taw nef."
+    literal: "Body carries breath/life."
+    notes: "Basic body speech links embodiment to living breath."
+    terms: ["gem", "taw", "nef"]
+  -
+    id: "daily-153"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "Food empowers the body."
+    ethra: "Fed kav gem."
+    literal: "Food empowers body."
+    notes: "Provision vocabulary is tied to bodily agency."
+    terms: ["fed", "kav", "gem"]
+  -
+    id: "daily-154"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "The box protects the record."
+    ethra: "Bekes xap ket."
+    literal: "Box protects record."
+    notes: "Storage objects are grounded in preserving evidence."
+    terms: ["bekes", "xap", "ket"]
+  -
+    id: "daily-155"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "history-memory"]
+    register: "plain"
+    english: "The clock names time."
+    ethra: "Celek nam tes."
+    literal: "Clock names time."
+    notes: "Measured time is treated as a public act of naming."
+    terms: ["celek", "nam", "tes"]
+  -
+    id: "daily-156"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software", "science-math"]
+    register: "plain"
+    english: "The wire carries electricity."
+    ethra: "Werec taw leket."
+    literal: "Wire carries electricity."
+    notes: "Daily electrical language bridges household tool speech and physics."
+    terms: ["werec", "taw", "leket"]
+  -
+    id: "daily-157"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "plain"
+    english: "The battery carries power."
+    ethra: "Betey taw kev."
+    literal: "Battery carries power."
+    notes: "Stored charge is introduced as portable capacity."
+    terms: ["betey", "taw", "kev"]
+  -
+    id: "daily-158"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "philosophy-metaphysics"]
+    register: "plain"
+    english: "The mirror reveals the face."
+    ethra: "Merer rah roh."
+    literal: "Mirror reveals face."
+    notes: "Recognition remains the basis of mirror vocabulary."
+    terms: ["merer", "rah", "roh"]
+  -
+    id: "daily-159"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "Rest repairs the body."
+    ethra: "Cep tar gem."
+    literal: "Rest repairs body."
+    notes: "Recovery is treated as repair rather than idleness."
+    terms: ["cep", "tar", "gem"]
+  -
+    id: "daily-160"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "conflict-security"]
+    register: "plain"
+    english: "Conversation repairs frustration."
+    ethra: "Cenev tar ferel."
+    literal: "Conversation repairs frustration."
+    notes: "Ordinary dialogue is framed as social repair."
+    terms: ["cenev", "tar", "ferel"]
+  -
+    id: "daily-161"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Humor opens the heart."
+    ethra: "Hemer ap leb."
+    literal: "Humor opens heart."
+    notes: "Humor is admitted as a lawful opening of inward life."
+    terms: ["hemer", "ap", "leb"]
+  -
+    id: "daily-162"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "law-governance"]
+    register: "plain"
+    english: "Empathy carries trust."
+    ethra: "Mepet taw ven."
+    literal: "Empathy carries trust."
+    notes: "Felt-with understanding is tied to social reliability."
+    terms: ["mepet", "taw", "ven"]
+  -
+    id: "daily-163"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication", "travel-place"]
+    register: "plain"
+    english: "News walks through the city."
+    ethra: "Newes pat cet."
+    literal: "News walks city."
+    notes: "Public report is imagined as motion through civic space."
+    terms: ["newes", "pat", "cet"]
+  -
+    id: "daily-164"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "history-memory", "media-communication"]
+    register: "plain"
+    english: "The library protects silence."
+    ethra: "Lebey xap cez."
+    literal: "Library protects silence."
+    notes: "A public book house is treated as guarded attention."
+    terms: ["lebey", "xap", "cez"]
+  -
+    id: "daily-165"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "plain"
+    english: "Paper carries the word."
+    ethra: "Peper taw nem."
+    literal: "Paper carries word."
+    notes: "Material media are named by their service to speech and memory."
+    terms: ["peper", "taw", "nem"]
+  -
+    id: "daily-166"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "Fabric covers the body."
+    ethra: "Feber car gem."
+    literal: "Fabric covers body."
+    notes: "Clothing material remains grounded in bodily care."
+    terms: ["feber", "car", "gem"]
+  -
+    id: "daily-167"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Plastic is waste."
+    ethra: "Pelek e weset."
+    literal: "Plastic is waste."
+    notes: "Household material vocabulary keeps ecological consequence visible."
+    terms: ["pelek", "e", "weset"]
+  -
+    id: "daily-168"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "philosophy-metaphysics"]
+    register: "plain"
+    english: "The sky carries light."
+    ethra: "Sekey taw ner."
+    literal: "Sky carries light."
+    notes: "Basic nature speech ties the overhead world to clarity."
+    terms: ["sekey", "taw", "ner"]
+  -
+    id: "daily-169"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ritual-spiritual", "philosophy-metaphysics"]
+    register: "plain"
+    english: "The candle carries witness."
+    ethra: "Cened taw reh."
+    literal: "Candle carries recognition/witness."
+    notes: "Small domestic light is linked to witnessed presence."
+    terms: ["cened", "taw", "reh"]
+  -
+    id: "daily-170"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software", "media-communication"]
+    register: "plain"
+    english: "The keyboard names the word."
+    ethra: "Kebed nam nem."
+    literal: "Keyboard names word."
+    notes: "Input devices are treated as hand-mediated speech."
+    terms: ["kebed", "nam", "nem"]
+  -
+    id: "civic-151"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "legal"
+    english: "The rule protects the right."
+    ethra: "Reg xap ret."
+    literal: "Rule protects right."
+    notes: "Law is framed as protection of standing, not mere control."
+    terms: ["reg", "xap", "ret"]
+  -
+    id: "civic-152"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "legal"
+    english: "The office carries duty."
+    ethra: "Xaf taw dev."
+    literal: "Office carries duty."
+    notes: "Office vocabulary is bound to obligation rather than status."
+    terms: ["xaf", "taw", "dev"]
+  -
+    id: "civic-153"
+    track: "civic-law"
+    domain_tags: ["law-governance", "history-memory"]
+    register: "legal"
+    english: "The record remembers judgment."
+    ethra: "Ket mar jev."
+    literal: "Record remembers judgment."
+    notes: "Legal memory makes judgment reviewable."
+    terms: ["ket", "mar", "jev"]
+  -
+    id: "civic-154"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "Tax serves the people."
+    ethra: "Tax sarav lem."
+    literal: "Tax serves people."
+    notes: "Public contribution is judged by service to the people."
+    terms: ["tax", "sarav", "lem"]
+  -
+    id: "civic-155"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "The buyer carries a right."
+    ethra: "Xaben taw ret."
+    literal: "Buyer carries right."
+    notes: "Market speech preserves protected standing."
+    terms: ["xaben", "taw", "ret"]
+  -
+    id: "civic-156"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The complaint names harm."
+    ethra: "Kemep nam hex."
+    literal: "Complaint names harm."
+    notes: "A claim becomes actionable by naming injury."
+    terms: ["kemep", "nam", "hex"]
+  -
+    id: "civic-157"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "Fraud breaks trust."
+    ethra: "Fered mak ven."
+    literal: "Fraud breaks trust."
+    notes: "Commercial deception is a rupture in civic reliability."
+    terms: ["fered", "mak", "ven"]
+  -
+    id: "civic-158"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "Bribery breaks office."
+    ethra: "Bereb mak xaf."
+    literal: "Bribery breaks office."
+    notes: "Corruption is expressed as office-destruction."
+    terms: ["bereb", "mak", "xaf"]
+  -
+    id: "civic-159"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "legal"
+    english: "Negligence does not remember duty."
+    ethra: "Negec ne mar dev."
+    literal: "Negligence not remember duty."
+    notes: "Careless failure is framed as failed moral memory."
+    terms: ["negec", "ne", "mar", "dev"]
+  -
+    id: "civic-160"
+    track: "civic-law"
+    domain_tags: ["law-governance", "history-memory"]
+    register: "legal"
+    english: "The appeal repairs the record."
+    ethra: "Pelet tar ket."
+    literal: "Appeal repairs record."
+    notes: "Review is a public correction of legal memory."
+    terms: ["pelet", "tar", "ket"]
+  -
+    id: "civic-161"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "legal"
+    english: "The plaintiff speaks before truth."
+    ethra: "Pelen nam so-rah."
+    literal: "Plaintiff speaks before-truth."
+    notes: "The claimant is answerable to truth before victory."
+    terms: ["pelen", "nam", "so-rah"]
+  -
+    id: "civic-162"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "legal"
+    english: "The defendant answers the claim."
+    ethra: "Defen vax ret."
+    literal: "Defendant answers claim/right."
+    notes: "Answerability preserves personhood in legal conflict."
+    terms: ["defen", "vax", "ret"]
+  -
+    id: "civic-163"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision", "family-kinship"]
+    register: "legal"
+    english: "The mortgage binds the home."
+    ethra: "Mereg dav hen."
+    literal: "Mortgage binds home."
+    notes: "Housing finance is made morally visible as binding home."
+    terms: ["mereg", "dav", "hen"]
+  -
+    id: "civic-164"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision", "history-memory"]
+    register: "civic"
+    english: "The ledger remembers tax."
+    ethra: "Leger mar tax."
+    literal: "Ledger remembers tax."
+    notes: "Public accounting preserves contributions for audit."
+    terms: ["leger", "mar", "tax"]
+  -
+    id: "civic-165"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The corporation should serve the people."
+    ethra: "Cerer cel sarav lem."
+    literal: "Corporation should serve people."
+    notes: "Corporate power is placed under public service."
+    terms: ["cerer", "cel", "sarav", "lem"]
+  -
+    id: "civic-166"
+    track: "civic-law"
+    domain_tags: ["law-governance", "history-memory"]
+    register: "civic"
+    english: "The nonprofit protects memory."
+    ethra: "Nepef xap mer."
+    literal: "Nonprofit protects memory."
+    notes: "Mission bodies are evaluated by what they preserve."
+    terms: ["nepef", "xap", "mer"]
+  -
+    id: "civic-167"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "Retail sees the buyer."
+    ethra: "Retel rah xaben."
+    literal: "Retail recognizes buyer."
+    notes: "Commerce remains accountable to the person in exchange."
+    terms: ["retel", "rah", "xaben"]
+  -
+    id: "civic-168"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic"
+    english: "The ministry carries office."
+    ethra: "Menes taw xaf."
+    literal: "Ministry carries office."
+    notes: "Public administration is tied to delegated stewardship."
+    terms: ["menes", "taw", "xaf"]
+  -
+    id: "civic-169"
+    track: "civic-law"
+    domain_tags: ["law-governance", "emotion-psychology"]
+    register: "civic"
+    english: "Bureaucracy should remember the face."
+    ethra: "Berec cel mar roh."
+    literal: "Bureaucracy should remember face."
+    notes: "Administrative process is warned not to erase persons."
+    terms: ["berec", "cel", "mar", "roh"]
+  -
+    id: "civic-170"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The passport carries identity."
+    ethra: "Pepet taw yes."
+    literal: "Passport carries identity."
+    notes: "Travel documents are grounded in recognized personhood."
+    terms: ["pepet", "taw", "yes"]
+  -
+    id: "ritual-151"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "Prayer carries memory."
+    ethra: "Cec taw mer."
+    literal: "Prayer carries memory."
+    notes: "Ritual speech binds present need to remembered duty."
+    terms: ["cec", "taw", "mer"]
+  -
+    id: "ritual-152"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology", "art-beauty"]
+    register: "ritual"
+    english: "The psalm opens the heart."
+    ethra: "Pesel ap leb."
+    literal: "Psalm opens heart."
+    notes: "Sacred song is treated as disciplined vulnerability."
+    terms: ["pesel", "ap", "leb"]
+  -
+    id: "ritual-153"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "The temple protects attention."
+    ethra: "Temeb xap san."
+    literal: "Temple protects attention."
+    notes: "Sacred architecture guards what people notice."
+    terms: ["temeb", "xap", "san"]
+  -
+    id: "ritual-154"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "travel-place", "history-memory"]
+    register: "ritual"
+    english: "Pilgrimage walks toward memory."
+    ethra: "Pegem pat ad mer."
+    literal: "Pilgrimage walks toward memory."
+    notes: "Sacred travel is disciplined by remembered origin."
+    terms: ["pegem", "pat", "ad", "mer"]
+  -
+    id: "ritual-155"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "The candle carries light."
+    ethra: "Cened taw ner."
+    literal: "Candle carries light."
+    notes: "Small light becomes an act of attention."
+    terms: ["cened", "taw", "ner"]
+  -
+    id: "ritual-156"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory", "law-governance"]
+    register: "ritual"
+    english: "The symbol carries duty."
+    ethra: "Seben taw dev."
+    literal: "Symbol carries duty."
+    notes: "Ritual signs are memory-bearing obligations."
+    terms: ["seben", "taw", "dev"]
+  -
+    id: "ritual-157"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Mystery protects recognition."
+    ethra: "Mesey xap reh."
+    literal: "Mystery protects recognition."
+    notes: "Hidden depth keeps recognition from becoming possession."
+    terms: ["mesey", "xap", "reh"]
+  -
+    id: "ritual-158"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "Incense carries breath."
+    ethra: "Nedec taw nef."
+    literal: "Incense carries breath/life."
+    notes: "Ritual scent joins breath, offering, and attention."
+    terms: ["nedec", "taw", "nef"]
+  -
+    id: "ritual-159"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory", "art-beauty"]
+    register: "ritual"
+    english: "Veneration remembers dignity."
+    ethra: "Vegen mar hed."
+    literal: "Veneration remembers dignity."
+    notes: "Honor is treated as remembered worth."
+    terms: ["vegen", "mar", "hed"]
+  -
+    id: "ritual-160"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "history-memory"]
+    register: "ritual"
+    english: "Generosity serves the future."
+    ethra: "Geres sarav fer."
+    literal: "Generosity serves future."
+    notes: "Provision is aimed toward those not yet present."
+    terms: ["geres", "sarav", "fer"]
+  -
+    id: "ritual-161"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "The sacred sees me."
+    ethra: "Ha zer rah na."
+    literal: "Solemn sacred sees me."
+    notes: "Ultimate witness is stated without hiding agency."
+    terms: ["ha", "zer", "rah", "na"]
+  -
+    id: "ritual-162"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "ritual"
+    english: "A vow binds the word."
+    ethra: "Dov dav nem."
+    literal: "Vow binds word."
+    notes: "Speech becomes obligation in ritual register."
+    terms: ["dov", "dav", "nem"]
+  -
+    id: "ritual-163"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance", "media-communication"]
+    register: "ritual"
+    english: "A word binds duty."
+    ethra: "Nem dav dev."
+    literal: "Word binds duty."
+    notes: "Speech is structurally joined to burden and answerability."
+    terms: ["nem", "dav", "dev"]
+  -
+    id: "ritual-164"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory", "family-kinship"]
+    register: "ritual"
+    english: "Memory carries the ancestor."
+    ethra: "Mer taw mez."
+    literal: "Memory carries ancestor."
+    notes: "Ancestral continuity is made explicit through memory."
+    terms: ["mer", "taw", "mez"]
+  -
+    id: "ritual-165"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory", "family-kinship"]
+    register: "ritual"
+    english: "Home remembers the ancestor."
+    ethra: "Hen mar mez."
+    literal: "Home remembers ancestor."
+    notes: "Household is treated as a vessel of inherited memory."
+    terms: ["hen", "mar", "mez"]
+  -
+    id: "ritual-166"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics", "law-governance"]
+    register: "ritual"
+    english: "Ethics protects power."
+    ethra: "Tehek xap kev."
+    literal: "Ethics protects power."
+    notes: "Moral order is given a power-constraining role."
+    terms: ["tehek", "xap", "kev"]
+  -
+    id: "ritual-167"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics", "law-governance"]
+    register: "ritual"
+    english: "Meaning carries vow."
+    ethra: "Meyes taw dov."
+    literal: "Meaning carries vow."
+    notes: "Sense and obligation are joined in solemn speech."
+    terms: ["meyes", "taw", "dov"]
+  -
+    id: "ritual-168"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Being is sacred."
+    ethra: "Yenet e zir."
+    literal: "Being is sacred."
+    notes: "The accepted ZR adjective marks sacred quality."
+    terms: ["yenet", "e", "zir"]
+  -
+    id: "ritual-169"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Religion orders vow."
+    ethra: "Releg ban dov."
+    literal: "Religion builds/orders vow."
+    notes: "Sacred practice is judged by how it forms obligation."
+    terms: ["releg", "ban", "dov"]
+  -
+    id: "ritual-170"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "ritual"
+    english: "The sky witnesses prayer."
+    ethra: "Sekey rah cec."
+    literal: "Sky recognizes prayer."
+    notes: "The shared overhead world becomes ritual witness."
+    terms: ["sekey", "rah", "cec"]
+  -
+    id: "tech-151"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The tool protects the body."
+    ethra: "Tel xap gem."
+    literal: "Tool protects body."
+    notes: "Technical design is grounded in human bodily care."
+    terms: ["tel", "xap", "gem"]
+  -
+    id: "tech-152"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "The machine carries data."
+    ethra: "Mef taw den."
+    literal: "Machine carries data."
+    notes: "Machine function is tied to entrusted information."
+    terms: ["mef", "taw", "den"]
+  -
+    id: "tech-153"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The network protects data."
+    ethra: "New xap den."
+    literal: "Network protects data."
+    notes: "Connectivity is evaluated by the duty to guard records."
+    terms: ["new", "xap", "den"]
+  -
+    id: "tech-154"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "history-memory"]
+    register: "technical"
+    english: "Data remembers the model."
+    ethra: "Den mar med."
+    literal: "Data remembers model."
+    notes: "Model behavior is tied to retained evidence."
+    terms: ["den", "mar", "med"]
+  -
+    id: "tech-155"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "Security protects data."
+    ethra: "Xav xap den."
+    literal: "Security protects data."
+    notes: "Security is treated as a guardian of entrusted records."
+    terms: ["xav", "xap", "den"]
+  -
+    id: "tech-156"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "Configuration guides the build."
+    ethra: "Cenef pat belet."
+    literal: "Configuration guides build."
+    notes: "Settings are path-forming, not incidental."
+    terms: ["cenef", "pat", "belet"]
+  -
+    id: "tech-157"
+    track: "technical-software"
+    domain_tags: ["technology-software", "history-memory"]
+    register: "technical"
+    english: "Deployment writes the log."
+    ethra: "Depey warat leweg."
+    literal: "Deployment writes log."
+    notes: "Release activity must leave operational memory."
+    terms: ["depey", "warat", "leweg"]
+  -
+    id: "tech-158"
+    track: "technical-software"
+    domain_tags: ["technology-software", "history-memory"]
+    register: "technical"
+    english: "The trace carries the process."
+    ethra: "Terec taw perec."
+    literal: "Trace carries process."
+    notes: "Execution evidence is treated as path memory."
+    terms: ["terec", "taw", "perec"]
+  -
+    id: "tech-159"
+    track: "technical-software"
+    domain_tags: ["technology-software", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The flag shapes action."
+    ethra: "Feleg ban val."
+    literal: "Flag forms action."
+    notes: "Feature flags are small signs that govern behavior."
+    terms: ["feleg", "ban", "val"]
+  -
+    id: "tech-160"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "The plugin builds capability."
+    ethra: "Peleg ban kev."
+    literal: "Plugin builds capability."
+    notes: "Extension vocabulary is grounded in added power."
+    terms: ["peleg", "ban", "kev"]
+  -
+    id: "tech-161"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "The package carries dependency."
+    ethra: "Pekeg taw depen."
+    literal: "Package carries dependency."
+    notes: "Packaging is made accountable to its required supports."
+    terms: ["pekeg", "taw", "depen"]
+  -
+    id: "tech-162"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "Validation protects data."
+    ethra: "Veled xap den."
+    literal: "Validation protects data."
+    notes: "Rule checks guard facts before trust."
+    terms: ["veled", "xap", "den"]
+  -
+    id: "tech-163"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The test reveals error."
+    ethra: "Teset rah rex."
+    literal: "Test reveals error."
+    notes: "Testing is controlled witnessing of failure."
+    terms: ["teset", "rah", "rex"]
+  -
+    id: "tech-164"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "media-communication"]
+    register: "technical"
+    english: "The language model speaks words."
+    ethra: "Lelem nam nem."
+    literal: "Language-model speaks word."
+    notes: "Generated text remains under speech accountability."
+    terms: ["lelem", "nam", "nem"]
+  -
+    id: "tech-165"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The neural network learns the model."
+    ethra: "Nerel dak med."
+    literal: "Neural-network learns model."
+    notes: "Learned relation systems are tied to disciplined learning."
+    terms: ["nerel", "dak", "med"]
+  -
+    id: "tech-166"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "Training builds capability."
+    ethra: "Tereg ban kev."
+    literal: "Training builds capability."
+    notes: "Model formation is kept close to agency and power."
+    terms: ["tereg", "ban", "kev"]
+  -
+    id: "tech-167"
+    track: "technical-software"
+    domain_tags: ["technology-software", "history-memory"]
+    register: "technical"
+    english: "Retrieval carries memory."
+    ethra: "Reteg taw mer."
+    literal: "Retrieval carries memory."
+    notes: "Search-augmented systems are grounded as memory answering."
+    terms: ["reteg", "taw", "mer"]
+  -
+    id: "tech-168"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "philosophy-metaphysics"]
+    register: "technical"
+    english: "Embedding carries meaning."
+    ethra: "Mebed taw meyes."
+    literal: "Embedding carries meaning."
+    notes: "Dense representations are kept accountable to sense."
+    terms: ["mebed", "taw", "meyes"]
+  -
+    id: "tech-169"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "Classification names category."
+    ethra: "Kelef nam gec."
+    literal: "Classification names category."
+    notes: "Label assignment is made visibly a naming judgment."
+    terms: ["kelef", "nam", "gec"]
+  -
+    id: "tech-170"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The gateway protects the request."
+    ethra: "Gewet xap rekes."
+    literal: "Gateway protects request."
+    notes: "System boundaries are tied to accountable access."
+    terms: ["gewet", "xap", "rekes"]
+  -
+    id: "poetic-151"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "The world remembers the future."
+    ethra: "Wed mar fer."
+    literal: "World remembers future."
+    notes: "The inhabited world is imagined as already bearing future claimants."
+    terms: ["wed", "mar", "fer"]
+  -
+    id: "poetic-152"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "Water flows by memory."
+    ethra: "Fel fal bi mer."
+    literal: "Water flows by memory."
+    notes: "Flow is given continuity rather than formlessness."
+    terms: ["fel", "fal", "bi", "mer"]
+  -
+    id: "poetic-153"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The sky carries light."
+    ethra: "Sekey taw ner."
+    literal: "Sky carries light."
+    notes: "Natural imagery keeps clarity above the public world."
+    terms: ["sekey", "taw", "ner"]
+  -
+    id: "poetic-154"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "The glacier remembers time."
+    ethra: "Gelec mar tes."
+    literal: "Glacier remembers time."
+    notes: "Slow ice becomes an image of deep duration."
+    terms: ["gelec", "mar", "tes"]
+  -
+    id: "poetic-155"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "body-health"]
+    register: "poetic"
+    english: "Gravity calls the body."
+    ethra: "Gerev nam gem."
+    literal: "Gravity calls body."
+    notes: "Physical attraction is rendered as a calling relation."
+    terms: ["gerev", "nam", "gem"]
+  -
+    id: "poetic-156"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "technology-software"]
+    register: "poetic"
+    english: "Electricity flows by the wire."
+    ethra: "Leket fal bi werec."
+    literal: "Electricity flows by wire."
+    notes: "Technical physics is allowed poetic cadence without losing clarity."
+    terms: ["leket", "fal", "bi", "werec"]
+  -
+    id: "poetic-157"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Plasma is light."
+    ethra: "Pezem e ner."
+    literal: "Plasma is light."
+    notes: "A science term is placed in elemental poetic register."
+    terms: ["pezem", "e", "ner"]
+  -
+    id: "poetic-158"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Empathy opens the heart."
+    ethra: "Mepet ap leb."
+    literal: "Empathy opens heart."
+    notes: "Emotional recognition becomes interior opening."
+    terms: ["mepet", "ap", "leb"]
+  -
+    id: "poetic-159"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology", "media-communication"]
+    register: "poetic"
+    english: "Irony covers the face."
+    ethra: "Yeren car roh."
+    literal: "Irony covers face."
+    notes: "Reversed speech is a mask over presence."
+    terms: ["yeren", "car", "roh"]
+  -
+    id: "poetic-160"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology", "conflict-security"]
+    register: "poetic"
+    english: "Conversation repairs loneliness."
+    ethra: "Cenev tar lenes."
+    literal: "Conversation repairs loneliness."
+    notes: "Dialogue is treated as restoration of social nearness."
+    terms: ["cenev", "tar", "lenes"]
+  -
+    id: "poetic-161"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Humor sees frustration."
+    ethra: "Hemer rah ferel."
+    literal: "Humor recognizes frustration."
+    notes: "Humor is made perceptive, not evasive."
+    terms: ["hemer", "rah", "ferel"]
+  -
+    id: "poetic-162"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology", "ritual-spiritual"]
+    register: "poetic"
+    english: "Kindness carries vow."
+    ethra: "Kened taw dov."
+    literal: "Kindness carries vow."
+    notes: "Gentleness is raised into binding seriousness."
+    terms: ["kened", "taw", "dov"]
+  -
+    id: "poetic-163"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology", "family-kinship"]
+    register: "poetic"
+    english: "Generosity opens home."
+    ethra: "Geres ap hen."
+    literal: "Generosity opens home."
+    notes: "Provision becomes hospitality rather than display."
+    terms: ["geres", "ap", "hen"]
+  -
+    id: "poetic-164"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Meaning is visible."
+    ethra: "Meyes e rih."
+    literal: "Meaning is visible."
+    notes: "Abstract sense receives visual clarity."
+    terms: ["meyes", "e", "rih"]
+  -
+    id: "poetic-165"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Paradox breaks recognition."
+    ethra: "Pedex mak reh."
+    literal: "Paradox breaks recognition."
+    notes: "Truth-tension becomes a break that calls for repair."
+    terms: ["pedex", "mak", "reh"]
+  -
+    id: "poetic-166"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics", "travel-place"]
+    register: "poetic"
+    english: "Analogy builds a bridge."
+    ethra: "Neleg ban veh."
+    literal: "Analogy builds bridge."
+    notes: "Likeness across difference is treated as conceptual travel."
+    terms: ["neleg", "ban", "veh"]
+  -
+    id: "poetic-167"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory", "media-communication"]
+    register: "poetic"
+    english: "The dictionary remembers the people."
+    ethra: "Decet mar lem."
+    literal: "Dictionary remembers people."
+    notes: "Word memory becomes a public cultural image."
+    terms: ["decet", "mar", "lem"]
+  -
+    id: "poetic-168"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory", "media-communication"]
+    register: "poetic"
+    english: "The library carries silence."
+    ethra: "Lebey taw cez."
+    literal: "Library carries silence."
+    notes: "Silence is rendered as carried attention."
+    terms: ["lebey", "taw", "cez"]
+  -
+    id: "poetic-169"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "travel-place"]
+    register: "poetic"
+    english: "News walks through the city."
+    ethra: "Newes pat cet."
+    literal: "News walks city."
+    notes: "Public report moves through the civic body."
+    terms: ["newes", "pat", "cet"]
+  -
+    id: "poetic-170"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory", "daily-life"]
+    register: "poetic"
+    english: "The clock names time."
+    ethra: "Celek nam tes."
+    literal: "Clock names time."
+    notes: "Measured hours become a visible act of speech."
+    terms: ["celek", "nam", "tes"]
+  -
+    id: "learner-151"
+    track: "learner-graded"
+    domain_tags: ["family-kinship"]
+    register: "learner-a1"
+    english: "Home protects the child."
+    ethra: "Hen xap jal."
+    literal: "Home protects child."
+    notes: "Learner family-care sentence."
+    terms: ["hen", "xap", "jal"]
+  -
+    id: "learner-152"
+    track: "learner-graded"
+    domain_tags: ["body-health"]
+    register: "learner-a1"
+    english: "The body carries breath."
+    ethra: "Gem taw nef."
+    literal: "Body carries breath."
+    notes: "Learner body-life sentence."
+    terms: ["gem", "taw", "nef"]
+  -
+    id: "learner-153"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "Food empowers the body."
+    ethra: "Fed kav gem."
+    literal: "Food empowers body."
+    notes: "Learner provision-body sentence."
+    terms: ["fed", "kav", "gem"]
+  -
+    id: "learner-154"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "The mirror reveals the face."
+    ethra: "Merer rah roh."
+    literal: "Mirror reveals face."
+    notes: "Learner recognition sentence."
+    terms: ["merer", "rah", "roh"]
+  -
+    id: "learner-155"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "learner-a1"
+    english: "Paper carries the word."
+    ethra: "Peper taw nem."
+    literal: "Paper carries word."
+    notes: "Learner media sentence."
+    terms: ["peper", "taw", "nem"]
+  -
+    id: "learner-156"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "history-memory"]
+    register: "learner-a1"
+    english: "The clock names time."
+    ethra: "Celek nam tes."
+    literal: "Clock names time."
+    notes: "Learner time sentence."
+    terms: ["celek", "nam", "tes"]
+  -
+    id: "learner-157"
+    track: "learner-graded"
+    domain_tags: ["technology-software", "science-math"]
+    register: "learner-a2"
+    english: "The wire carries electricity."
+    ethra: "Werec taw leket."
+    literal: "Wire carries electricity."
+    notes: "Learner technology-physics sentence."
+    terms: ["werec", "taw", "leket"]
+  -
+    id: "learner-158"
+    track: "learner-graded"
+    domain_tags: ["technology-software"]
+    register: "learner-a1"
+    english: "The battery carries power."
+    ethra: "Betey taw kev."
+    literal: "Battery carries power."
+    notes: "Learner energy-storage sentence."
+    terms: ["betey", "taw", "kev"]
+  -
+    id: "learner-159"
+    track: "learner-graded"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "The candle carries light."
+    ethra: "Cened taw ner."
+    literal: "Candle carries light."
+    notes: "Learner ritual-light sentence."
+    terms: ["cened", "taw", "ner"]
+  -
+    id: "learner-160"
+    track: "learner-graded"
+    domain_tags: ["law-governance"]
+    register: "learner-a1"
+    english: "The rule protects the right."
+    ethra: "Reg xap ret."
+    literal: "Rule protects right."
+    notes: "Learner civic sentence."
+    terms: ["reg", "xap", "ret"]
+  -
+    id: "learner-161"
+    track: "learner-graded"
+    domain_tags: ["law-governance"]
+    register: "learner-a1"
+    english: "The office carries duty."
+    ethra: "Xaf taw dev."
+    literal: "Office carries duty."
+    notes: "Learner office-duty sentence."
+    terms: ["xaf", "taw", "dev"]
+  -
+    id: "learner-162"
+    track: "learner-graded"
+    domain_tags: ["law-governance", "history-memory"]
+    register: "learner-a1"
+    english: "The record remembers judgment."
+    ethra: "Ket mar jev."
+    literal: "Record remembers judgment."
+    notes: "Learner legal-memory sentence."
+    terms: ["ket", "mar", "jev"]
+  -
+    id: "learner-163"
+    track: "learner-graded"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "learner-a1"
+    english: "Tax serves the people."
+    ethra: "Tax sarav lem."
+    literal: "Tax serves people."
+    notes: "Learner public-service sentence."
+    terms: ["tax", "sarav", "lem"]
+  -
+    id: "learner-164"
+    track: "learner-graded"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "learner-a1"
+    english: "The psalm opens the heart."
+    ethra: "Pesel ap leb."
+    literal: "Psalm opens heart."
+    notes: "Learner ritual-emotion sentence."
+    terms: ["pesel", "ap", "leb"]
+  -
+    id: "learner-165"
+    track: "learner-graded"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "The temple protects attention."
+    ethra: "Temeb xap san."
+    literal: "Temple protects attention."
+    notes: "Learner sacred-attention sentence."
+    terms: ["temeb", "xap", "san"]
+  -
+    id: "learner-166"
+    track: "learner-graded"
+    domain_tags: ["technology-software", "body-health"]
+    register: "learner-a1"
+    english: "The tool protects data."
+    ethra: "Tel xap den."
+    literal: "Tool protects data."
+    notes: "Learner technical-protection sentence."
+    terms: ["tel", "xap", "den"]
+  -
+    id: "learner-167"
+    track: "learner-graded"
+    domain_tags: ["technology-software"]
+    register: "learner-a1"
+    english: "The machine carries data."
+    ethra: "Mef taw den."
+    literal: "Machine carries data."
+    notes: "Learner machine-data sentence."
+    terms: ["mef", "taw", "den"]
+  -
+    id: "learner-168"
+    track: "learner-graded"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "learner-a1"
+    english: "The network protects data."
+    ethra: "New xap den."
+    literal: "Network protects data."
+    notes: "Learner network-data sentence."
+    terms: ["new", "xap", "den"]
+  -
+    id: "learner-169"
+    track: "learner-graded"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "learner-a1"
+    english: "The test reveals error."
+    ethra: "Teset rah rex."
+    literal: "Test reveals error."
+    notes: "Learner testing sentence."
+    terms: ["teset", "rah", "rex"]
+  -
+    id: "learner-170"
+    track: "learner-graded"
+    domain_tags: ["nature-ecology", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "The world is visible."
+    ethra: "Wed e rih."
+    literal: "World is visible."
+    notes: "Learner nature-visibility sentence."
+    terms: ["wed", "e", "rih"]
