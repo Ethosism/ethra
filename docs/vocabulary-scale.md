@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 20,057 explicit lexicon entries and 1,020 reviewed corpus items after the v0.3.12 corpus-planning tooling batch. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 20,057 explicit lexicon entries and 1,140 reviewed corpus items after the v0.3.13 governed corpus expansion batch. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.5 public-culture target:
 
 ```text
 entries 20,057 / 10,000
 roots     1,000 / 1,000
-corpus    1,020 / 2,000 reviewed items
+corpus    1,140 / 2,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -62,9 +62,11 @@ The v0.3.10 corpus batch adds 100 reviewed examples grounding recent civic, ritu
 
 The v0.3.11 corpus batch adds 120 reviewed examples across all six tracks, bringing each track to 170 items. It strengthens ordinary household speech, civic/legal accountability, ritual/vow formulae, technical/software and AI usage, poetic science/nature imagery, and learner-grade sentences.
 
-The v0.3.12 tooling batch adds `corpus-next`, a governed next-batch planner that computes proportional track quotas, next corpus IDs, active milestone gaps, and under-covered domains. At the current v0.5 gap, a 120-item batch should prioritize daily, technical, and poetic tracks while adding smaller civic, ritual, and learner increments.
+The v0.3.12 tooling batch adds `corpus-next`, a governed next-batch planner that computes proportional track quotas, next corpus IDs, active milestone gaps, and under-covered domains. At the v0.3.12 gap, a 120-item batch was expected to prioritize daily, technical, and poetic tracks while adding smaller civic, ritual, and learner increments.
 
-The v0.5 entry and root targets are now met. The main remaining v0.5 gap is reviewed corpus depth, now 1,020 / 2,000.
+The v0.3.13 corpus batch applies that planner output, adding 120 reviewed examples across the daily, civic, ritual, technical, poetic, and learner tracks. It increases pressure on science, AI, education, economics, conflict/security, philosophy, nature, and body-health domains while preserving proportional track growth.
+
+The v0.5 entry and root targets are now met. The main remaining v0.5 gap is reviewed corpus depth, now 1,140 / 2,000.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
