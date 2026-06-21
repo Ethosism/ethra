@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 40,057 explicit lexicon entries, 40,212 dictionary entries, 2,000 root families, and 4,400 reviewed corpus items after the v0.9.5 ordinary civil infrastructure corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 41,057 explicit lexicon entries, 41,212 dictionary entries, 2,050 root families, and 4,400 reviewed corpus items after the v0.9.6 formal systems and continuity root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
 ```text
-entries 40,057 / 25,000
-dictionary 40,212 entries with corpus evidence fields
-roots     2,000 / 2,500
+entries 41,057 / 25,000
+dictionary 41,212 entries with corpus evidence fields
+roots     2,050 / 2,500
 corpus    4,400 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
@@ -173,7 +173,9 @@ The v0.9.4 ordinary civil infrastructure root batch adds 50 roots and 1,000 deri
 
 The v0.9.5 ordinary civil infrastructure corpus grounding batch adds 120 reviewed examples across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds household appliances, sanitation, heating and cooling, rent and tenancy, layoffs and unemployment, labor unions, strikes, referenda, ombuds reports, copyright and trademark records, customs and immigration files, elevators, stairs, terminals, traffic, cemeteries, funerals, genealogy, chronicles, oral history, ruins, and artifacts in ordinary, civic, ritual, technical, poetic, and learner use.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 500 more root families and 5,600 more reviewed corpus items still needed.
+The v0.9.6 formal systems and continuity root batch adds 50 roots and 1,000 derived lexicon entries across physical measurement, modal logic, argument quality, emotional precision, ecological repair, AI operation, education gatekeeping, and migration/security process. It adds dimensions, mass, force, velocity, acceleration, momentum, inertia, friction, density, volume, viscosity, turbulence, necessity, possibility, contingency, essence, substance, premises, validity, soundness, disgust, ambivalence, dread, relief, yearning, bitterness, embarrassment, compassion, deforestation, reforestation, habitat corridors, carrying capacity, microclimates, riparian zones, groundwater recharge, subsidence, orientation, admission, accreditation, capstones, confidence scores, verification suites, workflows, replays, asylum, deportation, resettlement, evacuation, ceasefires, and safe passage.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 450 more root families and 5,600 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
