@@ -1,10 +1,10 @@
 # Ethra Language
 
-Ethra is a v0.8.7 constructed civilizational language. It is not meant to be an Esperanto clone, a naming toy, or an aesthetic exercise. Its design goal is to make certain cultural habits native to ordinary speech: truth, duty, beauty, memory, agency, consequence, inheritance, repair, love as recognition, speech as binding, and the future as a moral claimant.
+Ethra is a v0.8.8 constructed civilizational language. It is not meant to be an Esperanto clone, a naming toy, or an aesthetic exercise. Its design goal is to make certain cultural habits native to ordinary speech: truth, duty, beauty, memory, agency, consequence, inheritance, repair, love as recognition, speech as binding, and the future as a moral claimant.
 
 The working name is kept as **Ethra** because it is short, pronounceable, and internally useful: `eth` evokes ethos and `ra` evokes seeing. The name therefore sounds like "ethos made visible."
 
-Status: v0.8.7 has passed the public-culture gate and begun the v1.0 expansion program: generated YAML data, productive derivation patterns, 1,800 root families, 36,057 lexicon entries, 36,212 dictionary entries, 3,920 reviewed corpus items, TypeScript CLI, compound terminology, sentence parsing, corpus search, dictionary lookup, governed style checking, governed term proposal packets, corpus/governance planning, and tests.
+Status: v0.8.8 has passed the public-culture gate and begun the v1.0 expansion program: generated YAML data, productive derivation patterns, 1,850 root families, 37,057 lexicon entries, 37,212 dictionary entries, 3,920 reviewed corpus items, TypeScript CLI, compound terminology, sentence parsing, corpus search, dictionary lookup, governed style checking, governed term proposal packets, corpus/governance planning, and tests.
 
 Repository: <https://github.com/Ethosism/ethra>
 
@@ -30,9 +30,9 @@ Ethra treats language as training. What is easy to say becomes easy to notice. W
 - **Tense/aspect:** particles such as `pa`, `nu`, `fu`, `ka`, `ga`, `va`.
 - **Moral grammar:** particles distinguish can, may, want, choose, should, owe, vow, inherited duty, chosen duty, entrusted duty, repair, and scope of action.
 - **Relational grammar:** pronouns distinguish beloved, equal, elder/teacher, child/student, citizen, opponent, sacred addressee, and collective people.
-- **Roots:** 1,800 root families with 20 productive derivation patterns per root.
+- **Roots:** 1,850 root families with 20 productive derivation patterns per root.
 - **Derivation:** action, concept, quality, agent, object, ritual, civic, intimate, process, instrument, place, doctrine, collective, lack, category, discipline, office, record, right, and vow forms.
-- **Lexicon:** generated core lexicon with 36,057 explicit entries across pronouns, particles, moral agency, family, body, mind, emotion, seeing/knowing, speech, time, nature, building/making, law/civic life, technology, ritual/poetry, love/intimacy, conflict/repair, and future/civilization.
+- **Lexicon:** generated core lexicon with 37,057 explicit entries across pronouns, particles, moral agency, family, body, mind, emotion, seeing/knowing, speech, time, nature, building/making, law/civic life, technology, ritual/poetry, love/intimacy, conflict/repair, and future/civilization.
 - **Compounds:** 100 curated compound terms for German-style conceptual architecture.
 - **Machine-readable spec:** YAML files in `spec/` for phonology, derivation patterns, roots, particles, pronouns, grammar, syntax, dictionary schema, lexicon, compounds, corpus, roadmap, domains, governance, style, and examples.
 - **Corpus:** 3,920 reviewed seed corpus items across daily dialogue, civic/legal, ritual/vow, technical/software, literary/poetic, and learner tracks.
@@ -184,7 +184,7 @@ The generated YAML is committed intentionally. It is the stable interface for fu
 - Deeper parser coverage for full noun phrases, coordination, nested clauses, and corpus batch review.
 - Better phonotactic syllabification.
 - Keep the 25,000-entry gate met while adding corpus evidence.
-- Expand from 1,800 to 2,500 root families.
+- Expand from 1,850 to 2,500 root families.
 - Expand from 3,920 to 10,000 reviewed corpus items.
 - Use `corpus-next` to keep v1.0 corpus batches proportional to track targets and under-covered domains.
 - Expanded law, software, poetry, and prayer registers.
