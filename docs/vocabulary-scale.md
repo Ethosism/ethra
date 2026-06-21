@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 28,057 explicit lexicon entries, 28,212 dictionary entries, 1,400 root families, and 2,840 reviewed corpus items after the v0.7.0 material-culture root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 28,057 explicit lexicon entries, 28,212 dictionary entries, 1,400 root families, and 2,960 reviewed corpus items after the v0.7.1 material-culture corpus batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
@@ -8,7 +8,7 @@ Current progress toward the v1.0 stable-civil-language target:
 entries 28,057 / 25,000
 dictionary 28,212 entries with corpus evidence fields
 roots     1,400 / 2,500
-corpus    2,840 / 10,000 reviewed items
+corpus    2,960 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -123,7 +123,9 @@ The v0.6.9 corpus grounding batch adds 120 reviewed examples using the v0.6.8 ro
 
 The v0.7.0 material-culture root batch adds 50 roots and 1,000 derived lexicon entries for clothing, food, bedding, cleaning, sewing, storage, cooking vessels, commerce tokens, and utensils. It gives Ethra more ordinary-life grip: shirts, trousers, jackets, shoes, hats, pockets, buttons, belts, scarves, gloves, bread, fruit, vegetables, meat, milk, salt, spices, oil, eggs, rice, pillows, blankets, mattresses, soap, brushes, curtains, needles, string, closets, stoves, wallets, addresses, coupons, discounts, reservations, appointments, subscriptions, barcodes, tickets, catalogs, knives, spoons, forks, plates, bowls, cups, pans, pots, trays, and umbrellas.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 1,100 more root families and 7,160 more reviewed corpus items still needed.
+The v0.7.1 corpus grounding batch adds 120 reviewed examples using the v0.7.0 roots across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds clothing, food, bedding, cleaning, sewing, storage, cookware, dishware, wallet/address/payment objects, reservations, appointments, subscriptions, barcodes, tickets, and catalogs in household, civic, ritual, technical, poetic, and learner use.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 1,100 more root families and 7,040 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 

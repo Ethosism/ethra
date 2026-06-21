@@ -1,4 +1,4 @@
-version: "0.7.0-corpus"
+version: "0.7.1-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -28401,3 +28401,1203 @@ items:
     literal: "Hydration protects body."
     notes: "A1 health sentence."
     terms: ["heyeder", "xap", "gom"]
+  -
+    id: "daily-569"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "household"
+    english: "The shirt protects the body."
+    ethra: "Seheret xap gom."
+    literal: "Shirt protects body."
+    notes: "Grounds ordinary clothing as dignity-bearing bodily care."
+    terms: ["seheret", "xap", "gom"]
+  -
+    id: "daily-570"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "household"
+    english: "The trousers carry the work of the day."
+    ethra: "Tereser taw kar."
+    literal: "Trousers carry craft/work."
+    notes: "Clothing is tied to movement and useful labor."
+    terms: ["tereser", "taw", "kar"]
+  -
+    id: "daily-571"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The jacket protects the child."
+    ethra: "Jeket xap tu."
+    literal: "Jacket protects child-student."
+    notes: "Outer clothing enters ordinary care speech."
+    terms: ["jeket", "xap", "tu"]
+  -
+    id: "daily-572"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "The shoe protects the road-walking body."
+    ethra: "Ceweh xap gom."
+    literal: "Shoe protects body."
+    notes: "Footwear is framed as protection on the path."
+    terms: ["ceweh", "xap", "gom"]
+  -
+    id: "daily-573"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The hat protects the head."
+    ethra: "Hetex xap xel."
+    literal: "Hat protects head."
+    notes: "Head covering is grounded in bodily protection."
+    terms: ["hetex", "xap", "xel"]
+  -
+    id: "daily-574"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "The pocket carries the wallet."
+    ethra: "Pewec taw welet."
+    literal: "Pocket carries wallet."
+    notes: "Near possessions are handled as ordinary bodily custody."
+    terms: ["pewec", "taw", "welet"]
+  -
+    id: "daily-575"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The button binds the shirt."
+    ethra: "Beten dav seheret."
+    literal: "Button binds shirt."
+    notes: "A fastener is treated as small practical fidelity."
+    terms: ["beten", "dav", "seheret"]
+  -
+    id: "daily-576"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The belt binds the trousers."
+    ethra: "Gedel dav tereser."
+    literal: "Belt binds trousers."
+    notes: "Dress is made orderly through binding without moralizing status."
+    terms: ["gedel", "dav", "tereser"]
+  -
+    id: "daily-577"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The scarf protects the throat."
+    ethra: "Sekeref xap neler."
+    literal: "Scarf protects throat."
+    notes: "Warmth and voice protection meet in a household sentence."
+    terms: ["sekeref", "xap", "neler"]
+  -
+    id: "daily-578"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The glove protects the hand."
+    ethra: "Gelev xap rem."
+    literal: "Glove protects hand."
+    notes: "Work-touch is guarded without removing agency."
+    terms: ["gelev", "xap", "rem"]
+  -
+    id: "daily-579"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "household"
+    english: "Bread feeds the household."
+    ethra: "Berex fad hon."
+    literal: "Bread feeds household."
+    notes: "Staple food is connected to household provision."
+    terms: ["berex", "fad", "hon"]
+  -
+    id: "daily-580"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Fruit carries the future."
+    ethra: "Ferej taw fer."
+    literal: "Fruit carries future."
+    notes: "Seed-bearing food keeps future consciousness visible."
+    terms: ["ferej", "taw", "fer"]
+  -
+    id: "daily-581"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "Vegetables protect the body."
+    ethra: "Vegej xap gom."
+    literal: "Vegetable protects body."
+    notes: "Ordinary nutrition vocabulary joins body-health speech."
+    terms: ["vegej", "xap", "gom"]
+  -
+    id: "daily-582"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "household"
+    english: "Meat carries provision and seriousness."
+    ethra: "Metef taw par."
+    literal: "Meat carries provision."
+    notes: "Animal food is placed under provision rather than appetite alone."
+    terms: ["metef", "taw", "par"]
+  -
+    id: "daily-583"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "body-health"]
+    register: "household"
+    english: "Milk feeds the child."
+    ethra: "Meleg fad tu."
+    literal: "Milk feeds child-student."
+    notes: "Milk enters family care and child speech."
+    terms: ["meleg", "fad", "tu"]
+  -
+    id: "daily-584"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Salt preserves provision."
+    ethra: "Selet mar par."
+    literal: "Salt remembers/preserves provision."
+    notes: "Preservation uses the memory root to connect food with continuity."
+    terms: ["selet", "mar", "par"]
+  -
+    id: "daily-585"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Spice awakens the heart of food."
+    ethra: "Sepes rah leb."
+    literal: "Spice reveals heart."
+    notes: "Flavor is treated as noticing, not merely stimulation."
+    terms: ["sepes", "rah", "leb"]
+  -
+    id: "daily-586"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "household"
+    english: "Oil carries food to heat."
+    ethra: "Yelec taw par."
+    literal: "Oil carries provision."
+    notes: "Cooking fat is ordinary provision in motion."
+    terms: ["yelec", "taw", "par"]
+  -
+    id: "daily-587"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "The egg carries life."
+    ethra: "Yegex taw nef."
+    literal: "Egg carries life."
+    notes: "The food word preserves the possible-life sense."
+    terms: ["yegex", "taw", "nef"]
+  -
+    id: "daily-588"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "household"
+    english: "Rice feeds the people."
+    ethra: "Reyes fad lem."
+    literal: "Rice feeds people."
+    notes: "Staple grain is linked to collective survival."
+    terms: ["reyes", "fad", "lem"]
+  -
+    id: "daily-589"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "household"
+    english: "The pillow protects rest."
+    ethra: "Pelew xap cap."
+    literal: "Pillow protects sleep/rest."
+    notes: "Rest is treated as bodily restoration."
+    terms: ["pelew", "xap", "cap"]
+  -
+    id: "daily-590"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "household"
+    english: "The blanket protects the child."
+    ethra: "Belenek xap tu."
+    literal: "Blanket protects child-student."
+    notes: "Warm covering is direct household care."
+    terms: ["belenek", "xap", "tu"]
+  -
+    id: "daily-591"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "household"
+    english: "Soap repairs the body."
+    ethra: "Sewep tar gom."
+    literal: "Soap repairs body."
+    notes: "Washing is framed as repair and restoration."
+    terms: ["sewep", "tar", "gom"]
+  -
+    id: "daily-592"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "household"
+    english: "The umbrella protects the child on the path."
+    ethra: "Meberel xap tu."
+    literal: "Umbrella protects child-student."
+    notes: "Portable shelter becomes ordinary care in travel."
+    terms: ["meberel", "xap", "tu"]
+  -
+    id: "civic-427"
+    track: "civic-law"
+    domain_tags: ["law-governance", "daily-life", "body-health"]
+    register: "civic"
+    english: "The uniform shirt standard is recorded."
+    ethra: "Pu saharat-da kat."
+    literal: "Public shirt-standard recorded."
+    notes: "Clothing standards enter public record without status hierarchy."
+    terms: ["pu", "saharat-da", "kat"]
+  -
+    id: "civic-428"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health"]
+    register: "civic"
+    english: "The shoe safety standard protects the body."
+    ethra: "Pu cawah-da xap gom."
+    literal: "Public shoe-standard protects body."
+    notes: "Safety rules are justified by bodily protection."
+    terms: ["pu", "cawah-da", "xap", "gom"]
+  -
+    id: "civic-429"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health"]
+    register: "civic"
+    english: "The glove standard protects the hand."
+    ethra: "Pu galav-da xap rem."
+    literal: "Public glove-standard protects hand."
+    notes: "Work equipment is public care for working hands."
+    terms: ["pu", "galav-da", "xap", "rem"]
+  -
+    id: "civic-430"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health"]
+    register: "civic"
+    english: "The drinkware standard protects life."
+    ethra: "Pu kawap-da xap nef."
+    literal: "Public cup-standard protects life."
+    notes: "Sanitation rules connect ordinary vessels to public health."
+    terms: ["pu", "kawap-da", "xap", "nef"]
+  -
+    id: "civic-431"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health"]
+    register: "civic"
+    english: "The soap standard protects life."
+    ethra: "Pu sawap-da xap nef."
+    literal: "Public soap-standard protects life."
+    notes: "Civic hygiene vocabulary remains morally legible."
+    terms: ["pu", "sawap-da", "xap", "nef"]
+  -
+    id: "civic-432"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic"
+    english: "The ticket record is public."
+    ethra: "Pu takat-da kat."
+    literal: "Public ticket-standard recorded."
+    notes: "Entry and travel claims become inspectable records."
+    terms: ["pu", "takat-da", "kat"]
+  -
+    id: "civic-433"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic"
+    english: "The address record makes a place findable."
+    ethra: "Deres-ket rah wed."
+    literal: "Address-record reveals place."
+    notes: "Civic address is reachability without ownership."
+    terms: ["deres-ket", "rah", "wed"]
+  -
+    id: "civic-434"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic"
+    english: "The reservation rule creates obligation."
+    ethra: "Pu rasavan-da e dev."
+    literal: "Public reservation-rule is duty."
+    notes: "A held place is treated as a binding promise."
+    terms: ["pu", "rasavan-da", "e", "dev"]
+  -
+    id: "civic-435"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The appointment record measures time."
+    ethra: "Panatam-ket mes tem."
+    literal: "Appointment-record measures time."
+    notes: "Scheduled attention becomes a public time claim."
+    terms: ["panatam-ket", "mes", "tem"]
+  -
+    id: "civic-436"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The subscription rule binds continuing service."
+    ethra: "Pu sabasac-da dav sevec."
+    literal: "Public subscription-rule binds service."
+    notes: "Recurring access is explicitly treated as obligation."
+    terms: ["pu", "sabasac-da", "dav", "sevec"]
+  -
+    id: "civic-437"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software"]
+    register: "civic"
+    english: "The barcode registry reveals data."
+    ethra: "Barakad-da rah den."
+    literal: "Barcode-registry reveals data."
+    notes: "Machine-readable marks are brought under public legibility."
+    terms: ["barakad-da", "rah", "den"]
+  -
+    id: "civic-438"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "The catalog record guides choice."
+    ethra: "Katalag-da pat vel."
+    literal: "Catalog-record guides choice."
+    notes: "Public lists should order desire toward informed choice."
+    terms: ["katalag-da", "pat", "vel"]
+  -
+    id: "civic-439"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The coupon rule carries a claim."
+    ethra: "Pu kapan-da taw ret."
+    literal: "Public coupon-rule carries right/claim."
+    notes: "A voucher is treated as a limited claim, not magic money."
+    terms: ["pu", "kapan-da", "taw", "ret"]
+  -
+    id: "civic-440"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The discount record measures price."
+    ethra: "Dasacan-ket mes tec."
+    literal: "Discount-record measures price."
+    notes: "Reduced cost remains auditable exchange."
+    terms: ["dasacan-ket", "mes", "tec"]
+  -
+    id: "civic-441"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health"]
+    register: "civic"
+    english: "The pot standard protects life."
+    ethra: "Pu patax-da xap nef."
+    literal: "Public pot-standard protects life."
+    notes: "Kitchen safety is treated as public health."
+    terms: ["pu", "patax-da", "xap", "nef"]
+  -
+    id: "civic-442"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health"]
+    register: "civic"
+    english: "The pan standard protects life."
+    ethra: "Pu panax-da xap nef."
+    literal: "Public pan-standard protects life."
+    notes: "Cookware rules belong to safety rather than bureaucracy alone."
+    terms: ["pu", "panax-da", "xap", "nef"]
+  -
+    id: "civic-443"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "The knife rule protects the hand."
+    ethra: "Pu kanaf-da xap rem."
+    literal: "Public knife-rule protects hand."
+    notes: "Sharp tools carry service and danger together."
+    terms: ["pu", "kanaf-da", "xap", "rem"]
+  -
+    id: "civic-444"
+    track: "civic-law"
+    domain_tags: ["law-governance", "daily-life"]
+    register: "civic"
+    english: "The plate standard protects the meal."
+    ethra: "Pu paladax-da xap par."
+    literal: "Public plate-standard protects provision."
+    notes: "Ordinary dishware becomes part of inspected provision."
+    terms: ["pu", "paladax-da", "xap", "par"]
+  -
+    id: "ritual-427"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "ritual"
+    english: "May bread be held with duty."
+    ethra: "Ha ha-burux ko dev."
+    literal: "Solemn bread with duty."
+    notes: "Daily provision is placed into vow register."
+    terms: ["ha-burux", "ko", "dev"]
+  -
+    id: "ritual-428"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "May the cup remember the household."
+    ethra: "Ha ha-kuwup ko mer."
+    literal: "Solemn cup with memory."
+    notes: "Shared drinking is joined to remembrance."
+    terms: ["ha-kuwup", "ko", "mer"]
+  -
+    id: "ritual-429"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "Oil carries mercy to the body."
+    ethra: "Ha ha-yuluc taw sel."
+    literal: "Solemn oil carries mercy."
+    notes: "Anointing is interpreted as embodied mercy."
+    terms: ["ha-yuluc", "taw", "sel"]
+  -
+    id: "ritual-430"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "Salt stands with inherited memory."
+    ethra: "Ha ha-sulut ko mor."
+    literal: "Solemn salt with inherited duty."
+    notes: "Preserving mineral becomes a sign of continuity."
+    terms: ["ha-sulut", "ko", "mor"]
+  -
+    id: "ritual-431"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "ritual"
+    english: "Spice awakens love at the table."
+    ethra: "Ha ha-supus rah mev."
+    literal: "Solemn spice reveals love."
+    notes: "Flavor is allowed ritual dignity without excess ornament."
+    terms: ["ha-supus", "rah", "mev"]
+  -
+    id: "ritual-432"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship"]
+    register: "ritual"
+    english: "Milk feeds the child under blessing."
+    ethra: "Ha ha-mulug fad tu."
+    literal: "Solemn milk feeds child-student."
+    notes: "Nourishment is placed inside intergenerational care."
+    terms: ["ha-mulug", "fad", "tu"]
+  -
+    id: "ritual-433"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "The egg carries the future."
+    ethra: "Ha ha-yugux taw fer."
+    literal: "Solemn egg carries future."
+    notes: "Fragile beginning is named before the future claim."
+    terms: ["ha-yugux", "taw", "fer"]
+  -
+    id: "ritual-434"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "The pillow protects rest."
+    ethra: "Ha ha-puluw xap cap."
+    literal: "Solemn pillow protects rest."
+    notes: "Sleep support is treated as a mercy to the body."
+    terms: ["ha-puluw", "xap", "cap"]
+  -
+    id: "ritual-435"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship"]
+    register: "ritual"
+    english: "The blanket protects the child."
+    ethra: "Ha ha-bulunuk xap tu."
+    literal: "Solemn blanket protects child-student."
+    notes: "Warmth becomes a vow of care."
+    terms: ["ha-bulunuk", "xap", "tu"]
+  -
+    id: "ritual-436"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "Soap repairs the body."
+    ethra: "Ha ha-suwup tar gom."
+    literal: "Solemn soap repairs body."
+    notes: "Washing is made morally serious without becoming puritanical."
+    terms: ["ha-suwup", "tar", "gom"]
+  -
+    id: "ritual-437"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "ritual"
+    english: "The needle repairs the torn shirt."
+    ethra: "Ha ha-nudulux tar seheret."
+    literal: "Solemn needle repairs shirt."
+    notes: "Small repair receives ritual attention."
+    terms: ["ha-nudulux", "tar", "seheret"]
+  -
+    id: "ritual-438"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship"]
+    register: "ritual"
+    english: "String binds the household."
+    ethra: "Ha ha-suturug dav hon."
+    literal: "Solemn string binds household."
+    notes: "Joining material things becomes an image of kept relation."
+    terms: ["ha-suturug", "dav", "hon"]
+  -
+    id: "ritual-439"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "ritual"
+    english: "The stove feeds the household."
+    ethra: "Ha ha-sutuv fad hon."
+    literal: "Solemn stove feeds household."
+    notes: "Domestic heat is disciplined into provision."
+    terms: ["ha-sutuv", "fad", "hon"]
+  -
+    id: "ritual-440"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "ritual"
+    english: "The wallet must remember trust."
+    ethra: "Ha ha-wulut cel mar."
+    literal: "Solemn wallet should remember."
+    notes: "Money custody is placed under moral memory."
+    terms: ["ha-wulut", "cel", "mar"]
+  -
+    id: "ritual-441"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "ritual"
+    english: "The ticket carries a claim."
+    ethra: "Ha ha-tukut taw ret."
+    literal: "Solemn ticket carries right/claim."
+    notes: "Permission is named as a small carried right."
+    terms: ["ha-tukut", "taw", "ret"]
+  -
+    id: "ritual-442"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "ritual"
+    english: "The knife must answer to justice."
+    ethra: "Ha ha-kunuf cel sak."
+    literal: "Solemn knife should justice."
+    notes: "Sharp power is made answerable before use."
+    terms: ["ha-kunuf", "cel", "sak"]
+  -
+    id: "ritual-443"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "ritual"
+    english: "The plate carries provision."
+    ethra: "Ha ha-puludux taw par."
+    literal: "Solemn plate carries provision."
+    notes: "A dish becomes a bearer of shared sustenance."
+    terms: ["ha-puludux", "taw", "par"]
+  -
+    id: "ritual-444"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "travel-place"]
+    register: "ritual"
+    english: "The umbrella protects the path."
+    ethra: "Ha ha-muburul xap pet."
+    literal: "Solemn umbrella protects path."
+    notes: "Portable shelter becomes a blessing for journeying."
+    terms: ["ha-muburul", "xap", "pet"]
+  -
+    id: "tech-569"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The barcode reveals the data."
+    ethra: "Bereked rah den."
+    literal: "Barcode reveals data."
+    notes: "Retail scanning is treated as machine-readable identity."
+    terms: ["bereked", "rah", "den"]
+  -
+    id: "tech-570"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The catalog guides choice."
+    ethra: "Keteleg pat vel."
+    literal: "Catalog guides choice."
+    notes: "Ordered lists support decisions instead of replacing them."
+    terms: ["keteleg", "pat", "vel"]
+  -
+    id: "tech-571"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The subscription process protects the service."
+    ethra: "Sabasac-ga xap sevec."
+    literal: "Subscription-process protects service."
+    notes: "Recurring access receives a process noun for systems speech."
+    terms: ["sabasac-ga", "xap", "sevec"]
+  -
+    id: "tech-572"
+    track: "technical-software"
+    domain_tags: ["technology-software", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The appointment record measures time."
+    ethra: "Panatam-ket mes tem."
+    literal: "Appointment-record measures time."
+    notes: "Scheduling systems require time-legible records."
+    terms: ["panatam-ket", "mes", "tem"]
+  -
+    id: "tech-573"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "The reservation record carries the address."
+    ethra: "Rasavan-ket taw deres."
+    literal: "Reservation-record carries address."
+    notes: "Bookings connect held places with reachable location data."
+    terms: ["rasavan-ket", "taw", "deres"]
+  -
+    id: "tech-574"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The wallet record protects payment."
+    ethra: "Walat-ket xap may."
+    literal: "Wallet-record protects payment."
+    notes: "Digital-wallet data is framed as custody of exchange."
+    terms: ["walat-ket", "xap", "may"]
+  -
+    id: "tech-575"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The coupon record carries the discount."
+    ethra: "Kapan-ket taw desecen."
+    literal: "Coupon-record carries discount."
+    notes: "Promotional claims become explicit data."
+    terms: ["kapan-ket", "taw", "desecen"]
+  -
+    id: "tech-576"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The discount record measures the price."
+    ethra: "Dasacan-ket mes tec."
+    literal: "Discount-record measures price."
+    notes: "Pricing data remains inspectable under discount logic."
+    terms: ["dasacan-ket", "mes", "tec"]
+  -
+    id: "tech-577"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical"
+    english: "The ticket record reveals the claim."
+    ethra: "Takat-ket rah ret."
+    literal: "Ticket-record reveals right/claim."
+    notes: "Support and entry tickets share inspectable claim structure."
+    terms: ["takat-ket", "rah", "ret"]
+  -
+    id: "tech-578"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The barcode tool reveals the package."
+    ethra: "Barakad-tel rah gep."
+    literal: "Barcode-tool reveals package."
+    notes: "Scanning tools connect logistics and identity."
+    terms: ["barakad-tel", "rah", "gep"]
+  -
+    id: "tech-579"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The catalog tool guides choice."
+    ethra: "Katalag-tel pat vel."
+    literal: "Catalog-tool guides choice."
+    notes: "Interfaces are evaluated by how they order choice."
+    terms: ["katalag-tel", "pat", "vel"]
+  -
+    id: "tech-580"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The soap record protects life."
+    ethra: "Sawap-ket xap nef."
+    literal: "Soap-record protects life."
+    notes: "Sanitation inventory belongs in technical records."
+    terms: ["sawap-ket", "xap", "nef"]
+  -
+    id: "tech-581"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The pot record protects life."
+    ethra: "Patax-ket xap nef."
+    literal: "Pot-record protects life."
+    notes: "Kitchen-equipment systems need safety evidence."
+    terms: ["patax-ket", "xap", "nef"]
+  -
+    id: "tech-582"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The cup record protects life."
+    ethra: "Kawap-ket xap nef."
+    literal: "Cup-record protects life."
+    notes: "Drinkware is tied to hygiene records."
+    terms: ["kawap-ket", "xap", "nef"]
+  -
+    id: "tech-583"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The shoe record protects the body."
+    ethra: "Cawah-ket xap gom."
+    literal: "Shoe-record protects body."
+    notes: "Safety-equipment data carries bodily stakes."
+    terms: ["cawah-ket", "xap", "gom"]
+  -
+    id: "tech-584"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The shirt record carries order."
+    ethra: "Saharat-ket taw rag."
+    literal: "Shirt-record carries order."
+    notes: "Uniform and garment data can be technical without becoming lifeless."
+    terms: ["saharat-ket", "taw", "rag"]
+  -
+    id: "tech-585"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The trouser record carries order."
+    ethra: "Tarasar-ket taw rag."
+    literal: "Trouser-record carries order."
+    notes: "Inventory records keep visible garment distinctions."
+    terms: ["tarasar-ket", "taw", "rag"]
+  -
+    id: "tech-586"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The jacket record protects the body."
+    ethra: "Jakat-ket xap gom."
+    literal: "Jacket-record protects body."
+    notes: "Outerwear data is linked to exposure and protection."
+    terms: ["jakat-ket", "xap", "gom"]
+  -
+    id: "tech-587"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical"
+    english: "The glove record protects the hand."
+    ethra: "Galav-ket xap rem."
+    literal: "Glove-record protects hand."
+    notes: "Protective equipment is tracked as care for agency."
+    terms: ["galav-ket", "xap", "rem"]
+  -
+    id: "tech-588"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The pocket record carries the wallet."
+    ethra: "Pawac-ket taw welet."
+    literal: "Pocket-record carries wallet."
+    notes: "A garment feature can carry identity and exchange metadata."
+    terms: ["pawac-ket", "taw", "welet"]
+  -
+    id: "tech-589"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The needle record carries repair."
+    ethra: "Nadalax-ket taw tar."
+    literal: "Needle-record carries repair."
+    notes: "Repair tools enter maintenance tracking."
+    terms: ["nadalax-ket", "taw", "tar"]
+  -
+    id: "tech-590"
+    track: "technical-software"
+    domain_tags: ["technology-software", "daily-life"]
+    register: "technical"
+    english: "The string record carries duty."
+    ethra: "Satarag-ket taw dev."
+    literal: "String-record carries duty."
+    notes: "Tied goods can encode custody and responsibility."
+    terms: ["satarag-ket", "taw", "dev"]
+  -
+    id: "tech-591"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "The umbrella record protects the path."
+    ethra: "Mabaral-ket xap pet."
+    literal: "Umbrella-record protects path."
+    notes: "Weather equipment belongs in travel and access systems."
+    terms: ["mabaral-ket", "xap", "pet"]
+  -
+    id: "tech-592"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The tray record carries many burdens as one."
+    ethra: "Taray-ket taw dev."
+    literal: "Tray-record carries duty/burden."
+    notes: "Service logistics reduce scattered burdens into one handled unit."
+    terms: ["taray-ket", "taw", "dev"]
+  -
+    id: "poetic-569"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "daily-life", "body-health"]
+    register: "poetic"
+    english: "The shirt is memory over the body."
+    ethra: "Seheret e mer ko gom."
+    literal: "Shirt is memory with body."
+    notes: "Clothing carries personal continuity without becoming vanity."
+    terms: ["seheret", "e", "mer", "ko", "gom"]
+  -
+    id: "poetic-570"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "Trousers carry the path."
+    ethra: "Tereser taw pet."
+    literal: "Trousers carry path."
+    notes: "Movement clothing becomes a sign of journey."
+    terms: ["tereser", "taw", "pet"]
+  -
+    id: "poetic-571"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "The jacket protects the body from exposure."
+    ethra: "Jeket xap gom."
+    literal: "Jacket protects body."
+    notes: "A simple protective sentence is allowed poetic dignity."
+    terms: ["jeket", "xap", "gom"]
+  -
+    id: "poetic-572"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "The shoe reveals the path by walking it."
+    ethra: "Ceweh rah pet."
+    literal: "Shoe reveals path."
+    notes: "The road becomes known through embodied motion."
+    terms: ["ceweh", "rah", "pet"]
+  -
+    id: "poetic-573"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "The hat protects the head where thought rises."
+    ethra: "Hetex xap xel."
+    literal: "Hat protects head."
+    notes: "Head covering is pictured as care above attention."
+    terms: ["hetex", "xap", "xel"]
+  -
+    id: "poetic-574"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "The pocket carries hidden need."
+    ethra: "Pewec taw xed."
+    literal: "Pocket carries emptiness."
+    notes: "The near pouch holds absence as well as possessions."
+    terms: ["pewec", "taw", "xed"]
+  -
+    id: "poetic-575"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "daily-life"]
+    register: "poetic"
+    english: "The button binds the shirt like a small vow."
+    ethra: "Beten dav seheret."
+    literal: "Button binds shirt."
+    notes: "Small closure is compared to kept speech."
+    terms: ["beten", "dav", "seheret"]
+  -
+    id: "poetic-576"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "The belt binds the middle so work can move."
+    ethra: "Gedel dav gom."
+    literal: "Belt binds body."
+    notes: "Constraint is praised when it frees action."
+    terms: ["gedel", "dav", "gom"]
+  -
+    id: "poetic-577"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication"]
+    register: "poetic"
+    english: "The scarf speaks softly at the throat."
+    ethra: "Sekeref nam neler."
+    literal: "Scarf speaks throat."
+    notes: "Warmth near the voice is treated as gentle speech."
+    terms: ["sekeref", "nam", "neler"]
+  -
+    id: "poetic-578"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "The glove guards the hand that serves."
+    ethra: "Gelev xap rem."
+    literal: "Glove protects hand."
+    notes: "Protected touch remains service-capable."
+    terms: ["gelev", "xap", "rem"]
+  -
+    id: "poetic-579"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory", "economics-provision"]
+    register: "poetic"
+    english: "Bread carries memory."
+    ethra: "Berex taw mer."
+    literal: "Bread carries memory."
+    notes: "Shared staple food becomes a vessel of continuity."
+    terms: ["berex", "taw", "mer"]
+  -
+    id: "poetic-580"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory", "nature-ecology"]
+    register: "poetic"
+    english: "Fruit carries the future inside sweetness."
+    ethra: "Ferej taw fer."
+    literal: "Fruit carries future."
+    notes: "Sweetness is not separated from seed-bearing consequence."
+    terms: ["ferej", "taw", "fer"]
+  -
+    id: "poetic-581"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "Vegetables carry the soil into the meal."
+    ethra: "Vegej taw geb."
+    literal: "Vegetable carries soil."
+    notes: "Cultivated food keeps the earth audible."
+    terms: ["vegej", "taw", "geb"]
+  -
+    id: "poetic-582"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Salt preserves provision."
+    ethra: "Selet mar par."
+    literal: "Salt preserves provision."
+    notes: "A preservative is given the memory verb."
+    terms: ["selet", "mar", "par"]
+  -
+    id: "poetic-583"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Spice reveals the heart."
+    ethra: "Sepes rah leb."
+    literal: "Spice reveals heart."
+    notes: "Aromatic force is a form of attention."
+    terms: ["sepes", "rah", "leb"]
+  -
+    id: "poetic-584"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Oil carries provision through heat."
+    ethra: "Yelec taw par."
+    literal: "Oil carries provision."
+    notes: "Cooking medium becomes quiet movement of care."
+    terms: ["yelec", "taw", "par"]
+  -
+    id: "poetic-585"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory", "nature-ecology"]
+    register: "poetic"
+    english: "The egg carries life inside a wall."
+    ethra: "Yegex taw nef."
+    literal: "Egg carries life."
+    notes: "Fragile beginning is compressed into a simple line."
+    terms: ["yegex", "taw", "nef"]
+  -
+    id: "poetic-586"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Rice feeds the people grain by grain."
+    ethra: "Reyes fad lem."
+    literal: "Rice feeds people."
+    notes: "Many small grains are pictured as collective provision."
+    terms: ["reyes", "fad", "lem"]
+  -
+    id: "poetic-587"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "The pillow protects the head in sleep."
+    ethra: "Pelew xap xel."
+    literal: "Pillow protects head."
+    notes: "Rest is care for attention before tomorrow."
+    terms: ["pelew", "xap", "xel"]
+  -
+    id: "poetic-588"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship"]
+    register: "poetic"
+    english: "The blanket is household protection."
+    ethra: "Belenek e hon xap."
+    literal: "Blanket is household protection."
+    notes: "A warm cloth becomes portable home."
+    terms: ["belenek", "e", "hon", "xap"]
+  -
+    id: "poetic-589"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "The mattress protects rest from the hard floor."
+    ethra: "Meteres xap cap."
+    literal: "Mattress protects rest."
+    notes: "The floor is made merciful through an object."
+    terms: ["meteres", "xap", "cap"]
+  -
+    id: "poetic-590"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "The curtain protects presence."
+    ethra: "Kereten xap rah."
+    literal: "Curtain protects presence/seeing."
+    notes: "Privacy is not negation of truth; it guards the conditions of appearing."
+    terms: ["kereten", "xap", "rah"]
+  -
+    id: "poetic-591"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "The closet preserves ordinary memory."
+    ethra: "Celeset mar mer."
+    literal: "Closet preserves memory."
+    notes: "Stored things become quiet continuity."
+    terms: ["celeset", "mar", "mer"]
+  -
+    id: "poetic-592"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "The umbrella walks with the child."
+    ethra: "Meberel pat ko tu."
+    literal: "Umbrella walks with child-student."
+    notes: "Portable shelter is companion-like without personifying it fully."
+    terms: ["meberel", "pat", "ko", "tu"]
+  -
+    id: "learner-285"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "The shirt protects the body."
+    ethra: "Seheret xap gom."
+    literal: "Shirt protects body."
+    notes: "A1 clothing and body sentence."
+    terms: ["seheret", "xap", "gom"]
+  -
+    id: "learner-286"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "learner-a1"
+    english: "The shoe protects the body."
+    ethra: "Ceweh xap gom."
+    literal: "Shoe protects body."
+    notes: "A1 footwear sentence."
+    terms: ["ceweh", "xap", "gom"]
+  -
+    id: "learner-287"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "Bread feeds the family."
+    ethra: "Berex fad hon."
+    literal: "Bread feeds household."
+    notes: "A1 food and household sentence."
+    terms: ["berex", "fad", "hon"]
+  -
+    id: "learner-288"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "history-memory"]
+    register: "learner-a1"
+    english: "Fruit carries the future."
+    ethra: "Ferej taw fer."
+    literal: "Fruit carries future."
+    notes: "A1 food and future sentence."
+    terms: ["ferej", "taw", "fer"]
+  -
+    id: "learner-289"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "learner-a1"
+    english: "Milk feeds the child."
+    ethra: "Meleg fad tu."
+    literal: "Milk feeds child-student."
+    notes: "A1 child-care sentence."
+    terms: ["meleg", "fad", "tu"]
+  -
+    id: "learner-290"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "Soap repairs the body."
+    ethra: "Sewep tar gom."
+    literal: "Soap repairs body."
+    notes: "A1 hygiene sentence."
+    terms: ["sewep", "tar", "gom"]
+  -
+    id: "learner-291"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "The wallet carries payment."
+    ethra: "Welet taw may."
+    literal: "Wallet carries payment."
+    notes: "A1 money-custody sentence."
+    terms: ["welet", "taw", "may"]
+  -
+    id: "learner-292"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "learner-a1"
+    english: "The address guides the package."
+    ethra: "Deres pat gep."
+    literal: "Address guides package."
+    notes: "A1 address and delivery sentence."
+    terms: ["deres", "pat", "gep"]
+  -
+    id: "learner-293"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "The ticket carries a claim."
+    ethra: "Teket taw ret."
+    literal: "Ticket carries right/claim."
+    notes: "A1 civic-object sentence."
+    terms: ["teket", "taw", "ret"]
+  -
+    id: "learner-294"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "The cup carries water."
+    ethra: "Kewep taw wam."
+    literal: "Cup carries water."
+    notes: "A1 vessel sentence."
+    terms: ["kewep", "taw", "wam"]
+  -
+    id: "learner-295"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "The plate carries provision."
+    ethra: "Peledex taw par."
+    literal: "Plate carries provision."
+    notes: "A1 dishware sentence."
+    terms: ["peledex", "taw", "par"]
+  -
+    id: "learner-296"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "learner-a1"
+    english: "The umbrella protects the child."
+    ethra: "Meberel xap tu."
+    literal: "Umbrella protects child-student."
+    notes: "A1 weather-care sentence."
+    terms: ["meberel", "xap", "tu"]
