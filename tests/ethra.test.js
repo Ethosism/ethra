@@ -140,6 +140,38 @@ test("looks up roots by aliases and derives words", () => {
   const kidney = deriveWord("KDN", "noun");
   assert.equal(kidney.word, "keden");
   assert.equal(kidney.root.id, "KDN");
+
+  const appeal = deriveWord("PLT", "noun");
+  assert.equal(appeal.word, "pelet");
+  assert.equal(appeal.root.id, "PLT");
+
+  const deployment = deriveWord("DPY", "verb");
+  assert.equal(deployment.word, "dapay");
+  assert.equal(deployment.root.id, "DPY");
+
+  const validation = deriveWord("VLD", "noun");
+  assert.equal(validation.word, "veled");
+  assert.equal(validation.root.id, "VLD");
+
+  const vector = deriveWord("VKR", "noun");
+  assert.equal(vector.word, "veker");
+  assert.equal(vector.root.id, "VKR");
+
+  const clinic = deriveWord("KLC", "noun");
+  assert.equal(clinic.word, "kelec");
+  assert.equal(clinic.root.id, "KLC");
+
+  const grid = deriveWord("GDR", "noun");
+  assert.equal(grid.word, "geder");
+  assert.equal(grid.root.id, "GDR");
+
+  const publication = deriveWord("PBC", "noun");
+  assert.equal(publication.word, "pebec");
+  assert.equal(publication.root.id, "PBC");
+
+  const motivation = deriveWord("MTV", "noun");
+  assert.equal(motivation.word, "metev");
+  assert.equal(motivation.root.id, "MTV");
 });
 
 test("analyzes known words", () => {
@@ -168,7 +200,7 @@ test("loads canonical example translations", () => {
 test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 16000);
+  assert.ok(entries.length >= 18000);
   for (const category of [
     "Pronouns",
     "Particles",

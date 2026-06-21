@@ -1,10 +1,10 @@
 # Ethra Language
 
-Ethra is a v0.3.7 constructed civilizational language. It is not meant to be an Esperanto clone, a naming toy, or an aesthetic exercise. Its design goal is to make certain cultural habits native to ordinary speech: truth, duty, beauty, memory, agency, consequence, inheritance, repair, love as recognition, speech as binding, and the future as a moral claimant.
+Ethra is a v0.3.8 constructed civilizational language. It is not meant to be an Esperanto clone, a naming toy, or an aesthetic exercise. Its design goal is to make certain cultural habits native to ordinary speech: truth, duty, beauty, memory, agency, consequence, inheritance, repair, love as recognition, speech as binding, and the future as a moral claimant.
 
 The working name is kept as **Ethra** because it is short, pronounceable, and internally useful: `eth` evokes ethos and `ra` evokes seeing. The name therefore sounds like "ethos made visible."
 
-Status: v0.3.7 public-institution corpus grounding, generated YAML data, productive derivation patterns, expanded root-bank coverage, 800 reviewed corpus items, TypeScript CLI, compound terminology, corpus/governance planning, and tests.
+Status: v0.3.8 infrastructure-scale root expansion, generated YAML data, productive derivation patterns, expanded root-bank coverage, 800 reviewed corpus items, TypeScript CLI, compound terminology, corpus/governance planning, and tests.
 
 Repository: <https://github.com/Ethosism/ethra>
 
@@ -30,9 +30,9 @@ Ethra treats language as training. What is easy to say becomes easy to notice. W
 - **Tense/aspect:** particles such as `pa`, `nu`, `fu`, `ka`, `ga`, `va`.
 - **Moral grammar:** particles distinguish can, may, want, choose, should, owe, vow, inherited duty, chosen duty, entrusted duty, repair, and scope of action.
 - **Relational grammar:** pronouns distinguish beloved, equal, elder/teacher, child/student, citizen, opponent, sacred addressee, and collective people.
-- **Roots:** 800 root families with 20 productive derivation patterns per root.
+- **Roots:** 900 root families with 20 productive derivation patterns per root.
 - **Derivation:** action, concept, quality, agent, object, ritual, civic, intimate, process, instrument, place, doctrine, collective, lack, category, discipline, office, record, right, and vow forms.
-- **Lexicon:** generated core lexicon with 16,057 explicit entries across pronouns, particles, moral agency, family, body, mind, emotion, seeing/knowing, speech, time, nature, building/making, law/civic life, technology, ritual/poetry, love/intimacy, conflict/repair, and future/civilization.
+- **Lexicon:** generated core lexicon with 18,057 explicit entries across pronouns, particles, moral agency, family, body, mind, emotion, seeing/knowing, speech, time, nature, building/making, law/civic life, technology, ritual/poetry, love/intimacy, conflict/repair, and future/civilization.
 - **Compounds:** 100 curated compound terms for German-style conceptual architecture.
 - **Machine-readable spec:** YAML files in `spec/` for phonology, derivation patterns, roots, particles, pronouns, grammar, lexicon, compounds, corpus, roadmap, domains, governance, and examples.
 - **Corpus:** 800 reviewed seed corpus items across daily dialogue, civic/legal, ritual/vow, technical/software, literary/poetic, and learner tracks.
@@ -170,7 +170,7 @@ The generated YAML is committed intentionally. It is the stable interface for fu
 - Native script prototype.
 - Parser for full sentences, not only words and examples.
 - Better phonotactic syllabification.
-- Expand from 800 to 1,000 root families.
+- Expand from 900 to 1,000 root families.
 - Expand from 800 to 2,000 reviewed corpus items.
 - Expanded law, software, poetry, and prayer registers.
 - Corpus-based consistency checks for all example sentences.
