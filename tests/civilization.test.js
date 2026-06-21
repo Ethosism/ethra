@@ -34,7 +34,7 @@ test("summarizes current progress against roadmap targets", () => {
   assert.equal(summary.current.actual_derivation_patterns, summary.current.derivation_patterns);
   assert.ok(summary.current.actual_lexicon_entries >= 23057);
   assert.ok(summary.current.actual_root_families >= 1150);
-  assert.ok(summary.current.actual_corpus_items >= 2240);
+  assert.ok(summary.current.actual_corpus_items >= 2360);
   assert.ok(summary.current.actual_compound_terms >= 100);
   assert.equal(summary.current.actual_derivation_patterns, 20);
   assert.equal(summary.current.actual_canonical_examples, 20);
@@ -74,17 +74,17 @@ test("reports domain coverage gaps", () => {
 test("loads corpus and governance programs", () => {
   const corpus = corpusSummary();
   const governance = loadGovernance();
-  assert.equal(corpus.current_items, 2240);
+  assert.equal(corpus.current_items, 2360);
   assert.equal(corpus.remaining_items_v02, 0);
   assert.ok(corpus.tracks.some((track) => track.id === "technical-software"));
   assert.ok(corpus.tracks.every((track) => track.current_items >= 200));
   const trackCounts = new Map(corpus.tracks.map((track) => [track.id, track.current_items]));
-  assert.equal(trackCounts.get("daily-dialogues"), 448);
-  assert.equal(trackCounts.get("civic-law"), 336);
-  assert.equal(trackCounts.get("ritual-vow"), 336);
-  assert.equal(trackCounts.get("technical-software"), 448);
-  assert.equal(trackCounts.get("literary-poetic"), 448);
-  assert.equal(trackCounts.get("learner-graded"), 224);
+  assert.equal(trackCounts.get("daily-dialogues"), 472);
+  assert.equal(trackCounts.get("civic-law"), 354);
+  assert.equal(trackCounts.get("ritual-vow"), 354);
+  assert.equal(trackCounts.get("technical-software"), 472);
+  assert.equal(trackCounts.get("literary-poetic"), 472);
+  assert.equal(trackCounts.get("learner-graded"), 236);
   assert.ok(governance.root_admission_rules.some((rule) => rule.includes("durable semantic field")));
   assert.ok(governance.review_checklist.some((item) => item.includes("root-depth")));
 });
@@ -92,8 +92,8 @@ test("loads corpus and governance programs", () => {
 test("recommends the next governed corpus expansion batch", () => {
   const plan = corpusExpansionPlan(120, 6);
   assert.equal(plan.milestone.id, "v1.0");
-  assert.equal(plan.current_items, 2240);
-  assert.equal(plan.remaining_items_to_milestone, 7760);
+  assert.equal(plan.current_items, 2360);
+  assert.equal(plan.remaining_items_to_milestone, 7640);
   assert.equal(plan.recommended_batch_size, 120);
 
   const recommendations = new Map(plan.track_recommendations.map((track) => [track.id, track]));
@@ -103,20 +103,20 @@ test("recommends the next governed corpus expansion batch", () => {
   assert.equal(recommendations.get("technical-software")?.recommended_items, 24);
   assert.equal(recommendations.get("literary-poetic")?.recommended_items, 24);
   assert.equal(recommendations.get("learner-graded")?.recommended_items, 12);
-  assert.equal(recommendations.get("daily-dialogues")?.next_item_ids[0], "daily-449");
-  assert.equal(recommendations.get("civic-law")?.next_item_ids[0], "civic-337");
-  assert.equal(recommendations.get("ritual-vow")?.next_item_ids[0], "ritual-337");
-  assert.equal(recommendations.get("technical-software")?.next_item_ids[0], "tech-449");
-  assert.equal(recommendations.get("technical-software")?.next_item_ids.at(-1), "tech-472");
-  assert.equal(recommendations.get("literary-poetic")?.next_item_ids[0], "poetic-449");
-  assert.equal(recommendations.get("learner-graded")?.next_item_ids[0], "learner-225");
+  assert.equal(recommendations.get("daily-dialogues")?.next_item_ids[0], "daily-473");
+  assert.equal(recommendations.get("civic-law")?.next_item_ids[0], "civic-355");
+  assert.equal(recommendations.get("ritual-vow")?.next_item_ids[0], "ritual-355");
+  assert.equal(recommendations.get("technical-software")?.next_item_ids[0], "tech-473");
+  assert.equal(recommendations.get("technical-software")?.next_item_ids.at(-1), "tech-496");
+  assert.equal(recommendations.get("literary-poetic")?.next_item_ids[0], "poetic-473");
+  assert.equal(recommendations.get("learner-graded")?.next_item_ids[0], "learner-237");
   assert.equal(plan.domain_pressure[0].id, "science-math");
   assert.ok(plan.domain_pressure.some((domain) => domain.id === "nature-ecology"));
 });
 
 test("lists and validates reviewed corpus items", () => {
   const technicalItems = listCorpusItems("technical-software");
-  assert.equal(technicalItems.length, 448);
+  assert.equal(technicalItems.length, 472);
   assert.ok(technicalItems.some((item) => item.ethra === "Mef xap den."));
   assert.ok(technicalItems.some((item) => item.ethra === "Dab-ket e rih."));
   assert.ok(technicalItems.some((item) => item.ethra === "Hef wav xet."));
@@ -198,12 +198,16 @@ test("lists and validates reviewed corpus items", () => {
   assert.ok(technicalItems.some((item) => item.ethra === "Teles xap jetek."));
   assert.ok(technicalItems.some((item) => item.ethra === "Peyen pat mecer."));
   assert.ok(technicalItems.some((item) => item.ethra === "Ganan-ket xap hel."));
+  assert.ok(technicalItems.some((item) => item.ethra === "Deves taw debed."));
+  assert.ok(technicalItems.some((item) => item.ethra === "Pesew xap legen."));
+  assert.ok(technicalItems.some((item) => item.ethra === "Yaman-ket xap hel."));
+  assert.ok(technicalItems.some((item) => item.ethra === "Lecek xap xeg."));
 
   const report = validateCorpus();
   assert.equal(report.valid, true, JSON.stringify(report.errors, null, 2));
-  assert.equal(report.stats.items, 2240);
+  assert.equal(report.stats.items, 2360);
   assert.equal(report.stats.tracks, 6);
-  assert.ok(report.stats.uniqueTerms >= 997);
+  assert.ok(report.stats.uniqueTerms >= 1058);
 });
 
 test("searches reviewed corpus by text and structured filters", () => {
