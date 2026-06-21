@@ -1,4 +1,4 @@
-version: "0.8.3-corpus"
+version: "0.8.5-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -36801,3 +36801,1203 @@ items:
     literal: "Rereading reveals book."
     notes: "A1 rereading sentence."
     terms: ["rederep", "rah", "kot"]
+  -
+    id: "daily-737"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "The canopy protects attention."
+    ethra: "Cenewey xap san."
+    literal: "Canopy protects attention."
+    notes: "Grounds canopy as a protective ecology of attention."
+    terms: ["cenewey", "xap", "san"]
+  -
+    id: "daily-738"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "history-memory"]
+    register: "plain"
+    english: "The understory carries memory."
+    ethra: "Nederes taw mer."
+    literal: "Understory carries memory."
+    notes: "Uses layered forest growth as memory-bearing structure."
+    terms: ["nederes", "taw", "mer"]
+  -
+    id: "daily-739"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Moss protects stone."
+    ethra: "Mesesex xap bek."
+    literal: "Moss protects stone."
+    notes: "A compact sentence for small protection over hard permanence."
+    terms: ["mesesex", "xap", "bek"]
+  -
+    id: "daily-740"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Lichen reveals air."
+    ethra: "Lecehen rah weh."
+    literal: "Lichen reveals air."
+    notes: "Treats biological sensitivity as environmental witnessing."
+    terms: ["lecehen", "rah", "weh"]
+  -
+    id: "daily-741"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "history-memory"]
+    register: "plain"
+    english: "The fern carries memory."
+    ethra: "Ferenex taw mer."
+    literal: "Fern carries memory."
+    notes: "Links ancient plant forms to living continuity."
+    terms: ["ferenex", "taw", "mer"]
+  -
+    id: "daily-742"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Coral protects water."
+    ethra: "Cereleb xap fel."
+    literal: "Coral protects water."
+    notes: "Frames coral as civic infrastructure for living seas."
+    terms: ["cereleb", "xap", "fel"]
+  -
+    id: "daily-743"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "travel-place"]
+    register: "plain"
+    english: "The mangrove protects the place."
+    ethra: "Menegev xap wed."
+    literal: "Mangrove protects place."
+    notes: "Uses place broadly for shore, settlement, and habitat."
+    terms: ["menegev", "xap", "wed"]
+  -
+    id: "daily-744"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Kelp carries fish."
+    ethra: "Kelepex taw yef."
+    literal: "Kelp carries fish."
+    notes: "Simple food-shelter relation in marine ecology."
+    terms: ["kelepex", "taw", "yef"]
+  -
+    id: "daily-745"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Plankton feeds fish."
+    ethra: "Pelenek fad yef."
+    literal: "Plankton feeds fish."
+    notes: "Learner-friendly ecological dependency."
+    terms: ["pelenek", "fad", "yef"]
+  -
+    id: "daily-746"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "travel-place"]
+    register: "plain"
+    english: "The estuary carries water."
+    ethra: "Xeseter taw fel."
+    literal: "Estuary carries water."
+    notes: "Grounds estuary before finer hydrological compounds."
+    terms: ["xeseter", "taw", "fel"]
+  -
+    id: "daily-747"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "The delta carries sediment."
+    ethra: "Deletew taw sedemet."
+    literal: "Delta carries sediment."
+    notes: "Pairs delta with the sediment root added in the same domain."
+    terms: ["deletew", "taw", "sedemet"]
+  -
+    id: "daily-748"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "The lagoon protects water."
+    ethra: "Legenex xap fel."
+    literal: "Lagoon protects water."
+    notes: "Models protected water without introducing extra shore terms."
+    terms: ["legenex", "xap", "fel"]
+  -
+    id: "daily-749"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "The aquifer carries water."
+    ethra: "Wekefer taw fel."
+    literal: "Aquifer carries water."
+    notes: "Introduces hidden water reserve in ordinary speech."
+    terms: ["wekefer", "taw", "fel"]
+  -
+    id: "daily-750"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Groundwater feeds the spring."
+    ethra: "Geredew fad sepereg."
+    literal: "Groundwater feeds spring."
+    notes: "Connects invisible reserve to visible source."
+    terms: ["geredew", "fad", "sepereg"]
+  -
+    id: "daily-751"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "The spring reveals water."
+    ethra: "Sepereg rah fel."
+    literal: "Spring reveals water."
+    notes: "Uses revealing grammar for emergence."
+    terms: ["sepereg", "rah", "fel"]
+  -
+    id: "daily-752"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "travel-place"]
+    register: "plain"
+    english: "The waterfall reveals stone."
+    ethra: "Weteref rah bek."
+    literal: "Waterfall reveals stone."
+    notes: "Pairs visible water with exposed landform."
+    terms: ["weteref", "rah", "bek"]
+  -
+    id: "daily-753"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "travel-place"]
+    register: "plain"
+    english: "The tide guides the place."
+    ethra: "Tedelex pat wed."
+    literal: "Tide guides place."
+    notes: "Uses broad place language for coastline and settlement."
+    terms: ["tedelex", "pat", "wed"]
+  -
+    id: "daily-754"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "travel-place"]
+    register: "plain"
+    english: "Fog protects the path."
+    ethra: "Fegewex xap pat."
+    literal: "Fog protects path."
+    notes: "Allows ambiguity: fog may conceal, slow, or guard movement."
+    terms: ["fegewex", "xap", "pat"]
+  -
+    id: "daily-755"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "history-memory"]
+    register: "plain"
+    english: "Dew carries memory."
+    ethra: "Dewehex taw mer."
+    literal: "Dew carries memory."
+    notes: "Poetic everyday use that keeps the root emotionally available."
+    terms: ["dewehex", "taw", "mer"]
+  -
+    id: "daily-756"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Humidity carries heat."
+    ethra: "Hemedet taw fec."
+    literal: "Humidity carries fire/heat."
+    notes: "Uses the fire root for embodied heat."
+    terms: ["hemedet", "taw", "fec"]
+  -
+    id: "daily-757"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "economics-provision"]
+    register: "plain"
+    english: "Hail breaks the plant."
+    ethra: "Helexex mak pel."
+    literal: "Hail breaks plant."
+    notes: "Grounds storm damage in food and plant protection language."
+    terms: ["helexex", "mak", "pel"]
+  -
+    id: "daily-758"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "travel-place"]
+    register: "plain"
+    english: "Sleet breaks the path."
+    ethra: "Seletex mak pat."
+    literal: "Sleet breaks path."
+    notes: "Simple weather hazard construction."
+    terms: ["seletex", "mak", "pat"]
+  -
+    id: "daily-759"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Erosion breaks soil."
+    ethra: "Redexen mak geb."
+    literal: "Erosion breaks soil."
+    notes: "Directly grounds the erosion root in repair-relevant speech."
+    terms: ["redexen", "mak", "geb"]
+  -
+    id: "daily-760"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "Sediment carries the river."
+    ethra: "Sedemet taw hec."
+    literal: "Sediment carries river."
+    notes: "Treats sediment as a river-shaping carrier."
+    terms: ["sedemet", "taw", "hec"]
+  -
+    id: "civic-553"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The clay record protects water."
+    ethra: "Calayax-ket xap fel."
+    literal: "Clay-record protects water."
+    notes: "Civic environmental record form for soil and water rights."
+    terms: ["calayax-ket", "xap", "fel"]
+  -
+    id: "civic-554"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "travel-place"]
+    register: "civic"
+    english: "The sand record guides the place."
+    ethra: "Sanadax-ket pat wed."
+    literal: "Sand-record guides place."
+    notes: "Coastal or desert planning expressed through public record."
+    terms: ["sanadax-ket", "pat", "wed"]
+  -
+    id: "civic-555"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The gravel record protects the river."
+    ethra: "Garaval-ket xap hec."
+    literal: "Gravel-record protects river."
+    notes: "Legal record for aggregate, runoff, and riverbed stewardship."
+    terms: ["garaval-ket", "xap", "hec"]
+  -
+    id: "civic-556"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "economics-provision"]
+    register: "civic"
+    english: "The loam record guides farms."
+    ethra: "Lamaxax-ket pat few."
+    literal: "Loam-record guides farm."
+    notes: "Agricultural suitability becomes a civic record."
+    terms: ["lamaxax-ket", "pat", "few"]
+  -
+    id: "civic-557"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The humus record protects soil."
+    ethra: "Hamasax-ket xap geb."
+    literal: "Humus-record protects soil."
+    notes: "Soil fertility treated as a public trust."
+    terms: ["hamasax-ket", "xap", "geb"]
+  -
+    id: "civic-558"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The peatland record protects soil."
+    ethra: "Patalax-ket xap geb."
+    literal: "Peatland-record protects soil."
+    notes: "Peat stewardship represented through ordinary protected standing."
+    terms: ["patalax-ket", "xap", "geb"]
+  -
+    id: "civic-559"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "science-math"]
+    register: "civic"
+    english: "The permafrost record guides climate."
+    ethra: "Paramaf-ket pat hes."
+    literal: "Permafrost-record guides weather/climate."
+    notes: "Climate-risk tracking in civic register."
+    terms: ["paramaf-ket", "pat", "hes"]
+  -
+    id: "civic-560"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "conflict-security"]
+    register: "civic"
+    english: "The wildfire record protects the people."
+    ethra: "Waladax-ket xap lem."
+    literal: "Wildfire-record protects people."
+    notes: "Warning and mitigation are encoded as public record duties."
+    terms: ["waladax-ket", "xap", "lem"]
+  -
+    id: "civic-561"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "conflict-security"]
+    register: "civic"
+    english: "The earthquake record protects the people."
+    ethra: "Ratahak-ket xap lem."
+    literal: "Earthquake-record protects people."
+    notes: "Hazard records inherit a protective civic purpose."
+    terms: ["ratahak-ket", "xap", "lem"]
+  -
+    id: "civic-562"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "travel-place"]
+    register: "civic"
+    english: "The landslide record protects the path."
+    ethra: "Lanasad-ket xap pat."
+    literal: "Landslide-record protects path."
+    notes: "Public path safety and terrain memory."
+    terms: ["lanasad-ket", "xap", "pat"]
+  -
+    id: "civic-563"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "conflict-security"]
+    register: "civic"
+    english: "The avalanche record protects the people."
+    ethra: "Vanacax-ket xap lem."
+    literal: "Avalanche-record protects people."
+    notes: "Civic risk language for mountain environments."
+    terms: ["vanacax-ket", "xap", "lem"]
+  -
+    id: "civic-564"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "travel-place"]
+    register: "civic"
+    english: "The cave record protects the people."
+    ethra: "Kavaxax-ket xap lem."
+    literal: "Cave-record protects people."
+    notes: "Maps and access logs as public protection."
+    terms: ["kavaxax-ket", "xap", "lem"]
+  -
+    id: "civic-565"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "travel-place"]
+    register: "civic"
+    english: "The canyon record guides the path."
+    ethra: "Canayan-ket pat pat."
+    literal: "Canyon-record guides path."
+    notes: "Path may be both route and moral direction in civic terrain."
+    terms: ["canayan-ket", "pat"]
+  -
+    id: "civic-566"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "conflict-security"]
+    register: "civic"
+    english: "The cliff record protects the people."
+    ethra: "Calafax-ket xap lem."
+    literal: "Cliff-record protects people."
+    notes: "Exposed-edge safety in legal register."
+    terms: ["calafax-ket", "xap", "lem"]
+  -
+    id: "civic-567"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "travel-place"]
+    register: "civic"
+    english: "The dune record guides the place."
+    ethra: "Danaxax-ket pat wed."
+    literal: "Dune-record guides place."
+    notes: "Movement of land is made administratively visible."
+    terms: ["danaxax-ket", "pat", "wed"]
+  -
+    id: "civic-568"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "travel-place"]
+    register: "civic"
+    english: "The plateau record protects the place."
+    ethra: "Palatax-ket xap wed."
+    literal: "Plateau-record protects place."
+    notes: "High land as a managed civic place."
+    terms: ["palatax-ket", "xap", "wed"]
+  -
+    id: "civic-569"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The prairie record protects grass."
+    ethra: "Pararax-ket xap ges."
+    literal: "Prairie-record protects grass."
+    notes: "Ecosystem record tied to its visible living cover."
+    terms: ["pararax-ket", "xap", "ges"]
+  -
+    id: "civic-570"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The tributary record protects the river."
+    ethra: "Baranaw-ket xap hec."
+    literal: "Tributary-record protects river."
+    notes: "Tributaries become legally visible as river obligations."
+    terms: ["baranaw-ket", "xap", "hec"]
+  -
+    id: "ritual-553"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Solemnly, the canopy carries breath."
+    ethra: "Ha cenewey taw weh."
+    literal: "Solemn canopy carries air/breath."
+    notes: "Canopy language enters prayer and ecological gratitude."
+    terms: ["ha", "cenewey", "taw", "weh"]
+  -
+    id: "ritual-554"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Solemnly, the understory protects life."
+    ethra: "Ha nederes xap bev."
+    literal: "Solemn understory protects life."
+    notes: "Layered habitat is named as a protected trust."
+    terms: ["ha", "nederes", "xap", "bev"]
+  -
+    id: "ritual-555"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "history-memory"]
+    register: "solemn"
+    english: "Solemnly, moss remembers stone."
+    ethra: "Ha mesesex mar bek."
+    literal: "Solemn moss remembers stone."
+    notes: "Softness and duration become a ritual image."
+    terms: ["ha", "mesesex", "mar", "bek"]
+  -
+    id: "ritual-556"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Solemnly, lichen reveals air."
+    ethra: "Ha lecehen rah weh."
+    literal: "Solemn lichen reveals air."
+    notes: "Ritualizes environmental attention."
+    terms: ["ha", "lecehen", "rah", "weh"]
+  -
+    id: "ritual-557"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "history-memory"]
+    register: "solemn"
+    english: "Solemnly, the fern carries memory."
+    ethra: "Ha ferenex taw mer."
+    literal: "Solemn fern carries memory."
+    notes: "Ancient plant image for continuity."
+    terms: ["ha", "ferenex", "taw", "mer"]
+  -
+    id: "ritual-558"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Solemnly, coral protects the sea."
+    ethra: "Ha cereleb xap jep."
+    literal: "Solemn coral protects sea."
+    notes: "Marine stewardship in vow-like register."
+    terms: ["ha", "cereleb", "xap", "jep"]
+  -
+    id: "ritual-559"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Solemnly, the mangrove protects the people."
+    ethra: "Ha menegev xap lem."
+    literal: "Solemn mangrove protects people."
+    notes: "Places ecological barrier in moral relation to the public."
+    terms: ["ha", "menegev", "xap", "lem"]
+  -
+    id: "ritual-560"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Solemnly, kelp carries fish."
+    ethra: "Ha kelepex taw yef."
+    literal: "Solemn kelp carries fish."
+    notes: "Food-web relation made vow-ready."
+    terms: ["ha", "kelepex", "taw", "yef"]
+  -
+    id: "ritual-561"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Solemnly, plankton feeds water."
+    ethra: "Ha pelenek fad fel."
+    literal: "Solemn plankton feeds water."
+    notes: "Compression allows ecological poetry without extra clause work."
+    terms: ["ha", "pelenek", "fad", "fel"]
+  -
+    id: "ritual-562"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Solemnly, the estuary carries water."
+    ethra: "Ha xeseter taw fel."
+    literal: "Solemn estuary carries water."
+    notes: "Tidal meeting language stays compact."
+    terms: ["ha", "xeseter", "taw", "fel"]
+  -
+    id: "ritual-563"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "history-memory"]
+    register: "solemn"
+    english: "Solemnly, the delta remembers the river."
+    ethra: "Ha deletew mar hec."
+    literal: "Solemn delta remembers river."
+    notes: "A landform becomes an archive of movement."
+    terms: ["ha", "deletew", "mar", "hec"]
+  -
+    id: "ritual-564"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Solemnly, the lagoon protects water."
+    ethra: "Ha legenex xap fel."
+    literal: "Solemn lagoon protects water."
+    notes: "Protected water as a ritual image."
+    terms: ["ha", "legenex", "xap", "fel"]
+  -
+    id: "ritual-565"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Solemnly, the aquifer carries water."
+    ethra: "Ha wekefer taw fel."
+    literal: "Solemn aquifer carries water."
+    notes: "Hidden reserve enters sacred attention."
+    terms: ["ha", "wekefer", "taw", "fel"]
+  -
+    id: "ritual-566"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Solemnly, the spring reveals water."
+    ethra: "Ha sepereg rah fel."
+    literal: "Solemn spring reveals water."
+    notes: "Emergence of water parallels emergence of truth."
+    terms: ["ha", "sepereg", "rah", "fel"]
+  -
+    id: "ritual-567"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "solemn"
+    english: "Solemnly, the tide carries the moon."
+    ethra: "Ha tedelex taw mel."
+    literal: "Solemn tide carries moon."
+    notes: "Astral relation encoded through ordinary carrier grammar."
+    terms: ["ha", "tedelex", "taw", "mel"]
+  -
+    id: "ritual-568"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "emotion-psychology"]
+    register: "solemn"
+    english: "Solemnly, fog protects attention."
+    ethra: "Ha fegewex xap san."
+    literal: "Solemn fog protects attention."
+    notes: "Makes obscurity a possible guard for contemplation."
+    terms: ["ha", "fegewex", "xap", "san"]
+  -
+    id: "ritual-569"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "history-memory"]
+    register: "solemn"
+    english: "Solemnly, dew carries memory."
+    ethra: "Ha dewehex taw mer."
+    literal: "Solemn dew carries memory."
+    notes: "Short-lived water made culturally memorable."
+    terms: ["ha", "dewehex", "taw", "mer"]
+  -
+    id: "ritual-570"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "education-training"]
+    register: "solemn"
+    english: "Solemnly, the food web teaches the people."
+    ethra: "Ha fedeweb dak lem."
+    literal: "Solemn food-web teaches people."
+    notes: "Ecological dependence becomes a ritual lesson."
+    terms: ["ha", "fedeweb", "dak", "lem"]
+  -
+    id: "tech-737"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "ai-cognition"]
+    register: "technical"
+    english: "Canopy data guides the model."
+    ethra: "Cenewey den pat med."
+    literal: "Canopy data guides model."
+    notes: "Sensor canopy data as model input."
+    terms: ["cenewey", "den", "pat", "med"]
+  -
+    id: "tech-738"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "science-math"]
+    register: "technical"
+    english: "The understory record carries evidence."
+    ethra: "Nadaras-ket taw xeg."
+    literal: "Understory-record carries evidence."
+    notes: "Field record as machine-usable evidence."
+    terms: ["nadaras-ket", "taw", "xeg"]
+  -
+    id: "tech-739"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "science-math"]
+    register: "technical"
+    english: "The moss record reveals water."
+    ethra: "Masasax-ket rah fel."
+    literal: "Moss-record reveals water."
+    notes: "Moisture detection as derived record language."
+    terms: ["masasax-ket", "rah", "fel"]
+  -
+    id: "tech-740"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "science-math"]
+    register: "technical"
+    english: "The lichen record reveals air."
+    ethra: "Lacahan-ket rah weh."
+    literal: "Lichen-record reveals air."
+    notes: "Biomonitoring expressed with witness grammar."
+    terms: ["lacahan-ket", "rah", "weh"]
+  -
+    id: "tech-741"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "travel-place"]
+    register: "technical"
+    english: "The fern record guides the forest."
+    ethra: "Faranax-ket pat wet."
+    literal: "Fern-record guides forest."
+    notes: "Species presence as a habitat indicator."
+    terms: ["faranax-ket", "pat", "wet"]
+  -
+    id: "tech-742"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "Coral data protects the sea."
+    ethra: "Cereleb den xap jep."
+    literal: "Coral data protects sea."
+    notes: "Data collection is framed as protection, not mere extraction."
+    terms: ["cereleb", "den", "xap", "jep"]
+  -
+    id: "tech-743"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "travel-place"]
+    register: "technical"
+    english: "The mangrove model protects the place."
+    ethra: "Menegev med xap wed."
+    literal: "Mangrove model protects place."
+    notes: "Risk modeling connected to place stewardship."
+    terms: ["menegev", "med", "xap", "wed"]
+  -
+    id: "tech-744"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The kelp record carries fish."
+    ethra: "Kalapax-ket taw yef."
+    literal: "Kelp-record carries fish."
+    notes: "Habitat survey record with compact ecological relation."
+    terms: ["kalapax-ket", "taw", "yef"]
+  -
+    id: "tech-745"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "ai-cognition"]
+    register: "technical"
+    english: "Plankton data feeds the model."
+    ethra: "Pelenek den fad med."
+    literal: "Plankton data feeds model."
+    notes: "Training-data metaphor grounded in food-web vocabulary."
+    terms: ["pelenek", "den", "fad", "med"]
+  -
+    id: "tech-746"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "ai-cognition"]
+    register: "technical"
+    english: "The estuary model guides water."
+    ethra: "Xeseter med pat fel."
+    literal: "Estuary model guides water."
+    notes: "Hydrological modeling in compressed technical Ethra."
+    terms: ["xeseter", "med", "pat", "fel"]
+  -
+    id: "tech-747"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "science-math"]
+    register: "technical"
+    english: "The delta record carries sediment."
+    ethra: "Dalataw-ket taw sedemet."
+    literal: "Delta-record carries sediment."
+    notes: "Sediment transport logging in record morphology."
+    terms: ["dalataw-ket", "taw", "sedemet"]
+  -
+    id: "tech-748"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The lagoon record carries water."
+    ethra: "Laganax-ket taw fel."
+    literal: "Lagoon-record carries water."
+    notes: "Water quality and storage records expressed compactly."
+    terms: ["laganax-ket", "taw", "fel"]
+  -
+    id: "tech-749"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The aquifer record protects water."
+    ethra: "Wakafar-ket xap fel."
+    literal: "Aquifer-record protects water."
+    notes: "Groundwater data becomes a stewardship instrument."
+    terms: ["wakafar-ket", "xap", "fel"]
+  -
+    id: "tech-750"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The groundwater record reveals water."
+    ethra: "Garadaw-ket rah fel."
+    literal: "Groundwater-record reveals water."
+    notes: "Monitoring makes hidden water publicly visible."
+    terms: ["garadaw-ket", "rah", "fel"]
+  -
+    id: "tech-751"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The spring record protects water."
+    ethra: "Saparag-ket xap fel."
+    literal: "Spring-record protects water."
+    notes: "Source stewardship represented as a record duty."
+    terms: ["saparag-ket", "xap", "fel"]
+  -
+    id: "tech-752"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "conflict-security"]
+    register: "technical"
+    english: "The waterfall record protects the path."
+    ethra: "Wataraf-ket xap pat."
+    literal: "Waterfall-record protects path."
+    notes: "Hazard mapping for trails and infrastructure."
+    terms: ["wataraf-ket", "xap", "pat"]
+  -
+    id: "tech-753"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "travel-place"]
+    register: "technical"
+    english: "The tide record guides the place."
+    ethra: "Tadalax-ket pat wed."
+    literal: "Tide-record guides place."
+    notes: "Tide tables as public guidance."
+    terms: ["tadalax-ket", "pat", "wed"]
+  -
+    id: "tech-754"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "travel-place"]
+    register: "technical"
+    english: "The fog record protects the path."
+    ethra: "Fagawax-ket xap pat."
+    literal: "Fog-record protects path."
+    notes: "Advisory data for movement and visibility."
+    terms: ["fagawax-ket", "xap", "pat"]
+  -
+    id: "tech-755"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The dew record carries humidity."
+    ethra: "Dawahax-ket taw hemedet."
+    literal: "Dew-record carries humidity."
+    notes: "Dew point represented through existing humidity root."
+    terms: ["dawahax-ket", "taw", "hemedet"]
+  -
+    id: "tech-756"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The humidity record guides heat."
+    ethra: "Hamadat-ket pat fec."
+    literal: "Humidity-record guides heat."
+    notes: "Environmental comfort and risk modeling."
+    terms: ["hamadat-ket", "pat", "fec"]
+  -
+    id: "tech-757"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "economics-provision"]
+    register: "technical"
+    english: "The hail record protects plants."
+    ethra: "Halaxax-ket xap pel."
+    literal: "Hail-record protects plant."
+    notes: "Damage record for crops and vegetation."
+    terms: ["halaxax-ket", "xap", "pel"]
+  -
+    id: "tech-758"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology", "travel-place"]
+    register: "technical"
+    english: "The sleet record protects the path."
+    ethra: "Salatax-ket xap pat."
+    literal: "Sleet-record protects path."
+    notes: "Weather advisory as path protection."
+    terms: ["salatax-ket", "xap", "pat"]
+  -
+    id: "tech-759"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The erosion record repairs soil."
+    ethra: "Radaxan-ket tar geb."
+    literal: "Erosion-record repairs soil."
+    notes: "Technical record points toward restoration, not passive reporting."
+    terms: ["radaxan-ket", "tar", "geb"]
+  -
+    id: "tech-760"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The sediment record guides the river."
+    ethra: "Sadamat-ket pat hec."
+    literal: "Sediment-record guides river."
+    notes: "River management through sediment-load evidence."
+    terms: ["sadamat-ket", "pat", "hec"]
+  -
+    id: "poetic-737"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "Clay remembers the hand."
+    ethra: "Celeyex mar han."
+    literal: "Clay remembers hand."
+    notes: "Material memory and human craft in one short line."
+    terms: ["celeyex", "mar", "han"]
+  -
+    id: "poetic-738"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "Sand carries memory."
+    ethra: "Senedex taw mer."
+    literal: "Sand carries memory."
+    notes: "A compressed image for time and erosion."
+    terms: ["senedex", "taw", "mer"]
+  -
+    id: "poetic-739"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "travel-place"]
+    register: "poetic"
+    english: "Gravel builds the path."
+    ethra: "Gerevel ban pat."
+    literal: "Gravel builds path."
+    notes: "Small stones as civic way-making."
+    terms: ["gerevel", "ban", "pat"]
+  -
+    id: "poetic-740"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "economics-provision"]
+    register: "poetic"
+    english: "Loam feeds the plant."
+    ethra: "Lemexex fad pel."
+    literal: "Loam feeds plant."
+    notes: "Fertility as quiet provision."
+    terms: ["lemexex", "fad", "pel"]
+  -
+    id: "poetic-741"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "Humus repairs soil."
+    ethra: "Hemesex tar geb."
+    literal: "Humus repairs soil."
+    notes: "Decay becomes repair in ecological moral grammar."
+    terms: ["hemesex", "tar", "geb"]
+  -
+    id: "poetic-742"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "Peat carries old memory."
+    ethra: "Petelex taw mer."
+    literal: "Peat carries memory."
+    notes: "The English adds old; Ethra leaves age in the peat root and memory."
+    terms: ["petelex", "taw", "mer"]
+  -
+    id: "poetic-743"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "Permafrost protects ice."
+    ethra: "Peremef xap pex."
+    literal: "Permafrost protects ice."
+    notes: "Frozen ground as guardian and warning."
+    terms: ["peremef", "xap", "pex"]
+  -
+    id: "poetic-744"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "conflict-security"]
+    register: "poetic"
+    english: "Wildfire breaks the forest."
+    ethra: "Weledex mak wet."
+    literal: "Wildfire breaks forest."
+    notes: "A hard sentence for destructive renewal and loss."
+    terms: ["weledex", "mak", "wet"]
+  -
+    id: "poetic-745"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "conflict-security"]
+    register: "poetic"
+    english: "The earthquake breaks stone."
+    ethra: "Retehek mak bek."
+    literal: "Earthquake breaks stone."
+    notes: "Power seen through fracture."
+    terms: ["retehek", "mak", "bek"]
+  -
+    id: "poetic-746"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "travel-place"]
+    register: "poetic"
+    english: "The landslide carries the mountain."
+    ethra: "Lenesed taw het."
+    literal: "Landslide carries mountain."
+    notes: "Movement of mass treated as terrible carriage."
+    terms: ["lenesed", "taw", "het"]
+  -
+    id: "poetic-747"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "conflict-security", "travel-place"]
+    register: "poetic"
+    english: "The avalanche breaks the path."
+    ethra: "Venecex mak pat."
+    literal: "Avalanche breaks path."
+    notes: "A path can be physical access or a future line."
+    terms: ["venecex", "mak", "pat"]
+  -
+    id: "poetic-748"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The cave protects silence."
+    ethra: "Kevexex xap cez."
+    literal: "Cave protects silence."
+    notes: "Interior landform as keeper of quiet."
+    terms: ["kevexex", "xap", "cez"]
+  -
+    id: "poetic-749"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The canyon reveals stone."
+    ethra: "Ceneyen rah bek."
+    literal: "Canyon reveals stone."
+    notes: "Depth made visible."
+    terms: ["ceneyen", "rah", "bek"]
+  -
+    id: "poetic-750"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "travel-place"]
+    register: "poetic"
+    english: "The cliff carries the path."
+    ethra: "Celefex taw pat."
+    literal: "Cliff carries path."
+    notes: "The dangerous edge as route and discipline."
+    terms: ["celefex", "taw", "pat"]
+  -
+    id: "poetic-751"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The dune carries wind."
+    ethra: "Denexex taw weh."
+    literal: "Dune carries air/wind."
+    notes: "Moving land shaped by invisible force."
+    terms: ["denexex", "taw", "weh"]
+  -
+    id: "poetic-752"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The plateau carries air."
+    ethra: "Peletex taw weh."
+    literal: "Plateau carries air."
+    notes: "High ground rendered through lifted atmosphere."
+    terms: ["peletex", "taw", "weh"]
+  -
+    id: "poetic-753"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The prairie carries grass."
+    ethra: "Pererex taw ges."
+    literal: "Prairie carries grass."
+    notes: "Landscape identity built from its living cover."
+    terms: ["pererex", "taw", "ges"]
+  -
+    id: "poetic-754"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The tributary guides the river."
+    ethra: "Berenew pat hec."
+    literal: "Tributary guides river."
+    notes: "Small flow directing larger continuity."
+    terms: ["berenew", "pat", "hec"]
+  -
+    id: "poetic-755"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "The fjord remembers ice."
+    ethra: "Fejered mar pex."
+    literal: "Fjord remembers ice."
+    notes: "Landform as archive of glacial force."
+    terms: ["fejered", "mar", "pex"]
+  -
+    id: "poetic-756"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "The geyser reveals heat."
+    ethra: "Geyeser rah fec."
+    literal: "Geyser reveals fire/heat."
+    notes: "Hidden heat made visible."
+    terms: ["geyeser", "rah", "fec"]
+  -
+    id: "poetic-757"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "Lava remembers fire."
+    ethra: "Levexex mar fec."
+    literal: "Lava remembers fire."
+    notes: "Matter carrying the memory of force."
+    terms: ["levexex", "mar", "fec"]
+  -
+    id: "poetic-758"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "Ash carries memory."
+    ethra: "Cenedex taw mer."
+    literal: "Ash carries memory."
+    notes: "Residue as witness."
+    terms: ["cenedex", "taw", "mer"]
+  -
+    id: "poetic-759"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "education-training"]
+    register: "poetic"
+    english: "The biome teaches life."
+    ethra: "Beyemex dak bev."
+    literal: "Biome teaches life."
+    notes: "The whole ecology as teacher."
+    terms: ["beyemex", "dak", "bev"]
+  -
+    id: "poetic-760"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "travel-place"]
+    register: "poetic"
+    english: "The niche protects place."
+    ethra: "Neceyex xap wed."
+    literal: "Niche protects place."
+    notes: "Role, habitat, and belonging meet in one sentence."
+    terms: ["neceyex", "xap", "wed"]
+  -
+    id: "learner-369"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "learner-a1"
+    english: "The canopy protects air."
+    ethra: "Cenewey xap weh."
+    literal: "Canopy protects air."
+    notes: "A1 ecology sentence."
+    terms: ["cenewey", "xap", "weh"]
+  -
+    id: "learner-370"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "learner-a1"
+    english: "Moss protects stone."
+    ethra: "Mesesex xap bek."
+    literal: "Moss protects stone."
+    notes: "A1 ecology sentence."
+    terms: ["mesesex", "xap", "bek"]
+  -
+    id: "learner-371"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "learner-a1"
+    english: "Coral protects the sea."
+    ethra: "Cereleb xap jep."
+    literal: "Coral protects sea."
+    notes: "A1 marine ecology sentence."
+    terms: ["cereleb", "xap", "jep"]
+  -
+    id: "learner-372"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "learner-a1"
+    english: "Plankton feeds fish."
+    ethra: "Pelenek fad yef."
+    literal: "Plankton feeds fish."
+    notes: "A1 food-web sentence."
+    terms: ["pelenek", "fad", "yef"]
+  -
+    id: "learner-373"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "learner-a1"
+    english: "The aquifer carries water."
+    ethra: "Wekefer taw fel."
+    literal: "Aquifer carries water."
+    notes: "A1 groundwater sentence."
+    terms: ["wekefer", "taw", "fel"]
+  -
+    id: "learner-374"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "learner-a1"
+    english: "The spring reveals water."
+    ethra: "Sepereg rah fel."
+    literal: "Spring reveals water."
+    notes: "A1 emergence sentence."
+    terms: ["sepereg", "rah", "fel"]
+  -
+    id: "learner-375"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology", "travel-place"]
+    register: "learner-a1"
+    english: "The tide guides the place."
+    ethra: "Tedelex pat wed."
+    literal: "Tide guides place."
+    notes: "A1 coastal sentence."
+    terms: ["tedelex", "pat", "wed"]
+  -
+    id: "learner-376"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "learner-a1"
+    english: "Erosion breaks soil."
+    ethra: "Redexen mak geb."
+    literal: "Erosion breaks soil."
+    notes: "A1 soil sentence."
+    terms: ["redexen", "mak", "geb"]
+  -
+    id: "learner-377"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology", "conflict-security"]
+    register: "learner-a1"
+    english: "Wildfire breaks the forest."
+    ethra: "Weledex mak wet."
+    literal: "Wildfire breaks forest."
+    notes: "A1 hazard sentence."
+    terms: ["weledex", "mak", "wet"]
+  -
+    id: "learner-378"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology", "conflict-security"]
+    register: "learner-a1"
+    english: "The earthquake breaks stone."
+    ethra: "Retehek mak bek."
+    literal: "Earthquake breaks stone."
+    notes: "A1 hazard sentence."
+    terms: ["retehek", "mak", "bek"]
+  -
+    id: "learner-379"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology", "education-training"]
+    register: "learner-a1"
+    english: "The food web teaches the people."
+    ethra: "Fedeweb dak lem."
+    literal: "Food-web teaches people."
+    notes: "A1 ecological dependence sentence."
+    terms: ["fedeweb", "dak", "lem"]
+  -
+    id: "learner-380"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "learner-a1"
+    english: "The keystone species protects life."
+    ethra: "Keseten xap bev."
+    literal: "Keystone-species protects life."
+    notes: "A1 ecosystem stability sentence."
+    terms: ["keseten", "xap", "bev"]
