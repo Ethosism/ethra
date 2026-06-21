@@ -1,4 +1,4 @@
-version: "0.9.5-corpus"
+version: "0.9.7-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -44001,3 +44001,1203 @@ items:
     literal: "Artifact protects memory."
     notes: "A1 historical-object sentence."
     terms: ["aeretef", "xap", "mer"]
+  -
+    id: "daily-881"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Dimension names the model."
+    ethra: "Deiemen nam med."
+    literal: "Dimension names model."
+    notes: "Ordinary reasoning needs named axes before choice."
+    terms: ["deiemen", "nam", "med"]
+  -
+    id: "daily-882"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Mass carries matter."
+    ethra: "Mesewet taw mat."
+    literal: "Mass carries matter."
+    notes: "Weight-bearing quantity is made speakable in simple form."
+    terms: ["mesewet", "taw", "mat"]
+  -
+    id: "daily-883"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Force changes motion."
+    ethra: "Feresex mak pat."
+    literal: "Force changes motion."
+    notes: "Power becomes accountable when its effect is named."
+    terms: ["feresex", "mak", "pat"]
+  -
+    id: "daily-884"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Velocity guides the path."
+    ethra: "Velecet pat pat."
+    literal: "Velocity guides path."
+    notes: "Speed must answer to direction."
+    terms: ["velecet", "pat", "pat"]
+  -
+    id: "daily-885"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Acceleration names change."
+    ethra: "Aeceler nam mak."
+    literal: "Acceleration names change."
+    notes: "Changing motion becomes visible before consequence."
+    terms: ["aeceler", "nam", "mak"]
+  -
+    id: "daily-886"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Momentum carries motion."
+    ethra: "Memenet taw pat."
+    literal: "Momentum carries path."
+    notes: "Past motion keeps power in the present."
+    terms: ["memenet", "taw", "pat"]
+  -
+    id: "daily-887"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Inertia protects the old path."
+    ethra: "Neretex xap pat."
+    literal: "Inertia protects path."
+    notes: "Persistence is neither virtue nor vice until judged."
+    terms: ["neretex", "xap", "pat"]
+  -
+    id: "daily-888"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Friction reveals cost."
+    ethra: "Ferecen rah may."
+    literal: "Friction reveals price."
+    notes: "Resistance makes hidden effort countable."
+    terms: ["ferecen", "rah", "may"]
+  -
+    id: "daily-889"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Density names pressure."
+    ethra: "Deneset nam kav."
+    literal: "Density names pressure."
+    notes: "Crowded presence needs a measured word."
+    terms: ["deneset", "nam", "kav"]
+  -
+    id: "daily-890"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Volume carries space."
+    ethra: "Veleuem taw wed."
+    literal: "Volume carries world."
+    notes: "Occupied space is treated as accountable extent."
+    terms: ["veleuem", "taw", "wed"]
+  -
+    id: "daily-891"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Viscosity slows flow."
+    ethra: "Veseces gav fal."
+    literal: "Viscosity slows flow."
+    notes: "Not every movement meets the same resistance."
+    terms: ["veseces", "gav", "fal"]
+  -
+    id: "daily-892"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math"]
+    register: "plain"
+    english: "Turbulence breaks the path."
+    ethra: "Terebel mak pat."
+    literal: "Turbulence breaks path."
+    notes: "Unstable flow becomes a practical warning."
+    terms: ["terebel", "mak", "pat"]
+  -
+    id: "daily-893"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Necessity binds duty."
+    ethra: "Neceset dav dev."
+    literal: "Necessity binds duty."
+    notes: "The unavoidable must not be confused with preference."
+    terms: ["neceset", "dav", "dev"]
+  -
+    id: "daily-894"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Possibility opens the path."
+    ethra: "Pesebel rah pat."
+    literal: "Possibility opens path."
+    notes: "Open futures are named without pretending they are promises."
+    terms: ["pesebel", "rah", "pat"]
+  -
+    id: "daily-895"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Contingency guides planning."
+    ethra: "Ceneteg pat pet."
+    literal: "Contingency guides destiny."
+    notes: "Conditional futures keep agency humble."
+    terms: ["ceneteg", "pat", "pet"]
+  -
+    id: "daily-896"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Essence protects identity."
+    ethra: "Eesenec xap yes."
+    literal: "Essence protects identity."
+    notes: "What makes a thing itself is treated as memory-bearing."
+    terms: ["eesenec", "xap", "yes"]
+  -
+    id: "daily-897"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Substance carries form."
+    ethra: "Sebeten taw ban."
+    literal: "Substance carries form."
+    notes: "The bearer under change receives a word of its own."
+    terms: ["sebeten", "taw", "ban"]
+  -
+    id: "daily-898"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Disgust names boundary."
+    ethra: "Degeset nam benedey."
+    literal: "Disgust names boundary."
+    notes: "Revulsion can protect without being allowed to rule."
+    terms: ["degeset", "nam", "benedey"]
+  -
+    id: "daily-899"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Ambivalence names divided feeling."
+    ethra: "Aemebev nam leb."
+    literal: "Ambivalence names heart."
+    notes: "Mixed inward stance is spoken without forced simplification."
+    terms: ["aemebev", "nam", "leb"]
+  -
+    id: "daily-900"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Dread carries the future."
+    ethra: "Deredex taw fer."
+    literal: "Dread carries future."
+    notes: "Fear before harm is made precise."
+    terms: ["deredex", "taw", "fer"]
+  -
+    id: "daily-901"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Relief repairs the heart."
+    ethra: "Relefey tar leb."
+    literal: "Relief repairs heart."
+    notes: "The lifted burden is part of emotional truth."
+    terms: ["relefey", "tar", "leb"]
+  -
+    id: "daily-902"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Yearning carries love."
+    ethra: "Yereneg taw mev."
+    literal: "Yearning carries love."
+    notes: "Longing is tied to absence and recognition."
+    terms: ["yereneg", "taw", "mev"]
+  -
+    id: "daily-903"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Bitterness breaks repair."
+    ethra: "Beteren mak tar."
+    literal: "Bitterness breaks repair."
+    notes: "Hardened hurt blocks restoration until named."
+    terms: ["beteren", "mak", "tar"]
+  -
+    id: "daily-904"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Compassion guides care."
+    ethra: "Cemepen pat hal."
+    literal: "Compassion guides care."
+    notes: "Another pain can move care without erasing judgment."
+    terms: ["cemepen", "pat", "hal"]
+  -
+    id: "civic-661"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The premise record names the claim."
+    ethra: "Paramas-da nam dav."
+    literal: "Premise-record names claim."
+    notes: "Public reasoning must expose its starting stones."
+    terms: ["paramas-da", "nam", "dav"]
+  -
+    id: "civic-662"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The validity report protects judgment."
+    ethra: "Valadat-da xap jav."
+    literal: "Validity-record protects judgment."
+    notes: "Formal inference is treated as civic evidence."
+    terms: ["valadat-da", "xap", "jav"]
+  -
+    id: "civic-663"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The soundness audit protects truth."
+    ethra: "Sanadas-da xap rih."
+    literal: "Soundness-record protects visible-truth."
+    notes: "Arguments must join valid form to true grounds."
+    terms: ["sanadas-da", "xap", "rih"]
+  -
+    id: "civic-664"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The deforestation report reveals harm."
+    ethra: "Dafaras-da rah pan."
+    literal: "Deforestation-record reveals harm."
+    notes: "Forest loss is made public before repair is claimed."
+    terms: ["dafaras-da", "rah", "pan"]
+  -
+    id: "civic-665"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The reforestation plan binds repair."
+    ethra: "Rafaras-da dav tar."
+    literal: "Reforestation-record binds repair."
+    notes: "Planting future canopy becomes recorded obligation."
+    terms: ["rafaras-da", "dav", "tar"]
+  -
+    id: "civic-666"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The habitat-corridor plan protects life."
+    ethra: "Habacax-da xap naf."
+    literal: "Habitat-corridor-record protects life."
+    notes: "Movement paths for species are made civic infrastructure."
+    terms: ["habacax-da", "xap", "naf"]
+  -
+    id: "civic-667"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The carrying-capacity study limits provision."
+    ethra: "Capacat-da dav par."
+    literal: "Carrying-capacity-record limits provision."
+    notes: "Support limits restrain extraction."
+    terms: ["capacat-da", "dav", "par"]
+  -
+    id: "civic-668"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The microclimate map guides care."
+    ethra: "Macaral-da pat hal."
+    literal: "Microclimate-record guides care."
+    notes: "Local conditions change what duty requires."
+    terms: ["macaral-da", "pat", "hal"]
+  -
+    id: "civic-669"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The riparian protection plan protects water."
+    ethra: "Raparan-da xap wam."
+    literal: "Riparian-record protects water."
+    notes: "River edges become public trust."
+    terms: ["raparan-da", "xap", "wam"]
+  -
+    id: "civic-670"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "The recharge record protects water."
+    ethra: "Racahag-da xap wam."
+    literal: "Recharge-record protects water."
+    notes: "Hidden aquifers need visible stewardship."
+    terms: ["racahag-da", "xap", "wam"]
+  -
+    id: "civic-671"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic"
+    english: "The subsidence survey reveals risk."
+    ethra: "Sabasad-da rah kav."
+    literal: "Subsidence-record reveals risk."
+    notes: "Sinking ground must enter public evidence."
+    terms: ["sabasad-da", "rah", "kav"]
+  -
+    id: "civic-672"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "civic"
+    english: "The admission record names standing."
+    ethra: "Aadamas-da nam ret."
+    literal: "Admission-record names standing."
+    notes: "Entry into institutions needs declared terms."
+    terms: ["aadamas-da", "nam", "ret"]
+  -
+    id: "civic-673"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "civic"
+    english: "The accreditation report protects trust."
+    ethra: "Aacarad-da xap kep."
+    literal: "Accreditation-record protects trust."
+    notes: "Certified competence must stay answerable."
+    terms: ["aacarad-da", "xap", "kep"]
+  -
+    id: "civic-674"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic"
+    english: "The asylum decision protects the person."
+    ethra: "Aasayal-da xap yes."
+    literal: "Asylum-record protects person."
+    notes: "Refuge is a public answer to hunted vulnerability."
+    terms: ["aasayal-da", "xap", "yes"]
+  -
+    id: "civic-675"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic"
+    english: "The deportation order reveals power."
+    ethra: "Dapatan-da rah kev."
+    literal: "Deportation-record reveals power."
+    notes: "Forced removal must not hide behind paperwork."
+    terms: ["dapatan-da", "rah", "kev"]
+  -
+    id: "civic-676"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic"
+    english: "The resettlement plan repairs the household."
+    ethra: "Rasatal-da tar hon."
+    literal: "Resettlement-record repairs household."
+    notes: "Displacement becomes a duty to restore address."
+    terms: ["rasatal-da", "tar", "hon"]
+  -
+    id: "civic-677"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "The evacuation plan guides the people."
+    ethra: "Eavaaac-da pat lem."
+    literal: "Evacuation-record guides people."
+    notes: "Danger exit is public care under pressure."
+    terms: ["eavaaac-da", "pat", "lem"]
+  -
+    id: "civic-678"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "The ceasefire agreement binds force."
+    ethra: "Cafaiar-da dav kev."
+    literal: "Ceasefire-record binds power."
+    notes: "Paused fighting is recorded as restraint, not victory."
+    terms: ["cafaiar-da", "dav", "kev"]
+  -
+    id: "ritual-661"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Necessity stands before desire."
+    ethra: "Ha-nucusut rah vel."
+    literal: "Ritual-necessity stands before desire."
+    notes: "Solemn speech separates must from want."
+    terms: ["ha-nucusut", "rah", "vel"]
+  -
+    id: "ritual-662"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Possibility opens mercy."
+    ethra: "Ha-pusubul rah hal."
+    literal: "Ritual-possibility opens mercy."
+    notes: "An unclosed future gives repair room."
+    terms: ["ha-pusubul", "rah", "hal"]
+  -
+    id: "ritual-663"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Contingency humbles judgment."
+    ethra: "Ha-cunutug tar jav."
+    literal: "Ritual-contingency humbles judgment."
+    notes: "What could be otherwise restrains pride."
+    terms: ["ha-cunutug", "tar", "jav"]
+  -
+    id: "ritual-664"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Essence protects the name."
+    ethra: "Ha-eusunuc xap nom."
+    literal: "Ritual-essence protects name."
+    notes: "Identity is blessed as more than appearance."
+    terms: ["ha-eusunuc", "xap", "nom"]
+  -
+    id: "ritual-665"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Substance carries presence."
+    ethra: "Ha-subutun taw roh."
+    literal: "Ritual-substance carries presence."
+    notes: "The bearer beneath change is acknowledged."
+    terms: ["ha-subutun", "taw", "roh"]
+  -
+    id: "ritual-666"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "The premise names truth."
+    ethra: "Ha-purumus nam rih."
+    literal: "Ritual-premise names truth."
+    notes: "Even solemn argument declares where it begins."
+    terms: ["ha-purumus", "nam", "rih"]
+  -
+    id: "ritual-667"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Validity protects speech."
+    ethra: "Ha-vuludut xap nem."
+    literal: "Ritual-validity protects word."
+    notes: "Vows should not rely on broken reasoning."
+    terms: ["ha-vuludut", "xap", "nem"]
+  -
+    id: "ritual-668"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Soundness carries witness."
+    ethra: "Ha-sunudus taw rah."
+    literal: "Ritual-soundness carries witness."
+    notes: "Truth-bearing argument can stand before judgment."
+    terms: ["ha-sunudus", "taw", "rah"]
+  -
+    id: "ritual-669"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "ritual"
+    english: "Disgust guards the boundary."
+    ethra: "Ha-dugusut xap benedey."
+    literal: "Ritual-disgust protects boundary."
+    notes: "The body can warn without becoming cruel."
+    terms: ["ha-dugusut", "xap", "benedey"]
+  -
+    id: "ritual-670"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "ritual"
+    english: "Ambivalence names the heart."
+    ethra: "Ha-aumubuv nam leb."
+    literal: "Ritual-ambivalence names heart."
+    notes: "Mixed feeling is confessed without haste."
+    terms: ["ha-aumubuv", "nam", "leb"]
+  -
+    id: "ritual-671"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "ritual"
+    english: "Dread carries the future."
+    ethra: "Ha-durudux taw fer."
+    literal: "Ritual-dread carries future."
+    notes: "Fear of coming harm is brought under speech."
+    terms: ["ha-durudux", "taw", "fer"]
+  -
+    id: "ritual-672"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "ritual"
+    english: "Relief repairs the heart."
+    ethra: "Ha-rulufuy tar leb."
+    literal: "Ritual-relief repairs heart."
+    notes: "The lifted burden becomes gratitude."
+    terms: ["ha-rulufuy", "tar", "leb"]
+  -
+    id: "ritual-673"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "ritual"
+    english: "Yearning carries love."
+    ethra: "Ha-yurunug taw mev."
+    literal: "Ritual-yearning carries love."
+    notes: "Longing is given a clean sound."
+    terms: ["ha-yurunug", "taw", "mev"]
+  -
+    id: "ritual-674"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "ritual"
+    english: "Bitterness breaks repair."
+    ethra: "Ha-buturun mak tar."
+    literal: "Ritual-bitterness breaks repair."
+    notes: "Hardened hurt is named before it rules."
+    terms: ["ha-buturun", "mak", "tar"]
+  -
+    id: "ritual-675"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "ritual"
+    english: "Compassion guides mercy."
+    ethra: "Ha-cumupun pat hal."
+    literal: "Ritual-compassion guides mercy."
+    notes: "Suffering-with becomes disciplined care."
+    terms: ["ha-cumupun", "pat", "hal"]
+  -
+    id: "ritual-676"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "ritual"
+    english: "Reforestation vows repair."
+    ethra: "Ha-rufurus dov tar."
+    literal: "Ritual-reforestation vows repair."
+    notes: "Returning forest becomes a promise to the future."
+    terms: ["ha-rufurus", "dov", "tar"]
+  -
+    id: "ritual-677"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "ritual"
+    english: "Asylum protects the stranger."
+    ethra: "Ha-ausuyul xap yes."
+    literal: "Ritual-asylum protects person."
+    notes: "Refuge is blessed as public mercy."
+    terms: ["ha-ausuyul", "xap", "yes"]
+  -
+    id: "ritual-678"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "ritual"
+    english: "Safe passage protects the path."
+    ethra: "Ha-sufupux xap pat."
+    literal: "Ritual-safe-passage protects path."
+    notes: "A protected way can be holier than force."
+    terms: ["ha-sufupux", "xap", "pat"]
+  -
+    id: "tech-881"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The dimension record shapes the model."
+    ethra: "Daiaman-ket ban med."
+    literal: "Dimension-record shapes model."
+    notes: "Model features must state their axes."
+    terms: ["daiaman-ket", "ban", "med"]
+  -
+    id: "tech-882"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The mass record protects data."
+    ethra: "Masawat-ket xap den."
+    literal: "Mass-record protects data."
+    notes: "Measured quantity remains auditable."
+    terms: ["masawat-ket", "xap", "den"]
+  -
+    id: "tech-883"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The force record reveals motion."
+    ethra: "Farasax-ket rah pat."
+    literal: "Force-record reveals path."
+    notes: "Applied strength is made observable."
+    terms: ["farasax-ket", "rah", "pat"]
+  -
+    id: "tech-884"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The velocity record guides motion."
+    ethra: "Valacat-ket pat pat."
+    literal: "Velocity-record guides path."
+    notes: "Directed speed enters the model as data."
+    terms: ["valacat-ket", "pat", "pat"]
+  -
+    id: "tech-885"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The acceleration record names change."
+    ethra: "Aacalar-ket nam mak."
+    literal: "Acceleration-record names change."
+    notes: "Motion shifts are logged as evidence."
+    terms: ["aacalar-ket", "nam", "mak"]
+  -
+    id: "tech-886"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The momentum record carries state."
+    ethra: "Mamanat-ket taw den."
+    literal: "Momentum-record carries data."
+    notes: "Carried motion matters in simulation."
+    terms: ["mamanat-ket", "taw", "den"]
+  -
+    id: "tech-887"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The inertia record protects state."
+    ethra: "Naratax-ket xap den."
+    literal: "Inertia-record protects data."
+    notes: "Persistence becomes a modeled assumption."
+    terms: ["naratax-ket", "xap", "den"]
+  -
+    id: "tech-888"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The friction record reveals loss."
+    ethra: "Faracan-ket rah mak."
+    literal: "Friction-record reveals break."
+    notes: "Surface cost becomes measurable."
+    terms: ["faracan-ket", "rah", "mak"]
+  -
+    id: "tech-889"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The density record names concentration."
+    ethra: "Danasat-ket nam mes."
+    literal: "Density-record names measure."
+    notes: "Packed quantity becomes computable."
+    terms: ["danasat-ket", "nam", "mes"]
+  -
+    id: "tech-890"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The volume record protects capacity."
+    ethra: "Valauam-ket xap par."
+    literal: "Volume-record protects provision."
+    notes: "Capacity data guards planning."
+    terms: ["valauam-ket", "xap", "par"]
+  -
+    id: "tech-891"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The viscosity record guides flow."
+    ethra: "Vasacas-ket pat fal."
+    literal: "Viscosity-record guides flow."
+    notes: "Flow resistance becomes parameterized."
+    terms: ["vasacas-ket", "pat", "fal"]
+  -
+    id: "tech-892"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The turbulence record reveals risk."
+    ethra: "Tarabal-ket rah kav."
+    literal: "Turbulence-record reveals power."
+    notes: "Unstable flow is a system risk signal."
+    terms: ["tarabal-ket", "rah", "kav"]
+  -
+    id: "tech-893"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The confidence-score record reveals uncertainty."
+    ethra: "Cafasac-ket rah den."
+    literal: "Confidence-score-record reveals data."
+    notes: "Reliability estimates must not pose as truth."
+    terms: ["cafasac-ket", "rah", "den"]
+  -
+    id: "tech-894"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The verification report protects release."
+    ethra: "Varafay-ket xap reles."
+    literal: "Verification-record protects release."
+    notes: "A system promise meets tests before release."
+    terms: ["varafay-ket", "xap", "reles"]
+  -
+    id: "tech-895"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical"
+    english: "The workflow record carries duty."
+    ethra: "Wakafal-ket taw dev."
+    literal: "Workflow-record carries duty."
+    notes: "Task paths preserve responsibility across handoffs."
+    terms: ["wakafal-ket", "taw", "dev"]
+  -
+    id: "tech-896"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The replay log reveals judgment."
+    ethra: "Ralapal-ket rah jav."
+    literal: "Replay-record reveals judgment."
+    notes: "Past execution walks again for diagnosis."
+    terms: ["ralapal-ket", "rah", "jav"]
+  -
+    id: "tech-897"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "The orientation record guides learning."
+    ethra: "Oaranat-ket pat dak."
+    literal: "Orientation-record guides teaching."
+    notes: "First-entry material shapes the learner path."
+    terms: ["oaranat-ket", "pat", "dak"]
+  -
+    id: "tech-898"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "The capstone record protects mastery."
+    ethra: "Caaapax-ket xap meseter."
+    literal: "Capstone-record protects mastery."
+    notes: "Final work is evidence of integrated learning."
+    terms: ["caaapax-ket", "xap", "meseter"]
+  -
+    id: "tech-899"
+    track: "technical-software"
+    domain_tags: ["technology-software", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The premise map names the claim."
+    ethra: "Paramas-ket nam dav."
+    literal: "Premise-record names claim."
+    notes: "Reasoning tools must expose assumptions."
+    terms: ["paramas-ket", "nam", "dav"]
+  -
+    id: "tech-900"
+    track: "technical-software"
+    domain_tags: ["technology-software", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The validity check protects inference."
+    ethra: "Valadat-ket xap rag."
+    literal: "Validity-record protects inference."
+    notes: "Inference form becomes a testable artifact."
+    terms: ["valadat-ket", "xap", "rag"]
+  -
+    id: "tech-901"
+    track: "technical-software"
+    domain_tags: ["technology-software", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The soundness audit protects truth."
+    ethra: "Sanadas-ket xap rih."
+    literal: "Soundness-record protects visible-truth."
+    notes: "Proof quality joins form and ground."
+    terms: ["sanadas-ket", "xap", "rih"]
+  -
+    id: "tech-902"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The habitat-corridor map guides movement."
+    ethra: "Habacax-ket pat pat."
+    literal: "Habitat-corridor-record guides path."
+    notes: "Connectivity models protect life movement."
+    terms: ["habacax-ket", "pat", "pat"]
+  -
+    id: "tech-903"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "The recharge model protects water."
+    ethra: "Racahag-ket xap wam."
+    literal: "Recharge-record protects water."
+    notes: "Hidden water replenishment becomes modeled evidence."
+    terms: ["racahag-ket", "xap", "wam"]
+  -
+    id: "tech-904"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "The subsidence model reveals risk."
+    ethra: "Sabasad-ket rah kav."
+    literal: "Subsidence-record reveals power."
+    notes: "Sinking ground is logged before collapse."
+    terms: ["sabasad-ket", "rah", "kav"]
+  -
+    id: "poetic-881"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Dimension opens the world."
+    ethra: "Deiemen rah wed."
+    literal: "Dimension reveals world."
+    notes: "A new axis lets attention enter reality differently."
+    terms: ["deiemen", "rah", "wed"]
+  -
+    id: "poetic-882"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Mass carries the body."
+    ethra: "Mesewet taw hal."
+    literal: "Mass carries body."
+    notes: "Matter has weight before it has metaphor."
+    terms: ["mesewet", "taw", "hal"]
+  -
+    id: "poetic-883"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Force touches the path."
+    ethra: "Feresex pat pat."
+    literal: "Force guides path."
+    notes: "Power becomes visible when the road bends."
+    terms: ["feresex", "pat", "pat"]
+  -
+    id: "poetic-884"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Velocity remembers direction."
+    ethra: "Velecet mar pat."
+    literal: "Velocity remembers path."
+    notes: "Speed without direction is not yet a journey."
+    terms: ["velecet", "mar", "pat"]
+  -
+    id: "poetic-885"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Acceleration names becoming."
+    ethra: "Aeceler nam bekem."
+    literal: "Acceleration names becoming."
+    notes: "Motion admits it is changing into another motion."
+    terms: ["aeceler", "nam", "bekem"]
+  -
+    id: "poetic-886"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Momentum carries memory."
+    ethra: "Memenet taw mer."
+    literal: "Momentum carries memory."
+    notes: "Movement keeps a memory inside matter."
+    terms: ["memenet", "taw", "mer"]
+  -
+    id: "poetic-887"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Inertia protects the old path."
+    ethra: "Neretex xap pat."
+    literal: "Inertia protects path."
+    notes: "Persistence asks to be judged before it is broken."
+    terms: ["neretex", "xap", "pat"]
+  -
+    id: "poetic-888"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Friction reveals meeting."
+    ethra: "Ferecen rah ko."
+    literal: "Friction reveals relation."
+    notes: "Where surfaces meet, cost appears."
+    terms: ["ferecen", "rah", "ko"]
+  -
+    id: "poetic-889"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "Turbulence breaks the clean path."
+    ethra: "Terebel mak pat."
+    literal: "Turbulence breaks path."
+    notes: "Flow loses its single road."
+    terms: ["terebel", "mak", "pat"]
+  -
+    id: "poetic-890"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Necessity binds the word."
+    ethra: "Neceset dav nem."
+    literal: "Necessity binds word."
+    notes: "What must be teaches speech its limits."
+    terms: ["neceset", "dav", "nem"]
+  -
+    id: "poetic-891"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Possibility opens the future."
+    ethra: "Pesebel rah fer."
+    literal: "Possibility reveals future."
+    notes: "The unclosed path gives hope room."
+    terms: ["pesebel", "rah", "fer"]
+  -
+    id: "poetic-892"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Contingency guides humility."
+    ethra: "Ceneteg pat hid."
+    literal: "Contingency guides humility."
+    notes: "The world could answer otherwise."
+    terms: ["ceneteg", "pat", "hid"]
+  -
+    id: "poetic-893"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Essence protects the name."
+    ethra: "Eesenec xap nom."
+    literal: "Essence protects name."
+    notes: "A thing keeps a core through its changes."
+    terms: ["eesenec", "xap", "nom"]
+  -
+    id: "poetic-894"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Substance carries presence."
+    ethra: "Sebeten taw roh."
+    literal: "Substance carries presence."
+    notes: "The bearer stands under passing qualities."
+    terms: ["sebeten", "taw", "roh"]
+  -
+    id: "poetic-895"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Disgust guards the threshold."
+    ethra: "Degeset xap tal."
+    literal: "Disgust protects threshold."
+    notes: "The body says no before the tongue explains."
+    terms: ["degeset", "xap", "tal"]
+  -
+    id: "poetic-896"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Ambivalence carries two hearts."
+    ethra: "Aemebev taw leb."
+    literal: "Ambivalence carries heart."
+    notes: "Mixed feeling refuses a false single voice."
+    terms: ["aemebev", "taw", "leb"]
+  -
+    id: "poetic-897"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Dread walks before harm."
+    ethra: "Deredex pat pan."
+    literal: "Dread walks before pain."
+    notes: "Fear enters early and waits."
+    terms: ["deredex", "pat", "pan"]
+  -
+    id: "poetic-898"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Relief opens breath."
+    ethra: "Relefey rah wah."
+    literal: "Relief reveals air."
+    notes: "The burden leaves and air returns."
+    terms: ["relefey", "rah", "wah"]
+  -
+    id: "poetic-899"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Yearning carries distance."
+    ethra: "Yereneg taw pat."
+    literal: "Yearning carries path."
+    notes: "Love stretches toward what is absent."
+    terms: ["yereneg", "taw", "pat"]
+  -
+    id: "poetic-900"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Bitterness hardens pain."
+    ethra: "Beteren dav pan."
+    literal: "Bitterness hardens pain."
+    notes: "Unrepaired hurt becomes stone in the heart."
+    terms: ["beteren", "dav", "pan"]
+  -
+    id: "poetic-901"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Compassion carries another pain."
+    ethra: "Cemepen taw pan."
+    literal: "Compassion carries pain."
+    notes: "The heart makes room without stealing the wound."
+    terms: ["cemepen", "taw", "pan"]
+  -
+    id: "poetic-902"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "Reforestation repairs shade."
+    ethra: "Referes tar xap."
+    literal: "Reforestation repairs shelter."
+    notes: "Future shade begins as small repair."
+    terms: ["referes", "tar", "xap"]
+  -
+    id: "poetic-903"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "Asylum opens shelter."
+    ethra: "Aeseyel rah xap."
+    literal: "Asylum reveals shelter."
+    notes: "A hunted person meets a lawful shelter."
+    terms: ["aeseyel", "rah", "xap"]
+  -
+    id: "poetic-904"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "Ceasefire holds its breath."
+    ethra: "Cefeier xap wah."
+    literal: "Ceasefire protects breath."
+    notes: "Force pauses so repair can enter."
+    terms: ["cefeier", "xap", "wah"]
+  -
+    id: "learner-441"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Dimension names the model."
+    ethra: "Deiemen nam med."
+    literal: "Dimension names model."
+    notes: "A1 model sentence."
+    terms: ["deiemen", "nam", "med"]
+  -
+    id: "learner-442"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Force changes the path."
+    ethra: "Feresex mak pat."
+    literal: "Force breaks path."
+    notes: "A1 force sentence."
+    terms: ["feresex", "mak", "pat"]
+  -
+    id: "learner-443"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Velocity guides the path."
+    ethra: "Velecet pat pat."
+    literal: "Velocity guides path."
+    notes: "A1 motion sentence."
+    terms: ["velecet", "pat", "pat"]
+  -
+    id: "learner-444"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "Necessity binds duty."
+    ethra: "Neceset dav dev."
+    literal: "Necessity binds duty."
+    notes: "A1 modal sentence."
+    terms: ["neceset", "dav", "dev"]
+  -
+    id: "learner-445"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "Possibility opens the path."
+    ethra: "Pesebel rah pat."
+    literal: "Possibility reveals path."
+    notes: "A1 possibility sentence."
+    terms: ["pesebel", "rah", "pat"]
+  -
+    id: "learner-446"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "learner-a1"
+    english: "Disgust names boundary."
+    ethra: "Degeset nam benedey."
+    literal: "Disgust names boundary."
+    notes: "A1 emotion sentence."
+    terms: ["degeset", "nam", "benedey"]
+  -
+    id: "learner-447"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "learner-a1"
+    english: "Dread carries the future."
+    ethra: "Deredex taw fer."
+    literal: "Dread carries future."
+    notes: "A1 emotional precision sentence."
+    terms: ["deredex", "taw", "fer"]
+  -
+    id: "learner-448"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "learner-a1"
+    english: "Reforestation repairs the forest."
+    ethra: "Referes tar yer."
+    literal: "Reforestation repairs forest."
+    notes: "A1 ecology repair sentence."
+    terms: ["referes", "tar", "yer"]
+  -
+    id: "learner-449"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ai-cognition"]
+    register: "learner-a1"
+    english: "The confidence score reveals data."
+    ethra: "Cefesec rah den."
+    literal: "Confidence-score reveals data."
+    notes: "A1 AI reliability sentence."
+    terms: ["cefesec", "rah", "den"]
+  -
+    id: "learner-450"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "learner-a1"
+    english: "Verification protects release."
+    ethra: "Verefey xap reles."
+    literal: "Verification protects release."
+    notes: "A1 software testing sentence."
+    terms: ["verefey", "xap", "reles"]
+  -
+    id: "learner-451"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "Asylum protects the person."
+    ethra: "Aeseyel xap yes."
+    literal: "Asylum protects person."
+    notes: "A1 refuge sentence."
+    terms: ["aeseyel", "xap", "yes"]
+  -
+    id: "learner-452"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "learner-a1"
+    english: "Ceasefire binds force."
+    ethra: "Cefeier dav kev."
+    literal: "Ceasefire binds power."
+    notes: "A1 conflict restraint sentence."
+    terms: ["cefeier", "dav", "kev"]
