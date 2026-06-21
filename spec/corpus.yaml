@@ -1,4 +1,4 @@
-version: "0.8.7-corpus"
+version: "0.8.9-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -39201,3 +39201,1203 @@ items:
     literal: "Overwhelm breaks attention."
     notes: "A1 capacity sentence."
     terms: ["veleweh", "mak", "san"]
+  -
+    id: "daily-785"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "The vendor names the price."
+    ethra: "Veneder nam tec."
+    literal: "Vendor names price."
+    notes: "Ordinary exchange begins by making the price speakable."
+    terms: ["veneder", "nam", "tec"]
+  -
+    id: "daily-786"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place", "economics-provision"]
+    register: "plain"
+    english: "The platform carries cargo."
+    ethra: "Peletef taw ceregex."
+    literal: "Platform carries cargo."
+    notes: "Travel infrastructure is tied to goods in custody."
+    terms: ["ceregex", "taw", "peletef"]
+  -
+    id: "daily-787"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "I bargain with you."
+    ethra: "Na baragan ta."
+    literal: "I bargain equal-you."
+    notes: "Bargaining is ordinary speech, not hidden manipulation."
+    terms: ["na", "baragan", "ta"]
+  -
+    id: "daily-788"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "family-kinship"]
+    register: "household"
+    english: "Liquidity protects the household."
+    ethra: "Lekedet xap hon."
+    literal: "Liquidity protects home."
+    notes: "Payment readiness is framed as household stewardship."
+    terms: ["lekedet", "xap", "hon"]
+  -
+    id: "daily-789"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Banking remembers the deposit."
+    ethra: "Benekeg mar depeset."
+    literal: "Banking remembers deposit."
+    notes: "Custody of money requires memory under record."
+    terms: ["benekeg", "mar", "depeset"]
+  -
+    id: "daily-790"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "family-kinship"]
+    register: "household"
+    english: "The remittance carries provision for the family."
+    ethra: "Remetex taw por so-hen."
+    literal: "Remittance carries provision for-family."
+    notes: "Distant money is interpreted as care moving across distance."
+    terms: ["remetex", "taw", "por", "so-hen"]
+  -
+    id: "daily-791"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "law-governance"]
+    register: "plain"
+    english: "The royalty names the right."
+    ethra: "Reyelet nam ret."
+    literal: "Royalty names right."
+    notes: "Recurring payment is connected to use-right rather than mere gain."
+    terms: ["reyelet", "nam", "ret"]
+  -
+    id: "daily-792"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "law-governance"]
+    register: "plain"
+    english: "The commission carries duty."
+    ethra: "Cemeses taw dev."
+    literal: "Commission carries duty."
+    notes: "Paid agency is morally answerable."
+    terms: ["cemeses", "taw", "dev"]
+  -
+    id: "daily-793"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "family-kinship"]
+    register: "household"
+    english: "Dues protect the household."
+    ethra: "Deyewex xap hon."
+    literal: "Dues protect home."
+    notes: "Recurring payments are placed under belonging and care."
+    terms: ["deyewex", "xap", "hon"]
+  -
+    id: "daily-794"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "law-governance"]
+    register: "plain"
+    english: "The installment carries the duty."
+    ethra: "Nesetel taw dev."
+    literal: "Installment carries duty."
+    notes: "Partial payment makes obligation bearable in time."
+    terms: ["nesetel", "taw", "dev"]
+  -
+    id: "daily-795"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "The auction reveals the price."
+    ethra: "Xeketex rah tec."
+    literal: "Auction reveals price."
+    notes: "Competitive sale makes desire visible as public price."
+    terms: ["xeketex", "rah", "tec"]
+  -
+    id: "daily-796"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "law-governance"]
+    register: "plain"
+    english: "The bid names choice."
+    ethra: "Bededen nam vel."
+    literal: "Bid names choice."
+    notes: "A bid is a declared willing, not a hidden impulse."
+    terms: ["bededen", "nam", "vel"]
+  -
+    id: "daily-797"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "conflict-security"]
+    register: "plain"
+    english: "The rebate repairs the price."
+    ethra: "Rebedex tar tec."
+    literal: "Rebate repairs price."
+    notes: "Returned money is treated as correction after exchange."
+    terms: ["rebedex", "tar", "tec"]
+  -
+    id: "daily-798"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "history-memory"]
+    register: "plain"
+    english: "Bookkeeping remembers money."
+    ethra: "Bekepeg mar mey."
+    literal: "Bookkeeping remembers money."
+    notes: "Financial order is memory disciplined by numbers."
+    terms: ["bekepeg", "mar", "mey"]
+  -
+    id: "daily-799"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Cashflow guides work."
+    ethra: "Cesehef pat wak."
+    literal: "Cashflow guides work."
+    notes: "Work is kept answerable to timed provision."
+    terms: ["cesehef", "pat", "wak"]
+  -
+    id: "daily-800"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "The broker guides provision."
+    ethra: "Bereker pat por."
+    literal: "Broker guides provision."
+    notes: "The middle party is named so mediation stays visible."
+    terms: ["bereker", "pat", "por"]
+  -
+    id: "daily-801"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "The seller names truth."
+    ethra: "Seleler nam rih."
+    literal: "Seller names visible-truth."
+    notes: "Ordinary sale is expected to speak honestly."
+    terms: ["seleler", "nam", "rih"]
+  -
+    id: "daily-802"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "The supplier protects provision."
+    ethra: "Sepeler xap por."
+    literal: "Supplier protects provision."
+    notes: "Supply is judged by reliability, not only price."
+    terms: ["sepeler", "xap", "por"]
+  -
+    id: "daily-803"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "travel-place"]
+    register: "plain"
+    english: "Freight carries cargo."
+    ethra: "Fereyex taw ceregex."
+    literal: "Freight carries cargo."
+    notes: "Transport custody is grounded in everyday trade speech."
+    terms: ["fereyex", "taw", "ceregex"]
+  -
+    id: "daily-804"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "The margin protects the work."
+    ethra: "Meregen xap wak."
+    literal: "Margin protects work."
+    notes: "Economic remainder is a survival edge."
+    terms: ["meregen", "xap", "wak"]
+  -
+    id: "daily-805"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "history-memory"]
+    register: "plain"
+    english: "The supply chain carries the future."
+    ethra: "Cehenex taw fer."
+    literal: "Supply-chain carries future."
+    notes: "Provision paths are judged by future continuity."
+    terms: ["cehenex", "taw", "fer"]
+  -
+    id: "daily-806"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "The highway guides the people."
+    ethra: "Heweyex pat lem."
+    literal: "Highway guides people."
+    notes: "A road is civic direction, not only pavement."
+    terms: ["heweyex", "pat", "lem"]
+  -
+    id: "daily-807"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "The passenger travels."
+    ethra: "Peseseg pat."
+    literal: "Passenger travels."
+    notes: "The traveler is marked as entrusted to another path."
+    terms: ["peseseg", "pat"]
+  -
+    id: "daily-808"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place", "family-kinship"]
+    register: "plain"
+    english: "The luggage carries home."
+    ethra: "Legegex taw hon."
+    literal: "Luggage carries home."
+    notes: "Travel goods are treated as portable household memory."
+    terms: ["legegex", "taw", "hon"]
+  -
+    id: "civic-589"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The vendor registry protects the right."
+    ethra: "Pu vanadar-da xap ret."
+    literal: "Public vendor-record protects right."
+    notes: "Public commerce requires accountable naming."
+    terms: ["pu", "vanadar-da", "xap", "ret"]
+  -
+    id: "civic-590"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision", "travel-place"]
+    register: "legal"
+    english: "The cargo manifest remembers the record."
+    ethra: "Pu caragax-da mar kot."
+    literal: "Public cargo-record remembers book-record."
+    notes: "Custody transfer is handled through written memory."
+    terms: ["pu", "caragax-da", "mar", "kot"]
+  -
+    id: "civic-591"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The liquidity report protects banking."
+    ethra: "Pu lakadat-da xap benekeg."
+    literal: "Public liquidity-record protects banking."
+    notes: "Solvency is treated as a public trust concern."
+    terms: ["pu", "lakadat-da", "xap", "benekeg"]
+  -
+    id: "civic-592"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "The banking charter binds duty."
+    ethra: "Pu banakag-da dav dev."
+    literal: "Public banking-record binds duty."
+    notes: "Financial institutions receive authority under obligation."
+    terms: ["pu", "banakag-da", "dav", "dev"]
+  -
+    id: "civic-593"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "The deposit receipt remembers money."
+    ethra: "Pu dapasat-da mar mey."
+    literal: "Public deposit-record remembers money."
+    notes: "Placed value is protected by inspectable record."
+    terms: ["pu", "dapasat-da", "mar", "mey"]
+  -
+    id: "civic-594"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision", "family-kinship"]
+    register: "civic"
+    english: "The remittance rule protects provision for the family."
+    ethra: "Pu ramatax-da xap por so-hen."
+    literal: "Public remittance-record protects provision for-family."
+    notes: "Cross-distance support is governed as family provision."
+    terms: ["pu", "ramatax-da", "xap", "por", "so-hen"]
+  -
+    id: "civic-595"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "The royalty contract names the right."
+    ethra: "Pu rayalat-da nam ret."
+    literal: "Public royalty-record names right."
+    notes: "Use-rights require explicit civic speech."
+    terms: ["pu", "rayalat-da", "nam", "ret"]
+  -
+    id: "civic-596"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The commission disclosure protects visible truth."
+    ethra: "Pu camasas-da xap rih."
+    literal: "Public commission-record protects visible-truth."
+    notes: "Paid agency must not hide its incentives."
+    terms: ["pu", "camasas-da", "xap", "rih"]
+  -
+    id: "civic-597"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The fee notice names the common share."
+    ethra: "Pu dayawax-da nam gel."
+    literal: "Public dues-record names tax/common-share."
+    notes: "Fees are judged by declared civic contribution."
+    terms: ["pu", "dayawax-da", "nam", "gel"]
+  -
+    id: "civic-598"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "The installment agreement carries duty."
+    ethra: "Pu nasatal-da taw dev."
+    literal: "Public installment-record carries duty."
+    notes: "A payment schedule remains an obligation, not a loophole."
+    terms: ["pu", "nasatal-da", "taw", "dev"]
+  -
+    id: "civic-599"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The auction notice reveals the price."
+    ethra: "Pu xakatax-da rah tec."
+    literal: "Public auction-record reveals price."
+    notes: "Public sale is governed by visible terms."
+    terms: ["pu", "xakatax-da", "rah", "tec"]
+  -
+    id: "civic-600"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "The bid submission builds the record."
+    ethra: "Pu badadan-da ban kot."
+    literal: "Public bid-record builds book-record."
+    notes: "Declared offers enter civic memory."
+    terms: ["pu", "badadan-da", "ban", "kot"]
+  -
+    id: "civic-601"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision", "conflict-security"]
+    register: "civic"
+    english: "The rebate notice repairs the price."
+    ethra: "Pu rabadax-da tar tec."
+    literal: "Public rebate-record repairs price."
+    notes: "Price correction receives a public form."
+    terms: ["pu", "rabadax-da", "tar", "tec"]
+  -
+    id: "civic-602"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision", "history-memory"]
+    register: "legal"
+    english: "The bookkeeping ledger remembers money."
+    ethra: "Pu bakapag-da mar mey."
+    literal: "Public bookkeeping-record remembers money."
+    notes: "Financial memory is a civic accountability instrument."
+    terms: ["pu", "bakapag-da", "mar", "mey"]
+  -
+    id: "civic-603"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The cashflow statement guides work."
+    ethra: "Pu casahaf-da pat wak."
+    literal: "Public cashflow-record guides work."
+    notes: "Timed resources shape institutional action."
+    terms: ["pu", "casahaf-da", "pat", "wak"]
+  -
+    id: "civic-604"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The supplier registry protects provision."
+    ethra: "Pu sapalar-da xap par."
+    literal: "Public supplier-record protects provision."
+    notes: "Provision sources are made reviewable before public purchase."
+    terms: ["pu", "sapalar-da", "xap", "par"]
+  -
+    id: "civic-605"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision", "travel-place"]
+    register: "legal"
+    english: "The freight bill remembers cargo."
+    ethra: "Pu farayax-da mar ceregex."
+    literal: "Public freight-record remembers cargo."
+    notes: "Commercial transport remains under custody record."
+    terms: ["pu", "farayax-da", "mar", "ceregex"]
+  -
+    id: "civic-606"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision", "conflict-security"]
+    register: "legal"
+    english: "The default notice names repair."
+    ethra: "Pu dafalat-da nam tar."
+    literal: "Public default-record names repair."
+    notes: "Failure under obligation opens a cure path."
+    terms: ["pu", "dafalat-da", "nam", "tar"]
+  -
+    id: "ritual-589"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "ritual"
+    english: "Let the vendor stand before visible truth."
+    ethra: "Ha-vunudur rah rih."
+    literal: "Solemn-vendor reveals visible-truth."
+    notes: "Exchange is placed before recognition and truth."
+    terms: ["ha-vunudur", "rah", "rih"]
+  -
+    id: "ritual-590"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "travel-place"]
+    register: "ritual"
+    english: "Cargo carries duty."
+    ethra: "Ha-curugux taw dev."
+    literal: "Solemn-cargo carries duty."
+    notes: "Goods in custody are given moral weight."
+    terms: ["ha-curugux", "taw", "dev"]
+  -
+    id: "ritual-591"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "law-governance"]
+    register: "ritual"
+    english: "The bargain protects the right."
+    ethra: "Ha-burugun xap ret."
+    literal: "Solemn-bargain protects right."
+    notes: "Negotiated exchange is judged by right standing."
+    terms: ["ha-burugun", "xap", "ret"]
+  -
+    id: "ritual-592"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "history-memory"]
+    register: "ritual"
+    english: "Liquidity carries the future."
+    ethra: "Ha-lukudut taw fer."
+    literal: "Solemn-liquidity carries future."
+    notes: "Stored readiness is consecrated as future service."
+    terms: ["ha-lukudut", "taw", "fer"]
+  -
+    id: "ritual-593"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "history-memory"]
+    register: "ritual"
+    english: "Banking remembers duty."
+    ethra: "Ha-bunukug mar dev."
+    literal: "Solemn-banking remembers duty."
+    notes: "Financial custody is ritualized as remembered obligation."
+    terms: ["ha-bunukug", "mar", "dev"]
+  -
+    id: "ritual-594"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "ritual"
+    english: "The deposit protects visible truth."
+    ethra: "Ha-dupusut xap rih."
+    literal: "Solemn-deposit protects visible-truth."
+    notes: "Placed value must be honest and inspectable."
+    terms: ["ha-dupusut", "xap", "rih"]
+  -
+    id: "ritual-595"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "family-kinship"]
+    register: "ritual"
+    english: "The remittance carries home."
+    ethra: "Ha-rumutux taw hon."
+    literal: "Solemn-remittance carries home."
+    notes: "Provision sent across distance is treated as household faithfulness."
+    terms: ["ha-rumutux", "taw", "hon"]
+  -
+    id: "ritual-596"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "law-governance"]
+    register: "ritual"
+    english: "The royalty names the right."
+    ethra: "Ha-ruyulut nam ret."
+    literal: "Solemn-royalty names right."
+    notes: "Creative or inherited use-rights enter solemn speech."
+    terms: ["ha-ruyulut", "nam", "ret"]
+  -
+    id: "ritual-597"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "law-governance"]
+    register: "ritual"
+    english: "The commission carries duty."
+    ethra: "Ha-cumusus taw dev."
+    literal: "Solemn-commission carries duty."
+    notes: "Paid agency is brought under vow-like accountability."
+    terms: ["ha-cumusus", "taw", "dev"]
+  -
+    id: "ritual-598"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "history-memory"]
+    register: "ritual"
+    english: "Dues protect the people."
+    ethra: "Ha-duyuwux xap lem."
+    literal: "Solemn-dues protect people."
+    notes: "Sustaining payments are tied to public continuity."
+    terms: ["ha-duyuwux", "xap", "lem"]
+  -
+    id: "ritual-599"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "law-governance"]
+    register: "ritual"
+    english: "The installment carries duty."
+    ethra: "Ha-nusutul taw dev."
+    literal: "Solemn-installment carries duty."
+    notes: "A divided debt remains whole in moral memory."
+    terms: ["ha-nusutul", "taw", "dev"]
+  -
+    id: "ritual-600"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "law-governance"]
+    register: "ritual"
+    english: "The auction reveals choice."
+    ethra: "Ha-xukutux rah vel."
+    literal: "Solemn-auction reveals choice."
+    notes: "Public desire is made visible under judgment."
+    terms: ["ha-xukutux", "rah", "vel"]
+  -
+    id: "ritual-601"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "ritual"
+    english: "The bid names visible truth."
+    ethra: "Ha-bududun nam rih."
+    literal: "Solemn-bid names visible-truth."
+    notes: "An offer must disclose what it truly promises."
+    terms: ["ha-bududun", "nam", "rih"]
+  -
+    id: "ritual-602"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "conflict-security"]
+    register: "ritual"
+    english: "The rebate repairs the price."
+    ethra: "Ha-rubudux tar tec."
+    literal: "Solemn-rebate repairs price."
+    notes: "Correction after exchange receives solemn dignity."
+    terms: ["ha-rubudux", "tar", "tec"]
+  -
+    id: "ritual-603"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "history-memory"]
+    register: "ritual"
+    english: "Bookkeeping remembers visible truth."
+    ethra: "Ha-bukupug mar rih."
+    literal: "Solemn-bookkeeping remembers visible-truth."
+    notes: "Accounts become a ritual discipline of honesty."
+    terms: ["ha-bukupug", "mar", "rih"]
+  -
+    id: "ritual-604"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "ritual"
+    english: "Cashflow carries work."
+    ethra: "Ha-cusuhuf taw wak."
+    literal: "Solemn-cashflow carries work."
+    notes: "Work is sustained by provision moving in time."
+    terms: ["ha-cusuhuf", "taw", "wak"]
+  -
+    id: "ritual-605"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "ritual"
+    english: "The supply chain carries provision."
+    ethra: "Ha-cuhunux taw por."
+    literal: "Solemn-supply-chain carries provision."
+    notes: "Many hands are treated as one accountable path."
+    terms: ["ha-cuhunux", "taw", "por"]
+  -
+    id: "ritual-606"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "conflict-security"]
+    register: "ritual"
+    english: "Default names repair."
+    ethra: "Ha-dufulut nam tar."
+    literal: "Solemn-default names repair."
+    notes: "Failure is not final when repair is named."
+    terms: ["ha-dufulut", "nam", "tar"]
+  -
+    id: "tech-785"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The vendor record maps data."
+    ethra: "Vanadar-da map den."
+    literal: "Vendor-record maps data."
+    notes: "Technical procurement needs structured vendor data."
+    terms: ["vanadar-da", "map", "den"]
+  -
+    id: "tech-786"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "travel-place"]
+    register: "technical"
+    english: "The cargo record remembers data."
+    ethra: "Caragax-da mar den."
+    literal: "Cargo-record remembers data."
+    notes: "Logistics data is treated as custody memory."
+    terms: ["caragax-da", "mar", "den"]
+  -
+    id: "tech-787"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The liquidity tool sees cashflow."
+    ethra: "Lakadat-tel rah cesehef."
+    literal: "Liquidity-tool sees cashflow."
+    notes: "Monitoring payment readiness requires visible flow."
+    terms: ["lakadat-tel", "rah", "cesehef"]
+  -
+    id: "tech-788"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The banking tool remembers the deposit."
+    ethra: "Banakag-tel mar depeset."
+    literal: "Banking-tool remembers deposit."
+    notes: "A payment system preserves placed value as state."
+    terms: ["banakag-tel", "mar", "depeset"]
+  -
+    id: "tech-789"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The remittance process carries money."
+    ethra: "Ramatax-ga taw mey."
+    literal: "Remittance-process carries money."
+    notes: "A transfer pipeline is named as process, not magic."
+    terms: ["ramatax-ga", "taw", "mey"]
+  -
+    id: "tech-790"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "history-memory"]
+    register: "technical"
+    english: "The royalty record remembers the code."
+    ethra: "Rayalat-ket mar kot."
+    literal: "Royalty-record remembers code."
+    notes: "Software licensing links use and payment through record."
+    terms: ["rayalat-ket", "mar", "kot"]
+  -
+    id: "tech-791"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The commission rule protects the seller."
+    ethra: "Camasas-lek xap seleler."
+    literal: "Commission-theory protects seller."
+    notes: "Compensation logic is exposed as a rule."
+    terms: ["camasas-lek", "xap", "seleler"]
+  -
+    id: "tech-792"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "law-governance"]
+    register: "technical"
+    english: "The fee record guides the right."
+    ethra: "Dayawax-ket pat ret."
+    literal: "Fee-record guides right."
+    notes: "Access fees need machine-readable entitlement."
+    terms: ["dayawax-ket", "pat", "ret"]
+  -
+    id: "tech-793"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "law-governance"]
+    register: "technical"
+    english: "The installment record repairs duty."
+    ethra: "Nasatal-ket tar dev."
+    literal: "Installment-record repairs duty."
+    notes: "Repayment state helps keep obligation inspectable."
+    terms: ["nasatal-ket", "tar", "dev"]
+  -
+    id: "tech-794"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The auction tool reveals bids."
+    ethra: "Xakatax-tel rah bededen."
+    literal: "Auction-tool reveals bid."
+    notes: "Competitive offers are surfaced rather than hidden."
+    terms: ["xakatax-tel", "rah", "bededen"]
+  -
+    id: "tech-795"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The bid record names the price."
+    ethra: "Badadan-ket nam tec."
+    literal: "Bid-record names price."
+    notes: "Tender systems keep offer and price linked."
+    terms: ["badadan-ket", "nam", "tec"]
+  -
+    id: "tech-796"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "conflict-security"]
+    register: "technical"
+    english: "The rebate tool repairs money."
+    ethra: "Rabadax-tel tar mey."
+    literal: "Rebate-tool repairs money."
+    notes: "Refund automation is framed as correction."
+    terms: ["rabadax-tel", "tar", "mey"]
+  -
+    id: "tech-797"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "history-memory"]
+    register: "technical"
+    english: "The bookkeeping process remembers cashflow."
+    ethra: "Bakapag-ga mar cesehef."
+    literal: "Bookkeeping-process remembers cashflow."
+    notes: "Financial pipelines need durable event memory."
+    terms: ["bakapag-ga", "mar", "cesehef"]
+  -
+    id: "tech-798"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The broker tool guides provision."
+    ethra: "Barakar-tel pat par."
+    literal: "Broker-tool guides provision."
+    notes: "Middleware is described through mediated exchange."
+    terms: ["barakar-tel", "pat", "par"]
+  -
+    id: "tech-799"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The supplier record protects the supply chain."
+    ethra: "Sapalar-da xap cehenex."
+    literal: "Supplier-record protects supply-chain."
+    notes: "Vendor qualification supports resilience."
+    terms: ["sapalar-da", "xap", "cehenex"]
+  -
+    id: "tech-800"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "travel-place"]
+    register: "technical"
+    english: "The freight tool sees cargo."
+    ethra: "Farayax-tel rah ceregex."
+    literal: "Freight-tool sees cargo."
+    notes: "Tracking gives goods visible custody."
+    terms: ["farayax-tel", "rah", "ceregex"]
+  -
+    id: "tech-801"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The margin tool protects work."
+    ethra: "Maragan-tel xap wak."
+    literal: "Margin-tool protects work."
+    notes: "Operational tooling keeps the survival edge visible."
+    terms: ["maragan-tel", "xap", "wak"]
+  -
+    id: "tech-802"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "travel-place"]
+    register: "technical"
+    english: "The supply-chain tool reveals the path."
+    ethra: "Cahanax-tel rah pat."
+    literal: "Supply-chain-tool reveals path."
+    notes: "Provision routing is made inspectable."
+    terms: ["cahanax-tel", "rah", "pat"]
+  -
+    id: "tech-803"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "The amortization record guides payment."
+    ethra: "Maratax-ket pat may."
+    literal: "Amortization-record guides payment."
+    notes: "Scheduled reduction becomes executable memory."
+    terms: ["maratax-ket", "pat", "may"]
+  -
+    id: "tech-804"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The hedge rule protects uncertainty."
+    ethra: "Hadagax-lek xap xen."
+    literal: "Hedge-theory protects uncertainty."
+    notes: "Risk offset is modeled as disciplined response to unknown range."
+    terms: ["hadagax-lek", "xap", "xen"]
+  -
+    id: "tech-805"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision", "conflict-security"]
+    register: "technical"
+    english: "The default tool names the break."
+    ethra: "Dafalat-tel nam mak."
+    literal: "Default-tool names break."
+    notes: "Failure detection must make breach visible."
+    terms: ["dafalat-tel", "nam", "mak"]
+  -
+    id: "tech-806"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "The highway tool guides the path."
+    ethra: "Hawayax-tel pat pat."
+    literal: "Highway-tool guides path."
+    notes: "Routing systems use road language directly."
+    terms: ["hawayax-tel", "pat"]
+  -
+    id: "tech-807"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "The passenger record remembers the people."
+    ethra: "Pasasag-da mar lem."
+    literal: "Passenger-record remembers people."
+    notes: "Transport manifests are person-accountability records."
+    terms: ["pasasag-da", "mar", "lem"]
+  -
+    id: "tech-808"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place", "nature-ecology"]
+    register: "technical"
+    english: "The causeway tool maps the world."
+    ethra: "Casaway-tel map wed."
+    literal: "Causeway-tool maps world."
+    notes: "Infrastructure models bind road, land, and water context."
+    terms: ["casaway-tel", "map", "wed"]
+  -
+    id: "poetic-785"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "history-memory"]
+    register: "poetic"
+    english: "The highway remembers the city."
+    ethra: "Heweyex mar cet."
+    literal: "Highway remembers city."
+    notes: "A road becomes civic memory through repeated return."
+    terms: ["heweyex", "mar", "cet"]
+  -
+    id: "poetic-786"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "media-communication"]
+    register: "poetic"
+    english: "The alley carries silence."
+    ethra: "Leleyex taw cez."
+    literal: "Alley carries silence."
+    notes: "Narrow passages hold unsaid urban memory."
+    terms: ["leleyex", "taw", "cez"]
+  -
+    id: "poetic-787"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "history-memory"]
+    register: "poetic"
+    english: "The boulevard reveals the people."
+    ethra: "Beleved rah lem."
+    literal: "Boulevard reveals people."
+    notes: "A broad civic street makes public life visible."
+    terms: ["beleved", "rah", "lem"]
+  -
+    id: "poetic-788"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "history-memory"]
+    register: "poetic"
+    english: "The trail remembers the path."
+    ethra: "Terelex mar pat."
+    literal: "Trail remembers path."
+    notes: "Repeated walking becomes land memory."
+    terms: ["terelex", "mar", "pat"]
+  -
+    id: "poetic-789"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "The lane protects flow."
+    ethra: "Lenenex xap fal."
+    literal: "Lane protects flow."
+    notes: "A marked way gives motion its rightful edge."
+    terms: ["lenenex", "xap", "fal"]
+  -
+    id: "poetic-790"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "emotion-psychology"]
+    register: "poetic"
+    english: "The crossing teaches attention."
+    ethra: "Cereseg dak san."
+    literal: "Crossing teaches attention."
+    notes: "Where paths meet, notice becomes moral."
+    terms: ["cereseg", "dak", "san"]
+  -
+    id: "poetic-791"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "emotion-psychology"]
+    register: "poetic"
+    english: "The roundabout teaches attention."
+    ethra: "Renedex dak san."
+    literal: "Roundabout teaches attention."
+    notes: "Yielding motion is imagined as public patience."
+    terms: ["renedex", "dak", "san"]
+  -
+    id: "poetic-792"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "history-memory"]
+    register: "poetic"
+    english: "The runway carries the future."
+    ethra: "Renewey taw fer."
+    literal: "Runway carries future."
+    notes: "Departure and arrival open a future path."
+    terms: ["renewey", "taw", "fer"]
+  -
+    id: "poetic-793"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "emotion-psychology"]
+    register: "poetic"
+    english: "The platform carries attention."
+    ethra: "Peletef taw san."
+    literal: "Platform carries attention."
+    notes: "A place of boarding gathers waiting and intention."
+    terms: ["peletef", "taw", "san"]
+  -
+    id: "poetic-794"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "history-memory"]
+    register: "poetic"
+    english: "The itinerary names the future."
+    ethra: "Yetener nam fer."
+    literal: "Itinerary names future."
+    notes: "A planned journey gives tomorrow a sequence."
+    terms: ["yetener", "nam", "fer"]
+  -
+    id: "poetic-795"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "family-kinship"]
+    register: "poetic"
+    english: "Luggage remembers home."
+    ethra: "Legegex mar hon."
+    literal: "Luggage remembers home."
+    notes: "Packed things carry the shape of belonging."
+    terms: ["legegex", "mar", "hon"]
+  -
+    id: "poetic-796"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "law-governance"]
+    register: "poetic"
+    english: "The passenger carries duty."
+    ethra: "Peseseg taw dev."
+    literal: "Passenger carries duty."
+    notes: "Even one carried by another remains answerable."
+    terms: ["peseseg", "taw", "dev"]
+  -
+    id: "poetic-797"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "family-kinship"]
+    register: "poetic"
+    english: "The suburb protects home."
+    ethra: "Sebereb xap hon."
+    literal: "Suburb protects home."
+    notes: "Outer settlement is imagined as household extension."
+    terms: ["sebereb", "xap", "hon"]
+  -
+    id: "poetic-798"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "The rural place remembers the world."
+    ethra: "Rerelex mar wed."
+    literal: "Rural-place remembers world."
+    notes: "Countryside keeps a slower memory of land."
+    terms: ["rerelex", "mar", "wed"]
+  -
+    id: "poetic-799"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "history-memory"]
+    register: "poetic"
+    english: "The urban place carries the people."
+    ethra: "Rebenex taw lem."
+    literal: "Urban-place carries people."
+    notes: "Density becomes a civilizational burden."
+    terms: ["rebenex", "taw", "lem"]
+  -
+    id: "poetic-800"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "nature-ecology"]
+    register: "poetic"
+    english: "Terrain teaches the path."
+    ethra: "Tereren dak pat."
+    literal: "Terrain teaches path."
+    notes: "Ground form instructs movement before speech does."
+    terms: ["tereren", "dak", "pat"]
+  -
+    id: "poetic-801"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "history-memory"]
+    register: "poetic"
+    english: "The landmark reveals memory."
+    ethra: "Lenedem rah mer."
+    literal: "Landmark reveals memory."
+    notes: "Recognized places make inheritance visible."
+    terms: ["lenedem", "rah", "mer"]
+  -
+    id: "poetic-802"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "The ferry carries the people."
+    ethra: "Fererey taw lem."
+    literal: "Ferry carries people."
+    notes: "A moving bridge gathers trust over water."
+    terms: ["fererey", "taw", "lem"]
+  -
+    id: "poetic-803"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "economics-provision"]
+    register: "poetic"
+    english: "The wharf carries cargo."
+    ethra: "Weheref taw ceregex."
+    literal: "Wharf carries cargo."
+    notes: "The edge between land and water becomes work."
+    terms: ["weheref", "taw", "ceregex"]
+  -
+    id: "poetic-804"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "The pier sees the world."
+    ethra: "Peyerex rah wed."
+    literal: "Pier sees world."
+    notes: "A built projection lets shore look outward."
+    terms: ["peyerex", "rah", "wed"]
+  -
+    id: "poetic-805"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "emotion-psychology"]
+    register: "poetic"
+    english: "The marina protects rest."
+    ethra: "Merenex xap cap."
+    literal: "Marina protects rest."
+    notes: "Small vessels are given quiet after motion."
+    terms: ["merenex", "xap", "cap"]
+  -
+    id: "poetic-806"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "The quay builds the path."
+    ethra: "Keweyex ban pat."
+    literal: "Quay builds path."
+    notes: "Stone at water's edge makes meeting possible."
+    terms: ["keweyex", "ban", "pat"]
+  -
+    id: "poetic-807"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "The overpass carries the path."
+    ethra: "Veperes taw pat."
+    literal: "Overpass carries path."
+    notes: "One journey rises so another may continue."
+    terms: ["veperes", "taw", "pat"]
+  -
+    id: "poetic-808"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "nature-ecology", "history-memory"]
+    register: "poetic"
+    english: "The causeway remembers the world."
+    ethra: "Cesewey mar wed."
+    literal: "Causeway remembers world."
+    notes: "A raised road carries the memory of water beneath it."
+    terms: ["cesewey", "mar", "wed"]
+  -
+    id: "learner-393"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "The vendor names the price."
+    ethra: "Veneder nam tec."
+    literal: "Vendor names price."
+    notes: "A1 exchange sentence."
+    terms: ["veneder", "nam", "tec"]
+  -
+    id: "learner-394"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "Cargo carries money."
+    ethra: "Ceregex taw mey."
+    literal: "Cargo carries money."
+    notes: "A1 cargo sentence."
+    terms: ["ceregex", "taw", "mey"]
+  -
+    id: "learner-395"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "Banking protects money."
+    ethra: "Benekeg xap mey."
+    literal: "Banking protects money."
+    notes: "A1 financial custody sentence."
+    terms: ["benekeg", "xap", "mey"]
+  -
+    id: "learner-396"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision", "law-governance"]
+    register: "learner-a1"
+    english: "The deposit carries duty."
+    ethra: "Depeset taw dev."
+    literal: "Deposit carries duty."
+    notes: "A1 entrusted value sentence."
+    terms: ["depeset", "taw", "dev"]
+  -
+    id: "learner-397"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "The auction reveals the price."
+    ethra: "Xeketex rah tec."
+    literal: "Auction reveals price."
+    notes: "A1 public price sentence."
+    terms: ["xeketex", "rah", "tec"]
+  -
+    id: "learner-398"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision", "conflict-security"]
+    register: "learner-a1"
+    english: "The rebate repairs the price."
+    ethra: "Rebedex tar tec."
+    literal: "Rebate repairs price."
+    notes: "A1 correction sentence."
+    terms: ["rebedex", "tar", "tec"]
+  -
+    id: "learner-399"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "learner-a1"
+    english: "The highway guides the people."
+    ethra: "Heweyex pat lem."
+    literal: "Highway guides people."
+    notes: "A1 travel sentence."
+    terms: ["heweyex", "pat", "lem"]
+  -
+    id: "learner-400"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "learner-a1"
+    english: "The platform carries the passenger."
+    ethra: "Peletef taw peseseg."
+    literal: "Platform carries passenger."
+    notes: "A1 platform sentence."
+    terms: ["peletef", "taw", "peseseg"]
+  -
+    id: "learner-401"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place", "family-kinship"]
+    register: "learner-a1"
+    english: "Luggage carries home."
+    ethra: "Legegex taw hon."
+    literal: "Luggage carries home."
+    notes: "A1 travel object sentence."
+    terms: ["legegex", "taw", "hon"]
+  -
+    id: "learner-402"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "learner-a1"
+    english: "The landmark guides the path."
+    ethra: "Lenedem pat pat."
+    literal: "Landmark guides path."
+    notes: "A1 wayfinding sentence."
+    terms: ["lenedem", "pat"]
+  -
+    id: "learner-403"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "learner-a1"
+    english: "The ferry carries the people."
+    ethra: "Fererey taw lem."
+    literal: "Ferry carries people."
+    notes: "A1 water-crossing sentence."
+    terms: ["fererey", "taw", "lem"]
+  -
+    id: "learner-404"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "learner-a1"
+    english: "The causeway protects the path."
+    ethra: "Cesewey xap pat."
+    literal: "Causeway protects path."
+    notes: "A1 infrastructure sentence."
+    terms: ["cesewey", "xap", "pat"]

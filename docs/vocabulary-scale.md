@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 37,057 explicit lexicon entries, 37,212 dictionary entries, 1,850 root families, and 3,920 reviewed corpus items after the v0.8.8 economics/provision and travel/place infrastructure root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 37,057 explicit lexicon entries, 37,212 dictionary entries, 1,850 root families, and 4,040 reviewed corpus items after the v0.8.9 economics/provision and travel/place corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
@@ -8,7 +8,7 @@ Current progress toward the v1.0 stable-civil-language target:
 entries 37,057 / 25,000
 dictionary 37,212 entries with corpus evidence fields
 roots     1,850 / 2,500
-corpus    3,920 / 10,000 reviewed items
+corpus    4,040 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -159,7 +159,9 @@ The v0.8.7 formal science and emotional-precision corpus grounding batch adds 12
 
 The v0.8.8 economics/provision and travel/place infrastructure root batch adds 50 roots and 1,000 derived lexicon entries. It expands governed exchange with vendor, cargo, bargain, liquidity, banking, deposits, remittances, royalties, commissions, dues, installments, auctions, bids, rebates, bookkeeping, cashflow, brokers, sellers, suppliers, freight, margins, supply chains, amortization, hedging, and default. It also strengthens movement and place vocabulary with highways, alleys, boulevards, trails, lanes, crossings, roundabouts, runways, platforms, itineraries, luggage, passengers, suburbs, rural and urban places, terrain, landmarks, ferries, wharves, piers, marinas, quays, overpasses, underpasses, and causeways.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 650 more root families and 6,080 more reviewed corpus items still needed.
+The v0.8.9 economics/provision and travel/place corpus grounding batch adds 120 reviewed examples across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds vendor, cargo, bargains, liquidity, banking, deposits, remittances, royalties, commissions, dues, installments, auctions, bids, rebates, bookkeeping, cashflow, brokers, sellers, suppliers, freight, margins, supply chains, amortization, hedging, default, highways, platforms, passengers, landmarks, ferries, wharves, piers, marinas, quays, overpasses, underpasses, and causeways in ordinary, civic, ritual, technical, poetic, and learner use.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 650 more root families and 5,960 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
