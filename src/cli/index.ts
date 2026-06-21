@@ -9,11 +9,12 @@ import {
   corpusSummary,
   domainCoverageReport,
   listDomains,
+  listCorpusItems,
   loadGovernance,
   loadRoadmap,
   roadmapSummary
 } from "../core/civilization";
-import { validateSpec } from "../core/validation";
+import { validateCorpus, validateSpec } from "../core/validation";
 
 const program = new Command();
 
@@ -138,9 +139,17 @@ program
 
 program
   .command("corpus-plan")
-  .description("Show corpus tracks and quality gates")
+  .description("Show corpus progress, tracks, and quality gates")
   .action(() => {
     console.log(JSON.stringify(corpusSummary(), null, 2));
+  });
+
+program
+  .command("list-corpus")
+  .description("List reviewed corpus items")
+  .option("-t, --track <track>", "filter by corpus track")
+  .action((options) => {
+    console.log(JSON.stringify(listCorpusItems(options.track), null, 2));
   });
 
 program
@@ -155,6 +164,17 @@ program
   .description("Validate root inventory, derived forms, and reserved-word collisions")
   .action(() => {
     const report = validateSpec();
+    console.log(JSON.stringify(report, null, 2));
+    if (!report.valid) {
+      process.exitCode = 1;
+    }
+  });
+
+program
+  .command("validate-corpus")
+  .description("Validate corpus tracks, domains, terms, and Ethra tokens")
+  .action(() => {
+    const report = validateCorpus();
     console.log(JSON.stringify(report, null, 2));
     if (!report.valid) {
       process.exitCode = 1;

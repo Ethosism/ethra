@@ -86,6 +86,7 @@ export interface RoadmapSpec {
     release: string;
     lexicon_entries: number;
     root_families: number;
+    corpus_items: number;
     canonical_examples: number;
     cli_commands: string[];
   };
@@ -143,4 +144,22 @@ export interface GovernanceSpec {
   borrowing_rules: string[];
   grammar_change_rules: string[];
   review_checklist: string[];
+}
+
+export interface CorpusItem {
+  id: string;
+  track: string;
+  domain_tags: string[];
+  register: string;
+  english: string;
+  ethra: string;
+  literal: string;
+  notes: string;
+  terms: string[];
+}
+
+export interface CorpusSpec {
+  version: string;
+  purpose: string;
+  items: CorpusItem[];
 }

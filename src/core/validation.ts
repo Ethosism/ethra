@@ -1,6 +1,6 @@
 import { validateWord } from "./phonology";
-import { flattenLexicon, loadSpec } from "./spec";
-import type { EthraSpec } from "./types";
+import { flattenLexicon, loadSpec, readSpecYaml } from "./spec";
+import type { CorpusSpec, DomainsSpec, EthraSpec, CorpusPlanSpec } from "./types";
 
 export interface ValidationIssue {
   code: string;
@@ -19,6 +19,19 @@ export interface SpecValidationReport {
     particles: number;
     pronouns: number;
     examples: number;
+  };
+}
+
+export interface CorpusValidationReport {
+  valid: boolean;
+  issueCount: number;
+  errors: ValidationIssue[];
+  warnings: ValidationIssue[];
+  stats: {
+    items: number;
+    tracks: number;
+    domains: number;
+    uniqueTerms: number;
   };
 }
 
@@ -133,6 +146,114 @@ export function validateSpec(spec: EthraSpec = loadSpec()): SpecValidationReport
       particles: spec.particles.particles.length,
       pronouns: spec.pronouns.pronouns.length,
       examples: spec.examples.examples.length
+    }
+  };
+}
+
+function normalizedTokenSet(spec: EthraSpec): Set<string> {
+  const known = new Set<string>();
+
+  for (const entry of flattenLexicon(spec)) {
+    known.add(entry.word.toLowerCase());
+  }
+  for (const particle of spec.particles.particles) {
+    known.add(particle.word.toLowerCase());
+  }
+  for (const pronoun of spec.pronouns.pronouns) {
+    known.add(pronoun.word.toLowerCase());
+  }
+  for (const root of spec.roots.roots) {
+    for (const derived of Object.values(root.derived)) {
+      known.add(derived.word.toLowerCase());
+    }
+  }
+
+  return known;
+}
+
+function tokenizeEthra(text: string): string[] {
+  return text
+    .toLowerCase()
+    .replace(/[.,!?;:()"']/g, " ")
+    .split(/\s+/)
+    .map((token) => token.trim())
+    .filter(Boolean);
+}
+
+function isKnownToken(token: string, known: Set<string>): boolean {
+  if (known.has(token)) return true;
+  if (token.includes("-")) {
+    return token.split("-").every((part) => known.has(part));
+  }
+  return false;
+}
+
+export function validateCorpus(
+  corpus: CorpusSpec = readSpecYaml<CorpusSpec>("corpus.yaml"),
+  spec: EthraSpec = loadSpec()
+): CorpusValidationReport {
+  const issues: ValidationIssue[] = [];
+  const known = normalizedTokenSet(spec);
+  const plan = readSpecYaml<CorpusPlanSpec>("corpus-plan.yaml");
+  const domains = readSpecYaml<DomainsSpec>("domains.yaml");
+  const validTracks = new Set(plan.corpus_tracks.map((track) => track.id));
+  const validDomains = new Set(domains.domains.map((domain) => domain.id));
+  const ids = new Set<string>();
+  const uniqueTerms = new Set<string>();
+
+  for (const item of corpus.items) {
+    if (ids.has(item.id)) {
+      addIssue(issues, "error", "duplicate-corpus-id", `Corpus item '${item.id}' appears more than once.`);
+    }
+    ids.add(item.id);
+
+    if (!validTracks.has(item.track)) {
+      addIssue(issues, "error", "unknown-corpus-track", `${item.id} uses unknown track '${item.track}'.`);
+    }
+
+    for (const domain of item.domain_tags) {
+      if (!validDomains.has(domain)) {
+        addIssue(issues, "error", "unknown-corpus-domain", `${item.id} uses unknown domain tag '${domain}'.`);
+      }
+    }
+
+    for (const field of ["english", "ethra", "literal", "notes", "register"] as const) {
+      if (!item[field]?.trim()) {
+        addIssue(issues, "error", "missing-corpus-field", `${item.id} is missing '${field}'.`);
+      }
+    }
+
+    const tokens = tokenizeEthra(item.ethra);
+    for (const token of tokens) {
+      if (!isKnownToken(token, known)) {
+        addIssue(issues, "error", "unknown-corpus-token", `${item.id} uses unknown Ethra token '${token}'.`);
+      }
+    }
+
+    for (const term of item.terms) {
+      const normalized = term.toLowerCase();
+      uniqueTerms.add(normalized);
+      if (!isKnownToken(normalized, known)) {
+        addIssue(issues, "error", "unknown-corpus-term", `${item.id} lists unknown term '${term}'.`);
+      }
+    }
+  }
+
+  const trackCount = new Set(corpus.items.map((item) => item.track)).size;
+  const domainCount = new Set(corpus.items.flatMap((item) => item.domain_tags)).size;
+  const errors = issues.filter((issue) => issue.severity === "error");
+  const warnings = issues.filter((issue) => issue.severity === "warning");
+
+  return {
+    valid: errors.length === 0,
+    issueCount: issues.length,
+    errors,
+    warnings,
+    stats: {
+      items: corpus.items.length,
+      tracks: trackCount,
+      domains: domainCount,
+      uniqueTerms: uniqueTerms.size
     }
   };
 }

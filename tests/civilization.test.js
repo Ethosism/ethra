@@ -4,12 +4,13 @@ const assert = require("node:assert/strict");
 const {
   corpusSummary,
   domainCoverageReport,
+  listCorpusItems,
   listDomains,
   loadGovernance,
   loadRoadmap,
   roadmapSummary
 } = require("../dist/core/civilization.js");
-const { validateSpec } = require("../dist/core/validation.js");
+const { validateCorpus, validateSpec } = require("../dist/core/validation.js");
 
 test("loads the civilizational-scale roadmap", () => {
   const roadmap = loadRoadmap();
@@ -22,8 +23,10 @@ test("summarizes current progress against roadmap targets", () => {
   const summary = roadmapSummary();
   assert.equal(summary.current.actual_lexicon_entries, summary.current.lexicon_entries);
   assert.equal(summary.current.actual_root_families, summary.current.root_families);
+  assert.equal(summary.current.actual_corpus_items, summary.current.corpus_items);
   assert.ok(summary.current.actual_lexicon_entries >= 700);
   assert.ok(summary.current.actual_root_families >= 80);
+  assert.ok(summary.current.actual_corpus_items >= 60);
   assert.equal(summary.current.actual_canonical_examples, 20);
   assert.equal(summary.next_milestone.target_entries, 1000);
 });
@@ -46,9 +49,23 @@ test("reports domain coverage gaps", () => {
 test("loads corpus and governance programs", () => {
   const corpus = corpusSummary();
   const governance = loadGovernance();
+  assert.equal(corpus.current_items, 60);
+  assert.equal(corpus.remaining_items_v02, 40);
   assert.ok(corpus.tracks.some((track) => track.id === "technical-software"));
   assert.ok(governance.root_admission_rules.some((rule) => rule.includes("durable semantic field")));
   assert.ok(governance.review_checklist.some((item) => item.includes("root-depth")));
+});
+
+test("lists and validates reviewed corpus items", () => {
+  const technicalItems = listCorpusItems("technical-software");
+  assert.equal(technicalItems.length, 10);
+  assert.ok(technicalItems.some((item) => item.ethra === "Mef xap den."));
+
+  const report = validateCorpus();
+  assert.equal(report.valid, true, JSON.stringify(report.errors, null, 2));
+  assert.equal(report.stats.items, 60);
+  assert.equal(report.stats.tracks, 6);
+  assert.ok(report.stats.uniqueTerms >= 80);
 });
 
 test("validates expanded root inventory", () => {

@@ -1,6 +1,7 @@
 import { flattenLexicon, loadSpec, readSpecYaml } from "./spec";
 import type {
   CorpusPlanSpec,
+  CorpusSpec,
   DomainSpec,
   DomainsSpec,
   GovernanceSpec,
@@ -33,6 +34,7 @@ export interface RoadmapSummary {
   current: RoadmapSpec["current_state"] & {
     actual_lexicon_entries: number;
     actual_root_families: number;
+    actual_corpus_items: number;
     actual_canonical_examples: number;
   };
   next_milestone: RoadmapMilestone;
@@ -64,6 +66,10 @@ export function loadCorpusPlan(): CorpusPlanSpec {
   return readSpecYaml<CorpusPlanSpec>("corpus-plan.yaml");
 }
 
+export function loadCorpus(): CorpusSpec {
+  return readSpecYaml<CorpusSpec>("corpus.yaml");
+}
+
 export function loadGovernance(): GovernanceSpec {
   return readSpecYaml<GovernanceSpec>("governance.yaml");
 }
@@ -71,12 +77,14 @@ export function loadGovernance(): GovernanceSpec {
 export function roadmapSummary(): RoadmapSummary {
   const spec = loadSpec();
   const roadmap = loadRoadmap();
+  const corpus = loadCorpus();
   const milestones = roadmap.milestones;
   return {
     current: {
       ...roadmap.current_state,
       actual_lexicon_entries: flattenLexicon(spec).length,
       actual_root_families: spec.roots.roots.length,
+      actual_corpus_items: corpus.items.length,
       actual_canonical_examples: spec.examples.examples.length
     },
     next_milestone: milestones[0],
@@ -119,17 +127,43 @@ export function domainCoverageReport(): DomainCoverage[] {
 
 export function corpusSummary() {
   const plan = loadCorpusPlan();
+  const corpus = loadCorpus();
+  const countByTrack = new Map<string, number>();
+  const countByDomain = new Map<string, number>();
+
+  for (const item of corpus.items) {
+    countByTrack.set(item.track, (countByTrack.get(item.track) ?? 0) + 1);
+    for (const domain of item.domain_tags) {
+      countByDomain.set(domain, (countByDomain.get(domain) ?? 0) + 1);
+    }
+  }
+
+  const totalV02Target = plan.corpus_tracks.reduce((sum, track) => sum + track.target_items_v02, 0);
+
   return {
     purpose: plan.purpose,
     principle: plan.principle,
+    seed_version: corpus.version,
+    current_items: corpus.items.length,
+    target_items_v02: totalV02Target,
+    remaining_items_v02: Math.max(totalV02Target - corpus.items.length, 0),
     tracks: plan.corpus_tracks.map((track) => ({
       id: track.id,
       name: track.name,
       artifact_path: track.artifact_path,
       target_items_v02: track.target_items_v02,
       target_items_v10: track.target_items_v10,
+      current_items: countByTrack.get(track.id) ?? 0,
+      remaining_items_v02: Math.max(track.target_items_v02 - (countByTrack.get(track.id) ?? 0), 0),
       item_shape: track.item_shape
     })),
+    domain_counts: Object.fromEntries([...countByDomain.entries()].sort((a, b) => a[0].localeCompare(b[0]))),
     quality_gates: plan.quality_gates
   };
+}
+
+export function listCorpusItems(track?: string) {
+  const items = loadCorpus().items;
+  if (!track) return items;
+  return items.filter((item) => item.track === track);
 }

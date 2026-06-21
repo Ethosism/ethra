@@ -1,0 +1,603 @@
+version: "0.2-seed"
+purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
+items:
+  -
+    id: "daily-001"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "You see me. I see you."
+    ethra: "Ta rah na. Na rah ta."
+    literal: "Equal-you see me. I see equal-you."
+    notes: "Basic reciprocal recognition without intimate register."
+    terms: ["ta", "rah", "na"]
+  -
+    id: "daily-002"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "body-health"]
+    register: "household"
+    english: "I feed the child for the family."
+    ethra: "Na fad tu so-hen."
+    literal: "I feed child-student for-family."
+    notes: "Food and care are tied to household scope."
+    terms: ["na", "fad", "tu", "so-hen"]
+  -
+    id: "daily-003"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "The child rests."
+    ethra: "Tu cap."
+    literal: "Child-student sleeps/rests."
+    notes: "Uses the child/student pronoun as a relational noun in learner speech."
+    terms: ["tu", "cap"]
+  -
+    id: "daily-004"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "I work now and build the record."
+    ethra: "Na nu wak ban kot."
+    literal: "I now work build record."
+    notes: "Shows serial analytic verbs for ordinary work."
+    terms: ["na", "nu", "wak", "ban", "kot"]
+  -
+    id: "daily-005"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "conflict-security"]
+    register: "household"
+    english: "I repair the household."
+    ethra: "Na tar hon."
+    literal: "I repair household."
+    notes: "Household repair includes physical, emotional, and moral restoration."
+    terms: ["na", "tar", "hon"]
+  -
+    id: "daily-006"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "plain"
+    english: "The air is moving."
+    ethra: "Wah nu fal."
+    literal: "Air now flows."
+    notes: "Plain weather sentence using air and flow roots."
+    terms: ["wah", "nu", "fal"]
+  -
+    id: "daily-007"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "family-kinship"]
+    register: "household"
+    english: "I pay for provision for the family."
+    ethra: "Na may par so-hen."
+    literal: "I pay provision for-family."
+    notes: "Money is placed under provision rather than isolated price."
+    terms: ["na", "may", "par", "so-hen"]
+  -
+    id: "daily-008"
+    track: "daily-dialogues"
+    domain_tags: ["body-health", "family-kinship"]
+    register: "intimate"
+    english: "The child hurts. I am entrusted with care."
+    ethra: "Tu pan. Na ten hal."
+    literal: "Child-student hurts. I entrusted-with care."
+    notes: "Care is grammatically framed as entrusted duty."
+    terms: ["tu", "pan", "na", "ten", "hal"]
+  -
+    id: "daily-009"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "family-kinship"]
+    register: "household"
+    english: "I clothe the child."
+    ethra: "Na car tu."
+    literal: "I clothe child-student."
+    notes: "Covering can be practical protection or modest care."
+    terms: ["na", "car", "tu"]
+  -
+    id: "daily-010"
+    track: "daily-dialogues"
+    domain_tags: ["family-kinship", "history-memory", "media-communication"]
+    register: "household"
+    english: "The family remembers through words."
+    ethra: "Hon mar bi nem."
+    literal: "Household remembers through word."
+    notes: "Household continuity is carried by speech."
+    terms: ["hon", "mar", "bi", "nem"]
+  -
+    id: "civic-001"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "The citizen publicly names the right."
+    ethra: "Te pu nam ret."
+    literal: "Civic-you publicly name right."
+    notes: "Civic address plus public register."
+    terms: ["te", "pu", "nam", "ret"]
+  -
+    id: "civic-002"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "legal"
+    english: "The witness names the presence before truth."
+    ethra: "Rahen nam roh so-rah."
+    literal: "Witness names presence before-truth."
+    notes: "Testimony is speech under visible truth."
+    terms: ["rahen", "nam", "roh", "so-rah"]
+  -
+    id: "civic-003"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "legal"
+    english: "The person contracts a duty."
+    ethra: "Li kap dev."
+    literal: "Person contracts duty."
+    notes: "Contract is treated as exchanged obligation."
+    terms: ["li", "kap", "dev"]
+  -
+    id: "civic-004"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic"
+    english: "The authority-bearer binds before truth."
+    ethra: "Zaten dav so-rah."
+    literal: "Authority-bearer binds before-truth."
+    notes: "Authority is legitimate only under answerability."
+    terms: ["zaten", "dav", "so-rah"]
+  -
+    id: "civic-005"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "legal"
+    english: "The public verdict is visible."
+    ethra: "Jav-da e rih."
+    literal: "Civic-verdict is visible."
+    notes: "Public judgment must be inspectable."
+    terms: ["jav-da", "e", "rih"]
+  -
+    id: "civic-006"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ritual-spiritual"]
+    register: "solemn"
+    english: "I vow the pact before the sacred."
+    ethra: "Na dov kep so-zur."
+    literal: "I vow pact before-sacred."
+    notes: "The vow particle binds the contract object."
+    terms: ["na", "dov", "kep", "so-zur"]
+  -
+    id: "civic-007"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "The citizen may speak."
+    ethra: "Te lun nam."
+    literal: "Civic-you may speak."
+    notes: "Permission is distinct from ability and desire."
+    terms: ["te", "lun", "nam"]
+  -
+    id: "civic-008"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "legal"
+    english: "The person owes the public office."
+    ethra: "Li dom xaf-da."
+    literal: "Person owes civic-office."
+    notes: "Office is represented as a public charge."
+    terms: ["li", "dom", "xaf-da"]
+  -
+    id: "civic-009"
+    track: "civic-law"
+    domain_tags: ["law-governance", "emotion-psychology"]
+    register: "civic"
+    english: "The grievance is spoken publicly."
+    ethra: "Zeg pu nam."
+    literal: "Anger/grievance publicly speaks."
+    notes: "Anger can enter public form without becoming mere force."
+    terms: ["zeg", "pu", "nam"]
+  -
+    id: "civic-010"
+    track: "civic-law"
+    domain_tags: ["law-governance", "history-memory"]
+    register: "civic"
+    english: "The governor governs for the people."
+    ethra: "Ragen rag so-lem."
+    literal: "Governor governs for-people."
+    notes: "Government is scoped to the people, not private appetite."
+    terms: ["ragen", "rag", "so-lem"]
+  -
+    id: "ritual-001"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "solemn"
+    english: "I vow to repair what was broken."
+    ethra: "Ha na dov tar mo mik."
+    literal: "Solemn I vow repair what broken."
+    notes: "Canonical repair vow in sacred register."
+    terms: ["ha", "na", "dov", "tar", "mo", "mik"]
+  -
+    id: "ritual-002"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship"]
+    register: "ritual"
+    english: "Bless the beloved."
+    ethra: "Ha veb ti."
+    literal: "Solemn blessing beloved-you."
+    notes: "Uses blessing as good-speech toward a beloved."
+    terms: ["ha", "veb", "ti"]
+  -
+    id: "ritual-003"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory", "emotion-psychology"]
+    register: "mourning"
+    english: "Grief is memory."
+    ethra: "Gef e mer."
+    literal: "Grief is memory."
+    notes: "Mourning keeps loss within memory rather than void."
+    terms: ["gef", "e", "mer"]
+  -
+    id: "ritual-004"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "sacred"
+    english: "Sacred You, see me."
+    ethra: "Hu rah na."
+    literal: "Sacred-you see me."
+    notes: "Prayer address uses the sacred second person."
+    terms: ["hu", "rah", "na"]
+  -
+    id: "ritual-005"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "solemn"
+    english: "I vow for the future."
+    ethra: "Na dov so-fer."
+    literal: "I vow for-future."
+    notes: "The future is named as moral claimant."
+    terms: ["na", "dov", "so-fer"]
+  -
+    id: "ritual-006"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "art-beauty", "history-memory"]
+    register: "ritual"
+    english: "The people sing."
+    ethra: "Lem cag."
+    literal: "People sing."
+    notes: "Collective ritual voice without ornate grammar."
+    terms: ["lem", "cag"]
+  -
+    id: "ritual-007"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "sacred"
+    english: "The sacred stands before truth."
+    ethra: "Zer e so-rah."
+    literal: "Sacred awe is before-truth."
+    notes: "Ultimate witness is linked to visible truth."
+    terms: ["zer", "e", "so-rah"]
+  -
+    id: "ritual-008"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication"]
+    register: "solemn"
+    english: "The word becomes duty before the sacred."
+    ethra: "Nem e dev so-zur."
+    literal: "Word is duty before-sacred."
+    notes: "Speech-binding in ritual form."
+    terms: ["nem", "e", "dev", "so-zur"]
+  -
+    id: "ritual-009"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health", "family-kinship"]
+    register: "ritual"
+    english: "The meal is blessed for the household."
+    ethra: "Ha-fud e veb so-hen."
+    literal: "Ritual-food is blessing for-family."
+    notes: "A shared meal is placed inside household continuity."
+    terms: ["ha-fud", "e", "veb", "so-hen"]
+  -
+    id: "ritual-010"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory", "family-kinship"]
+    register: "ritual"
+    english: "Memory carries the lineage."
+    ethra: "Mer mar ked."
+    literal: "Memory carries lineage."
+    notes: "Lineage is not blood alone; it is carried remembrance."
+    terms: ["mer", "mar", "ked"]
+  -
+    id: "tech-001"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The tool writes data."
+    ethra: "Tel kat den."
+    literal: "Tool writes data."
+    notes: "Basic technical transitive sentence."
+    terms: ["tel", "kat", "den"]
+  -
+    id: "tech-002"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The machine secures the data."
+    ethra: "Mef xap den."
+    literal: "Machine secures data."
+    notes: "Security is an action over entrusted data."
+    terms: ["mef", "xap", "den"]
+  -
+    id: "tech-003"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The model reasons through data."
+    ethra: "Med raj bi den."
+    literal: "Model reasons through data."
+    notes: "Reasoning is kept accountable to records."
+    terms: ["med", "raj", "bi", "den"]
+  -
+    id: "tech-004"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The network flows."
+    ethra: "New fal."
+    literal: "Network flows."
+    notes: "Network traffic expressed through the flow root."
+    terms: ["new", "fal"]
+  -
+    id: "tech-005"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security", "law-governance"]
+    register: "technical"
+    english: "I secure the network before truth."
+    ethra: "Na xap new so-rah."
+    literal: "I secure network before-truth."
+    notes: "Security work is accountable to visible truth."
+    terms: ["na", "xap", "new", "so-rah"]
+  -
+    id: "tech-006"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "The machine uses the tool."
+    ethra: "Mef tal tel."
+    literal: "Machine tools tool."
+    notes: "Tool as verb and noun."
+    terms: ["mef", "tal", "tel"]
+  -
+    id: "tech-007"
+    track: "technical-software"
+    domain_tags: ["technology-software", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The code is visible."
+    ethra: "Ket e rih."
+    literal: "Code is visible."
+    notes: "Inspectability is a technical virtue."
+    terms: ["ket", "e", "rih"]
+  -
+    id: "tech-008"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The probability model is open."
+    ethra: "Peb med e ap."
+    literal: "Probability model is open."
+    notes: "Open modeling is represented analytically."
+    terms: ["peb", "med", "e", "ap"]
+  -
+    id: "tech-009"
+    track: "technical-software"
+    domain_tags: ["technology-software", "philosophy-metaphysics"]
+    register: "technical"
+    english: "I am entrusted with data."
+    ethra: "Na ten den."
+    literal: "I entrusted-with data."
+    notes: "Data handling is framed as trust."
+    terms: ["na", "ten", "den"]
+  -
+    id: "tech-010"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical"
+    english: "A machine without duty becomes corruption."
+    ethra: "Mef ne ko dev e mak-da."
+    literal: "Machine not with duty is corruption."
+    notes: "Technical power without duty is treated as civic breakage."
+    terms: ["mef", "ne", "ko", "dev", "e", "mak-da"]
+  -
+    id: "poetic-001"
+    track: "literary-poetic"
+    domain_tags: ["emotion-psychology", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Love is recognition."
+    ethra: "Mev e reh."
+    literal: "Love is recognition."
+    notes: "Canonical poetic-philosophical definition."
+    terms: ["mev", "e", "reh"]
+  -
+    id: "poetic-002"
+    track: "literary-poetic"
+    domain_tags: ["emotion-psychology", "philosophy-metaphysics", "media-communication"]
+    register: "poetic"
+    english: "My heart is a visible book."
+    ethra: "Leb en na e kot rih."
+    literal: "Heart of me is book visible."
+    notes: "Original example retained as corpus."
+    terms: ["leb", "en", "na", "e", "kot", "rih"]
+  -
+    id: "poetic-003"
+    track: "literary-poetic"
+    domain_tags: ["nature-ecology", "travel-place"]
+    register: "poetic"
+    english: "The air flows to the end of the world."
+    ethra: "Wah fal ad ned wed."
+    literal: "Air flows toward end world."
+    notes: "Simple landscape cadence."
+    terms: ["wah", "fal", "ad", "ned", "wed"]
+  -
+    id: "poetic-004"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "The song remembers the people."
+    ethra: "Ceg mar lem."
+    literal: "Song remembers people."
+    notes: "Culture carried by sung memory."
+    terms: ["ceg", "mar", "lem"]
+  -
+    id: "poetic-005"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "The image sees the heart."
+    ethra: "Jem rah leb."
+    literal: "Image sees heart."
+    notes: "Image as a vehicle of recognition."
+    terms: ["jem", "rah", "leb"]
+  -
+    id: "poetic-006"
+    track: "literary-poetic"
+    domain_tags: ["emotion-psychology", "philosophy-metaphysics", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Love sees the self."
+    ethra: "Mev rah yes."
+    literal: "Love sees self."
+    notes: "Love is recognition of personhood."
+    terms: ["mev", "rah", "yes"]
+  -
+    id: "poetic-007"
+    track: "literary-poetic"
+    domain_tags: ["philosophy-metaphysics", "nature-ecology"]
+    register: "poetic"
+    english: "Light flows through air."
+    ethra: "Ner fal bi wah."
+    literal: "Light flows through air."
+    notes: "Compact nature image."
+    terms: ["ner", "fal", "bi", "wah"]
+  -
+    id: "poetic-008"
+    track: "literary-poetic"
+    domain_tags: ["history-memory", "emotion-psychology"]
+    register: "poetic"
+    english: "Loss is memory without seeing."
+    ethra: "Lex e mer ne ko rah."
+    literal: "Loss is memory not with seeing."
+    notes: "Loss is framed as memory lacking recognition."
+    terms: ["lex", "e", "mer", "ne", "ko", "rah"]
+  -
+    id: "poetic-009"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The beautiful image is visible."
+    ethra: "Hid jem e rih."
+    literal: "Beautiful image is visible."
+    notes: "Beauty is tied to intelligible form."
+    terms: ["hid", "jem", "e", "rih"]
+  -
+    id: "poetic-010"
+    track: "literary-poetic"
+    domain_tags: ["history-memory", "media-communication"]
+    register: "poetic"
+    english: "The storyteller names the origin."
+    ethra: "Raben nam gen."
+    literal: "Storyteller names origin."
+    notes: "Narrative gives origin a public name."
+    terms: ["raben", "nam", "gen"]
+  -
+    id: "learner-001"
+    track: "learner-graded"
+    domain_tags: ["daily-life"]
+    register: "learner-a1"
+    english: "I am me."
+    ethra: "Na e na."
+    literal: "I am I."
+    notes: "Copula and first person."
+    terms: ["na", "e"]
+  -
+    id: "learner-002"
+    track: "learner-graded"
+    domain_tags: ["daily-life"]
+    register: "learner-a1"
+    english: "You are you."
+    ethra: "Ta e ta."
+    literal: "You-equal are you-equal."
+    notes: "Equal second-person form."
+    terms: ["ta", "e"]
+  -
+    id: "learner-003"
+    track: "learner-graded"
+    domain_tags: ["philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "I see you."
+    ethra: "Na rah ta."
+    literal: "I see equal-you."
+    notes: "Basic SVO."
+    terms: ["na", "rah", "ta"]
+  -
+    id: "learner-004"
+    track: "learner-graded"
+    domain_tags: ["philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "You see me."
+    ethra: "Ta rah na."
+    literal: "Equal-you see me."
+    notes: "Object understood by position."
+    terms: ["ta", "rah", "na"]
+  -
+    id: "learner-005"
+    track: "learner-graded"
+    domain_tags: ["body-health", "daily-life"]
+    register: "learner-a1"
+    english: "I feed."
+    ethra: "Na fad."
+    literal: "I feed."
+    notes: "Intransitive beginner use of the food root."
+    terms: ["na", "fad"]
+  -
+    id: "learner-006"
+    track: "learner-graded"
+    domain_tags: ["body-health", "daily-life"]
+    register: "learner-a1"
+    english: "I rest."
+    ethra: "Na cap."
+    literal: "I sleep/rest."
+    notes: "Beginner body verb."
+    terms: ["na", "cap"]
+  -
+    id: "learner-007"
+    track: "learner-graded"
+    domain_tags: ["history-memory"]
+    register: "learner-a1"
+    english: "I remember."
+    ethra: "Na mar."
+    literal: "I remember."
+    notes: "Memory root in action pattern."
+    terms: ["na", "mar"]
+  -
+    id: "learner-008"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "I work."
+    ethra: "Na wak."
+    literal: "I work."
+    notes: "Basic labor term."
+    terms: ["na", "wak"]
+  -
+    id: "learner-009"
+    track: "learner-graded"
+    domain_tags: ["travel-place", "daily-life"]
+    register: "learner-a1"
+    english: "I walk with you."
+    ethra: "Na pat ko ta."
+    literal: "I walk with equal-you."
+    notes: "Companionship marker."
+    terms: ["na", "pat", "ko", "ta"]
+  -
+    id: "learner-010"
+    track: "learner-graded"
+    domain_tags: ["philosophy-metaphysics"]
+    register: "learner-a2"
+    english: "I choose this duty."
+    ethra: "Na vel dev se."
+    literal: "I choose duty this."
+    notes: "Moral grammar enters early learner material."
+    terms: ["na", "vel", "dev", "se"]

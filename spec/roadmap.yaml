@@ -5,6 +5,7 @@ current_state:
   release: "v0.2-seed"
   lexicon_entries: 737
   root_families: 85
+  corpus_items: 60
   canonical_examples: 20
   cli_commands:
     - "generate-root"
@@ -19,8 +20,10 @@ current_state:
     - "list-domains"
     - "coverage-report"
     - "corpus-plan"
+    - "list-corpus"
     - "governance"
     - "validate-spec"
+    - "validate-corpus"
 scale_targets:
   expressive_coverage:
     definition: "Ability to speak ordinary, civic, technical, literary, ritual, emotional, and philosophical life without falling back to English."

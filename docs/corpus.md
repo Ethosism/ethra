@@ -2,7 +2,14 @@
 
 Vocabulary becomes real only through use. Ethra's corpus program turns coined words into lived language by placing them in dialogue, law, ritual, software, literature, and learning material.
 
-The machine-readable corpus plan is in `spec/corpus-plan.yaml`.
+The machine-readable corpus plan is in `spec/corpus-plan.yaml`. Reviewed seed corpus items are in `spec/corpus.yaml`.
+
+Current seed corpus progress:
+
+```text
+items  60 / 100 for v0.2
+tracks  6 / 6 represented
+```
 
 ## Corpus Tracks
 
@@ -41,3 +48,11 @@ Each corpus item must:
 ## Why Corpus Comes Before Massive Dictionary Size
 
 A large dictionary without corpus becomes ornamental. Corpus reveals whether a word is pronounceable, memorable, morally precise, and flexible enough for real speech.
+
+## CLI
+
+```bash
+npm run ethra -- corpus-plan
+npm run ethra -- list-corpus --track daily-dialogues
+npm run ethra -- validate-corpus
+```

@@ -33,8 +33,9 @@ Ethra treats language as training. What is easy to say becomes easy to notice. W
 - **Roots:** 85 root families with derived action, concept, quality, agent, object, ritual, civic, and intimate forms.
 - **Lexicon:** generated core lexicon with 737 explicit entries across pronouns, particles, moral agency, family, body, mind, emotion, seeing/knowing, speech, time, nature, building/making, law/civic life, technology, ritual/poetry, love/intimacy, conflict/repair, and future/civilization.
 - **Machine-readable spec:** YAML files in `spec/` for phonology, roots, particles, pronouns, grammar, lexicon, and examples.
+- **Corpus:** 60 reviewed seed corpus items across daily dialogue, civic/legal, ritual/vow, technical/software, literary/poetic, and learner tracks.
 - **Expansion program:** roadmap, domain ontology, corpus plan, and governance model for growing toward civilizational-scale expressive coverage.
-- **Tooling:** CLI commands for root generation, word derivation, word analysis, example lookup, particle/root listing, lexicon listing, compound creation, roadmap inspection, domain coverage, corpus planning, governance review, and spec validation.
+- **Tooling:** CLI commands for root generation, word derivation, word analysis, example lookup, particle/root listing, lexicon listing, compound creation, roadmap inspection, domain coverage, corpus planning/listing, governance review, and spec/corpus validation.
 
 ## Quick Examples
 
@@ -87,8 +88,10 @@ npm run ethra -- roadmap --summary
 npm run ethra -- list-domains --priority highest
 npm run ethra -- coverage-report
 npm run ethra -- corpus-plan
+npm run ethra -- list-corpus --track technical-software
 npm run ethra -- governance
 npm run ethra -- validate-spec
+npm run ethra -- validate-corpus
 ```
 
 After building, you can also run:
@@ -129,6 +132,7 @@ ethra-language/
     grammar.yaml
     lexicon.yaml
     examples.yaml
+    corpus.yaml
     roadmap.yaml
     domains.yaml
     corpus-plan.yaml
