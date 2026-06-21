@@ -1,4 +1,4 @@
-version: "0.3.18-corpus"
+version: "0.3.19-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -17401,3 +17401,1203 @@ items:
     literal: "Path guides arrival."
     notes: "Learner path-arrival sentence."
     terms: ["pet", "pat", "rav"]
+  -
+    id: "daily-340"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "philosophy-metaphysics"]
+    register: "common"
+    english: "Evidence protects truth."
+    ethra: "Xeg xap reh."
+    literal: "Evidence protects recognition."
+    notes: "Daily evidence-truth sentence."
+    terms: ["xeg", "xap", "reh"]
+  -
+    id: "daily-341"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "philosophy-metaphysics"]
+    register: "common"
+    english: "Proof guides reason."
+    ethra: "Pejeg pat rej."
+    literal: "Proof guides reason."
+    notes: "Daily proof-reason sentence."
+    terms: ["pejeg", "pat", "rej"]
+  -
+    id: "daily-342"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "law-governance"]
+    register: "common"
+    english: "Measure answers judgment."
+    ethra: "Mes vax jev."
+    literal: "Measure answers judgment."
+    notes: "Daily measure-judgment sentence."
+    terms: ["mes", "vax", "jev"]
+  -
+    id: "daily-343"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "science-math", "ai-cognition"]
+    register: "common"
+    english: "Probability protects choice."
+    ethra: "Peb xap vel."
+    literal: "Probability protects choice."
+    notes: "Daily probability-choice sentence."
+    terms: ["peb", "xap", "vel"]
+  -
+    id: "daily-344"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "common"
+    english: "Money should serve provision."
+    ethra: "Mey cel sarav per."
+    literal: "Money should serve provision."
+    notes: "Daily money-provision sentence with obligation."
+    terms: ["mey", "cel", "sarav", "per"]
+  -
+    id: "daily-345"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "emotion-psychology"]
+    register: "common"
+    english: "Debt binds trust."
+    ethra: "Del dav ven."
+    literal: "Debt binds trust."
+    notes: "Daily debt-trust sentence."
+    terms: ["del", "dav", "ven"]
+  -
+    id: "daily-346"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "emotion-psychology"]
+    register: "common"
+    english: "Gift repairs poverty."
+    ethra: "Gew tar neg."
+    literal: "Gift repairs poverty."
+    notes: "Daily gift-poverty sentence."
+    terms: ["gew", "tar", "neg"]
+  -
+    id: "daily-347"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "history-memory"]
+    register: "common"
+    english: "Resource remembers future."
+    ethra: "Seres mar fer."
+    literal: "Resource remembers future."
+    notes: "Daily resource-future sentence."
+    terms: ["seres", "mar", "fer"]
+  -
+    id: "daily-348"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "common"
+    english: "Lesson opens mastery."
+    ethra: "Lev ap met."
+    literal: "Lesson opens mastery."
+    notes: "Daily lesson-mastery sentence."
+    terms: ["lev", "ap", "met"]
+  -
+    id: "daily-349"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "common"
+    english: "Student carries discipline."
+    ethra: "Taj taw dek."
+    literal: "Student carries discipline."
+    notes: "Daily student-discipline sentence."
+    terms: ["taj", "taw", "dek"]
+  -
+    id: "daily-350"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training"]
+    register: "common"
+    english: "Teacher protects learning."
+    ethra: "Teh xap dak."
+    literal: "Mentor protects learning."
+    notes: "Daily teacher-learning sentence."
+    terms: ["teh", "xap", "dak"]
+  -
+    id: "daily-351"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "media-communication"]
+    register: "common"
+    english: "Curriculum guides reading."
+    ethra: "Ted pat sej."
+    literal: "Curriculum guides reading."
+    notes: "Daily curriculum-reading sentence."
+    terms: ["ted", "pat", "sej"]
+  -
+    id: "daily-352"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security", "emotion-psychology"]
+    register: "common"
+    english: "Threat names fear."
+    ethra: "Zex nam xer."
+    literal: "Threat names fear."
+    notes: "Daily threat-fear sentence."
+    terms: ["zex", "nam", "xer"]
+  -
+    id: "daily-353"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security"]
+    register: "common"
+    english: "Mercy repairs threat."
+    ethra: "Meh tar zex."
+    literal: "Mercy repairs threat."
+    notes: "Daily mercy-threat sentence."
+    terms: ["meh", "tar", "zex"]
+  -
+    id: "daily-354"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security", "law-governance"]
+    register: "common"
+    english: "Shield carries duty."
+    ethra: "Sehed taw dev."
+    literal: "Shield carries duty."
+    notes: "Daily shield-duty sentence."
+    terms: ["sehed", "taw", "dev"]
+  -
+    id: "daily-355"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "conflict-security", "ai-cognition"]
+    register: "common"
+    english: "Alarm guides choice."
+    ethra: "Xej pat vel."
+    literal: "Alarm guides choice."
+    notes: "Daily alarm-choice sentence."
+    terms: ["xej", "pat", "vel"]
+  -
+    id: "daily-356"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "common"
+    english: "Forest remembers water."
+    ethra: "Wez mar fel."
+    literal: "Tree remembers water."
+    notes: "Daily forest-water sentence."
+    terms: ["wez", "mar", "fel"]
+  -
+    id: "daily-357"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "common"
+    english: "Climate guides life."
+    ethra: "Hes pat nef."
+    literal: "Climate guides life."
+    notes: "Daily climate-life sentence."
+    terms: ["hes", "pat", "nef"]
+  -
+    id: "daily-358"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology"]
+    register: "common"
+    english: "Ecology protects habitat."
+    ethra: "Keted xap hebet."
+    literal: "Ecology protects habitat."
+    notes: "Daily ecology-habitat sentence."
+    terms: ["keted", "xap", "hebet"]
+  -
+    id: "daily-359"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "nature-ecology", "body-health"]
+    register: "common"
+    english: "Animal carries life."
+    ethra: "Ger taw nef."
+    literal: "Animal carries life."
+    notes: "Daily animal-life sentence."
+    terms: ["ger", "taw", "nef"]
+  -
+    id: "daily-360"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place", "law-governance"]
+    register: "common"
+    english: "City remembers border."
+    ethra: "Cat mar bed."
+    literal: "City remembers border."
+    notes: "Daily city-border sentence."
+    terms: ["cat", "mar", "bed"]
+  -
+    id: "daily-361"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "common"
+    english: "Path protects return."
+    ethra: "Pet xap rav."
+    literal: "Path protects arrival."
+    notes: "Daily path-return sentence."
+    terms: ["pet", "xap", "rav"]
+  -
+    id: "daily-362"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health", "law-governance"]
+    register: "common"
+    english: "Care protects consent."
+    ethra: "Wey xap feh."
+    literal: "Care protects consent."
+    notes: "Daily care-consent sentence."
+    terms: ["wey", "xap", "feh"]
+  -
+    id: "daily-363"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "common"
+    english: "Medicine guides care."
+    ethra: "Yen pat wey."
+    literal: "Medicine guides care."
+    notes: "Daily medicine-care sentence."
+    terms: ["yen", "pat", "wey"]
+  -
+    id: "daily-364"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "common"
+    english: "Grief opens attention."
+    ethra: "Gef ap san."
+    literal: "Grief opens attention."
+    notes: "Daily grief-attention sentence."
+    terms: ["gef", "ap", "san"]
+  -
+    id: "daily-365"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "common"
+    english: "Joy protects trust."
+    ethra: "Jew xap ven."
+    literal: "Joy protects trust."
+    notes: "Daily joy-trust sentence."
+    terms: ["jew", "xap", "ven"]
+  -
+    id: "daily-366"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication", "history-memory"]
+    register: "common"
+    english: "Message binds record."
+    ethra: "Meseg dav ket."
+    literal: "Message binds record."
+    notes: "Daily message-record sentence."
+    terms: ["meseg", "dav", "ket"]
+  -
+    id: "daily-367"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "history-memory"]
+    register: "common"
+    english: "Child carries inheritance."
+    ethra: "Jal taw pereg."
+    literal: "Child carries inheritance."
+    notes: "Daily child-inheritance sentence."
+    terms: ["jal", "taw", "pereg"]
+  -
+    id: "civic-267"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "Proof should guide rule."
+    ethra: "Pejeg cel pat reg."
+    literal: "Proof should guide rule."
+    notes: "Civic proof-rule sentence."
+    terms: ["pejeg", "cel", "pat", "reg"]
+  -
+    id: "civic-268"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math", "history-memory"]
+    register: "civic"
+    english: "Evidence binds record."
+    ethra: "Xeg dav ket."
+    literal: "Evidence binds record."
+    notes: "Civic evidence-record sentence."
+    terms: ["xeg", "dav", "ket"]
+  -
+    id: "civic-269"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "Tax should serve people."
+    ethra: "Gel cel sarav lem."
+    literal: "Tax should serve people."
+    notes: "Civic tax-people sentence."
+    terms: ["gel", "cel", "sarav", "lem"]
+  -
+    id: "civic-270"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision", "history-memory"]
+    register: "civic"
+    english: "Debt should answer future."
+    ethra: "Del cel vax fer."
+    literal: "Debt should answer future."
+    notes: "Civic debt-future sentence."
+    terms: ["del", "cel", "vax", "fer"]
+  -
+    id: "civic-271"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "civic"
+    english: "Teacher should protect student."
+    ethra: "Teh cel xap taj."
+    literal: "Mentor should protect student."
+    notes: "Civic teacher-student sentence."
+    terms: ["teh", "cel", "xap", "taj"]
+  -
+    id: "civic-272"
+    track: "civic-law"
+    domain_tags: ["law-governance", "education-training"]
+    register: "civic"
+    english: "Curriculum should guide mastery."
+    ethra: "Ted cel pat met."
+    literal: "Curriculum should guide mastery."
+    notes: "Civic curriculum-mastery sentence."
+    terms: ["ted", "cel", "pat", "met"]
+  -
+    id: "civic-273"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition", "philosophy-metaphysics"]
+    register: "civic"
+    english: "Agency should answer truth."
+    ethra: "Vel cel vax reh."
+    literal: "Choice should answer recognition."
+    notes: "Civic agency-truth sentence."
+    terms: ["vel", "cel", "vax", "reh"]
+  -
+    id: "civic-274"
+    track: "civic-law"
+    domain_tags: ["law-governance", "ai-cognition"]
+    register: "civic"
+    english: "Alignment binds office."
+    ethra: "Zey dav xaf."
+    literal: "Alignment binds office."
+    notes: "Civic alignment-office sentence."
+    terms: ["zey", "dav", "xaf"]
+  -
+    id: "civic-275"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "Threat should answer law."
+    ethra: "Zex cel vax reg."
+    literal: "Threat should answer rule."
+    notes: "Civic threat-law sentence."
+    terms: ["zex", "cel", "vax", "reg"]
+  -
+    id: "civic-276"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "Mercy should repair conflict."
+    ethra: "Meh cel tar mek."
+    literal: "Mercy should repair break."
+    notes: "Civic mercy-conflict sentence."
+    terms: ["meh", "cel", "tar", "mek"]
+  -
+    id: "civic-277"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology", "body-health"]
+    register: "civic"
+    english: "Ecology should protect life."
+    ethra: "Keted cel xap nef."
+    literal: "Ecology should protect life."
+    notes: "Civic ecology-life sentence."
+    terms: ["keted", "cel", "xap", "nef"]
+  -
+    id: "civic-278"
+    track: "civic-law"
+    domain_tags: ["law-governance", "nature-ecology"]
+    register: "civic"
+    english: "Habitat protects right."
+    ethra: "Hebet xap ret."
+    literal: "Habitat protects right."
+    notes: "Civic habitat-right sentence."
+    terms: ["hebet", "xap", "ret"]
+  -
+    id: "civic-279"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic"
+    english: "Border should protect people."
+    ethra: "Bed cel xap lem."
+    literal: "Border should protect people."
+    notes: "Civic border-people sentence."
+    terms: ["bed", "cel", "xap", "lem"]
+  -
+    id: "civic-280"
+    track: "civic-law"
+    domain_tags: ["law-governance", "body-health"]
+    register: "civic"
+    english: "Medicine should protect consent."
+    ethra: "Yen cel xap feh."
+    literal: "Medicine should protect consent."
+    notes: "Civic medicine-consent sentence."
+    terms: ["yen", "cel", "xap", "feh"]
+  -
+    id: "civic-281"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication", "history-memory"]
+    register: "civic"
+    english: "Public speech should protect record."
+    ethra: "Bec cel xap ket."
+    literal: "Broadcast should protect record."
+    notes: "Civic public-speech-record sentence."
+    terms: ["bec", "cel", "xap", "ket"]
+  -
+    id: "civic-282"
+    track: "civic-law"
+    domain_tags: ["law-governance", "family-kinship", "history-memory"]
+    register: "civic"
+    english: "Family should remember inheritance."
+    ethra: "Hen cel mar pereg."
+    literal: "Home should remember inheritance."
+    notes: "Civic family-inheritance sentence."
+    terms: ["hen", "cel", "mar", "pereg"]
+  -
+    id: "ritual-267"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics", "law-governance"]
+    register: "ritual"
+    english: "Truth guides judgment."
+    ethra: "Ha reh pat jev."
+    literal: "Sacred-speech recognition guides judgment."
+    notes: "Ritual truth-judgment sentence."
+    terms: ["ha", "reh", "pat", "jev"]
+  -
+    id: "ritual-268"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "science-math", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Proof protects reason."
+    ethra: "Ha pejeg xap rej."
+    literal: "Sacred-speech proof protects reason."
+    notes: "Ritual proof-reason sentence."
+    terms: ["ha", "pejeg", "xap", "rej"]
+  -
+    id: "ritual-269"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "ritual"
+    english: "Gift repairs debt."
+    ethra: "Ha gew tar del."
+    literal: "Sacred-speech gift repairs debt."
+    notes: "Ritual gift-debt sentence."
+    terms: ["ha", "gew", "tar", "del"]
+  -
+    id: "ritual-270"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision", "history-memory"]
+    register: "ritual"
+    english: "Resource serves future."
+    ethra: "Ha seres sarav fer."
+    literal: "Sacred-speech resource serves future."
+    notes: "Ritual resource-future sentence."
+    terms: ["ha", "seres", "sarav", "fer"]
+  -
+    id: "ritual-271"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training"]
+    register: "ritual"
+    english: "Teacher protects learning."
+    ethra: "Ha teh xap dak."
+    literal: "Sacred-speech mentor protects learning."
+    notes: "Ritual teacher-learning sentence."
+    terms: ["ha", "teh", "xap", "dak"]
+  -
+    id: "ritual-272"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "education-training"]
+    register: "ritual"
+    english: "Discipline opens mastery."
+    ethra: "Ha dek ap met."
+    literal: "Sacred-speech discipline opens mastery."
+    notes: "Ritual discipline-mastery sentence."
+    terms: ["ha", "dek", "ap", "met"]
+  -
+    id: "ritual-273"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "Agency remembers truth."
+    ethra: "Ha vel mar reh."
+    literal: "Sacred-speech choice remembers recognition."
+    notes: "Ritual agency-truth sentence."
+    terms: ["ha", "vel", "mar", "reh"]
+  -
+    id: "ritual-274"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "ai-cognition", "law-governance"]
+    register: "ritual"
+    english: "Alignment protects judgment."
+    ethra: "Ha zey xap jev."
+    literal: "Sacred-speech alignment protects judgment."
+    notes: "Ritual alignment-judgment sentence."
+    terms: ["ha", "zey", "xap", "jev"]
+  -
+    id: "ritual-275"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "ritual"
+    english: "Mercy repairs threat."
+    ethra: "Ha meh tar zex."
+    literal: "Sacred-speech mercy repairs threat."
+    notes: "Ritual mercy-threat sentence."
+    terms: ["ha", "meh", "tar", "zex"]
+  -
+    id: "ritual-276"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security", "emotion-psychology"]
+    register: "ritual"
+    english: "Shield protects courage."
+    ethra: "Ha sehed xap bet."
+    literal: "Sacred-speech shield protects courage."
+    notes: "Ritual shield-courage sentence."
+    terms: ["ha", "sehed", "xap", "bet"]
+  -
+    id: "ritual-277"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "ritual"
+    english: "Forest remembers water."
+    ethra: "Ha wez mar fel."
+    literal: "Sacred-speech tree remembers water."
+    notes: "Ritual forest-water sentence."
+    terms: ["ha", "wez", "mar", "fel"]
+  -
+    id: "ritual-278"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology"]
+    register: "ritual"
+    english: "Life protects animal."
+    ethra: "Ha nef xap ger."
+    literal: "Sacred-speech life protects animal."
+    notes: "Ritual life-animal sentence."
+    terms: ["ha", "nef", "xap", "ger"]
+  -
+    id: "ritual-279"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "travel-place", "family-kinship"]
+    register: "ritual"
+    english: "Path guides home."
+    ethra: "Ha pet pat hen."
+    literal: "Sacred-speech path guides home."
+    notes: "Ritual path-home sentence."
+    terms: ["ha", "pet", "pat", "hen"]
+  -
+    id: "ritual-280"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "Care protects body."
+    ethra: "Ha wey xap gem."
+    literal: "Sacred-speech care protects body."
+    notes: "Ritual care-body sentence."
+    terms: ["ha", "wey", "xap", "gem"]
+  -
+    id: "ritual-281"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "history-memory"]
+    register: "ritual"
+    english: "Public speech binds memory."
+    ethra: "Ha bec dav mar."
+    literal: "Sacred-speech broadcast binds memory."
+    notes: "Ritual public-speech-memory sentence."
+    terms: ["ha", "bec", "dav", "mar"]
+  -
+    id: "ritual-282"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship", "history-memory"]
+    register: "ritual"
+    english: "Child carries inheritance."
+    ethra: "Ha jal taw pereg."
+    literal: "Sacred-speech child carries inheritance."
+    notes: "Ritual child-inheritance sentence."
+    terms: ["ha", "jal", "taw", "pereg"]
+  -
+    id: "tech-339"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Data guides proof."
+    ethra: "Dab pat pejeg."
+    literal: "Data guides proof."
+    notes: "Technical data-proof sentence."
+    terms: ["dab", "pat", "pejeg"]
+  -
+    id: "tech-340"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Dataset carries evidence."
+    ethra: "Xadal taw xeg."
+    literal: "Dataset carries evidence."
+    notes: "Technical dataset-evidence sentence."
+    terms: ["xadal", "taw", "xeg"]
+  -
+    id: "tech-341"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math", "ai-cognition"]
+    register: "technical"
+    english: "Model answers probability."
+    ethra: "Med vax peb."
+    literal: "Model answers probability."
+    notes: "Technical model-probability sentence."
+    terms: ["med", "vax", "peb"]
+  -
+    id: "tech-342"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Measurement protects error."
+    ethra: "Mas xap rex."
+    literal: "Measurement protects error."
+    notes: "Technical measurement-error sentence."
+    terms: ["mas", "xap", "rex"]
+  -
+    id: "tech-343"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "Ledger binds transaction."
+    ethra: "Leger dav terex."
+    literal: "Ledger binds transaction."
+    notes: "Technical ledger-transaction sentence."
+    terms: ["leger", "dav", "terex"]
+  -
+    id: "tech-344"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "Transaction remembers tax."
+    ethra: "Terex mar gel."
+    literal: "Transaction remembers tax."
+    notes: "Technical transaction-tax sentence."
+    terms: ["terex", "mar", "gel"]
+  -
+    id: "tech-345"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "Resource serves network."
+    ethra: "Seres sarav newer."
+    literal: "Resource serves network."
+    notes: "Technical resource-network sentence."
+    terms: ["seres", "sarav", "newer"]
+  -
+    id: "tech-346"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "Schedule guides training."
+    ethra: "Tam pat tereg."
+    literal: "Schedule guides training."
+    notes: "Technical schedule-training sentence."
+    terms: ["tam", "pat", "tereg"]
+  -
+    id: "tech-347"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "Rubric protects mastery."
+    ethra: "Reber xap met."
+    literal: "Rubric protects mastery."
+    notes: "Technical rubric-mastery sentence."
+    terms: ["reber", "xap", "met"]
+  -
+    id: "tech-348"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training", "ai-cognition"]
+    register: "technical"
+    english: "Evaluation reveals error."
+    ethra: "Jev rah rex."
+    literal: "Evaluation reveals error."
+    notes: "Technical evaluation-error sentence."
+    terms: ["jev", "rah", "rex"]
+  -
+    id: "tech-349"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "Prompt guides reason."
+    ethra: "Pey pat rej."
+    literal: "Prompt guides reason."
+    notes: "Technical prompt-reason sentence."
+    terms: ["pey", "pat", "rej"]
+  -
+    id: "tech-350"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "Alignment protects model."
+    ethra: "Zey xap med."
+    literal: "Alignment protects model."
+    notes: "Technical alignment-model sentence."
+    terms: ["zey", "xap", "med"]
+  -
+    id: "tech-351"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "science-math"]
+    register: "technical"
+    english: "Simulation carries cause."
+    ethra: "Sem taw kes."
+    literal: "Simulation carries cause."
+    notes: "Technical simulation-cause sentence."
+    terms: ["sem", "taw", "kes"]
+  -
+    id: "tech-352"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "Threat names interface."
+    ethra: "Zex nam heg."
+    literal: "Threat names interface."
+    notes: "Technical threat-interface sentence."
+    terms: ["zex", "nam", "heg"]
+  -
+    id: "tech-353"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "Protocol protects network."
+    ethra: "Tex xap newer."
+    literal: "Protocol protects network."
+    notes: "Technical protocol-network sentence."
+    terms: ["tex", "xap", "newer"]
+  -
+    id: "tech-354"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "Shield protects socket."
+    ethra: "Sehed xap secek."
+    literal: "Shield protects socket."
+    notes: "Technical shield-socket sentence."
+    terms: ["sehed", "xap", "secek"]
+  -
+    id: "tech-355"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Sensor carries measure."
+    ethra: "Jec taw mes."
+    literal: "Sensor carries measure."
+    notes: "Technical sensor-measure sentence."
+    terms: ["jec", "taw", "mes"]
+  -
+    id: "tech-356"
+    track: "technical-software"
+    domain_tags: ["technology-software", "nature-ecology"]
+    register: "technical"
+    english: "Ecology guides sensor."
+    ethra: "Keted pat jec."
+    literal: "Ecology guides sensor."
+    notes: "Technical ecology-sensor sentence."
+    terms: ["keted", "pat", "jec"]
+  -
+    id: "tech-357"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "Map guides route."
+    ethra: "Mep pat pet."
+    literal: "Map guides path."
+    notes: "Technical map-route sentence."
+    terms: ["mep", "pat", "pet"]
+  -
+    id: "tech-358"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health", "history-memory"]
+    register: "technical"
+    english: "Dose protects record."
+    ethra: "Pem xap ket."
+    literal: "Dose protects record."
+    notes: "Technical dose-record sentence."
+    terms: ["pem", "xap", "ket"]
+  -
+    id: "tech-359"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health", "law-governance"]
+    register: "technical"
+    english: "Consent binds interface."
+    ethra: "Feh dav heg."
+    literal: "Consent binds interface."
+    notes: "Technical consent-interface sentence."
+    terms: ["feh", "dav", "heg"]
+  -
+    id: "tech-360"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "Network carries signal."
+    ethra: "Newer taw seg."
+    literal: "Network carries signal."
+    notes: "Technical network-signal sentence."
+    terms: ["newer", "taw", "seg"]
+  -
+    id: "tech-361"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "Packet carries payload."
+    ethra: "Peket taw peled."
+    literal: "Packet carries payload."
+    notes: "Technical packet-payload sentence."
+    terms: ["peket", "taw", "peled"]
+  -
+    id: "tech-362"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "Socket protects channel."
+    ethra: "Secek xap heg."
+    literal: "Socket protects interface."
+    notes: "Technical socket-channel sentence."
+    terms: ["secek", "xap", "heg"]
+  -
+    id: "tech-363"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "Payload carries data."
+    ethra: "Peled taw dab."
+    literal: "Payload carries data."
+    notes: "Technical payload-data sentence."
+    terms: ["peled", "taw", "dab"]
+  -
+    id: "tech-364"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "Keyboard opens prompt."
+    ethra: "Kebed ap pey."
+    literal: "Keyboard opens prompt."
+    notes: "Technical keyboard-prompt sentence."
+    terms: ["kebed", "ap", "pey"]
+  -
+    id: "tech-365"
+    track: "technical-software"
+    domain_tags: ["technology-software", "history-memory", "ai-cognition"]
+    register: "technical"
+    english: "Dataset remembers model."
+    ethra: "Xadal mar med."
+    literal: "Dataset remembers model."
+    notes: "Technical dataset-model sentence."
+    terms: ["xadal", "mar", "med"]
+  -
+    id: "tech-366"
+    track: "technical-software"
+    domain_tags: ["technology-software", "history-memory"]
+    register: "technical"
+    english: "Synchronization protects dataset."
+    ethra: "Zeden xap xadal."
+    literal: "Synchronization protects dataset."
+    notes: "Technical synchronization-dataset sentence."
+    terms: ["zeden", "xap", "xadal"]
+  -
+    id: "poetic-339"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Truth opens reason."
+    ethra: "Reh ap rej."
+    literal: "Recognition opens reason."
+    notes: "Poetic truth-reason sentence."
+    terms: ["reh", "ap", "rej"]
+  -
+    id: "poetic-340"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math"]
+    register: "poetic"
+    english: "Proof remembers measure."
+    ethra: "Pejeg mar mes."
+    literal: "Proof remembers measure."
+    notes: "Poetic proof-measure sentence."
+    terms: ["pejeg", "mar", "mes"]
+  -
+    id: "poetic-341"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "nature-ecology"]
+    register: "poetic"
+    english: "Matter carries life."
+    ethra: "Men taw nef."
+    literal: "Matter carries life."
+    notes: "Poetic matter-life sentence."
+    terms: ["men", "taw", "nef"]
+  -
+    id: "poetic-342"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "science-math", "ai-cognition"]
+    register: "poetic"
+    english: "Energy opens system."
+    ethra: "Nereg ap med."
+    literal: "Energy opens model."
+    notes: "Poetic energy-system sentence."
+    terms: ["nereg", "ap", "med"]
+  -
+    id: "poetic-343"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision", "family-kinship"]
+    register: "poetic"
+    english: "Money serves home."
+    ethra: "Mey sarav hen."
+    literal: "Money serves home."
+    notes: "Poetic money-home sentence."
+    terms: ["mey", "sarav", "hen"]
+  -
+    id: "poetic-344"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision", "emotion-psychology"]
+    register: "poetic"
+    english: "Debt remembers trust."
+    ethra: "Del mar ven."
+    literal: "Debt remembers trust."
+    notes: "Poetic debt-trust sentence."
+    terms: ["del", "mar", "ven"]
+  -
+    id: "poetic-345"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision", "emotion-psychology"]
+    register: "poetic"
+    english: "Gift protects joy."
+    ethra: "Gew xap jew."
+    literal: "Gift protects joy."
+    notes: "Poetic gift-joy sentence."
+    terms: ["gew", "xap", "jew"]
+  -
+    id: "poetic-346"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision", "emotion-psychology"]
+    register: "poetic"
+    english: "Poverty reveals mercy."
+    ethra: "Neg rah meh."
+    literal: "Poverty reveals mercy."
+    notes: "Poetic poverty-mercy sentence."
+    terms: ["neg", "rah", "meh"]
+  -
+    id: "poetic-347"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "history-memory"]
+    register: "poetic"
+    english: "Lesson carries future."
+    ethra: "Lev taw fer."
+    literal: "Lesson carries future."
+    notes: "Poetic lesson-future sentence."
+    terms: ["lev", "taw", "fer"]
+  -
+    id: "poetic-348"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Learning opens self."
+    ethra: "Dak ap yes."
+    literal: "Learning opens self."
+    notes: "Poetic learning-self sentence."
+    terms: ["dak", "ap", "yes"]
+  -
+    id: "poetic-349"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "family-kinship"]
+    register: "poetic"
+    english: "Teacher remembers child."
+    ethra: "Teh mar jal."
+    literal: "Mentor remembers child."
+    notes: "Poetic teacher-child sentence."
+    terms: ["teh", "mar", "jal"]
+  -
+    id: "poetic-350"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "education-training", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Reading reveals truth."
+    ethra: "Sej rah reh."
+    literal: "Reading reveals recognition."
+    notes: "Poetic reading-truth sentence."
+    terms: ["sej", "rah", "reh"]
+  -
+    id: "poetic-351"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "technology-software"]
+    register: "poetic"
+    english: "Prompt opens model."
+    ethra: "Pey ap med."
+    literal: "Prompt opens model."
+    notes: "Poetic prompt-model sentence."
+    terms: ["pey", "ap", "med"]
+  -
+    id: "poetic-352"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition"]
+    register: "poetic"
+    english: "Alignment guides agency."
+    ethra: "Zey pat vel."
+    literal: "Alignment guides choice."
+    notes: "Poetic alignment-agency sentence."
+    terms: ["zey", "pat", "vel"]
+  -
+    id: "poetic-353"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "ai-cognition", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Simulation reveals paradox."
+    ethra: "Sem rah pedex."
+    literal: "Simulation reveals paradox."
+    notes: "Poetic simulation-paradox sentence."
+    terms: ["sem", "rah", "pedex"]
+  -
+    id: "poetic-354"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security", "emotion-psychology"]
+    register: "poetic"
+    english: "Alarm names fear."
+    ethra: "Xej nam xer."
+    literal: "Alarm names fear."
+    notes: "Poetic alarm-fear sentence."
+    terms: ["xej", "nam", "xer"]
+  -
+    id: "poetic-355"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security", "emotion-psychology"]
+    register: "poetic"
+    english: "Shield remembers courage."
+    ethra: "Sehed mar bet."
+    literal: "Shield remembers courage."
+    notes: "Poetic shield-courage sentence."
+    terms: ["sehed", "mar", "bet"]
+  -
+    id: "poetic-356"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "conflict-security"]
+    register: "poetic"
+    english: "Mercy repairs threat."
+    ethra: "Meh tar zex."
+    literal: "Mercy repairs threat."
+    notes: "Poetic mercy-threat sentence."
+    terms: ["meh", "tar", "zex"]
+  -
+    id: "poetic-357"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "body-health"]
+    register: "poetic"
+    english: "Forest protects life."
+    ethra: "Wez xap nef."
+    literal: "Tree protects life."
+    notes: "Poetic forest-life sentence."
+    terms: ["wez", "xap", "nef"]
+  -
+    id: "poetic-358"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "Water remembers climate."
+    ethra: "Fel mar hes."
+    literal: "Water remembers climate."
+    notes: "Poetic water-climate sentence."
+    terms: ["fel", "mar", "hes"]
+  -
+    id: "poetic-359"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "economics-provision"]
+    register: "poetic"
+    english: "Harvest carries provision."
+    ethra: "Zeheg taw per."
+    literal: "Harvest carries provision."
+    notes: "Poetic harvest-provision sentence."
+    terms: ["zeheg", "taw", "per"]
+  -
+    id: "poetic-360"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology"]
+    register: "poetic"
+    english: "Ecology protects habitat."
+    ethra: "Keted xap hebet."
+    literal: "Ecology protects habitat."
+    notes: "Poetic ecology-habitat sentence."
+    terms: ["keted", "xap", "hebet"]
+  -
+    id: "poetic-361"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "history-memory"]
+    register: "poetic"
+    english: "City carries memory."
+    ethra: "Cat taw mar."
+    literal: "City carries memory."
+    notes: "Poetic city-memory sentence."
+    terms: ["cat", "taw", "mar"]
+  -
+    id: "poetic-362"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place", "family-kinship"]
+    register: "poetic"
+    english: "Border names home."
+    ethra: "Bed nam hen."
+    literal: "Border names home."
+    notes: "Poetic border-home sentence."
+    terms: ["bed", "nam", "hen"]
+  -
+    id: "poetic-363"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "travel-place"]
+    register: "poetic"
+    english: "Path opens arrival."
+    ethra: "Pet ap rav."
+    literal: "Path opens arrival."
+    notes: "Poetic path-arrival sentence."
+    terms: ["pet", "ap", "rav"]
+  -
+    id: "poetic-364"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Medicine repairs pain."
+    ethra: "Yen tar pen."
+    literal: "Medicine repairs pain."
+    notes: "Poetic medicine-pain sentence."
+    terms: ["yen", "tar", "pen"]
+  -
+    id: "poetic-365"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health", "emotion-psychology"]
+    register: "poetic"
+    english: "Consent protects heart."
+    ethra: "Feh xap leb."
+    literal: "Consent protects heart."
+    notes: "Poetic consent-heart sentence."
+    terms: ["feh", "xap", "leb"]
+  -
+    id: "poetic-366"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "emotion-psychology"]
+    register: "poetic"
+    english: "Message opens attention."
+    ethra: "Meseg ap san."
+    literal: "Message opens attention."
+    notes: "Poetic message-attention sentence."
+    terms: ["meseg", "ap", "san"]
+  -
+    id: "poetic-367"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship", "history-memory"]
+    register: "poetic"
+    english: "Family carries future."
+    ethra: "Hen taw fer."
+    literal: "Home carries future."
+    notes: "Poetic family-future sentence."
+    terms: ["hen", "taw", "fer"]
+  -
+    id: "learner-194"
+    track: "learner-graded"
+    domain_tags: ["science-math", "philosophy-metaphysics"]
+    register: "learner-a1"
+    english: "Evidence guides truth."
+    ethra: "Xeg pat reh."
+    literal: "Evidence guides recognition."
+    notes: "Learner evidence-truth sentence."
+    terms: ["xeg", "pat", "reh"]
+  -
+    id: "learner-195"
+    track: "learner-graded"
+    domain_tags: ["economics-provision", "emotion-psychology"]
+    register: "learner-a1"
+    english: "Gift repairs trust."
+    ethra: "Gew tar ven."
+    literal: "Gift repairs trust."
+    notes: "Learner gift-trust sentence."
+    terms: ["gew", "tar", "ven"]
+  -
+    id: "learner-196"
+    track: "learner-graded"
+    domain_tags: ["nature-ecology", "body-health"]
+    register: "learner-a1"
+    english: "Water protects life."
+    ethra: "Fel xap nef."
+    literal: "Water protects life."
+    notes: "Learner water-life sentence."
+    terms: ["fel", "xap", "nef"]
