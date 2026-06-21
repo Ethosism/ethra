@@ -32,8 +32,8 @@ test("summarizes current progress against roadmap targets", () => {
   assert.equal(summary.current.actual_corpus_items, summary.current.corpus_items);
   assert.equal(summary.current.actual_compound_terms, summary.current.compound_terms);
   assert.equal(summary.current.actual_derivation_patterns, summary.current.derivation_patterns);
-  assert.ok(summary.current.actual_lexicon_entries >= 41057);
-  assert.ok(summary.current.actual_root_families >= 2050);
+  assert.ok(summary.current.actual_lexicon_entries >= 42057);
+  assert.ok(summary.current.actual_root_families >= 2100);
   assert.ok(summary.current.actual_corpus_items >= 4520);
   assert.ok(summary.current.actual_compound_terms >= 100);
   assert.equal(summary.current.actual_derivation_patterns, 20);
@@ -448,30 +448,30 @@ test("searches reviewed corpus by text and structured filters", () => {
 test("builds dictionary-grade lookup entries with corpus evidence", () => {
   const stats = dictionaryStats(5);
   assert.equal(stats.schema_version, "0.5.8");
-  assert.equal(stats.source_counts.lexicon, 41057);
+  assert.equal(stats.source_counts.lexicon, 42057);
   assert.equal(stats.source_counts.particle, 39);
   assert.equal(stats.source_counts.pronoun, 16);
   assert.equal(stats.source_counts.compound, 100);
-  assert.equal(stats.total_entries, 41212);
-  assert.equal(stats.root_families, 2050);
-  assert.ok(stats.domain_counts["ai-cognition"] >= 11044);
-  assert.ok(stats.domain_counts["art-beauty"] >= 6525);
-  assert.ok(stats.domain_counts["science-math"] >= 11970);
+  assert.equal(stats.total_entries, 42212);
+  assert.equal(stats.root_families, 2100);
+  assert.ok(stats.domain_counts["ai-cognition"] >= 11144);
+  assert.ok(stats.domain_counts["art-beauty"] >= 6545);
+  assert.ok(stats.domain_counts["science-math"] >= 12170);
   assert.ok(stats.domain_counts["conflict-security"] >= 2028);
   assert.ok(stats.domain_counts["daily-life"] >= 2799);
   assert.ok(stats.domain_counts["education-training"] >= 5902);
-  assert.ok(stats.domain_counts["emotion-psychology"] >= 3912);
+  assert.ok(stats.domain_counts["emotion-psychology"] >= 4052);
   assert.ok(stats.domain_counts["family-kinship"] >= 1682);
   assert.ok(stats.domain_counts["history-memory"] >= 1593);
-  assert.ok(stats.domain_counts["nature-ecology"] >= 4750);
+  assert.ok(stats.domain_counts["nature-ecology"] >= 4950);
   assert.ok(stats.domain_counts["philosophy-metaphysics"] >= 9032);
-  assert.ok(stats.domain_counts["law-governance"] >= 12087);
+  assert.ok(stats.domain_counts["law-governance"] >= 12147);
   assert.ok(stats.domain_counts["body-health"] >= 3406);
-  assert.ok(stats.domain_counts["media-communication"] >= 7573);
-  assert.ok(stats.domain_counts["ritual-spiritual"] >= 3810);
-  assert.ok(stats.domain_counts["technology-software"] >= 7876);
-  assert.ok(stats.domain_counts["economics-provision"] >= 8544);
-  assert.ok(stats.domain_counts["travel-place"] >= 19943);
+  assert.ok(stats.domain_counts["media-communication"] >= 7673);
+  assert.ok(stats.domain_counts["ritual-spiritual"] >= 3830);
+  assert.ok(stats.domain_counts["technology-software"] >= 7976);
+  assert.ok(stats.domain_counts["economics-provision"] >= 8604);
+  assert.ok(stats.domain_counts["travel-place"] >= 20203);
   assert.ok(stats.corpus_attested_entries >= 2635);
   assert.ok(stats.top_corpus_entries.length <= 5);
 
@@ -622,13 +622,31 @@ test("builds dictionary-grade lookup entries with corpus evidence", () => {
 
   const ceasefire = lookupDictionary({ query: "ceasefire", limit: 20 });
   assert.ok(ceasefire.matches.some((match) => match.entry.root === "CFIR"));
+
+  const scarcity = lookupDictionary({ query: "scarcity", limit: 20 });
+  assert.ok(scarcity.matches.some((match) => match.entry.root === "SCAX"));
+
+  const equityStake = lookupDictionary({ query: "equity stake", limit: 20 });
+  assert.ok(equityStake.matches.some((match) => match.entry.root === "KSX"));
+
+  const coordinate = lookupDictionary({ query: "kepetex", exact: true, limit: 20 });
+  assert.ok(coordinate.matches.some((match) => match.entry.root === "KPTX"));
+
+  const sequestration = lookupDictionary({ query: "sequestration", limit: 20 });
+  assert.ok(sequestration.matches.some((match) => match.entry.root === "SKST"));
+
+  const idempotence = lookupDictionary({ query: "repeat-safe action", limit: 20 });
+  assert.ok(idempotence.matches.some((match) => match.entry.root === "RPSF"));
+
+  const formativeAssessment = lookupDictionary({ query: "formative assessment", limit: 20 });
+  assert.ok(formativeAssessment.matches.some((match) => match.entry.root === "FMAS"));
 });
 
 test("validates expanded root inventory", () => {
   const report = validateSpec();
   assert.equal(report.valid, true, JSON.stringify(report.errors, null, 2));
-  assert.equal(report.stats.roots, 2050);
-  assert.equal(report.stats.lexiconEntries, 41057);
+  assert.equal(report.stats.roots, 2100);
+  assert.equal(report.stats.lexiconEntries, 42057);
   assert.equal(report.stats.derivationPatterns, 20);
 });
 

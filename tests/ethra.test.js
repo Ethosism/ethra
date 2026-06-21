@@ -355,6 +355,22 @@ test("looks up roots by aliases and derives words", () => {
   const vineyard = deriveWord("VYND", "noun");
   assert.equal(vineyard.word, "veyened");
   assert.equal(vineyard.root.id, "VYND");
+
+  const scarcity = deriveWord("SCAX", "noun");
+  assert.equal(scarcity.word, "seceaex");
+  assert.equal(scarcity.root.id, "SCAX");
+
+  const coordinate = deriveWord("KPTX", "noun");
+  assert.equal(coordinate.word, "kepetex");
+  assert.equal(coordinate.root.id, "KPTX");
+
+  const idempotence = deriveWord("RPSF", "noun");
+  assert.equal(idempotence.word, "repesef");
+  assert.equal(idempotence.root.id, "RPSF");
+
+  const formativeAssessment = deriveWord("FMAS", "noun");
+  assert.equal(formativeAssessment.word, "femeaes");
+  assert.equal(formativeAssessment.root.id, "FMAS");
 });
 
 test("analyzes known words", () => {
