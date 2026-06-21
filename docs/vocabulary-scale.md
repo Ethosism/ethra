@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 8,057 explicit lexicon entries and 400 reviewed corpus items after the v0.2.12 corpus-grounding expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 8,057 explicit lexicon entries and 500 reviewed corpus items after the v0.3.0 everyday-fluency corpus expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.3 everyday-fluency target:
 
 ```text
 entries 8,057 / 3,000
 roots     400 / 400
-corpus    400 / 500 reviewed items
+corpus    500 / 500 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -34,7 +34,9 @@ The v0.2.11 corpus batch adds 60 reviewed examples across all six corpus tracks,
 
 The v0.2.12 corpus batch adds 60 reviewed examples across all six corpus tracks, deepening daily health, civic accountability, ritual ecology, technical security, literary nature imagery, and learner-grade sentences.
 
-With v0.2.12, the main remaining v0.3 gap is reviewed corpus depth: 400 / 500 items.
+The v0.3.0 corpus batch adds the final 100 reviewed examples needed for the everyday-fluency corpus target: household care, hospitality, work, travel, education, civic standards, ritual continuity, software operations, poetic imagery, and learner-grade basics.
+
+With v0.3.0, the v0.3 numeric gates are met: 8,057 / 3,000 entries, 400 / 400 roots, and 500 / 500 reviewed corpus items. The next scale target is v0.5: 10,000 entries, 1,000 roots, and 2,000 corpus items.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
