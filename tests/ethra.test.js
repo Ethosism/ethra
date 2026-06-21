@@ -72,6 +72,14 @@ test("looks up roots by aliases and derives words", () => {
   const care = deriveWord("WY", "verb");
   assert.equal(care.word, "way");
   assert.equal(care.root.id, "WY");
+
+  const analysis = deriveWord("DML", "noun");
+  assert.equal(analysis.word, "demel");
+  assert.equal(analysis.root.id, "DML");
+
+  const prayer = deriveWord("CC", "noun");
+  assert.equal(prayer.word, "cec");
+  assert.equal(prayer.root.id, "CC");
 });
 
 test("analyzes known words", () => {
@@ -100,7 +108,7 @@ test("loads canonical example translations", () => {
 test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 7000);
+  assert.ok(entries.length >= 8000);
   for (const category of [
     "Pronouns",
     "Particles",

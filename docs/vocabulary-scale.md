@@ -1,12 +1,12 @@
 # Vocabulary Scale
 
-Ethra currently has 7,197 explicit lexicon entries and 280 reviewed corpus items after the v0.2.9 root-bank expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
+Ethra currently has 8,057 explicit lexicon entries and 280 reviewed corpus items after the v0.2.10 root-target expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.3 everyday-fluency target:
 
 ```text
-entries 7,197 / 3,000
-roots     357 / 400
+entries 8,057 / 3,000
+roots     400 / 400
 corpus    280 / 500 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
@@ -25,6 +25,10 @@ The v0.2.7 root batch adds 50 roots for time, body, emotion, social life, knowle
 The v0.2.8 corpus batch adds 60 reviewed examples across all six corpus tracks, grounding the v0.2.7 roots in daily schedules, fatigue, neighborly return, market hours, public deadlines, medical records, research protocols, ritual offerings, technical debugging, natural imagery, and learner sentences.
 
 The v0.2.9 root batch adds 50 roots for everyday fluency and technical civilization: evidence, doubt, comparison, interpretation, hiddenness, accountability, consent, refusal, restraint, trust, care, mother, father, ancestor, descendant, clan, mouth, nose, face, voice, pulse, stomach, dose, tooth, symptom, pregnancy, prompt, algorithm, cache, interface, execution, server, error, version, backup, skill, reading, science, laboratory, equation, curriculum, mentor, student, language, answer, bridge, street, station, vote, and automation agent.
+
+The v0.2.10 root batch adds 43 roots to meet the v0.3 root target: analysis, comfort, throat, grandparent, reconciliation, stewardship, hope, prudence, protocol, compression, window, weather, tree, penalty, alarm, case, head, queue, encryption, shock, star, animal, arm, wonder, mountain, fish, dream, stone, citizenship, leadership, wage, letter, endpoint, coercion, color, floor, roof, seat, seed, forest, ocean, myth, and prayer.
+
+With v0.2.10, the v0.3 root count is met. The main remaining v0.3 gap is reviewed corpus depth: 280 / 500 items.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
