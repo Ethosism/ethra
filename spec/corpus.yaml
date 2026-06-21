@@ -1,4 +1,4 @@
-version: "0.10.5-corpus"
+version: "0.10.7-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -50001,3 +50001,1203 @@ items:
     literal: "Praxis teaches duty."
     notes: "A1 grounding for praxis, theory joined to disciplined action, knowledge tested in lived practice."
     terms: ["perekes", "dak", "dev"]
+  -
+    id: "daily-1001"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Form protects record."
+    ethra: "Feremel xap ket."
+    literal: "Form protects record."
+    notes: "Daily grounding for form, structured field record, form, structured fields, official container for a request, record, or declaration."
+    terms: ["feremel", "xap", "ket"]
+  -
+    id: "daily-1002"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Application carries evidence."
+    ethra: "Pepelen taw xeg."
+    literal: "Application carries evidence."
+    notes: "Daily grounding for application, submitted request, application, submitted request for standing, service, permit, or admission."
+    terms: ["pepelen", "taw", "xeg"]
+  -
+    id: "daily-1003"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Intake names duty."
+    ethra: "Netekex nam dev."
+    literal: "Intake names duty."
+    notes: "Daily grounding for intake, opening receipt, intake, first receiving record that opens a case, request, visit, or duty path."
+    terms: ["netekex", "nam", "dev"]
+  -
+    id: "daily-1004"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Eligibility guides service."
+    ethra: "Yelegeb pat serevec."
+    literal: "Eligibility guides service."
+    notes: "Daily grounding for eligibility, qualified standing, eligibility, qualified standing to receive a service, benefit, role, or protection."
+    terms: ["yelegeb", "pat", "serevec"]
+  -
+    id: "daily-1005"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Waitlist carries memory."
+    ethra: "Wetelet taw mer."
+    literal: "Waitlist carries memory."
+    notes: "Daily grounding for waitlist, ordered pending claim, waitlist, ordered queue of unmet but recognized claims for service or placement."
+    terms: ["wetelet", "taw", "mer"]
+  -
+    id: "daily-1006"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Casework protects people."
+    ethra: "Cesewek xap lem."
+    literal: "Casework protects people."
+    notes: "Daily grounding for casework, coordinated public care, casework, coordinated public care across documents, persons, offices, and follow-up duties."
+    terms: ["cesewek", "xap", "lem"]
+  -
+    id: "daily-1007"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Benefit carries care."
+    ethra: "Benefet taw hal."
+    literal: "Benefit carries care."
+    notes: "Daily grounding for benefit, owed provision, benefit, public or institutional provision owed by rule, need, service, or earned standing."
+    terms: ["benefet", "taw", "hal"]
+  -
+    id: "daily-1008"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "plain"
+    english: "Submission carries evidence."
+    ethra: "Sebemet taw xeg."
+    literal: "Submission carries evidence."
+    notes: "Daily grounding for submission, handed-in material, submission, handed-in work, filed material, or sent evidence awaiting review."
+    terms: ["sebemet", "taw", "xeg"]
+  -
+    id: "daily-1009"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Approval binds duty."
+    ethra: "Perevex dav dev."
+    literal: "Approval binds duty."
+    notes: "Daily grounding for approval, reviewed authorization, approval, accepted authorization after review, consent, or standard check."
+    terms: ["perevex", "dav", "dev"]
+  -
+    id: "daily-1010"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "plain"
+    english: "Help desk protects people."
+    ethra: "Heledep xap lem."
+    literal: "Help desk protects people."
+    notes: "Daily grounding for help desk, support point, help desk, support point where users ask for repair, explanation, or access assistance."
+    terms: ["heledep", "xap", "lem"]
+  -
+    id: "daily-1011"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "plain"
+    english: "Ticket carries duty."
+    ethra: "Teceket taw dev."
+    literal: "Ticket carries duty."
+    notes: "Daily grounding for ticket, tracked work unit, ticket, tracked unit of work, incident, request, defect, or obligation."
+    terms: ["teceket", "taw", "dev"]
+  -
+    id: "daily-1012"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Service protects people."
+    ethra: "Serevec xap lem."
+    literal: "Service protects people."
+    notes: "Daily grounding for service, rendered useful work, service, useful work rendered for another under duty, exchange, office, or care."
+    terms: ["serevec", "xap", "lem"]
+  -
+    id: "daily-1013"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Registration carries memory."
+    ethra: "Regeter taw mer."
+    literal: "Registration carries memory."
+    notes: "Daily grounding for registration, official enrollment, registration, official enrollment of a person, object, event, credential, or claim."
+    terms: ["regeter", "taw", "mer"]
+  -
+    id: "daily-1014"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "plain"
+    english: "Signature binds truth."
+    ethra: "Segenet dav rih."
+    literal: "Signature binds truth."
+    notes: "Daily grounding for signature, personal assent mark, signature, personal mark of assent, authorship, witness, or accountability."
+    terms: ["segenet", "dav", "rih"]
+  -
+    id: "daily-1015"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Stamp reveals rule."
+    ethra: "Setemep rah rag."
+    literal: "Stamp reveals rule."
+    notes: "Daily grounding for stamp, official seal mark, stamp, seal, official mark of receipt, approval, certification, or passage."
+    terms: ["setemep", "rah", "rag"]
+  -
+    id: "daily-1016"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "plain"
+    english: "Template guides form."
+    ethra: "Temepel pat feremel."
+    literal: "Template guides form."
+    notes: "Daily grounding for template, reusable structure, template, reusable structure that guides repeated creation without hiding judgment."
+    terms: ["temepel", "pat", "feremel"]
+  -
+    id: "daily-1017"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "plain"
+    english: "Attachment carries evidence."
+    ethra: "Fecehem taw xeg."
+    literal: "Attachment carries evidence."
+    notes: "Daily grounding for attachment, appended support, attachment, added file, appended evidence, or bound supporting material."
+    terms: ["fecehem", "taw", "xeg"]
+  -
+    id: "daily-1018"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "plain"
+    english: "Acknowledgment protects truth."
+    ethra: "Yeceken xap rih."
+    literal: "Acknowledgment protects truth."
+    notes: "Daily grounding for acknowledgment, recognized receipt, acknowledgment, receipt recognized, truth admitted, or contribution named."
+    terms: ["yeceken", "xap", "rih"]
+  -
+    id: "daily-1019"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Purchase carries record."
+    ethra: "Pereceh taw ket."
+    literal: "Purchase carries record."
+    notes: "Daily grounding for purchase, accountable acquisition, purchase, acquired good or service through payment, exchange, or authorized procurement."
+    terms: ["pereceh", "taw", "ket"]
+  -
+    id: "daily-1020"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Order guides fulfillment."
+    ethra: "Rekeset pat felefem."
+    literal: "Order guides fulfillment."
+    notes: "Daily grounding for order, requested fulfillment, order, requested goods, services, sequence, or command awaiting fulfillment."
+    terms: ["rekeset", "pat", "felefem"]
+  -
+    id: "daily-1021"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Inventory protects benefit."
+    ethra: "Ienevet xap benefet."
+    literal: "Inventory protects benefit."
+    notes: "Daily grounding for inventory, counted stock, inventory, counted stock, available goods, or maintained supply memory."
+    terms: ["ienevet", "xap", "benefet"]
+  -
+    id: "daily-1022"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Checkout binds payment."
+    ethra: "Ceheket dav peyem."
+    literal: "Checkout binds payment."
+    notes: "Daily grounding for checkout, final exchange point, checkout, final exchange point where selection becomes payment, receipt, and release."
+    terms: ["ceheket", "dav", "peyem"]
+  -
+    id: "daily-1023"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Shipment carries order."
+    ethra: "Sehepem taw rekeset."
+    literal: "Shipment carries order."
+    notes: "Daily grounding for shipment, goods in custody transit, shipment, packaged goods moving under custody, route, carrier, and delivery promise."
+    terms: ["sehepem", "taw", "rekeset"]
+  -
+    id: "daily-1024"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "plain"
+    english: "Tracking reveals path."
+    ethra: "Terekeg rah pat."
+    literal: "Tracking reveals path."
+    notes: "Daily grounding for tracking, visible progress trace, tracking, observed progress of a package, task, case, signal, or obligation over time."
+    terms: ["terekeg", "rah", "pat"]
+  -
+    id: "civic-751"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "Benefit civic binds duty."
+    ethra: "Banafat-da dav dev."
+    literal: "Benefit civic binds duty."
+    notes: "Civic grounding for benefit, owed provision, benefit, public or institutional provision owed by rule, need, service, or earned standing."
+    terms: ["banafat-da", "dav", "dev"]
+  -
+    id: "civic-752"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "Submission civic carries evidence."
+    ethra: "Sabamat-da taw xeg."
+    literal: "Submission civic carries evidence."
+    notes: "Civic grounding for submission, handed-in material, submission, handed-in work, filed material, or sent evidence awaiting review."
+    terms: ["sabamat-da", "taw", "xeg"]
+  -
+    id: "civic-753"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic"
+    english: "Approval civic protects rule."
+    ethra: "Paravax-da xap rag."
+    literal: "Approval civic protects rule."
+    notes: "Civic grounding for approval, reviewed authorization, approval, accepted authorization after review, consent, or standard check."
+    terms: ["paravax-da", "xap", "rag"]
+  -
+    id: "civic-754"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software"]
+    register: "civic"
+    english: "Help desk civic protects people."
+    ethra: "Haladap-da xap lem."
+    literal: "Help desk civic protects people."
+    notes: "Civic grounding for help desk, support point, help desk, support point where users ask for repair, explanation, or access assistance."
+    terms: ["haladap-da", "xap", "lem"]
+  -
+    id: "civic-755"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software"]
+    register: "civic"
+    english: "Ticket civic carries duty."
+    ethra: "Tacakat-da taw dev."
+    literal: "Ticket civic carries duty."
+    notes: "Civic grounding for ticket, tracked work unit, ticket, tracked unit of work, incident, request, defect, or obligation."
+    terms: ["tacakat-da", "taw", "dev"]
+  -
+    id: "civic-756"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "Service civic protects people."
+    ethra: "Saravac-da xap lem."
+    literal: "Service civic protects people."
+    notes: "Civic grounding for service, rendered useful work, service, useful work rendered for another under duty, exchange, office, or care."
+    terms: ["saravac-da", "xap", "lem"]
+  -
+    id: "civic-757"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic"
+    english: "Registration civic carries memory."
+    ethra: "Ragatar-da taw mer."
+    literal: "Registration civic carries memory."
+    notes: "Civic grounding for registration, official enrollment, registration, official enrollment of a person, object, event, credential, or claim."
+    terms: ["ragatar-da", "taw", "mer"]
+  -
+    id: "civic-758"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "Signature civic binds truth."
+    ethra: "Saganat-da dav rih."
+    literal: "Signature civic binds truth."
+    notes: "Civic grounding for signature, personal assent mark, signature, personal mark of assent, authorship, witness, or accountability."
+    terms: ["saganat-da", "dav", "rih"]
+  -
+    id: "civic-759"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic"
+    english: "Stamp civic reveals rule."
+    ethra: "Satamap-da rah rag."
+    literal: "Stamp civic reveals rule."
+    notes: "Civic grounding for stamp, official seal mark, stamp, seal, official mark of receipt, approval, certification, or passage."
+    terms: ["satamap-da", "rah", "rag"]
+  -
+    id: "civic-760"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software"]
+    register: "civic"
+    english: "Template civic guides form."
+    ethra: "Tamapal-da pat feremel."
+    literal: "Template civic guides form."
+    notes: "Civic grounding for template, reusable structure, template, reusable structure that guides repeated creation without hiding judgment."
+    terms: ["tamapal-da", "pat", "feremel"]
+  -
+    id: "civic-761"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "Attachment civic carries evidence."
+    ethra: "Facaham-da taw xeg."
+    literal: "Attachment civic carries evidence."
+    notes: "Civic grounding for attachment, appended support, attachment, added file, appended evidence, or bound supporting material."
+    terms: ["facaham-da", "taw", "xeg"]
+  -
+    id: "civic-762"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "Acknowledgment civic protects truth."
+    ethra: "Yacakan-da xap rih."
+    literal: "Acknowledgment civic protects truth."
+    notes: "Civic grounding for acknowledgment, recognized receipt, acknowledgment, receipt recognized, truth admitted, or contribution named."
+    terms: ["yacakan-da", "xap", "rih"]
+  -
+    id: "civic-763"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "Purchase civic binds record."
+    ethra: "Paracah-da dav ket."
+    literal: "Purchase civic binds record."
+    notes: "Civic grounding for purchase, accountable acquisition, purchase, acquired good or service through payment, exchange, or authorized procurement."
+    terms: ["paracah-da", "dav", "ket"]
+  -
+    id: "civic-764"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "Order civic guides service."
+    ethra: "Rakasat-da pat serevec."
+    literal: "Order civic guides service."
+    notes: "Civic grounding for order, requested fulfillment, order, requested goods, services, sequence, or command awaiting fulfillment."
+    terms: ["rakasat-da", "pat", "serevec"]
+  -
+    id: "civic-765"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "Inventory civic protects benefit."
+    ethra: "Ianavat-da xap benefet."
+    literal: "Inventory civic protects benefit."
+    notes: "Civic grounding for inventory, counted stock, inventory, counted stock, available goods, or maintained supply memory."
+    terms: ["ianavat-da", "xap", "benefet"]
+  -
+    id: "civic-766"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "Checkout civic binds payment."
+    ethra: "Cahakat-da dav peyem."
+    literal: "Checkout civic binds payment."
+    notes: "Civic grounding for checkout, final exchange point, checkout, final exchange point where selection becomes payment, receipt, and release."
+    terms: ["cahakat-da", "dav", "peyem"]
+  -
+    id: "civic-767"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "Shipment civic carries order."
+    ethra: "Sahapam-da taw rekeset."
+    literal: "Shipment civic carries order."
+    notes: "Civic grounding for shipment, goods in custody transit, shipment, packaged goods moving under custody, route, carrier, and delivery promise."
+    terms: ["sahapam-da", "taw", "rekeset"]
+  -
+    id: "civic-768"
+    track: "civic-law"
+    domain_tags: ["law-governance", "technology-software"]
+    register: "civic"
+    english: "Tracking civic reveals path."
+    ethra: "Tarakag-da rah pat."
+    literal: "Tracking civic reveals path."
+    notes: "Civic grounding for tracking, visible progress trace, tracking, observed progress of a package, task, case, signal, or obligation over time."
+    terms: ["tarakag-da", "rah", "pat"]
+  -
+    id: "ritual-751"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Form solemn protects truth."
+    ethra: "Ha-furumul xap rih."
+    literal: "Form solemn protects truth."
+    notes: "Ritual grounding for form, structured field record, form, structured fields, official container for a request, record, or declaration."
+    terms: ["ha-furumul", "xap", "rih"]
+  -
+    id: "ritual-752"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Application solemn carries evidence."
+    ethra: "Ha-pupulun taw xeg."
+    literal: "Application solemn carries evidence."
+    notes: "Ritual grounding for application, submitted request, application, submitted request for standing, service, permit, or admission."
+    terms: ["ha-pupulun", "taw", "xeg"]
+  -
+    id: "ritual-753"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Intake solemn names duty."
+    ethra: "Ha-nutukux nam dev."
+    literal: "Intake solemn names duty."
+    notes: "Ritual grounding for intake, opening receipt, intake, first receiving record that opens a case, request, visit, or duty path."
+    terms: ["ha-nutukux", "nam", "dev"]
+  -
+    id: "ritual-754"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Eligibility solemn guides justice."
+    ethra: "Ha-yulugub pat sak."
+    literal: "Eligibility solemn guides justice."
+    notes: "Ritual grounding for eligibility, qualified standing, eligibility, qualified standing to receive a service, benefit, role, or protection."
+    terms: ["ha-yulugub", "pat", "sak"]
+  -
+    id: "ritual-755"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Waitlist solemn carries memory."
+    ethra: "Ha-wutulut taw mer."
+    literal: "Waitlist solemn carries memory."
+    notes: "Ritual grounding for waitlist, ordered pending claim, waitlist, ordered queue of unmet but recognized claims for service or placement."
+    terms: ["ha-wutulut", "taw", "mer"]
+  -
+    id: "ritual-756"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Casework solemn protects people."
+    ethra: "Ha-cusuwuk xap lem."
+    literal: "Casework solemn protects people."
+    notes: "Ritual grounding for casework, coordinated public care, casework, coordinated public care across documents, persons, offices, and follow-up duties."
+    terms: ["ha-cusuwuk", "xap", "lem"]
+  -
+    id: "ritual-757"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn"
+    english: "Benefit solemn carries care."
+    ethra: "Ha-bunufut taw hal."
+    literal: "Benefit solemn carries care."
+    notes: "Ritual grounding for benefit, owed provision, benefit, public or institutional provision owed by rule, need, service, or earned standing."
+    terms: ["ha-bunufut", "taw", "hal"]
+  -
+    id: "ritual-758"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication"]
+    register: "solemn"
+    english: "Submission solemn carries evidence."
+    ethra: "Ha-subumut taw xeg."
+    literal: "Submission solemn carries evidence."
+    notes: "Ritual grounding for submission, handed-in material, submission, handed-in work, filed material, or sent evidence awaiting review."
+    terms: ["ha-subumut", "taw", "xeg"]
+  -
+    id: "ritual-759"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Approval solemn binds duty."
+    ethra: "Ha-puruvux dav dev."
+    literal: "Approval solemn binds duty."
+    notes: "Ritual grounding for approval, reviewed authorization, approval, accepted authorization after review, consent, or standard check."
+    terms: ["ha-puruvux", "dav", "dev"]
+  -
+    id: "ritual-760"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "technology-software"]
+    register: "solemn"
+    english: "Help desk solemn repairs harm."
+    ethra: "Ha-huludup tar pan."
+    literal: "Help desk solemn repairs harm."
+    notes: "Ritual grounding for help desk, support point, help desk, support point where users ask for repair, explanation, or access assistance."
+    terms: ["ha-huludup", "tar", "pan"]
+  -
+    id: "ritual-761"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "technology-software"]
+    register: "solemn"
+    english: "Ticket solemn carries duty."
+    ethra: "Ha-tucukut taw dev."
+    literal: "Ticket solemn carries duty."
+    notes: "Ritual grounding for ticket, tracked work unit, ticket, tracked unit of work, incident, request, defect, or obligation."
+    terms: ["ha-tucukut", "taw", "dev"]
+  -
+    id: "ritual-762"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "economics-provision"]
+    register: "solemn"
+    english: "Service solemn protects people."
+    ethra: "Ha-suruvuc xap lem."
+    literal: "Service solemn protects people."
+    notes: "Ritual grounding for service, rendered useful work, service, useful work rendered for another under duty, exchange, office, or care."
+    terms: ["ha-suruvuc", "xap", "lem"]
+  -
+    id: "ritual-763"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Registration solemn carries memory."
+    ethra: "Ha-rugutur taw mer."
+    literal: "Registration solemn carries memory."
+    notes: "Ritual grounding for registration, official enrollment, registration, official enrollment of a person, object, event, credential, or claim."
+    terms: ["ha-rugutur", "taw", "mer"]
+  -
+    id: "ritual-764"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication"]
+    register: "solemn"
+    english: "Signature solemn binds truth."
+    ethra: "Ha-sugunut dav rih."
+    literal: "Signature solemn binds truth."
+    notes: "Ritual grounding for signature, personal assent mark, signature, personal mark of assent, authorship, witness, or accountability."
+    terms: ["ha-sugunut", "dav", "rih"]
+  -
+    id: "ritual-765"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "solemn"
+    english: "Stamp solemn reveals rule."
+    ethra: "Ha-sutumup rah rag."
+    literal: "Stamp solemn reveals rule."
+    notes: "Ritual grounding for stamp, official seal mark, stamp, seal, official mark of receipt, approval, certification, or passage."
+    terms: ["ha-sutumup", "rah", "rag"]
+  -
+    id: "ritual-766"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "technology-software"]
+    register: "solemn"
+    english: "Template solemn guides form."
+    ethra: "Ha-tumupul pat feremel."
+    literal: "Template solemn guides form."
+    notes: "Ritual grounding for template, reusable structure, template, reusable structure that guides repeated creation without hiding judgment."
+    terms: ["ha-tumupul", "pat", "feremel"]
+  -
+    id: "ritual-767"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication"]
+    register: "solemn"
+    english: "Attachment solemn carries evidence."
+    ethra: "Ha-fucuhum taw xeg."
+    literal: "Attachment solemn carries evidence."
+    notes: "Ritual grounding for attachment, appended support, attachment, added file, appended evidence, or bound supporting material."
+    terms: ["ha-fucuhum", "taw", "xeg"]
+  -
+    id: "ritual-768"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication"]
+    register: "solemn"
+    english: "Acknowledgment solemn reveals truth."
+    ethra: "Ha-yucukun rah rih."
+    literal: "Acknowledgment solemn reveals truth."
+    notes: "Ritual grounding for acknowledgment, recognized receipt, acknowledgment, receipt recognized, truth admitted, or contribution named."
+    terms: ["ha-yucukun", "rah", "rih"]
+  -
+    id: "tech-1001"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Fulfillment log protects order."
+    ethra: "Falafam-ket xap rekeset."
+    literal: "Fulfillment log protects order."
+    notes: "Technical grounding for fulfillment, completed provision, fulfillment, completed provision that satisfies an order, promise, or service duty."
+    terms: ["falafam-ket", "xap", "rekeset"]
+  -
+    id: "tech-1002"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Quote log carries payment."
+    ethra: "Kawatax-ket taw peyem."
+    literal: "Quote log carries payment."
+    notes: "Technical grounding for quote, offered price statement, quote, offered price, estimate, or bounded statement before agreement."
+    terms: ["kawatax-ket", "taw", "peyem"]
+  -
+    id: "tech-1003"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Billing log reveals payment."
+    ethra: "Balalag-ket rah peyem."
+    literal: "Billing log reveals payment."
+    notes: "Technical grounding for billing, charge statement, billing, charge statement, account presented for payment or correction."
+    terms: ["balalag-ket", "rah", "peyem"]
+  -
+    id: "tech-1004"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Payment log carries record."
+    ethra: "Payam-ket taw ket."
+    literal: "Payment log carries record."
+    notes: "Technical grounding for payment, transferred settlement, payment, transferred value that settles charge, debt, order, or obligation."
+    terms: ["payam-ket", "taw", "ket"]
+  -
+    id: "tech-1005"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Chargeback log reveals risk."
+    ethra: "Cahabak-ket rah kav."
+    literal: "Chargeback log reveals risk."
+    notes: "Technical grounding for chargeback, disputed payment reversal, chargeback, reversed payment disputed through card, bank, marketplace, or trust process."
+    terms: ["cahabak-ket", "rah", "kav"]
+  -
+    id: "tech-1006"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical-record"
+    english: "Cancellation log binds rule."
+    ethra: "Canaxal-ket dav rag."
+    literal: "Cancellation log binds rule."
+    notes: "Technical grounding for cancellation, voided pending duty, cancellation, ended booking, order, contract, subscription, or scheduled duty."
+    terms: ["canaxal-ket", "dav", "rag"]
+  -
+    id: "tech-1007"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical-record"
+    english: "Confirmation log reveals truth."
+    ethra: "Canafam-ket rah rih."
+    literal: "Confirmation log reveals truth."
+    notes: "Technical grounding for confirmation, verified yes, confirmation, verified yes, checked receipt, or settled status after uncertainty."
+    terms: ["canafam-ket", "rah", "rih"]
+  -
+    id: "tech-1008"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical-record"
+    english: "Portal log protects data."
+    ethra: "Paratal-ket xap den."
+    literal: "Portal log protects data."
+    notes: "Technical grounding for portal, service doorway, portal, service doorway, authenticated access point for care, accounts, records, or requests."
+    terms: ["paratal-ket", "xap", "den"]
+  -
+    id: "tech-1009"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical-record"
+    english: "Refill log guides care."
+    ethra: "Rafalad-ket pat hal."
+    literal: "Refill log guides care."
+    notes: "Technical grounding for refill, renewed supply, refill, renewed medicine supply, repeated provision, or authorized continuation."
+    terms: ["rafalad-ket", "pat", "hal"]
+  -
+    id: "tech-1010"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical-record"
+    english: "Discharge log carries care."
+    ethra: "Dasacah-ket taw hal."
+    literal: "Discharge log carries care."
+    notes: "Technical grounding for discharge, reviewed release, discharge, release from care, custody, charge, or contained responsibility after review."
+    terms: ["dasacah-ket", "taw", "hal"]
+  -
+    id: "tech-1011"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical-record"
+    english: "Copay log carries payment."
+    ethra: "Kapayax-ket taw peyem."
+    literal: "Copay log carries payment."
+    notes: "Technical grounding for copay, shared care payment, copay, shared patient payment, small assigned portion of treatment cost."
+    terms: ["kapayax-ket", "taw", "peyem"]
+  -
+    id: "tech-1012"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical-record"
+    english: "Claim log binds justice."
+    ethra: "Calamax-ket dav sak."
+    literal: "Claim log binds justice."
+    notes: "Technical grounding for claim, asserted demand, claim, asserted right, benefit request, insurance matter, or accountable demand."
+    terms: ["calamax-ket", "dav", "sak"]
+  -
+    id: "tech-1013"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical-record"
+    english: "Hospice log protects care."
+    ethra: "Hasapac-ket xap hal."
+    literal: "Hospice log protects care."
+    notes: "Technical grounding for hospice, end-of-life care, hospice, end-of-life care, comfort stewardship when cure is no longer the task."
+    terms: ["hasapac-ket", "xap", "hal"]
+  -
+    id: "tech-1014"
+    track: "technical-software"
+    domain_tags: ["technology-software", "body-health"]
+    register: "technical-record"
+    english: "Follow-up log guides care."
+    ethra: "Falauap-ket pat hal."
+    literal: "Follow-up log guides care."
+    notes: "Technical grounding for follow-up, later check, follow-up, later check that keeps care, casework, or promise from ending too soon."
+    terms: ["falauap-ket", "pat", "hal"]
+  -
+    id: "tech-1015"
+    track: "technical-software"
+    domain_tags: ["technology-software", "law-governance"]
+    register: "technical-record"
+    english: "Visit log carries record."
+    ethra: "Vasatan-ket taw ket."
+    literal: "Visit log carries record."
+    notes: "Technical grounding for visit, scheduled encounter, visit, scheduled encounter for care, service, inspection, teaching, or witness."
+    terms: ["vasatan-ket", "taw", "ket"]
+  -
+    id: "tech-1016"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical-record"
+    english: "Consultation log guides duty."
+    ethra: "Canasal-ket pat dev."
+    literal: "Consultation log guides duty."
+    notes: "Technical grounding for consultation, counsel encounter, consultation, expert counsel encounter, advice-giving meeting before decision or care."
+    terms: ["canasal-ket", "pat", "dev"]
+  -
+    id: "tech-1017"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical-record"
+    english: "Backlog log carries duty."
+    ethra: "Bakalag-ket taw dev."
+    literal: "Backlog log carries duty."
+    notes: "Technical grounding for backlog, ordered pending work, backlog, ordered uncompleted work held for prioritization, planning, and accountability."
+    terms: ["bakalag-ket", "taw", "dev"]
+  -
+    id: "tech-1018"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical-record"
+    english: "Sprint log guides duty."
+    ethra: "Sapanat-ket pat dev."
+    literal: "Sprint log guides duty."
+    notes: "Technical grounding for sprint, bounded work interval, sprint, bounded work interval with declared scope, review, and delivery rhythm."
+    terms: ["sapanat-ket", "pat", "dev"]
+  -
+    id: "tech-1019"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical-record"
+    english: "Runbook log teaches people."
+    ethra: "Ranabak-ket dak lem."
+    literal: "Runbook log teaches people."
+    notes: "Technical grounding for runbook, operational instruction record, runbook, operational instruction record for repeated repair, response, or maintenance."
+    terms: ["ranabak-ket", "dak", "lem"]
+  -
+    id: "tech-1020"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical-record"
+    english: "On-call duty log protects service."
+    ethra: "Nacalad-ket xap serevec."
+    literal: "On-call duty log protects service."
+    notes: "Technical grounding for on-call duty, rotating readiness, on-call duty, rotating readiness to answer urgent system, service, or public failure."
+    terms: ["nacalad-ket", "xap", "serevec"]
+  -
+    id: "tech-1021"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical-record"
+    english: "Service-level agreement log binds service."
+    ethra: "Salagan-ket dav serevec."
+    literal: "Service-level agreement log binds service."
+    notes: "Technical grounding for service-level agreement, measured service promise, service-level agreement, declared promise for availability, response, quality, or remedy."
+    terms: ["salagan-ket", "dav", "serevec"]
+  -
+    id: "tech-1022"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical-record"
+    english: "Uptime log reveals service."
+    ethra: "Patamax-ket rah serevec."
+    literal: "Uptime log reveals service."
+    notes: "Technical grounding for uptime, functioning availability, uptime, service availability, measured period of functioning access."
+    terms: ["patamax-ket", "rah", "serevec"]
+  -
+    id: "tech-1023"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical-record"
+    english: "Downtime log reveals risk."
+    ethra: "Dawatam-ket rah kav."
+    literal: "Downtime log reveals risk."
+    notes: "Technical grounding for downtime, unavailable service period, downtime, unavailable service period, interruption that users and duties must answer."
+    terms: ["dawatam-ket", "rah", "kav"]
+  -
+    id: "tech-1024"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical-record"
+    english: "Deployment log carries data."
+    ethra: "Dapalay-ket taw den."
+    literal: "Deployment log carries data."
+    notes: "Technical grounding for deployment, released system change, deployment, released system change entering an environment, users, or public duty."
+    terms: ["dapalay-ket", "taw", "den"]
+  -
+    id: "poetic-1001"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Billing intimate reveals duty."
+    ethra: "Mi-balalag rah dev."
+    literal: "Billing intimate reveals duty."
+    notes: "Poetic grounding for billing, charge statement, billing, charge statement, account presented for payment or correction."
+    terms: ["mi-balalag", "rah", "dev"]
+  -
+    id: "poetic-1002"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Payment intimate carries duty."
+    ethra: "Mi-payam taw dev."
+    literal: "Payment intimate carries duty."
+    notes: "Poetic grounding for payment, transferred settlement, payment, transferred value that settles charge, debt, order, or obligation."
+    terms: ["mi-payam", "taw", "dev"]
+  -
+    id: "poetic-1003"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Chargeback intimate reveals risk."
+    ethra: "Mi-cahabak rah kav."
+    literal: "Chargeback intimate reveals risk."
+    notes: "Poetic grounding for chargeback, disputed payment reversal, chargeback, reversed payment disputed through card, bank, marketplace, or trust process."
+    terms: ["mi-cahabak", "rah", "kav"]
+  -
+    id: "poetic-1004"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "Cancellation intimate breaks path."
+    ethra: "Mi-canaxal mak pat."
+    literal: "Cancellation intimate breaks path."
+    notes: "Poetic grounding for cancellation, voided pending duty, cancellation, ended booking, order, contract, subscription, or scheduled duty."
+    terms: ["mi-canaxal", "mak", "pat"]
+  -
+    id: "poetic-1005"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication"]
+    register: "poetic"
+    english: "Confirmation intimate protects truth."
+    ethra: "Mi-canafam xap rih."
+    literal: "Confirmation intimate protects truth."
+    notes: "Poetic grounding for confirmation, verified yes, confirmation, verified yes, checked receipt, or settled status after uncertainty."
+    terms: ["mi-canafam", "xap", "rih"]
+  -
+    id: "poetic-1006"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Portal intimate guides memory."
+    ethra: "Mi-paratal pat mer."
+    literal: "Portal intimate guides memory."
+    notes: "Poetic grounding for portal, service doorway, portal, service doorway, authenticated access point for care, accounts, records, or requests."
+    terms: ["mi-paratal", "pat", "mer"]
+  -
+    id: "poetic-1007"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Refill intimate carries care."
+    ethra: "Mi-rafalad taw hal."
+    literal: "Refill intimate carries care."
+    notes: "Poetic grounding for refill, renewed supply, refill, renewed medicine supply, repeated provision, or authorized continuation."
+    terms: ["mi-rafalad", "taw", "hal"]
+  -
+    id: "poetic-1008"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Discharge intimate protects care."
+    ethra: "Mi-dasacah xap hal."
+    literal: "Discharge intimate protects care."
+    notes: "Poetic grounding for discharge, reviewed release, discharge, release from care, custody, charge, or contained responsibility after review."
+    terms: ["mi-dasacah", "xap", "hal"]
+  -
+    id: "poetic-1009"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "economics-provision"]
+    register: "poetic"
+    english: "Copay intimate binds care."
+    ethra: "Mi-kapayax dav hal."
+    literal: "Copay intimate binds care."
+    notes: "Poetic grounding for copay, shared care payment, copay, shared patient payment, small assigned portion of treatment cost."
+    terms: ["mi-kapayax", "dav", "hal"]
+  -
+    id: "poetic-1010"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "Claim intimate reveals justice."
+    ethra: "Mi-calamax rah sak."
+    literal: "Claim intimate reveals justice."
+    notes: "Poetic grounding for claim, asserted demand, claim, asserted right, benefit request, insurance matter, or accountable demand."
+    terms: ["mi-calamax", "rah", "sak"]
+  -
+    id: "poetic-1011"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Hospice intimate protects inner life."
+    ethra: "Mi-hasapac xap leb."
+    literal: "Hospice intimate protects inner life."
+    notes: "Poetic grounding for hospice, end-of-life care, hospice, end-of-life care, comfort stewardship when cure is no longer the task."
+    terms: ["mi-hasapac", "xap", "leb"]
+  -
+    id: "poetic-1012"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "body-health"]
+    register: "poetic"
+    english: "Follow-up intimate guides care."
+    ethra: "Mi-falauap pat hal."
+    literal: "Follow-up intimate guides care."
+    notes: "Poetic grounding for follow-up, later check, follow-up, later check that keeps care, casework, or promise from ending too soon."
+    terms: ["mi-falauap", "pat", "hal"]
+  -
+    id: "poetic-1013"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "law-governance"]
+    register: "poetic"
+    english: "Visit intimate reveals inner life."
+    ethra: "Mi-vasatan rah leb."
+    literal: "Visit intimate reveals inner life."
+    notes: "Poetic grounding for visit, scheduled encounter, visit, scheduled encounter for care, service, inspection, teaching, or witness."
+    terms: ["mi-vasatan", "rah", "leb"]
+  -
+    id: "poetic-1014"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication"]
+    register: "poetic"
+    english: "Consultation intimate carries meaning."
+    ethra: "Mi-canasal taw nem."
+    literal: "Consultation intimate carries meaning."
+    notes: "Poetic grounding for consultation, counsel encounter, consultation, expert counsel encounter, advice-giving meeting before decision or care."
+    terms: ["mi-canasal", "taw", "nem"]
+  -
+    id: "poetic-1015"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Backlog intimate carries duty."
+    ethra: "Mi-bakalag taw dev."
+    literal: "Backlog intimate carries duty."
+    notes: "Poetic grounding for backlog, ordered pending work, backlog, ordered uncompleted work held for prioritization, planning, and accountability."
+    terms: ["mi-bakalag", "taw", "dev"]
+  -
+    id: "poetic-1016"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Sprint intimate guides future."
+    ethra: "Mi-sapanat pat fer."
+    literal: "Sprint intimate guides future."
+    notes: "Poetic grounding for sprint, bounded work interval, sprint, bounded work interval with declared scope, review, and delivery rhythm."
+    terms: ["mi-sapanat", "pat", "fer"]
+  -
+    id: "poetic-1017"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Runbook intimate teaches care."
+    ethra: "Mi-ranabak dak hal."
+    literal: "Runbook intimate teaches care."
+    notes: "Poetic grounding for runbook, operational instruction record, runbook, operational instruction record for repeated repair, response, or maintenance."
+    terms: ["mi-ranabak", "dak", "hal"]
+  -
+    id: "poetic-1018"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "On-call duty intimate protects service."
+    ethra: "Mi-nacalad xap serevec."
+    literal: "On-call duty intimate protects service."
+    notes: "Poetic grounding for on-call duty, rotating readiness, on-call duty, rotating readiness to answer urgent system, service, or public failure."
+    terms: ["mi-nacalad", "xap", "serevec"]
+  -
+    id: "poetic-1019"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Service-level agreement intimate binds truth."
+    ethra: "Mi-salagan dav rih."
+    literal: "Service-level agreement intimate binds truth."
+    notes: "Poetic grounding for service-level agreement, measured service promise, service-level agreement, declared promise for availability, response, quality, or remedy."
+    terms: ["mi-salagan", "dav", "rih"]
+  -
+    id: "poetic-1020"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Uptime intimate reveals truth."
+    ethra: "Mi-patamax rah rih."
+    literal: "Uptime intimate reveals truth."
+    notes: "Poetic grounding for uptime, functioning availability, uptime, service availability, measured period of functioning access."
+    terms: ["mi-patamax", "rah", "rih"]
+  -
+    id: "poetic-1021"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Downtime intimate reveals risk."
+    ethra: "Mi-dawatam rah kav."
+    literal: "Downtime intimate reveals risk."
+    notes: "Poetic grounding for downtime, unavailable service period, downtime, unavailable service period, interruption that users and duties must answer."
+    terms: ["mi-dawatam", "rah", "kav"]
+  -
+    id: "poetic-1022"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Deployment intimate carries future."
+    ethra: "Mi-dapalay taw fer."
+    literal: "Deployment intimate carries future."
+    notes: "Poetic grounding for deployment, released system change, deployment, released system change entering an environment, users, or public duty."
+    terms: ["mi-dapalay", "taw", "fer"]
+  -
+    id: "poetic-1023"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Environment intimate protects data."
+    ethra: "Mi-navarat xap den."
+    literal: "Environment intimate protects data."
+    notes: "Poetic grounding for environment, configured runtime place, environment, configured runtime place where code, service, data, or testing lives."
+    terms: ["mi-navarat", "xap", "den"]
+  -
+    id: "poetic-1024"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "technology-software"]
+    register: "poetic"
+    english: "Backfill intimate repairs memory."
+    ethra: "Mi-bakafal tar mer."
+    literal: "Backfill intimate repairs memory."
+    notes: "Poetic grounding for backfill, later gap filling, backfill, later filling of missing data, work, coverage, or historical record."
+    terms: ["mi-bakafal", "tar", "mer"]
+  -
+    id: "learner-501"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "Form protects record."
+    ethra: "Feremel xap ket."
+    literal: "Form protects record."
+    notes: "A1 grounding for form, structured field record, form, structured fields, official container for a request, record, or declaration."
+    terms: ["feremel", "xap", "ket"]
+  -
+    id: "learner-502"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "Application carries evidence."
+    ethra: "Pepelen taw xeg."
+    literal: "Application carries evidence."
+    notes: "A1 grounding for application, submitted request, application, submitted request for standing, service, permit, or admission."
+    terms: ["pepelen", "taw", "xeg"]
+  -
+    id: "learner-503"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "Eligibility guides service."
+    ethra: "Yelegeb pat serevec."
+    literal: "Eligibility guides service."
+    notes: "A1 grounding for eligibility, qualified standing, eligibility, qualified standing to receive a service, benefit, role, or protection."
+    terms: ["yelegeb", "pat", "serevec"]
+  -
+    id: "learner-504"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "Benefit carries care."
+    ethra: "Benefet taw hal."
+    literal: "Benefit carries care."
+    notes: "A1 grounding for benefit, owed provision, benefit, public or institutional provision owed by rule, need, service, or earned standing."
+    terms: ["benefet", "taw", "hal"]
+  -
+    id: "learner-505"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "learner-a1"
+    english: "Ticket carries duty."
+    ethra: "Teceket taw dev."
+    literal: "Ticket carries duty."
+    notes: "A1 grounding for ticket, tracked work unit, ticket, tracked unit of work, incident, request, defect, or obligation."
+    terms: ["teceket", "taw", "dev"]
+  -
+    id: "learner-506"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "Purchase carries record."
+    ethra: "Pereceh taw ket."
+    literal: "Purchase carries record."
+    notes: "A1 grounding for purchase, accountable acquisition, purchase, acquired good or service through payment, exchange, or authorized procurement."
+    terms: ["pereceh", "taw", "ket"]
+  -
+    id: "learner-507"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "Payment binds duty."
+    ethra: "Peyem dav dev."
+    literal: "Payment binds duty."
+    notes: "A1 grounding for payment, transferred settlement, payment, transferred value that settles charge, debt, order, or obligation."
+    terms: ["peyem", "dav", "dev"]
+  -
+    id: "learner-508"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "learner-a1"
+    english: "Portal protects data."
+    ethra: "Peretel xap den."
+    literal: "Portal protects data."
+    notes: "A1 grounding for portal, service doorway, portal, service doorway, authenticated access point for care, accounts, records, or requests."
+    terms: ["peretel", "xap", "den"]
+  -
+    id: "learner-509"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "body-health"]
+    register: "learner-a1"
+    english: "Refill guides care."
+    ethra: "Refeled pat hal."
+    literal: "Refill guides care."
+    notes: "A1 grounding for refill, renewed supply, refill, renewed medicine supply, repeated provision, or authorized continuation."
+    terms: ["refeled", "pat", "hal"]
+  -
+    id: "learner-510"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "learner-a1"
+    english: "Claim binds justice."
+    ethra: "Celemex dav sak."
+    literal: "Claim binds justice."
+    notes: "A1 grounding for claim, asserted demand, claim, asserted right, benefit request, insurance matter, or accountable demand."
+    terms: ["celemex", "dav", "sak"]
+  -
+    id: "learner-511"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "learner-a1"
+    english: "Runbook teaches people."
+    ethra: "Renebek dak lem."
+    literal: "Runbook teaches people."
+    notes: "A1 grounding for runbook, operational instruction record, runbook, operational instruction record for repeated repair, response, or maintenance."
+    terms: ["renebek", "dak", "lem"]
+  -
+    id: "learner-512"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "technology-software"]
+    register: "learner-a1"
+    english: "Backfill repairs memory."
+    ethra: "Bekefel tar mer."
+    literal: "Backfill repairs memory."
+    notes: "A1 grounding for backfill, later gap filling, backfill, later filling of missing data, work, coverage, or historical record."
+    terms: ["bekefel", "tar", "mer"]

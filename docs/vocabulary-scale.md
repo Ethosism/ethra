@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 46,057 explicit lexicon entries, 46,212 dictionary entries, 2,300 root families, and 5,000 reviewed corpus items after the v0.10.6 public-service operations root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 46,057 explicit lexicon entries, 46,212 dictionary entries, 2,300 root families, and 5,120 reviewed corpus items after the v0.10.7 public-service operations corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
@@ -8,7 +8,7 @@ Current progress toward the v1.0 stable-civil-language target:
 entries 46,057 / 25,000
 dictionary 46,212 entries with corpus evidence fields
 roots     2,300 / 2,500
-corpus    5,000 / 10,000 reviewed items
+corpus    5,120 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -195,7 +195,9 @@ The v0.10.5 consciousness, assurance, and conflict-repair corpus grounding batch
 
 The v0.10.6 public-service operations root batch adds 50 roots and 1,000 derived lexicon entries for ordinary institutional life: forms, applications, intake, eligibility, waitlists, casework, benefits, submissions, approvals, help desks, tickets, services, registrations, signatures, stamps, templates, file attachments, acknowledgments, purchases, orders, inventory, checkout, shipments, tracking, fulfillment, quotes, billing, payments, chargebacks, cancellations, confirmations, service portals, refills, discharge, copays, claims, hospice, follow-up, visits, consultations, backlogs, sprints, runbooks, on-call duty, service-level agreements, uptime, downtime, deployments, runtime environments, and backfills.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 200 more root families and 5,000 more reviewed corpus items still needed.
+The v0.10.7 public-service operations corpus grounding batch adds 120 reviewed examples across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds forms, applications, intake, eligibility, waitlists, casework, benefits, submissions, approvals, help desks, tickets, services, registrations, signatures, stamps, templates, file attachments, acknowledgments, purchases, orders, inventory, checkout, shipments, tracking, fulfillment, quotes, billing, payments, chargebacks, cancellations, confirmations, service portals, refills, discharge, copays, claims, hospice, follow-up, visits, consultations, backlogs, sprints, runbooks, on-call duty, service-level agreements, uptime, downtime, deployments, runtime environments, and backfills in ordinary, civic, ritual, technical, poetic, and learner use.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 200 more root families and 4,880 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
