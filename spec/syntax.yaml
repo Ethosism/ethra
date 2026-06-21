@@ -1,0 +1,35 @@
+version: "0.5.6"
+purpose: "Machine-readable syntax guidance for the first Ethra sentence parser."
+principle: "Ethra syntax should keep agency visible: stable analytic order, clear particle chains, explicit register markers, relational address when needed, and scope markers for consequence."
+clause_patterns:
+  canonical_svo:
+    order: ["register", "subject", "particle_chain", "predicate", "object", "scope", "complement"]
+    example: "Na dov tar mo mik."
+    meaning: "I vow to repair what was broken."
+  copular:
+    order: ["register", "subject", "particle_chain", "e", "complement"]
+    example: "Mav e reh."
+    meaning: "Love is recognition."
+  imperative:
+    order: ["register", "ke", "address", "predicate", "object", "scope"]
+    example: "Ke rah na."
+    meaning: "See me."
+  question:
+    order: ["ya", "subject", "particle_chain", "predicate", "object"]
+    example: "Ya ta mar?"
+    meaning: "Do you remember?"
+particle_chain:
+  pre_predicate_types: ["tense", "aspect", "mood", "moral agency", "polarity", "intensity"]
+  register_types: ["register"]
+  scope_types: ["scope"]
+  complement_prepositions: ["bi", "ko", "ad", "en"]
+parser_limits:
+  - "The v0.5.6 parser identifies a primary clause, not full recursion."
+  - "Possessive subjects of the form X en Y are grouped."
+  - "Relative objects with mo are treated as object phrases."
+  - "Transparent compounds are recognized when every segment is accepted."
+  - "Style judgment remains in style-check; parse-sentence reports structure."
+cultural_notes:
+  - "Stable order lowers cognitive noise so moral agency can carry the complexity."
+  - "Particles are not filler; they are the visible grammar of time, duty, permission, vow, negation, and scope."
+  - "A parser should help corpus governance notice when public, intimate, ritual, or technical language has lost its markers."

@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 21,057 explicit lexicon entries, 1,050 root families, and 2,120 reviewed corpus items after the v0.5.5 style-checker tooling batch. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
+Ethra currently has 21,057 explicit lexicon entries, 1,050 root families, and 2,120 reviewed corpus items after the v0.5.6 sentence-parser tooling batch. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
 
 Current progress toward the v1.0 stable-civil-language target:
 
@@ -91,6 +91,8 @@ The v0.5.3 tooling batch adds `search-corpus`, the first v1.0 corpus search comm
 The v0.5.4 tooling batch adds `propose-term`, a governed candidate packet generator for roots and compounds. It checks phonology, existing components, obvious collisions, related roots, derived previews, review requirements, and example coverage before any proposed term is treated as accepted.
 
 The v0.5.5 tooling batch adds `style-check`, the first sentence-level style checker. It checks phonology, known forms, transparent compounds, requested register markers, moral-agency particles, action scope, vow witness scope, and implicit address stance using `spec/style.yaml`.
+
+The v0.5.6 tooling batch adds `parse-sentence`, the first conservative sentence parser. It identifies clause pattern, subject, sentence mood, register markers, particle chain, predicate, object, complements, scopes, token classes, and parser confidence using `spec/syntax.yaml`.
 
 The next numeric gaps are v1.0 gaps: 3,943 more explicit entries, 1,450 more root families, and 7,880 more reviewed corpus items.
 

@@ -2,6 +2,7 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 
 const { analyzeWord } = require("../dist/analyzers/analyze.js");
+const { parseSentence } = require("../dist/analyzers/sentence.js");
 const { styleCheck } = require("../dist/analyzers/style.js");
 const { findExample } = require("../dist/core/examples.js");
 const { flattenLexicon } = require("../dist/core/spec.js");
@@ -221,6 +222,46 @@ test("analyzes known words", () => {
   const instrument = analyzeWord("rah-tel");
   assert.equal(instrument.validPhonology, true);
   assert.ok(instrument.matches.some((match) => match.pattern === "instrument"));
+});
+
+test("parses Ethra sentence clause slots", () => {
+  const civicChoice = parseSentence("Pu na vel dev se so-lem.");
+  assert.equal(civicChoice.valid, true);
+  assert.equal(civicChoice.clause.pattern, "canonical-svo");
+  assert.equal(civicChoice.clause.register_markers[0].text, "pu");
+  assert.equal(civicChoice.clause.subject.text, "na");
+  assert.deepEqual(civicChoice.clause.particle_chain.map((item) => item.text), ["vel"]);
+  assert.equal(civicChoice.clause.predicate.text, "dev se");
+  assert.deepEqual(civicChoice.clause.scopes.map((item) => item.text), ["so-lem"]);
+
+  const vow = parseSentence("Na dov tar mo mik.");
+  assert.equal(vow.clause.pattern, "canonical-svo");
+  assert.equal(vow.clause.subject.text, "na");
+  assert.deepEqual(vow.clause.particle_chain.map((item) => item.text), ["dov"]);
+  assert.equal(vow.clause.predicate.text, "tar");
+  assert.equal(vow.clause.object.text, "mo mik");
+
+  const copular = parseSentence("Mav e reh.");
+  assert.equal(copular.clause.pattern, "copular");
+  assert.equal(copular.clause.subject.text, "mav");
+  assert.equal(copular.clause.predicate.text, "e");
+  assert.equal(copular.clause.complements[0].text, "reh");
+
+  const imperative = parseSentence("Ke rah na.");
+  assert.equal(imperative.clause.pattern, "imperative");
+  assert.equal(imperative.clause.sentence_mood[0].text, "ke");
+  assert.equal(imperative.clause.predicate.text, "rah");
+  assert.equal(imperative.clause.object.text, "na");
+
+  const question = parseSentence("Ya ta mar?");
+  assert.equal(question.clause.pattern, "question");
+  assert.equal(question.clause.sentence_mood[0].text, "ya");
+  assert.equal(question.clause.subject.text, "ta");
+  assert.equal(question.clause.predicate.text, "mar");
+
+  const invalid = parseSentence("Na qra dev.");
+  assert.equal(invalid.valid, false);
+  assert.ok(invalid.issues.some((issue) => issue.code === "phonology"));
 });
 
 test("checks Ethra style for register, agency, and phonology", () => {

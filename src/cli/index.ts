@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { Command } from "commander";
 import { analyzeWord } from "../analyzers/analyze";
+import { parseSentence } from "../analyzers/sentence";
 import { styleCheck } from "../analyzers/style";
 import { flattenLexicon, loadSpec } from "../core/spec";
 import { findExample } from "../core/examples";
@@ -28,7 +29,7 @@ const program = new Command();
 program
   .name("ethra")
   .description("Ethra language tools")
-  .version("0.5.5");
+  .version("0.5.6");
 
 program
   .command("generate-root")
@@ -53,6 +54,14 @@ program
   .argument("<word>", "word to analyze")
   .action((word) => {
     console.log(JSON.stringify(analyzeWord(word), null, 2));
+  });
+
+program
+  .command("parse-sentence")
+  .description("Parse an Ethra sentence into clause slots and token classes")
+  .requiredOption("-t, --text <text>", "Ethra sentence or phrase")
+  .action((options) => {
+    console.log(JSON.stringify(parseSentence(options.text), null, 2));
   });
 
 program

@@ -88,3 +88,11 @@ Do you remember?
 Ke rah na.
 See me.
 ```
+
+The first parser is available as a CLI command:
+
+```bash
+npm run ethra -- parse-sentence --text "Na dov tar mo mik."
+```
+
+It identifies one primary clause with subject, particle chain, predicate, object, complements, scope markers, and register markers. Full recursive parsing remains a v1.0 target.
