@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 42,057 explicit lexicon entries, 42,212 dictionary entries, 2,100 root families, and 4,640 reviewed corpus items after the v0.9.9 distribution, place, ecology, and agency-infrastructure corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 43,057 explicit lexicon entries, 43,212 dictionary entries, 2,150 root families, and 4,640 reviewed corpus items after the v0.10.0 knowledge, world, and agency root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
 ```text
-entries 42,057 / 25,000
-dictionary 42,212 entries with corpus evidence fields
-roots     2,100 / 2,500
+entries 43,057 / 25,000
+dictionary 43,212 entries with corpus evidence fields
+roots     2,150 / 2,500
 corpus    4,640 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
@@ -181,7 +181,9 @@ The v0.9.8 distribution, place, ecology, and agency-infrastructure root batch ad
 
 The v0.9.9 distribution, place, ecology, and agency-infrastructure corpus grounding batch adds 120 reviewed examples across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds scarcity, abundance, wealth, poverty, income, salaries, pensions, savings, assets, monopolies, interest rates, equity stakes, opportunity costs, externalities, inequality, coordinates, latitude, longitude, elevation, neighborhoods, provinces, counties, parcels, venues, catchments, emissions, sequestration, mitigation, adaptation, reserves, wildlife, nutrient cycles, sustainability, ecosystem services, self-regulation, co-regulation, interoception, somatic awareness, moral injury, awe, self-compassion, contrition, idempotence, rate limits, circuit breakers, postmortems, canary releases, learning transfer, formative assessment, and summative assessment in ordinary, civic, ritual, technical, poetic, and learner use.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 400 more root families and 5,360 more reviewed corpus items still needed.
+The v0.10.0 knowledge, world, and agency root batch adds 50 roots and 1,000 derived lexicon entries. It strengthens formal reasoning and science with entropy, equilibrium, correlation, variance, derivatives, integrals, topology, sets, sequences, symmetry, ranges, samples, populations, units, constants, gradients, calibration, phases, and constraints; philosophy and civic judgment with deontology, axiology, legitimacy, sovereignty, pluralism, realism, nominalism, and materialism; language architecture with pragmatics, discourse, phonemes, morphology, etymology, dialects, and lexemes; AI/software reliability with benchmarks, overfitting, underfitting, generalization, ablation, latency, throughput, drift, robustness, and clustering; and ecological chemistry with nitrogen, phosphorus, methane, salinity, acidity, and albedo.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 350 more root families and 5,360 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
