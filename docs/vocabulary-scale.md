@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 21,057 explicit lexicon entries, 21,212 dictionary entries, 1,050 root families, and 2,120 reviewed corpus items after the v0.5.7 dictionary tooling batch. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
+Ethra currently has 22,057 explicit lexicon entries, 22,212 dictionary entries, 1,100 root families, and 2,120 reviewed corpus items after the v0.5.8 root coverage batch. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
 
 Current progress toward the v1.0 stable-civil-language target:
 
 ```text
-entries 21,057 / 25,000
-dictionary 21,212 entries with corpus evidence fields
-roots     1,050 / 2,500
+entries 22,057 / 25,000
+dictionary 22,212 entries with corpus evidence fields
+roots     1,100 / 2,500
 corpus    2,120 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
@@ -97,7 +97,9 @@ The v0.5.6 tooling batch adds `parse-sentence`, the first conservative sentence 
 
 The v0.5.7 tooling batch adds `lookup-dictionary`, `dictionary-stats`, and `spec/dictionary-schema.yaml`. The dictionary layer exposes lexicon, particle, pronoun, and compound entries with roots, derivation patterns, registers, domains, meanings, examples, lifecycle status, corpus frequency, and attestation ids.
 
-The next numeric gaps are v1.0 gaps: 3,943 more explicit entries, 1,450 more root families, and 7,880 more reviewed corpus items.
+The v0.5.8 root coverage batch adds 50 roots and 1,000 derived lexicon entries for software and web infrastructure, education, health, finance, media, moral/legal precision, and emotional/ritual speech. New fields include dignity, culpability, revelation, neglect, refusal, software development kits, private network tunnels, DNS, markup, style sheets, transport security, web transfer, access tokens, structured data objects, releases, memory modules, APIs, graphical interfaces, message brokers, container runtimes, cookies, webhooks, theses, lectures, homework, quizzes, cash, card credentials, charts, adulthood, adolescence, drugs, sleep, exercise, surgery, x-ray imaging, grief, worry, faith, microservices, audio, seminars, video, debugging, review, diet, and genes.
+
+The next numeric gaps are v1.0 gaps: 2,943 more explicit entries, 1,400 more root families, and 7,880 more reviewed corpus items.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 

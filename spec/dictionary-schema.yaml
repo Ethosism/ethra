@@ -1,4 +1,4 @@
-version: "0.5.7"
+version: "0.5.8"
 purpose: "Machine-readable dictionary entry schema for Ethra's v1.0 lexicographic layer."
 principle: "A civilizational dictionary must preserve root-depth, register, examples, corpus evidence, and governance status instead of flattening words into English glosses."
 entry_fields:
