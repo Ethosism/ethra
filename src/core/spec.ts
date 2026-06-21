@@ -9,7 +9,7 @@ export function specDir(): string {
   return process.env.ETHRA_SPEC_DIR ?? path.resolve(__dirname, "../../spec");
 }
 
-function readYaml<T>(filename: string): T {
+export function readSpecYaml<T>(filename: string): T {
   const filePath = path.join(specDir(), filename);
   return YAML.parse(fs.readFileSync(filePath, "utf8")) as T;
 }
@@ -17,13 +17,13 @@ function readYaml<T>(filename: string): T {
 export function loadSpec(): EthraSpec {
   if (!cache) {
     cache = {
-      phonology: readYaml("phonology.yaml"),
-      roots: readYaml("roots.yaml"),
-      particles: readYaml("particles.yaml"),
-      pronouns: readYaml("pronouns.yaml"),
-      grammar: readYaml("grammar.yaml"),
-      lexicon: readYaml("lexicon.yaml"),
-      examples: readYaml("examples.yaml")
+      phonology: readSpecYaml("phonology.yaml"),
+      roots: readSpecYaml("roots.yaml"),
+      particles: readSpecYaml("particles.yaml"),
+      pronouns: readSpecYaml("pronouns.yaml"),
+      grammar: readSpecYaml("grammar.yaml"),
+      lexicon: readSpecYaml("lexicon.yaml"),
+      examples: readSpecYaml("examples.yaml")
     };
   }
   return cache;

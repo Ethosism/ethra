@@ -67,3 +67,80 @@ export interface EthraSpec {
   lexicon: { categories: Record<string, LexiconEntry[]> };
   examples: { examples: ExampleTranslation[] };
 }
+
+export interface RoadmapMilestone {
+  id: string;
+  name: string;
+  target_entries: number;
+  target_roots: number;
+  target_corpus_items: number;
+  objectives: string[];
+  exit_criteria: string[];
+}
+
+export interface RoadmapSpec {
+  version: string;
+  purpose: string;
+  principle: string;
+  current_state: {
+    release: string;
+    lexicon_entries: number;
+    root_families: number;
+    canonical_examples: number;
+    cli_commands: string[];
+  };
+  scale_targets: Record<string, any>;
+  milestones: RoadmapMilestone[];
+  expansion_formula: Record<string, any>;
+  non_goals: string[];
+}
+
+export interface DomainSpec {
+  id: string;
+  name: string;
+  target_roots_v02: number;
+  target_entries_v02: number;
+  target_entries_v10: number;
+  registers: string[];
+  priority: string;
+  required_fields: string[];
+  moral_questions: string[];
+}
+
+export interface DomainsSpec {
+  version: string;
+  purpose: string;
+  coverage_rule: string;
+  domains: DomainSpec[];
+}
+
+export interface CorpusTrackSpec {
+  id: string;
+  name: string;
+  target_items_v02: number;
+  target_items_v10: number;
+  artifact_path: string;
+  item_shape: string[];
+  examples: string[];
+}
+
+export interface CorpusPlanSpec {
+  version: string;
+  purpose: string;
+  principle: string;
+  corpus_tracks: CorpusTrackSpec[];
+  quality_gates: string[];
+  metrics: Record<string, string>;
+}
+
+export interface GovernanceSpec {
+  version: string;
+  purpose: string;
+  authority_model: Record<string, any>;
+  term_lifecycle: Array<Record<string, any>>;
+  root_admission_rules: string[];
+  compound_admission_rules: string[];
+  borrowing_rules: string[];
+  grammar_change_rules: string[];
+  review_checklist: string[];
+}

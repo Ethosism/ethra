@@ -1,0 +1,55 @@
+version: "0.2-program"
+purpose: "Editorial governance for growing Ethra without losing its civilizational architecture."
+authority_model:
+  principle: "Ethra is governed by transparent review, not private impulse or committee opacity."
+  roles:
+    - id: "proposer"
+      responsibility: "Suggest roots, terms, compounds, corpus items, or grammar changes with rationale."
+    - id: "lexicographer"
+      responsibility: "Check derivation, senses, examples, register, and collisions."
+    - id: "domain_steward"
+      responsibility: "Review domain accuracy and terminology completeness."
+    - id: "culture_steward"
+      responsibility: "Check moral grammar, relational grammar, beauty, memory, and civilizational fit."
+    - id: "maintainer"
+      responsibility: "Merge accepted changes and ensure tests/specs stay valid."
+term_lifecycle:
+  - status: "candidate"
+    meaning: "A proposed term not yet accepted."
+    requirements: ["root or compound analysis", "domain", "register", "definition", "example sentence"]
+  - status: "provisional"
+    meaning: "Accepted for experimental corpus use."
+    requirements: ["no phonology failure", "no obvious collision", "at least one corpus item"]
+  - status: "accepted"
+    meaning: "Part of the stable lexicon."
+    requirements: ["reviewed examples", "clear sense boundaries", "domain steward approval", "culture steward approval"]
+  - status: "deprecated"
+    meaning: "Should not be used in new formal material."
+    requirements: ["replacement term", "reason", "migration note"]
+  - status: "historical"
+    meaning: "Preserved for older corpus or poetic use."
+    requirements: ["attested corpus source", "date or release marker"]
+root_admission_rules:
+  - "A new root must cover a durable semantic field, not a single disposable object."
+  - "A new root must not duplicate an existing field unless it creates a necessary contrast."
+  - "A new root must pass phonology and root-collision checks."
+  - "A new root should produce useful action, concept, quality, agent, object, civic, ritual, and intimate forms."
+compound_admission_rules:
+  - "Prefer compounds when the meaning is compositional and the parts should remain visible."
+  - "Create a new root when a concept is high-frequency, culturally central, or semantically irreducible."
+  - "The final member is the grammatical head unless the term is explicitly governed as an institutional title."
+borrowing_rules:
+  - "Borrow only when a proper name, international unit, or domain convention is stronger than native derivation."
+  - "Borrowed forms must be phonologized into Ethra spelling."
+  - "Borrowing must not bypass moral, relational, or register distinctions."
+grammar_change_rules:
+  - "Grammar changes after v1.0 require migration notes and corpus impact review."
+  - "No new grammatical marker may be decorative only."
+  - "Moral agency and relational address remain protected architecture."
+review_checklist:
+  - "Does the term preserve root-depth?"
+  - "Does it make the speaker notice truth, duty, beauty, memory, agency, consequence, inheritance, repair, love, speech-binding, or future claim?"
+  - "Is the register clear?"
+  - "Is there at least one example sentence?"
+  - "Does it avoid English calque when Ethra structure can do better?"
+  - "Can the CLI analyze or derive it where relevant?"

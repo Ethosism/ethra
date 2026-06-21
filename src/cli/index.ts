@@ -5,6 +5,14 @@ import { flattenLexicon, loadSpec } from "../core/spec";
 import { findExample } from "../core/examples";
 import { createCompound } from "../generators/compound";
 import { deriveWord, generateRoot } from "../generators/derivation";
+import {
+  corpusSummary,
+  domainCoverageReport,
+  listDomains,
+  loadGovernance,
+  loadRoadmap,
+  roadmapSummary
+} from "../core/civilization";
 
 const program = new Command();
 
@@ -88,6 +96,57 @@ program
   .option("-g, --gloss <gloss>", "intended gloss")
   .action((options) => {
     console.log(JSON.stringify(createCompound(options.words.split(","), options.gloss), null, 2));
+  });
+
+program
+  .command("roadmap")
+  .description("Show the civilizational-scale expansion roadmap")
+  .option("-m, --milestone <id>", "show one roadmap milestone")
+  .option("-s, --summary", "show current and next milestone summary")
+  .action((options) => {
+    if (options.summary) {
+      console.log(JSON.stringify(roadmapSummary(), null, 2));
+      return;
+    }
+    const roadmap = loadRoadmap();
+    if (options.milestone) {
+      const milestone = roadmap.milestones.find((item) => item.id === options.milestone);
+      if (!milestone) {
+        throw new Error(`No roadmap milestone '${options.milestone}'`);
+      }
+      console.log(JSON.stringify(milestone, null, 2));
+      return;
+    }
+    console.log(JSON.stringify(roadmap, null, 2));
+  });
+
+program
+  .command("list-domains")
+  .description("List vocabulary expansion domains")
+  .option("-p, --priority <priority>", "filter by priority")
+  .action((options) => {
+    console.log(JSON.stringify(listDomains(options.priority), null, 2));
+  });
+
+program
+  .command("coverage-report")
+  .description("Estimate v0.2 domain coverage gaps from the current lexicon")
+  .action(() => {
+    console.log(JSON.stringify(domainCoverageReport(), null, 2));
+  });
+
+program
+  .command("corpus-plan")
+  .description("Show corpus tracks and quality gates")
+  .action(() => {
+    console.log(JSON.stringify(corpusSummary(), null, 2));
+  });
+
+program
+  .command("governance")
+  .description("Show term governance and admission rules")
+  .action(() => {
+    console.log(JSON.stringify(loadGovernance(), null, 2));
   });
 
 program.parse();

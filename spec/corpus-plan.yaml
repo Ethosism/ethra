@@ -1,0 +1,63 @@
+version: "0.2-program"
+purpose: "Corpus plan for making Ethra vocabulary real through use."
+principle: "A term is not culturally alive until it appears in sentences, dialogues, public forms, and domain use."
+corpus_tracks:
+  -
+    id: "daily-dialogues"
+    name: "Daily Dialogues"
+    target_items_v02: 25
+    target_items_v10: 2000
+    artifact_path: "corpus/daily-dialogues"
+    item_shape: ["english", "ethra", "literal", "notes", "domain_tags"]
+    examples: ["greeting", "meal", "workday", "caregiving", "apology", "repair conversation"]
+  -
+    id: "civic-law"
+    name: "Civic And Legal Forms"
+    target_items_v02: 15
+    target_items_v10: 1500
+    artifact_path: "corpus/civic-law"
+    item_shape: ["english", "ethra", "literal", "authority", "obligation_type", "notes"]
+    examples: ["oath", "contract clause", "public notice", "court testimony", "citizen duty"]
+  -
+    id: "ritual-vow"
+    name: "Ritual, Prayer, And Vow"
+    target_items_v02: 15
+    target_items_v10: 1500
+    artifact_path: "corpus/ritual-vow"
+    item_shape: ["english", "ethra", "literal", "register", "witness", "notes"]
+    examples: ["mourning", "blessing", "marriage vow", "future vow", "confession"]
+  -
+    id: "technical-software"
+    name: "Technical And Software"
+    target_items_v02: 15
+    target_items_v10: 2000
+    artifact_path: "corpus/technical-software"
+    item_shape: ["english", "ethra", "literal", "domain_tags", "terms_introduced", "notes"]
+    examples: ["CLI help", "API error", "data model", "security warning", "agent instruction"]
+  -
+    id: "literary-poetic"
+    name: "Literary And Poetic"
+    target_items_v02: 15
+    target_items_v10: 2000
+    artifact_path: "corpus/literary-poetic"
+    item_shape: ["english", "ethra", "literal", "cadence_notes", "imagery_roots", "notes"]
+    examples: ["short poem", "parable", "love line", "lament", "founding myth"]
+  -
+    id: "learner-graded"
+    name: "Learner Graded Readings"
+    target_items_v02: 15
+    target_items_v10: 1000
+    artifact_path: "corpus/learner-graded"
+    item_shape: ["level", "english", "ethra", "literal", "new_terms", "review_terms"]
+    examples: ["A1 self introduction", "A1 family", "A2 work", "B1 civic story", "B2 essay"]
+quality_gates:
+  - "Each corpus item must use accepted words or mark proposed words."
+  - "Each new word introduced by corpus must identify root, pattern, domain, register, and example."
+  - "Moral agency particles must be used where English hides can, may, want, choose, owe, or vow."
+  - "Relational pronouns must be explicit when the relationship matters."
+  - "Literal translations must remain inspectable."
+metrics:
+  lexical_reuse: "Track how many accepted terms appear in corpus examples."
+domain_coverage: "Track corpus items and accepted terms per domain."
+register_balance: "Track plain, intimate, civic, ritual, technical, and poetic usage."
+fallback_rate: "Track untranslated English concepts still lacking Ethra terms."

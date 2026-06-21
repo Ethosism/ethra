@@ -30,10 +30,11 @@ Ethra treats language as training. What is easy to say becomes easy to notice. W
 - **Tense/aspect:** particles such as `pa`, `nu`, `fu`, `ka`, `ga`, `va`.
 - **Moral grammar:** particles distinguish can, may, want, choose, should, owe, vow, inherited duty, chosen duty, entrusted duty, repair, and scope of action.
 - **Relational grammar:** pronouns distinguish beloved, equal, elder/teacher, child/student, citizen, opponent, sacred addressee, and collective people.
-- **Roots:** 36 root families with derived action, concept, quality, agent, object, ritual, civic, and intimate forms.
+- **Roots:** 35 root families with derived action, concept, quality, agent, object, ritual, civic, and intimate forms.
 - **Lexicon:** generated v0.1 core lexicon with 337 explicit entries across pronouns, particles, moral agency, family, body, mind, emotion, seeing/knowing, speech, time, nature, building/making, law/civic life, technology, ritual/poetry, love/intimacy, conflict/repair, and future/civilization.
 - **Machine-readable spec:** YAML files in `spec/` for phonology, roots, particles, pronouns, grammar, lexicon, and examples.
-- **Tooling:** CLI commands for root generation, word derivation, word analysis, example lookup, particle/root listing, lexicon listing, and compound creation.
+- **Expansion program:** roadmap, domain ontology, corpus plan, and governance model for growing toward civilizational-scale expressive coverage.
+- **Tooling:** CLI commands for root generation, word derivation, word analysis, example lookup, particle/root listing, lexicon listing, compound creation, roadmap inspection, domain coverage, corpus planning, and governance review.
 
 ## Quick Examples
 
@@ -82,6 +83,11 @@ npm run ethra -- derive-word --root RAH --pattern intimate-imperative
 npm run ethra -- analyze-word mi-rah
 npm run ethra -- translate-example 8
 npm run ethra -- create-compound --words fer,dev --gloss "future-binding duty"
+npm run ethra -- roadmap --summary
+npm run ethra -- list-domains --priority highest
+npm run ethra -- coverage-report
+npm run ethra -- corpus-plan
+npm run ethra -- governance
 ```
 
 After building, you can also run:
@@ -104,6 +110,16 @@ ethra-language/
     relational-grammar.md
     word-formation.md
     examples.md
+    vocabulary-scale.md
+    governance.md
+    corpus.md
+  corpus/
+    daily-dialogues/
+    civic-law/
+    ritual-vow/
+    technical-software/
+    literary-poetic/
+    learner-graded/
   spec/
     phonology.yaml
     roots.yaml
@@ -112,6 +128,10 @@ ethra-language/
     grammar.yaml
     lexicon.yaml
     examples.yaml
+    roadmap.yaml
+    domains.yaml
+    corpus-plan.yaml
+    governance.yaml
   src/
     cli/
     core/

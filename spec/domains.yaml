@@ -1,0 +1,184 @@
+version: "0.2-program"
+purpose: "Domain ontology for expanding Ethra toward full cultural coverage."
+coverage_rule: "Each domain must define roots, derived terms, compounds, sentence templates, corpus examples, moral/relational usage, and register notes."
+domains:
+  -
+    id: "daily-life"
+    name: "Daily Life"
+    target_roots_v02: 12
+    target_entries_v02: 120
+    target_entries_v10: 1200
+    registers: ["plain", "intimate", "household"]
+    priority: "highest"
+    required_fields: ["food", "clothing", "sleep", "movement", "cleaning", "weather", "money", "work rhythms"]
+    moral_questions: ["What is needed?", "Who is responsible?", "What is neglected?"]
+  -
+    id: "body-health"
+    name: "Body And Health"
+    target_roots_v02: 14
+    target_entries_v02: 140
+    target_entries_v10: 1500
+    registers: ["plain", "medical", "intimate", "legal"]
+    priority: "highest"
+    required_fields: ["organs", "pain", "injury", "healing", "medicine", "birth", "death", "care"]
+    moral_questions: ["Who is entrusted with care?", "What must be repaired?", "What is consent?"]
+  -
+    id: "family-kinship"
+    name: "Family And Kinship"
+    target_roots_v02: 10
+    target_entries_v02: 100
+    target_entries_v10: 900
+    registers: ["intimate", "household", "legal", "ritual"]
+    priority: "highest"
+    required_fields: ["parent", "child", "sibling", "marriage", "adoption", "inheritance", "household duty"]
+    moral_questions: ["What is inherited?", "What is chosen?", "What is owed to children and elders?"]
+  -
+    id: "emotion-psychology"
+    name: "Emotion And Psychology"
+    target_roots_v02: 16
+    target_entries_v02: 160
+    target_entries_v10: 1600
+    registers: ["intimate", "clinical", "poetic", "plain"]
+    priority: "highest"
+    required_fields: ["joy", "grief", "fear", "anger", "shame", "trust", "attention", "memory", "desire"]
+    moral_questions: ["What feeling is true?", "What feeling should not command action?", "What must be confessed?"]
+  -
+    id: "law-governance"
+    name: "Law And Governance"
+    target_roots_v02: 18
+    target_entries_v02: 180
+    target_entries_v10: 2200
+    registers: ["civic", "legal", "solemn"]
+    priority: "highest"
+    required_fields: ["right", "office", "court", "contract", "testimony", "authority", "citizenship", "punishment", "restoration"]
+    moral_questions: ["Who is answerable?", "What authority was delegated?", "What repair satisfies justice?"]
+  -
+    id: "technology-software"
+    name: "Technology And Software"
+    target_roots_v02: 16
+    target_entries_v02: 160
+    target_entries_v10: 2500
+    registers: ["technical", "civic", "plain"]
+    priority: "high"
+    required_fields: ["code", "data", "network", "interface", "machine", "model", "agent", "security", "automation"]
+    moral_questions: ["What power is delegated?", "Who is accountable?", "What does the system remember?"]
+  -
+    id: "ai-cognition"
+    name: "AI And Cognition"
+    target_roots_v02: 10
+    target_entries_v02: 100
+    target_entries_v10: 1300
+    registers: ["technical", "philosophical", "civic"]
+    priority: "high"
+    required_fields: ["model", "prompt", "alignment", "reasoning", "memory", "agency", "simulation", "evaluation"]
+    moral_questions: ["What is agency?", "Who bears responsibility?", "What counts as understanding?"]
+  -
+    id: "education-training"
+    name: "Education And Training"
+    target_roots_v02: 12
+    target_entries_v02: 120
+    target_entries_v10: 1200
+    registers: ["teacher", "student", "civic", "ritual"]
+    priority: "high"
+    required_fields: ["lesson", "practice", "discipline", "teacher", "student", "curriculum", "correction", "mastery"]
+    moral_questions: ["What must be transmitted?", "What must be corrected?", "What does maturity require?"]
+  -
+    id: "economics-provision"
+    name: "Economics And Provision"
+    target_roots_v02: 12
+    target_entries_v02: 120
+    target_entries_v10: 1500
+    registers: ["plain", "commercial", "legal", "civic"]
+    priority: "high"
+    required_fields: ["trade", "money", "debt", "gift", "tax", "labor", "wealth", "poverty", "stewardship"]
+    moral_questions: ["What is owed?", "What is entrusted?", "What provision serves the future?"]
+  -
+    id: "nature-ecology"
+    name: "Nature And Ecology"
+    target_roots_v02: 14
+    target_entries_v02: 140
+    target_entries_v10: 1800
+    registers: ["plain", "scientific", "poetic", "civic"]
+    priority: "high"
+    required_fields: ["land", "water", "air", "fire", "animal", "plant", "season", "climate", "habitat"]
+    moral_questions: ["What world do we inherit?", "What world do we repair?", "What world do we leave?"]
+  -
+    id: "science-math"
+    name: "Science And Mathematics"
+    target_roots_v02: 14
+    target_entries_v02: 140
+    target_entries_v10: 2500
+    registers: ["technical", "academic", "civic"]
+    priority: "high"
+    required_fields: ["number", "measure", "proof", "experiment", "matter", "energy", "life", "system", "probability"]
+    moral_questions: ["What can be known?", "What was measured?", "What uncertainty remains?"]
+  -
+    id: "art-beauty"
+    name: "Art And Beauty"
+    target_roots_v02: 10
+    target_entries_v02: 100
+    target_entries_v10: 1000
+    registers: ["poetic", "ritual", "plain"]
+    priority: "medium"
+    required_fields: ["song", "image", "craft", "form", "rhythm", "story", "performance", "taste"]
+    moral_questions: ["What deserves attention?", "What form dignifies truth?", "What beauty deceives?"]
+  -
+    id: "ritual-spiritual"
+    name: "Ritual And Spiritual Life"
+    target_roots_v02: 12
+    target_entries_v02: 120
+    target_entries_v10: 1500
+    registers: ["ritual", "sacred", "solemn", "poetic"]
+    priority: "high"
+    required_fields: ["prayer", "vow", "blessing", "mourning", "festival", "sacrifice", "judgment", "awe"]
+    moral_questions: ["Before what witness do we speak?", "What binds the speaker?", "What must be remembered?"]
+  -
+    id: "conflict-security"
+    name: "Conflict And Security"
+    target_roots_v02: 14
+    target_entries_v02: 140
+    target_entries_v10: 1600
+    registers: ["plain", "legal", "military", "restorative"]
+    priority: "high"
+    required_fields: ["threat", "defense", "weapon", "harm", "enemy", "peace", "strategy", "mercy", "repair"]
+    moral_questions: ["What force is justified?", "What must be protected?", "What repair follows harm?"]
+  -
+    id: "philosophy-metaphysics"
+    name: "Philosophy And Metaphysics"
+    target_roots_v02: 12
+    target_entries_v02: 120
+    target_entries_v10: 1800
+    registers: ["philosophical", "ritual", "academic"]
+    priority: "medium"
+    required_fields: ["being", "truth", "cause", "mind", "self", "good", "beauty", "time", "judgment"]
+    moral_questions: ["What is real?", "What is good?", "What follows from truth?"]
+  -
+    id: "history-memory"
+    name: "History And Memory"
+    target_roots_v02: 10
+    target_entries_v02: 100
+    target_entries_v10: 1200
+    registers: ["civic", "academic", "ritual", "family"]
+    priority: "highest"
+    required_fields: ["archive", "ancestor", "event", "period", "origin", "continuity", "loss", "inheritance"]
+    moral_questions: ["What must not be forgotten?", "What is inherited unfinished?", "What story forms identity?"]
+  -
+    id: "travel-place"
+    name: "Travel And Place"
+    target_roots_v02: 8
+    target_entries_v02: 80
+    target_entries_v10: 900
+    registers: ["plain", "civic", "poetic"]
+    priority: "medium"
+    required_fields: ["road", "city", "home", "border", "sea", "mountain", "map", "arrival", "exile"]
+    moral_questions: ["Where are we going?", "Who belongs?", "What boundary matters?"]
+  -
+    id: "media-communication"
+    name: "Media And Communication"
+    target_roots_v02: 10
+    target_entries_v02: 100
+    target_entries_v10: 1200
+    registers: ["plain", "technical", "civic", "poetic"]
+    priority: "high"
+    required_fields: ["message", "book", "image", "signal", "broadcast", "silence", "record", "rumor", "public speech"]
+    moral_questions: ["What does speech bind?", "What does publication reveal?", "What memory does media preserve?"]

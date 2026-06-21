@@ -1,0 +1,117 @@
+version: "0.2-program"
+purpose: "Civilizational-scale vocabulary and corpus expansion plan for Ethra."
+principle: "Grow expressive coverage without flattening Ethra into translated English. Every expansion must preserve root-depth, moral grammar, relational grammar, cultural continuity, and machine-readable structure."
+current_state:
+  release: "v0.1"
+  lexicon_entries: 337
+  root_families: 35
+  canonical_examples: 20
+  cli_commands:
+    - "generate-root"
+    - "derive-word"
+    - "analyze-word"
+    - "translate-example"
+    - "list-roots"
+    - "list-particles"
+    - "list-lexicon"
+    - "create-compound"
+    - "roadmap"
+    - "list-domains"
+    - "coverage-report"
+    - "corpus-plan"
+    - "governance"
+scale_targets:
+  expressive_coverage:
+    definition: "Ability to speak ordinary, civic, technical, literary, ritual, emotional, and philosophical life without falling back to English."
+    target: "10,000 to 25,000 curated entries plus a growing corpus."
+  dictionary_scale:
+    definition: "Comparable scale to major natural-language dictionaries, including technical terms, compounds, idioms, dialectal alternatives, historical forms, and corpus-derived variants."
+    target: "100,000+ curated entries after sustained community governance."
+milestones:
+  -
+    id: "v0.2"
+    name: "Foundation Expansion"
+    target_entries: 1000
+    target_roots: 150
+    target_corpus_items: 100
+    objectives:
+      - "Add domain ontology and term admission workflow."
+      - "Expand everyday speech, body, emotion, household, civic, and tool vocabulary."
+      - "Add corpus folders for dialogue, civic, ritual, technical, and literary tracks."
+      - "Add validation gates for root collisions, phonology, and semantic field coverage."
+    exit_criteria:
+      - "At least 1000 lexicon entries."
+      - "At least 150 root families."
+      - "At least 100 reviewed corpus items."
+      - "CLI reports domain coverage and roadmap progress."
+  -
+    id: "v0.3"
+    name: "Everyday Fluency"
+    target_entries: 3000
+    target_roots: 400
+    target_corpus_items: 500
+    objectives:
+      - "Cover common household, conversation, work, travel, learning, food, health, and conflict repair."
+      - "Create graded learner readings."
+      - "Normalize compounds and phrase templates for daily speech."
+    exit_criteria:
+      - "A speaker can sustain ordinary daily conversation."
+      - "All high-frequency English semantic domains have Ethra alternatives."
+      - "Learner corpus has beginner, intermediate, and advanced tiers."
+  -
+    id: "v0.5"
+    name: "Public Culture"
+    target_entries: 10000
+    target_roots: 1000
+    target_corpus_items: 2000
+    objectives:
+      - "Support essays, vows, civic speeches, contracts, poems, prayers, and software interfaces."
+      - "Add law, governance, economics, technology, education, ecology, and art terminology."
+      - "Create translation memory for key moral/civilizational phrases."
+    exit_criteria:
+      - "Ethra can support a small public institution without English fallback."
+      - "Corpus includes law, civic process, ritual, technical docs, poetry, and education."
+  -
+    id: "v1.0"
+    name: "Stable Civil Language"
+    target_entries: 25000
+    target_roots: 2500
+    target_corpus_items: 10000
+    objectives:
+      - "Freeze core grammar and derivation rules."
+      - "Publish dictionary schema with senses, register, etymology, examples, and frequency."
+      - "Add parser, style checker, corpus search, and term proposal tools."
+    exit_criteria:
+      - "Ethra can carry philosophy, law, education, software, family life, poetry, and ritual."
+      - "Breaking grammar changes require governance review."
+  -
+    id: "civilizational-scale"
+    name: "Historical-Scale Vocabulary"
+    target_entries: 100000
+    target_roots: 3000
+    target_corpus_items: 100000
+    objectives:
+      - "Sustain community-driven terminology across specialized domains."
+      - "Admit historical, dialectal, poetic, technical, and idiomatic layers without corrupting the core."
+      - "Maintain corpus evidence and governance trails for all accepted terms."
+    exit_criteria:
+      - "The language has dictionary-scale breadth and living corpus depth."
+      - "New domains can be added by rule-governed expansion rather than ad hoc invention."
+expansion_formula:
+  root_productivity:
+    base_patterns_per_root: 8
+    expected_compounds_per_root: "20-80 once a domain has corpus demand"
+    expected_phrases_per_root: "10-40 moral, relational, legal, technical, or poetic phrase templates"
+  required_systems:
+    - "Root bank expansion"
+    - "Domain ontology"
+    - "Derivation and compound governance"
+    - "Corpus-backed examples"
+    - "Frequency and register metadata"
+    - "Automated validation"
+    - "Editorial review"
+non_goals:
+  - "Do not copy English word-by-word."
+  - "Do not expand by random aesthetic coinage."
+  - "Do not let technical vocabulary erase moral and relational grammar."
+  - "Do not treat raw count as success without corpus use."
