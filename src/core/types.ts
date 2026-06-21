@@ -87,6 +87,7 @@ export interface RoadmapSpec {
     lexicon_entries: number;
     root_families: number;
     corpus_items: number;
+    compound_terms: number;
     canonical_examples: number;
     cli_commands: string[];
   };
@@ -162,4 +163,26 @@ export interface CorpusSpec {
   version: string;
   purpose: string;
   items: CorpusItem[];
+}
+
+export interface CompoundTerm {
+  id: string;
+  word: string;
+  pronunciation: string;
+  part_of_speech: string;
+  domain_tags: string[];
+  register: string;
+  status: "candidate" | "provisional" | "accepted" | "deprecated" | "historical";
+  meaning: string;
+  literal: string;
+  components: string[];
+  head: string;
+  example: string;
+  notes: string;
+}
+
+export interface CompoundsSpec {
+  version: string;
+  purpose: string;
+  terms: CompoundTerm[];
 }

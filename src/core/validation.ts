@@ -1,6 +1,6 @@
 import { validateWord } from "./phonology";
 import { flattenLexicon, loadSpec, readSpecYaml } from "./spec";
-import type { CorpusSpec, DomainsSpec, EthraSpec, CorpusPlanSpec } from "./types";
+import type { CompoundsSpec, CorpusSpec, DomainsSpec, EthraSpec, CorpusPlanSpec } from "./types";
 
 export interface ValidationIssue {
   code: string;
@@ -32,6 +32,19 @@ export interface CorpusValidationReport {
     tracks: number;
     domains: number;
     uniqueTerms: number;
+  };
+}
+
+export interface CompoundsValidationReport {
+  valid: boolean;
+  issueCount: number;
+  errors: ValidationIssue[];
+  warnings: ValidationIssue[];
+  stats: {
+    terms: number;
+    accepted: number;
+    domains: number;
+    registers: number;
   };
 }
 
@@ -254,6 +267,97 @@ export function validateCorpus(
       tracks: trackCount,
       domains: domainCount,
       uniqueTerms: uniqueTerms.size
+    }
+  };
+}
+
+export function validateCompounds(
+  compounds: CompoundsSpec = readSpecYaml<CompoundsSpec>("compounds.yaml"),
+  spec: EthraSpec = loadSpec()
+): CompoundsValidationReport {
+  const issues: ValidationIssue[] = [];
+  const known = normalizedTokenSet(spec);
+  const domains = readSpecYaml<DomainsSpec>("domains.yaml");
+  const validDomains = new Set(domains.domains.map((domain) => domain.id));
+  const validStatuses = new Set(["candidate", "provisional", "accepted", "deprecated", "historical"]);
+  const ids = new Set<string>();
+  const words = new Set<string>();
+  const registers = new Set<string>();
+  const usedDomains = new Set<string>();
+
+  for (const term of compounds.terms) {
+    known.add(term.word.toLowerCase());
+  }
+
+  for (const term of compounds.terms) {
+    const word = term.word.toLowerCase();
+    registers.add(term.register);
+
+    if (ids.has(term.id)) {
+      addIssue(issues, "error", "duplicate-compound-id", `Compound '${term.id}' appears more than once.`);
+    }
+    ids.add(term.id);
+
+    if (words.has(word)) {
+      addIssue(issues, "error", "duplicate-compound-word", `Compound word '${term.word}' appears more than once.`);
+    }
+    words.add(word);
+
+    if (!validStatuses.has(term.status)) {
+      addIssue(issues, "error", "invalid-compound-status", `${term.id} has invalid status '${term.status}'.`);
+    }
+
+    if (term.components.length < 2) {
+      addIssue(issues, "error", "compound-too-short", `${term.id} must have at least two components.`);
+    }
+
+    const expectedWord = term.components.join("-").toLowerCase();
+    if (word !== expectedWord) {
+      addIssue(issues, "error", "compound-word-mismatch", `${term.id} word '${term.word}' should be '${expectedWord}' from components.`);
+    }
+
+    if (!term.components.includes(term.head)) {
+      addIssue(issues, "error", "compound-head-missing", `${term.id} head '${term.head}' is not one of its components.`);
+    }
+
+    const phonology = validateWord(term.word);
+    if (!phonology.valid) {
+      addIssue(issues, "error", "compound-phonology", `${term.id} '${term.word}' fails phonology: ${phonology.errors.join("; ")}.`);
+    }
+
+    for (const domain of term.domain_tags) {
+      usedDomains.add(domain);
+      if (!validDomains.has(domain)) {
+        addIssue(issues, "error", "unknown-compound-domain", `${term.id} uses unknown domain tag '${domain}'.`);
+      }
+    }
+
+    for (const component of term.components) {
+      if (!isKnownToken(component.toLowerCase(), known)) {
+        addIssue(issues, "error", "unknown-compound-component", `${term.id} uses unknown component '${component}'.`);
+      }
+    }
+
+    for (const token of tokenizeEthra(term.example)) {
+      if (!isKnownToken(token, known)) {
+        addIssue(issues, "error", "unknown-compound-example-token", `${term.id} example uses unknown token '${token}'.`);
+      }
+    }
+  }
+
+  const errors = issues.filter((issue) => issue.severity === "error");
+  const warnings = issues.filter((issue) => issue.severity === "warning");
+
+  return {
+    valid: errors.length === 0,
+    issueCount: issues.length,
+    errors,
+    warnings,
+    stats: {
+      terms: compounds.terms.length,
+      accepted: compounds.terms.filter((term) => term.status === "accepted").length,
+      domains: usedDomains.size,
+      registers: registers.size
     }
   };
 }

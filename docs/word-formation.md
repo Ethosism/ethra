@@ -44,6 +44,16 @@ nem-dev       speech that creates obligation
 mi-rah-yes    a person fully seen by another
 ```
 
+Curated compound terminology is stored in `spec/compounds.yaml`. These entries add domain tags, register, status, literal analysis, components, head, and examples so compounds can function as governed dictionary terms rather than one-off inventions.
+
+Useful commands:
+
+```bash
+npm run ethra -- compound-summary
+npm run ethra -- list-compounds --domain law-governance
+npm run ethra -- validate-compounds
+```
+
 ## Legal And Civic Precision
 
 The suffix `-da` creates public, legal, or institutional readings:

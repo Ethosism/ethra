@@ -2,15 +2,17 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 
 const {
+  compoundSummary,
   corpusSummary,
   domainCoverageReport,
+  listCompounds,
   listCorpusItems,
   listDomains,
   loadGovernance,
   loadRoadmap,
   roadmapSummary
 } = require("../dist/core/civilization.js");
-const { validateCorpus, validateSpec } = require("../dist/core/validation.js");
+const { validateCompounds, validateCorpus, validateSpec } = require("../dist/core/validation.js");
 
 test("loads the civilizational-scale roadmap", () => {
   const roadmap = loadRoadmap();
@@ -24,11 +26,14 @@ test("summarizes current progress against roadmap targets", () => {
   assert.equal(summary.current.actual_lexicon_entries, summary.current.lexicon_entries);
   assert.equal(summary.current.actual_root_families, summary.current.root_families);
   assert.equal(summary.current.actual_corpus_items, summary.current.corpus_items);
+  assert.equal(summary.current.actual_compound_terms, summary.current.compound_terms);
   assert.ok(summary.current.actual_lexicon_entries >= 1000);
   assert.ok(summary.current.actual_root_families >= 150);
   assert.ok(summary.current.actual_corpus_items >= 100);
+  assert.ok(summary.current.actual_compound_terms >= 100);
   assert.equal(summary.current.actual_canonical_examples, 20);
-  assert.equal(summary.next_milestone.target_entries, 1000);
+  assert.equal(summary.next_milestone.id, "v0.3");
+  assert.equal(summary.next_milestone.target_entries, 3000);
 });
 
 test("lists highest-priority expansion domains", () => {
@@ -73,4 +78,20 @@ test("validates expanded root inventory", () => {
   assert.equal(report.valid, true, JSON.stringify(report.errors, null, 2));
   assert.equal(report.stats.roots, 152);
   assert.equal(report.stats.lexiconEntries, 1273);
+});
+
+test("lists and validates curated compound terminology", () => {
+  const summary = compoundSummary();
+  assert.equal(summary.terms, 100);
+  assert.equal(summary.accepted_terms, 100);
+  assert.ok(summary.domain_counts["technology-software"] >= 10);
+
+  const technicalCompounds = listCompounds("technology-software");
+  assert.ok(technicalCompounds.some((term) => term.word === "den-dev"));
+
+  const report = validateCompounds();
+  assert.equal(report.valid, true, JSON.stringify(report.errors, null, 2));
+  assert.equal(report.stats.terms, 100);
+  assert.equal(report.stats.accepted, 100);
+  assert.ok(report.stats.domains >= 15);
 });

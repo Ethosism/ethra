@@ -8,6 +8,7 @@ Current progress toward the v0.2 foundation target:
 entries 1,273 / 1,000
 roots     152 / 150
 corpus    100 / 100 reviewed items
+compounds 100 curated terms
 ```
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
@@ -32,6 +33,8 @@ Ethra should grow through four channels:
 2. **Pattern derivation:** generate predictable action, concept, quality, agent, object, civic, ritual, and intimate forms.
 3. **Compounding:** build German-style conceptual architecture while keeping roots visible.
 4. **Corpus pressure:** add terms because texts, dialogues, laws, tools, poems, or lessons need them.
+
+The curated compound bank in `spec/compounds.yaml` is the first explicit terminology layer beyond root-pattern derivation.
 
 ## Why Not Just Translate English
 

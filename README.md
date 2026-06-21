@@ -4,7 +4,7 @@ Ethra is a v0.1 constructed civilizational language. It is not meant to be an Es
 
 The working name is kept as **Ethra** because it is short, pronounceable, and internally useful: `eth` evokes ethos and `ra` evokes seeing. The name therefore sounds like "ethos made visible."
 
-Status: v0.2 foundation release, generated YAML data, TypeScript CLI, corpus/governance planning, and tests.
+Status: v0.2.1 foundation release, generated YAML data, TypeScript CLI, compound terminology, corpus/governance planning, and tests.
 
 Repository: <https://github.com/Ethosism/ethra>
 
@@ -32,6 +32,7 @@ Ethra treats language as training. What is easy to say becomes easy to notice. W
 - **Relational grammar:** pronouns distinguish beloved, equal, elder/teacher, child/student, citizen, opponent, sacred addressee, and collective people.
 - **Roots:** 152 root families with derived action, concept, quality, agent, object, ritual, civic, and intimate forms.
 - **Lexicon:** generated core lexicon with 1,273 explicit entries across pronouns, particles, moral agency, family, body, mind, emotion, seeing/knowing, speech, time, nature, building/making, law/civic life, technology, ritual/poetry, love/intimacy, conflict/repair, and future/civilization.
+- **Compounds:** 100 curated compound terms for German-style conceptual architecture.
 - **Machine-readable spec:** YAML files in `spec/` for phonology, roots, particles, pronouns, grammar, lexicon, and examples.
 - **Corpus:** 100 reviewed seed corpus items across daily dialogue, civic/legal, ritual/vow, technical/software, literary/poetic, and learner tracks.
 - **Expansion program:** roadmap, domain ontology, corpus plan, and governance model for growing toward civilizational-scale expressive coverage.
@@ -84,6 +85,8 @@ npm run ethra -- derive-word --root RAH --pattern intimate-imperative
 npm run ethra -- analyze-word mi-rah
 npm run ethra -- translate-example 8
 npm run ethra -- create-compound --words fer,dev --gloss "future-binding duty"
+npm run ethra -- compound-summary
+npm run ethra -- list-compounds --domain technology-software
 npm run ethra -- roadmap --summary
 npm run ethra -- list-domains --priority highest
 npm run ethra -- coverage-report
@@ -92,6 +95,7 @@ npm run ethra -- list-corpus --track technical-software
 npm run ethra -- governance
 npm run ethra -- validate-spec
 npm run ethra -- validate-corpus
+npm run ethra -- validate-compounds
 ```
 
 After building, you can also run:
@@ -131,6 +135,7 @@ ethra-language/
     pronouns.yaml
     grammar.yaml
     lexicon.yaml
+    compounds.yaml
     examples.yaml
     corpus.yaml
     roadmap.yaml

@@ -7,21 +7,23 @@ import { createCompound } from "../generators/compound";
 import { deriveWord, generateRoot } from "../generators/derivation";
 import {
   corpusSummary,
+  compoundSummary,
   domainCoverageReport,
+  listCompounds,
   listDomains,
   listCorpusItems,
   loadGovernance,
   loadRoadmap,
   roadmapSummary
 } from "../core/civilization";
-import { validateCorpus, validateSpec } from "../core/validation";
+import { validateCompounds, validateCorpus, validateSpec } from "../core/validation";
 
 const program = new Command();
 
 program
   .name("ethra")
   .description("Ethra language tools")
-  .version("0.2.0");
+  .version("0.2.1");
 
 program
   .command("generate-root")
@@ -101,6 +103,22 @@ program
   });
 
 program
+  .command("list-compounds")
+  .description("List curated compound terminology")
+  .option("-d, --domain <domain>", "filter by domain id")
+  .option("-s, --status <status>", "filter by lifecycle status")
+  .action((options) => {
+    console.log(JSON.stringify(listCompounds(options.domain, options.status), null, 2));
+  });
+
+program
+  .command("compound-summary")
+  .description("Show curated compound terminology counts")
+  .action(() => {
+    console.log(JSON.stringify(compoundSummary(), null, 2));
+  });
+
+program
   .command("roadmap")
   .description("Show the civilizational-scale expansion roadmap")
   .option("-m, --milestone <id>", "show one roadmap milestone")
@@ -175,6 +193,17 @@ program
   .description("Validate corpus tracks, domains, terms, and Ethra tokens")
   .action(() => {
     const report = validateCorpus();
+    console.log(JSON.stringify(report, null, 2));
+    if (!report.valid) {
+      process.exitCode = 1;
+    }
+  });
+
+program
+  .command("validate-compounds")
+  .description("Validate curated compound terms, components, domains, and examples")
+  .action(() => {
+    const report = validateCompounds();
     console.log(JSON.stringify(report, null, 2));
     if (!report.valid) {
       process.exitCode = 1;

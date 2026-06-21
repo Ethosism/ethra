@@ -1,5 +1,6 @@
 import { flattenLexicon, loadSpec, readSpecYaml } from "./spec";
 import type {
+  CompoundsSpec,
   CorpusPlanSpec,
   CorpusSpec,
   DomainSpec,
@@ -35,6 +36,7 @@ export interface RoadmapSummary {
     actual_lexicon_entries: number;
     actual_root_families: number;
     actual_corpus_items: number;
+    actual_compound_terms: number;
     actual_canonical_examples: number;
   };
   next_milestone: RoadmapMilestone;
@@ -70,6 +72,10 @@ export function loadCorpus(): CorpusSpec {
   return readSpecYaml<CorpusSpec>("corpus.yaml");
 }
 
+export function loadCompounds(): CompoundsSpec {
+  return readSpecYaml<CompoundsSpec>("compounds.yaml");
+}
+
 export function loadGovernance(): GovernanceSpec {
   return readSpecYaml<GovernanceSpec>("governance.yaml");
 }
@@ -78,16 +84,26 @@ export function roadmapSummary(): RoadmapSummary {
   const spec = loadSpec();
   const roadmap = loadRoadmap();
   const corpus = loadCorpus();
+  const compounds = loadCompounds();
   const milestones = roadmap.milestones;
+  const current = {
+    ...roadmap.current_state,
+    actual_lexicon_entries: flattenLexicon(spec).length,
+    actual_root_families: spec.roots.roots.length,
+    actual_corpus_items: corpus.items.length,
+    actual_compound_terms: compounds.terms.length,
+    actual_canonical_examples: spec.examples.examples.length
+  };
+  const nextMilestone =
+    milestones.find((milestone) =>
+      current.actual_lexicon_entries < milestone.target_entries ||
+      current.actual_root_families < milestone.target_roots ||
+      current.actual_corpus_items < milestone.target_corpus_items
+    ) ?? milestones[milestones.length - 1];
+
   return {
-    current: {
-      ...roadmap.current_state,
-      actual_lexicon_entries: flattenLexicon(spec).length,
-      actual_root_families: spec.roots.roots.length,
-      actual_corpus_items: corpus.items.length,
-      actual_canonical_examples: spec.examples.examples.length
-    },
-    next_milestone: milestones[0],
+    current,
+    next_milestone: nextMilestone,
     long_term_target: milestones[milestones.length - 1],
     principle: roadmap.principle
   };
@@ -166,4 +182,37 @@ export function listCorpusItems(track?: string) {
   const items = loadCorpus().items;
   if (!track) return items;
   return items.filter((item) => item.track === track);
+}
+
+export function listCompounds(domain?: string, status?: string) {
+  return loadCompounds().terms.filter((term) => {
+    const domainMatches = domain ? term.domain_tags.includes(domain) : true;
+    const statusMatches = status ? term.status === status : true;
+    return domainMatches && statusMatches;
+  });
+}
+
+export function compoundSummary() {
+  const compounds = loadCompounds();
+  const byDomain = new Map<string, number>();
+  const byStatus = new Map<string, number>();
+  const byRegister = new Map<string, number>();
+
+  for (const term of compounds.terms) {
+    byStatus.set(term.status, (byStatus.get(term.status) ?? 0) + 1);
+    byRegister.set(term.register, (byRegister.get(term.register) ?? 0) + 1);
+    for (const domain of term.domain_tags) {
+      byDomain.set(domain, (byDomain.get(domain) ?? 0) + 1);
+    }
+  }
+
+  return {
+    version: compounds.version,
+    purpose: compounds.purpose,
+    terms: compounds.terms.length,
+    accepted_terms: byStatus.get("accepted") ?? 0,
+    statuses: Object.fromEntries([...byStatus.entries()].sort((a, b) => a[0].localeCompare(b[0]))),
+    registers: Object.fromEntries([...byRegister.entries()].sort((a, b) => a[0].localeCompare(b[0]))),
+    domain_counts: Object.fromEntries([...byDomain.entries()].sort((a, b) => a[0].localeCompare(b[0])))
+  };
 }
