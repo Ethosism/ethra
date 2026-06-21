@@ -1,4 +1,4 @@
-version: "0.3.2-corpus"
+version: "0.3.5-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -6001,3 +6001,1003 @@ items:
     literal: "Glossary names words."
     notes: "Learner terminology sentence."
     terms: ["lezeg", "nam", "nem"]
+  -
+    id: "daily-106"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Context softens anger."
+    ethra: "Cexet kanal zeg."
+    literal: "Context comforts anger."
+    notes: "Daily emotional framing sentence."
+    terms: ["cexet", "kanal", "zeg"]
+  -
+    id: "daily-107"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "family-kinship"]
+    register: "intimate"
+    english: "Tenderness protects the wounded heart."
+    ethra: "Teder xap leb winis."
+    literal: "Tenderness protects heart wounded."
+    notes: "Intimate care sentence linking tenderness to repair."
+    terms: ["teder", "xap", "leb", "winis"]
+  -
+    id: "daily-108"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "emotion-psychology"]
+    register: "plain"
+    english: "The promise carries nearness."
+    ethra: "Perem taw neres."
+    literal: "Promise carries nearness."
+    notes: "Relational trust sentence."
+    terms: ["perem", "taw", "neres"]
+  -
+    id: "daily-109"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "plain"
+    english: "Forgiveness opens the house."
+    ethra: "Fereg ap hen."
+    literal: "Forgiveness opens house."
+    notes: "Household restoration sentence."
+    terms: ["fereg", "ap", "hen"]
+  -
+    id: "daily-110"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "history-memory"]
+    register: "plain"
+    english: "The cousin remembers the surname."
+    ethra: "Cesen mar seren."
+    literal: "Cousin remembers surname."
+    notes: "Family continuity sentence."
+    terms: ["cesen", "mar", "seren"]
+  -
+    id: "daily-111"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "plain"
+    english: "The guardian protects the orphan."
+    ethra: "Geren xap repeh."
+    literal: "Guardian protects orphanhood."
+    notes: "Kinship duty sentence."
+    terms: ["geren", "xap", "repeh"]
+  -
+    id: "daily-112"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "history-memory"]
+    register: "plain"
+    english: "Dawn opens the day."
+    ethra: "Dewen ap ded."
+    literal: "Dawn opens day."
+    notes: "Daily time sentence."
+    terms: ["dewen", "ap", "ded"]
+  -
+    id: "daily-113"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "history-memory"]
+    register: "plain"
+    english: "Dusk ends the day."
+    ethra: "Desek nad ded."
+    literal: "Dusk ends day."
+    notes: "Daily time sentence."
+    terms: ["desek", "nad", "ded"]
+  -
+    id: "daily-114"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "Loneliness asks for presence."
+    ethra: "Lenel kaw roh."
+    literal: "Loneliness asks presence."
+    notes: "Emotional need sentence."
+    terms: ["lenel", "kaw", "roh"]
+  -
+    id: "daily-115"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "conflict-security"]
+    register: "plain"
+    english: "Anxiety hears threat."
+    ethra: "Nexey hap xec."
+    literal: "Anxiety hears threat."
+    notes: "Threat perception sentence."
+    terms: ["nexey", "hap", "xec"]
+  -
+    id: "daily-116"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "education-training"]
+    register: "plain"
+    english: "Regret teaches patience."
+    ethra: "Reget dak jeh."
+    literal: "Regret teaches patience."
+    notes: "Moral learning sentence."
+    terms: ["reget", "dak", "jeh"]
+  -
+    id: "daily-117"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "emotion-psychology"]
+    register: "plain"
+    english: "Curiosity opens the lesson."
+    ethra: "Cerey ap lev."
+    literal: "Curiosity opens lesson."
+    notes: "Learning readiness sentence."
+    terms: ["cerey", "ap", "lev"]
+  -
+    id: "daily-118"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "family-kinship"]
+    register: "plain"
+    english: "Mutuality answers care."
+    ethra: "Metel vax wey."
+    literal: "Mutuality answers care."
+    notes: "Reciprocal care sentence."
+    terms: ["metel", "vax", "wey"]
+  -
+    id: "daily-119"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "plain"
+    english: "The spouse binds commitment."
+    ethra: "Sepec dav cemet."
+    literal: "Spouse binds commitment."
+    notes: "Household covenant sentence."
+    terms: ["sepec", "dav", "cemet"]
+  -
+    id: "daily-120"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "history-memory", "emotion-psychology"]
+    register: "plain"
+    english: "The night carries memory."
+    ethra: "Nehet taw mer."
+    literal: "Night carries memory."
+    notes: "Memory and sleep sentence."
+    terms: ["nehet", "taw", "mer"]
+  -
+    id: "civic-100"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The criterion guides judgment."
+    ethra: "Keret pat jev."
+    literal: "Criterion guides judgment."
+    notes: "Civic reasoning sentence."
+    terms: ["keret", "pat", "jev"]
+  -
+    id: "civic-101"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic"
+    english: "The jurisdiction order names context."
+    ethra: "Yaral-da nam cexet."
+    literal: "Jurisdiction order names context."
+    notes: "Legal framing sentence."
+    terms: ["yaral-da", "nam", "cexet"]
+  -
+    id: "civic-102"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic"
+    english: "Negligence binds consequence."
+    ethra: "Negel dav kenes."
+    literal: "Negligence binds consequence."
+    notes: "Legal causation sentence."
+    terms: ["negel", "dav", "kenes"]
+  -
+    id: "civic-103"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic"
+    english: "Complicity answers accountability."
+    ethra: "Cemep vax dez."
+    literal: "Complicity answers accountability."
+    notes: "Responsibility sentence."
+    terms: ["cemep", "vax", "dez"]
+  -
+    id: "civic-104"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic"
+    english: "Conscience guides obedience."
+    ethra: "Cenes pat beden."
+    literal: "Conscience guides obedience."
+    notes: "Moral law sentence."
+    terms: ["cenes", "pat", "beden"]
+  -
+    id: "civic-105"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic"
+    english: "Virtue protects justice."
+    ethra: "Veret xap sak."
+    literal: "Virtue protects justice."
+    notes: "Civic ethics sentence."
+    terms: ["veret", "xap", "sak"]
+  -
+    id: "civic-106"
+    track: "civic-law"
+    domain_tags: ["law-governance", "family-kinship"]
+    register: "civic"
+    english: "The guardianship right protects the orphan."
+    ethra: "Garan-ret xap repeh."
+    literal: "Guardianship right protects orphanhood."
+    notes: "Family law sentence."
+    terms: ["garan-ret", "xap", "repeh"]
+  -
+    id: "civic-107"
+    track: "civic-law"
+    domain_tags: ["law-governance", "family-kinship", "history-memory"]
+    register: "civic"
+    english: "The surname record carries memory."
+    ethra: "Saran-ket taw mer."
+    literal: "Surname record carries memory."
+    notes: "Civic identity record sentence."
+    terms: ["saran-ket", "taw", "mer"]
+  -
+    id: "civic-108"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "The context record answers the petition."
+    ethra: "Caxat-ket vax kenep."
+    literal: "Context record answers petition."
+    notes: "Administrative record sentence."
+    terms: ["caxat-ket", "vax", "kenep"]
+  -
+    id: "civic-109"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "Clarification names bias."
+    ethra: "Celef nam bejes."
+    literal: "Clarification names bias."
+    notes: "Public reason sentence."
+    terms: ["celef", "nam", "bejes"]
+  -
+    id: "civic-110"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "civic"
+    english: "Verification protects evidence."
+    ethra: "Veref xap deg."
+    literal: "Verification protects evidence."
+    notes: "Evidentiary standards sentence."
+    terms: ["veref", "xap", "deg"]
+  -
+    id: "civic-111"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic"
+    english: "Relevance guides justice."
+    ethra: "Relev pat sak."
+    literal: "Relevance guides justice."
+    notes: "Legal salience sentence."
+    terms: ["relev", "pat", "sak"]
+  -
+    id: "civic-112"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic"
+    english: "Timeliness answers the deadline."
+    ethra: "Temel vax tet."
+    literal: "Timeliness answers deadline."
+    notes: "Procedural time sentence."
+    terms: ["temel", "vax", "tet"]
+  -
+    id: "civic-113"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic"
+    english: "The delegation record names duty."
+    ethra: "Dalag-ket nam dev."
+    literal: "Delegation record names duty."
+    notes: "Office delegation sentence."
+    terms: ["dalag-ket", "nam", "dev"]
+  -
+    id: "civic-114"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "Merit guides the license."
+    ethra: "Meret pat kelem."
+    literal: "Merit guides license."
+    notes: "Credential judgment sentence."
+    terms: ["meret", "pat", "kelem"]
+  -
+    id: "civic-115"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic"
+    english: "Integrity protects the office."
+    ethra: "Neter xap xef."
+    literal: "Integrity protects office."
+    notes: "Institutional trust sentence."
+    terms: ["neter", "xap", "xef"]
+  -
+    id: "civic-116"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "civic"
+    english: "Discipline protects power."
+    ethra: "Desec xap kev."
+    literal: "Discipline protects power."
+    notes: "Power restraint sentence."
+    terms: ["desec", "xap", "kev"]
+  -
+    id: "ritual-100"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "sacred"
+    english: "Fasting protects attention."
+    ethra: "Ha feset xap san."
+    literal: "Sacred fasting protects attention."
+    notes: "Ritual discipline sentence."
+    terms: ["ha", "feset", "xap", "san"]
+  -
+    id: "ritual-101"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "sacred"
+    english: "Vigil carries memory."
+    ethra: "Ha vegel taw mer."
+    literal: "Sacred vigil carries memory."
+    notes: "Night watch remembrance sentence."
+    terms: ["ha", "vegel", "taw", "mer"]
+  -
+    id: "ritual-102"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory", "art-beauty"]
+    register: "sacred"
+    english: "The relic carries memory."
+    ethra: "Ha relec taw mer."
+    literal: "Sacred relic carries memory."
+    notes: "Material memory sentence."
+    terms: ["ha", "relec", "taw", "mer"]
+  -
+    id: "ritual-103"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "art-beauty"]
+    register: "sacred"
+    english: "The psalm sees the sacred."
+    ethra: "Ha peseh rah zer."
+    literal: "Sacred psalm sees the sacred."
+    notes: "Poetic ritual sentence."
+    terms: ["ha", "peseh", "rah", "zer"]
+  -
+    id: "ritual-104"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship"]
+    register: "sacred"
+    english: "Sanctuary protects the orphan."
+    ethra: "Ha seney xap repeh."
+    literal: "Sacred sanctuary protects orphanhood."
+    notes: "Mercy institution sentence."
+    terms: ["ha", "seney", "xap", "repeh"]
+  -
+    id: "ritual-105"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "sacred"
+    english: "Ordination binds duty."
+    ethra: "Ha reden dav dev."
+    literal: "Sacred ordination binds duty."
+    notes: "Ritual office sentence."
+    terms: ["ha", "reden", "dav", "dev"]
+  -
+    id: "ritual-106"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "sacred"
+    english: "Anointing names duty."
+    ethra: "Ha nenet nam dev."
+    literal: "Sacred anointing names duty."
+    notes: "Consecration sentence."
+    terms: ["ha", "nenet", "nam", "dev"]
+  -
+    id: "ritual-107"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "sacred"
+    english: "Absolution opens forgiveness."
+    ethra: "Ha besel ap fereg."
+    literal: "Sacred absolution opens forgiveness."
+    notes: "Ritual repair sentence."
+    terms: ["ha", "besel", "ap", "fereg"]
+  -
+    id: "ritual-108"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "sacred"
+    english: "Awe guides the heart."
+    ethra: "Ha weyer pat leb."
+    literal: "Sacred awe guides heart."
+    notes: "Ritual attention sentence."
+    terms: ["ha", "weyer", "pat", "leb"]
+  -
+    id: "ritual-109"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "sacred"
+    english: "Reverence protects presence."
+    ethra: "Ha reven xap roh."
+    literal: "Sacred reverence protects presence."
+    notes: "Sacred address sentence."
+    terms: ["ha", "reven", "xap", "roh"]
+  -
+    id: "ritual-110"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "sacred"
+    english: "Sacrifice carries duty."
+    ethra: "Ha seker taw dev."
+    literal: "Sacred sacrifice carries duty."
+    notes: "Costly obligation sentence."
+    terms: ["ha", "seker", "taw", "dev"]
+  -
+    id: "ritual-111"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "conflict-security"]
+    register: "sacred"
+    english: "Repentance repairs brokenness."
+    ethra: "Ha repen tar mik."
+    literal: "Sacred repentance repairs broken."
+    notes: "Ritual restoration sentence."
+    terms: ["ha", "repen", "tar", "mik"]
+  -
+    id: "ritual-112"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "family-kinship"]
+    register: "sacred"
+    english: "Devotion binds commitment."
+    ethra: "Ha devet dav cemet."
+    literal: "Sacred devotion binds commitment."
+    notes: "Devotional vow sentence."
+    terms: ["ha", "devet", "dav", "cemet"]
+  -
+    id: "ritual-113"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "sacred"
+    english: "Renewal protects continuity."
+    ethra: "Ha renew xap cenet."
+    literal: "Sacred renewal protects continuity."
+    notes: "Cultural renewal sentence."
+    terms: ["ha", "renew", "xap", "cenet"]
+  -
+    id: "ritual-114"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "sacred"
+    english: "The homeland remembers origin."
+    ethra: "Ha hemel mar gen."
+    literal: "Sacred homeland remembers origin."
+    notes: "Ancestral place sentence."
+    terms: ["ha", "hemel", "mar", "gen"]
+  -
+    id: "ritual-115"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "sacred"
+    english: "The anniversary names the day."
+    ethra: "Ha neves nam ded."
+    literal: "Sacred anniversary names day."
+    notes: "Calendar remembrance sentence."
+    terms: ["ha", "neves", "nam", "ded"]
+  -
+    id: "ritual-116"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "sacred"
+    english: "Continuity carries the people."
+    ethra: "Ha cenet taw lem."
+    literal: "Sacred continuity carries people."
+    notes: "Peoplehood continuity sentence."
+    terms: ["ha", "cenet", "taw", "lem"]
+  -
+    id: "tech-100"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "Context guides the dataset."
+    ethra: "Cexet pat xedel."
+    literal: "Context guides dataset."
+    notes: "Dataset framing sentence."
+    terms: ["cexet", "pat", "xedel"]
+  -
+    id: "tech-101"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "Bias warns the model."
+    ethra: "Bejes xaj med."
+    literal: "Bias warns model."
+    notes: "Model-risk sentence."
+    terms: ["bejes", "xaj", "med"]
+  -
+    id: "tech-102"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Verification protects evidence."
+    ethra: "Veref xap deg."
+    literal: "Verification protects evidence."
+    notes: "Technical evidence sentence."
+    terms: ["veref", "xap", "deg"]
+  -
+    id: "tech-103"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "Assumption names the model."
+    ethra: "Sepem nam med."
+    literal: "Assumption names model."
+    notes: "Model assumption sentence."
+    terms: ["sepem", "nam", "med"]
+  -
+    id: "tech-104"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "The criterion guides the embedding."
+    ethra: "Keret pat wedeg."
+    literal: "Criterion guides embedding."
+    notes: "Embedding evaluation sentence."
+    terms: ["keret", "pat", "wedeg"]
+  -
+    id: "tech-105"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "Observation records the log."
+    ethra: "Besev kat sebet."
+    literal: "Observation records log."
+    notes: "Logging observation sentence."
+    terms: ["besev", "kat", "sebet"]
+  -
+    id: "tech-106"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "Explanation answers the error."
+    ethra: "Xepel vax rex."
+    literal: "Explanation answers error."
+    notes: "Debug explanation sentence."
+    terms: ["xepel", "vax", "rex"]
+  -
+    id: "tech-107"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "Clarification repairs the error."
+    ethra: "Celef tar rex."
+    literal: "Clarification repairs error."
+    notes: "Debug clarification sentence."
+    terms: ["celef", "tar", "rex"]
+  -
+    id: "tech-108"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "The heuristic guides the algorithm."
+    ethra: "Herec pat pez."
+    literal: "Heuristic guides algorithm."
+    notes: "Algorithm guidance sentence."
+    terms: ["herec", "pat", "pez"]
+  -
+    id: "tech-109"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The gist carries the word."
+    ethra: "Geset taw nem."
+    literal: "Gist carries word."
+    notes: "Summarization sentence."
+    terms: ["geset", "taw", "nem"]
+  -
+    id: "tech-110"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "Intuition warns bias."
+    ethra: "Netel xaj bejes."
+    literal: "Intuition warns bias."
+    notes: "Cognitive-risk sentence."
+    terms: ["netel", "xaj", "bejes"]
+  -
+    id: "tech-111"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "Ignorance warns the error."
+    ethra: "Genep xaj rex."
+    literal: "Ignorance warns error."
+    notes: "Failure-analysis sentence."
+    terms: ["genep", "xaj", "rex"]
+  -
+    id: "tech-112"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "Expertise protects the compiler."
+    ethra: "Xeper xap bedek."
+    literal: "Expertise protects compiler."
+    notes: "Toolchain care sentence."
+    terms: ["xeper", "xap", "bedek"]
+  -
+    id: "tech-113"
+    track: "technical-software"
+    domain_tags: ["technology-software", "philosophy-metaphysics"]
+    register: "technical"
+    english: "The lens guides seeing."
+    ethra: "Lenes pat rah."
+    literal: "Lens guides seeing."
+    notes: "Interface perspective sentence."
+    terms: ["lenes", "pat", "rah"]
+  -
+    id: "tech-114"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "Ambiguity warns the parser."
+    ethra: "Mebeg xaj feres."
+    literal: "Ambiguity warns parser."
+    notes: "Parser-risk sentence."
+    terms: ["mebeg", "xaj", "feres"]
+  -
+    id: "tech-115"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Certainty answers verification."
+    ethra: "Ceret vax veref."
+    literal: "Certainty answers verification."
+    notes: "Validation confidence sentence."
+    terms: ["ceret", "vax", "veref"]
+  -
+    id: "tech-116"
+    track: "technical-software"
+    domain_tags: ["technology-software", "history-memory"]
+    register: "technical"
+    english: "The context record carries the log."
+    ethra: "Caxat-ket taw sebet."
+    literal: "Context record carries log."
+    notes: "Recorded context sentence."
+    terms: ["caxat-ket", "taw", "sebet"]
+  -
+    id: "poetic-100"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "media-communication", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Context is the world of the word."
+    ethra: "Cexet e wed en nem."
+    literal: "Context is world of word."
+    notes: "Poetic language philosophy sentence."
+    terms: ["cexet", "e", "wed", "en", "nem"]
+  -
+    id: "poetic-101"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Vulnerability opens presence."
+    ethra: "Veleb ap roh."
+    literal: "Vulnerability opens presence."
+    notes: "Intimate poetic sentence."
+    terms: ["veleb", "ap", "roh"]
+  -
+    id: "poetic-102"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Tenderness protects power."
+    ethra: "Teder xap kev."
+    literal: "Tenderness protects power."
+    notes: "Poetic restraint sentence."
+    terms: ["teder", "xap", "kev"]
+  -
+    id: "poetic-103"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship"]
+    register: "poetic"
+    english: "Devotion carries commitment."
+    ethra: "Devet taw cemet."
+    literal: "Devotion carries commitment."
+    notes: "Poetic vow sentence."
+    terms: ["devet", "taw", "cemet"]
+  -
+    id: "poetic-104"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Forgiveness returns presence."
+    ethra: "Fereg rad roh."
+    literal: "Forgiveness returns presence."
+    notes: "Poetic reconciliation sentence."
+    terms: ["fereg", "rad", "roh"]
+  -
+    id: "poetic-105"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Nearness is recognition."
+    ethra: "Neres e reh."
+    literal: "Nearness is recognition."
+    notes: "Poetic relational sentence."
+    terms: ["neres", "e", "reh"]
+  -
+    id: "poetic-106"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Intimate recognition repairs woundedness."
+    ethra: "Mi-rah tar wenes."
+    literal: "Intimate-seeing repairs woundedness."
+    notes: "Compressed love-as-recognition sentence."
+    terms: ["mi", "rah", "wenes", "tar"]
+  -
+    id: "poetic-107"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Belovedness is visible love."
+    ethra: "Leved e mev rih."
+    literal: "Belovedness is love visible."
+    notes: "Poetic belovedness sentence."
+    terms: ["leved", "e", "mev", "rih"]
+  -
+    id: "poetic-108"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "family-kinship"]
+    register: "poetic"
+    english: "Commitment binds the future."
+    ethra: "Cemet dav fer."
+    literal: "Commitment binds future."
+    notes: "Future-binding vow sentence."
+    terms: ["cemet", "dav", "fer"]
+  -
+    id: "poetic-109"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Conscience hears the sacred."
+    ethra: "Cenes hap zer."
+    literal: "Conscience hears the sacred."
+    notes: "Poetic moral attention sentence."
+    terms: ["cenes", "hap", "zer"]
+  -
+    id: "poetic-110"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Virtue is beauty."
+    ethra: "Veret e had."
+    literal: "Virtue is beauty."
+    notes: "Aesthetic ethics sentence."
+    terms: ["veret", "e", "had"]
+  -
+    id: "poetic-111"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Vice breaks choice."
+    ethra: "Veyes mak vel."
+    literal: "Vice breaks choice."
+    notes: "Poetic agency sentence."
+    terms: ["veyes", "mak", "vel"]
+  -
+    id: "poetic-112"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Repentance returns the path."
+    ethra: "Repen rad pat."
+    literal: "Repentance returns path."
+    notes: "Poetic restoration sentence."
+    terms: ["repen", "rad", "pat"]
+  -
+    id: "poetic-113"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "The anniversary remembers the heart."
+    ethra: "Neves mar leb."
+    literal: "Anniversary remembers heart."
+    notes: "Memory and affection sentence."
+    terms: ["neves", "mar", "leb"]
+  -
+    id: "poetic-114"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "emotion-psychology"]
+    register: "poetic"
+    english: "Melancholy carries night."
+    ethra: "Melen taw nehet."
+    literal: "Melancholy carries night."
+    notes: "Poetic mood sentence."
+    terms: ["melen", "taw", "nehet"]
+  -
+    id: "poetic-115"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "Continuity protects the people."
+    ethra: "Cenet xap lem."
+    literal: "Continuity protects people."
+    notes: "Poetic civic memory sentence."
+    terms: ["cenet", "xap", "lem"]
+  -
+    id: "poetic-116"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "The homeland remembers origin."
+    ethra: "Hemel mar gen."
+    literal: "Homeland remembers origin."
+    notes: "Poetic place-memory sentence."
+    terms: ["hemel", "mar", "gen"]
+  -
+    id: "learner-100"
+    track: "learner-graded"
+    domain_tags: ["philosophy-metaphysics", "education-training"]
+    register: "learner-a1"
+    english: "Context is visible."
+    ethra: "Cexet e rih."
+    literal: "Context is visible."
+    notes: "Learner abstraction sentence."
+    terms: ["cexet", "e", "rih"]
+  -
+    id: "learner-101"
+    track: "learner-graded"
+    domain_tags: ["philosophy-metaphysics", "education-training"]
+    register: "learner-a1"
+    english: "Perspective is visible."
+    ethra: "Peser e rih."
+    literal: "Perspective is visible."
+    notes: "Learner perspective sentence."
+    terms: ["peser", "e", "rih"]
+  -
+    id: "learner-102"
+    track: "learner-graded"
+    domain_tags: ["philosophy-metaphysics", "education-training"]
+    register: "learner-a1"
+    english: "Bias warns."
+    ethra: "Bejes xaj."
+    literal: "Bias warns."
+    notes: "Learner bias sentence."
+    terms: ["bejes", "xaj"]
+  -
+    id: "learner-103"
+    track: "learner-graded"
+    domain_tags: ["science-math", "education-training"]
+    register: "learner-a2"
+    english: "Verification protects evidence."
+    ethra: "Veref xap deg."
+    literal: "Verification protects evidence."
+    notes: "Learner evidence sentence."
+    terms: ["veref", "xap", "deg"]
+  -
+    id: "learner-104"
+    track: "learner-graded"
+    domain_tags: ["media-communication", "education-training"]
+    register: "learner-a2"
+    english: "Clarification names words."
+    ethra: "Celef nam nem."
+    literal: "Clarification names word."
+    notes: "Learner clarification sentence."
+    terms: ["celef", "nam", "nem"]
+  -
+    id: "learner-105"
+    track: "learner-graded"
+    domain_tags: ["emotion-psychology"]
+    register: "learner-a1"
+    english: "Vulnerability is open."
+    ethra: "Veleb e ap."
+    literal: "Vulnerability is open."
+    notes: "Learner emotional-state sentence."
+    terms: ["veleb", "e", "ap"]
+  -
+    id: "learner-106"
+    track: "learner-graded"
+    domain_tags: ["emotion-psychology", "family-kinship"]
+    register: "learner-a1"
+    english: "Tenderness protects the heart."
+    ethra: "Teder xap leb."
+    literal: "Tenderness protects heart."
+    notes: "Learner care sentence."
+    terms: ["teder", "xap", "leb"]
+  -
+    id: "learner-107"
+    track: "learner-graded"
+    domain_tags: ["emotion-psychology"]
+    register: "learner-a2"
+    english: "Forgiveness repairs woundedness."
+    ethra: "Fereg tar wenes."
+    literal: "Forgiveness repairs woundedness."
+    notes: "Learner repair sentence."
+    terms: ["fereg", "tar", "wenes"]
+  -
+    id: "learner-108"
+    track: "learner-graded"
+    domain_tags: ["philosophy-metaphysics"]
+    register: "learner-a2"
+    english: "Conscience guides me."
+    ethra: "Cenes pat na."
+    literal: "Conscience guides me."
+    notes: "Learner moral agency sentence."
+    terms: ["cenes", "pat", "na"]
+  -
+    id: "learner-109"
+    track: "learner-graded"
+    domain_tags: ["philosophy-metaphysics"]
+    register: "learner-a2"
+    english: "Virtue protects choice."
+    ethra: "Veret xap vel."
+    literal: "Virtue protects choice."
+    notes: "Learner virtue sentence."
+    terms: ["veret", "xap", "vel"]
+  -
+    id: "learner-110"
+    track: "learner-graded"
+    domain_tags: ["philosophy-metaphysics"]
+    register: "learner-a2"
+    english: "Repentance repairs brokenness."
+    ethra: "Repen tar mik."
+    literal: "Repentance repairs broken."
+    notes: "Learner repentance sentence."
+    terms: ["repen", "tar", "mik"]
+  -
+    id: "learner-111"
+    track: "learner-graded"
+    domain_tags: ["history-memory"]
+    register: "learner-a1"
+    english: "The year carries memory."
+    ethra: "Yerer taw mer."
+    literal: "Year carries memory."
+    notes: "Learner calendar sentence."
+    terms: ["yerer", "taw", "mer"]
+  -
+    id: "learner-112"
+    track: "learner-graded"
+    domain_tags: ["history-memory"]
+    register: "learner-a1"
+    english: "The night carries memory."
+    ethra: "Nehet taw mer."
+    literal: "Night carries memory."
+    notes: "Learner time-memory sentence."
+    terms: ["nehet", "taw", "mer"]
+  -
+    id: "learner-113"
+    track: "learner-graded"
+    domain_tags: ["emotion-psychology"]
+    register: "learner-a1"
+    english: "Anxiety warns."
+    ethra: "Nexey xaj."
+    literal: "Anxiety warns."
+    notes: "Learner warning sentence."
+    terms: ["nexey", "xaj"]
+  -
+    id: "learner-114"
+    track: "learner-graded"
+    domain_tags: ["emotion-psychology"]
+    register: "learner-a2"
+    english: "Loneliness asks for presence."
+    ethra: "Lenel kaw roh."
+    literal: "Loneliness asks presence."
+    notes: "Learner emotional need sentence."
+    terms: ["lenel", "kaw", "roh"]
+  -
+    id: "learner-115"
+    track: "learner-graded"
+    domain_tags: ["family-kinship", "history-memory"]
+    register: "learner-a2"
+    english: "The cousin remembers the surname."
+    ethra: "Cesen mar seren."
+    literal: "Cousin remembers surname."
+    notes: "Learner family continuity sentence."
+    terms: ["cesen", "mar", "seren"]
+  -
+    id: "learner-116"
+    track: "learner-graded"
+    domain_tags: ["history-memory"]
+    register: "learner-a2"
+    english: "Continuity protects the people."
+    ethra: "Cenet xap lem."
+    literal: "Continuity protects people."
+    notes: "Learner civic memory sentence."
+    terms: ["cenet", "xap", "lem"]
