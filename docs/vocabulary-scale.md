@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 20,057 explicit lexicon entries and 2,000 reviewed corpus items after the v0.5.0 public-culture corpus closeout. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
+Ethra currently has 20,057 explicit lexicon entries and 2,120 reviewed corpus items after the v0.5.1 first v1.0 corpus batch. The v0.5 entry, root, and corpus gates are met; the next scale target is v1.0 stable civil language.
 
 Current progress toward the v1.0 stable-civil-language target:
 
 ```text
 entries 20,057 / 25,000
 roots     1,000 / 2,500
-corpus    2,000 / 10,000 reviewed items
+corpus    2,120 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -82,7 +82,9 @@ The v0.3.20 corpus batch adds 120 more reviewed examples, bringing learner-grade
 
 The v0.5.0 corpus closeout adds the final 20 reviewed examples needed for public culture. All six track targets are met: 400 daily-dialogue items, 300 civic/legal items, 300 ritual/vow items, 400 technical/software items, 400 literary/poetic items, and 200 learner-graded items.
 
-The next numeric gaps are v1.0 gaps: 4,943 more explicit entries, 1,500 more root families, and 8,000 more reviewed corpus items.
+The v0.5.1 corpus batch adds the first 120 reviewed examples toward v1.0: 24 daily-dialogue items, 18 civic/legal items, 18 ritual/vow items, 24 technical/software items, 24 literary/poetic items, and 12 learner-graded items. It moves the corpus to 2,120 reviewed items while strengthening science/math, nature/ecology, economics/provision, education, conflict/security, health, AI, media, family, civic, ritual, technical, and poetic usage.
+
+The next numeric gaps are v1.0 gaps: 4,943 more explicit entries, 1,500 more root families, and 7,880 more reviewed corpus items.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 

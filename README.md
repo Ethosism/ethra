@@ -1,10 +1,10 @@
 # Ethra Language
 
-Ethra is a v0.5.0 constructed civilizational language. It is not meant to be an Esperanto clone, a naming toy, or an aesthetic exercise. Its design goal is to make certain cultural habits native to ordinary speech: truth, duty, beauty, memory, agency, consequence, inheritance, repair, love as recognition, speech as binding, and the future as a moral claimant.
+Ethra is a v0.5.1 constructed civilizational language. It is not meant to be an Esperanto clone, a naming toy, or an aesthetic exercise. Its design goal is to make certain cultural habits native to ordinary speech: truth, duty, beauty, memory, agency, consequence, inheritance, repair, love as recognition, speech as binding, and the future as a moral claimant.
 
 The working name is kept as **Ethra** because it is short, pronounceable, and internally useful: `eth` evokes ethos and `ra` evokes seeing. The name therefore sounds like "ethos made visible."
 
-Status: v0.5.0 meets the public-culture corpus gate: generated YAML data, productive derivation patterns, expanded root-bank coverage, 2,000 reviewed corpus items, TypeScript CLI, compound terminology, corpus/governance planning, and tests.
+Status: v0.5.1 has passed the public-culture corpus gate and begun the v1.0 corpus program: generated YAML data, productive derivation patterns, expanded root-bank coverage, 2,120 reviewed corpus items, TypeScript CLI, compound terminology, corpus/governance planning, and tests.
 
 Repository: <https://github.com/Ethosism/ethra>
 
@@ -35,7 +35,7 @@ Ethra treats language as training. What is easy to say becomes easy to notice. W
 - **Lexicon:** generated core lexicon with 20,057 explicit entries across pronouns, particles, moral agency, family, body, mind, emotion, seeing/knowing, speech, time, nature, building/making, law/civic life, technology, ritual/poetry, love/intimacy, conflict/repair, and future/civilization.
 - **Compounds:** 100 curated compound terms for German-style conceptual architecture.
 - **Machine-readable spec:** YAML files in `spec/` for phonology, derivation patterns, roots, particles, pronouns, grammar, lexicon, compounds, corpus, roadmap, domains, governance, and examples.
-- **Corpus:** 2,000 reviewed seed corpus items across daily dialogue, civic/legal, ritual/vow, technical/software, literary/poetic, and learner tracks.
+- **Corpus:** 2,120 reviewed seed corpus items across daily dialogue, civic/legal, ritual/vow, technical/software, literary/poetic, and learner tracks.
 - **Expansion program:** roadmap, domain ontology, corpus plan, and governance model for growing toward civilizational-scale expressive coverage.
 - **Tooling:** CLI commands for root generation, word derivation, word analysis, example lookup, root/particle/pattern listing, lexicon listing, compound creation, roadmap inspection, domain coverage, corpus planning/next-batch recommendation/listing, governance review, and spec/corpus validation.
 
@@ -173,7 +173,7 @@ The generated YAML is committed intentionally. It is the stable interface for fu
 - Better phonotactic syllabification.
 - Expand from 20,057 to 25,000 explicit entries.
 - Expand from 1,000 to 2,500 root families.
-- Expand from 2,000 to 10,000 reviewed corpus items.
+- Expand from 2,120 to 10,000 reviewed corpus items.
 - Use `corpus-next` to keep v1.0 corpus batches proportional to track targets and under-covered domains.
 - Expanded law, software, poetry, and prayer registers.
 - Corpus-based consistency checks for all example sentences.
