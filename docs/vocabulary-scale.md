@@ -1,6 +1,6 @@
 # Vocabulary Scale
 
-Ethra currently has 26,057 explicit lexicon entries, 26,212 dictionary entries, 1,300 root families, and 2,600 reviewed corpus items after the v0.6.6 institutional-depth root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 26,057 explicit lexicon entries, 26,212 dictionary entries, 1,300 root families, and 2,720 reviewed corpus items after the v0.6.7 corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
@@ -8,7 +8,7 @@ Current progress toward the v1.0 stable-civil-language target:
 entries 26,057 / 25,000
 dictionary 26,212 entries with corpus evidence fields
 roots     1,300 / 2,500
-corpus    2,600 / 10,000 reviewed items
+corpus    2,720 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -115,7 +115,9 @@ The v0.6.5 corpus grounding batch adds 120 reviewed examples using the v0.6.4 ro
 
 The v0.6.6 institutional-depth root batch adds 50 roots and 1,000 derived lexicon entries for quarantine, placebo controls, prognosis, referrals, inpatient care, contraindications, glucose, patient standing, tenancy, landlords, inflation, expenses, insurance premiums, deductibles, escrow, arrears, warranties, refunds, depreciation, probation, injunctions, affidavits, depositions, consensus, coalitions, quorum, sidewalks, intersections, parking, subways, buses, benchmarks, leaderboards, hallucinations, attribution, calibration, variance, ranking, injection attacks, fine-tuning, batches, replication, worksheets, footnotes, commentary, pagination, outlines, appendices, abstracts, and duplicate records.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 1,200 more root families and 7,400 more reviewed corpus items still needed.
+The v0.6.7 corpus grounding batch adds 120 reviewed examples using the v0.6.6 roots across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds medical isolation, trial controls, prognosis, referrals, contraindications, glucose, patient status, housing duties, inflation, expenses, premiums, escrow, warranties, refunds, probation, affidavits, consensus, quorum, sidewalks, subways, benchmarks, leaderboards, hallucinations, attribution, calibration, variance, ranking, injection attacks, fine-tuning, batches, replication, worksheets, footnotes, commentary, pagination, outlines, appendices, abstracts, and duplicate records in actual sentences.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 1,200 more root families and 7,280 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
