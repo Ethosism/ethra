@@ -52,7 +52,7 @@ test("loads canonical example translations", () => {
 test("lexicon contains the expanded seed breadth", () => {
   const entries = flattenLexicon();
   const categories = new Set(entries.map((entry) => entry.category));
-  assert.ok(entries.length >= 700);
+  assert.ok(entries.length >= 1000);
   for (const category of [
     "Pronouns",
     "Particles",

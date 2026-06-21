@@ -601,3 +601,403 @@ items:
     literal: "I choose duty this."
     notes: "Moral grammar enters early learner material."
     terms: ["na", "vel", "dev", "se"]
+  -
+    id: "daily-011"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology"]
+    register: "plain"
+    english: "I trust you."
+    ethra: "Na van ta."
+    literal: "I trust equal-you."
+    notes: "Trust enters ordinary equal address."
+    terms: ["na", "van", "ta"]
+  -
+    id: "daily-012"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "emotion-psychology"]
+    register: "household"
+    english: "I calm the child."
+    ethra: "Na yaw tu."
+    literal: "I calm child-student."
+    notes: "Care is expressed as steadying another."
+    terms: ["na", "yaw", "tu"]
+  -
+    id: "daily-013"
+    track: "daily-dialogues"
+    domain_tags: ["body-health", "family-kinship"]
+    register: "intimate"
+    english: "The child hurts. I care for the child."
+    ethra: "Tu pan. Na hal tu."
+    literal: "Child-student hurts. I care child-student."
+    notes: "Pain triggers entrusted care."
+    terms: ["tu", "pan", "na", "hal"]
+  -
+    id: "daily-014"
+    track: "daily-dialogues"
+    domain_tags: ["body-health"]
+    register: "plain"
+    english: "I bleed."
+    ethra: "Na bag."
+    literal: "I bleed."
+    notes: "Basic bodily distress statement."
+    terms: ["na", "bag"]
+  -
+    id: "daily-015"
+    track: "daily-dialogues"
+    domain_tags: ["family-kinship"]
+    register: "household"
+    english: "I adopt the child for the family."
+    ethra: "Na yad tu so-hen."
+    literal: "I adopt child-student for-family."
+    notes: "Adoption is chosen kinship under household scope."
+    terms: ["na", "yad", "tu", "so-hen"]
+  -
+    id: "daily-016"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship"]
+    register: "household"
+    english: "The household gathers at the hearth."
+    ethra: "Hon ham hem."
+    literal: "Household hearths hearth."
+    notes: "Hearth is both action and center of gathering."
+    terms: ["hon", "ham", "hem"]
+  -
+    id: "daily-017"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place", "economics-provision"]
+    register: "plain"
+    english: "I work toward the city."
+    ethra: "Na wak ad cet."
+    literal: "I work toward city."
+    notes: "Ordinary work is placed toward a public dwelling."
+    terms: ["na", "wak", "ad", "cet"]
+  -
+    id: "daily-018"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision", "body-health"]
+    register: "household"
+    english: "I pay for food."
+    ethra: "Na may fed."
+    literal: "I pay food."
+    notes: "Money is attached to sustenance."
+    terms: ["na", "may", "fed"]
+  -
+    id: "daily-019"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "body-health"]
+    register: "plain"
+    english: "You rest."
+    ethra: "Ta cap."
+    literal: "Equal-you rest."
+    notes: "Plain instruction or observation."
+    terms: ["ta", "cap"]
+  -
+    id: "daily-020"
+    track: "daily-dialogues"
+    domain_tags: ["emotion-psychology"]
+    register: "intimate"
+    english: "I long for you."
+    ethra: "Na lag ta."
+    literal: "I long equal-you."
+    notes: "Longing is named without possession."
+    terms: ["na", "lag", "ta"]
+  -
+    id: "daily-021"
+    track: "daily-dialogues"
+    domain_tags: ["emotion-psychology", "philosophy-metaphysics"]
+    register: "plain"
+    english: "I stand with courage before truth."
+    ethra: "Na bat so-rah."
+    literal: "I stand-bravely before-truth."
+    notes: "Courage is scoped by truth."
+    terms: ["na", "bat", "so-rah"]
+  -
+    id: "daily-022"
+    track: "daily-dialogues"
+    domain_tags: ["emotion-psychology", "history-memory"]
+    register: "plain"
+    english: "I hope for the future."
+    ethra: "Na fay so-fer."
+    literal: "I hope for-future."
+    notes: "Hope is linked to future claim."
+    terms: ["na", "fay", "so-fer"]
+  -
+    id: "daily-023"
+    track: "daily-dialogues"
+    domain_tags: ["nature-ecology", "daily-life"]
+    register: "plain"
+    english: "The weather flows."
+    ethra: "Hes nu fal."
+    literal: "Weather now flows."
+    notes: "Weather is described as changing flow."
+    terms: ["hes", "nu", "fal"]
+  -
+    id: "daily-024"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "travel-place"]
+    register: "household"
+    english: "I walk toward the hearth."
+    ethra: "Na pat ad hem."
+    literal: "I walk toward hearth."
+    notes: "Homeward movement in ordinary speech."
+    terms: ["na", "pat", "ad", "hem"]
+  -
+    id: "daily-025"
+    track: "daily-dialogues"
+    domain_tags: ["family-kinship", "emotion-psychology"]
+    register: "plain"
+    english: "The friend rests with me."
+    ethra: "Fet cap ko na."
+    literal: "Friendship rests with me."
+    notes: "Friendship can act as a relational noun."
+    terms: ["fet", "cap", "ko", "na"]
+  -
+    id: "civic-011"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic"
+    english: "The citizen votes."
+    ethra: "Te yag."
+    literal: "Civic-you votes."
+    notes: "Civic peer address used as citizen shorthand."
+    terms: ["te", "yag"]
+  -
+    id: "civic-012"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "legal"
+    english: "The evidence keeper publicly names the evidence."
+    ethra: "Xagen pu nam xeg."
+    literal: "Evidence-keeper publicly names evidence."
+    notes: "Evidence is handled through public speech."
+    terms: ["xagen", "pu", "nam", "xeg"]
+  -
+    id: "civic-013"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "civic"
+    english: "The person contributes for the people."
+    ethra: "Li gal so-lem."
+    literal: "Person contributes for-people."
+    notes: "Tax/contribution is scoped toward public peoplehood."
+    terms: ["li", "gal", "so-lem"]
+  -
+    id: "civic-014"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "legal"
+    english: "The juror judges."
+    ethra: "Janen jav."
+    literal: "Juror judges."
+    notes: "Jury and judgment roots remain distinct."
+    terms: ["janen", "jav"]
+  -
+    id: "civic-015"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic"
+    english: "The court is open."
+    ethra: "Cek e ap."
+    literal: "Court is open."
+    notes: "Open court as a civic norm."
+    terms: ["cek", "e", "ap"]
+  -
+    id: "ritual-011"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory", "emotion-psychology"]
+    register: "solemn"
+    english: "Hope for the future."
+    ethra: "Ha fay so-fer."
+    literal: "Solemn hope for-future."
+    notes: "Hope enters ritual as future-facing speech."
+    terms: ["ha", "fay", "so-fer"]
+  -
+    id: "ritual-012"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health", "family-kinship"]
+    register: "ritual"
+    english: "Bless the blood."
+    ethra: "Ha veb beg."
+    literal: "Solemn bless blood."
+    notes: "Blood is treated as life and kin vulnerability."
+    terms: ["ha", "veb", "beg"]
+  -
+    id: "ritual-013"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "art-beauty"]
+    register: "ritual"
+    english: "The poem is beautiful."
+    ethra: "Ha dep e hid."
+    literal: "Solemn poem is beautiful."
+    notes: "Poem and beauty join in ritual register."
+    terms: ["ha", "dep", "e", "hid"]
+  -
+    id: "ritual-014"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "art-beauty"]
+    register: "ritual"
+    english: "Rhythm sings."
+    ethra: "Ha lec cag."
+    literal: "Solemn rhythm sings."
+    notes: "Ritual cadence as song."
+    terms: ["ha", "lec", "cag"]
+  -
+    id: "ritual-015"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "nature-ecology", "history-memory"]
+    register: "ritual"
+    english: "The seed is future."
+    ethra: "Ha yev e fer."
+    literal: "Solemn seed is future."
+    notes: "Planting is framed as future obligation."
+    terms: ["ha", "yev", "e", "fer"]
+  -
+    id: "tech-011"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition"]
+    register: "technical"
+    english: "I prompt the machine."
+    ethra: "Na vam mef."
+    literal: "I prompt machine."
+    notes: "Prompting is an invocation input, not neutral magic."
+    terms: ["na", "vam", "mef"]
+  -
+    id: "tech-012"
+    track: "technical-software"
+    domain_tags: ["technology-software"]
+    register: "technical"
+    english: "The algorithm governs the tool."
+    ethra: "Yer rag tel."
+    literal: "Algorithm governs tool."
+    notes: "Procedures can direct instruments."
+    terms: ["yer", "rag", "tel"]
+  -
+    id: "tech-013"
+    track: "technical-software"
+    domain_tags: ["technology-software", "ai-cognition", "philosophy-metaphysics"]
+    register: "technical"
+    english: "Alignment is duty."
+    ethra: "Zey e dev."
+    literal: "Alignment is duty."
+    notes: "Alignment is treated as obligation, not only fit."
+    terms: ["zey", "e", "dev"]
+  -
+    id: "tech-014"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "The interface reveals data."
+    ethra: "Heg rah den."
+    literal: "Interface sees/reveals data."
+    notes: "Display is accountable revelation."
+    terms: ["heg", "rah", "den"]
+  -
+    id: "tech-015"
+    track: "technical-software"
+    domain_tags: ["technology-software", "conflict-security"]
+    register: "technical"
+    english: "The key secures the network."
+    ethra: "Fek xap new."
+    literal: "Key secures network."
+    notes: "Credentials are security instruments."
+    terms: ["fek", "xap", "new"]
+  -
+    id: "poetic-011"
+    track: "literary-poetic"
+    domain_tags: ["emotion-psychology", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "Wonder is light."
+    ethra: "Wer e ner."
+    literal: "Wonder is light."
+    notes: "Astonishment is a form of illumination."
+    terms: ["wer", "e", "ner"]
+  -
+    id: "poetic-012"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "history-memory"]
+    register: "poetic"
+    english: "The poem remembers loss."
+    ethra: "Dep mar lex."
+    literal: "Poem remembers loss."
+    notes: "Poetry carries absence into memory."
+    terms: ["dep", "mar", "lex"]
+  -
+    id: "poetic-013"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty"]
+    register: "poetic"
+    english: "The song is with rhythm."
+    ethra: "Ceg ko lec."
+    literal: "Song with rhythm."
+    notes: "Compact poetic grammar."
+    terms: ["ceg", "ko", "lec"]
+  -
+    id: "poetic-014"
+    track: "literary-poetic"
+    domain_tags: ["art-beauty", "nature-ecology", "philosophy-metaphysics"]
+    register: "poetic"
+    english: "The image sees the seed."
+    ethra: "Jem rah yev."
+    literal: "Image sees seed."
+    notes: "Image reveals potential life."
+    terms: ["jem", "rah", "yev"]
+  -
+    id: "poetic-015"
+    track: "literary-poetic"
+    domain_tags: ["emotion-psychology"]
+    register: "poetic"
+    english: "Calm flows through the heart."
+    ethra: "Yew fal bi leb."
+    literal: "Calm flows through heart."
+    notes: "Emotional quiet as movement, not deadness."
+    terms: ["yew", "fal", "bi", "leb"]
+  -
+    id: "learner-011"
+    track: "learner-graded"
+    domain_tags: ["body-health"]
+    register: "learner-a1"
+    english: "I bleed."
+    ethra: "Na bag."
+    literal: "I bleed."
+    notes: "Beginner body-health phrase."
+    terms: ["na", "bag"]
+  -
+    id: "learner-012"
+    track: "learner-graded"
+    domain_tags: ["emotion-psychology"]
+    register: "learner-a1"
+    english: "I trust you."
+    ethra: "Na van ta."
+    literal: "I trust equal-you."
+    notes: "Beginner relational trust phrase."
+    terms: ["na", "van", "ta"]
+  -
+    id: "learner-013"
+    track: "learner-graded"
+    domain_tags: ["emotion-psychology"]
+    register: "learner-a1"
+    english: "You hope."
+    ethra: "Ta fay."
+    literal: "Equal-you hope."
+    notes: "Beginner emotion/future phrase."
+    terms: ["ta", "fay"]
+  -
+    id: "learner-014"
+    track: "learner-graded"
+    domain_tags: ["law-governance"]
+    register: "learner-a2"
+    english: "I vote."
+    ethra: "Na yag."
+    literal: "I vote."
+    notes: "Learner civic verb."
+    terms: ["na", "yag"]
+  -
+    id: "learner-015"
+    track: "learner-graded"
+    domain_tags: ["technology-software"]
+    register: "learner-a2"
+    english: "The code is open."
+    ethra: "Ket e ap."
+    literal: "Code is open."
+    notes: "Learner technical phrase with copula."
+    terms: ["ket", "e", "ap"]

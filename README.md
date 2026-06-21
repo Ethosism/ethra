@@ -4,7 +4,7 @@ Ethra is a v0.1 constructed civilizational language. It is not meant to be an Es
 
 The working name is kept as **Ethra** because it is short, pronounceable, and internally useful: `eth` evokes ethos and `ra` evokes seeing. The name therefore sounds like "ethos made visible."
 
-Status: v0.1 specification plus v0.2 seed expansion, generated YAML data, TypeScript CLI, corpus/governance planning, and tests.
+Status: v0.2 foundation release, generated YAML data, TypeScript CLI, corpus/governance planning, and tests.
 
 Repository: <https://github.com/Ethosism/ethra>
 
@@ -30,10 +30,10 @@ Ethra treats language as training. What is easy to say becomes easy to notice. W
 - **Tense/aspect:** particles such as `pa`, `nu`, `fu`, `ka`, `ga`, `va`.
 - **Moral grammar:** particles distinguish can, may, want, choose, should, owe, vow, inherited duty, chosen duty, entrusted duty, repair, and scope of action.
 - **Relational grammar:** pronouns distinguish beloved, equal, elder/teacher, child/student, citizen, opponent, sacred addressee, and collective people.
-- **Roots:** 85 root families with derived action, concept, quality, agent, object, ritual, civic, and intimate forms.
-- **Lexicon:** generated core lexicon with 737 explicit entries across pronouns, particles, moral agency, family, body, mind, emotion, seeing/knowing, speech, time, nature, building/making, law/civic life, technology, ritual/poetry, love/intimacy, conflict/repair, and future/civilization.
+- **Roots:** 152 root families with derived action, concept, quality, agent, object, ritual, civic, and intimate forms.
+- **Lexicon:** generated core lexicon with 1,273 explicit entries across pronouns, particles, moral agency, family, body, mind, emotion, seeing/knowing, speech, time, nature, building/making, law/civic life, technology, ritual/poetry, love/intimacy, conflict/repair, and future/civilization.
 - **Machine-readable spec:** YAML files in `spec/` for phonology, roots, particles, pronouns, grammar, lexicon, and examples.
-- **Corpus:** 60 reviewed seed corpus items across daily dialogue, civic/legal, ritual/vow, technical/software, literary/poetic, and learner tracks.
+- **Corpus:** 100 reviewed seed corpus items across daily dialogue, civic/legal, ritual/vow, technical/software, literary/poetic, and learner tracks.
 - **Expansion program:** roadmap, domain ontology, corpus plan, and governance model for growing toward civilizational-scale expressive coverage.
 - **Tooling:** CLI commands for root generation, word derivation, word analysis, example lookup, particle/root listing, lexicon listing, compound creation, roadmap inspection, domain coverage, corpus planning/listing, governance review, and spec/corpus validation.
 

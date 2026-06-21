@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 737 explicit lexicon entries after the v0.2 seed expansion. That is enough to demonstrate scaled architecture across more domains, not enough to function as a complete language.
+Ethra currently has 1,273 explicit lexicon entries after the v0.2 foundation expansion. That is enough to support early structured use across more domains, not enough to function as a complete language.
 
 Current progress toward the v0.2 foundation target:
 
 ```text
-entries 737 / 1,000
-roots    85 / 150
-corpus   60 / 100 reviewed items
+entries 1,273 / 1,000
+roots     152 / 150
+corpus    100 / 100 reviewed items
 ```
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
