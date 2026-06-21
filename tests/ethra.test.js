@@ -335,6 +335,26 @@ test("looks up roots by aliases and derives words", () => {
   const warden = deriveWord("WRDN", "noun");
   assert.equal(warden.word, "wereden");
   assert.equal(warden.root.id, "WRDN");
+
+  const dog = deriveWord("KYNX", "noun");
+  assert.equal(dog.word, "keyenex");
+  assert.equal(dog.root.id, "KYNX");
+
+  const chicken = deriveWord("CHKN", "noun");
+  assert.equal(chicken.word, "ceheken");
+  assert.equal(chicken.root.id, "CHKN");
+
+  const bee = deriveWord("BYX", "noun");
+  assert.equal(bee.word, "beyex");
+  assert.equal(bee.root.id, "BYX");
+
+  const farm = deriveWord("FRMX", "noun");
+  assert.equal(farm.word, "feremex");
+  assert.equal(farm.root.id, "FRMX");
+
+  const vineyard = deriveWord("VYND", "noun");
+  assert.equal(vineyard.word, "veyened");
+  assert.equal(vineyard.root.id, "VYND");
 });
 
 test("analyzes known words", () => {

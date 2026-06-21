@@ -1,13 +1,13 @@
 # Vocabulary Scale
 
-Ethra currently has 29,057 explicit lexicon entries, 29,212 dictionary entries, 1,450 root families, and 3,080 reviewed corpus items after the v0.7.3 social-role corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 30,057 explicit lexicon entries, 30,212 dictionary entries, 1,500 root families, and 3,080 reviewed corpus items after the v0.7.4 nature/agriculture root batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
 
 Current progress toward the v1.0 stable-civil-language target:
 
 ```text
-entries 29,057 / 25,000
-dictionary 29,212 entries with corpus evidence fields
-roots     1,450 / 2,500
+entries 30,057 / 25,000
+dictionary 30,212 entries with corpus evidence fields
+roots     1,500 / 2,500
 corpus    3,080 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
@@ -129,7 +129,9 @@ The v0.7.2 social-role root batch adds 50 roots and 1,000 derived lexicon entrie
 
 The v0.7.3 corpus grounding batch adds 120 reviewed examples using the v0.7.2 roots across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds trade work, transport roles, clinical and legal roles, service labor, creative work, software work, supervision, delegation, and custody in household, civic, ritual, technical, poetic, and learner use.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 1,050 more root families and 6,920 more reviewed corpus items still needed.
+The v0.7.4 nature/agriculture root batch adds 50 roots and 1,000 derived lexicon entries for common animals, wildlife, farming, crop work, staple plants, and cultivated places. New fields include dogs, cats, horses, cattle, sheep, goats, pigs, chickens, ducks, geese, bees, butterflies, worms, snakes, frogs, turtles, deer, bears, wolves, foxes, rabbits, mice, squirrels, elephants, lions, tigers, monkeys, whales, dolphins, crabs, shrimp, shellfish, ants, spiders, crows, farms, fields, crops, harvests, plows, irrigation, grain, wheat, corn, beans, potatoes, tomatoes, gardens, orchards, and vineyards.
+
+The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 1,000 more root families and 6,920 more reviewed corpus items still needed.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 
