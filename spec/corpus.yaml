@@ -1,4 +1,4 @@
-version: "0.10.10-corpus"
+version: "0.10.11-corpus"
 purpose: "Reviewed seed corpus for grounding Ethra vocabulary in actual use."
 items:
   -
@@ -52401,3 +52401,1203 @@ items:
     literal: "Victim services repairs care."
     notes: "A1 grounding for victim services, care after harm, victim services, coordinated care, witness support, and repair after harm."
     terms: ["vecesev", "tar", "hal"]
+  -
+    id: "daily-1049"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Transcendence carries duty."
+    ethra: "Teresec taw dev."
+    literal: "Transcendence carries duty."
+    notes: "Daily grounding for transcendence, beyondness, reality or value exceeding immediate measure."
+    terms: ["teresec", "taw", "dev"]
+  -
+    id: "daily-1050"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Immanence protects care."
+    ethra: "Iememen xap hal."
+    literal: "Immanence protects care."
+    notes: "Daily grounding for immanence, indwelling presence, meaning or power present within the world."
+    terms: ["iememen", "xap", "hal"]
+  -
+    id: "daily-1051"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Finitude teaches attention."
+    ethra: "Feneted dak san."
+    literal: "Finitude teaches attention."
+    notes: "Daily grounding for finitude, bounded existence, mortal limit, countable life under consequence."
+    terms: ["feneted", "dak", "san"]
+  -
+    id: "daily-1052"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "philosophy-metaphysics"]
+    register: "plain"
+    english: "Concord repairs the household."
+    ethra: "Cenecer tar hon."
+    literal: "Concord repairs household."
+    notes: "Daily grounding for concord, social harmony, ordered agreement without erased difference."
+    terms: ["cenecer", "tar", "hon"]
+  -
+    id: "daily-1053"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "law-governance"]
+    register: "plain"
+    english: "Unity protects the people."
+    ethra: "Yenetey xap lem."
+    literal: "Unity protects people."
+    notes: "Daily grounding for unity, coherent one-ness, gathered whole with preserved parts."
+    terms: ["yenetey", "xap", "lem"]
+  -
+    id: "daily-1054"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "plain"
+    english: "Citation protects truth."
+    ethra: "Ceyeten xap reh."
+    literal: "Citation protects recognition."
+    notes: "Daily grounding for citation, source mark, accountable reference to another work or witness."
+    terms: ["ceyeten", "xap", "reh"]
+  -
+    id: "daily-1055"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication", "history-memory"]
+    register: "plain"
+    english: "Footnote carries memory."
+    ethra: "Fetenet taw mer."
+    literal: "Footnote carries memory."
+    notes: "Daily grounding for footnote, supporting side note, minor record attached below main speech."
+    terms: ["fetenet", "taw", "mer"]
+  -
+    id: "daily-1056"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication", "education-training"]
+    register: "plain"
+    english: "Gloss teaches the word."
+    ethra: "Geleoes dak nem."
+    literal: "Gloss teaches word."
+    notes: "Daily grounding for gloss, brief explanatory meaning, word made legible across distance."
+    terms: ["geleoes", "dak", "nem"]
+  -
+    id: "daily-1057"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "plain"
+    english: "Interview names the witness."
+    ethra: "Neterev nam rahen."
+    literal: "Interview names witness."
+    notes: "Daily grounding for interview, question-answer encounter, recorded speech for testimony or story."
+    terms: ["neterev", "nam", "rahen"]
+  -
+    id: "daily-1058"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "media-communication", "emotion-psychology"]
+    register: "plain"
+    english: "Comment carries care."
+    ethra: "Cememet taw hal."
+    literal: "Comment carries care."
+    notes: "Daily grounding for comment, responsive public note, reply attached to prior speech or record."
+    terms: ["cememet", "taw", "hal"]
+  -
+    id: "daily-1059"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "Address guides the path."
+    ethra: "Aederes pat pet."
+    literal: "Address guides path."
+    notes: "Daily grounding for address, locatable dwelling or service point, named place for arrival and contact."
+    terms: ["aederes", "pat", "pet"]
+  -
+    id: "daily-1060"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "Intersection guides attention."
+    ethra: "Ienetes pat san."
+    literal: "Intersection guides attention."
+    notes: "Daily grounding for intersection, crossing point, paths meeting with risk and choice."
+    terms: ["ienetes", "pat", "san"]
+  -
+    id: "daily-1061"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "Sidewalk protects the child."
+    ethra: "Sedewek xap tu."
+    literal: "Sidewalk protects child."
+    notes: "Daily grounding for sidewalk, pedestrian path, protected walking edge beside public road."
+    terms: ["sedewek", "xap", "tu"]
+  -
+    id: "daily-1062"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place", "law-governance"]
+    register: "plain"
+    english: "Plaza carries the people."
+    ethra: "Pelezex taw lem."
+    literal: "Plaza carries people."
+    notes: "Daily grounding for plaza, open public square, gathered civic space for meeting and memory."
+    terms: ["pelezex", "taw", "lem"]
+  -
+    id: "daily-1063"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "travel-place"]
+    register: "plain"
+    english: "Campus teaches the child."
+    ethra: "Cepeues dak tu."
+    literal: "Campus teaches child."
+    notes: "Daily grounding for campus, learning grounds, connected place of study, work, and formation."
+    terms: ["cepeues", "dak", "tu"]
+  -
+    id: "daily-1064"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "family-kinship", "travel-place"]
+    register: "household"
+    english: "Apartment protects the household."
+    ethra: "Aepetem xap hon."
+    literal: "Apartment protects household."
+    notes: "Daily grounding for apartment, dwelling unit, private roomed home within a larger building."
+    terms: ["aepetem", "xap", "hon"]
+  -
+    id: "daily-1065"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "plain"
+    english: "Hallway guides the person."
+    ethra: "Hewelel pat li."
+    literal: "Hallway guides person."
+    notes: "Daily grounding for hallway, interior passage, corridor of ordinary movement between rooms."
+    terms: ["hewelel", "pat", "li"]
+  -
+    id: "daily-1066"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Voucher carries provision."
+    ethra: "Veceher taw par."
+    literal: "Voucher carries provision."
+    notes: "Daily grounding for voucher, authorized token for specified provision, discount, or service access."
+    terms: ["veceher", "taw", "par"]
+  -
+    id: "daily-1067"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Warranty repairs the thing."
+    ethra: "Weretey tar lo."
+    literal: "Warranty repairs thing."
+    notes: "Daily grounding for warranty, promised repair or replacement duty after exchange."
+    terms: ["weretey", "tar", "lo"]
+  -
+    id: "daily-1068"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Donation carries care."
+    ethra: "Deneaet taw hal."
+    literal: "Donation carries care."
+    notes: "Daily grounding for donation, freely given provision directed toward need, cause, or institution."
+    terms: ["deneaet", "taw", "hal"]
+  -
+    id: "daily-1069"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "plain"
+    english: "Grant carries work."
+    ethra: "Gerenet taw wak."
+    literal: "Grant carries work."
+    notes: "Daily grounding for grant, awarded support for public work, study, repair, or research."
+    terms: ["gerenet", "taw", "wak"]
+  -
+    id: "daily-1070"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "education-training", "economics-provision"]
+    register: "plain"
+    english: "Scholarship teaches the child."
+    ethra: "Seceler dak tu."
+    literal: "Scholarship teaches child."
+    notes: "Daily grounding for scholarship, learning support, awarded provision for study and formation."
+    terms: ["seceler", "dak", "tu"]
+  -
+    id: "daily-1071"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "ritual-spiritual", "history-memory"]
+    register: "plain"
+    english: "Liturgy carries memory."
+    ethra: "Letereg taw mer."
+    literal: "Liturgy carries memory."
+    notes: "Daily grounding for liturgy, ordered sacred service, repeated form of communal solemn speech."
+    terms: ["letereg", "taw", "mer"]
+  -
+    id: "daily-1072"
+    track: "daily-dialogues"
+    domain_tags: ["daily-life", "emotion-psychology", "media-communication"]
+    register: "intimate"
+    english: "Confession repairs the heart."
+    ethra: "Cenefes tar leb."
+    literal: "Confession repairs heart."
+    notes: "Daily grounding for confession, truth-spoken fault, inward reality admitted before witness."
+    terms: ["cenefes", "tar", "leb"]
+  -
+    id: "civic-787"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "legal"
+    english: "The transcendence claim protects truth."
+    ethra: "Tarasac-da xap reh."
+    literal: "Transcendence-civic protects recognition."
+    notes: "Civic grounding for transcendence claims and ultimate-value records under public truth."
+    terms: ["tarasac-da", "xap", "reh"]
+  -
+    id: "civic-788"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The immanence record reveals presence."
+    ethra: "Iamaman-da rah roh."
+    literal: "Immanence-civic sees presence."
+    notes: "Civic grounding for immanence claims and embodied-presence records."
+    terms: ["iamaman-da", "rah", "roh"]
+  -
+    id: "civic-789"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "legal"
+    english: "The finitude statement names duty."
+    ethra: "Fanatad-da nam dev."
+    literal: "Finitude-civic names duty."
+    notes: "Civic grounding for limit disclosures and finitude statements."
+    terms: ["fanatad-da", "nam", "dev"]
+  -
+    id: "civic-790"
+    track: "civic-law"
+    domain_tags: ["law-governance", "philosophy-metaphysics"]
+    register: "civic"
+    english: "The concord record repairs the people."
+    ethra: "Canacar-da tar lem."
+    literal: "Concord-civic repairs people."
+    notes: "Civic grounding for concord records and reconciliation standards."
+    terms: ["canacar-da", "tar", "lem"]
+  -
+    id: "civic-791"
+    track: "civic-law"
+    domain_tags: ["law-governance"]
+    register: "civic"
+    english: "The unity declaration binds the people."
+    ethra: "Yanatay-da dav lem."
+    literal: "Unity-civic binds people."
+    notes: "Civic grounding for unity declarations and integration records."
+    terms: ["yanatay-da", "dav", "lem"]
+  -
+    id: "civic-792"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The axiom list protects the model."
+    ethra: "Aaxamax-da xap med."
+    literal: "Axiom-civic protects model."
+    notes: "Civic grounding for axiom lists and formal-system bases."
+    terms: ["aaxamax-da", "xap", "med"]
+  -
+    id: "civic-793"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The theorem record protects truth."
+    ethra: "Taraeam-da xap reh."
+    literal: "Theorem-civic protects recognition."
+    notes: "Civic grounding for theorem records and formal proof."
+    terms: ["taraeam-da", "xap", "reh"]
+  -
+    id: "civic-794"
+    track: "civic-law"
+    domain_tags: ["law-governance", "science-math"]
+    register: "legal"
+    english: "The replication record reveals the model."
+    ethra: "Raeapal-da rah med."
+    literal: "Replication-civic sees model."
+    notes: "Civic grounding for replication records and reproducibility reports."
+    terms: ["raeapal-da", "rah", "med"]
+  -
+    id: "civic-795"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "legal"
+    english: "The citation standard binds truth."
+    ethra: "Cayatan-da dav reh."
+    literal: "Citation-civic binds recognition."
+    notes: "Civic grounding for citation records and reference standards."
+    terms: ["cayatan-da", "dav", "reh"]
+  -
+    id: "civic-796"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication", "history-memory"]
+    register: "legal"
+    english: "The footnote record carries memory."
+    ethra: "Fatanat-da taw mer."
+    literal: "Footnote-civic carries memory."
+    notes: "Civic grounding for footnote records and editorial support notes."
+    terms: ["fatanat-da", "taw", "mer"]
+  -
+    id: "civic-797"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "legal"
+    english: "The interview transcript protects the witness."
+    ethra: "Natarav-da xap rahen."
+    literal: "Interview-civic protects witness."
+    notes: "Civic grounding for interview transcripts and consent records."
+    terms: ["natarav-da", "xap", "rahen"]
+  -
+    id: "civic-798"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication"]
+    register: "civic"
+    english: "The editorial record names duty."
+    ethra: "Eadaral-da nam dev."
+    literal: "Editorial-civic names duty."
+    notes: "Civic grounding for editorial records and publication judgment."
+    terms: ["eadaral-da", "nam", "dev"]
+  -
+    id: "civic-799"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "civic"
+    english: "The address registry guides the people."
+    ethra: "Aadaras-da pat lem."
+    literal: "Address-civic guides people."
+    notes: "Civic grounding for address records and location registries."
+    terms: ["aadaras-da", "pat", "lem"]
+  -
+    id: "civic-800"
+    track: "civic-law"
+    domain_tags: ["law-governance", "travel-place"]
+    register: "legal"
+    english: "The border-crossing record protects the path."
+    ethra: "Badarac-da xap pet."
+    literal: "Border-crossing-civic protects path."
+    notes: "Civic grounding for border-crossing records and entry logs."
+    terms: ["badarac-da", "xap", "pet"]
+  -
+    id: "civic-801"
+    track: "civic-law"
+    domain_tags: ["law-governance", "conflict-security"]
+    register: "legal"
+    english: "The checkpoint log protects the people."
+    ethra: "Cakapat-da xap lem."
+    literal: "Checkpoint-civic protects people."
+    notes: "Civic grounding for checkpoint logs and access-control records."
+    terms: ["cakapat-da", "xap", "lem"]
+  -
+    id: "civic-802"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "The voucher record carries provision."
+    ethra: "Vacahar-da taw par."
+    literal: "Voucher-civic carries provision."
+    notes: "Civic grounding for voucher records and benefit-credit authorization."
+    terms: ["vacahar-da", "taw", "par"]
+  -
+    id: "civic-803"
+    track: "civic-law"
+    domain_tags: ["law-governance", "economics-provision"]
+    register: "legal"
+    english: "The warranty record repairs the thing."
+    ethra: "Waratay-da tar lo."
+    literal: "Warranty-civic repairs thing."
+    notes: "Civic grounding for warranty records and consumer-protection claims."
+    terms: ["waratay-da", "tar", "lo"]
+  -
+    id: "civic-804"
+    track: "civic-law"
+    domain_tags: ["law-governance", "media-communication", "conflict-security"]
+    register: "legal"
+    english: "The confession record repairs truth."
+    ethra: "Canafas-da tar reh."
+    literal: "Confession-civic repairs recognition."
+    notes: "Civic grounding for confession records and restorative statements."
+    terms: ["canafas-da", "tar", "reh"]
+  -
+    id: "ritual-787"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "In solemn speech, transcendence carries duty."
+    ethra: "Ha ha-turusuc taw dev."
+    literal: "Solemn transcendence carries duty."
+    notes: "Ritual grounding for transcendence, beyondness placed in solemn speech."
+    terms: ["ha-turusuc", "taw", "dev"]
+  -
+    id: "ritual-788"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "In solemn speech, immanence sees the world."
+    ethra: "Ha ha-iumumun rah wed."
+    literal: "Solemn immanence sees world."
+    notes: "Ritual grounding for immanence, indwelling presence placed in solemn speech."
+    terms: ["ha-iumumun", "rah", "wed"]
+  -
+    id: "ritual-789"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "In solemn speech, finitude teaches attention."
+    ethra: "Ha ha-funutud dak san."
+    literal: "Solemn finitude teaches attention."
+    notes: "Ritual grounding for finitude, bounded existence placed in solemn speech."
+    terms: ["ha-funutud", "dak", "san"]
+  -
+    id: "ritual-790"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "In solemn speech, infinity names emptiness."
+    ethra: "Ha ha-iunufux nam xed."
+    literal: "Solemn infinity names emptiness."
+    notes: "Ritual grounding for infinity, unbounded extension placed in solemn speech."
+    terms: ["ha-iunufux", "nam", "xed"]
+  -
+    id: "ritual-791"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "In solemn speech, spirit protects the heart."
+    ethra: "Ha ha-ruuuxuh xap leb."
+    literal: "Solemn spirit protects heart."
+    notes: "Ritual grounding for spirit, breath-depth, animating inward life or sacred presence."
+    terms: ["ha-ruuuxuh", "xap", "leb"]
+  -
+    id: "ritual-792"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "ritual"
+    english: "In solemn speech, concord repairs the people."
+    ethra: "Ha ha-cunucur tar lem."
+    literal: "Solemn concord repairs people."
+    notes: "Ritual grounding for concord, ordered agreement without erased difference."
+    terms: ["ha-cunucur", "tar", "lem"]
+  -
+    id: "ritual-793"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "philosophy-metaphysics"]
+    register: "ritual"
+    english: "In solemn speech, duality reveals truth."
+    ethra: "Ha ha-duuulux rah reh."
+    literal: "Solemn duality sees recognition."
+    notes: "Ritual grounding for duality, paired distinction held in relation."
+    terms: ["ha-duuulux", "rah", "reh"]
+  -
+    id: "ritual-794"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "ritual"
+    english: "In solemn speech, unity carries the people."
+    ethra: "Ha ha-yunutuy taw lem."
+    literal: "Solemn unity carries people."
+    notes: "Ritual grounding for unity, gathered whole with preserved parts."
+    terms: ["ha-yunutuy", "taw", "lem"]
+  -
+    id: "ritual-795"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication"]
+    register: "ritual"
+    english: "In solemn speech, citation protects truth."
+    ethra: "Ha ha-cuyutun xap reh."
+    literal: "Solemn citation protects recognition."
+    notes: "Ritual grounding for citation, source mark placed in solemn speech."
+    terms: ["ha-cuyutun", "xap", "reh"]
+  -
+    id: "ritual-796"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication", "history-memory"]
+    register: "ritual"
+    english: "In solemn speech, footnote carries memory."
+    ethra: "Ha ha-futunut taw mer."
+    literal: "Solemn footnote carries memory."
+    notes: "Ritual grounding for footnote, supporting side note placed in solemn speech."
+    terms: ["ha-futunut", "taw", "mer"]
+  -
+    id: "ritual-797"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication"]
+    register: "ritual"
+    english: "In solemn speech, interview sees the witness."
+    ethra: "Ha ha-nuturuv rah rahen."
+    literal: "Solemn interview sees witness."
+    notes: "Ritual grounding for interview, question-answer encounter placed in solemn speech."
+    terms: ["ha-nuturuv", "rah", "rahen"]
+  -
+    id: "ritual-798"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "In solemn speech, liturgy carries memory."
+    ethra: "Ha ha-luturug taw mer."
+    literal: "Solemn liturgy carries memory."
+    notes: "Ritual grounding for liturgy, ordered sacred service placed in solemn speech."
+    terms: ["ha-luturug", "taw", "mer"]
+  -
+    id: "ritual-799"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "media-communication"]
+    register: "ritual"
+    english: "In solemn speech, sermon teaches the people."
+    ethra: "Ha ha-surumun dak lem."
+    literal: "Solemn sermon teaches people."
+    notes: "Ritual grounding for sermon, moral teaching speech before witness."
+    terms: ["ha-surumun", "dak", "lem"]
+  -
+    id: "ritual-800"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "In solemn speech, fasting teaches attention."
+    ethra: "Ha ha-fusunug dak san."
+    literal: "Solemn fasting teaches attention."
+    notes: "Ritual grounding for fasting, disciplined abstention toward attention or vow."
+    terms: ["ha-fusunug", "dak", "san"]
+  -
+    id: "ritual-801"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "body-health"]
+    register: "ritual"
+    english: "In solemn speech, anointing protects the heart."
+    ethra: "Ha ha-ounutug xap leb."
+    literal: "Solemn anointing protects heart."
+    notes: "Ritual grounding for anointing, oil-marking rite and embodied blessing."
+    terms: ["ha-ounutug", "xap", "leb"]
+  -
+    id: "ritual-802"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "law-governance"]
+    register: "ritual"
+    english: "In solemn speech, consecration binds duty."
+    ethra: "Ha ha-cunusuc dav dev."
+    literal: "Solemn consecration binds duty."
+    notes: "Ritual grounding for consecration, setting apart for sacred use."
+    terms: ["ha-cunusuc", "dav", "dev"]
+  -
+    id: "ritual-803"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "history-memory"]
+    register: "ritual"
+    english: "In solemn speech, initiation carries memory."
+    ethra: "Ha ha-nucutux taw mer."
+    literal: "Solemn initiation carries memory."
+    notes: "Ritual grounding for initiation, entry rite and formal beginning."
+    terms: ["ha-nucutux", "taw", "mer"]
+  -
+    id: "ritual-804"
+    track: "ritual-vow"
+    domain_tags: ["ritual-spiritual", "emotion-psychology"]
+    register: "ritual"
+    english: "In solemn speech, confession repairs the heart."
+    ethra: "Ha ha-cunufus tar leb."
+    literal: "Solemn confession repairs heart."
+    notes: "Ritual grounding for confession, admitted fault placed in solemn speech."
+    terms: ["ha-cunufus", "tar", "leb"]
+  -
+    id: "tech-1049"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Axiom record guides the model."
+    ethra: "Aaxamax-ket pat med."
+    literal: "Axiom record guides model."
+    notes: "Technical grounding for axiom records and formal-system bases."
+    terms: ["aaxamax-ket", "pat", "med"]
+  -
+    id: "tech-1050"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Theorem record protects truth."
+    ethra: "Taraeam-ket xap reh."
+    literal: "Theorem record protects recognition."
+    notes: "Technical grounding for theorem records and formal proof."
+    terms: ["taraeam-ket", "xap", "reh"]
+  -
+    id: "tech-1051"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Median record guides data."
+    ethra: "Maeadan-ket pat den."
+    literal: "Median record guides data."
+    notes: "Technical grounding for median statistics and distribution reports."
+    terms: ["maeadan-ket", "pat", "den"]
+  -
+    id: "tech-1052"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Average record names data."
+    ethra: "Aavarag-ket nam den."
+    literal: "Average record names data."
+    notes: "Technical grounding for average reports and summary statistics."
+    terms: ["aavarag-ket", "nam", "den"]
+  -
+    id: "tech-1053"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Mode record guides data."
+    ethra: "Maoadax-ket pat den."
+    literal: "Mode record guides data."
+    notes: "Technical grounding for mode statistics and frequency reports."
+    terms: ["maoadax-ket", "pat", "den"]
+  -
+    id: "tech-1054"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Standard-deviation record reveals data."
+    ethra: "Satadax-ket rah den."
+    literal: "Standard-deviation record sees data."
+    notes: "Technical grounding for standard-deviation reports and variance summaries."
+    terms: ["satadax-ket", "rah", "den"]
+  -
+    id: "tech-1055"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Percentile record names data."
+    ethra: "Paracat-ket nam den."
+    literal: "Percentile record names data."
+    notes: "Technical grounding for percentile reports and standing records."
+    terms: ["paracat-ket", "nam", "den"]
+  -
+    id: "tech-1056"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Z-score record guides the model."
+    ethra: "Zasacar-ket pat med."
+    literal: "Z-score record guides model."
+    notes: "Technical grounding for z-score reports and standardized comparisons."
+    terms: ["zasacar-ket", "pat", "med"]
+  -
+    id: "tech-1057"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Null-hypothesis record protects data."
+    ethra: "Naualah-ket xap den."
+    literal: "Null-hypothesis record protects data."
+    notes: "Technical grounding for null-hypothesis records and statistical-test bases."
+    terms: ["naualah-ket", "xap", "den"]
+  -
+    id: "tech-1058"
+    track: "technical-software"
+    domain_tags: ["technology-software", "science-math"]
+    register: "technical"
+    english: "Replication record reveals the model."
+    ethra: "Raeapal-ket rah med."
+    literal: "Replication record sees model."
+    notes: "Technical grounding for replication records and reproducibility reports."
+    terms: ["raeapal-ket", "rah", "med"]
+  -
+    id: "tech-1059"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "Citation record protects truth."
+    ethra: "Cayatan-ket xap reh."
+    literal: "Citation record protects recognition."
+    notes: "Technical grounding for citation logs and accountable references."
+    terms: ["cayatan-ket", "xap", "reh"]
+  -
+    id: "tech-1060"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication", "history-memory"]
+    register: "technical"
+    english: "Footnote record carries memory."
+    ethra: "Fatanat-ket taw mer."
+    literal: "Footnote record carries memory."
+    notes: "Technical grounding for footnote records and support notes."
+    terms: ["fatanat-ket", "taw", "mer"]
+  -
+    id: "tech-1061"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication", "education-training"]
+    register: "technical"
+    english: "Gloss record teaches the word."
+    ethra: "Galaoas-ket dak nem."
+    literal: "Gloss record teaches word."
+    notes: "Technical grounding for glossary entries and explanatory records."
+    terms: ["galaoas-ket", "dak", "nem"]
+  -
+    id: "tech-1062"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "Interview record protects the witness."
+    ethra: "Natarav-ket xap rahen."
+    literal: "Interview record protects witness."
+    notes: "Technical grounding for interview records and written evidence of testimony."
+    terms: ["natarav-ket", "xap", "rahen"]
+  -
+    id: "tech-1063"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "Editorial record names duty."
+    ethra: "Eadaral-ket nam dev."
+    literal: "Editorial record names duty."
+    notes: "Technical grounding for editorial logs and public judgment records."
+    terms: ["eadaral-ket", "nam", "dev"]
+  -
+    id: "tech-1064"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication"]
+    register: "technical"
+    english: "Comment record carries care."
+    ethra: "Camamat-ket taw hal."
+    literal: "Comment record carries care."
+    notes: "Technical grounding for comment records and moderation items."
+    terms: ["camamat-ket", "taw", "hal"]
+  -
+    id: "tech-1065"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "Address record guides the person."
+    ethra: "Aadaras-ket pat li."
+    literal: "Address record guides person."
+    notes: "Technical grounding for address records and location registries."
+    terms: ["aadaras-ket", "pat", "li"]
+  -
+    id: "tech-1066"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place"]
+    register: "technical"
+    english: "Intersection record protects attention."
+    ethra: "Ianatas-ket xap san."
+    literal: "Intersection record protects attention."
+    notes: "Technical grounding for intersection records and crossing maps."
+    terms: ["ianatas-ket", "xap", "san"]
+  -
+    id: "tech-1067"
+    track: "technical-software"
+    domain_tags: ["technology-software", "travel-place", "media-communication"]
+    register: "technical"
+    english: "Signage record guides the people."
+    ethra: "Saganap-ket pat lem."
+    literal: "Signage record guides people."
+    notes: "Technical grounding for signage plans and wayfinding standards."
+    terms: ["saganap-ket", "pat", "lem"]
+  -
+    id: "tech-1068"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "Voucher record carries provision."
+    ethra: "Vacahar-ket taw par."
+    literal: "Voucher record carries provision."
+    notes: "Technical grounding for voucher records and benefit-credit authorization."
+    terms: ["vacahar-ket", "taw", "par"]
+  -
+    id: "tech-1069"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "Warranty record repairs the thing."
+    ethra: "Waratay-ket tar lo."
+    literal: "Warranty record repairs thing."
+    notes: "Technical grounding for warranty records and repair claims."
+    terms: ["waratay-ket", "tar", "lo"]
+  -
+    id: "tech-1070"
+    track: "technical-software"
+    domain_tags: ["technology-software", "economics-provision"]
+    register: "technical"
+    english: "Grant record carries work."
+    ethra: "Garanat-ket taw wak."
+    literal: "Grant record carries work."
+    notes: "Technical grounding for grant agreements and funded-work records."
+    terms: ["garanat-ket", "taw", "wak"]
+  -
+    id: "tech-1071"
+    track: "technical-software"
+    domain_tags: ["technology-software", "education-training"]
+    register: "technical"
+    english: "Scholarship record teaches the child."
+    ethra: "Sacalar-ket dak tu."
+    literal: "Scholarship record teaches child."
+    notes: "Technical grounding for scholarship records and education funding agreements."
+    terms: ["sacalar-ket", "dak", "tu"]
+  -
+    id: "tech-1072"
+    track: "technical-software"
+    domain_tags: ["technology-software", "media-communication", "conflict-security"]
+    register: "technical"
+    english: "Confession record repairs truth."
+    ethra: "Canafas-ket tar reh."
+    literal: "Confession record repairs recognition."
+    notes: "Technical grounding for confession records and restorative statements."
+    terms: ["canafas-ket", "tar", "reh"]
+  -
+    id: "poetic-1049"
+    track: "literary-poetic"
+    domain_tags: ["philosophy-metaphysics", "art-beauty"]
+    register: "poetic"
+    english: "Transcendence carries the future."
+    ethra: "Teresec taw fer."
+    literal: "Transcendence carries future."
+    notes: "Poetic grounding for transcendence, beyondness and value exceeding immediate measure."
+    terms: ["teresec", "taw", "fer"]
+  -
+    id: "poetic-1050"
+    track: "literary-poetic"
+    domain_tags: ["philosophy-metaphysics", "art-beauty"]
+    register: "poetic"
+    english: "Immanence sees the world."
+    ethra: "Iememen rah wed."
+    literal: "Immanence sees world."
+    notes: "Poetic grounding for immanence, indwelling presence within ordinary reality."
+    terms: ["iememen", "rah", "wed"]
+  -
+    id: "poetic-1051"
+    track: "literary-poetic"
+    domain_tags: ["philosophy-metaphysics", "body-health", "art-beauty"]
+    register: "poetic"
+    english: "Finitude protects the heart."
+    ethra: "Feneted xap leb."
+    literal: "Finitude protects heart."
+    notes: "Poetic grounding for finitude, bounded existence under consequence."
+    terms: ["feneted", "xap", "leb"]
+  -
+    id: "poetic-1052"
+    track: "literary-poetic"
+    domain_tags: ["philosophy-metaphysics", "art-beauty"]
+    register: "poetic"
+    english: "Infinity names emptiness."
+    ethra: "Ienefex nam xed."
+    literal: "Infinity names emptiness."
+    notes: "Poetic grounding for infinity, unbounded extension and the limit not reached."
+    terms: ["ienefex", "nam", "xed"]
+  -
+    id: "poetic-1053"
+    track: "literary-poetic"
+    domain_tags: ["ritual-spiritual", "body-health", "art-beauty"]
+    register: "poetic"
+    english: "Spirit protects the heart."
+    ethra: "Reuexeh xap leb."
+    literal: "Spirit protects heart."
+    notes: "Poetic grounding for spirit, breath-depth and animating inward life."
+    terms: ["reuexeh", "xap", "leb"]
+  -
+    id: "poetic-1054"
+    track: "literary-poetic"
+    domain_tags: ["law-governance", "art-beauty"]
+    register: "poetic"
+    english: "Concord repairs the people."
+    ethra: "Cenecer tar lem."
+    literal: "Concord repairs people."
+    notes: "Poetic grounding for concord, ordered agreement without erased difference."
+    terms: ["cenecer", "tar", "lem"]
+  -
+    id: "poetic-1055"
+    track: "literary-poetic"
+    domain_tags: ["philosophy-metaphysics", "art-beauty"]
+    register: "poetic"
+    english: "Duality reveals truth."
+    ethra: "Deuelex rah reh."
+    literal: "Duality sees recognition."
+    notes: "Poetic grounding for duality, paired distinction held in relation."
+    terms: ["deuelex", "rah", "reh"]
+  -
+    id: "poetic-1056"
+    track: "literary-poetic"
+    domain_tags: ["law-governance", "art-beauty"]
+    register: "poetic"
+    english: "Unity carries the people."
+    ethra: "Yenetey taw lem."
+    literal: "Unity carries people."
+    notes: "Poetic grounding for unity, coherent whole with preserved parts."
+    terms: ["yenetey", "taw", "lem"]
+  -
+    id: "poetic-1057"
+    track: "literary-poetic"
+    domain_tags: ["science-math", "art-beauty"]
+    register: "poetic"
+    english: "Axiom builds the world."
+    ethra: "Aexemex ban wed."
+    literal: "Axiom builds world."
+    notes: "Poetic grounding for axiom, starting truth used to build a system."
+    terms: ["aexemex", "ban", "wed"]
+  -
+    id: "poetic-1058"
+    track: "literary-poetic"
+    domain_tags: ["science-math", "art-beauty"]
+    register: "poetic"
+    english: "Theorem carries truth."
+    ethra: "Tereeem taw reh."
+    literal: "Theorem carries recognition."
+    notes: "Poetic grounding for theorem, proven claim carried by demonstration."
+    terms: ["tereeem", "taw", "reh"]
+  -
+    id: "poetic-1059"
+    track: "literary-poetic"
+    domain_tags: ["science-math", "art-beauty"]
+    register: "poetic"
+    english: "Median guides attention."
+    ethra: "Meeeden pat san."
+    literal: "Median guides attention."
+    notes: "Poetic grounding for median, ordered center resistant to extremes."
+    terms: ["meeeden", "pat", "san"]
+  -
+    id: "poetic-1060"
+    track: "literary-poetic"
+    domain_tags: ["science-math", "art-beauty"]
+    register: "poetic"
+    english: "Average names the people."
+    ethra: "Aevereg nam lem."
+    literal: "Average names people."
+    notes: "Poetic grounding for average, shared measure across counted cases."
+    terms: ["aevereg", "nam", "lem"]
+  -
+    id: "poetic-1061"
+    track: "literary-poetic"
+    domain_tags: ["science-math", "art-beauty"]
+    register: "poetic"
+    english: "Standard deviation reveals data."
+    ethra: "Setedex rah den."
+    literal: "Standard deviation sees data."
+    notes: "Poetic grounding for standard deviation, typical distance from a mean."
+    terms: ["setedex", "rah", "den"]
+  -
+    id: "poetic-1062"
+    track: "literary-poetic"
+    domain_tags: ["science-math", "art-beauty"]
+    register: "poetic"
+    english: "Replication reveals truth."
+    ethra: "Reeepel rah reh."
+    literal: "Replication sees recognition."
+    notes: "Poetic grounding for replication, repeated study and result tested by return."
+    terms: ["reeepel", "rah", "reh"]
+  -
+    id: "poetic-1063"
+    track: "literary-poetic"
+    domain_tags: ["media-communication", "history-memory", "art-beauty"]
+    register: "poetic"
+    english: "Citation protects memory."
+    ethra: "Ceyeten xap mer."
+    literal: "Citation protects memory."
+    notes: "Poetic grounding for citation, a claim pointing to the witness it owes."
+    terms: ["ceyeten", "xap", "mer"]
+  -
+    id: "poetic-1064"
+    track: "literary-poetic"
+    domain_tags: ["media-communication", "history-memory", "art-beauty"]
+    register: "poetic"
+    english: "Footnote carries truth."
+    ethra: "Fetenet taw reh."
+    literal: "Footnote carries recognition."
+    notes: "Poetic grounding for footnote, a small witness below the public sentence."
+    terms: ["fetenet", "taw", "reh"]
+  -
+    id: "poetic-1065"
+    track: "literary-poetic"
+    domain_tags: ["media-communication", "education-training", "art-beauty"]
+    register: "poetic"
+    english: "Gloss teaches the word."
+    ethra: "Geleoes dak nem."
+    literal: "Gloss teaches word."
+    notes: "Poetic grounding for gloss, a lantern beside a difficult word."
+    terms: ["geleoes", "dak", "nem"]
+  -
+    id: "poetic-1066"
+    track: "literary-poetic"
+    domain_tags: ["media-communication", "art-beauty"]
+    register: "poetic"
+    english: "Interview sees the witness."
+    ethra: "Neterev rah rahen."
+    literal: "Interview sees witness."
+    notes: "Poetic grounding for interview, attention structured so another voice may appear."
+    terms: ["neterev", "rah", "rahen"]
+  -
+    id: "poetic-1067"
+    track: "literary-poetic"
+    domain_tags: ["media-communication", "law-governance", "art-beauty"]
+    register: "poetic"
+    english: "Editorial names duty."
+    ethra: "Eederel nam dev."
+    literal: "Editorial names duty."
+    notes: "Poetic grounding for editorial, interpretive public judgment."
+    terms: ["eederel", "nam", "dev"]
+  -
+    id: "poetic-1068"
+    track: "literary-poetic"
+    domain_tags: ["media-communication", "emotion-psychology", "art-beauty"]
+    register: "poetic"
+    english: "Comment carries the heart."
+    ethra: "Cememet taw leb."
+    literal: "Comment carries heart."
+    notes: "Poetic grounding for comment, a small answer tied to another word."
+    terms: ["cememet", "taw", "leb"]
+  -
+    id: "poetic-1069"
+    track: "literary-poetic"
+    domain_tags: ["travel-place", "art-beauty"]
+    register: "poetic"
+    english: "Address guides the path."
+    ethra: "Aederes pat pet."
+    literal: "Address guides path."
+    notes: "Poetic grounding for address, a place taught how to be found."
+    terms: ["aederes", "pat", "pet"]
+  -
+    id: "poetic-1070"
+    track: "literary-poetic"
+    domain_tags: ["travel-place", "law-governance", "art-beauty"]
+    register: "poetic"
+    english: "Plaza carries the people."
+    ethra: "Pelezex taw lem."
+    literal: "Plaza carries people."
+    notes: "Poetic grounding for plaza, a city opening its palm."
+    terms: ["pelezex", "taw", "lem"]
+  -
+    id: "poetic-1071"
+    track: "literary-poetic"
+    domain_tags: ["ritual-spiritual", "history-memory", "art-beauty"]
+    register: "poetic"
+    english: "Liturgy carries memory."
+    ethra: "Letereg taw mer."
+    literal: "Liturgy carries memory."
+    notes: "Poetic grounding for liturgy, memory praying through form."
+    terms: ["letereg", "taw", "mer"]
+  -
+    id: "poetic-1072"
+    track: "literary-poetic"
+    domain_tags: ["media-communication", "emotion-psychology", "art-beauty"]
+    register: "poetic"
+    english: "Confession repairs the heart."
+    ethra: "Cenefes tar leb."
+    literal: "Confession repairs heart."
+    notes: "Poetic grounding for confession, the hidden wound choosing light over concealment."
+    terms: ["cenefes", "tar", "leb"]
+  -
+    id: "learner-525"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "science-math"]
+    register: "learner-a1"
+    english: "Axiom protects truth."
+    ethra: "Aexemex xap reh."
+    literal: "Axiom protects recognition."
+    notes: "A1 grounding for axiom, starting truth."
+    terms: ["aexemex", "xap", "reh"]
+  -
+    id: "learner-526"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "learner-a1"
+    english: "Citation names witness."
+    ethra: "Ceyeten nam rahen."
+    literal: "Citation names witness."
+    notes: "A1 grounding for citation, source mark."
+    terms: ["ceyeten", "nam", "rahen"]
+  -
+    id: "learner-527"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "learner-a1"
+    english: "Address guides person."
+    ethra: "Aederes pat li."
+    literal: "Address guides person."
+    notes: "A1 grounding for address, locatable place."
+    terms: ["aederes", "pat", "li"]
+  -
+    id: "learner-528"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place"]
+    register: "learner-a1"
+    english: "Sidewalk protects child."
+    ethra: "Sedewek xap tu."
+    literal: "Sidewalk protects child."
+    notes: "A1 grounding for sidewalk, pedestrian path."
+    terms: ["sedewek", "xap", "tu"]
+  -
+    id: "learner-529"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "Voucher carries provision."
+    ethra: "Veceher taw par."
+    literal: "Voucher carries provision."
+    notes: "A1 grounding for voucher, authorized provision token."
+    terms: ["veceher", "taw", "par"]
+  -
+    id: "learner-530"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "economics-provision"]
+    register: "learner-a1"
+    english: "Warranty repairs thing."
+    ethra: "Weretey tar lo."
+    literal: "Warranty repairs thing."
+    notes: "A1 grounding for warranty, repair promise."
+    terms: ["weretey", "tar", "lo"]
+  -
+    id: "learner-531"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ritual-spiritual"]
+    register: "learner-a1"
+    english: "Liturgy carries memory."
+    ethra: "Letereg taw mer."
+    literal: "Liturgy carries memory."
+    notes: "A1 grounding for liturgy, ordered sacred service."
+    terms: ["letereg", "taw", "mer"]
+  -
+    id: "learner-532"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "ritual-spiritual"]
+    register: "learner-a1"
+    english: "Fasting teaches attention."
+    ethra: "Feseneg dak san."
+    literal: "Fasting teaches attention."
+    notes: "A1 grounding for fasting, disciplined abstention."
+    terms: ["feseneg", "dak", "san"]
+  -
+    id: "learner-533"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication", "emotion-psychology"]
+    register: "learner-a1"
+    english: "Confession repairs heart."
+    ethra: "Cenefes tar leb."
+    literal: "Confession repairs heart."
+    notes: "A1 grounding for confession, admitted fault."
+    terms: ["cenefes", "tar", "leb"]
+  -
+    id: "learner-534"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "education-training", "travel-place"]
+    register: "learner-a1"
+    english: "Campus teaches child."
+    ethra: "Cepeues dak tu."
+    literal: "Campus teaches child."
+    notes: "A1 grounding for campus, learning grounds."
+    terms: ["cepeues", "dak", "tu"]
+  -
+    id: "learner-535"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "travel-place", "law-governance"]
+    register: "learner-a1"
+    english: "Plaza carries people."
+    ethra: "Pelezex taw lem."
+    literal: "Plaza carries people."
+    notes: "A1 grounding for plaza, public square."
+    terms: ["pelezex", "taw", "lem"]
+  -
+    id: "learner-536"
+    track: "learner-graded"
+    domain_tags: ["daily-life", "media-communication"]
+    register: "learner-a1"
+    english: "Interview sees person."
+    ethra: "Neterev rah li."
+    literal: "Interview sees person."
+    notes: "A1 grounding for interview, question-answer encounter."
+    terms: ["neterev", "rah", "li"]
