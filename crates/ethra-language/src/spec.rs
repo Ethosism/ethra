@@ -17,23 +17,42 @@ pub fn spec_dir() -> PathBuf {
         return PathBuf::from(dir);
     }
 
-    let cwd_spec = env::current_dir()
-        .unwrap_or_else(|_| PathBuf::from("."))
-        .join("spec");
-    if cwd_spec.exists() {
-        return cwd_spec;
+    if let Some(dir) = find_ancestor_dir(
+        env::current_dir().unwrap_or_else(|_| PathBuf::from(".")),
+        "spec",
+    ) {
+        return dir;
     }
 
     if let Ok(exe) = env::current_exe() {
-        if let Some(parent) = exe.parent() {
-            let nearby = parent.join("spec");
-            if nearby.exists() {
-                return nearby;
-            }
+        if let Some(parent) = exe.parent()
+            && let Some(dir) = find_ancestor_dir(parent, "spec")
+        {
+            return dir;
         }
     }
 
+    if let Some(dir) = find_ancestor_dir(env!("CARGO_MANIFEST_DIR"), "spec") {
+        return dir;
+    }
+
     PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("spec")
+}
+
+fn find_ancestor_dir(start: impl AsRef<Path>, name: &str) -> Option<PathBuf> {
+    let mut current = start.as_ref();
+    loop {
+        let candidate = current.join(name);
+        if candidate.exists() {
+            return Some(candidate);
+        }
+        match current.parent() {
+            Some(parent) => {
+                current = parent;
+            }
+            None => return None,
+        }
+    }
 }
 
 pub fn read_spec_yaml<T: DeserializeOwned>(filename: &str) -> Result<T> {

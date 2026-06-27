@@ -37,7 +37,8 @@ Ethra treats language as training. What is easy to say becomes easy to notice. W
 - **Machine-readable spec:** YAML files in `spec/` for phonology, derivation patterns, roots, particles, pronouns, grammar, syntax, native script, dictionary schema, lexicon, compounds, corpus, roadmap, domains, governance, style, and examples.
 - **Corpus:** 10,000 reviewed corpus items across daily dialogue, civic/legal, ritual/vow, technical/software, literary/poetic, and learner tracks.
 - **Expansion program:** roadmap, domain ontology, corpus plan, and governance model for growing toward civilizational-scale expressive coverage.
-- **Tooling:** CLI commands for root generation, word derivation, word analysis, sentence parsing, dictionary lookup/statistics, style checking, example lookup, root/particle/pattern listing, lexicon listing, compound creation, governed root/compound proposal packets, roadmap inspection, domain coverage, corpus planning/next-batch recommendation/listing/search, governance review, and spec/corpus validation.
+- **Human-readable dictionary:** generated Markdown headword files in `dictionary/`, grouping 50,212 dictionary records into 50,143 readable surface forms.
+- **Tooling:** CLI commands for root generation, word derivation, word analysis, sentence parsing, dictionary lookup/statistics/export, style checking, example lookup, root/particle/pattern listing, lexicon listing, compound creation, governed root/compound proposal packets, roadmap inspection, domain coverage, corpus planning/next-batch recommendation/listing/search, governance review, and spec/corpus validation.
 
 ## Quick Examples
 
@@ -90,6 +91,7 @@ cargo run --quiet -- parse-sentence --text "Na dov tar mo mik."
 cargo run --quiet -- style-check --text "Pu na vel dev se so-lem." --register civic --require-moral-agency --require-scope
 cargo run --quiet -- lookup-dictionary hener --exact
 cargo run --quiet -- dictionary-stats --limit 5
+cargo run --quiet -- export-dictionary --output dictionary
 cargo run --quiet -- translate-example 8
 cargo run --quiet -- create-compound --words fer,dev --gloss "future-binding duty"
 cargo run --quiet -- propose-term --field "honor-bound duty" --kind compound --components hener,dev --domain philosophy-metaphysics --register civic --example "Hener-dev xap lem."
@@ -119,6 +121,12 @@ target/debug/ethra derive-word --root RAH --pattern civic-legal
 ```text
 ethra-language/
   README.md
+  Cargo.toml
+  Cargo.lock
+  dictionary/
+    README.md
+    index.md
+    a.md, b.md, ... z.md for letters with entries
   docs/
     theory.md
     phonology.md
@@ -162,35 +170,37 @@ ethra-language/
     corpus-plan.yaml
     governance.yaml
     style.yaml
-  src/
-    main.rs
-    lib.rs
-    analyze.rs
-    civilization.rs
-    compound.rs
-    derivation.rs
-    dictionary.rs
-    examples.rs
-    phonology.rs
-    proposal.rs
-    sentence.rs
-    spec.rs
-    style.rs
-    types.rs
-    validation.rs
-  tests/
-    ethra_rust.rs
-  Cargo.toml
-  Cargo.lock
+  crates/
+    ethra-language/
+      Cargo.toml
+      src/
+        main.rs
+        lib.rs
+        analyze.rs
+        civilization.rs
+        compound.rs
+        derivation.rs
+        dictionary.rs
+        examples.rs
+        phonology.rs
+        proposal.rs
+        sentence.rs
+        spec.rs
+        style.rs
+        types.rs
+        validation.rs
+      tests/
+        ethra_rust.rs
 ```
 
 ## How To Extend Ethra
 
 1. Add or edit canonical data in `spec/*.yaml`.
 2. Run `cargo run -- validate-spec`, `cargo run -- validate-corpus`, and `cargo run -- validate-compounds`.
-3. Add CLI, analyzer, or validation behavior in `src/*.rs`.
-4. Add focused tests in `tests/`.
-5. Keep new grammar justified by cultural function. Decorative complexity is rejected.
+3. Regenerate the reading dictionary with `cargo run --quiet -- export-dictionary --output dictionary` when accepted vocabulary changes.
+4. Add CLI, analyzer, or validation behavior in `crates/ethra-language/src/*.rs`.
+5. Add focused tests in `crates/ethra-language/tests/`.
+6. Keep new grammar justified by cultural function. Decorative complexity is rejected.
 
 The YAML spec is committed intentionally. It is the stable interface for future parsers, web apps, corpus tools, and teaching material.
 

@@ -1,24 +1,4 @@
-[package]
-name = "ethra-language"
-version = "1.0.0"
-edition = "2024"
-description = "Ethra language tooling"
-license = "MIT"
-
-[[bin]]
-name = "ethra"
-path = "src/main.rs"
-
-[dependencies]
-anyhow = "1.0"
-clap = { version = "4.5", features = ["derive"] }
-indexmap = { version = "2.7", features = ["serde"] }
-once_cell = "1.20"
-regex = "1.11"
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
-serde_yaml = "0.9"
-
-[dev-dependencies]
-assert_cmd = "2.0"
-predicates = "3.1"
+[workspace]
+members = ["crates/ethra-language"]
+default-members = ["crates/ethra-language"]
+resolver = "3"

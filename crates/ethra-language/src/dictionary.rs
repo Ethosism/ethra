@@ -3,9 +3,12 @@ use crate::types::{
     CompoundTerm, CompoundsSpec, CorpusItem, CorpusSpec, LexiconEntry, ParticleSpec, PronounSpec,
     RootSpec,
 };
-use anyhow::{Result, bail};
+use anyhow::{Context, Result, bail};
 use serde::Serialize;
 use std::collections::{BTreeMap, BTreeSet, HashMap};
+use std::fmt::Write as _;
+use std::fs;
+use std::path::Path;
 
 #[derive(Debug, Clone, Serialize)]
 pub struct RootFamily {
@@ -109,6 +112,17 @@ pub struct DictionaryStats {
     pub top_corpus_entries: Vec<TopCorpusEntry>,
 }
 
+#[derive(Debug, Clone, Serialize)]
+pub struct DictionaryExportReport {
+    pub purpose: String,
+    pub output_dir: String,
+    pub dictionary_records: usize,
+    pub headwords: usize,
+    pub generated_files: usize,
+    pub letter_counts: BTreeMap<String, usize>,
+    pub source_counts: SourceCounts,
+}
+
 #[derive(Debug, Clone, Default)]
 struct CorpusEvidence {
     frequency: usize,
@@ -119,7 +133,7 @@ struct CorpusEvidence {
 
 #[derive(Debug, Clone)]
 struct DerivedMatch {
-    root: RootSpec,
+    root_family: RootFamily,
     pattern: String,
 }
 
@@ -258,21 +272,17 @@ fn derived_index(roots: &[RootSpec]) -> HashMap<String, Vec<DerivedMatch>> {
                 .entry(derived.word.clone())
                 .or_default()
                 .push(DerivedMatch {
-                    root: root.clone(),
+                    root_family: RootFamily {
+                        id: root.id.clone(),
+                        category: root.category.clone(),
+                        core: root.core.clone(),
+                        semantic_field: root.semantic_field.clone(),
+                    },
                     pattern: pattern.clone(),
                 });
         }
     }
     index
-}
-
-fn root_family(root: Option<&RootSpec>) -> Option<RootFamily> {
-    root.map(|root| RootFamily {
-        id: root.id.clone(),
-        category: root.category.clone(),
-        core: root.core.clone(),
-        semantic_field: root.semantic_field.clone(),
-    })
 }
 
 fn register_from_pattern(
@@ -310,7 +320,6 @@ fn lexicon_entry(
     evidence: &HashMap<String, CorpusEvidence>,
 ) -> DictionaryEntry {
     let matched = derived.get(&entry.word).and_then(|items| items.first());
-    let root = matched.map(|item| &item.root);
     DictionaryEntry {
         id: format!("lexicon:{}:{}", entry.word, index),
         word: entry.word.clone(),
@@ -318,7 +327,7 @@ fn lexicon_entry(
         pronunciation: entry.pronunciation,
         part_of_speech: entry.part_of_speech.clone(),
         root: Some(entry.root),
-        root_family: root_family(root),
+        root_family: matched.map(|item| item.root_family.clone()),
         pattern: matched.map(|item| item.pattern.clone()),
         register: register_from_pattern(
             matched.map(|item| item.pattern.as_str()),
@@ -626,6 +635,266 @@ pub fn dictionary_stats(limit: usize) -> Result<DictionaryStats> {
                 item_ids: entry.corpus.item_ids.iter().take(10).cloned().collect(),
             })
             .collect(),
+    })
+}
+
+fn source_rank(source: &str) -> usize {
+    match source {
+        "lexicon" => 0,
+        "pronoun" => 1,
+        "particle" => 2,
+        "compound" => 3,
+        _ => 4,
+    }
+}
+
+fn count_sources(entries: &[DictionaryEntry]) -> SourceCounts {
+    let mut source_counts = SourceCounts {
+        lexicon: 0,
+        particle: 0,
+        pronoun: 0,
+        compound: 0,
+    };
+    for entry in entries {
+        match entry.source.as_str() {
+            "lexicon" => source_counts.lexicon += 1,
+            "particle" => source_counts.particle += 1,
+            "pronoun" => source_counts.pronoun += 1,
+            "compound" => source_counts.compound += 1,
+            _ => {}
+        }
+    }
+    source_counts
+}
+
+fn dictionary_page_key(word: &str) -> String {
+    word.chars()
+        .find(|value| value.is_ascii_alphabetic())
+        .map(|value| value.to_ascii_lowercase().to_string())
+        .unwrap_or_else(|| "symbols".to_string())
+}
+
+fn corpus_summary(corpus: &DictionaryCorpus) -> String {
+    let mut summary = format!(
+        "{} ({} attestation{})",
+        corpus.frequency_band,
+        corpus.frequency,
+        if corpus.frequency == 1 { "" } else { "s" }
+    );
+    if !corpus.tracks.is_empty() {
+        summary.push_str("; tracks: ");
+        summary.push_str(&corpus.tracks.join(", "));
+    }
+    if !corpus.item_ids.is_empty() {
+        let item_ids = corpus.item_ids.iter().take(8).cloned().collect::<Vec<_>>();
+        summary.push_str("; examples in ");
+        summary.push_str(&item_ids.join(", "));
+        if corpus.item_ids.len() > item_ids.len() {
+            summary.push_str(", ...");
+        }
+    }
+    summary
+}
+
+fn useful_notes(notes: &[String]) -> Vec<String> {
+    notes
+        .iter()
+        .filter(|note| {
+            !note.starts_with("Generated accepted lexicon entry")
+                && !note.starts_with("Closed-class grammar")
+        })
+        .cloned()
+        .collect()
+}
+
+fn append_sense_markdown(output: &mut String, index: usize, entry: &DictionaryEntry) {
+    let _ = writeln!(output, "### Sense {}: {}", index, entry.source);
+    let _ = writeln!(output);
+    let _ = writeln!(output, "- **Pronunciation:** `{}`", entry.pronunciation);
+    let _ = writeln!(output, "- **Part of speech:** {}", entry.part_of_speech);
+    let _ = writeln!(output, "- **Definition:** {}", entry.meanings.join("; "));
+    let _ = writeln!(
+        output,
+        "- **Register/status:** {}; {}",
+        entry.register, entry.lifecycle_status
+    );
+    if !entry.domain_tags.is_empty() {
+        let _ = writeln!(output, "- **Domains:** {}", entry.domain_tags.join(", "));
+    }
+    if let Some(root_family) = &entry.root_family {
+        let _ = writeln!(
+            output,
+            "- **Root family:** `{}`; {}; {}; {}",
+            root_family.id, root_family.category, root_family.core, root_family.semantic_field
+        );
+    } else if entry.root.as_deref().is_some_and(|root| root != "none") {
+        let _ = writeln!(output, "- **Root:** `{}`", entry.root.as_deref().unwrap());
+    }
+    if let Some(pattern) = &entry.pattern {
+        let _ = writeln!(output, "- **Pattern:** {}", pattern);
+    }
+    if !entry.literal_etymology.is_empty() {
+        let _ = writeln!(output, "- **Literal:** {}", entry.literal_etymology);
+    }
+    if !entry.examples.is_empty() {
+        let _ = writeln!(output, "- **Example:** {}", entry.examples.join(" / "));
+    }
+    let _ = writeln!(output, "- **Corpus:** {}", corpus_summary(&entry.corpus));
+
+    let notes = useful_notes(&entry.notes);
+    if !notes.is_empty() {
+        let _ = writeln!(output, "- **Notes:** {}", notes.join(" "));
+    }
+    let _ = writeln!(output);
+}
+
+fn append_headword_markdown(output: &mut String, word: &str, senses: &[DictionaryEntry]) {
+    let _ = writeln!(output, "## {}", word);
+    let _ = writeln!(output);
+    for (index, entry) in senses.iter().enumerate() {
+        append_sense_markdown(output, index + 1, entry);
+    }
+}
+
+fn write_generated_file(path: &Path, contents: &str) -> Result<()> {
+    fs::write(path, contents).with_context(|| format!("failed to write {}", path.display()))
+}
+
+fn remove_existing_markdown(output_dir: &Path) -> Result<()> {
+    if !output_dir.exists() {
+        return Ok(());
+    }
+
+    for item in fs::read_dir(output_dir)
+        .with_context(|| format!("failed to read {}", output_dir.display()))?
+    {
+        let path = item
+            .with_context(|| format!("failed to inspect {}", output_dir.display()))?
+            .path();
+        if path.extension().is_some_and(|extension| extension == "md") {
+            fs::remove_file(&path)
+                .with_context(|| format!("failed to remove {}", path.display()))?;
+        }
+    }
+    Ok(())
+}
+
+fn index_markdown(
+    letter_counts: &BTreeMap<String, usize>,
+    records: usize,
+    headwords: usize,
+) -> String {
+    let mut output = String::new();
+    let _ = writeln!(output, "# Ethra Dictionary Index");
+    let _ = writeln!(output);
+    let _ = writeln!(
+        output,
+        "This is a generated reading dictionary built from Ethra's canonical YAML spec."
+    );
+    let _ = writeln!(output);
+    let _ = writeln!(output, "- **Headwords:** {}", headwords);
+    let _ = writeln!(output, "- **Dictionary records:** {}", records);
+    let _ = writeln!(output);
+    let _ = writeln!(output, "## Browse by Letter");
+    let _ = writeln!(output);
+    for (letter, count) in letter_counts {
+        let filename = if letter == "symbols" {
+            "symbols.md".to_string()
+        } else {
+            format!("{}.md", letter)
+        };
+        let label = if letter == "symbols" {
+            "Symbols".to_string()
+        } else {
+            letter.to_uppercase()
+        };
+        let _ = writeln!(output, "- [{}]({}) - {} headwords", label, filename, count);
+    }
+    output
+}
+
+fn readme_markdown(records: usize, headwords: usize) -> String {
+    format!(
+        "# Ethra Dictionary\n\n\
+This folder is generated from the canonical Ethra language data in `spec/`.\n\n\
+- **Headwords:** {headwords}\n\
+- **Dictionary records:** {records}\n\n\
+Start with [the index](index.md), then browse by starting letter.\n\n\
+Each headword gives pronunciation, part of speech, English definition, register, root-family context, literal morphology, examples, and corpus evidence where available.\n\n\
+Regenerate this folder from the repo root with:\n\n\
+```bash\n\
+cargo run --quiet -- export-dictionary --output dictionary\n\
+```\n"
+    )
+}
+
+pub fn export_dictionary_markdown(output_dir: impl AsRef<Path>) -> Result<DictionaryExportReport> {
+    let output_dir = output_dir.as_ref();
+    let entries = build_dictionary()?;
+    let records = entries.len();
+    let source_counts = count_sources(&entries);
+
+    let mut headwords: BTreeMap<String, Vec<DictionaryEntry>> = BTreeMap::new();
+    for entry in entries {
+        headwords.entry(entry.word.clone()).or_default().push(entry);
+    }
+    for senses in headwords.values_mut() {
+        senses.sort_by(|a, b| {
+            source_rank(&a.source)
+                .cmp(&source_rank(&b.source))
+                .then_with(|| a.part_of_speech.cmp(&b.part_of_speech))
+                .then_with(|| a.id.cmp(&b.id))
+        });
+    }
+
+    fs::create_dir_all(output_dir)
+        .with_context(|| format!("failed to create {}", output_dir.display()))?;
+    remove_existing_markdown(output_dir)?;
+
+    let mut pages: BTreeMap<String, String> = BTreeMap::new();
+    let mut letter_counts: BTreeMap<String, usize> = BTreeMap::new();
+    for (word, senses) in &headwords {
+        let page_key = dictionary_page_key(word);
+        let page = pages.entry(page_key.clone()).or_insert_with(|| {
+            let title = if page_key == "symbols" {
+                "Symbols".to_string()
+            } else {
+                page_key.to_uppercase()
+            };
+            format!("# {}\n\n[Back to index](index.md)\n\n", title)
+        });
+        append_headword_markdown(page, word, senses);
+        *letter_counts.entry(page_key).or_default() += 1;
+    }
+
+    for (page_key, page) in &pages {
+        let filename = if page_key == "symbols" {
+            "symbols.md".to_string()
+        } else {
+            format!("{}.md", page_key)
+        };
+        write_generated_file(&output_dir.join(filename), page)?;
+    }
+    write_generated_file(
+        &output_dir.join("index.md"),
+        &index_markdown(&letter_counts, records, headwords.len()),
+    )?;
+    write_generated_file(
+        &output_dir.join("README.md"),
+        &readme_markdown(records, headwords.len()),
+    )?;
+
+    let mut generated_files = pages.len();
+    generated_files += 2;
+
+    Ok(DictionaryExportReport {
+        purpose: "Export Ethra's dictionary as human-readable Markdown headword files.".to_string(),
+        output_dir: output_dir.display().to_string(),
+        dictionary_records: records,
+        headwords: headwords.len(),
+        generated_files,
+        letter_counts,
+        source_counts,
     })
 }
 

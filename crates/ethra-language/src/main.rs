@@ -8,7 +8,9 @@ use ethra_language::civilization::{
 };
 use ethra_language::compound::create_compound;
 use ethra_language::derivation::{derive_word, generate_root};
-use ethra_language::dictionary::{DictionaryLookupOptions, dictionary_stats, lookup_dictionary};
+use ethra_language::dictionary::{
+    DictionaryLookupOptions, dictionary_stats, export_dictionary_markdown, lookup_dictionary,
+};
 use ethra_language::examples::find_example;
 use ethra_language::phonology::syllabify_word;
 use ethra_language::proposal::{TermProposalOptions, propose_term};
@@ -118,6 +120,14 @@ enum Commands {
     DictionaryStats {
         #[arg(short, long, default_value_t = 12)]
         limit: usize,
+    },
+    #[command(
+        name = "export-dictionary",
+        about = "Export the accepted Ethra dictionary as human-readable Markdown files"
+    )]
+    ExportDictionary {
+        #[arg(short, long, default_value = "dictionary")]
+        output: String,
     },
     #[command(
         name = "create-compound",
@@ -322,6 +332,7 @@ fn main() -> Result<()> {
             exact,
         })?)?,
         Commands::DictionaryStats { limit } => print_json(&dictionary_stats(limit)?)?,
+        Commands::ExportDictionary { output } => print_json(&export_dictionary_markdown(output)?)?,
         Commands::CreateCompound { words, gloss } => {
             let words = words.split(',').map(ToOwned::to_owned).collect::<Vec<_>>();
             print_json(&create_compound(&words, gloss.as_deref())?)?;
