@@ -47,6 +47,18 @@ so-fer
 
 Inside a hyphen segment, Ethra avoids consonant clusters. This keeps words pronounceable and makes root patterns audible.
 
+The Rust CLI can inspect syllable structure:
+
+```bash
+cargo run --quiet -- syllabify-word poronox
+```
+
+Example output syllables:
+
+```text
+po-ro-nox
+```
+
 ## Stress
 
 Stress the first syllable of the main lexical word:

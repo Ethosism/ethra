@@ -2,14 +2,14 @@
 
 Vocabulary becomes real only through use. Ethra's corpus program turns coined words into lived language by placing them in dialogue, law, ritual, software, literature, and learning material.
 
-The machine-readable corpus plan is in `spec/corpus-plan.yaml`. Reviewed seed corpus items are in `spec/corpus.yaml`.
+The machine-readable corpus plan is in `spec/corpus-plan.yaml`. Reviewed corpus items are in `spec/corpus.yaml`.
 
-Current seed corpus progress:
+Current v1.0 corpus progress:
 
 ```text
-items 5,360 / 10,000 for v1.0
+items 10,000 / 10,000 for v1.0
 tracks  6 / 6 represented
-balance daily 1072, civic 804, ritual 804, technical 1072, poetic 1072, learner 536
+balance daily 2000, civic 1500, ritual 1500, technical 2000, poetic 2000, learner 1000
 ```
 
 ## Corpus Tracks
@@ -52,16 +52,16 @@ A large dictionary without corpus becomes ornamental. Corpus reveals whether a w
 
 ## Next Batch Planning
 
-The `corpus-next` command recommends the next reviewed batch toward the active roadmap milestone. It uses the active roadmap target, the track weights in `spec/corpus-plan.yaml`, current item IDs, and current domain counts to avoid overfilling easy tracks while science, emotion, philosophy, economics, travel/place, ecology, AI, and health remain thin.
+The `corpus-next` command recommends the next reviewed batch toward the active roadmap milestone. After v1.0, it points at the civilizational-scale target while preserving the track weights in `spec/corpus-plan.yaml`, current item IDs, and current domain counts.
 
-For the current v0.10.11 state, the next 120-item batch points toward v1.0: 24 daily, 18 civic, 18 ritual, 24 technical, 24 poetic, and 12 learner items, starting at `daily-1073`, `civic-805`, `ritual-805`, `tech-1073`, `poetic-1073`, and `learner-537`.
+The v1.0 closeout filled the exact track targets: `daily-2000`, `civic-1500`, `ritual-1500`, `tech-2000`, `poetic-2000`, and `learner-1000`.
 
 ## CLI
 
 ```bash
-npm run ethra -- corpus-plan
-npm run ethra -- corpus-next 120
-npm run ethra -- list-corpus --track daily-dialogues
-npm run ethra -- search-corpus --query "future duty" --domain philosophy-metaphysics --limit 10
-npm run ethra -- validate-corpus
+cargo run --quiet -- corpus-plan
+cargo run --quiet -- corpus-next --size 120
+cargo run --quiet -- list-corpus --track daily-dialogues
+cargo run --quiet -- search-corpus --query "future duty" --domain philosophy-metaphysics --limit 10
+cargo run --quiet -- validate-corpus
 ```

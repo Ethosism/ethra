@@ -1,5 +1,5 @@
-version: "0.5.6"
-purpose: "Machine-readable syntax guidance for the first Ethra sentence parser."
+version: "1.0.0"
+purpose: "Machine-readable syntax guidance for the v1 Ethra sentence parser."
 principle: "Ethra syntax should keep agency visible: stable analytic order, clear particle chains, explicit register markers, relational address when needed, and scope markers for consequence."
 clause_patterns:
   canonical_svo:
@@ -24,9 +24,10 @@ particle_chain:
   scope_types: ["scope"]
   complement_prepositions: ["bi", "ko", "ad", "en"]
 parser_limits:
-  - "The v0.5.6 parser identifies a primary clause, not full recursion."
-  - "Possessive subjects of the form X en Y are grouped."
-  - "Relative objects with mo are treated as object phrases."
+  - "The v1 parser identifies a primary clause and reports inspectable spans for noun phrases, coordination, and relative/subordinate objects."
+  - "Possessive noun phrases of the form X en Y are grouped."
+  - "Relative objects with mo are reported as subordinate clause spans."
+  - "Coordination and companionship with ko are reported as coordination spans."
   - "Transparent compounds are recognized when every segment is accepted."
   - "Style judgment remains in style-check; parse-sentence reports structure."
 cultural_notes:

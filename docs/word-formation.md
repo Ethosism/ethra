@@ -34,9 +34,9 @@ The full machine-readable catalog is in `spec/derivation-patterns.yaml`. The new
 Useful commands:
 
 ```bash
-npm run ethra -- list-patterns
-npm run ethra -- derive-word --root RAH --pattern instrument
-npm run ethra -- derive-word --root DAV --pattern right
+cargo run --quiet -- list-patterns
+cargo run --quiet -- derive-word --root RAH --pattern instrument
+cargo run --quiet -- derive-word --root DAV --pattern right
 ```
 
 ## Analytic Particles
@@ -71,10 +71,10 @@ Curated compound terminology is stored in `spec/compounds.yaml`. These entries a
 Useful commands:
 
 ```bash
-npm run ethra -- compound-summary
-npm run ethra -- propose-term --field "honor-bound duty" --kind compound --components hener,dev --domain philosophy-metaphysics --register civic
-npm run ethra -- list-compounds --domain law-governance
-npm run ethra -- validate-compounds
+cargo run --quiet -- compound-summary
+cargo run --quiet -- propose-term --field "honor-bound duty" --kind compound --components hener,dev --domain philosophy-metaphysics --register civic
+cargo run --quiet -- list-compounds --domain law-governance
+cargo run --quiet -- validate-compounds
 ```
 
 For new terminology, prefer `propose-term` before editing the accepted specs directly. A proposal packet keeps morphology, collision checks, domain/register intent, and governance requirements visible during review.

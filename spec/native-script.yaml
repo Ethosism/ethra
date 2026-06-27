@@ -1,0 +1,54 @@
+version: "1.0-prototype"
+purpose: "Prototype design brief for a future native Ethra script."
+status: "prototype"
+principle: "The native script must preserve Ethra's root visibility, moral clarity, and easy romanization round-trip before it becomes normative."
+design_constraints:
+  - "Every romanized phoneme has one stable native sign."
+  - "Hyphen boundaries remain visible because compounds and register forms carry grammar."
+  - "Root consonants should stay visually recoverable inside derived words."
+  - "Learner materials may use romanization and native script side by side."
+glyph_model:
+  direction: "left-to-right"
+  spacing: "word-separated"
+  vowel_strategy: "full letters, not optional marks"
+  consonant_strategy: "full letters with soft/hard visual families"
+  boundary_mark: "light midline connector for compounds and prefixes"
+prototype_inventory:
+  vowels:
+    - { roman: "a", glyph_id: "vowel-open", design_note: "open low bowl" }
+    - { roman: "e", glyph_id: "vowel-front", design_note: "front-facing notch" }
+    - { roman: "i", glyph_id: "vowel-high", design_note: "single high stroke" }
+    - { roman: "o", glyph_id: "vowel-round", design_note: "rounded enclosure" }
+    - { roman: "u", glyph_id: "vowel-deep", design_note: "low curved cup" }
+  consonants:
+    - { roman: "b", glyph_id: "hard-voiced-lip", family: "hard" }
+    - { roman: "d", glyph_id: "hard-voiced-front", family: "hard" }
+    - { roman: "f", glyph_id: "soft-breath-lip", family: "soft" }
+    - { roman: "g", glyph_id: "hard-voiced-back", family: "hard" }
+    - { roman: "h", glyph_id: "soft-breath-open", family: "soft" }
+    - { roman: "j", glyph_id: "hard-affricate-front", family: "hard" }
+    - { roman: "k", glyph_id: "hard-back-stop", family: "hard" }
+    - { roman: "l", glyph_id: "soft-liquid-line", family: "soft" }
+    - { roman: "m", glyph_id: "soft-nasal-lip", family: "soft" }
+    - { roman: "n", glyph_id: "soft-nasal-front", family: "soft" }
+    - { roman: "p", glyph_id: "hard-lip-stop", family: "hard" }
+    - { roman: "r", glyph_id: "soft-tap", family: "soft" }
+    - { roman: "s", glyph_id: "hard-sibilant", family: "hard" }
+    - { roman: "t", glyph_id: "hard-front-stop", family: "hard" }
+    - { roman: "v", glyph_id: "soft-voiced-lip", family: "soft" }
+    - { roman: "w", glyph_id: "soft-glide-round", family: "soft" }
+    - { roman: "x", glyph_id: "hard-fricative-back", family: "hard" }
+    - { roman: "y", glyph_id: "soft-glide-front", family: "soft" }
+    - { roman: "z", glyph_id: "hard-voiced-sibilant", family: "hard" }
+    - { roman: "c", glyph_id: "soft-sibilant-wide", family: "soft" }
+sample_round_trips:
+  - { roman: "rah", role: "root word", script_analysis: "r + a + h" }
+  - { roman: "mi-rah", role: "intimate prefixed form", script_analysis: "mi + boundary + rah" }
+  - { roman: "fer-dev", role: "compound", script_analysis: "future root + boundary + duty root" }
+  - { roman: "so-lem", role: "scope marker", script_analysis: "scope prefix + boundary + people" }
+release_gate:
+  required_before_normative_use:
+    - "font or vector glyph sheet"
+    - "romanization round-trip tests"
+    - "learner readability review"
+    - "governance acceptance vote"

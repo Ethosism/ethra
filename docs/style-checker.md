@@ -1,13 +1,13 @@
 # Style Checker
 
-The v0.5.5 style checker is the first sentence-level guardrail for Ethra prose. It is not a full parser yet. Its job is to catch weak or invalid forms before they enter docs, corpus, examples, or proposed terminology.
+The v1 style checker is the sentence-level guardrail for Ethra prose. Its job is to catch weak or invalid forms before they enter docs, corpus, examples, or proposed terminology.
 
 The machine-readable rules live in `spec/style.yaml`.
 
 ## Command
 
 ```bash
-npm run ethra -- style-check --text "Pu na vel dev se so-lem." --register civic --require-moral-agency --require-scope
+cargo run --quiet -- style-check --text "Pu na vel dev se so-lem." --register civic --require-moral-agency --require-scope
 ```
 
 The report includes:
@@ -40,8 +40,12 @@ The checker currently warns or notices when:
 ```text
 ritual     ha, ha-, so-zur, hu
 civic      pu, -da, te, tum, so-lem, so-rah
+legal      pu, -da, -ret, -ket, te, so-rah
 intimate   mi, mi-, ti
 technical  -tel, -ket, -ga, -gec, -dak
+software   -tel, -ket, -ga, dab, med, xap
+poetic     mi, ha, bi, mar, lem, so-rah
+prayer     ha, ha-, hu, dov, so-zur
 ```
 
 These are style expectations, not hard grammar. A sentence can be valid while still receiving notices that a stronger register marker is available.

@@ -12,12 +12,24 @@ register_expectations:
   civic:
     markers: ["pu", "-da", "te", "tum", "so-lem", "so-rah"]
     rationale: "Civic language should show public address, public office, people-scale scope, or truth-facing accountability."
+  legal:
+    markers: ["pu", "-da", "-ret", "-ket", "te", "so-rah"]
+    rationale: "Legal language should preserve public authority, rights, records, and truth-facing accountability."
   intimate:
     markers: ["mi", "mi-", "ti"]
     rationale: "Intimate language should mark beloved address, vulnerability, or inward recognition."
   technical:
     markers: ["-tel", "-ket", "-ga", "-gec", "-dak"]
     rationale: "Technical language should prefer visible tools, records, processes, categories, or disciplines."
+  software:
+    markers: ["-tel", "-ket", "-ga", "dab", "med", "xap"]
+    rationale: "Software language should make tools, records, data, models, processes, and security visible."
+  poetic:
+    markers: ["mi", "ha", "bi", "mar", "lem", "so-rah"]
+    rationale: "Poetic language should preserve cadence, image, memory, and recognition without hiding agency."
+  prayer:
+    markers: ["ha", "ha-", "hu", "dov", "so-zur"]
+    rationale: "Prayer language should mark solemn address, vow, sacred witness, or ultimate scope."
 moral_scope:
   agency_particles: ["kan", "lun", "wen", "vel", "cel", "dom", "dov", "ten", "mor", "tor", "ren"]
   binding_particles: ["dom", "dov", "ten", "mor", "tor", "ren"]

@@ -1,14 +1,14 @@
 # Vocabulary Scale
 
-Ethra currently has 48,057 explicit lexicon entries, 48,212 dictionary entries, 2,400 root families, and 5,360 reviewed corpus items after the v0.10.11 reason, media, and place corpus grounding batch. The v0.5 entry, root, and corpus gates are met; the v1.0 entry-count gate is now met, while root-family depth and corpus evidence remain active v1.0 gaps.
+Ethra currently has 50,057 explicit lexicon entries, 50,212 dictionary entries, 2,500 root families, and 10,000 reviewed corpus items at v1.0.0. The v1.0 entry, root, and corpus gates are met.
 
 Current progress toward the v1.0 stable-civil-language target:
 
 ```text
-entries 48,057 / 25,000
-dictionary 48,212 entries with corpus evidence fields
-roots     2,400 / 2,500
-corpus    5,360 / 10,000 reviewed items
+entries 50,057 / 25,000
+dictionary 50,212 entries with corpus evidence fields
+roots     2,500 / 2,500
+corpus   10,000 / 10,000 reviewed items
 patterns   20 productive derivation patterns
 compounds 100 curated terms
 ```
@@ -205,7 +205,7 @@ The v0.10.10 reason, media, and place root batch adds 50 roots and 1,000 derived
 
 The v0.10.11 reason, media, and place corpus grounding batch adds 120 reviewed examples across all six tracks: 24 daily dialogue, 18 civic/legal, 18 ritual/vow, 24 technical/software, 24 literary/poetic, and 12 learner-graded items. It grounds transcendence, immanence, finitude, infinity, spirit, concord, duality, unity, axioms, theorems, medians, averages, modes, standard deviations, percentiles, z-scores, null hypotheses, replication, citations, footnotes, glosses, interviews, editorials, comments, addresses, intersections, sidewalks, plazas, campuses, border crossings, checkpoints, signage, apartments, hallways, vouchers, warranties, donations, grants, scholarships, liturgy, sermons, fasting, anointing, consecration, initiation, and confession in ordinary, civic, ritual, technical, poetic, and learner use.
 
-The next numeric gaps are v1.0 gaps: the explicit-entry gate is met, with 100 more root families and 4,640 more reviewed corpus items still needed.
+The v1.0 closeout adds the final 4,640 reviewed corpus items and brings the corpus to 10,000 items: 2,000 daily-dialogue items, 1,500 civic/legal items, 1,500 ritual/vow items, 2,000 technical/software items, 2,000 literary/poetic items, and 1,000 learner-graded items. The explicit-entry, root-family, and corpus gates are now met.
 
 The goal is not to match English, German, or Chinese by copying their dictionaries word for word. The goal is expressive coverage: Ethra should be able to carry daily life, law, software, science, philosophy, love, prayer, poetry, education, and public institutions without falling back to English.
 

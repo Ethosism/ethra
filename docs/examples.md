@@ -69,5 +69,5 @@ Canonical examples are stored in `spec/examples.yaml` with literal translation, 
 Use the CLI for full notes:
 
 ```bash
-npm run ethra -- translate-example 8
+cargo run --quiet -- translate-example 8
 ```

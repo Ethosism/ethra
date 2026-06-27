@@ -7,9 +7,9 @@ The machine-readable schema lives in `spec/dictionary-schema.yaml`.
 ## Commands
 
 ```bash
-npm run ethra -- lookup-dictionary hener --exact
-npm run ethra -- lookup-dictionary "future-binding duty" --limit 10
-npm run ethra -- dictionary-stats --limit 5
+cargo run --quiet -- lookup-dictionary hener --exact
+cargo run --quiet -- lookup-dictionary "future-binding duty" --limit 10
+cargo run --quiet -- dictionary-stats --limit 5
 ```
 
 Each dictionary entry includes:

@@ -1,13 +1,13 @@
 # Parser
 
-The v0.5.6 parser is a conservative first pass for Ethra sentences. It identifies one primary clause and reports structure in a machine-readable shape. It is not yet a full recursive grammar parser.
+The v1.0 parser identifies one primary clause and reports inspectable structure in a machine-readable shape. It keeps the analytic parser conservative while exposing noun phrases, coordination spans, and subordinate or relative object spans for corpus review.
 
 The machine-readable syntax guidance lives in `spec/syntax.yaml`.
 
 ## Command
 
 ```bash
-npm run ethra -- parse-sentence --text "Na dov tar mo mik."
+cargo run --quiet -- parse-sentence --text "Na dov tar mo mik."
 ```
 
 The report includes:
@@ -21,6 +21,9 @@ The report includes:
 - particle chain
 - predicate
 - object
+- noun phrases
+- coordination spans with `ko`
+- subordinate or relative spans with `mo`
 - complements
 - scope markers
 - parser confidence
@@ -39,6 +42,6 @@ fragment       any incomplete or currently unparsed structure
 
 The parser protects Ethra's analytic clarity. It should make the visible structure of agency, duty, register, and scope easier to inspect in corpus review, examples, teaching material, and future software.
 
-The parser currently groups possessive subjects of the form `X en Y`, recognizes sentence-initial `ya` questions and `ke` imperatives, reads pre-predicate particles, identifies the copula `e`, and separates scope particles such as `so-lem` and `so-rah`.
+The parser groups possessive noun phrases of the form `X en Y`, demonstrative noun phrases of the form `X se`, sentence-initial `ya` questions, `ke` imperatives, pre-predicate particles, copular complements with `e`, scope particles such as `so-lem` and `so-rah`, coordination or companionship spans with `ko`, and relative object spans beginning with `mo`.
 
-Future versions should add full noun-phrase parsing, nested relative clauses, multi-clause coordination, corpus batch parsing, and style-check integration.
+For batch review, use `validate-corpus` to verify every corpus item uses accepted tokens, valid tracks, valid domains, and inspectable literal translations.

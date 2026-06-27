@@ -1,10 +1,10 @@
 # Ethra Language
 
-Ethra is a v0.10.11 constructed civilizational language. It is not meant to be an Esperanto clone, a naming toy, or an aesthetic exercise. Its design goal is to make certain cultural habits native to ordinary speech: truth, duty, beauty, memory, agency, consequence, inheritance, repair, love as recognition, speech as binding, and the future as a moral claimant.
+Ethra is a v1.0.0 constructed civilizational language. It is not meant to be an Esperanto clone, a naming toy, or an aesthetic exercise. Its design goal is to make certain cultural habits native to ordinary speech: truth, duty, beauty, memory, agency, consequence, inheritance, repair, love as recognition, speech as binding, and the future as a moral claimant.
 
 The working name is kept as **Ethra** because it is short, pronounceable, and internally useful: `eth` evokes ethos and `ra` evokes seeing. The name therefore sounds like "ethos made visible."
 
-Status: v0.10.11 has passed the public-culture gate and continued the v1.0 expansion program: generated YAML data, productive derivation patterns, 2,400 root families, 48,057 lexicon entries, 48,212 dictionary entries, 5,360 reviewed corpus items, TypeScript CLI, compound terminology, sentence parsing, corpus search, dictionary lookup, governed style checking, governed term proposal packets, corpus/governance planning, and tests.
+Status: v1.0.0 has passed the stable civil-language gate: canonical YAML data, productive derivation patterns, 2,500 root families, 50,057 lexicon entries, 50,212 dictionary entries, 10,000 reviewed corpus items, Rust CLI/library tooling, compound terminology, sentence parsing, syllabification, corpus search, dictionary lookup, governed style checking, governed term proposal packets, corpus/governance planning, native-script prototype, learner grammar, and tests.
 
 Repository: <https://github.com/Ethosism/ethra>
 
@@ -30,12 +30,12 @@ Ethra treats language as training. What is easy to say becomes easy to notice. W
 - **Tense/aspect:** particles such as `pa`, `nu`, `fu`, `ka`, `ga`, `va`.
 - **Moral grammar:** particles distinguish can, may, want, choose, should, owe, vow, inherited duty, chosen duty, entrusted duty, repair, and scope of action.
 - **Relational grammar:** pronouns distinguish beloved, equal, elder/teacher, child/student, citizen, opponent, sacred addressee, and collective people.
-- **Roots:** 2,400 root families with 20 productive derivation patterns per root.
+- **Roots:** 2,500 root families with 20 productive derivation patterns per root.
 - **Derivation:** action, concept, quality, agent, object, ritual, civic, intimate, process, instrument, place, doctrine, collective, lack, category, discipline, office, record, right, and vow forms.
-- **Lexicon:** generated core lexicon with 48,057 explicit entries across pronouns, particles, moral agency, family, body, mind, emotion, seeing/knowing, speech, time, nature, building/making, law/civic life, technology, ritual/poetry, love/intimacy, conflict/repair, and future/civilization.
+- **Lexicon:** canonical core lexicon with 50,057 explicit entries across pronouns, particles, moral agency, family, body, mind, emotion, seeing/knowing, speech, time, nature, building/making, law/civic life, technology, ritual/poetry, love/intimacy, conflict/repair, and future/civilization.
 - **Compounds:** 100 curated compound terms for German-style conceptual architecture.
-- **Machine-readable spec:** YAML files in `spec/` for phonology, derivation patterns, roots, particles, pronouns, grammar, syntax, dictionary schema, lexicon, compounds, corpus, roadmap, domains, governance, style, and examples.
-- **Corpus:** 5,360 reviewed seed corpus items across daily dialogue, civic/legal, ritual/vow, technical/software, literary/poetic, and learner tracks.
+- **Machine-readable spec:** YAML files in `spec/` for phonology, derivation patterns, roots, particles, pronouns, grammar, syntax, native script, dictionary schema, lexicon, compounds, corpus, roadmap, domains, governance, style, and examples.
+- **Corpus:** 10,000 reviewed corpus items across daily dialogue, civic/legal, ritual/vow, technical/software, literary/poetic, and learner tracks.
 - **Expansion program:** roadmap, domain ontology, corpus plan, and governance model for growing toward civilizational-scale expressive coverage.
 - **Tooling:** CLI commands for root generation, word derivation, word analysis, sentence parsing, dictionary lookup/statistics, style checking, example lookup, root/particle/pattern listing, lexicon listing, compound creation, governed root/compound proposal packets, roadmap inspection, domain coverage, corpus planning/next-batch recommendation/listing/search, governance review, and spec/corpus validation.
 
@@ -64,54 +64,54 @@ The people survive by remembering.
 ## Install
 
 ```bash
-npm install
-npm run build:spec
-npm run build
+cargo build
 ```
 
 Run tests:
 
 ```bash
-npm test
+cargo test
 ```
 
 Use the CLI from source:
 
 ```bash
-npm run ethra -- generate-root --field "sacred attention"
-npm run ethra -- list-roots
-npm run ethra -- list-particles
-npm run ethra -- list-patterns
-npm run ethra -- list-lexicon --category "Moral agency"
-npm run ethra -- derive-word --root RAH --pattern intimate-imperative
-npm run ethra -- derive-word --root RAH --pattern instrument
-npm run ethra -- analyze-word mi-rah
-npm run ethra -- parse-sentence --text "Na dov tar mo mik."
-npm run ethra -- style-check --text "Pu na vel dev se so-lem." --register civic --require-moral-agency --require-scope
-npm run ethra -- lookup-dictionary hener --exact
-npm run ethra -- dictionary-stats --limit 5
-npm run ethra -- translate-example 8
-npm run ethra -- create-compound --words fer,dev --gloss "future-binding duty"
-npm run ethra -- propose-term --field "honor-bound duty" --kind compound --components hener,dev --domain philosophy-metaphysics --register civic --example "Hener-dev xap lem."
-npm run ethra -- compound-summary
-npm run ethra -- list-compounds --domain technology-software
-npm run ethra -- roadmap --summary
-npm run ethra -- list-domains --priority highest
-npm run ethra -- coverage-report
-npm run ethra -- corpus-plan
-npm run ethra -- corpus-next 120
-npm run ethra -- list-corpus --track technical-software
-npm run ethra -- search-corpus --query "data model" --track technical-software --limit 5
-npm run ethra -- governance
-npm run ethra -- validate-spec
-npm run ethra -- validate-corpus
-npm run ethra -- validate-compounds
+cargo run --quiet -- generate-root --field "sacred attention"
+cargo run --quiet -- list-roots
+cargo run --quiet -- list-particles
+cargo run --quiet -- list-patterns
+cargo run --quiet -- list-lexicon --category "Moral agency"
+cargo run --quiet -- native-script
+cargo run --quiet -- derive-word --root RAH --pattern intimate-imperative
+cargo run --quiet -- derive-word --root RAH --pattern instrument
+cargo run --quiet -- analyze-word mi-rah
+cargo run --quiet -- syllabify-word poronox
+cargo run --quiet -- parse-sentence --text "Na dov tar mo mik."
+cargo run --quiet -- style-check --text "Pu na vel dev se so-lem." --register civic --require-moral-agency --require-scope
+cargo run --quiet -- lookup-dictionary hener --exact
+cargo run --quiet -- dictionary-stats --limit 5
+cargo run --quiet -- translate-example 8
+cargo run --quiet -- create-compound --words fer,dev --gloss "future-binding duty"
+cargo run --quiet -- propose-term --field "honor-bound duty" --kind compound --components hener,dev --domain philosophy-metaphysics --register civic --example "Hener-dev xap lem."
+cargo run --quiet -- compound-summary
+cargo run --quiet -- list-compounds --domain technology-software
+cargo run --quiet -- roadmap --summary
+cargo run --quiet -- list-domains --priority highest
+cargo run --quiet -- coverage-report
+cargo run --quiet -- corpus-plan
+cargo run --quiet -- corpus-next --size 120
+cargo run --quiet -- list-corpus --track technical-software
+cargo run --quiet -- search-corpus --query "data model" --track technical-software --limit 5
+cargo run --quiet -- governance
+cargo run --quiet -- validate-spec
+cargo run --quiet -- validate-corpus
+cargo run --quiet -- validate-compounds
 ```
 
 After building, you can also run:
 
 ```bash
-node dist/cli/index.js derive-word --root RAH --pattern civic-legal
+target/debug/ethra derive-word --root RAH --pattern civic-legal
 ```
 
 ## Repository Structure
@@ -130,6 +130,8 @@ ethra-language/
     dictionary.md
     parser.md
     style-checker.md
+    native-script.md
+    learner-grammar.md
     examples.md
     vocabulary-scale.md
     governance.md
@@ -149,6 +151,7 @@ ethra-language/
     pronouns.yaml
     grammar.yaml
     syntax.yaml
+    native-script.yaml
     dictionary-schema.yaml
     lexicon.yaml
     compounds.yaml
@@ -160,33 +163,44 @@ ethra-language/
     governance.yaml
     style.yaml
   src/
-    cli/
-    core/
-    generators/
-    analyzers/
+    main.rs
+    lib.rs
+    analyze.rs
+    civilization.rs
+    compound.rs
+    derivation.rs
+    dictionary.rs
+    examples.rs
+    phonology.rs
+    proposal.rs
+    sentence.rs
+    spec.rs
+    style.rs
+    types.rs
+    validation.rs
   tests/
-  package.json
+    ethra_rust.rs
+  Cargo.toml
+  Cargo.lock
 ```
 
 ## How To Extend Ethra
 
-1. Add or edit root data in `scripts/build-spec.mjs`.
-2. Run `npm run build:spec` to regenerate `spec/*.yaml`.
-3. Add CLI or analyzer behavior in `src/`.
+1. Add or edit canonical data in `spec/*.yaml`.
+2. Run `cargo run -- validate-spec`, `cargo run -- validate-corpus`, and `cargo run -- validate-compounds`.
+3. Add CLI, analyzer, or validation behavior in `src/*.rs`.
 4. Add focused tests in `tests/`.
 5. Keep new grammar justified by cultural function. Decorative complexity is rejected.
 
-The generated YAML is committed intentionally. It is the stable interface for future parsers, web apps, corpus tools, and teaching material.
+The YAML spec is committed intentionally. It is the stable interface for future parsers, web apps, corpus tools, and teaching material.
 
-## v1.0 Next Targets
+## v1.0 Release State
 
-- Native script prototype.
-- Deeper parser coverage for full noun phrases, coordination, nested clauses, and corpus batch review.
-- Better phonotactic syllabification.
-- Keep the 25,000-entry gate met while adding corpus evidence.
-- Expand from 2,400 to 2,500 root families.
-- Expand from 5,360 to 10,000 reviewed corpus items.
-- Use `corpus-next` to keep v1.0 corpus batches proportional to track targets and under-covered domains.
-- Expanded law, software, poetry, and prayer registers.
-- Corpus-based consistency checks for all example sentences.
-- A learner grammar with exercises and graded readings.
+- Native script prototype is specified in `spec/native-script.yaml`.
+- Parser reports noun phrases, `ko` coordination spans, and `mo` subordinate/relative spans.
+- `syllabify-word` exposes phonotactic syllable analysis.
+- The entry gate, root gate, and 10,000-item corpus gate are met.
+- `corpus-next` remains available for post-v1 expansion planning.
+- Style checking includes law, software, poetry, and prayer register expectations.
+- `validate-spec` checks canonical example Ethra tokens against accepted forms.
+- Learner grammar and exercises are documented in `docs/learner-grammar.md`.
